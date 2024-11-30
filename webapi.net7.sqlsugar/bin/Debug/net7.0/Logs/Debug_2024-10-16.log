@@ -1,0 +1,208 @@
+2024-10-16 16:18:11.8435 | DEBUG | Registered model binder providers, in the following order: Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DateTimeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.TryParseModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinderProvider
+2024-10-16 16:18:12.1680 | DEBUG | Registered SignalR Protocol: json, implemented by Microsoft.AspNetCore.SignalR.Protocol.JsonHubProtocol.
+2024-10-16 16:18:12.1680 | DEBUG | Hosting starting
+2024-10-16 16:18:12.2225 | INFO | User profile is available. Using 'C:\Users\Administrator\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-10-16 16:18:12.2300 | DEBUG | Reading data from file 'C:\Users\Administrator\AppData\Local\ASP.NET\DataProtection-Keys\key-34692722-1836-4131-841e-52bc30c5cc34.xml'.
+2024-10-16 16:18:12.2300 | DEBUG | Reading data from file 'C:\Users\Administrator\AppData\Local\ASP.NET\DataProtection-Keys\key-5253006b-7847-4af6-b43a-32e1140a5d05.xml'.
+2024-10-16 16:18:12.2300 | DEBUG | Reading data from file 'C:\Users\Administrator\AppData\Local\ASP.NET\DataProtection-Keys\key-691d2c1e-819d-4ace-bf8c-4b95df9c96f1.xml'.
+2024-10-16 16:18:12.2300 | DEBUG | Reading data from file 'C:\Users\Administrator\AppData\Local\ASP.NET\DataProtection-Keys\key-9c621d14-e4f3-453a-a88c-5b12868c45f6.xml'.
+2024-10-16 16:18:12.2300 | DEBUG | Found key {34692722-1836-4131-841e-52bc30c5cc34}.
+2024-10-16 16:18:12.2470 | DEBUG | Found key {5253006b-7847-4af6-b43a-32e1140a5d05}.
+2024-10-16 16:18:12.2470 | DEBUG | Found key {691d2c1e-819d-4ace-bf8c-4b95df9c96f1}.
+2024-10-16 16:18:12.2470 | DEBUG | Found key {9c621d14-e4f3-453a-a88c-5b12868c45f6}.
+2024-10-16 16:18:12.2470 | DEBUG | Considering key {5253006b-7847-4af6-b43a-32e1140a5d05} with expiration date 2024-10-17 08:31:37Z as default key.
+2024-10-16 16:18:12.2470 | DEBUG | Forwarded activator type request from Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Version=7.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60 to Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60
+2024-10-16 16:18:12.2470 | DEBUG | Decrypting secret element using Windows DPAPI.
+2024-10-16 16:18:12.2470 | DEBUG | Forwarded activator type request from Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Version=7.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60 to Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60
+2024-10-16 16:18:12.2470 | DEBUG | Opening CNG algorithm 'AES' from provider '(null)' with chaining mode CBC.
+2024-10-16 16:18:12.2470 | DEBUG | Opening CNG algorithm 'SHA256' from provider '(null)' with HMAC.
+2024-10-16 16:18:12.2470 | DEBUG | Default key expiration imminent and repository contains no viable successor. Caller should generate a successor.
+2024-10-16 16:18:12.2470 | DEBUG | Policy resolution states that a new key should be added to the key ring.
+2024-10-16 16:18:12.2470 | INFO | Creating key {a1a08447-4188-4fd2-8003-834ef2737839} with creation date 2024-10-16 08:18:12Z, activation date 2024-10-17 08:31:37Z, and expiration date 2025-01-14 08:18:12Z.
+2024-10-16 16:18:12.2654 | DEBUG | Descriptor deserializer type for key {a1a08447-4188-4fd2-8003-834ef2737839} is 'Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Version=7.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60'.
+2024-10-16 16:18:12.2654 | DEBUG | No key escrow sink found. Not writing key {a1a08447-4188-4fd2-8003-834ef2737839} to escrow.
+2024-10-16 16:18:12.2654 | DEBUG | Encrypting to Windows DPAPI for current user account (DESKTOP-5SSOPLI\Administrator).
+2024-10-16 16:18:12.2654 | INFO | Writing data to file 'C:\Users\Administrator\AppData\Local\ASP.NET\DataProtection-Keys\key-a1a08447-4188-4fd2-8003-834ef2737839.xml'.
+2024-10-16 16:18:12.2654 | DEBUG | Key cache expiration token triggered by 'CreateNewKey' operation.
+2024-10-16 16:18:12.2654 | DEBUG | Reading data from file 'C:\Users\Administrator\AppData\Local\ASP.NET\DataProtection-Keys\key-34692722-1836-4131-841e-52bc30c5cc34.xml'.
+2024-10-16 16:18:12.2654 | DEBUG | Reading data from file 'C:\Users\Administrator\AppData\Local\ASP.NET\DataProtection-Keys\key-5253006b-7847-4af6-b43a-32e1140a5d05.xml'.
+2024-10-16 16:18:12.2654 | DEBUG | Reading data from file 'C:\Users\Administrator\AppData\Local\ASP.NET\DataProtection-Keys\key-691d2c1e-819d-4ace-bf8c-4b95df9c96f1.xml'.
+2024-10-16 16:18:12.2654 | DEBUG | Reading data from file 'C:\Users\Administrator\AppData\Local\ASP.NET\DataProtection-Keys\key-9c621d14-e4f3-453a-a88c-5b12868c45f6.xml'.
+2024-10-16 16:18:12.2654 | DEBUG | Reading data from file 'C:\Users\Administrator\AppData\Local\ASP.NET\DataProtection-Keys\key-a1a08447-4188-4fd2-8003-834ef2737839.xml'.
+2024-10-16 16:18:12.2766 | DEBUG | Found key {34692722-1836-4131-841e-52bc30c5cc34}.
+2024-10-16 16:18:12.2766 | DEBUG | Found key {5253006b-7847-4af6-b43a-32e1140a5d05}.
+2024-10-16 16:18:12.2766 | DEBUG | Found key {691d2c1e-819d-4ace-bf8c-4b95df9c96f1}.
+2024-10-16 16:18:12.2766 | DEBUG | Found key {9c621d14-e4f3-453a-a88c-5b12868c45f6}.
+2024-10-16 16:18:12.2766 | DEBUG | Found key {a1a08447-4188-4fd2-8003-834ef2737839}.
+2024-10-16 16:18:12.2766 | DEBUG | Considering key {5253006b-7847-4af6-b43a-32e1140a5d05} with expiration date 2024-10-17 08:31:37Z as default key.
+2024-10-16 16:18:12.2766 | DEBUG | Forwarded activator type request from Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Version=7.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60 to Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60
+2024-10-16 16:18:12.2766 | DEBUG | Decrypting secret element using Windows DPAPI.
+2024-10-16 16:18:12.2766 | DEBUG | Forwarded activator type request from Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Version=7.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60 to Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60
+2024-10-16 16:18:12.2766 | DEBUG | Opening CNG algorithm 'AES' from provider '(null)' with chaining mode CBC.
+2024-10-16 16:18:12.2766 | DEBUG | Opening CNG algorithm 'SHA256' from provider '(null)' with HMAC.
+2024-10-16 16:18:12.2766 | DEBUG | Using key {5253006b-7847-4af6-b43a-32e1140a5d05} as the default key.
+2024-10-16 16:18:12.2766 | DEBUG | Key ring with default key {5253006b-7847-4af6-b43a-32e1140a5d05} was loaded during application startup.
+2024-10-16 16:18:12.4301 | INFO | Now listening on: http://localhost:5149
+2024-10-16 16:18:12.4301 | DEBUG | Loaded hosting startup assembly webapi.net7.sqlsugar
+2024-10-16 16:18:12.4301 | DEBUG | Loaded hosting startup assembly Microsoft.AspNetCore.Watch.BrowserRefresh
+2024-10-16 16:18:12.4301 | DEBUG | Loaded hosting startup assembly Microsoft.WebTools.BrowserLink.Net
+2024-10-16 16:18:12.4335 | INFO | Application started. Press Ctrl+C to shut down.
+2024-10-16 16:18:12.4335 | INFO | Hosting environment: Development
+2024-10-16 16:18:12.4335 | INFO | Content root path: D:\BaiduSyncdisk\webapi.net7+sqlsugar\webapi.net7.sqlsugar\webapi.net7.sqlsugar
+2024-10-16 16:18:12.4335 | DEBUG | Hosting started
+2024-10-16 16:18:12.8711 | DEBUG | Connection id "0HN7DNC9UP6VR" accepted.
+2024-10-16 16:18:12.8711 | DEBUG | Connection id "0HN7DNC9UP6VR" started.
+2024-10-16 16:18:12.8711 | DEBUG | Connection id "0HN7DNC9UP6VS" accepted.
+2024-10-16 16:18:12.8711 | DEBUG | Connection id "0HN7DNC9UP6VS" started.
+2024-10-16 16:18:12.8948 | DEBUG | Connection id "0HN7DNC9UP6VS" received FIN.
+2024-10-16 16:18:12.8948 | DEBUG | Connection id "0HN7DNC9UP6VR" received FIN.
+2024-10-16 16:18:12.8948 | DEBUG | Connection id "0HN7DNC9UP6VR" sending FIN because: "The Socket transport's send loop completed gracefully."
+2024-10-16 16:18:12.8948 | DEBUG | Connection id "0HN7DNC9UP6VS" sending FIN because: "The Socket transport's send loop completed gracefully."
+2024-10-16 16:18:12.8948 | DEBUG | Connection id "0HN7DNC9UP6VR" disconnecting.
+2024-10-16 16:18:12.8948 | DEBUG | Connection id "0HN7DNC9UP6VS" disconnecting.
+2024-10-16 16:18:12.9060 | DEBUG | Connection id "0HN7DNC9UP6VS" stopped.
+2024-10-16 16:18:12.9060 | DEBUG | Connection id "0HN7DNC9UP6VR" stopped.
+2024-10-16 16:18:13.4900 | DEBUG | Connection id "0HN7DNC9UP6VT" accepted.
+2024-10-16 16:18:13.4900 | DEBUG | Connection id "0HN7DNC9UP6VT" started.
+2024-10-16 16:18:13.4900 | DEBUG | Connection id "0HN7DNC9UP6VU" accepted.
+2024-10-16 16:18:13.4953 | DEBUG | Connection id "0HN7DNC9UP6VU" started.
+2024-10-16 16:18:13.5463 | INFO | Request starting HTTP/1.1 GET http://localhost:5149/swagger - -
+2024-10-16 16:18:13.9461 | DEBUG | Wildcard detected, all requests with hosts will be allowed.
+2024-10-16 16:18:14.0176 | DEBUG | Connection id "0HN7DNC9UP6VT" completed keep alive response.
+2024-10-16 16:18:14.0176 | INFO | Request finished HTTP/1.1 GET http://localhost:5149/swagger - - - 301 0 - 474.7475ms
+2024-10-16 16:18:14.0176 | INFO | Request starting HTTP/1.1 GET http://localhost:5149/swagger/index.html - -
+2024-10-16 16:18:14.1178 | DEBUG | Response markup is scheduled to include Browser Link script injection.
+2024-10-16 16:18:14.1178 | DEBUG | Response markup is scheduled to include browser refresh script injection.
+2024-10-16 16:18:14.1284 | DEBUG | Response markup was updated to include Browser Link script injection.
+2024-10-16 16:18:14.1284 | DEBUG | Response markup was updated to include browser refresh script injection.
+2024-10-16 16:18:14.1284 | DEBUG | Connection id "0HN7DNC9UP6VT" completed keep alive response.
+2024-10-16 16:18:14.1284 | INFO | Request finished HTTP/1.1 GET http://localhost:5149/swagger/index.html - - - 200 - text/html;charset=utf-8 106.1073ms
+2024-10-16 16:18:14.1284 | INFO | Request starting HTTP/1.1 GET http://localhost:5149/swagger/swagger-ui.css - -
+2024-10-16 16:18:14.1284 | INFO | Request starting HTTP/1.1 GET http://localhost:5149/swagger/swagger-ui-bundle.js - -
+2024-10-16 16:18:14.1284 | DEBUG | Connection id "0HN7DNC9UP6VV" accepted.
+2024-10-16 16:18:14.1284 | DEBUG | Connection id "0HN7DNC9UP6VV" started.
+2024-10-16 16:18:14.1284 | INFO | Request starting HTTP/1.1 GET http://localhost:5149/swagger/swagger-ui-standalone-preset.js - -
+2024-10-16 16:18:14.1284 | DEBUG | Connection id "0HN7DNC9UP700" accepted.
+2024-10-16 16:18:14.1284 | DEBUG | Connection id "0HN7DNC9UP700" started.
+2024-10-16 16:18:14.1284 | INFO | Request starting HTTP/1.1 GET http://localhost:5149/_framework/aspnetcore-browser-refresh.js - -
+2024-10-16 16:18:14.1363 | DEBUG | Connection id "0HN7DNC9UP701" accepted.
+2024-10-16 16:18:14.1363 | DEBUG | Connection id "0HN7DNC9UP701" started.
+2024-10-16 16:18:14.1363 | INFO | Request starting HTTP/1.1 GET http://localhost:5149/_vs/browserLink - -
+2024-10-16 16:18:14.1363 | DEBUG | Connection id "0HN7DNC9UP700" completed keep alive response.
+2024-10-16 16:18:14.1363 | INFO | Request finished HTTP/1.1 GET http://localhost:5149/_framework/aspnetcore-browser-refresh.js - - - 200 13776 application/javascript;+charset=utf-8 6.2419ms
+2024-10-16 16:18:14.1682 | INFO | Sending file. Request path: '/swagger-ui.css'. Physical path: 'N/A'
+2024-10-16 16:18:14.1682 | INFO | Sending file. Request path: '/swagger-ui-standalone-preset.js'. Physical path: 'N/A'
+2024-10-16 16:18:14.1682 | DEBUG | Connection id "0HN7DNC9UP6VT" completed keep alive response.
+2024-10-16 16:18:14.1682 | INFO | Request finished HTTP/1.1 GET http://localhost:5149/swagger/swagger-ui.css - - - 200 144929 text/css 39.1372ms
+2024-10-16 16:18:14.1682 | DEBUG | Connection id "0HN7DNC9UP6VV" completed keep alive response.
+2024-10-16 16:18:14.1682 | INFO | Request finished HTTP/1.1 GET http://localhost:5149/swagger/swagger-ui-standalone-preset.js - - - 200 312163 text/javascript 38.4886ms
+2024-10-16 16:18:14.1682 | INFO | Sending file. Request path: '/swagger-ui-bundle.js'. Physical path: 'N/A'
+2024-10-16 16:18:14.1682 | DEBUG | Connection id "0HN7DNC9UP6VU" completed keep alive response.
+2024-10-16 16:18:14.1682 | INFO | Request finished HTTP/1.1 GET http://localhost:5149/swagger/swagger-ui-bundle.js - - - 200 1061536 text/javascript 47.9053ms
+2024-10-16 16:18:14.2396 | DEBUG | Connection id "0HN7DNC9UP701" completed keep alive response.
+2024-10-16 16:18:14.2396 | INFO | Request finished HTTP/1.1 GET http://localhost:5149/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 99.8217ms
+2024-10-16 16:18:14.4266 | INFO | Request starting HTTP/1.1 GET http://localhost:5149/swagger/东泽房源管理接口/swagger.json - -
+2024-10-16 16:18:14.4501 | INFO | Request starting HTTP/1.1 GET http://localhost:5149/swagger/favicon-32x32.png - -
+2024-10-16 16:18:14.4501 | INFO | Sending file. Request path: '/favicon-32x32.png'. Physical path: 'N/A'
+2024-10-16 16:18:14.4501 | DEBUG | Connection id "0HN7DNC9UP6VU" completed keep alive response.
+2024-10-16 16:18:14.4501 | INFO | Request finished HTTP/1.1 GET http://localhost:5149/swagger/favicon-32x32.png - - - 200 628 image/png 1.2321ms
+2024-10-16 16:18:14.8887 | DEBUG | Connection id "0HN7DNC9UP701" completed keep alive response.
+2024-10-16 16:18:14.8887 | INFO | Request finished HTTP/1.1 GET http://localhost:5149/swagger/东泽房源管理接口/swagger.json - - - 200 - application/json;charset=utf-8 462.2760ms
+2024-10-16 16:18:21.1409 | INFO | Request starting HTTP/1.1 GET http://localhost:5149/swagger/U8移动端接口/swagger.json - -
+2024-10-16 16:18:21.1722 | DEBUG | Connection id "0HN7DNC9UP701" completed keep alive response.
+2024-10-16 16:18:21.1722 | INFO | Request finished HTTP/1.1 GET http://localhost:5149/swagger/U8移动端接口/swagger.json - - - 200 - application/json;charset=utf-8 31.4867ms
+2024-10-16 16:18:36.2724 | INFO | Request starting HTTP/1.1 POST http://localhost:5149/api/GetToken application/json 48
+2024-10-16 16:18:36.2724 | DEBUG | POST requests are not supported
+2024-10-16 16:18:36.2724 | DEBUG | POST requests are not supported
+2024-10-16 16:18:36.2803 | WARN | Failed to determine the https port for redirect.
+2024-10-16 16:18:36.3528 | DEBUG | AuthenticationScheme: Bearer was not authenticated.
+2024-10-16 16:18:36.3528 | DEBUG | The request has an origin header: 'http://localhost:5149'.
+2024-10-16 16:18:36.3528 | INFO | CORS policy execution successful.
+2024-10-16 16:18:36.3861 | DEBUG | 1 candidate(s) found for the request path '/api/GetToken'
+2024-10-16 16:18:36.3878 | DEBUG | Endpoint 'webapi.net7.sqlsugar.Controllers.ApiTokenController.GetToken (webapi.net7.sqlsugar)' with route pattern 'api/GetToken' is valid for the request path '/api/GetToken'
+2024-10-16 16:18:36.3878 | DEBUG | Request matched endpoint 'webapi.net7.sqlsugar.Controllers.ApiTokenController.GetToken (webapi.net7.sqlsugar)'
+2024-10-16 16:18:36.3878 | DEBUG | Connection id "0HN7DNC9UP701", Request id "0HN7DNC9UP701:00000004": started reading request body.
+2024-10-16 16:18:36.3878 | DEBUG | Connection id "0HN7DNC9UP701", Request id "0HN7DNC9UP701:00000004": done reading request body.
+2024-10-16 16:18:36.4080 | DEBUG | Static files was skipped as the request already matched an endpoint.
+2024-10-16 16:18:36.4080 | INFO | Executing endpoint 'webapi.net7.sqlsugar.Controllers.ApiTokenController.GetToken (webapi.net7.sqlsugar)'
+2024-10-16 16:18:36.4285 | INFO | Route matched with {action = "GetToken", controller = "ApiToken"}. Executing controller action with signature webapi.net7.sqlsugar.MessageToken GetToken(webapi.net7.sqlsugar.User) on controller webapi.net7.sqlsugar.Controllers.ApiTokenController (webapi.net7.sqlsugar).
+2024-10-16 16:18:36.4285 | DEBUG | Execution plan of authorization filters (in the following order): None
+2024-10-16 16:18:36.4285 | DEBUG | Execution plan of resource filters (in the following order): None
+2024-10-16 16:18:36.4285 | DEBUG | Execution plan of action filters (in the following order): Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000), Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)
+2024-10-16 16:18:36.4285 | DEBUG | Execution plan of exception filters (in the following order): None
+2024-10-16 16:18:36.4285 | DEBUG | Execution plan of result filters (in the following order): Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)
+2024-10-16 16:18:36.4285 | DEBUG | Executing controller factory for controller webapi.net7.sqlsugar.Controllers.ApiTokenController (webapi.net7.sqlsugar)
+2024-10-16 16:18:36.4285 | DEBUG | Executed controller factory for controller webapi.net7.sqlsugar.Controllers.ApiTokenController (webapi.net7.sqlsugar)
+2024-10-16 16:18:36.4340 | DEBUG | Attempting to bind parameter 'user' of type 'webapi.net7.sqlsugar.User' ...
+2024-10-16 16:18:36.4340 | DEBUG | Attempting to bind parameter 'user' of type 'webapi.net7.sqlsugar.User' using the name '' in request data ...
+2024-10-16 16:18:36.4340 | DEBUG | Selected input formatter 'Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonInputFormatter' for content type 'application/json'.
+2024-10-16 16:18:36.4340 | DEBUG | JSON input formatter succeeded, deserializing to type 'webapi.net7.sqlsugar.User'
+2024-10-16 16:18:36.4340 | DEBUG | Done attempting to bind parameter 'user' of type 'webapi.net7.sqlsugar.User'.
+2024-10-16 16:18:36.4340 | DEBUG | Done attempting to bind parameter 'user' of type 'webapi.net7.sqlsugar.User'.
+2024-10-16 16:18:36.4340 | DEBUG | Attempting to validate the bound parameter 'user' of type 'webapi.net7.sqlsugar.User' ...
+2024-10-16 16:18:36.4488 | DEBUG | Done attempting to validate the bound parameter 'user' of type 'webapi.net7.sqlsugar.User'.
+2024-10-16 16:18:36.4488 | INFO | Executing action method webapi.net7.sqlsugar.Controllers.ApiTokenController.GetToken (webapi.net7.sqlsugar) - Validation state: Valid
+2024-10-16 16:18:36.5698 | INFO | Executed action method webapi.net7.sqlsugar.Controllers.ApiTokenController.GetToken (webapi.net7.sqlsugar), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 115.4718ms.
+2024-10-16 16:18:36.5698 | DEBUG | List of registered output formatters, in the following order: Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter, Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter, Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter, Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter
+2024-10-16 16:18:36.5744 | DEBUG | Attempting to select an output formatter based on Accept header 'text/plain'.
+2024-10-16 16:18:36.5744 | DEBUG | Could not find an output formatter based on content negotiation. Accepted types were (text/plain)
+2024-10-16 16:18:36.5744 | DEBUG | Attempting to select an output formatter without using a content type as no explicit content types were specified for the response.
+2024-10-16 16:18:36.5744 | DEBUG | Attempting to select the first formatter in the output formatters list which can write the result.
+2024-10-16 16:18:36.5744 | DEBUG | Selected output formatter 'Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter' and content type 'application/json' to write the response.
+2024-10-16 16:18:36.5744 | INFO | Executing ObjectResult, writing value of type 'webapi.net7.sqlsugar.MessageToken'.
+2024-10-16 16:18:36.5744 | INFO | Executed action webapi.net7.sqlsugar.Controllers.ApiTokenController.GetToken (webapi.net7.sqlsugar) in 148.631ms
+2024-10-16 16:18:36.5744 | INFO | Executed endpoint 'webapi.net7.sqlsugar.Controllers.ApiTokenController.GetToken (webapi.net7.sqlsugar)'
+2024-10-16 16:18:36.8501 | ERROR | An unhandled exception has occurred while executing the request.
+2024-10-16 16:18:36.8501 | WARN | The response has already started, the error page middleware will not be executed.
+2024-10-16 16:18:36.8744 | ERROR | Connection id "0HN7DNC9UP701", Request id "0HN7DNC9UP701:00000004": An unhandled exception was thrown by the application.
+2024-10-16 16:18:36.8744 | INFO | Request finished HTTP/1.1 POST http://localhost:5149/api/GetToken application/json 48 - 200 - application/json;+charset=utf-8 602.5212ms
+2024-10-16 16:18:36.8744 | DEBUG | Connection id "0HN7DNC9UP701" disconnecting.
+2024-10-16 16:18:36.8744 | DEBUG | Connection id "0HN7DNC9UP701" stopped.
+2024-10-16 16:18:36.8744 | DEBUG | Connection id "0HN7DNC9UP701" sending FIN because: "The Socket transport's send loop completed gracefully."
+2024-10-16 16:19:49.5679 | INFO | Request starting HTTP/1.1 POST http://localhost:5149/api/GetToken application/json 48
+2024-10-16 16:19:49.5784 | DEBUG | POST requests are not supported
+2024-10-16 16:19:49.5784 | DEBUG | POST requests are not supported
+2024-10-16 16:19:49.5784 | DEBUG | AuthenticationScheme: Bearer was not authenticated.
+2024-10-16 16:19:49.5784 | DEBUG | The request has an origin header: 'http://localhost:5149'.
+2024-10-16 16:19:49.5784 | INFO | CORS policy execution successful.
+2024-10-16 16:19:49.5784 | DEBUG | 1 candidate(s) found for the request path '/api/GetToken'
+2024-10-16 16:19:49.5784 | DEBUG | Endpoint 'webapi.net7.sqlsugar.Controllers.ApiTokenController.GetToken (webapi.net7.sqlsugar)' with route pattern 'api/GetToken' is valid for the request path '/api/GetToken'
+2024-10-16 16:19:49.5784 | DEBUG | Request matched endpoint 'webapi.net7.sqlsugar.Controllers.ApiTokenController.GetToken (webapi.net7.sqlsugar)'
+2024-10-16 16:19:49.5784 | DEBUG | Connection id "0HN7DNC9UP6VU", Request id "0HN7DNC9UP6VU:00000003": started reading request body.
+2024-10-16 16:19:49.5784 | DEBUG | Connection id "0HN7DNC9UP6VU", Request id "0HN7DNC9UP6VU:00000003": done reading request body.
+2024-10-16 16:19:49.5784 | DEBUG | Static files was skipped as the request already matched an endpoint.
+2024-10-16 16:19:49.5784 | INFO | Executing endpoint 'webapi.net7.sqlsugar.Controllers.ApiTokenController.GetToken (webapi.net7.sqlsugar)'
+2024-10-16 16:19:49.5784 | INFO | Route matched with {action = "GetToken", controller = "ApiToken"}. Executing controller action with signature webapi.net7.sqlsugar.MessageToken GetToken(webapi.net7.sqlsugar.User) on controller webapi.net7.sqlsugar.Controllers.ApiTokenController (webapi.net7.sqlsugar).
+2024-10-16 16:19:49.5784 | DEBUG | Execution plan of authorization filters (in the following order): None
+2024-10-16 16:19:49.5784 | DEBUG | Execution plan of resource filters (in the following order): None
+2024-10-16 16:19:49.5784 | DEBUG | Execution plan of action filters (in the following order): Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000), Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)
+2024-10-16 16:19:49.5784 | DEBUG | Execution plan of exception filters (in the following order): None
+2024-10-16 16:19:49.5784 | DEBUG | Execution plan of result filters (in the following order): Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)
+2024-10-16 16:19:49.5784 | DEBUG | Executing controller factory for controller webapi.net7.sqlsugar.Controllers.ApiTokenController (webapi.net7.sqlsugar)
+2024-10-16 16:19:49.5784 | DEBUG | Executed controller factory for controller webapi.net7.sqlsugar.Controllers.ApiTokenController (webapi.net7.sqlsugar)
+2024-10-16 16:19:49.5784 | DEBUG | Attempting to bind parameter 'user' of type 'webapi.net7.sqlsugar.User' ...
+2024-10-16 16:19:49.5784 | DEBUG | Attempting to bind parameter 'user' of type 'webapi.net7.sqlsugar.User' using the name '' in request data ...
+2024-10-16 16:19:49.5784 | DEBUG | Selected input formatter 'Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonInputFormatter' for content type 'application/json'.
+2024-10-16 16:19:49.5784 | DEBUG | JSON input formatter succeeded, deserializing to type 'webapi.net7.sqlsugar.User'
+2024-10-16 16:19:49.5784 | DEBUG | Done attempting to bind parameter 'user' of type 'webapi.net7.sqlsugar.User'.
+2024-10-16 16:19:49.5784 | DEBUG | Done attempting to bind parameter 'user' of type 'webapi.net7.sqlsugar.User'.
+2024-10-16 16:19:49.5784 | DEBUG | Attempting to validate the bound parameter 'user' of type 'webapi.net7.sqlsugar.User' ...
+2024-10-16 16:19:49.5784 | DEBUG | Done attempting to validate the bound parameter 'user' of type 'webapi.net7.sqlsugar.User'.
+2024-10-16 16:19:49.5784 | INFO | Executing action method webapi.net7.sqlsugar.Controllers.ApiTokenController.GetToken (webapi.net7.sqlsugar) - Validation state: Valid
+2024-10-16 16:19:49.5891 | INFO | Executed action method webapi.net7.sqlsugar.Controllers.ApiTokenController.GetToken (webapi.net7.sqlsugar), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 0.7821ms.
+2024-10-16 16:19:49.5891 | DEBUG | List of registered output formatters, in the following order: Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter, Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter, Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter, Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter
+2024-10-16 16:19:49.5891 | DEBUG | Attempting to select an output formatter based on Accept header 'text/plain'.
+2024-10-16 16:19:49.5891 | DEBUG | Could not find an output formatter based on content negotiation. Accepted types were (text/plain)
+2024-10-16 16:19:49.5891 | DEBUG | Attempting to select an output formatter without using a content type as no explicit content types were specified for the response.
+2024-10-16 16:19:49.5891 | DEBUG | Attempting to select the first formatter in the output formatters list which can write the result.
+2024-10-16 16:19:49.5891 | DEBUG | Selected output formatter 'Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter' and content type 'application/json' to write the response.
+2024-10-16 16:19:49.5891 | INFO | Executing ObjectResult, writing value of type 'webapi.net7.sqlsugar.MessageToken'.
+2024-10-16 16:19:49.5891 | INFO | Executed action webapi.net7.sqlsugar.Controllers.ApiTokenController.GetToken (webapi.net7.sqlsugar) in 5.707ms
+2024-10-16 16:19:49.5891 | INFO | Executed endpoint 'webapi.net7.sqlsugar.Controllers.ApiTokenController.GetToken (webapi.net7.sqlsugar)'
+2024-10-16 16:19:49.6057 | ERROR | An unhandled exception has occurred while executing the request.
+2024-10-16 16:19:49.6057 | WARN | The response has already started, the error page middleware will not be executed.
+2024-10-16 16:19:49.6057 | ERROR | Connection id "0HN7DNC9UP6VU", Request id "0HN7DNC9UP6VU:00000003": An unhandled exception was thrown by the application.
+2024-10-16 16:19:49.6057 | INFO | Request finished HTTP/1.1 POST http://localhost:5149/api/GetToken application/json 48 - 200 - application/json;+charset=utf-8 44.1246ms
+2024-10-16 16:19:49.6057 | DEBUG | Connection id "0HN7DNC9UP6VU" disconnecting.
+2024-10-16 16:19:49.6057 | DEBUG | Connection id "0HN7DNC9UP6VU" stopped.
+2024-10-16 16:19:49.6057 | DEBUG | Connection id "0HN7DNC9UP6VU" sending FIN because: "The Socket transport's send loop completed gracefully."

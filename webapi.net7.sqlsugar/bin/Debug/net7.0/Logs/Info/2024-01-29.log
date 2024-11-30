@@ -1,0 +1,24 @@
+2024-01-29 14:21:17.5536 | INFO | User profile is available. Using 'C:\Users\Administrator\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-01-29 14:21:17.7879 | INFO | Now listening on: http://localhost:5149
+2024-01-29 14:21:17.7914 | INFO | Application started. Press Ctrl+C to shut down.
+2024-01-29 14:21:17.7914 | INFO | Hosting environment: Development
+2024-01-29 14:21:17.7914 | INFO | Content root path: D:\BaiduSyncdisk\webapi.net7+sqlsugar\webapi.net7.sqlsugar\webapi.net7.sqlsugar
+2024-01-29 14:21:20.3364 | INFO | Request starting HTTP/1.1 GET http://localhost:5149/swagger/index.html - -
+2024-01-29 14:21:20.8609 | INFO | Request finished HTTP/1.1 GET http://localhost:5149/swagger/index.html - - - 200 - text/html;charset=utf-8 533.1507ms
+2024-01-29 14:21:20.8759 | INFO | Request starting HTTP/1.1 GET http://localhost:5149/_vs/browserLink - -
+2024-01-29 14:21:20.8935 | INFO | Request starting HTTP/1.1 GET http://localhost:5149/_framework/aspnetcore-browser-refresh.js - -
+2024-01-29 14:21:20.8935 | INFO | Request finished HTTP/1.1 GET http://localhost:5149/_framework/aspnetcore-browser-refresh.js - - - 200 13776 application/javascript;+charset=utf-8 2.7976ms
+2024-01-29 14:21:21.0529 | INFO | Request finished HTTP/1.1 GET http://localhost:5149/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 177.1582ms
+2024-01-29 14:21:21.1237 | INFO | Request starting HTTP/1.1 GET http://localhost:5149/swagger/V1/swagger.json - -
+2024-01-29 14:21:21.4493 | INFO | Request finished HTTP/1.1 GET http://localhost:5149/swagger/V1/swagger.json - - - 200 - application/json;charset=utf-8 325.9596ms
+2024-01-29 14:21:54.3750 | INFO | Request starting HTTP/1.1 POST http://localhost:5149/api/GetOAUser application/json 16
+2024-01-29 14:21:54.3936 | WARN | Failed to determine the https port for redirect.
+2024-01-29 14:21:54.4650 | INFO | CORS policy execution successful.
+2024-01-29 14:21:54.4650 | INFO | Executing endpoint 'webapi.net7.sqlsugar.Controllers.CRMAppControlle.GetOAUser (webapi.net7.sqlsugar)'
+2024-01-29 14:21:54.4889 | INFO | Route matched with {action = "GetOAUser", controller = "CRMAppControlle"}. Executing controller action with signature System.Object GetOAUser(System.Object) on controller webapi.net7.sqlsugar.Controllers.CRMAppControlle (webapi.net7.sqlsugar).
+2024-01-29 14:21:54.5106 | INFO | Executing action method webapi.net7.sqlsugar.Controllers.CRMAppControlle.GetOAUser (webapi.net7.sqlsugar) - Validation state: Valid
+2024-01-29 14:21:54.6540 | INFO | Executed action method webapi.net7.sqlsugar.Controllers.CRMAppControlle.GetOAUser (webapi.net7.sqlsugar), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 136.9486ms.
+2024-01-29 14:21:54.6540 | INFO | Executing ObjectResult, writing value of type '<>f__AnonymousType6`1[[System.String, System.Private.CoreLib, Version=7.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2024-01-29 14:21:54.6678 | INFO | Executed action webapi.net7.sqlsugar.Controllers.CRMAppControlle.GetOAUser (webapi.net7.sqlsugar) in 173.9275ms
+2024-01-29 14:21:54.6678 | INFO | Executed endpoint 'webapi.net7.sqlsugar.Controllers.CRMAppControlle.GetOAUser (webapi.net7.sqlsugar)'
+2024-01-29 14:21:54.6678 | INFO | Request finished HTTP/1.1 POST http://localhost:5149/api/GetOAUser application/json 16 - 200 - application/json;+charset=utf-8 293.2058ms

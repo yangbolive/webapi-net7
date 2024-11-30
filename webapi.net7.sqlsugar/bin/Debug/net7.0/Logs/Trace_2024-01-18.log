@@ -1,0 +1,966 @@
+2024-01-18 08:31:57.1070 | DEBUG | Registered model binder providers, in the following order: Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DateTimeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.TryParseModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinderProvider
+2024-01-18 08:31:57.4363 | DEBUG | Registered SignalR Protocol: json, implemented by Microsoft.AspNetCore.SignalR.Protocol.JsonHubProtocol.
+2024-01-18 08:31:57.4549 | DEBUG | Hosting starting
+2024-01-18 08:31:57.4995 | INFO | User profile is available. Using 'C:\Users\Administrator\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-01-18 08:31:57.5084 | DEBUG | Reading data from file 'C:\Users\Administrator\AppData\Local\ASP.NET\DataProtection-Keys\key-34692722-1836-4131-841e-52bc30c5cc34.xml'.
+2024-01-18 08:31:57.5084 | DEBUG | Reading data from file 'C:\Users\Administrator\AppData\Local\ASP.NET\DataProtection-Keys\key-691d2c1e-819d-4ace-bf8c-4b95df9c96f1.xml'.
+2024-01-18 08:31:57.5187 | DEBUG | Found key {34692722-1836-4131-841e-52bc30c5cc34}.
+2024-01-18 08:31:57.5187 | DEBUG | Found key {691d2c1e-819d-4ace-bf8c-4b95df9c96f1}.
+2024-01-18 08:31:57.5187 | DEBUG | Considering key {34692722-1836-4131-841e-52bc30c5cc34} with expiration date 2024-04-15 01:35:41Z as default key.
+2024-01-18 08:31:57.5342 | DEBUG | Forwarded activator type request from Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Version=7.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60 to Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60
+2024-01-18 08:31:57.5342 | DEBUG | Decrypting secret element using Windows DPAPI.
+2024-01-18 08:31:57.5342 | DEBUG | Forwarded activator type request from Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Version=7.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60 to Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60
+2024-01-18 08:31:57.5342 | DEBUG | Opening CNG algorithm 'AES' from provider '(null)' with chaining mode CBC.
+2024-01-18 08:31:57.5342 | DEBUG | Opening CNG algorithm 'SHA256' from provider '(null)' with HMAC.
+2024-01-18 08:31:57.5342 | DEBUG | Using key {34692722-1836-4131-841e-52bc30c5cc34} as the default key.
+2024-01-18 08:31:57.5342 | DEBUG | Key ring with default key {34692722-1836-4131-841e-52bc30c5cc34} was loaded during application startup.
+2024-01-18 08:31:57.7611 | INFO | Now listening on: https://localhost:7225
+2024-01-18 08:31:57.7611 | INFO | Now listening on: http://localhost:5148
+2024-01-18 08:31:57.7611 | DEBUG | Loaded hosting startup assembly webapi.net7.sqlsugar
+2024-01-18 08:31:57.7611 | DEBUG | Loaded hosting startup assembly Microsoft.AspNetCore.Watch.BrowserRefresh
+2024-01-18 08:31:57.7611 | DEBUG | Loaded hosting startup assembly Microsoft.WebTools.BrowserLink.Net
+2024-01-18 08:31:57.7611 | INFO | Application started. Press Ctrl+C to shut down.
+2024-01-18 08:31:57.7611 | INFO | Hosting environment: Development
+2024-01-18 08:31:57.7690 | INFO | Content root path: D:\BaiduSyncdisk\webapi.net7+sqlsugar\webapi.net7.sqlsugar\webapi.net7.sqlsugar
+2024-01-18 08:31:57.7690 | TRACE | Starting connection heartbeat.
+2024-01-18 08:31:57.7690 | DEBUG | Hosting started
+2024-01-18 08:31:57.8994 | DEBUG | Connection id "0HN0NNJGITAQF" accepted.
+2024-01-18 08:31:57.8994 | DEBUG | Connection id "0HN0NNJGITAQF" started.
+2024-01-18 08:31:57.8994 | DEBUG | Connection id "0HN0NNJGITAQG" accepted.
+2024-01-18 08:31:57.8994 | DEBUG | Connection id "0HN0NNJGITAQG" started.
+2024-01-18 08:32:01.0051 | DEBUG | Connection id "0HN0NNJGITAQH" accepted.
+2024-01-18 08:32:01.0051 | DEBUG | Connection id "0HN0NNJGITAQH" started.
+2024-01-18 08:32:01.0633 | DEBUG | Connection 0HN0NNJGITAQH established using the following protocol: Tls12
+2024-01-18 08:32:01.0955 | TRACE | Connection id "0HN0NNJGITAQH" sending SETTINGS frame for stream ID 0 with length 24 and flags NONE.
+2024-01-18 08:32:01.0996 | TRACE | Connection id "0HN0NNJGITAQH" sending WINDOW_UPDATE frame for stream ID 0 with length 4 and flags 0x0.
+2024-01-18 08:32:01.0996 | TRACE | Connection id "0HN0NNJGITAQH" received SETTINGS frame for stream ID 0 with length 24 and flags NONE.
+2024-01-18 08:32:01.0996 | TRACE | Connection id "0HN0NNJGITAQH" sending SETTINGS frame for stream ID 0 with length 0 and flags ACK.
+2024-01-18 08:32:01.0996 | TRACE | Connection id "0HN0NNJGITAQH" received WINDOW_UPDATE frame for stream ID 0 with length 4 and flags 0x0.
+2024-01-18 08:32:01.0996 | TRACE | Connection id "0HN0NNJGITAQH" received HEADERS frame for stream ID 1 with length 450 and flags END_STREAM, END_HEADERS, PRIORITY.
+2024-01-18 08:32:01.1200 | TRACE | Connection id "0HN0NNJGITAQH" received SETTINGS frame for stream ID 0 with length 0 and flags ACK.
+2024-01-18 08:32:01.1368 | INFO | Request starting HTTP/2 GET https://localhost:7225/swagger/index.html - -
+2024-01-18 08:32:01.2623 | DEBUG | Wildcard detected, all requests with hosts will be allowed.
+2024-01-18 08:32:01.2623 | TRACE | All hosts are allowed.
+2024-01-18 08:32:01.3963 | DEBUG | Response markup is scheduled to include browser refresh script injection.
+2024-01-18 08:32:01.3963 | TRACE | Connection id "0HN0NNJGITAQH" sending HEADERS frame for stream ID 1 with length 66 and flags END_HEADERS.
+2024-01-18 08:32:01.3963 | TRACE | Connection id "0HN0NNJGITAQH" sending DATA frame for stream ID 1 with length 4096 and flags NONE.
+2024-01-18 08:32:01.4108 | TRACE | Connection id "0HN0NNJGITAQH" sending DATA frame for stream ID 1 with length 1022 and flags NONE.
+2024-01-18 08:32:01.4108 | TRACE | Connection id "0HN0NNJGITAQH" sending DATA frame for stream ID 1 with length 81 and flags NONE.
+2024-01-18 08:32:01.4108 | TRACE | Connection id "0HN0NNJGITAQH" received HEADERS frame for stream ID 3 with length 115 and flags END_STREAM, END_HEADERS, PRIORITY.
+2024-01-18 08:32:01.4108 | TRACE | Connection id "0HN0NNJGITAQH" received HEADERS frame for stream ID 5 with length 51 and flags END_STREAM, END_HEADERS, PRIORITY.
+2024-01-18 08:32:01.4108 | INFO | Request starting HTTP/2 GET https://localhost:7225/_vs/browserLink - -
+2024-01-18 08:32:01.4108 | INFO | Request starting HTTP/2 GET https://localhost:7225/_framework/aspnetcore-browser-refresh.js - -
+2024-01-18 08:32:01.4287 | DEBUG | Response markup was updated to include browser refresh script injection.
+2024-01-18 08:32:01.4287 | TRACE | Connection id "0HN0NNJGITAQH" sending HEADERS frame for stream ID 5 with length 60 and flags END_HEADERS.
+2024-01-18 08:32:01.4287 | TRACE | Connection id "0HN0NNJGITAQH" sending DATA frame for stream ID 5 with length 13776 and flags NONE.
+2024-01-18 08:32:01.4287 | INFO | Request finished HTTP/2 GET https://localhost:7225/swagger/index.html - - - 200 - text/html;charset=utf-8 295.1845ms
+2024-01-18 08:32:01.4287 | TRACE | Connection id "0HN0NNJGITAQH" sending DATA frame for stream ID 1 with length 0 and flags END_STREAM.
+2024-01-18 08:32:01.4287 | TRACE | Connection id "0HN0NNJGITAQH" sending DATA frame for stream ID 5 with length 0 and flags END_STREAM.
+2024-01-18 08:32:01.4287 | INFO | Request finished HTTP/2 GET https://localhost:7225/_framework/aspnetcore-browser-refresh.js - - - 200 13776 application/javascript;+charset=utf-8 17.7035ms
+2024-01-18 08:32:01.4856 | TRACE | Connection id "0HN0NNJGITAQH" sending HEADERS frame for stream ID 3 with length 149 and flags END_HEADERS.
+2024-01-18 08:32:01.4856 | TRACE | Connection id "0HN0NNJGITAQH" sending DATA frame for stream ID 3 with length 9986 and flags NONE.
+2024-01-18 08:32:01.4881 | TRACE | Connection id "0HN0NNJGITAQH" sending DATA frame for stream ID 3 with length 10240 and flags NONE.
+2024-01-18 08:32:01.4881 | TRACE | Connection id "0HN0NNJGITAQH" sending DATA frame for stream ID 3 with length 10240 and flags NONE.
+2024-01-18 08:32:01.4881 | TRACE | Connection id "0HN0NNJGITAQH" sending DATA frame for stream ID 3 with length 10240 and flags NONE.
+2024-01-18 08:32:01.4881 | TRACE | Connection id "0HN0NNJGITAQH" sending DATA frame for stream ID 3 with length 10240 and flags NONE.
+2024-01-18 08:32:01.4881 | TRACE | Connection id "0HN0NNJGITAQH" sending DATA frame for stream ID 3 with length 10240 and flags NONE.
+2024-01-18 08:32:01.4881 | TRACE | Connection id "0HN0NNJGITAQH" sending DATA frame for stream ID 3 with length 10240 and flags NONE.
+2024-01-18 08:32:01.4881 | TRACE | Connection id "0HN0NNJGITAQH" sending DATA frame for stream ID 3 with length 10240 and flags NONE.
+2024-01-18 08:32:01.4881 | TRACE | Connection id "0HN0NNJGITAQH" sending DATA frame for stream ID 3 with length 10240 and flags NONE.
+2024-01-18 08:32:01.4881 | TRACE | Connection id "0HN0NNJGITAQH" sending DATA frame for stream ID 3 with length 10240 and flags NONE.
+2024-01-18 08:32:01.4881 | TRACE | Connection id "0HN0NNJGITAQH" sending DATA frame for stream ID 3 with length 10240 and flags NONE.
+2024-01-18 08:32:01.4881 | TRACE | Connection id "0HN0NNJGITAQH" sending DATA frame for stream ID 3 with length 10240 and flags NONE.
+2024-01-18 08:32:01.4881 | TRACE | Connection id "0HN0NNJGITAQH" sending DATA frame for stream ID 3 with length 10240 and flags NONE.
+2024-01-18 08:32:01.4881 | TRACE | Connection id "0HN0NNJGITAQH" sending DATA frame for stream ID 3 with length 10240 and flags NONE.
+2024-01-18 08:32:01.4881 | TRACE | Connection id "0HN0NNJGITAQH" sending DATA frame for stream ID 3 with length 10240 and flags NONE.
+2024-01-18 08:32:01.4881 | TRACE | Connection id "0HN0NNJGITAQH" sending DATA frame for stream ID 3 with length 160 and flags NONE.
+2024-01-18 08:32:01.4881 | TRACE | Connection id "0HN0NNJGITAQH" sending DATA frame for stream ID 3 with length 0 and flags END_STREAM.
+2024-01-18 08:32:01.4881 | INFO | Request finished HTTP/2 GET https://localhost:7225/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 73.9623ms
+2024-01-18 08:32:01.5476 | TRACE | Connection id "0HN0NNJGITAQH" received HEADERS frame for stream ID 7 with length 66 and flags END_STREAM, END_HEADERS, PRIORITY.
+2024-01-18 08:32:01.5519 | INFO | Request starting HTTP/2 GET https://localhost:7225/swagger/V1/swagger.json - -
+2024-01-18 08:32:01.5519 | TRACE | All hosts are allowed.
+2024-01-18 08:32:01.8376 | TRACE | Connection id "0HN0NNJGITAQH" sending HEADERS frame for stream ID 7 with length 35 and flags END_HEADERS.
+2024-01-18 08:32:01.8376 | TRACE | Connection id "0HN0NNJGITAQH" sending DATA frame for stream ID 7 with length 16384 and flags NONE.
+2024-01-18 08:32:01.8376 | TRACE | Connection id "0HN0NNJGITAQH" sending DATA frame for stream ID 7 with length 1001 and flags NONE.
+2024-01-18 08:32:01.8376 | TRACE | Connection id "0HN0NNJGITAQH" sending DATA frame for stream ID 7 with length 0 and flags END_STREAM.
+2024-01-18 08:32:01.8376 | INFO | Request finished HTTP/2 GET https://localhost:7225/swagger/V1/swagger.json - - - 200 - application/json;charset=utf-8 287.8111ms
+2024-01-18 08:32:07.9376 | DEBUG | Authentication of the HTTPS connection timed out.
+2024-01-18 08:32:07.9376 | DEBUG | Authentication of the HTTPS connection timed out.
+2024-01-18 08:32:07.9376 | DEBUG | Connection id "0HN0NNJGITAQF" stopped.
+2024-01-18 08:32:07.9376 | DEBUG | Connection id "0HN0NNJGITAQG" stopped.
+2024-01-18 08:32:07.9401 | DEBUG | Connection id "0HN0NNJGITAQF" sending FIN because: "The Socket transport's send loop completed gracefully."
+2024-01-18 08:32:07.9401 | DEBUG | Connection id "0HN0NNJGITAQG" sending FIN because: "The Socket transport's send loop completed gracefully."
+2024-01-18 08:32:37.3367 | TRACE | Connection id "0HN0NNJGITAQH" received HEADERS frame for stream ID 9 with length 69 and flags END_HEADERS, PRIORITY.
+2024-01-18 08:32:37.3367 | TRACE | Connection id "0HN0NNJGITAQH" received PING frame for stream ID 0 with length 8 and flags NONE.
+2024-01-18 08:32:37.3367 | INFO | Request starting HTTP/2 POST https://localhost:7225/api/user application/json 37
+2024-01-18 08:32:37.3367 | TRACE | Connection id "0HN0NNJGITAQH" sending PING frame for stream ID 0 with length 8 and flags ACK.
+2024-01-18 08:32:37.3367 | TRACE | Connection id "0HN0NNJGITAQH" received DATA frame for stream ID 9 with length 37 and flags END_STREAM.
+2024-01-18 08:32:37.3367 | TRACE | All hosts are allowed.
+2024-01-18 08:32:37.3367 | DEBUG | POST requests are not supported
+2024-01-18 08:32:37.3367 | DEBUG | POST requests are not supported
+2024-01-18 08:32:37.4070 | DEBUG | AuthenticationScheme: Bearer was not authenticated.
+2024-01-18 08:32:37.4070 | DEBUG | The request has an origin header: 'https://localhost:7225'.
+2024-01-18 08:32:37.4070 | INFO | CORS policy execution successful.
+2024-01-18 08:32:37.4292 | DEBUG | 1 candidate(s) found for the request path '/api/user'
+2024-01-18 08:32:37.4292 | DEBUG | Endpoint 'webapi.net7.sqlsugar.Controllers.ApiLoginController.user (webapi.net7.sqlsugar)' with route pattern 'api/user' is valid for the request path '/api/user'
+2024-01-18 08:32:37.4292 | DEBUG | Request matched endpoint 'webapi.net7.sqlsugar.Controllers.ApiLoginController.user (webapi.net7.sqlsugar)'
+2024-01-18 08:32:37.4522 | DEBUG | Connection id "0HN0NNJGITAQH", Request id "0HN0NNJGITAQH:00000009": started reading request body.
+2024-01-18 08:32:37.4522 | DEBUG | Connection id "0HN0NNJGITAQH", Request id "0HN0NNJGITAQH:00000009": done reading request body.
+2024-01-18 08:32:37.4592 | DEBUG | Static files was skipped as the request already matched an endpoint.
+2024-01-18 08:32:37.4592 | TRACE | Performing protect operation to key {34692722-1836-4131-841e-52bc30c5cc34} with purposes ('D:\BaiduSyncdisk\webapi.net7+sqlsugar\webapi.net7.sqlsugar\webapi.net7.sqlsugar\', 'SessionMiddleware').
+2024-01-18 08:32:37.4592 | INFO | Executing endpoint 'webapi.net7.sqlsugar.Controllers.ApiLoginController.user (webapi.net7.sqlsugar)'
+2024-01-18 08:32:37.4802 | INFO | Route matched with {action = "user", controller = "ApiLogin"}. Executing controller action with signature System.Object user(System.Object) on controller webapi.net7.sqlsugar.Controllers.ApiLoginController (webapi.net7.sqlsugar).
+2024-01-18 08:32:37.4802 | DEBUG | Execution plan of authorization filters (in the following order): None
+2024-01-18 08:32:37.4802 | DEBUG | Execution plan of resource filters (in the following order): None
+2024-01-18 08:32:37.4802 | DEBUG | Execution plan of action filters (in the following order): Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000), Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)
+2024-01-18 08:32:37.4802 | DEBUG | Execution plan of exception filters (in the following order): None
+2024-01-18 08:32:37.4802 | DEBUG | Execution plan of result filters (in the following order): Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)
+2024-01-18 08:32:37.4802 | DEBUG | Executing controller factory for controller webapi.net7.sqlsugar.Controllers.ApiLoginController (webapi.net7.sqlsugar)
+2024-01-18 08:32:37.4802 | DEBUG | Executed controller factory for controller webapi.net7.sqlsugar.Controllers.ApiLoginController (webapi.net7.sqlsugar)
+2024-01-18 08:32:37.4889 | DEBUG | Attempting to bind parameter 'user' of type 'System.Object' ...
+2024-01-18 08:32:37.4889 | DEBUG | Attempting to bind parameter 'user' of type 'System.Object' using the name '' in request data ...
+2024-01-18 08:32:37.4889 | DEBUG | Selected input formatter 'Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonInputFormatter' for content type 'application/json'.
+2024-01-18 08:32:37.4889 | DEBUG | JSON input formatter succeeded, deserializing to type 'System.Object'
+2024-01-18 08:32:37.4889 | DEBUG | Done attempting to bind parameter 'user' of type 'System.Object'.
+2024-01-18 08:32:37.4889 | DEBUG | Done attempting to bind parameter 'user' of type 'System.Object'.
+2024-01-18 08:32:37.4889 | DEBUG | Attempting to validate the bound parameter 'user' of type 'System.Object' ...
+2024-01-18 08:32:37.4889 | DEBUG | Done attempting to validate the bound parameter 'user' of type 'System.Object'.
+2024-01-18 08:32:37.4889 | TRACE | Action Filter: Before executing OnActionExecuting on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter.
+2024-01-18 08:32:37.4889 | TRACE | Action Filter: After executing OnActionExecuting on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter.
+2024-01-18 08:32:37.4889 | TRACE | Action Filter: Before executing OnActionExecuting on filter Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter.
+2024-01-18 08:32:37.4889 | TRACE | Action Filter: After executing OnActionExecuting on filter Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter.
+2024-01-18 08:32:37.4889 | INFO | Executing action method webapi.net7.sqlsugar.Controllers.ApiLoginController.user (webapi.net7.sqlsugar) - Validation state: Valid
+2024-01-18 08:32:37.4889 | TRACE | Executing action method webapi.net7.sqlsugar.Controllers.ApiLoginController.user (webapi.net7.sqlsugar) with arguments ({
+"name":"admin",
+"password":"123"
+
+})
+2024-01-18 08:32:37.6208 | INFO | Executed action method webapi.net7.sqlsugar.Controllers.ApiLoginController.user (webapi.net7.sqlsugar), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 119.7267ms.
+2024-01-18 08:32:37.6208 | TRACE | Action Filter: Before executing OnActionExecuted on filter Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter.
+2024-01-18 08:32:37.6208 | TRACE | Action Filter: After executing OnActionExecuted on filter Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter.
+2024-01-18 08:32:37.6208 | TRACE | Action Filter: Before executing OnActionExecuted on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter.
+2024-01-18 08:32:37.6208 | TRACE | Action Filter: After executing OnActionExecuted on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter.
+2024-01-18 08:32:37.6208 | TRACE | Result Filter: Before executing OnResultExecuting on filter Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter.
+2024-01-18 08:32:37.6208 | TRACE | Result Filter: After executing OnResultExecuting on filter Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter.
+2024-01-18 08:32:37.6208 | TRACE | Before executing action result Microsoft.AspNetCore.Mvc.ObjectResult.
+2024-01-18 08:32:37.6208 | DEBUG | List of registered output formatters, in the following order: Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter, Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter, Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter, Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter
+2024-01-18 08:32:37.6208 | DEBUG | No information found on request to perform content negotiation.
+2024-01-18 08:32:37.6208 | DEBUG | Attempting to select an output formatter without using a content type as no explicit content types were specified for the response.
+2024-01-18 08:32:37.6208 | DEBUG | Attempting to select the first formatter in the output formatters list which can write the result.
+2024-01-18 08:32:37.6208 | DEBUG | Selected output formatter 'Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter' and content type 'application/json' to write the response.
+2024-01-18 08:32:37.6208 | INFO | Executing ObjectResult, writing value of type '<>f__AnonymousType3`3[[System.String, System.Private.CoreLib, Version=7.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=7.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=7.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2024-01-18 08:32:37.6276 | TRACE | After executing action result Microsoft.AspNetCore.Mvc.ObjectResult.
+2024-01-18 08:32:37.6276 | TRACE | Result Filter: Before executing OnResultExecuted on filter Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter.
+2024-01-18 08:32:37.6276 | TRACE | Result Filter: After executing OnResultExecuted on filter Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter.
+2024-01-18 08:32:37.6276 | INFO | Executed action webapi.net7.sqlsugar.Controllers.ApiLoginController.user (webapi.net7.sqlsugar) in 145.1703ms
+2024-01-18 08:32:37.6276 | INFO | Executed endpoint 'webapi.net7.sqlsugar.Controllers.ApiLoginController.user (webapi.net7.sqlsugar)'
+2024-01-18 08:32:37.6276 | TRACE | Connection id "0HN0NNJGITAQH" sending HEADERS frame for stream ID 9 with length 137 and flags END_HEADERS.
+2024-01-18 08:32:37.6276 | TRACE | Connection id "0HN0NNJGITAQH" sending DATA frame for stream ID 9 with length 81 and flags NONE.
+2024-01-18 08:32:37.6276 | TRACE | Connection id "0HN0NNJGITAQH" received WINDOW_UPDATE frame for stream ID 0 with length 4 and flags 0x0.
+2024-01-18 08:32:37.8303 | TRACE | Connection id "0HN0NNJGITAQH" sending DATA frame for stream ID 9 with length 0 and flags END_STREAM.
+2024-01-18 08:32:37.8305 | INFO | Request finished HTTP/2 POST https://localhost:7225/api/user application/json 37 - 200 - application/json;+charset=utf-8 493.2925ms
+2024-01-18 10:03:05.2227 | DEBUG | Registered model binder providers, in the following order: Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DateTimeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.TryParseModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinderProvider
+2024-01-18 10:03:05.3847 | DEBUG | Registered SignalR Protocol: json, implemented by Microsoft.AspNetCore.SignalR.Protocol.JsonHubProtocol.
+2024-01-18 10:03:05.3952 | DEBUG | Hosting starting
+2024-01-18 10:03:05.4217 | INFO | User profile is available. Using 'C:\Users\Administrator\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-01-18 10:03:05.4250 | DEBUG | Reading data from file 'C:\Users\Administrator\AppData\Local\ASP.NET\DataProtection-Keys\key-34692722-1836-4131-841e-52bc30c5cc34.xml'.
+2024-01-18 10:03:05.4250 | DEBUG | Reading data from file 'C:\Users\Administrator\AppData\Local\ASP.NET\DataProtection-Keys\key-691d2c1e-819d-4ace-bf8c-4b95df9c96f1.xml'.
+2024-01-18 10:03:05.4250 | DEBUG | Found key {34692722-1836-4131-841e-52bc30c5cc34}.
+2024-01-18 10:03:05.4250 | DEBUG | Found key {691d2c1e-819d-4ace-bf8c-4b95df9c96f1}.
+2024-01-18 10:03:05.4250 | DEBUG | Considering key {34692722-1836-4131-841e-52bc30c5cc34} with expiration date 2024-04-15 01:35:41Z as default key.
+2024-01-18 10:03:05.4250 | DEBUG | Forwarded activator type request from Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Version=7.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60 to Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60
+2024-01-18 10:03:05.4250 | DEBUG | Decrypting secret element using Windows DPAPI.
+2024-01-18 10:03:05.4250 | DEBUG | Forwarded activator type request from Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Version=7.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60 to Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60
+2024-01-18 10:03:05.4250 | DEBUG | Opening CNG algorithm 'AES' from provider '(null)' with chaining mode CBC.
+2024-01-18 10:03:05.4250 | DEBUG | Opening CNG algorithm 'SHA256' from provider '(null)' with HMAC.
+2024-01-18 10:03:05.4400 | DEBUG | Using key {34692722-1836-4131-841e-52bc30c5cc34} as the default key.
+2024-01-18 10:03:05.4400 | DEBUG | Key ring with default key {34692722-1836-4131-841e-52bc30c5cc34} was loaded during application startup.
+2024-01-18 10:03:05.6231 | INFO | Now listening on: https://localhost:7225
+2024-01-18 10:03:05.6231 | INFO | Now listening on: http://localhost:5148
+2024-01-18 10:03:05.6231 | DEBUG | Loaded hosting startup assembly webapi.net7.sqlsugar
+2024-01-18 10:03:05.6231 | DEBUG | Loaded hosting startup assembly Microsoft.AspNetCore.Watch.BrowserRefresh
+2024-01-18 10:03:05.6231 | DEBUG | Loaded hosting startup assembly Microsoft.WebTools.BrowserLink.Net
+2024-01-18 10:03:05.6231 | INFO | Application started. Press Ctrl+C to shut down.
+2024-01-18 10:03:05.6289 | INFO | Hosting environment: Development
+2024-01-18 10:03:05.6289 | INFO | Content root path: D:\BaiduSyncdisk\webapi.net7+sqlsugar\webapi.net7.sqlsugar\webapi.net7.sqlsugar
+2024-01-18 10:03:05.6289 | TRACE | Starting connection heartbeat.
+2024-01-18 10:03:05.6289 | DEBUG | Hosting started
+2024-01-18 10:03:05.7545 | DEBUG | Connection id "0HN0NP6E4EAHA" received FIN.
+2024-01-18 10:03:05.7545 | DEBUG | Connection id "0HN0NP6E4EAHA" accepted.
+2024-01-18 10:03:05.7545 | DEBUG | Connection id "0HN0NP6E4EAHA" started.
+2024-01-18 10:03:05.7849 | DEBUG | Failed to authenticate HTTPS connection.
+2024-01-18 10:03:05.7849 | DEBUG | Connection id "0HN0NP6E4EAHA" stopped.
+2024-01-18 10:03:05.7849 | DEBUG | Connection id "0HN0NP6E4EAHA" sending FIN because: "The Socket transport's send loop completed gracefully."
+2024-01-18 10:03:08.4986 | DEBUG | Connection id "0HN0NP6E4EAHB" accepted.
+2024-01-18 10:03:08.4986 | DEBUG | Connection id "0HN0NP6E4EAHB" started.
+2024-01-18 10:03:08.5582 | DEBUG | Connection 0HN0NP6E4EAHB established using the following protocol: Tls12
+2024-01-18 10:03:08.5927 | TRACE | Connection id "0HN0NP6E4EAHB" sending SETTINGS frame for stream ID 0 with length 24 and flags NONE.
+2024-01-18 10:03:08.5972 | TRACE | Connection id "0HN0NP6E4EAHB" sending WINDOW_UPDATE frame for stream ID 0 with length 4 and flags 0x0.
+2024-01-18 10:03:08.5972 | TRACE | Connection id "0HN0NP6E4EAHB" received SETTINGS frame for stream ID 0 with length 24 and flags NONE.
+2024-01-18 10:03:08.5972 | TRACE | Connection id "0HN0NP6E4EAHB" sending SETTINGS frame for stream ID 0 with length 0 and flags ACK.
+2024-01-18 10:03:08.5972 | TRACE | Connection id "0HN0NP6E4EAHB" received WINDOW_UPDATE frame for stream ID 0 with length 4 and flags 0x0.
+2024-01-18 10:03:08.5972 | TRACE | Connection id "0HN0NP6E4EAHB" received HEADERS frame for stream ID 1 with length 450 and flags END_STREAM, END_HEADERS, PRIORITY.
+2024-01-18 10:03:08.6161 | TRACE | Connection id "0HN0NP6E4EAHB" received SETTINGS frame for stream ID 0 with length 0 and flags ACK.
+2024-01-18 10:03:08.6312 | INFO | Request starting HTTP/2 GET https://localhost:7225/swagger/index.html - -
+2024-01-18 10:03:08.7348 | DEBUG | Wildcard detected, all requests with hosts will be allowed.
+2024-01-18 10:03:08.7348 | TRACE | All hosts are allowed.
+2024-01-18 10:03:08.8563 | DEBUG | Response markup is scheduled to include browser refresh script injection.
+2024-01-18 10:03:08.8563 | TRACE | Connection id "0HN0NP6E4EAHB" sending HEADERS frame for stream ID 1 with length 66 and flags END_HEADERS.
+2024-01-18 10:03:08.8646 | TRACE | Connection id "0HN0NP6E4EAHB" sending DATA frame for stream ID 1 with length 4096 and flags NONE.
+2024-01-18 10:03:08.8646 | TRACE | Connection id "0HN0NP6E4EAHB" sending DATA frame for stream ID 1 with length 1022 and flags NONE.
+2024-01-18 10:03:08.8646 | TRACE | Connection id "0HN0NP6E4EAHB" sending DATA frame for stream ID 1 with length 81 and flags NONE.
+2024-01-18 10:03:08.8863 | DEBUG | Response markup was updated to include browser refresh script injection.
+2024-01-18 10:03:08.8863 | TRACE | Connection id "0HN0NP6E4EAHB" received HEADERS frame for stream ID 3 with length 115 and flags END_STREAM, END_HEADERS, PRIORITY.
+2024-01-18 10:03:08.8863 | TRACE | Connection id "0HN0NP6E4EAHB" sending DATA frame for stream ID 1 with length 0 and flags END_STREAM.
+2024-01-18 10:03:08.8863 | TRACE | Connection id "0HN0NP6E4EAHB" received HEADERS frame for stream ID 5 with length 51 and flags END_STREAM, END_HEADERS, PRIORITY.
+2024-01-18 10:03:08.8863 | INFO | Request starting HTTP/2 GET https://localhost:7225/_framework/aspnetcore-browser-refresh.js - -
+2024-01-18 10:03:08.8863 | INFO | Request starting HTTP/2 GET https://localhost:7225/_vs/browserLink - -
+2024-01-18 10:03:08.8863 | INFO | Request finished HTTP/2 GET https://localhost:7225/swagger/index.html - - - 200 - text/html;charset=utf-8 260.0200ms
+2024-01-18 10:03:08.8863 | TRACE | Connection id "0HN0NP6E4EAHB" sending HEADERS frame for stream ID 5 with length 60 and flags END_HEADERS.
+2024-01-18 10:03:08.8863 | TRACE | Connection id "0HN0NP6E4EAHB" sending DATA frame for stream ID 5 with length 13776 and flags NONE.
+2024-01-18 10:03:08.8929 | TRACE | Connection id "0HN0NP6E4EAHB" sending DATA frame for stream ID 5 with length 0 and flags END_STREAM.
+2024-01-18 10:03:08.8929 | INFO | Request finished HTTP/2 GET https://localhost:7225/_framework/aspnetcore-browser-refresh.js - - - 200 13776 application/javascript;+charset=utf-8 5.0495ms
+2024-01-18 10:03:08.9255 | TRACE | Connection id "0HN0NP6E4EAHB" sending HEADERS frame for stream ID 3 with length 119 and flags END_HEADERS.
+2024-01-18 10:03:08.9255 | TRACE | Connection id "0HN0NP6E4EAHB" sending DATA frame for stream ID 3 with length 9986 and flags NONE.
+2024-01-18 10:03:08.9255 | TRACE | Connection id "0HN0NP6E4EAHB" sending DATA frame for stream ID 3 with length 10240 and flags NONE.
+2024-01-18 10:03:08.9255 | TRACE | Connection id "0HN0NP6E4EAHB" sending DATA frame for stream ID 3 with length 10240 and flags NONE.
+2024-01-18 10:03:08.9255 | TRACE | Connection id "0HN0NP6E4EAHB" sending DATA frame for stream ID 3 with length 10240 and flags NONE.
+2024-01-18 10:03:08.9255 | TRACE | Connection id "0HN0NP6E4EAHB" sending DATA frame for stream ID 3 with length 10240 and flags NONE.
+2024-01-18 10:03:08.9255 | TRACE | Connection id "0HN0NP6E4EAHB" sending DATA frame for stream ID 3 with length 10240 and flags NONE.
+2024-01-18 10:03:08.9255 | TRACE | Connection id "0HN0NP6E4EAHB" sending DATA frame for stream ID 3 with length 10240 and flags NONE.
+2024-01-18 10:03:08.9255 | TRACE | Connection id "0HN0NP6E4EAHB" sending DATA frame for stream ID 3 with length 10240 and flags NONE.
+2024-01-18 10:03:08.9255 | TRACE | Connection id "0HN0NP6E4EAHB" sending DATA frame for stream ID 3 with length 10240 and flags NONE.
+2024-01-18 10:03:08.9255 | TRACE | Connection id "0HN0NP6E4EAHB" sending DATA frame for stream ID 3 with length 10240 and flags NONE.
+2024-01-18 10:03:08.9255 | TRACE | Connection id "0HN0NP6E4EAHB" sending DATA frame for stream ID 3 with length 10240 and flags NONE.
+2024-01-18 10:03:08.9255 | TRACE | Connection id "0HN0NP6E4EAHB" sending DATA frame for stream ID 3 with length 10240 and flags NONE.
+2024-01-18 10:03:08.9255 | TRACE | Connection id "0HN0NP6E4EAHB" sending DATA frame for stream ID 3 with length 10240 and flags NONE.
+2024-01-18 10:03:08.9255 | TRACE | Connection id "0HN0NP6E4EAHB" sending DATA frame for stream ID 3 with length 10240 and flags NONE.
+2024-01-18 10:03:08.9255 | TRACE | Connection id "0HN0NP6E4EAHB" sending DATA frame for stream ID 3 with length 10240 and flags NONE.
+2024-01-18 10:03:08.9255 | TRACE | Connection id "0HN0NP6E4EAHB" sending DATA frame for stream ID 3 with length 160 and flags NONE.
+2024-01-18 10:03:08.9255 | TRACE | Connection id "0HN0NP6E4EAHB" sending DATA frame for stream ID 3 with length 0 and flags END_STREAM.
+2024-01-18 10:03:08.9255 | INFO | Request finished HTTP/2 GET https://localhost:7225/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 46.4677ms
+2024-01-18 10:03:08.9732 | TRACE | Connection id "0HN0NP6E4EAHB" received HEADERS frame for stream ID 7 with length 66 and flags END_STREAM, END_HEADERS, PRIORITY.
+2024-01-18 10:03:08.9732 | INFO | Request starting HTTP/2 GET https://localhost:7225/swagger/V1/swagger.json - -
+2024-01-18 10:03:08.9732 | TRACE | All hosts are allowed.
+2024-01-18 10:03:09.2640 | TRACE | Connection id "0HN0NP6E4EAHB" sending HEADERS frame for stream ID 7 with length 35 and flags END_HEADERS.
+2024-01-18 10:03:09.2640 | TRACE | Connection id "0HN0NP6E4EAHB" sending DATA frame for stream ID 7 with length 16384 and flags NONE.
+2024-01-18 10:03:09.2640 | TRACE | Connection id "0HN0NP6E4EAHB" sending DATA frame for stream ID 7 with length 1001 and flags NONE.
+2024-01-18 10:03:09.2640 | TRACE | Connection id "0HN0NP6E4EAHB" sending DATA frame for stream ID 7 with length 0 and flags END_STREAM.
+2024-01-18 10:03:09.2640 | INFO | Request finished HTTP/2 GET https://localhost:7225/swagger/V1/swagger.json - - - 200 - application/json;charset=utf-8 290.3298ms
+2024-01-18 10:04:20.0137 | TRACE | Connection id "0HN0NP6E4EAHB" received HEADERS frame for stream ID 9 with length 69 and flags END_HEADERS, PRIORITY.
+2024-01-18 10:04:20.0186 | TRACE | Connection id "0HN0NP6E4EAHB" received PING frame for stream ID 0 with length 8 and flags NONE.
+2024-01-18 10:04:20.0186 | TRACE | Connection id "0HN0NP6E4EAHB" sending PING frame for stream ID 0 with length 8 and flags ACK.
+2024-01-18 10:04:20.0186 | INFO | Request starting HTTP/2 POST https://localhost:7225/api/user application/json 66
+2024-01-18 10:04:20.0186 | TRACE | Connection id "0HN0NP6E4EAHB" received DATA frame for stream ID 9 with length 66 and flags END_STREAM.
+2024-01-18 10:04:20.0186 | TRACE | All hosts are allowed.
+2024-01-18 10:04:20.0186 | DEBUG | POST requests are not supported
+2024-01-18 10:04:20.0186 | DEBUG | POST requests are not supported
+2024-01-18 10:04:20.0778 | DEBUG | AuthenticationScheme: Bearer was not authenticated.
+2024-01-18 10:04:20.0778 | DEBUG | The request has an origin header: 'https://localhost:7225'.
+2024-01-18 10:04:20.0778 | INFO | CORS policy execution successful.
+2024-01-18 10:04:20.1034 | DEBUG | 1 candidate(s) found for the request path '/api/user'
+2024-01-18 10:04:20.1034 | DEBUG | Endpoint 'webapi.net7.sqlsugar.Controllers.ApiLoginController.user (webapi.net7.sqlsugar)' with route pattern 'api/user' is valid for the request path '/api/user'
+2024-01-18 10:04:20.1034 | DEBUG | Request matched endpoint 'webapi.net7.sqlsugar.Controllers.ApiLoginController.user (webapi.net7.sqlsugar)'
+2024-01-18 10:04:20.1202 | DEBUG | Connection id "0HN0NP6E4EAHB", Request id "0HN0NP6E4EAHB:00000009": started reading request body.
+2024-01-18 10:04:20.1202 | DEBUG | Connection id "0HN0NP6E4EAHB", Request id "0HN0NP6E4EAHB:00000009": done reading request body.
+2024-01-18 10:04:20.1282 | DEBUG | Static files was skipped as the request already matched an endpoint.
+2024-01-18 10:04:20.1282 | TRACE | Performing protect operation to key {34692722-1836-4131-841e-52bc30c5cc34} with purposes ('D:\BaiduSyncdisk\webapi.net7+sqlsugar\webapi.net7.sqlsugar\webapi.net7.sqlsugar\', 'SessionMiddleware').
+2024-01-18 10:04:20.1282 | INFO | Executing endpoint 'webapi.net7.sqlsugar.Controllers.ApiLoginController.user (webapi.net7.sqlsugar)'
+2024-01-18 10:04:20.1490 | INFO | Route matched with {action = "user", controller = "ApiLogin"}. Executing controller action with signature System.Object user(System.Object) on controller webapi.net7.sqlsugar.Controllers.ApiLoginController (webapi.net7.sqlsugar).
+2024-01-18 10:04:20.1490 | DEBUG | Execution plan of authorization filters (in the following order): None
+2024-01-18 10:04:20.1490 | DEBUG | Execution plan of resource filters (in the following order): None
+2024-01-18 10:04:20.1490 | DEBUG | Execution plan of action filters (in the following order): Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000), Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)
+2024-01-18 10:04:20.1490 | DEBUG | Execution plan of exception filters (in the following order): None
+2024-01-18 10:04:20.1490 | DEBUG | Execution plan of result filters (in the following order): Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)
+2024-01-18 10:04:20.1490 | DEBUG | Executing controller factory for controller webapi.net7.sqlsugar.Controllers.ApiLoginController (webapi.net7.sqlsugar)
+2024-01-18 10:04:20.1490 | DEBUG | Executed controller factory for controller webapi.net7.sqlsugar.Controllers.ApiLoginController (webapi.net7.sqlsugar)
+2024-01-18 10:04:20.1490 | DEBUG | Attempting to bind parameter 'user' of type 'System.Object' ...
+2024-01-18 10:04:20.1490 | DEBUG | Attempting to bind parameter 'user' of type 'System.Object' using the name '' in request data ...
+2024-01-18 10:04:20.1490 | DEBUG | Selected input formatter 'Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonInputFormatter' for content type 'application/json'.
+2024-01-18 10:04:20.1490 | DEBUG | JSON input formatter succeeded, deserializing to type 'System.Object'
+2024-01-18 10:04:20.1490 | DEBUG | Done attempting to bind parameter 'user' of type 'System.Object'.
+2024-01-18 10:04:20.1490 | DEBUG | Done attempting to bind parameter 'user' of type 'System.Object'.
+2024-01-18 10:04:20.1490 | DEBUG | Attempting to validate the bound parameter 'user' of type 'System.Object' ...
+2024-01-18 10:04:20.1602 | DEBUG | Done attempting to validate the bound parameter 'user' of type 'System.Object'.
+2024-01-18 10:04:20.1602 | TRACE | Action Filter: Before executing OnActionExecuting on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter.
+2024-01-18 10:04:20.1602 | TRACE | Action Filter: After executing OnActionExecuting on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter.
+2024-01-18 10:04:20.1602 | TRACE | Action Filter: Before executing OnActionExecuting on filter Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter.
+2024-01-18 10:04:20.1602 | TRACE | Action Filter: After executing OnActionExecuting on filter Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter.
+2024-01-18 10:04:20.1602 | INFO | Executing action method webapi.net7.sqlsugar.Controllers.ApiLoginController.user (webapi.net7.sqlsugar) - Validation state: Valid
+2024-01-18 10:04:20.1602 | TRACE | Executing action method webapi.net7.sqlsugar.Controllers.ApiLoginController.user (webapi.net7.sqlsugar) with arguments ({
+"name":"admin",
+"password":"123",
+"url":"http://www.baidu.com"
+})
+2024-01-18 10:04:20.2659 | INFO | Executed action method webapi.net7.sqlsugar.Controllers.ApiLoginController.user (webapi.net7.sqlsugar), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 98.7636ms.
+2024-01-18 10:04:20.2659 | TRACE | Action Filter: Before executing OnActionExecuted on filter Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter.
+2024-01-18 10:04:20.2659 | TRACE | Action Filter: After executing OnActionExecuted on filter Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter.
+2024-01-18 10:04:20.2659 | TRACE | Action Filter: Before executing OnActionExecuted on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter.
+2024-01-18 10:04:20.2659 | TRACE | Action Filter: After executing OnActionExecuted on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter.
+2024-01-18 10:04:20.2659 | TRACE | Result Filter: Before executing OnResultExecuting on filter Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter.
+2024-01-18 10:04:20.2659 | TRACE | Result Filter: After executing OnResultExecuting on filter Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter.
+2024-01-18 10:04:20.2659 | TRACE | Before executing action result Microsoft.AspNetCore.Mvc.ObjectResult.
+2024-01-18 10:04:20.2659 | DEBUG | List of registered output formatters, in the following order: Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter, Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter, Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter, Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter
+2024-01-18 10:04:20.2686 | DEBUG | No information found on request to perform content negotiation.
+2024-01-18 10:04:20.2686 | DEBUG | Attempting to select an output formatter without using a content type as no explicit content types were specified for the response.
+2024-01-18 10:04:20.2686 | DEBUG | Attempting to select the first formatter in the output formatters list which can write the result.
+2024-01-18 10:04:20.2686 | DEBUG | Selected output formatter 'Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter' and content type 'application/json' to write the response.
+2024-01-18 10:04:20.2686 | INFO | Executing ObjectResult, writing value of type '<>f__AnonymousType3`3[[System.String, System.Private.CoreLib, Version=7.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=7.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=7.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2024-01-18 10:04:20.2686 | TRACE | After executing action result Microsoft.AspNetCore.Mvc.ObjectResult.
+2024-01-18 10:04:20.2686 | TRACE | Result Filter: Before executing OnResultExecuted on filter Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter.
+2024-01-18 10:04:20.2686 | TRACE | Result Filter: After executing OnResultExecuted on filter Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter.
+2024-01-18 10:04:20.2686 | INFO | Executed action webapi.net7.sqlsugar.Controllers.ApiLoginController.user (webapi.net7.sqlsugar) in 124.1037ms
+2024-01-18 10:04:20.2686 | INFO | Executed endpoint 'webapi.net7.sqlsugar.Controllers.ApiLoginController.user (webapi.net7.sqlsugar)'
+2024-01-18 10:04:20.2686 | TRACE | Connection id "0HN0NP6E4EAHB" sending HEADERS frame for stream ID 9 with length 137 and flags END_HEADERS.
+2024-01-18 10:04:20.2686 | TRACE | Connection id "0HN0NP6E4EAHB" sending DATA frame for stream ID 9 with length 67 and flags NONE.
+2024-01-18 10:04:20.2686 | TRACE | Connection id "0HN0NP6E4EAHB" received WINDOW_UPDATE frame for stream ID 0 with length 4 and flags 0x0.
+2024-01-18 10:04:20.4398 | TRACE | Connection id "0HN0NP6E4EAHB" sending DATA frame for stream ID 9 with length 0 and flags END_STREAM.
+2024-01-18 10:04:20.4398 | INFO | Request finished HTTP/2 POST https://localhost:7225/api/user application/json 66 - 200 - application/json;+charset=utf-8 421.2200ms
+2024-01-18 22:36:38.7622 | DEBUG | Registered model binder providers, in the following order: Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DateTimeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.TryParseModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinderProvider
+2024-01-18 22:36:41.2123 | DEBUG | Registered SignalR Protocol: json, implemented by Microsoft.AspNetCore.SignalR.Protocol.JsonHubProtocol.
+2024-01-18 22:36:41.2252 | DEBUG | Hosting starting
+2024-01-18 22:36:41.2664 | INFO | User profile is available. Using 'C:\Users\Administrator\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-01-18 22:36:41.2733 | DEBUG | Reading data from file 'C:\Users\Administrator\AppData\Local\ASP.NET\DataProtection-Keys\key-34692722-1836-4131-841e-52bc30c5cc34.xml'.
+2024-01-18 22:36:41.2733 | DEBUG | Reading data from file 'C:\Users\Administrator\AppData\Local\ASP.NET\DataProtection-Keys\key-691d2c1e-819d-4ace-bf8c-4b95df9c96f1.xml'.
+2024-01-18 22:36:41.2733 | DEBUG | Found key {34692722-1836-4131-841e-52bc30c5cc34}.
+2024-01-18 22:36:41.2887 | DEBUG | Found key {691d2c1e-819d-4ace-bf8c-4b95df9c96f1}.
+2024-01-18 22:36:41.2887 | DEBUG | Considering key {34692722-1836-4131-841e-52bc30c5cc34} with expiration date 2024-04-15 01:35:41Z as default key.
+2024-01-18 22:36:41.2887 | DEBUG | Forwarded activator type request from Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Version=7.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60 to Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60
+2024-01-18 22:36:41.2998 | DEBUG | Decrypting secret element using Windows DPAPI.
+2024-01-18 22:36:41.2998 | DEBUG | Forwarded activator type request from Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Version=7.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60 to Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60
+2024-01-18 22:36:41.2998 | DEBUG | Opening CNG algorithm 'AES' from provider '(null)' with chaining mode CBC.
+2024-01-18 22:36:41.2998 | DEBUG | Opening CNG algorithm 'SHA256' from provider '(null)' with HMAC.
+2024-01-18 22:36:41.2998 | DEBUG | Using key {34692722-1836-4131-841e-52bc30c5cc34} as the default key.
+2024-01-18 22:36:41.2998 | DEBUG | Key ring with default key {34692722-1836-4131-841e-52bc30c5cc34} was loaded during application startup.
+2024-01-18 22:36:41.6189 | INFO | Now listening on: https://localhost:7225
+2024-01-18 22:36:41.6189 | INFO | Now listening on: http://localhost:5148
+2024-01-18 22:36:41.6189 | DEBUG | Loaded hosting startup assembly webapi.net7.sqlsugar
+2024-01-18 22:36:41.6189 | DEBUG | Loaded hosting startup assembly Microsoft.AspNetCore.Watch.BrowserRefresh
+2024-01-18 22:36:41.6189 | DEBUG | Loaded hosting startup assembly Microsoft.WebTools.BrowserLink.Net
+2024-01-18 22:36:41.6189 | INFO | Application started. Press Ctrl+C to shut down.
+2024-01-18 22:36:41.6189 | INFO | Hosting environment: Development
+2024-01-18 22:36:41.6189 | INFO | Content root path: D:\BaiduSyncdisk\webapi.net7+sqlsugar\webapi.net7.sqlsugar\webapi.net7.sqlsugar
+2024-01-18 22:36:41.6289 | TRACE | Starting connection heartbeat.
+2024-01-18 22:36:41.6289 | DEBUG | Hosting started
+2024-01-18 22:36:42.0851 | DEBUG | Connection id "0HN0O6BHKVBKS" accepted.
+2024-01-18 22:36:42.0851 | DEBUG | Connection id "0HN0O6BHKVBKS" started.
+2024-01-18 22:36:42.0851 | DEBUG | Connection id "0HN0O6BHKVBKT" accepted.
+2024-01-18 22:36:42.0851 | DEBUG | Connection id "0HN0O6BHKVBKT" started.
+2024-01-18 22:36:42.4881 | DEBUG | Connection id "0HN0O6BHKVBKU" accepted.
+2024-01-18 22:36:42.4881 | DEBUG | Connection id "0HN0O6BHKVBKU" started.
+2024-01-18 22:36:42.5644 | DEBUG | Connection 0HN0O6BHKVBKU established using the following protocol: Tls12
+2024-01-18 22:36:42.6112 | TRACE | Connection id "0HN0O6BHKVBKU" sending SETTINGS frame for stream ID 0 with length 24 and flags NONE.
+2024-01-18 22:36:42.6169 | TRACE | Connection id "0HN0O6BHKVBKU" sending WINDOW_UPDATE frame for stream ID 0 with length 4 and flags 0x0.
+2024-01-18 22:36:42.6169 | TRACE | Connection id "0HN0O6BHKVBKU" received SETTINGS frame for stream ID 0 with length 24 and flags NONE.
+2024-01-18 22:36:42.6169 | TRACE | Connection id "0HN0O6BHKVBKU" sending SETTINGS frame for stream ID 0 with length 0 and flags ACK.
+2024-01-18 22:36:42.6169 | TRACE | Connection id "0HN0O6BHKVBKU" received WINDOW_UPDATE frame for stream ID 0 with length 4 and flags 0x0.
+2024-01-18 22:36:42.6169 | TRACE | Connection id "0HN0O6BHKVBKU" received HEADERS frame for stream ID 1 with length 450 and flags END_STREAM, END_HEADERS, PRIORITY.
+2024-01-18 22:36:42.6479 | TRACE | Connection id "0HN0O6BHKVBKU" received SETTINGS frame for stream ID 0 with length 0 and flags ACK.
+2024-01-18 22:36:42.6776 | INFO | Request starting HTTP/2 GET https://localhost:7225/swagger/index.html - -
+2024-01-18 22:36:42.8969 | DEBUG | Wildcard detected, all requests with hosts will be allowed.
+2024-01-18 22:36:42.8969 | TRACE | All hosts are allowed.
+2024-01-18 22:36:43.0640 | DEBUG | Response markup is scheduled to include browser refresh script injection.
+2024-01-18 22:36:43.0676 | TRACE | Connection id "0HN0O6BHKVBKU" sending HEADERS frame for stream ID 1 with length 66 and flags END_HEADERS.
+2024-01-18 22:36:43.0676 | TRACE | Connection id "0HN0O6BHKVBKU" sending DATA frame for stream ID 1 with length 4096 and flags NONE.
+2024-01-18 22:36:43.0841 | TRACE | Connection id "0HN0O6BHKVBKU" sending DATA frame for stream ID 1 with length 1022 and flags NONE.
+2024-01-18 22:36:43.0841 | TRACE | Connection id "0HN0O6BHKVBKU" sending DATA frame for stream ID 1 with length 81 and flags NONE.
+2024-01-18 22:36:43.0841 | DEBUG | Response markup was updated to include browser refresh script injection.
+2024-01-18 22:36:43.0841 | TRACE | Connection id "0HN0O6BHKVBKU" received HEADERS frame for stream ID 3 with length 115 and flags END_STREAM, END_HEADERS, PRIORITY.
+2024-01-18 22:36:43.0841 | TRACE | Connection id "0HN0O6BHKVBKU" received HEADERS frame for stream ID 5 with length 51 and flags END_STREAM, END_HEADERS, PRIORITY.
+2024-01-18 22:36:43.0841 | INFO | Request starting HTTP/2 GET https://localhost:7225/_vs/browserLink - -
+2024-01-18 22:36:43.0841 | INFO | Request starting HTTP/2 GET https://localhost:7225/_framework/aspnetcore-browser-refresh.js - -
+2024-01-18 22:36:43.0958 | TRACE | Connection id "0HN0O6BHKVBKU" sending DATA frame for stream ID 1 with length 0 and flags END_STREAM.
+2024-01-18 22:36:43.0958 | INFO | Request finished HTTP/2 GET https://localhost:7225/swagger/index.html - - - 200 - text/html;charset=utf-8 427.2428ms
+2024-01-18 22:36:43.0958 | TRACE | Connection id "0HN0O6BHKVBKU" sending HEADERS frame for stream ID 5 with length 60 and flags END_HEADERS.
+2024-01-18 22:36:43.0958 | TRACE | Connection id "0HN0O6BHKVBKU" sending DATA frame for stream ID 5 with length 13776 and flags NONE.
+2024-01-18 22:36:43.0958 | INFO | Request finished HTTP/2 GET https://localhost:7225/_framework/aspnetcore-browser-refresh.js - - - 200 13776 application/javascript;+charset=utf-8 15.6886ms
+2024-01-18 22:36:43.0958 | TRACE | Connection id "0HN0O6BHKVBKU" sending DATA frame for stream ID 5 with length 0 and flags END_STREAM.
+2024-01-18 22:36:43.1853 | TRACE | Connection id "0HN0O6BHKVBKU" sending HEADERS frame for stream ID 3 with length 119 and flags END_HEADERS.
+2024-01-18 22:36:43.1853 | TRACE | Connection id "0HN0O6BHKVBKU" sending DATA frame for stream ID 3 with length 9986 and flags NONE.
+2024-01-18 22:36:43.1896 | TRACE | Connection id "0HN0O6BHKVBKU" sending DATA frame for stream ID 3 with length 10240 and flags NONE.
+2024-01-18 22:36:43.1896 | TRACE | Connection id "0HN0O6BHKVBKU" sending DATA frame for stream ID 3 with length 10240 and flags NONE.
+2024-01-18 22:36:43.1896 | TRACE | Connection id "0HN0O6BHKVBKU" sending DATA frame for stream ID 3 with length 10240 and flags NONE.
+2024-01-18 22:36:43.1896 | TRACE | Connection id "0HN0O6BHKVBKU" sending DATA frame for stream ID 3 with length 10240 and flags NONE.
+2024-01-18 22:36:43.1896 | TRACE | Connection id "0HN0O6BHKVBKU" sending DATA frame for stream ID 3 with length 10240 and flags NONE.
+2024-01-18 22:36:43.1896 | TRACE | Connection id "0HN0O6BHKVBKU" sending DATA frame for stream ID 3 with length 10240 and flags NONE.
+2024-01-18 22:36:43.1896 | TRACE | Connection id "0HN0O6BHKVBKU" sending DATA frame for stream ID 3 with length 10240 and flags NONE.
+2024-01-18 22:36:43.1896 | TRACE | Connection id "0HN0O6BHKVBKU" sending DATA frame for stream ID 3 with length 10240 and flags NONE.
+2024-01-18 22:36:43.1896 | TRACE | Connection id "0HN0O6BHKVBKU" sending DATA frame for stream ID 3 with length 10240 and flags NONE.
+2024-01-18 22:36:43.1896 | TRACE | Connection id "0HN0O6BHKVBKU" sending DATA frame for stream ID 3 with length 10240 and flags NONE.
+2024-01-18 22:36:43.1896 | TRACE | Connection id "0HN0O6BHKVBKU" sending DATA frame for stream ID 3 with length 10240 and flags NONE.
+2024-01-18 22:36:43.1896 | TRACE | Connection id "0HN0O6BHKVBKU" sending DATA frame for stream ID 3 with length 10240 and flags NONE.
+2024-01-18 22:36:43.1896 | TRACE | Connection id "0HN0O6BHKVBKU" sending DATA frame for stream ID 3 with length 10240 and flags NONE.
+2024-01-18 22:36:43.1896 | TRACE | Connection id "0HN0O6BHKVBKU" sending DATA frame for stream ID 3 with length 10240 and flags NONE.
+2024-01-18 22:36:43.1896 | TRACE | Connection id "0HN0O6BHKVBKU" sending DATA frame for stream ID 3 with length 160 and flags NONE.
+2024-01-18 22:36:43.1896 | INFO | Request finished HTTP/2 GET https://localhost:7225/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 103.2852ms
+2024-01-18 22:36:43.1896 | TRACE | Connection id "0HN0O6BHKVBKU" sending DATA frame for stream ID 3 with length 0 and flags END_STREAM.
+2024-01-18 22:36:43.2500 | TRACE | Connection id "0HN0O6BHKVBKU" received HEADERS frame for stream ID 7 with length 66 and flags END_STREAM, END_HEADERS, PRIORITY.
+2024-01-18 22:36:43.2538 | INFO | Request starting HTTP/2 GET https://localhost:7225/swagger/V1/swagger.json - -
+2024-01-18 22:36:43.2538 | TRACE | All hosts are allowed.
+2024-01-18 22:36:43.6130 | TRACE | Connection id "0HN0O6BHKVBKU" sending HEADERS frame for stream ID 7 with length 65 and flags END_HEADERS.
+2024-01-18 22:36:43.6130 | TRACE | Connection id "0HN0O6BHKVBKU" sending DATA frame for stream ID 7 with length 16384 and flags NONE.
+2024-01-18 22:36:43.6130 | TRACE | Connection id "0HN0O6BHKVBKU" sending DATA frame for stream ID 7 with length 1503 and flags NONE.
+2024-01-18 22:36:43.6130 | TRACE | Connection id "0HN0O6BHKVBKU" sending DATA frame for stream ID 7 with length 0 and flags END_STREAM.
+2024-01-18 22:36:43.6130 | INFO | Request finished HTTP/2 GET https://localhost:7225/swagger/V1/swagger.json - - - 200 - application/json;charset=utf-8 361.5569ms
+2024-01-18 22:36:52.1126 | DEBUG | Authentication of the HTTPS connection timed out.
+2024-01-18 22:36:52.1126 | DEBUG | Authentication of the HTTPS connection timed out.
+2024-01-18 22:36:52.1126 | DEBUG | Connection id "0HN0O6BHKVBKT" stopped.
+2024-01-18 22:36:52.1126 | DEBUG | Connection id "0HN0O6BHKVBKS" stopped.
+2024-01-18 22:36:52.1126 | DEBUG | Connection id "0HN0O6BHKVBKT" sending FIN because: "The Socket transport's send loop completed gracefully."
+2024-01-18 22:36:52.1126 | DEBUG | Connection id "0HN0O6BHKVBKS" sending FIN because: "The Socket transport's send loop completed gracefully."
+2024-01-18 22:37:10.7457 | TRACE | Connection id "0HN0O6BHKVBKU" received HEADERS frame for stream ID 9 with length 73 and flags END_HEADERS, PRIORITY.
+2024-01-18 22:37:10.7457 | TRACE | Connection id "0HN0O6BHKVBKU" received PING frame for stream ID 0 with length 8 and flags NONE.
+2024-01-18 22:37:10.7457 | INFO | Request starting HTTP/2 POST https://localhost:7225/api/mysqluser application/json 12
+2024-01-18 22:37:10.7457 | TRACE | Connection id "0HN0O6BHKVBKU" sending PING frame for stream ID 0 with length 8 and flags ACK.
+2024-01-18 22:37:10.7457 | TRACE | All hosts are allowed.
+2024-01-18 22:37:10.7457 | TRACE | Connection id "0HN0O6BHKVBKU" received DATA frame for stream ID 9 with length 12 and flags END_STREAM.
+2024-01-18 22:37:10.7576 | DEBUG | POST requests are not supported
+2024-01-18 22:37:10.7576 | DEBUG | POST requests are not supported
+2024-01-18 22:37:10.8613 | DEBUG | AuthenticationScheme: Bearer was not authenticated.
+2024-01-18 22:37:10.8633 | DEBUG | The request has an origin header: 'https://localhost:7225'.
+2024-01-18 22:37:10.8633 | INFO | CORS policy execution successful.
+2024-01-18 22:37:10.8872 | DEBUG | 1 candidate(s) found for the request path '/api/mysqluser'
+2024-01-18 22:37:10.8872 | DEBUG | Endpoint 'webapi.net7.sqlsugar.Controllers.ApiLoginController.mysqluser (webapi.net7.sqlsugar)' with route pattern 'api/mysqluser' is valid for the request path '/api/mysqluser'
+2024-01-18 22:37:10.8872 | DEBUG | Request matched endpoint 'webapi.net7.sqlsugar.Controllers.ApiLoginController.mysqluser (webapi.net7.sqlsugar)'
+2024-01-18 22:37:10.9158 | DEBUG | Connection id "0HN0O6BHKVBKU", Request id "0HN0O6BHKVBKU:00000009": started reading request body.
+2024-01-18 22:37:10.9158 | DEBUG | Connection id "0HN0O6BHKVBKU", Request id "0HN0O6BHKVBKU:00000009": done reading request body.
+2024-01-18 22:37:10.9280 | DEBUG | Static files was skipped as the request already matched an endpoint.
+2024-01-18 22:37:10.9280 | TRACE | Performing protect operation to key {34692722-1836-4131-841e-52bc30c5cc34} with purposes ('D:\BaiduSyncdisk\webapi.net7+sqlsugar\webapi.net7.sqlsugar\webapi.net7.sqlsugar\', 'SessionMiddleware').
+2024-01-18 22:37:10.9280 | INFO | Executing endpoint 'webapi.net7.sqlsugar.Controllers.ApiLoginController.mysqluser (webapi.net7.sqlsugar)'
+2024-01-18 22:37:10.9544 | INFO | Route matched with {action = "mysqluser", controller = "ApiLogin"}. Executing controller action with signature System.Object mysqluser(System.Object) on controller webapi.net7.sqlsugar.Controllers.ApiLoginController (webapi.net7.sqlsugar).
+2024-01-18 22:37:10.9544 | DEBUG | Execution plan of authorization filters (in the following order): None
+2024-01-18 22:37:10.9544 | DEBUG | Execution plan of resource filters (in the following order): None
+2024-01-18 22:37:10.9544 | DEBUG | Execution plan of action filters (in the following order): Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000), Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)
+2024-01-18 22:37:10.9544 | DEBUG | Execution plan of exception filters (in the following order): None
+2024-01-18 22:37:10.9544 | DEBUG | Execution plan of result filters (in the following order): Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)
+2024-01-18 22:37:10.9567 | DEBUG | Executing controller factory for controller webapi.net7.sqlsugar.Controllers.ApiLoginController (webapi.net7.sqlsugar)
+2024-01-18 22:37:10.9567 | DEBUG | Executed controller factory for controller webapi.net7.sqlsugar.Controllers.ApiLoginController (webapi.net7.sqlsugar)
+2024-01-18 22:37:10.9567 | DEBUG | Attempting to bind parameter 'user' of type 'System.Object' ...
+2024-01-18 22:37:10.9567 | DEBUG | Attempting to bind parameter 'user' of type 'System.Object' using the name '' in request data ...
+2024-01-18 22:37:10.9567 | DEBUG | Selected input formatter 'Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonInputFormatter' for content type 'application/json'.
+2024-01-18 22:37:10.9567 | DEBUG | JSON input formatter threw an exception: ',' is invalid after a property name. Expected a ':'. Path: $ | LineNumber: 1 | BytePositionInLine: 4.
+2024-01-18 22:37:10.9567 | DEBUG | Done attempting to bind parameter 'user' of type 'System.Object'.
+2024-01-18 22:37:10.9567 | DEBUG | Done attempting to bind parameter 'user' of type 'System.Object'.
+2024-01-18 22:37:10.9567 | DEBUG | Attempting to validate the bound parameter 'user' of type 'System.Object' ...
+2024-01-18 22:37:10.9743 | DEBUG | Done attempting to validate the bound parameter 'user' of type 'System.Object'.
+2024-01-18 22:37:10.9743 | TRACE | Action Filter: Before executing OnActionExecuting on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter.
+2024-01-18 22:37:10.9743 | TRACE | Action Filter: After executing OnActionExecuting on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter.
+2024-01-18 22:37:10.9743 | TRACE | Action Filter: Before executing OnActionExecuting on filter Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter.
+2024-01-18 22:37:10.9743 | DEBUG | The request has model state errors, returning an error response.
+2024-01-18 22:37:10.9743 | TRACE | Action Filter: After executing OnActionExecuting on filter Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter.
+2024-01-18 22:37:10.9743 | DEBUG | Request was short circuited at action filter 'Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter'.
+2024-01-18 22:37:10.9743 | TRACE | Action Filter: Before executing OnActionExecuted on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter.
+2024-01-18 22:37:10.9743 | TRACE | Action Filter: After executing OnActionExecuted on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter.
+2024-01-18 22:37:10.9743 | TRACE | Result Filter: Before executing OnResultExecuting on filter Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter.
+2024-01-18 22:37:10.9743 | TRACE | Result Filter: After executing OnResultExecuting on filter Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter.
+2024-01-18 22:37:10.9743 | TRACE | Before executing action result Microsoft.AspNetCore.Mvc.BadRequestObjectResult.
+2024-01-18 22:37:10.9743 | DEBUG | List of registered output formatters, in the following order: Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter, Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter, Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter, Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter
+2024-01-18 22:37:10.9743 | DEBUG | No information found on request to perform content negotiation.
+2024-01-18 22:37:10.9743 | DEBUG | Attempting to select the first output formatter in the output formatters list which supports a content type from the explicitly specified content types 'application/problem+json, application/problem+xml, application/problem+json, application/problem+xml'.
+2024-01-18 22:37:10.9743 | DEBUG | Selected output formatter 'Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter' and content type 'application/problem+json' to write the response.
+2024-01-18 22:37:10.9743 | INFO | Executing BadRequestObjectResult, writing value of type 'Microsoft.AspNetCore.Mvc.ValidationProblemDetails'.
+2024-01-18 22:37:10.9743 | TRACE | After executing action result Microsoft.AspNetCore.Mvc.BadRequestObjectResult.
+2024-01-18 22:37:10.9743 | TRACE | Result Filter: Before executing OnResultExecuted on filter Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter.
+2024-01-18 22:37:10.9743 | TRACE | Result Filter: After executing OnResultExecuted on filter Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter.
+2024-01-18 22:37:10.9743 | INFO | Executed action webapi.net7.sqlsugar.Controllers.ApiLoginController.mysqluser (webapi.net7.sqlsugar) in 28.7988ms
+2024-01-18 22:37:10.9743 | INFO | Executed endpoint 'webapi.net7.sqlsugar.Controllers.ApiLoginController.mysqluser (webapi.net7.sqlsugar)'
+2024-01-18 22:37:10.9879 | TRACE | Connection id "0HN0O6BHKVBKU" sending HEADERS frame for stream ID 9 with length 145 and flags END_HEADERS.
+2024-01-18 22:37:10.9879 | TRACE | Connection id "0HN0O6BHKVBKU" sending DATA frame for stream ID 9 with length 352 and flags NONE.
+2024-01-18 22:37:10.9879 | TRACE | Connection id "0HN0O6BHKVBKU" received WINDOW_UPDATE frame for stream ID 0 with length 4 and flags 0x0.
+2024-01-18 22:37:11.2191 | TRACE | Connection id "0HN0O6BHKVBKU" sending DATA frame for stream ID 9 with length 0 and flags END_STREAM.
+2024-01-18 22:37:11.2191 | INFO | Request finished HTTP/2 POST https://localhost:7225/api/mysqluser application/json 12 - 400 - application/problem+json;+charset=utf-8 473.0379ms
+2024-01-18 22:37:43.4502 | TRACE | Connection id "0HN0O6BHKVBKU" received HEADERS frame for stream ID 11 with length 35 and flags END_HEADERS, PRIORITY.
+2024-01-18 22:37:43.4502 | TRACE | Connection id "0HN0O6BHKVBKU" received PING frame for stream ID 0 with length 8 and flags NONE.
+2024-01-18 22:37:43.4502 | TRACE | Connection id "0HN0O6BHKVBKU" sending PING frame for stream ID 0 with length 8 and flags ACK.
+2024-01-18 22:37:43.4502 | TRACE | Connection id "0HN0O6BHKVBKU" received DATA frame for stream ID 11 with length 12 and flags END_STREAM.
+2024-01-18 22:37:43.4502 | INFO | Request starting HTTP/2 POST https://localhost:7225/api/mysqluser application/json 12
+2024-01-18 22:37:43.4502 | TRACE | All hosts are allowed.
+2024-01-18 22:37:43.4502 | DEBUG | POST requests are not supported
+2024-01-18 22:37:43.4502 | DEBUG | POST requests are not supported
+2024-01-18 22:37:43.4502 | DEBUG | AuthenticationScheme: Bearer was not authenticated.
+2024-01-18 22:37:43.4502 | DEBUG | The request has an origin header: 'https://localhost:7225'.
+2024-01-18 22:37:43.4502 | INFO | CORS policy execution successful.
+2024-01-18 22:37:43.4642 | DEBUG | 1 candidate(s) found for the request path '/api/mysqluser'
+2024-01-18 22:37:43.4642 | DEBUG | Endpoint 'webapi.net7.sqlsugar.Controllers.ApiLoginController.mysqluser (webapi.net7.sqlsugar)' with route pattern 'api/mysqluser' is valid for the request path '/api/mysqluser'
+2024-01-18 22:37:43.4642 | DEBUG | Request matched endpoint 'webapi.net7.sqlsugar.Controllers.ApiLoginController.mysqluser (webapi.net7.sqlsugar)'
+2024-01-18 22:37:43.4642 | DEBUG | Connection id "0HN0O6BHKVBKU", Request id "0HN0O6BHKVBKU:0000000B": started reading request body.
+2024-01-18 22:37:43.4642 | DEBUG | Connection id "0HN0O6BHKVBKU", Request id "0HN0O6BHKVBKU:0000000B": done reading request body.
+2024-01-18 22:37:43.4642 | DEBUG | Static files was skipped as the request already matched an endpoint.
+2024-01-18 22:37:43.4642 | TRACE | Performing protect operation to key {34692722-1836-4131-841e-52bc30c5cc34} with purposes ('D:\BaiduSyncdisk\webapi.net7+sqlsugar\webapi.net7.sqlsugar\webapi.net7.sqlsugar\', 'SessionMiddleware').
+2024-01-18 22:37:43.4642 | INFO | Executing endpoint 'webapi.net7.sqlsugar.Controllers.ApiLoginController.mysqluser (webapi.net7.sqlsugar)'
+2024-01-18 22:37:43.4642 | INFO | Route matched with {action = "mysqluser", controller = "ApiLogin"}. Executing controller action with signature System.Object mysqluser(System.Object) on controller webapi.net7.sqlsugar.Controllers.ApiLoginController (webapi.net7.sqlsugar).
+2024-01-18 22:37:43.4642 | DEBUG | Execution plan of authorization filters (in the following order): None
+2024-01-18 22:37:43.4642 | DEBUG | Execution plan of resource filters (in the following order): None
+2024-01-18 22:37:43.4642 | DEBUG | Execution plan of action filters (in the following order): Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000), Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)
+2024-01-18 22:37:43.4642 | DEBUG | Execution plan of exception filters (in the following order): None
+2024-01-18 22:37:43.4642 | DEBUG | Execution plan of result filters (in the following order): Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)
+2024-01-18 22:37:43.4642 | DEBUG | Executing controller factory for controller webapi.net7.sqlsugar.Controllers.ApiLoginController (webapi.net7.sqlsugar)
+2024-01-18 22:37:43.4642 | DEBUG | Executed controller factory for controller webapi.net7.sqlsugar.Controllers.ApiLoginController (webapi.net7.sqlsugar)
+2024-01-18 22:37:43.4642 | DEBUG | Attempting to bind parameter 'user' of type 'System.Object' ...
+2024-01-18 22:37:43.4642 | DEBUG | Attempting to bind parameter 'user' of type 'System.Object' using the name '' in request data ...
+2024-01-18 22:37:43.4642 | DEBUG | Selected input formatter 'Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonInputFormatter' for content type 'application/json'.
+2024-01-18 22:37:43.4642 | DEBUG | JSON input formatter threw an exception: ',' is invalid after a property name. Expected a ':'. Path: $ | LineNumber: 1 | BytePositionInLine: 4.
+2024-01-18 22:37:43.4642 | DEBUG | Done attempting to bind parameter 'user' of type 'System.Object'.
+2024-01-18 22:37:43.4642 | DEBUG | Done attempting to bind parameter 'user' of type 'System.Object'.
+2024-01-18 22:37:43.4642 | DEBUG | Attempting to validate the bound parameter 'user' of type 'System.Object' ...
+2024-01-18 22:37:43.4642 | DEBUG | Done attempting to validate the bound parameter 'user' of type 'System.Object'.
+2024-01-18 22:37:43.4642 | TRACE | Action Filter: Before executing OnActionExecuting on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter.
+2024-01-18 22:37:43.4642 | TRACE | Action Filter: After executing OnActionExecuting on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter.
+2024-01-18 22:37:43.4642 | TRACE | Action Filter: Before executing OnActionExecuting on filter Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter.
+2024-01-18 22:37:43.4642 | DEBUG | The request has model state errors, returning an error response.
+2024-01-18 22:37:43.4642 | TRACE | Action Filter: After executing OnActionExecuting on filter Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter.
+2024-01-18 22:37:43.4642 | DEBUG | Request was short circuited at action filter 'Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter'.
+2024-01-18 22:37:43.4642 | TRACE | Action Filter: Before executing OnActionExecuted on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter.
+2024-01-18 22:37:43.4642 | TRACE | Action Filter: After executing OnActionExecuted on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter.
+2024-01-18 22:37:43.4642 | TRACE | Result Filter: Before executing OnResultExecuting on filter Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter.
+2024-01-18 22:37:43.4642 | TRACE | Result Filter: After executing OnResultExecuting on filter Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter.
+2024-01-18 22:37:43.4642 | TRACE | Before executing action result Microsoft.AspNetCore.Mvc.BadRequestObjectResult.
+2024-01-18 22:37:43.4642 | DEBUG | List of registered output formatters, in the following order: Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter, Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter, Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter, Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter
+2024-01-18 22:37:43.4642 | DEBUG | No information found on request to perform content negotiation.
+2024-01-18 22:37:43.4642 | DEBUG | Attempting to select the first output formatter in the output formatters list which supports a content type from the explicitly specified content types 'application/problem+json, application/problem+xml, application/problem+json, application/problem+xml'.
+2024-01-18 22:37:43.4642 | DEBUG | Selected output formatter 'Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter' and content type 'application/problem+json' to write the response.
+2024-01-18 22:37:43.4642 | INFO | Executing BadRequestObjectResult, writing value of type 'Microsoft.AspNetCore.Mvc.ValidationProblemDetails'.
+2024-01-18 22:37:43.4642 | TRACE | After executing action result Microsoft.AspNetCore.Mvc.BadRequestObjectResult.
+2024-01-18 22:37:43.4642 | TRACE | Result Filter: Before executing OnResultExecuted on filter Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter.
+2024-01-18 22:37:43.4642 | TRACE | Result Filter: After executing OnResultExecuted on filter Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter.
+2024-01-18 22:37:43.4642 | INFO | Executed action webapi.net7.sqlsugar.Controllers.ApiLoginController.mysqluser (webapi.net7.sqlsugar) in 3.0461ms
+2024-01-18 22:37:43.4642 | INFO | Executed endpoint 'webapi.net7.sqlsugar.Controllers.ApiLoginController.mysqluser (webapi.net7.sqlsugar)'
+2024-01-18 22:37:43.4642 | TRACE | Connection id "0HN0O6BHKVBKU" sending HEADERS frame for stream ID 11 with length 37 and flags END_HEADERS.
+2024-01-18 22:37:43.4642 | TRACE | Connection id "0HN0O6BHKVBKU" sending DATA frame for stream ID 11 with length 352 and flags NONE.
+2024-01-18 22:37:43.4726 | TRACE | Connection id "0HN0O6BHKVBKU" received WINDOW_UPDATE frame for stream ID 0 with length 4 and flags 0x0.
+2024-01-18 22:37:43.4726 | TRACE | Connection id "0HN0O6BHKVBKU" sending DATA frame for stream ID 11 with length 0 and flags END_STREAM.
+2024-01-18 22:37:43.4726 | INFO | Request finished HTTP/2 POST https://localhost:7225/api/mysqluser application/json 12 - 400 - application/problem+json;+charset=utf-8 23.1965ms
+2024-01-18 22:37:52.7018 | TRACE | Connection id "0HN0O6BHKVBKU" received HEADERS frame for stream ID 13 with length 35 and flags END_HEADERS, PRIORITY.
+2024-01-18 22:37:52.7018 | TRACE | Connection id "0HN0O6BHKVBKU" received DATA frame for stream ID 13 with length 12 and flags END_STREAM.
+2024-01-18 22:37:52.7018 | INFO | Request starting HTTP/2 POST https://localhost:7225/api/mysqluser application/json 12
+2024-01-18 22:37:52.7018 | TRACE | All hosts are allowed.
+2024-01-18 22:37:52.7018 | DEBUG | POST requests are not supported
+2024-01-18 22:37:52.7018 | DEBUG | POST requests are not supported
+2024-01-18 22:37:52.7018 | DEBUG | AuthenticationScheme: Bearer was not authenticated.
+2024-01-18 22:37:52.7052 | DEBUG | The request has an origin header: 'https://localhost:7225'.
+2024-01-18 22:37:52.7052 | INFO | CORS policy execution successful.
+2024-01-18 22:37:52.7052 | DEBUG | 1 candidate(s) found for the request path '/api/mysqluser'
+2024-01-18 22:37:52.7052 | DEBUG | Endpoint 'webapi.net7.sqlsugar.Controllers.ApiLoginController.mysqluser (webapi.net7.sqlsugar)' with route pattern 'api/mysqluser' is valid for the request path '/api/mysqluser'
+2024-01-18 22:37:52.7052 | DEBUG | Request matched endpoint 'webapi.net7.sqlsugar.Controllers.ApiLoginController.mysqluser (webapi.net7.sqlsugar)'
+2024-01-18 22:37:52.7052 | DEBUG | Connection id "0HN0O6BHKVBKU", Request id "0HN0O6BHKVBKU:0000000D": started reading request body.
+2024-01-18 22:37:52.7052 | DEBUG | Connection id "0HN0O6BHKVBKU", Request id "0HN0O6BHKVBKU:0000000D": done reading request body.
+2024-01-18 22:37:52.7052 | DEBUG | Static files was skipped as the request already matched an endpoint.
+2024-01-18 22:37:52.7052 | TRACE | Performing protect operation to key {34692722-1836-4131-841e-52bc30c5cc34} with purposes ('D:\BaiduSyncdisk\webapi.net7+sqlsugar\webapi.net7.sqlsugar\webapi.net7.sqlsugar\', 'SessionMiddleware').
+2024-01-18 22:37:52.7052 | INFO | Executing endpoint 'webapi.net7.sqlsugar.Controllers.ApiLoginController.mysqluser (webapi.net7.sqlsugar)'
+2024-01-18 22:37:52.7052 | INFO | Route matched with {action = "mysqluser", controller = "ApiLogin"}. Executing controller action with signature System.Object mysqluser(System.Object) on controller webapi.net7.sqlsugar.Controllers.ApiLoginController (webapi.net7.sqlsugar).
+2024-01-18 22:37:52.7052 | DEBUG | Execution plan of authorization filters (in the following order): None
+2024-01-18 22:37:52.7052 | DEBUG | Execution plan of resource filters (in the following order): None
+2024-01-18 22:37:52.7052 | DEBUG | Execution plan of action filters (in the following order): Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000), Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)
+2024-01-18 22:37:52.7052 | DEBUG | Execution plan of exception filters (in the following order): None
+2024-01-18 22:37:52.7052 | DEBUG | Execution plan of result filters (in the following order): Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)
+2024-01-18 22:37:52.7052 | DEBUG | Executing controller factory for controller webapi.net7.sqlsugar.Controllers.ApiLoginController (webapi.net7.sqlsugar)
+2024-01-18 22:37:52.7052 | DEBUG | Executed controller factory for controller webapi.net7.sqlsugar.Controllers.ApiLoginController (webapi.net7.sqlsugar)
+2024-01-18 22:37:52.7052 | DEBUG | Attempting to bind parameter 'user' of type 'System.Object' ...
+2024-01-18 22:37:52.7052 | DEBUG | Attempting to bind parameter 'user' of type 'System.Object' using the name '' in request data ...
+2024-01-18 22:37:52.7052 | DEBUG | Selected input formatter 'Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonInputFormatter' for content type 'application/json'.
+2024-01-18 22:37:52.7052 | DEBUG | JSON input formatter threw an exception: ',' is invalid after a property name. Expected a ':'. Path: $ | LineNumber: 1 | BytePositionInLine: 4.
+2024-01-18 22:37:52.7052 | DEBUG | Done attempting to bind parameter 'user' of type 'System.Object'.
+2024-01-18 22:37:52.7052 | DEBUG | Done attempting to bind parameter 'user' of type 'System.Object'.
+2024-01-18 22:37:52.7052 | DEBUG | Attempting to validate the bound parameter 'user' of type 'System.Object' ...
+2024-01-18 22:37:52.7052 | DEBUG | Done attempting to validate the bound parameter 'user' of type 'System.Object'.
+2024-01-18 22:37:52.7052 | TRACE | Action Filter: Before executing OnActionExecuting on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter.
+2024-01-18 22:37:52.7052 | TRACE | Action Filter: After executing OnActionExecuting on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter.
+2024-01-18 22:37:52.7052 | TRACE | Action Filter: Before executing OnActionExecuting on filter Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter.
+2024-01-18 22:37:52.7052 | DEBUG | The request has model state errors, returning an error response.
+2024-01-18 22:37:52.7052 | TRACE | Action Filter: After executing OnActionExecuting on filter Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter.
+2024-01-18 22:37:52.7052 | DEBUG | Request was short circuited at action filter 'Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter'.
+2024-01-18 22:37:52.7052 | TRACE | Action Filter: Before executing OnActionExecuted on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter.
+2024-01-18 22:37:52.7052 | TRACE | Action Filter: After executing OnActionExecuted on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter.
+2024-01-18 22:37:52.7052 | TRACE | Result Filter: Before executing OnResultExecuting on filter Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter.
+2024-01-18 22:37:52.7052 | TRACE | Result Filter: After executing OnResultExecuting on filter Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter.
+2024-01-18 22:37:52.7052 | TRACE | Before executing action result Microsoft.AspNetCore.Mvc.BadRequestObjectResult.
+2024-01-18 22:37:52.7052 | DEBUG | List of registered output formatters, in the following order: Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter, Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter, Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter, Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter
+2024-01-18 22:37:52.7052 | DEBUG | No information found on request to perform content negotiation.
+2024-01-18 22:37:52.7052 | DEBUG | Attempting to select the first output formatter in the output formatters list which supports a content type from the explicitly specified content types 'application/problem+json, application/problem+xml, application/problem+json, application/problem+xml'.
+2024-01-18 22:37:52.7052 | DEBUG | Selected output formatter 'Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter' and content type 'application/problem+json' to write the response.
+2024-01-18 22:37:52.7052 | INFO | Executing BadRequestObjectResult, writing value of type 'Microsoft.AspNetCore.Mvc.ValidationProblemDetails'.
+2024-01-18 22:37:52.7052 | TRACE | After executing action result Microsoft.AspNetCore.Mvc.BadRequestObjectResult.
+2024-01-18 22:37:52.7052 | TRACE | Result Filter: Before executing OnResultExecuted on filter Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter.
+2024-01-18 22:37:52.7052 | TRACE | Result Filter: After executing OnResultExecuted on filter Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter.
+2024-01-18 22:37:52.7052 | INFO | Executed action webapi.net7.sqlsugar.Controllers.ApiLoginController.mysqluser (webapi.net7.sqlsugar) in 2.0966ms
+2024-01-18 22:37:52.7052 | INFO | Executed endpoint 'webapi.net7.sqlsugar.Controllers.ApiLoginController.mysqluser (webapi.net7.sqlsugar)'
+2024-01-18 22:37:52.7052 | TRACE | Connection id "0HN0O6BHKVBKU" sending HEADERS frame for stream ID 13 with length 37 and flags END_HEADERS.
+2024-01-18 22:37:52.7052 | TRACE | Connection id "0HN0O6BHKVBKU" sending DATA frame for stream ID 13 with length 352 and flags NONE.
+2024-01-18 22:37:52.7052 | INFO | Request finished HTTP/2 POST https://localhost:7225/api/mysqluser application/json 12 - 400 - application/problem+json;+charset=utf-8 6.1357ms
+2024-01-18 22:37:52.7052 | TRACE | Connection id "0HN0O6BHKVBKU" sending DATA frame for stream ID 13 with length 0 and flags END_STREAM.
+2024-01-18 22:37:52.7052 | TRACE | Connection id "0HN0O6BHKVBKU" received WINDOW_UPDATE frame for stream ID 0 with length 4 and flags 0x0.
+2024-01-18 22:38:00.8294 | TRACE | Connection id "0HN0O6BHKVBKU" received HEADERS frame for stream ID 15 with length 35 and flags END_HEADERS, PRIORITY.
+2024-01-18 22:38:00.8294 | TRACE | Connection id "0HN0O6BHKVBKU" received DATA frame for stream ID 15 with length 12 and flags END_STREAM.
+2024-01-18 22:38:00.8301 | INFO | Request starting HTTP/2 POST https://localhost:7225/api/mysqluser application/json 12
+2024-01-18 22:38:00.8301 | TRACE | All hosts are allowed.
+2024-01-18 22:38:00.8301 | DEBUG | POST requests are not supported
+2024-01-18 22:38:00.8301 | DEBUG | POST requests are not supported
+2024-01-18 22:38:00.8301 | DEBUG | AuthenticationScheme: Bearer was not authenticated.
+2024-01-18 22:38:00.8301 | DEBUG | The request has an origin header: 'https://localhost:7225'.
+2024-01-18 22:38:00.8301 | INFO | CORS policy execution successful.
+2024-01-18 22:38:00.8301 | DEBUG | 1 candidate(s) found for the request path '/api/mysqluser'
+2024-01-18 22:38:00.8301 | DEBUG | Endpoint 'webapi.net7.sqlsugar.Controllers.ApiLoginController.mysqluser (webapi.net7.sqlsugar)' with route pattern 'api/mysqluser' is valid for the request path '/api/mysqluser'
+2024-01-18 22:38:00.8301 | DEBUG | Request matched endpoint 'webapi.net7.sqlsugar.Controllers.ApiLoginController.mysqluser (webapi.net7.sqlsugar)'
+2024-01-18 22:38:00.8301 | DEBUG | Connection id "0HN0O6BHKVBKU", Request id "0HN0O6BHKVBKU:0000000F": started reading request body.
+2024-01-18 22:38:00.8301 | DEBUG | Connection id "0HN0O6BHKVBKU", Request id "0HN0O6BHKVBKU:0000000F": done reading request body.
+2024-01-18 22:38:00.8301 | DEBUG | Static files was skipped as the request already matched an endpoint.
+2024-01-18 22:38:00.8301 | TRACE | Performing protect operation to key {34692722-1836-4131-841e-52bc30c5cc34} with purposes ('D:\BaiduSyncdisk\webapi.net7+sqlsugar\webapi.net7.sqlsugar\webapi.net7.sqlsugar\', 'SessionMiddleware').
+2024-01-18 22:38:00.8301 | INFO | Executing endpoint 'webapi.net7.sqlsugar.Controllers.ApiLoginController.mysqluser (webapi.net7.sqlsugar)'
+2024-01-18 22:38:00.8301 | INFO | Route matched with {action = "mysqluser", controller = "ApiLogin"}. Executing controller action with signature System.Object mysqluser(System.Object) on controller webapi.net7.sqlsugar.Controllers.ApiLoginController (webapi.net7.sqlsugar).
+2024-01-18 22:38:00.8301 | DEBUG | Execution plan of authorization filters (in the following order): None
+2024-01-18 22:38:00.8301 | DEBUG | Execution plan of resource filters (in the following order): None
+2024-01-18 22:38:00.8301 | DEBUG | Execution plan of action filters (in the following order): Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000), Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)
+2024-01-18 22:38:00.8301 | DEBUG | Execution plan of exception filters (in the following order): None
+2024-01-18 22:38:00.8301 | DEBUG | Execution plan of result filters (in the following order): Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)
+2024-01-18 22:38:00.8301 | DEBUG | Executing controller factory for controller webapi.net7.sqlsugar.Controllers.ApiLoginController (webapi.net7.sqlsugar)
+2024-01-18 22:38:00.8301 | DEBUG | Executed controller factory for controller webapi.net7.sqlsugar.Controllers.ApiLoginController (webapi.net7.sqlsugar)
+2024-01-18 22:38:00.8301 | DEBUG | Attempting to bind parameter 'user' of type 'System.Object' ...
+2024-01-18 22:38:00.8301 | DEBUG | Attempting to bind parameter 'user' of type 'System.Object' using the name '' in request data ...
+2024-01-18 22:38:00.8301 | DEBUG | Selected input formatter 'Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonInputFormatter' for content type 'application/json'.
+2024-01-18 22:38:00.8301 | DEBUG | JSON input formatter succeeded, deserializing to type 'System.Object'
+2024-01-18 22:38:00.8301 | DEBUG | Done attempting to bind parameter 'user' of type 'System.Object'.
+2024-01-18 22:38:00.8301 | DEBUG | Done attempting to bind parameter 'user' of type 'System.Object'.
+2024-01-18 22:38:00.8301 | DEBUG | Attempting to validate the bound parameter 'user' of type 'System.Object' ...
+2024-01-18 22:38:00.8301 | DEBUG | Done attempting to validate the bound parameter 'user' of type 'System.Object'.
+2024-01-18 22:38:00.8301 | TRACE | Action Filter: Before executing OnActionExecuting on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter.
+2024-01-18 22:38:00.8301 | TRACE | Action Filter: After executing OnActionExecuting on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter.
+2024-01-18 22:38:00.8301 | TRACE | Action Filter: Before executing OnActionExecuting on filter Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter.
+2024-01-18 22:38:00.8301 | TRACE | Action Filter: After executing OnActionExecuting on filter Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter.
+2024-01-18 22:38:00.8301 | INFO | Executing action method webapi.net7.sqlsugar.Controllers.ApiLoginController.mysqluser (webapi.net7.sqlsugar) - Validation state: Valid
+2024-01-18 22:38:00.8301 | TRACE | Executing action method webapi.net7.sqlsugar.Controllers.ApiLoginController.mysqluser (webapi.net7.sqlsugar) with arguments ({
+"id":"1"
+})
+2024-01-18 22:40:03.9907 | DEBUG | Registered model binder providers, in the following order: Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DateTimeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.TryParseModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinderProvider
+2024-01-18 22:40:04.1694 | DEBUG | Registered SignalR Protocol: json, implemented by Microsoft.AspNetCore.SignalR.Protocol.JsonHubProtocol.
+2024-01-18 22:40:04.1779 | DEBUG | Hosting starting
+2024-01-18 22:40:04.2079 | INFO | User profile is available. Using 'C:\Users\Administrator\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-01-18 22:40:04.2079 | DEBUG | Reading data from file 'C:\Users\Administrator\AppData\Local\ASP.NET\DataProtection-Keys\key-34692722-1836-4131-841e-52bc30c5cc34.xml'.
+2024-01-18 22:40:04.2079 | DEBUG | Reading data from file 'C:\Users\Administrator\AppData\Local\ASP.NET\DataProtection-Keys\key-691d2c1e-819d-4ace-bf8c-4b95df9c96f1.xml'.
+2024-01-18 22:40:04.2079 | DEBUG | Found key {34692722-1836-4131-841e-52bc30c5cc34}.
+2024-01-18 22:40:04.2079 | DEBUG | Found key {691d2c1e-819d-4ace-bf8c-4b95df9c96f1}.
+2024-01-18 22:40:04.2231 | DEBUG | Considering key {34692722-1836-4131-841e-52bc30c5cc34} with expiration date 2024-04-15 01:35:41Z as default key.
+2024-01-18 22:40:04.2231 | DEBUG | Forwarded activator type request from Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Version=7.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60 to Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60
+2024-01-18 22:40:04.2231 | DEBUG | Decrypting secret element using Windows DPAPI.
+2024-01-18 22:40:04.2231 | DEBUG | Forwarded activator type request from Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Version=7.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60 to Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60
+2024-01-18 22:40:04.2231 | DEBUG | Opening CNG algorithm 'AES' from provider '(null)' with chaining mode CBC.
+2024-01-18 22:40:04.2231 | DEBUG | Opening CNG algorithm 'SHA256' from provider '(null)' with HMAC.
+2024-01-18 22:40:04.2231 | DEBUG | Using key {34692722-1836-4131-841e-52bc30c5cc34} as the default key.
+2024-01-18 22:40:04.2231 | DEBUG | Key ring with default key {34692722-1836-4131-841e-52bc30c5cc34} was loaded during application startup.
+2024-01-18 22:40:04.4180 | INFO | Now listening on: https://localhost:7225
+2024-01-18 22:40:04.4180 | INFO | Now listening on: http://localhost:5148
+2024-01-18 22:40:04.4180 | DEBUG | Loaded hosting startup assembly webapi.net7.sqlsugar
+2024-01-18 22:40:04.4180 | DEBUG | Loaded hosting startup assembly Microsoft.AspNetCore.Watch.BrowserRefresh
+2024-01-18 22:40:04.4180 | DEBUG | Loaded hosting startup assembly Microsoft.WebTools.BrowserLink.Net
+2024-01-18 22:40:04.4180 | INFO | Application started. Press Ctrl+C to shut down.
+2024-01-18 22:40:04.4180 | INFO | Hosting environment: Development
+2024-01-18 22:40:04.4242 | INFO | Content root path: D:\BaiduSyncdisk\webapi.net7+sqlsugar\webapi.net7.sqlsugar\webapi.net7.sqlsugar
+2024-01-18 22:40:04.4242 | TRACE | Starting connection heartbeat.
+2024-01-18 22:40:04.4242 | DEBUG | Hosting started
+2024-01-18 22:40:04.6385 | DEBUG | Connection id "0HN0O6DE0LMGS" received FIN.
+2024-01-18 22:40:04.6385 | DEBUG | Connection id "0HN0O6DE0LMGT" received FIN.
+2024-01-18 22:40:04.6452 | DEBUG | Connection id "0HN0O6DE0LMGT" accepted.
+2024-01-18 22:40:04.6452 | DEBUG | Connection id "0HN0O6DE0LMGS" accepted.
+2024-01-18 22:40:04.6452 | DEBUG | Connection id "0HN0O6DE0LMGT" started.
+2024-01-18 22:40:04.6452 | DEBUG | Connection id "0HN0O6DE0LMGS" started.
+2024-01-18 22:40:04.6739 | DEBUG | Failed to authenticate HTTPS connection.
+2024-01-18 22:40:04.6739 | DEBUG | Failed to authenticate HTTPS connection.
+2024-01-18 22:40:04.6781 | DEBUG | Connection id "0HN0O6DE0LMGT" stopped.
+2024-01-18 22:40:04.6781 | DEBUG | Connection id "0HN0O6DE0LMGS" stopped.
+2024-01-18 22:40:04.6781 | DEBUG | Connection id "0HN0O6DE0LMGT" sending FIN because: "The Socket transport's send loop completed gracefully."
+2024-01-18 22:40:04.6781 | DEBUG | Connection id "0HN0O6DE0LMGS" sending FIN because: "The Socket transport's send loop completed gracefully."
+2024-01-18 22:40:07.6791 | DEBUG | Connection id "0HN0O6DE0LMGU" accepted.
+2024-01-18 22:40:07.6791 | DEBUG | Connection id "0HN0O6DE0LMGU" started.
+2024-01-18 22:40:07.7294 | DEBUG | Connection 0HN0O6DE0LMGU established using the following protocol: Tls12
+2024-01-18 22:40:07.7577 | TRACE | Connection id "0HN0O6DE0LMGU" sending SETTINGS frame for stream ID 0 with length 24 and flags NONE.
+2024-01-18 22:40:07.7577 | TRACE | Connection id "0HN0O6DE0LMGU" sending WINDOW_UPDATE frame for stream ID 0 with length 4 and flags 0x0.
+2024-01-18 22:40:07.7577 | TRACE | Connection id "0HN0O6DE0LMGU" received SETTINGS frame for stream ID 0 with length 24 and flags NONE.
+2024-01-18 22:40:07.7577 | TRACE | Connection id "0HN0O6DE0LMGU" sending SETTINGS frame for stream ID 0 with length 0 and flags ACK.
+2024-01-18 22:40:07.7577 | TRACE | Connection id "0HN0O6DE0LMGU" received WINDOW_UPDATE frame for stream ID 0 with length 4 and flags 0x0.
+2024-01-18 22:40:07.7577 | TRACE | Connection id "0HN0O6DE0LMGU" received HEADERS frame for stream ID 1 with length 450 and flags END_STREAM, END_HEADERS, PRIORITY.
+2024-01-18 22:40:07.7769 | TRACE | Connection id "0HN0O6DE0LMGU" received SETTINGS frame for stream ID 0 with length 0 and flags ACK.
+2024-01-18 22:40:07.7930 | INFO | Request starting HTTP/2 GET https://localhost:7225/swagger/index.html - -
+2024-01-18 22:40:07.9192 | DEBUG | Wildcard detected, all requests with hosts will be allowed.
+2024-01-18 22:40:07.9192 | TRACE | All hosts are allowed.
+2024-01-18 22:40:08.0419 | DEBUG | Response markup is scheduled to include browser refresh script injection.
+2024-01-18 22:40:08.0419 | TRACE | Connection id "0HN0O6DE0LMGU" sending HEADERS frame for stream ID 1 with length 66 and flags END_HEADERS.
+2024-01-18 22:40:08.0536 | TRACE | Connection id "0HN0O6DE0LMGU" sending DATA frame for stream ID 1 with length 4096 and flags NONE.
+2024-01-18 22:40:08.0536 | TRACE | Connection id "0HN0O6DE0LMGU" sending DATA frame for stream ID 1 with length 1022 and flags NONE.
+2024-01-18 22:40:08.0536 | TRACE | Connection id "0HN0O6DE0LMGU" sending DATA frame for stream ID 1 with length 81 and flags NONE.
+2024-01-18 22:40:08.0655 | TRACE | Connection id "0HN0O6DE0LMGU" received HEADERS frame for stream ID 3 with length 116 and flags END_STREAM, END_HEADERS, PRIORITY.
+2024-01-18 22:40:08.0655 | DEBUG | Response markup was updated to include browser refresh script injection.
+2024-01-18 22:40:08.0655 | INFO | Request starting HTTP/2 GET https://localhost:7225/_vs/browserLink - -
+2024-01-18 22:40:08.0655 | TRACE | Connection id "0HN0O6DE0LMGU" sending DATA frame for stream ID 1 with length 0 and flags END_STREAM.
+2024-01-18 22:40:08.0655 | INFO | Request finished HTTP/2 GET https://localhost:7225/swagger/index.html - - - 200 - text/html;charset=utf-8 276.5206ms
+2024-01-18 22:40:08.0655 | TRACE | Connection id "0HN0O6DE0LMGU" received HEADERS frame for stream ID 5 with length 51 and flags END_STREAM, END_HEADERS, PRIORITY.
+2024-01-18 22:40:08.0807 | INFO | Request starting HTTP/2 GET https://localhost:7225/_framework/aspnetcore-browser-refresh.js - -
+2024-01-18 22:40:08.0807 | TRACE | Connection id "0HN0O6DE0LMGU" sending HEADERS frame for stream ID 5 with length 60 and flags END_HEADERS.
+2024-01-18 22:40:08.0807 | TRACE | Connection id "0HN0O6DE0LMGU" sending DATA frame for stream ID 5 with length 13776 and flags NONE.
+2024-01-18 22:40:08.0807 | TRACE | Connection id "0HN0O6DE0LMGU" sending DATA frame for stream ID 5 with length 0 and flags END_STREAM.
+2024-01-18 22:40:08.0807 | INFO | Request finished HTTP/2 GET https://localhost:7225/_framework/aspnetcore-browser-refresh.js - - - 200 13776 application/javascript;+charset=utf-8 12.5039ms
+2024-01-18 22:40:08.1098 | TRACE | Connection id "0HN0O6DE0LMGU" sending HEADERS frame for stream ID 3 with length 119 and flags END_HEADERS.
+2024-01-18 22:40:08.1098 | TRACE | Connection id "0HN0O6DE0LMGU" sending DATA frame for stream ID 3 with length 9986 and flags NONE.
+2024-01-18 22:40:08.1124 | TRACE | Connection id "0HN0O6DE0LMGU" sending DATA frame for stream ID 3 with length 10240 and flags NONE.
+2024-01-18 22:40:08.1124 | TRACE | Connection id "0HN0O6DE0LMGU" sending DATA frame for stream ID 3 with length 10240 and flags NONE.
+2024-01-18 22:40:08.1124 | TRACE | Connection id "0HN0O6DE0LMGU" sending DATA frame for stream ID 3 with length 10240 and flags NONE.
+2024-01-18 22:40:08.1124 | TRACE | Connection id "0HN0O6DE0LMGU" sending DATA frame for stream ID 3 with length 10240 and flags NONE.
+2024-01-18 22:40:08.1124 | TRACE | Connection id "0HN0O6DE0LMGU" sending DATA frame for stream ID 3 with length 10240 and flags NONE.
+2024-01-18 22:40:08.1124 | TRACE | Connection id "0HN0O6DE0LMGU" sending DATA frame for stream ID 3 with length 10240 and flags NONE.
+2024-01-18 22:40:08.1124 | TRACE | Connection id "0HN0O6DE0LMGU" sending DATA frame for stream ID 3 with length 10240 and flags NONE.
+2024-01-18 22:40:08.1124 | TRACE | Connection id "0HN0O6DE0LMGU" sending DATA frame for stream ID 3 with length 10240 and flags NONE.
+2024-01-18 22:40:08.1124 | TRACE | Connection id "0HN0O6DE0LMGU" sending DATA frame for stream ID 3 with length 10240 and flags NONE.
+2024-01-18 22:40:08.1124 | TRACE | Connection id "0HN0O6DE0LMGU" sending DATA frame for stream ID 3 with length 10240 and flags NONE.
+2024-01-18 22:40:08.1124 | TRACE | Connection id "0HN0O6DE0LMGU" sending DATA frame for stream ID 3 with length 10240 and flags NONE.
+2024-01-18 22:40:08.1124 | TRACE | Connection id "0HN0O6DE0LMGU" sending DATA frame for stream ID 3 with length 10240 and flags NONE.
+2024-01-18 22:40:08.1124 | TRACE | Connection id "0HN0O6DE0LMGU" sending DATA frame for stream ID 3 with length 10240 and flags NONE.
+2024-01-18 22:40:08.1124 | TRACE | Connection id "0HN0O6DE0LMGU" sending DATA frame for stream ID 3 with length 10240 and flags NONE.
+2024-01-18 22:40:08.1124 | TRACE | Connection id "0HN0O6DE0LMGU" sending DATA frame for stream ID 3 with length 160 and flags NONE.
+2024-01-18 22:40:08.1124 | INFO | Request finished HTTP/2 GET https://localhost:7225/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 52.8359ms
+2024-01-18 22:40:08.1124 | TRACE | Connection id "0HN0O6DE0LMGU" sending DATA frame for stream ID 3 with length 0 and flags END_STREAM.
+2024-01-18 22:40:08.1621 | TRACE | Connection id "0HN0O6DE0LMGU" received HEADERS frame for stream ID 7 with length 66 and flags END_STREAM, END_HEADERS, PRIORITY.
+2024-01-18 22:40:08.1621 | INFO | Request starting HTTP/2 GET https://localhost:7225/swagger/V1/swagger.json - -
+2024-01-18 22:40:08.1621 | TRACE | All hosts are allowed.
+2024-01-18 22:40:08.4937 | TRACE | Connection id "0HN0O6DE0LMGU" sending HEADERS frame for stream ID 7 with length 65 and flags END_HEADERS.
+2024-01-18 22:40:08.4937 | TRACE | Connection id "0HN0O6DE0LMGU" sending DATA frame for stream ID 7 with length 16384 and flags NONE.
+2024-01-18 22:40:08.4937 | TRACE | Connection id "0HN0O6DE0LMGU" sending DATA frame for stream ID 7 with length 1503 and flags NONE.
+2024-01-18 22:40:08.4937 | TRACE | Connection id "0HN0O6DE0LMGU" sending DATA frame for stream ID 7 with length 0 and flags END_STREAM.
+2024-01-18 22:40:08.4937 | INFO | Request finished HTTP/2 GET https://localhost:7225/swagger/V1/swagger.json - - - 200 - application/json;charset=utf-8 333.2132ms
+2024-01-18 22:40:30.0184 | TRACE | Connection id "0HN0O6DE0LMGU" received HEADERS frame for stream ID 9 with length 73 and flags END_HEADERS, PRIORITY.
+2024-01-18 22:40:30.0184 | TRACE | Connection id "0HN0O6DE0LMGU" received PING frame for stream ID 0 with length 8 and flags NONE.
+2024-01-18 22:40:30.0184 | TRACE | Connection id "0HN0O6DE0LMGU" sending PING frame for stream ID 0 with length 8 and flags ACK.
+2024-01-18 22:40:30.0184 | INFO | Request starting HTTP/2 POST https://localhost:7225/api/mysqluser application/json 12
+2024-01-18 22:40:30.0184 | TRACE | Connection id "0HN0O6DE0LMGU" received DATA frame for stream ID 9 with length 12 and flags END_STREAM.
+2024-01-18 22:40:30.0184 | TRACE | All hosts are allowed.
+2024-01-18 22:40:30.0184 | DEBUG | POST requests are not supported
+2024-01-18 22:40:30.0184 | DEBUG | POST requests are not supported
+2024-01-18 22:40:30.1346 | DEBUG | AuthenticationScheme: Bearer was not authenticated.
+2024-01-18 22:40:30.1346 | DEBUG | The request has an origin header: 'https://localhost:7225'.
+2024-01-18 22:40:30.1346 | INFO | CORS policy execution successful.
+2024-01-18 22:40:30.1893 | DEBUG | 1 candidate(s) found for the request path '/api/mysqluser'
+2024-01-18 22:40:30.1943 | DEBUG | Endpoint 'webapi.net7.sqlsugar.Controllers.ApiLoginController.mysqluser (webapi.net7.sqlsugar)' with route pattern 'api/mysqluser' is valid for the request path '/api/mysqluser'
+2024-01-18 22:40:30.1943 | DEBUG | Request matched endpoint 'webapi.net7.sqlsugar.Controllers.ApiLoginController.mysqluser (webapi.net7.sqlsugar)'
+2024-01-18 22:40:30.2344 | DEBUG | Connection id "0HN0O6DE0LMGU", Request id "0HN0O6DE0LMGU:00000009": started reading request body.
+2024-01-18 22:40:30.2344 | DEBUG | Connection id "0HN0O6DE0LMGU", Request id "0HN0O6DE0LMGU:00000009": done reading request body.
+2024-01-18 22:40:30.2556 | DEBUG | Static files was skipped as the request already matched an endpoint.
+2024-01-18 22:40:30.2556 | TRACE | Performing protect operation to key {34692722-1836-4131-841e-52bc30c5cc34} with purposes ('D:\BaiduSyncdisk\webapi.net7+sqlsugar\webapi.net7.sqlsugar\webapi.net7.sqlsugar\', 'SessionMiddleware').
+2024-01-18 22:40:30.2556 | INFO | Executing endpoint 'webapi.net7.sqlsugar.Controllers.ApiLoginController.mysqluser (webapi.net7.sqlsugar)'
+2024-01-18 22:40:30.3139 | INFO | Route matched with {action = "mysqluser", controller = "ApiLogin"}. Executing controller action with signature System.Object mysqluser(System.Object) on controller webapi.net7.sqlsugar.Controllers.ApiLoginController (webapi.net7.sqlsugar).
+2024-01-18 22:40:30.3151 | DEBUG | Execution plan of authorization filters (in the following order): None
+2024-01-18 22:40:30.3151 | DEBUG | Execution plan of resource filters (in the following order): None
+2024-01-18 22:40:30.3151 | DEBUG | Execution plan of action filters (in the following order): Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000), Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)
+2024-01-18 22:40:30.3151 | DEBUG | Execution plan of exception filters (in the following order): None
+2024-01-18 22:40:30.3151 | DEBUG | Execution plan of result filters (in the following order): Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)
+2024-01-18 22:40:30.3151 | DEBUG | Executing controller factory for controller webapi.net7.sqlsugar.Controllers.ApiLoginController (webapi.net7.sqlsugar)
+2024-01-18 22:40:30.3151 | DEBUG | Executed controller factory for controller webapi.net7.sqlsugar.Controllers.ApiLoginController (webapi.net7.sqlsugar)
+2024-01-18 22:40:30.3151 | DEBUG | Attempting to bind parameter 'user' of type 'System.Object' ...
+2024-01-18 22:40:30.3151 | DEBUG | Attempting to bind parameter 'user' of type 'System.Object' using the name '' in request data ...
+2024-01-18 22:40:30.3151 | DEBUG | Selected input formatter 'Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonInputFormatter' for content type 'application/json'.
+2024-01-18 22:40:30.3368 | DEBUG | JSON input formatter succeeded, deserializing to type 'System.Object'
+2024-01-18 22:40:30.3368 | DEBUG | Done attempting to bind parameter 'user' of type 'System.Object'.
+2024-01-18 22:40:30.3368 | DEBUG | Done attempting to bind parameter 'user' of type 'System.Object'.
+2024-01-18 22:40:30.3368 | DEBUG | Attempting to validate the bound parameter 'user' of type 'System.Object' ...
+2024-01-18 22:40:30.3368 | DEBUG | Done attempting to validate the bound parameter 'user' of type 'System.Object'.
+2024-01-18 22:40:30.3479 | TRACE | Action Filter: Before executing OnActionExecuting on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter.
+2024-01-18 22:40:30.3479 | TRACE | Action Filter: After executing OnActionExecuting on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter.
+2024-01-18 22:40:30.3479 | TRACE | Action Filter: Before executing OnActionExecuting on filter Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter.
+2024-01-18 22:40:30.3479 | TRACE | Action Filter: After executing OnActionExecuting on filter Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter.
+2024-01-18 22:40:30.3479 | INFO | Executing action method webapi.net7.sqlsugar.Controllers.ApiLoginController.mysqluser (webapi.net7.sqlsugar) - Validation state: Valid
+2024-01-18 22:40:30.3479 | TRACE | Executing action method webapi.net7.sqlsugar.Controllers.ApiLoginController.mysqluser (webapi.net7.sqlsugar) with arguments ({
+"id":"1"
+})
+2024-01-18 22:40:51.5212 | INFO | Executed action method webapi.net7.sqlsugar.Controllers.ApiLoginController.mysqluser (webapi.net7.sqlsugar), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 21161.0647ms.
+2024-01-18 22:40:51.5212 | TRACE | Action Filter: Before executing OnActionExecuted on filter Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter.
+2024-01-18 22:40:51.5212 | TRACE | Action Filter: After executing OnActionExecuted on filter Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter.
+2024-01-18 22:40:51.5212 | TRACE | Action Filter: Before executing OnActionExecuted on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter.
+2024-01-18 22:40:51.5212 | TRACE | Action Filter: After executing OnActionExecuted on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter.
+2024-01-18 22:40:51.5212 | TRACE | Result Filter: Before executing OnResultExecuting on filter Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter.
+2024-01-18 22:40:51.5212 | TRACE | Result Filter: After executing OnResultExecuting on filter Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter.
+2024-01-18 22:40:51.5212 | TRACE | Before executing action result Microsoft.AspNetCore.Mvc.ObjectResult.
+2024-01-18 22:40:51.5212 | DEBUG | List of registered output formatters, in the following order: Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter, Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter, Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter, Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter
+2024-01-18 22:40:51.5212 | DEBUG | No information found on request to perform content negotiation.
+2024-01-18 22:40:51.5212 | DEBUG | Attempting to select an output formatter without using a content type as no explicit content types were specified for the response.
+2024-01-18 22:40:51.5212 | DEBUG | Attempting to select the first formatter in the output formatters list which can write the result.
+2024-01-18 22:40:51.5212 | DEBUG | Selected output formatter 'Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter' and content type 'application/json' to write the response.
+2024-01-18 22:40:51.5212 | INFO | Executing ObjectResult, writing value of type '<>f__AnonymousType4`2[[System.String, System.Private.CoreLib, Version=7.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=7.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2024-01-18 22:40:51.5613 | TRACE | After executing action result Microsoft.AspNetCore.Mvc.ObjectResult.
+2024-01-18 22:40:51.5613 | TRACE | Result Filter: Before executing OnResultExecuted on filter Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter.
+2024-01-18 22:40:51.5613 | TRACE | Result Filter: After executing OnResultExecuted on filter Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter.
+2024-01-18 22:40:51.5662 | INFO | Executed action webapi.net7.sqlsugar.Controllers.ApiLoginController.mysqluser (webapi.net7.sqlsugar) in 21245.8453ms
+2024-01-18 22:40:51.5662 | INFO | Executed endpoint 'webapi.net7.sqlsugar.Controllers.ApiLoginController.mysqluser (webapi.net7.sqlsugar)'
+2024-01-18 22:40:51.5662 | TRACE | Connection id "0HN0O6DE0LMGU" sending HEADERS frame for stream ID 9 with length 137 and flags END_HEADERS.
+2024-01-18 22:40:51.5662 | TRACE | Connection id "0HN0O6DE0LMGU" sending DATA frame for stream ID 9 with length 34 and flags NONE.
+2024-01-18 22:40:51.5662 | TRACE | Connection id "0HN0O6DE0LMGU" received WINDOW_UPDATE frame for stream ID 0 with length 4 and flags 0x0.
+2024-01-18 22:40:51.5662 | TRACE | Connection id "0HN0O6DE0LMGU" received WINDOW_UPDATE frame for stream ID 9 with length 4 and flags 0x0.
+2024-01-18 22:40:51.9578 | TRACE | Connection id "0HN0O6DE0LMGU" sending DATA frame for stream ID 9 with length 0 and flags END_STREAM.
+2024-01-18 22:40:51.9578 | INFO | Request finished HTTP/2 POST https://localhost:7225/api/mysqluser application/json 12 - 200 - application/json;+charset=utf-8 21939.3897ms
+2024-01-18 22:41:10.8648 | TRACE | Connection id "0HN0O6DE0LMGU" received HEADERS frame for stream ID 11 with length 35 and flags END_HEADERS, PRIORITY.
+2024-01-18 22:41:10.8648 | TRACE | Connection id "0HN0O6DE0LMGU" received PING frame for stream ID 0 with length 8 and flags NONE.
+2024-01-18 22:41:10.8648 | TRACE | Connection id "0HN0O6DE0LMGU" sending PING frame for stream ID 0 with length 8 and flags ACK.
+2024-01-18 22:41:10.8648 | TRACE | Connection id "0HN0O6DE0LMGU" received DATA frame for stream ID 11 with length 12 and flags END_STREAM.
+2024-01-18 22:41:10.8648 | INFO | Request starting HTTP/2 POST https://localhost:7225/api/mysqluser application/json 12
+2024-01-18 22:41:10.8648 | TRACE | All hosts are allowed.
+2024-01-18 22:41:10.8648 | DEBUG | POST requests are not supported
+2024-01-18 22:41:10.8648 | DEBUG | POST requests are not supported
+2024-01-18 22:41:10.8648 | DEBUG | AuthenticationScheme: Bearer was not authenticated.
+2024-01-18 22:41:10.8648 | DEBUG | The request has an origin header: 'https://localhost:7225'.
+2024-01-18 22:41:10.8648 | INFO | CORS policy execution successful.
+2024-01-18 22:41:10.8958 | DEBUG | 1 candidate(s) found for the request path '/api/mysqluser'
+2024-01-18 22:41:10.8958 | DEBUG | Endpoint 'webapi.net7.sqlsugar.Controllers.ApiLoginController.mysqluser (webapi.net7.sqlsugar)' with route pattern 'api/mysqluser' is valid for the request path '/api/mysqluser'
+2024-01-18 22:41:10.8958 | DEBUG | Request matched endpoint 'webapi.net7.sqlsugar.Controllers.ApiLoginController.mysqluser (webapi.net7.sqlsugar)'
+2024-01-18 22:41:10.8958 | DEBUG | Connection id "0HN0O6DE0LMGU", Request id "0HN0O6DE0LMGU:0000000B": started reading request body.
+2024-01-18 22:41:10.8958 | DEBUG | Connection id "0HN0O6DE0LMGU", Request id "0HN0O6DE0LMGU:0000000B": done reading request body.
+2024-01-18 22:41:10.8958 | DEBUG | Static files was skipped as the request already matched an endpoint.
+2024-01-18 22:41:10.8958 | TRACE | Performing protect operation to key {34692722-1836-4131-841e-52bc30c5cc34} with purposes ('D:\BaiduSyncdisk\webapi.net7+sqlsugar\webapi.net7.sqlsugar\webapi.net7.sqlsugar\', 'SessionMiddleware').
+2024-01-18 22:41:10.8958 | INFO | Executing endpoint 'webapi.net7.sqlsugar.Controllers.ApiLoginController.mysqluser (webapi.net7.sqlsugar)'
+2024-01-18 22:41:10.8958 | INFO | Route matched with {action = "mysqluser", controller = "ApiLogin"}. Executing controller action with signature System.Object mysqluser(System.Object) on controller webapi.net7.sqlsugar.Controllers.ApiLoginController (webapi.net7.sqlsugar).
+2024-01-18 22:41:10.8958 | DEBUG | Execution plan of authorization filters (in the following order): None
+2024-01-18 22:41:10.8958 | DEBUG | Execution plan of resource filters (in the following order): None
+2024-01-18 22:41:10.8958 | DEBUG | Execution plan of action filters (in the following order): Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000), Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)
+2024-01-18 22:41:10.8958 | DEBUG | Execution plan of exception filters (in the following order): None
+2024-01-18 22:41:10.8958 | DEBUG | Execution plan of result filters (in the following order): Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)
+2024-01-18 22:41:10.8958 | DEBUG | Executing controller factory for controller webapi.net7.sqlsugar.Controllers.ApiLoginController (webapi.net7.sqlsugar)
+2024-01-18 22:41:10.8958 | DEBUG | Executed controller factory for controller webapi.net7.sqlsugar.Controllers.ApiLoginController (webapi.net7.sqlsugar)
+2024-01-18 22:41:10.8958 | DEBUG | Attempting to bind parameter 'user' of type 'System.Object' ...
+2024-01-18 22:41:10.8958 | DEBUG | Attempting to bind parameter 'user' of type 'System.Object' using the name '' in request data ...
+2024-01-18 22:41:10.8958 | DEBUG | Selected input formatter 'Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonInputFormatter' for content type 'application/json'.
+2024-01-18 22:41:10.8958 | DEBUG | JSON input formatter succeeded, deserializing to type 'System.Object'
+2024-01-18 22:41:10.8958 | DEBUG | Done attempting to bind parameter 'user' of type 'System.Object'.
+2024-01-18 22:41:10.8958 | DEBUG | Done attempting to bind parameter 'user' of type 'System.Object'.
+2024-01-18 22:41:10.8958 | DEBUG | Attempting to validate the bound parameter 'user' of type 'System.Object' ...
+2024-01-18 22:41:10.8958 | DEBUG | Done attempting to validate the bound parameter 'user' of type 'System.Object'.
+2024-01-18 22:41:10.8958 | TRACE | Action Filter: Before executing OnActionExecuting on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter.
+2024-01-18 22:41:10.8958 | TRACE | Action Filter: After executing OnActionExecuting on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter.
+2024-01-18 22:41:10.8958 | TRACE | Action Filter: Before executing OnActionExecuting on filter Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter.
+2024-01-18 22:41:10.8958 | TRACE | Action Filter: After executing OnActionExecuting on filter Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter.
+2024-01-18 22:41:10.8958 | INFO | Executing action method webapi.net7.sqlsugar.Controllers.ApiLoginController.mysqluser (webapi.net7.sqlsugar) - Validation state: Valid
+2024-01-18 22:41:10.8958 | TRACE | Executing action method webapi.net7.sqlsugar.Controllers.ApiLoginController.mysqluser (webapi.net7.sqlsugar) with arguments ({
+"id":"2"
+})
+2024-01-18 22:41:10.9105 | INFO | Executed action method webapi.net7.sqlsugar.Controllers.ApiLoginController.mysqluser (webapi.net7.sqlsugar), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 9.7587ms.
+2024-01-18 22:41:10.9105 | TRACE | Action Filter: Before executing OnActionExecuted on filter Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter.
+2024-01-18 22:41:10.9105 | TRACE | Action Filter: After executing OnActionExecuted on filter Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter.
+2024-01-18 22:41:10.9105 | TRACE | Action Filter: Before executing OnActionExecuted on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter.
+2024-01-18 22:41:10.9105 | TRACE | Action Filter: After executing OnActionExecuted on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter.
+2024-01-18 22:41:10.9105 | TRACE | Result Filter: Before executing OnResultExecuting on filter Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter.
+2024-01-18 22:41:10.9105 | TRACE | Result Filter: After executing OnResultExecuting on filter Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter.
+2024-01-18 22:41:10.9105 | TRACE | Before executing action result Microsoft.AspNetCore.Mvc.ObjectResult.
+2024-01-18 22:41:10.9105 | DEBUG | List of registered output formatters, in the following order: Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter, Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter, Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter, Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter
+2024-01-18 22:41:10.9105 | DEBUG | No information found on request to perform content negotiation.
+2024-01-18 22:41:10.9105 | DEBUG | Attempting to select an output formatter without using a content type as no explicit content types were specified for the response.
+2024-01-18 22:41:10.9105 | DEBUG | Attempting to select the first formatter in the output formatters list which can write the result.
+2024-01-18 22:41:10.9105 | DEBUG | Selected output formatter 'Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter' and content type 'application/json' to write the response.
+2024-01-18 22:41:10.9105 | INFO | Executing ObjectResult, writing value of type '<>f__AnonymousType4`2[[System.String, System.Private.CoreLib, Version=7.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=7.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2024-01-18 22:41:10.9105 | TRACE | After executing action result Microsoft.AspNetCore.Mvc.ObjectResult.
+2024-01-18 22:41:10.9105 | TRACE | Result Filter: Before executing OnResultExecuted on filter Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter.
+2024-01-18 22:41:10.9105 | TRACE | Result Filter: After executing OnResultExecuted on filter Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter.
+2024-01-18 22:41:10.9105 | INFO | Executed action webapi.net7.sqlsugar.Controllers.ApiLoginController.mysqluser (webapi.net7.sqlsugar) in 13.001ms
+2024-01-18 22:41:10.9105 | INFO | Executed endpoint 'webapi.net7.sqlsugar.Controllers.ApiLoginController.mysqluser (webapi.net7.sqlsugar)'
+2024-01-18 22:41:10.9105 | TRACE | Connection id "0HN0O6DE0LMGU" sending HEADERS frame for stream ID 11 with length 37 and flags END_HEADERS.
+2024-01-18 22:41:10.9105 | TRACE | Connection id "0HN0O6DE0LMGU" sending DATA frame for stream ID 11 with length 32 and flags NONE.
+2024-01-18 22:41:10.9105 | TRACE | Connection id "0HN0O6DE0LMGU" received WINDOW_UPDATE frame for stream ID 0 with length 4 and flags 0x0.
+2024-01-18 22:41:10.9105 | TRACE | Connection id "0HN0O6DE0LMGU" sending DATA frame for stream ID 11 with length 0 and flags END_STREAM.
+2024-01-18 22:41:10.9105 | INFO | Request finished HTTP/2 POST https://localhost:7225/api/mysqluser application/json 12 - 200 - application/json;+charset=utf-8 53.6552ms
+2024-01-18 22:41:15.7693 | TRACE | Connection id "0HN0O6DE0LMGU" received HEADERS frame for stream ID 13 with length 35 and flags END_HEADERS, PRIORITY.
+2024-01-18 22:41:15.7693 | TRACE | Connection id "0HN0O6DE0LMGU" received DATA frame for stream ID 13 with length 12 and flags END_STREAM.
+2024-01-18 22:41:15.7693 | INFO | Request starting HTTP/2 POST https://localhost:7225/api/mysqluser application/json 12
+2024-01-18 22:41:15.7693 | TRACE | All hosts are allowed.
+2024-01-18 22:41:15.7693 | DEBUG | POST requests are not supported
+2024-01-18 22:41:15.7693 | DEBUG | POST requests are not supported
+2024-01-18 22:41:15.7693 | DEBUG | AuthenticationScheme: Bearer was not authenticated.
+2024-01-18 22:41:15.7693 | DEBUG | The request has an origin header: 'https://localhost:7225'.
+2024-01-18 22:41:15.7693 | INFO | CORS policy execution successful.
+2024-01-18 22:41:15.7693 | DEBUG | 1 candidate(s) found for the request path '/api/mysqluser'
+2024-01-18 22:41:15.7693 | DEBUG | Endpoint 'webapi.net7.sqlsugar.Controllers.ApiLoginController.mysqluser (webapi.net7.sqlsugar)' with route pattern 'api/mysqluser' is valid for the request path '/api/mysqluser'
+2024-01-18 22:41:15.7693 | DEBUG | Request matched endpoint 'webapi.net7.sqlsugar.Controllers.ApiLoginController.mysqluser (webapi.net7.sqlsugar)'
+2024-01-18 22:41:15.7693 | DEBUG | Connection id "0HN0O6DE0LMGU", Request id "0HN0O6DE0LMGU:0000000D": started reading request body.
+2024-01-18 22:41:15.7693 | DEBUG | Connection id "0HN0O6DE0LMGU", Request id "0HN0O6DE0LMGU:0000000D": done reading request body.
+2024-01-18 22:41:15.7693 | DEBUG | Static files was skipped as the request already matched an endpoint.
+2024-01-18 22:41:15.7693 | TRACE | Performing protect operation to key {34692722-1836-4131-841e-52bc30c5cc34} with purposes ('D:\BaiduSyncdisk\webapi.net7+sqlsugar\webapi.net7.sqlsugar\webapi.net7.sqlsugar\', 'SessionMiddleware').
+2024-01-18 22:41:15.7693 | INFO | Executing endpoint 'webapi.net7.sqlsugar.Controllers.ApiLoginController.mysqluser (webapi.net7.sqlsugar)'
+2024-01-18 22:41:15.7693 | INFO | Route matched with {action = "mysqluser", controller = "ApiLogin"}. Executing controller action with signature System.Object mysqluser(System.Object) on controller webapi.net7.sqlsugar.Controllers.ApiLoginController (webapi.net7.sqlsugar).
+2024-01-18 22:41:15.7693 | DEBUG | Execution plan of authorization filters (in the following order): None
+2024-01-18 22:41:15.7693 | DEBUG | Execution plan of resource filters (in the following order): None
+2024-01-18 22:41:15.7693 | DEBUG | Execution plan of action filters (in the following order): Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000), Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)
+2024-01-18 22:41:15.7693 | DEBUG | Execution plan of exception filters (in the following order): None
+2024-01-18 22:41:15.7693 | DEBUG | Execution plan of result filters (in the following order): Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)
+2024-01-18 22:41:15.7693 | DEBUG | Executing controller factory for controller webapi.net7.sqlsugar.Controllers.ApiLoginController (webapi.net7.sqlsugar)
+2024-01-18 22:41:15.7693 | DEBUG | Executed controller factory for controller webapi.net7.sqlsugar.Controllers.ApiLoginController (webapi.net7.sqlsugar)
+2024-01-18 22:41:15.7693 | DEBUG | Attempting to bind parameter 'user' of type 'System.Object' ...
+2024-01-18 22:41:15.7693 | DEBUG | Attempting to bind parameter 'user' of type 'System.Object' using the name '' in request data ...
+2024-01-18 22:41:15.7693 | DEBUG | Selected input formatter 'Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonInputFormatter' for content type 'application/json'.
+2024-01-18 22:41:15.7693 | DEBUG | JSON input formatter succeeded, deserializing to type 'System.Object'
+2024-01-18 22:41:15.7693 | DEBUG | Done attempting to bind parameter 'user' of type 'System.Object'.
+2024-01-18 22:41:15.7693 | DEBUG | Done attempting to bind parameter 'user' of type 'System.Object'.
+2024-01-18 22:41:15.7693 | DEBUG | Attempting to validate the bound parameter 'user' of type 'System.Object' ...
+2024-01-18 22:41:15.7693 | DEBUG | Done attempting to validate the bound parameter 'user' of type 'System.Object'.
+2024-01-18 22:41:15.7693 | TRACE | Action Filter: Before executing OnActionExecuting on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter.
+2024-01-18 22:41:15.7693 | TRACE | Action Filter: After executing OnActionExecuting on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter.
+2024-01-18 22:41:15.7693 | TRACE | Action Filter: Before executing OnActionExecuting on filter Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter.
+2024-01-18 22:41:15.7693 | TRACE | Action Filter: After executing OnActionExecuting on filter Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter.
+2024-01-18 22:41:15.7693 | INFO | Executing action method webapi.net7.sqlsugar.Controllers.ApiLoginController.mysqluser (webapi.net7.sqlsugar) - Validation state: Valid
+2024-01-18 22:41:15.7693 | TRACE | Executing action method webapi.net7.sqlsugar.Controllers.ApiLoginController.mysqluser (webapi.net7.sqlsugar) with arguments ({
+"id":"3"
+})
+2024-01-18 22:41:15.7693 | INFO | Executed action method webapi.net7.sqlsugar.Controllers.ApiLoginController.mysqluser (webapi.net7.sqlsugar), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 1.6127ms.
+2024-01-18 22:41:15.7693 | TRACE | Action Filter: Before executing OnActionExecuted on filter Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter.
+2024-01-18 22:41:15.7693 | TRACE | Action Filter: After executing OnActionExecuted on filter Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter.
+2024-01-18 22:41:15.7693 | TRACE | Action Filter: Before executing OnActionExecuted on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter.
+2024-01-18 22:41:15.7693 | TRACE | Action Filter: After executing OnActionExecuted on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter.
+2024-01-18 22:41:15.7693 | TRACE | Result Filter: Before executing OnResultExecuting on filter Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter.
+2024-01-18 22:41:15.7693 | TRACE | Result Filter: After executing OnResultExecuting on filter Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter.
+2024-01-18 22:41:15.7693 | TRACE | Before executing action result Microsoft.AspNetCore.Mvc.ObjectResult.
+2024-01-18 22:41:15.7693 | DEBUG | List of registered output formatters, in the following order: Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter, Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter, Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter, Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter
+2024-01-18 22:41:15.7693 | DEBUG | No information found on request to perform content negotiation.
+2024-01-18 22:41:15.7693 | DEBUG | Attempting to select an output formatter without using a content type as no explicit content types were specified for the response.
+2024-01-18 22:41:15.7693 | DEBUG | Attempting to select the first formatter in the output formatters list which can write the result.
+2024-01-18 22:41:15.7693 | DEBUG | Selected output formatter 'Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter' and content type 'application/json' to write the response.
+2024-01-18 22:41:15.7693 | INFO | Executing ObjectResult, writing value of type '<>f__AnonymousType4`2[[System.String, System.Private.CoreLib, Version=7.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=7.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2024-01-18 22:41:15.7693 | TRACE | After executing action result Microsoft.AspNetCore.Mvc.ObjectResult.
+2024-01-18 22:41:15.7693 | TRACE | Result Filter: Before executing OnResultExecuted on filter Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter.
+2024-01-18 22:41:15.7693 | TRACE | Result Filter: After executing OnResultExecuted on filter Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter.
+2024-01-18 22:41:15.7693 | INFO | Executed action webapi.net7.sqlsugar.Controllers.ApiLoginController.mysqluser (webapi.net7.sqlsugar) in 3.2621ms
+2024-01-18 22:41:15.7693 | INFO | Executed endpoint 'webapi.net7.sqlsugar.Controllers.ApiLoginController.mysqluser (webapi.net7.sqlsugar)'
+2024-01-18 22:41:15.7693 | TRACE | Connection id "0HN0O6DE0LMGU" sending HEADERS frame for stream ID 13 with length 37 and flags END_HEADERS.
+2024-01-18 22:41:15.7693 | TRACE | Connection id "0HN0O6DE0LMGU" sending DATA frame for stream ID 13 with length 31 and flags NONE.
+2024-01-18 22:41:15.7899 | TRACE | Connection id "0HN0O6DE0LMGU" sending DATA frame for stream ID 13 with length 0 and flags END_STREAM.
+2024-01-18 22:41:15.7899 | INFO | Request finished HTTP/2 POST https://localhost:7225/api/mysqluser application/json 12 - 200 - application/json;+charset=utf-8 19.6575ms
+2024-01-18 22:41:19.4241 | TRACE | Connection id "0HN0O6DE0LMGU" received HEADERS frame for stream ID 15 with length 35 and flags END_HEADERS, PRIORITY.
+2024-01-18 22:41:19.4241 | TRACE | Connection id "0HN0O6DE0LMGU" received DATA frame for stream ID 15 with length 12 and flags END_STREAM.
+2024-01-18 22:41:19.4249 | INFO | Request starting HTTP/2 POST https://localhost:7225/api/mysqluser application/json 12
+2024-01-18 22:41:19.4249 | TRACE | All hosts are allowed.
+2024-01-18 22:41:19.4249 | DEBUG | POST requests are not supported
+2024-01-18 22:41:19.4249 | DEBUG | POST requests are not supported
+2024-01-18 22:41:19.4249 | DEBUG | AuthenticationScheme: Bearer was not authenticated.
+2024-01-18 22:41:19.4249 | DEBUG | The request has an origin header: 'https://localhost:7225'.
+2024-01-18 22:41:19.4249 | INFO | CORS policy execution successful.
+2024-01-18 22:41:19.4249 | DEBUG | 1 candidate(s) found for the request path '/api/mysqluser'
+2024-01-18 22:41:19.4249 | DEBUG | Endpoint 'webapi.net7.sqlsugar.Controllers.ApiLoginController.mysqluser (webapi.net7.sqlsugar)' with route pattern 'api/mysqluser' is valid for the request path '/api/mysqluser'
+2024-01-18 22:41:19.4249 | DEBUG | Request matched endpoint 'webapi.net7.sqlsugar.Controllers.ApiLoginController.mysqluser (webapi.net7.sqlsugar)'
+2024-01-18 22:41:19.4249 | DEBUG | Connection id "0HN0O6DE0LMGU", Request id "0HN0O6DE0LMGU:0000000F": started reading request body.
+2024-01-18 22:41:19.4249 | DEBUG | Connection id "0HN0O6DE0LMGU", Request id "0HN0O6DE0LMGU:0000000F": done reading request body.
+2024-01-18 22:41:19.4249 | DEBUG | Static files was skipped as the request already matched an endpoint.
+2024-01-18 22:41:19.4249 | TRACE | Performing protect operation to key {34692722-1836-4131-841e-52bc30c5cc34} with purposes ('D:\BaiduSyncdisk\webapi.net7+sqlsugar\webapi.net7.sqlsugar\webapi.net7.sqlsugar\', 'SessionMiddleware').
+2024-01-18 22:41:19.4249 | INFO | Executing endpoint 'webapi.net7.sqlsugar.Controllers.ApiLoginController.mysqluser (webapi.net7.sqlsugar)'
+2024-01-18 22:41:19.4249 | INFO | Route matched with {action = "mysqluser", controller = "ApiLogin"}. Executing controller action with signature System.Object mysqluser(System.Object) on controller webapi.net7.sqlsugar.Controllers.ApiLoginController (webapi.net7.sqlsugar).
+2024-01-18 22:41:19.4249 | DEBUG | Execution plan of authorization filters (in the following order): None
+2024-01-18 22:41:19.4249 | DEBUG | Execution plan of resource filters (in the following order): None
+2024-01-18 22:41:19.4249 | DEBUG | Execution plan of action filters (in the following order): Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000), Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)
+2024-01-18 22:41:19.4249 | DEBUG | Execution plan of exception filters (in the following order): None
+2024-01-18 22:41:19.4249 | DEBUG | Execution plan of result filters (in the following order): Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)
+2024-01-18 22:41:19.4249 | DEBUG | Executing controller factory for controller webapi.net7.sqlsugar.Controllers.ApiLoginController (webapi.net7.sqlsugar)
+2024-01-18 22:41:19.4249 | DEBUG | Executed controller factory for controller webapi.net7.sqlsugar.Controllers.ApiLoginController (webapi.net7.sqlsugar)
+2024-01-18 22:41:19.4249 | DEBUG | Attempting to bind parameter 'user' of type 'System.Object' ...
+2024-01-18 22:41:19.4249 | DEBUG | Attempting to bind parameter 'user' of type 'System.Object' using the name '' in request data ...
+2024-01-18 22:41:19.4249 | DEBUG | Selected input formatter 'Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonInputFormatter' for content type 'application/json'.
+2024-01-18 22:41:19.4249 | DEBUG | JSON input formatter succeeded, deserializing to type 'System.Object'
+2024-01-18 22:41:19.4249 | DEBUG | Done attempting to bind parameter 'user' of type 'System.Object'.
+2024-01-18 22:41:19.4249 | DEBUG | Done attempting to bind parameter 'user' of type 'System.Object'.
+2024-01-18 22:41:19.4249 | DEBUG | Attempting to validate the bound parameter 'user' of type 'System.Object' ...
+2024-01-18 22:41:19.4249 | DEBUG | Done attempting to validate the bound parameter 'user' of type 'System.Object'.
+2024-01-18 22:41:19.4249 | TRACE | Action Filter: Before executing OnActionExecuting on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter.
+2024-01-18 22:41:19.4249 | TRACE | Action Filter: After executing OnActionExecuting on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter.
+2024-01-18 22:41:19.4249 | TRACE | Action Filter: Before executing OnActionExecuting on filter Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter.
+2024-01-18 22:41:19.4249 | TRACE | Action Filter: After executing OnActionExecuting on filter Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter.
+2024-01-18 22:41:19.4249 | INFO | Executing action method webapi.net7.sqlsugar.Controllers.ApiLoginController.mysqluser (webapi.net7.sqlsugar) - Validation state: Valid
+2024-01-18 22:41:19.4249 | TRACE | Executing action method webapi.net7.sqlsugar.Controllers.ApiLoginController.mysqluser (webapi.net7.sqlsugar) with arguments ({
+"id":"4"
+})

@@ -1,0 +1,84 @@
+2024-04-20 19:47:38.7216 | INFO | User profile is available. Using 'C:\Users\Administrator\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-04-20 19:47:38.9830 | INFO | Now listening on: http://localhost:5149
+2024-04-20 19:47:38.9830 | INFO | Application started. Press Ctrl+C to shut down.
+2024-04-20 19:47:38.9830 | INFO | Hosting environment: Development
+2024-04-20 19:47:38.9830 | INFO | Content root path: D:\BaiduSyncdisk\webapi.net7+sqlsugar\webapi.net7.sqlsugar\webapi.net7.sqlsugar
+2024-04-20 19:47:41.9067 | INFO | Request starting HTTP/1.1 GET http://localhost:5149/swagger/index.html - -
+2024-04-20 19:47:42.7138 | INFO | Request finished HTTP/1.1 GET http://localhost:5149/swagger/index.html - - - 200 - text/html;charset=utf-8 811.2825ms
+2024-04-20 19:47:42.7771 | INFO | Request starting HTTP/1.1 GET http://localhost:5149/_vs/browserLink - -
+2024-04-20 19:47:42.7771 | INFO | Request starting HTTP/1.1 GET http://localhost:5149/_framework/aspnetcore-browser-refresh.js - -
+2024-04-20 19:47:42.7771 | INFO | Request finished HTTP/1.1 GET http://localhost:5149/_framework/aspnetcore-browser-refresh.js - - - 200 13776 application/javascript;+charset=utf-8 4.1628ms
+2024-04-20 19:47:42.9204 | INFO | Request finished HTTP/1.1 GET http://localhost:5149/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 143.3992ms
+2024-04-20 19:47:43.0061 | INFO | Request starting HTTP/1.1 GET http://localhost:5149/swagger/东泽房源管理接口/swagger.json - -
+2024-04-20 19:47:43.4725 | INFO | Request finished HTTP/1.1 GET http://localhost:5149/swagger/东泽房源管理接口/swagger.json - - - 200 - application/json;charset=utf-8 466.7095ms
+2024-04-20 19:48:03.6816 | INFO | Request starting HTTP/1.1 POST http://localhost:5149/api/PostRGS application/json 2831
+2024-04-20 19:48:03.7119 | WARN | Failed to determine the https port for redirect.
+2024-04-20 19:48:03.7994 | INFO | CORS policy execution successful.
+2024-04-20 19:48:03.7994 | INFO | Executing endpoint 'webapi.net7.sqlsugar.Controllers.CRMAppControlle.PostRGS (webapi.net7.sqlsugar)'
+2024-04-20 19:48:03.8236 | INFO | Route matched with {action = "PostRGS", controller = "CRMAppControlle"}. Executing controller action with signature System.Object PostRGS(webapi.net7.sqlsugar.wlzh_rgdzb) on controller webapi.net7.sqlsugar.Controllers.CRMAppControlle (webapi.net7.sqlsugar).
+2024-04-20 19:48:03.8704 | INFO | Executing BadRequestObjectResult, writing value of type 'Microsoft.AspNetCore.Mvc.ValidationProblemDetails'.
+2024-04-20 19:48:03.8844 | INFO | Executed action webapi.net7.sqlsugar.Controllers.CRMAppControlle.PostRGS (webapi.net7.sqlsugar) in 57.5514ms
+2024-04-20 19:48:03.8844 | INFO | Executed endpoint 'webapi.net7.sqlsugar.Controllers.CRMAppControlle.PostRGS (webapi.net7.sqlsugar)'
+2024-04-20 19:48:03.8844 | INFO | Request finished HTTP/1.1 POST http://localhost:5149/api/PostRGS application/json 2831 - 400 - application/problem+json;+charset=utf-8 203.1001ms
+2024-04-20 19:48:21.0667 | INFO | Request starting HTTP/1.1 POST http://localhost:5149/api/PostRGS application/json 2831
+2024-04-20 19:48:21.0667 | INFO | CORS policy execution successful.
+2024-04-20 19:48:21.0667 | INFO | Executing endpoint 'webapi.net7.sqlsugar.Controllers.CRMAppControlle.PostRGS (webapi.net7.sqlsugar)'
+2024-04-20 19:48:21.0667 | INFO | Route matched with {action = "PostRGS", controller = "CRMAppControlle"}. Executing controller action with signature System.Object PostRGS(webapi.net7.sqlsugar.wlzh_rgdzb) on controller webapi.net7.sqlsugar.Controllers.CRMAppControlle (webapi.net7.sqlsugar).
+2024-04-20 19:48:21.0716 | INFO | Executing BadRequestObjectResult, writing value of type 'Microsoft.AspNetCore.Mvc.ValidationProblemDetails'.
+2024-04-20 19:48:21.0716 | INFO | Executed action webapi.net7.sqlsugar.Controllers.CRMAppControlle.PostRGS (webapi.net7.sqlsugar) in 3.2655ms
+2024-04-20 19:48:21.0716 | INFO | Executed endpoint 'webapi.net7.sqlsugar.Controllers.CRMAppControlle.PostRGS (webapi.net7.sqlsugar)'
+2024-04-20 19:48:21.0716 | INFO | Request finished HTTP/1.1 POST http://localhost:5149/api/PostRGS application/json 2831 - 400 - application/problem+json;+charset=utf-8 6.0399ms
+2024-04-20 19:49:31.9046 | INFO | User profile is available. Using 'C:\Users\Administrator\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-04-20 19:49:32.1309 | INFO | Now listening on: http://localhost:5149
+2024-04-20 19:49:32.1398 | INFO | Application started. Press Ctrl+C to shut down.
+2024-04-20 19:49:32.1398 | INFO | Hosting environment: Development
+2024-04-20 19:49:32.1398 | INFO | Content root path: D:\BaiduSyncdisk\webapi.net7+sqlsugar\webapi.net7.sqlsugar\webapi.net7.sqlsugar
+2024-04-20 19:49:34.9108 | INFO | Request starting HTTP/1.1 GET http://localhost:5149/swagger/index.html - -
+2024-04-20 19:49:35.2217 | INFO | Request finished HTTP/1.1 GET http://localhost:5149/swagger/index.html - - - 200 - text/html;charset=utf-8 314.8487ms
+2024-04-20 19:49:35.2547 | INFO | Request starting HTTP/1.1 GET http://localhost:5149/_framework/aspnetcore-browser-refresh.js - -
+2024-04-20 19:49:35.2547 | INFO | Request finished HTTP/1.1 GET http://localhost:5149/_framework/aspnetcore-browser-refresh.js - - - 200 13776 application/javascript;+charset=utf-8 1.5572ms
+2024-04-20 19:49:35.2658 | INFO | Request starting HTTP/1.1 GET http://localhost:5149/_vs/browserLink - -
+2024-04-20 19:49:35.3031 | INFO | Request finished HTTP/1.1 GET http://localhost:5149/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 37.3841ms
+2024-04-20 19:49:35.4374 | INFO | Request starting HTTP/1.1 GET http://localhost:5149/swagger/东泽房源管理接口/swagger.json - -
+2024-04-20 19:49:35.7717 | INFO | Request finished HTTP/1.1 GET http://localhost:5149/swagger/东泽房源管理接口/swagger.json - - - 200 - application/json;charset=utf-8 334.4434ms
+2024-04-20 19:49:50.7659 | INFO | Request starting HTTP/1.1 POST http://localhost:5149/api/PostRGS application/json 2831
+2024-04-20 19:49:50.7949 | WARN | Failed to determine the https port for redirect.
+2024-04-20 19:49:50.9003 | INFO | CORS policy execution successful.
+2024-04-20 19:49:50.9003 | INFO | Executing endpoint 'webapi.net7.sqlsugar.Controllers.CRMAppControlle.PostRGS (webapi.net7.sqlsugar)'
+2024-04-20 19:49:50.9431 | INFO | Route matched with {action = "PostRGS", controller = "CRMAppControlle"}. Executing controller action with signature System.Object PostRGS(webapi.net7.sqlsugar.wlzh_rgdzb) on controller webapi.net7.sqlsugar.Controllers.CRMAppControlle (webapi.net7.sqlsugar).
+2024-04-20 19:49:51.0251 | INFO | Executing BadRequestObjectResult, writing value of type 'Microsoft.AspNetCore.Mvc.ValidationProblemDetails'.
+2024-04-20 19:49:51.0441 | INFO | Executed action webapi.net7.sqlsugar.Controllers.CRMAppControlle.PostRGS (webapi.net7.sqlsugar) in 99.6086ms
+2024-04-20 19:49:51.0441 | INFO | Executed endpoint 'webapi.net7.sqlsugar.Controllers.CRMAppControlle.PostRGS (webapi.net7.sqlsugar)'
+2024-04-20 19:49:51.0441 | INFO | Request finished HTTP/1.1 POST http://localhost:5149/api/PostRGS application/json 2831 - 400 - application/problem+json;+charset=utf-8 283.8146ms
+2024-04-20 19:51:08.3411 | INFO | Request starting HTTP/1.1 POST http://localhost:5149/api/PostRGS application/json 2830
+2024-04-20 19:51:08.3411 | INFO | CORS policy execution successful.
+2024-04-20 19:51:08.3411 | INFO | Executing endpoint 'webapi.net7.sqlsugar.Controllers.CRMAppControlle.PostRGS (webapi.net7.sqlsugar)'
+2024-04-20 19:51:08.3411 | INFO | Route matched with {action = "PostRGS", controller = "CRMAppControlle"}. Executing controller action with signature System.Object PostRGS(webapi.net7.sqlsugar.wlzh_rgdzb) on controller webapi.net7.sqlsugar.Controllers.CRMAppControlle (webapi.net7.sqlsugar).
+2024-04-20 19:51:08.3411 | INFO | Executing BadRequestObjectResult, writing value of type 'Microsoft.AspNetCore.Mvc.ValidationProblemDetails'.
+2024-04-20 19:51:08.3411 | INFO | Executed action webapi.net7.sqlsugar.Controllers.CRMAppControlle.PostRGS (webapi.net7.sqlsugar) in 4.6832ms
+2024-04-20 19:51:08.3411 | INFO | Executed endpoint 'webapi.net7.sqlsugar.Controllers.CRMAppControlle.PostRGS (webapi.net7.sqlsugar)'
+2024-04-20 19:51:08.3411 | INFO | Request finished HTTP/1.1 POST http://localhost:5149/api/PostRGS application/json 2830 - 400 - application/problem+json;+charset=utf-8 8.7368ms
+2024-04-20 19:52:17.1593 | INFO | User profile is available. Using 'C:\Users\Administrator\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-04-20 19:52:17.3755 | INFO | Now listening on: http://localhost:5149
+2024-04-20 19:52:17.3755 | INFO | Application started. Press Ctrl+C to shut down.
+2024-04-20 19:52:17.3834 | INFO | Hosting environment: Development
+2024-04-20 19:52:17.3834 | INFO | Content root path: D:\BaiduSyncdisk\webapi.net7+sqlsugar\webapi.net7.sqlsugar\webapi.net7.sqlsugar
+2024-04-20 19:52:17.7639 | INFO | Request starting HTTP/1.1 GET http://localhost:5149/swagger/index.html - -
+2024-04-20 19:52:18.1020 | INFO | Request finished HTTP/1.1 GET http://localhost:5149/swagger/index.html - - - 200 - text/html;charset=utf-8 342.0260ms
+2024-04-20 19:52:18.1274 | INFO | Request starting HTTP/1.1 GET http://localhost:5149/_vs/browserLink - -
+2024-04-20 19:52:18.1274 | INFO | Request starting HTTP/1.1 GET http://localhost:5149/_framework/aspnetcore-browser-refresh.js - -
+2024-04-20 19:52:18.1274 | INFO | Request finished HTTP/1.1 GET http://localhost:5149/_framework/aspnetcore-browser-refresh.js - - - 200 13776 application/javascript;+charset=utf-8 2.4671ms
+2024-04-20 19:52:18.1825 | INFO | Request finished HTTP/1.1 GET http://localhost:5149/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 55.2883ms
+2024-04-20 19:52:18.2487 | INFO | Request starting HTTP/1.1 GET http://localhost:5149/swagger/东泽房源管理接口/swagger.json - -
+2024-04-20 19:52:18.5947 | INFO | Request finished HTTP/1.1 GET http://localhost:5149/swagger/东泽房源管理接口/swagger.json - - - 200 - application/json;charset=utf-8 346.3859ms
+2024-04-20 19:52:39.1649 | INFO | Request starting HTTP/1.1 POST http://localhost:5149/api/PostRGS application/json 2830
+2024-04-20 19:52:39.2059 | WARN | Failed to determine the https port for redirect.
+2024-04-20 19:52:39.3380 | INFO | CORS policy execution successful.
+2024-04-20 19:52:39.3380 | INFO | Executing endpoint 'webapi.net7.sqlsugar.Controllers.CRMAppControlle.PostRGS (webapi.net7.sqlsugar)'
+2024-04-20 19:52:39.3927 | INFO | Route matched with {action = "PostRGS", controller = "CRMAppControlle"}. Executing controller action with signature System.Object PostRGS(webapi.net7.sqlsugar.wlzh_rgdzb) on controller webapi.net7.sqlsugar.Controllers.CRMAppControlle (webapi.net7.sqlsugar).
+2024-04-20 19:52:39.5748 | INFO | Executing action method webapi.net7.sqlsugar.Controllers.CRMAppControlle.PostRGS (webapi.net7.sqlsugar) - Validation state: Valid
+2024-04-20 19:52:55.3321 | INFO | Executed action method webapi.net7.sqlsugar.Controllers.CRMAppControlle.PostRGS (webapi.net7.sqlsugar), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 15751.3817ms.
+2024-04-20 19:52:55.3401 | INFO | Executing ObjectResult, writing value of type '<>f__AnonymousType4`3[[System.String, System.Private.CoreLib, Version=7.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=7.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=7.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2024-04-20 19:52:55.3581 | INFO | Executed action webapi.net7.sqlsugar.Controllers.CRMAppControlle.PostRGS (webapi.net7.sqlsugar) in 15963.0487ms
+2024-04-20 19:52:55.3581 | INFO | Executed endpoint 'webapi.net7.sqlsugar.Controllers.CRMAppControlle.PostRGS (webapi.net7.sqlsugar)'
+2024-04-20 19:52:55.3581 | INFO | Request finished HTTP/1.1 POST http://localhost:5149/api/PostRGS application/json 2830 - 0 - application/json;+charset=utf-8 16201.3550ms

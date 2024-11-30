@@ -1,0 +1,112 @@
+2024-05-19 09:03:27.2846 | INFO | User profile is available. Using 'C:\Users\Administrator\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-05-19 09:03:27.7277 | INFO | Now listening on: http://localhost:5149
+2024-05-19 09:03:27.7277 | INFO | Application started. Press Ctrl+C to shut down.
+2024-05-19 09:03:27.7277 | INFO | Hosting environment: Development
+2024-05-19 09:03:27.7346 | INFO | Content root path: D:\BaiduSyncdisk\webapi.net7+sqlsugar\webapi.net7.sqlsugar\webapi.net7.sqlsugar
+2024-05-19 09:03:32.2660 | INFO | Request starting HTTP/1.1 GET http://localhost:5149/swagger - -
+2024-05-19 09:03:32.5364 | INFO | Request finished HTTP/1.1 GET http://localhost:5149/swagger - - - 301 0 - 273.3990ms
+2024-05-19 09:03:32.5364 | INFO | Request starting HTTP/1.1 GET http://localhost:5149/swagger/index.html - -
+2024-05-19 09:03:32.6651 | INFO | Request finished HTTP/1.1 GET http://localhost:5149/swagger/index.html - - - 200 - text/html;charset=utf-8 123.5470ms
+2024-05-19 09:03:32.6651 | INFO | Request starting HTTP/1.1 GET http://localhost:5149/swagger/swagger-ui.css - -
+2024-05-19 09:03:32.6722 | INFO | Request starting HTTP/1.1 GET http://localhost:5149/swagger/swagger-ui-bundle.js - -
+2024-05-19 09:03:32.6722 | INFO | Request starting HTTP/1.1 GET http://localhost:5149/swagger/swagger-ui-standalone-preset.js - -
+2024-05-19 09:03:32.7146 | INFO | Sending file. Request path: '/swagger-ui.css'. Physical path: 'N/A'
+2024-05-19 09:03:32.7209 | INFO | Sending file. Request path: '/swagger-ui-bundle.js'. Physical path: 'N/A'
+2024-05-19 09:03:32.7209 | INFO | Request finished HTTP/1.1 GET http://localhost:5149/swagger/swagger-ui-bundle.js - - - 200 1061536 text/javascript 50.5472ms
+2024-05-19 09:03:32.7209 | INFO | Request finished HTTP/1.1 GET http://localhost:5149/swagger/swagger-ui.css - - - 200 144929 text/css 52.7041ms
+2024-05-19 09:03:32.7209 | INFO | Request starting HTTP/1.1 GET http://localhost:5149/_framework/aspnetcore-browser-refresh.js - -
+2024-05-19 09:03:32.7209 | INFO | Sending file. Request path: '/swagger-ui-standalone-preset.js'. Physical path: 'N/A'
+2024-05-19 09:03:32.7209 | INFO | Request finished HTTP/1.1 GET http://localhost:5149/swagger/swagger-ui-standalone-preset.js - - - 200 312163 text/javascript 57.5820ms
+2024-05-19 09:03:32.7340 | INFO | Request finished HTTP/1.1 GET http://localhost:5149/_framework/aspnetcore-browser-refresh.js - - - 200 13776 application/javascript;+charset=utf-8 10.0763ms
+2024-05-19 09:03:32.7340 | INFO | Request starting HTTP/1.1 GET http://localhost:5149/_vs/browserLink - -
+2024-05-19 09:03:32.8042 | INFO | Request finished HTTP/1.1 GET http://localhost:5149/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 66.6114ms
+2024-05-19 09:03:32.9809 | INFO | Request starting HTTP/1.1 GET http://localhost:5149/swagger/东泽房源管理接口/swagger.json - -
+2024-05-19 09:03:33.0146 | INFO | Request starting HTTP/1.1 GET http://localhost:5149/swagger/favicon-32x32.png - -
+2024-05-19 09:03:33.0151 | INFO | Sending file. Request path: '/favicon-32x32.png'. Physical path: 'N/A'
+2024-05-19 09:03:33.0151 | INFO | Request finished HTTP/1.1 GET http://localhost:5149/swagger/favicon-32x32.png - - - 200 628 image/png 0.6380ms
+2024-05-19 09:03:33.4142 | INFO | Request finished HTTP/1.1 GET http://localhost:5149/swagger/东泽房源管理接口/swagger.json - - - 200 - application/json;charset=utf-8 433.4870ms
+2024-05-19 09:03:37.4476 | INFO | Request starting HTTP/1.1 GET http://localhost:5149/swagger/U8移动端接口/swagger.json - -
+2024-05-19 09:03:37.5169 | INFO | Request finished HTTP/1.1 GET http://localhost:5149/swagger/U8移动端接口/swagger.json - - - 200 - application/json;charset=utf-8 66.2544ms
+2024-05-19 09:03:39.1231 | INFO | Request starting HTTP/1.1 GET http://localhost:5149/swagger/文件上传接口/swagger.json - -
+2024-05-19 09:03:39.1303 | INFO | Request finished HTTP/1.1 GET http://localhost:5149/swagger/文件上传接口/swagger.json - - - 200 - application/json;charset=utf-8 7.3589ms
+2024-05-19 09:03:43.2306 | INFO | Request starting HTTP/1.1 GET http://localhost:5149/swagger/报表接口/swagger.json - -
+2024-05-19 09:03:43.2306 | INFO | Request finished HTTP/1.1 GET http://localhost:5149/swagger/报表接口/swagger.json - - - 200 - application/json;charset=utf-8 3.2161ms
+2024-05-19 09:03:49.2499 | INFO | Request starting HTTP/1.1 GET http://localhost:5149/swagger/东泽房源管理接口/swagger.json - -
+2024-05-19 09:03:49.2668 | INFO | Request finished HTTP/1.1 GET http://localhost:5149/swagger/东泽房源管理接口/swagger.json - - - 200 - application/json;charset=utf-8 16.9474ms
+2024-05-19 09:03:52.0698 | INFO | Request starting HTTP/1.1 GET http://localhost:5149/swagger/U8移动端接口/swagger.json - -
+2024-05-19 09:03:52.0698 | INFO | Request finished HTTP/1.1 GET http://localhost:5149/swagger/U8移动端接口/swagger.json - - - 200 - application/json;charset=utf-8 6.9177ms
+2024-05-19 09:03:53.2373 | INFO | Request starting HTTP/1.1 GET http://localhost:5149/swagger/文件上传接口/swagger.json - -
+2024-05-19 09:03:53.2373 | INFO | Request finished HTTP/1.1 GET http://localhost:5149/swagger/文件上传接口/swagger.json - - - 200 - application/json;charset=utf-8 2.1718ms
+2024-05-19 10:53:06.4788 | INFO | User profile is available. Using 'C:\Users\Administrator\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-05-19 10:53:06.6713 | INFO | Now listening on: http://localhost:5149
+2024-05-19 10:53:06.6764 | INFO | Application started. Press Ctrl+C to shut down.
+2024-05-19 10:53:06.6764 | INFO | Hosting environment: Development
+2024-05-19 10:53:06.6764 | INFO | Content root path: D:\BaiduSyncdisk\webapi.net7+sqlsugar\webapi.net7.sqlsugar\webapi.net7.sqlsugar
+2024-05-19 10:53:12.5682 | INFO | Request starting HTTP/1.1 GET http://localhost:5149/swagger/index.html - -
+2024-05-19 10:53:13.3951 | INFO | Request starting HTTP/1.1 GET http://localhost:5149/_vs/browserLink - -
+2024-05-19 10:53:13.3951 | INFO | Request starting HTTP/1.1 GET http://localhost:5149/_framework/aspnetcore-browser-refresh.js - -
+2024-05-19 10:53:13.3951 | INFO | Request finished HTTP/1.1 GET http://localhost:5149/swagger/index.html - - - 200 - text/html;charset=utf-8 836.7113ms
+2024-05-19 10:53:13.3951 | INFO | Request finished HTTP/1.1 GET http://localhost:5149/_framework/aspnetcore-browser-refresh.js - - - 200 13776 application/javascript;+charset=utf-8 4.7456ms
+2024-05-19 10:53:13.4887 | INFO | Request finished HTTP/1.1 GET http://localhost:5149/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 92.2521ms
+2024-05-19 10:53:13.6073 | INFO | Request starting HTTP/1.1 GET http://localhost:5149/swagger/东泽房源管理接口/swagger.json - -
+2024-05-19 10:53:14.4044 | INFO | Request finished HTTP/1.1 GET http://localhost:5149/swagger/东泽房源管理接口/swagger.json - - - 200 - application/json;charset=utf-8 797.4203ms
+2024-05-19 10:53:18.9352 | INFO | Request starting HTTP/1.1 POST http://localhost:5149/api/usertest application/json 8
+2024-05-19 10:53:18.9662 | WARN | Failed to determine the https port for redirect.
+2024-05-19 10:53:19.1410 | INFO | CORS policy execution successful.
+2024-05-19 10:53:19.1410 | INFO | Executing endpoint 'webapi.net7.sqlsugar.Controllers.CRMAppControlle.usertest (webapi.net7.sqlsugar)'
+2024-05-19 10:53:19.1913 | INFO | Route matched with {action = "usertest", controller = "CRMAppControlle"}. Executing controller action with signature System.Object usertest(System.Object) on controller webapi.net7.sqlsugar.Controllers.CRMAppControlle (webapi.net7.sqlsugar).
+2024-05-19 10:53:19.2529 | INFO | Executing action method webapi.net7.sqlsugar.Controllers.CRMAppControlle.usertest (webapi.net7.sqlsugar) - Validation state: Valid
+2024-05-19 14:52:11.1180 | INFO | User profile is available. Using 'C:\Users\Administrator\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-05-19 14:52:11.3397 | INFO | Now listening on: http://localhost:5149
+2024-05-19 14:52:11.3397 | INFO | Application started. Press Ctrl+C to shut down.
+2024-05-19 14:52:11.3449 | INFO | Hosting environment: Development
+2024-05-19 14:52:11.3449 | INFO | Content root path: D:\BaiduSyncdisk\webapi.net7+sqlsugar\webapi.net7.sqlsugar\webapi.net7.sqlsugar
+2024-05-19 14:52:14.7058 | INFO | Request starting HTTP/1.1 GET http://localhost:5149/swagger/index.html - -
+2024-05-19 14:52:15.2534 | INFO | Request finished HTTP/1.1 GET http://localhost:5149/swagger/index.html - - - 200 - text/html;charset=utf-8 553.8458ms
+2024-05-19 14:52:15.2534 | INFO | Request starting HTTP/1.1 GET http://localhost:5149/_vs/browserLink - -
+2024-05-19 14:52:15.2534 | INFO | Request starting HTTP/1.1 GET http://localhost:5149/_framework/aspnetcore-browser-refresh.js - -
+2024-05-19 14:52:15.2654 | INFO | Request finished HTTP/1.1 GET http://localhost:5149/_framework/aspnetcore-browser-refresh.js - - - 200 13776 application/javascript;+charset=utf-8 2.5984ms
+2024-05-19 14:52:15.3697 | INFO | Request finished HTTP/1.1 GET http://localhost:5149/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 109.4206ms
+2024-05-19 14:52:15.4254 | INFO | Request starting HTTP/1.1 GET http://localhost:5149/swagger/东泽房源管理接口/swagger.json - -
+2024-05-19 14:52:15.8947 | INFO | Request finished HTTP/1.1 GET http://localhost:5149/swagger/东泽房源管理接口/swagger.json - - - 200 - application/json;charset=utf-8 469.5868ms
+2024-05-19 15:00:45.6057 | INFO | User profile is available. Using 'C:\Users\Administrator\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-05-19 15:00:45.8011 | INFO | Now listening on: http://localhost:5149
+2024-05-19 15:00:45.8011 | INFO | Application started. Press Ctrl+C to shut down.
+2024-05-19 15:00:45.8011 | INFO | Hosting environment: Development
+2024-05-19 15:00:45.8011 | INFO | Content root path: D:\BaiduSyncdisk\webapi.net7+sqlsugar\webapi.net7.sqlsugar\webapi.net7.sqlsugar
+2024-05-19 15:00:46.4615 | INFO | Request starting HTTP/1.1 GET http://localhost:5149/swagger/index.html - -
+2024-05-19 15:00:46.8141 | INFO | Request starting HTTP/1.1 GET http://localhost:5149/_framework/aspnetcore-browser-refresh.js - -
+2024-05-19 15:00:46.8141 | INFO | Request finished HTTP/1.1 GET http://localhost:5149/swagger/index.html - - - 200 - text/html;charset=utf-8 359.1427ms
+2024-05-19 15:00:46.8141 | INFO | Request finished HTTP/1.1 GET http://localhost:5149/_framework/aspnetcore-browser-refresh.js - - - 200 13776 application/javascript;+charset=utf-8 4.7232ms
+2024-05-19 15:00:46.8141 | INFO | Request starting HTTP/1.1 GET http://localhost:5149/_vs/browserLink - -
+2024-05-19 15:00:46.8720 | INFO | Request finished HTTP/1.1 GET http://localhost:5149/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 46.7525ms
+2024-05-19 15:00:46.9104 | INFO | Request starting HTTP/1.1 GET http://localhost:5149/swagger/东泽房源管理接口/swagger.json - -
+2024-05-19 15:00:47.2740 | INFO | Request finished HTTP/1.1 GET http://localhost:5149/swagger/东泽房源管理接口/swagger.json - - - 200 - application/json;charset=utf-8 363.8019ms
+2024-05-19 15:00:57.2720 | INFO | Request starting HTTP/1.1 GET http://localhost:5149/swagger/U8移动端接口/swagger.json - -
+2024-05-19 15:00:57.3287 | INFO | Request finished HTTP/1.1 GET http://localhost:5149/swagger/U8移动端接口/swagger.json - - - 200 - application/json;charset=utf-8 56.8400ms
+2024-05-19 15:01:07.0969 | INFO | Request starting HTTP/1.1 POST http://localhost:5149/api/GetToken application/json 48
+2024-05-19 15:01:07.1290 | WARN | Failed to determine the https port for redirect.
+2024-05-19 15:01:07.2855 | INFO | CORS policy execution successful.
+2024-05-19 15:01:07.2855 | INFO | Executing endpoint 'webapi.net7.sqlsugar.Controllers.ApiTokenController.GetToken (webapi.net7.sqlsugar)'
+2024-05-19 15:01:07.3361 | INFO | Route matched with {action = "GetToken", controller = "ApiToken"}. Executing controller action with signature webapi.net7.sqlsugar.MessageToken GetToken(webapi.net7.sqlsugar.User) on controller webapi.net7.sqlsugar.Controllers.ApiTokenController (webapi.net7.sqlsugar).
+2024-05-19 15:01:07.3806 | INFO | Executing action method webapi.net7.sqlsugar.Controllers.ApiTokenController.GetToken (webapi.net7.sqlsugar) - Validation state: Valid
+2024-05-19 15:01:07.7696 | INFO | Executed action method webapi.net7.sqlsugar.Controllers.ApiTokenController.GetToken (webapi.net7.sqlsugar), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 372.3632ms.
+2024-05-19 15:01:07.7696 | INFO | Executing ObjectResult, writing value of type 'webapi.net7.sqlsugar.MessageToken'.
+2024-05-19 15:01:07.7971 | INFO | Executed action webapi.net7.sqlsugar.Controllers.ApiTokenController.GetToken (webapi.net7.sqlsugar) in 451.7471ms
+2024-05-19 15:01:07.7971 | INFO | Executed endpoint 'webapi.net7.sqlsugar.Controllers.ApiTokenController.GetToken (webapi.net7.sqlsugar)'
+2024-05-19 15:01:07.7971 | INFO | Request finished HTTP/1.1 POST http://localhost:5149/api/GetToken application/json 48 - 200 - application/json;+charset=utf-8 700.7326ms
+2024-05-19 15:41:46.7471 | INFO | User profile is available. Using 'C:\Users\Administrator\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-05-19 15:41:46.9478 | INFO | Now listening on: http://localhost:5149
+2024-05-19 15:41:46.9478 | INFO | Application started. Press Ctrl+C to shut down.
+2024-05-19 15:41:46.9478 | INFO | Hosting environment: Development
+2024-05-19 15:41:46.9537 | INFO | Content root path: D:\BaiduSyncdisk\webapi.net7+sqlsugar\webapi.net7.sqlsugar\webapi.net7.sqlsugar
+2024-05-19 15:41:50.7050 | INFO | Request starting HTTP/1.1 GET http://localhost:5149/swagger/index.html - -
+2024-05-19 15:41:51.3921 | INFO | Request finished HTTP/1.1 GET http://localhost:5149/swagger/index.html - - - 200 - text/html;charset=utf-8 693.9243ms
+2024-05-19 15:41:51.4304 | INFO | Request starting HTTP/1.1 GET http://localhost:5149/_framework/aspnetcore-browser-refresh.js - -
+2024-05-19 15:41:51.4304 | INFO | Request finished HTTP/1.1 GET http://localhost:5149/_framework/aspnetcore-browser-refresh.js - - - 200 13776 application/javascript;+charset=utf-8 4.7384ms
+2024-05-19 15:41:51.4304 | INFO | Request starting HTTP/1.1 GET http://localhost:5149/_vs/browserLink - -
+2024-05-19 15:41:51.7003 | INFO | Request finished HTTP/1.1 GET http://localhost:5149/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 264.4845ms
+2024-05-19 15:41:51.7592 | INFO | Request starting HTTP/1.1 GET http://localhost:5149/swagger/东泽房源管理接口/swagger.json - -
+2024-05-19 15:41:52.2432 | INFO | Request finished HTTP/1.1 GET http://localhost:5149/swagger/东泽房源管理接口/swagger.json - - - 200 - application/json;charset=utf-8 484.2590ms
+2024-05-19 15:42:03.9844 | INFO | Request starting HTTP/1.1 GET http://localhost:5149/swagger/U8移动端接口/swagger.json - -
+2024-05-19 15:42:04.0409 | INFO | Request finished HTTP/1.1 GET http://localhost:5149/swagger/U8移动端接口/swagger.json - - - 200 - application/json;charset=utf-8 56.6710ms

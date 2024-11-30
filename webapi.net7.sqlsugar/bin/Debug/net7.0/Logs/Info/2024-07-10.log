@@ -1,0 +1,26 @@
+2024-07-10 11:20:53.4456 | INFO | User profile is available. Using 'C:\Users\Administrator\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-07-10 11:20:53.6745 | INFO | Now listening on: http://localhost:5149
+2024-07-10 11:20:53.6781 | INFO | Application started. Press Ctrl+C to shut down.
+2024-07-10 11:20:53.6781 | INFO | Hosting environment: Development
+2024-07-10 11:20:53.6781 | INFO | Content root path: D:\BaiduSyncdisk\webapi.net7+sqlsugar\webapi.net7.sqlsugar\webapi.net7.sqlsugar
+2024-07-10 11:20:54.8873 | INFO | Request starting HTTP/1.1 GET http://localhost:5149/swagger/index.html - -
+2024-07-10 11:20:55.2585 | INFO | Request finished HTTP/1.1 GET http://localhost:5149/swagger/index.html - - - 200 - text/html;charset=utf-8 376.3098ms
+2024-07-10 11:20:55.2811 | INFO | Request starting HTTP/1.1 GET http://localhost:5149/_vs/browserLink - -
+2024-07-10 11:20:55.2811 | INFO | Request starting HTTP/1.1 GET http://localhost:5149/_framework/aspnetcore-browser-refresh.js - -
+2024-07-10 11:20:55.2854 | INFO | Request finished HTTP/1.1 GET http://localhost:5149/_framework/aspnetcore-browser-refresh.js - - - 200 13776 application/javascript;+charset=utf-8 2.3880ms
+2024-07-10 11:20:55.3390 | INFO | Request finished HTTP/1.1 GET http://localhost:5149/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 58.0830ms
+2024-07-10 11:20:55.4626 | INFO | Request starting HTTP/1.1 GET http://localhost:5149/swagger/东泽房源管理接口/swagger.json - -
+2024-07-10 11:20:55.7530 | INFO | Request finished HTTP/1.1 GET http://localhost:5149/swagger/东泽房源管理接口/swagger.json - - - 200 - application/json;charset=utf-8 290.4726ms
+2024-07-10 11:20:57.6341 | INFO | Request starting HTTP/1.1 GET http://localhost:5149/swagger/U8移动端接口/swagger.json - -
+2024-07-10 11:20:57.6567 | INFO | Request finished HTTP/1.1 GET http://localhost:5149/swagger/U8移动端接口/swagger.json - - - 200 - application/json;charset=utf-8 22.7395ms
+2024-07-10 11:21:48.8526 | INFO | Request starting HTTP/1.1 POST http://localhost:5149/api/SubmitApplicationMessage application/json 64
+2024-07-10 11:21:48.8630 | WARN | Failed to determine the https port for redirect.
+2024-07-10 11:21:48.9785 | INFO | CORS policy execution successful.
+2024-07-10 11:21:48.9785 | INFO | Executing endpoint 'webapi.net7.sqlsugar.Controllers.WorkShopController.SubmitApplicationMessage (webapi.net7.sqlsugar)'
+2024-07-10 11:21:49.0166 | INFO | Route matched with {action = "SubmitApplicationMessage", controller = "WorkShop"}. Executing controller action with signature System.Object SubmitApplicationMessage(System.Object) on controller webapi.net7.sqlsugar.Controllers.WorkShopController (webapi.net7.sqlsugar).
+2024-07-10 11:21:49.2714 | INFO | Executing action method webapi.net7.sqlsugar.Controllers.WorkShopController.SubmitApplicationMessage (webapi.net7.sqlsugar) - Validation state: Valid
+2024-07-10 11:21:52.3182 | INFO | Executed action method webapi.net7.sqlsugar.Controllers.WorkShopController.SubmitApplicationMessage (webapi.net7.sqlsugar), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 3033.8431ms.
+2024-07-10 11:21:52.3182 | INFO | Executing ObjectResult, writing value of type '<>f__AnonymousType10`2[[System.Nullable`1[[System.Int32, System.Private.CoreLib, Version=7.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]], System.Private.CoreLib, Version=7.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=7.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2024-07-10 11:21:52.3362 | INFO | Executed action webapi.net7.sqlsugar.Controllers.WorkShopController.SubmitApplicationMessage (webapi.net7.sqlsugar) in 3312.0464ms
+2024-07-10 11:21:52.3362 | INFO | Executed endpoint 'webapi.net7.sqlsugar.Controllers.WorkShopController.SubmitApplicationMessage (webapi.net7.sqlsugar)'
+2024-07-10 11:21:52.3362 | INFO | Request finished HTTP/1.1 POST http://localhost:5149/api/SubmitApplicationMessage application/json 64 - 200 - application/json;+charset=utf-8 3482.7914ms

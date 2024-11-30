@@ -1,0 +1,39 @@
+2024-07-19 16:31:37.9944 | INFO | User profile is available. Using 'C:\Users\Administrator\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-07-19 16:31:38.0268 | INFO | Creating key {5253006b-7847-4af6-b43a-32e1140a5d05} with creation date 2024-07-19 08:31:38Z, activation date 2024-07-19 08:31:37Z, and expiration date 2024-10-17 08:31:37Z.
+2024-07-19 16:31:38.0428 | INFO | Writing data to file 'C:\Users\Administrator\AppData\Local\ASP.NET\DataProtection-Keys\key-5253006b-7847-4af6-b43a-32e1140a5d05.xml'.
+2024-07-19 16:31:38.2495 | INFO | Now listening on: http://localhost:5149
+2024-07-19 16:31:38.2495 | INFO | Application started. Press Ctrl+C to shut down.
+2024-07-19 16:31:38.2495 | INFO | Hosting environment: Development
+2024-07-19 16:31:38.2495 | INFO | Content root path: D:\BaiduSyncdisk\webapi.net7+sqlsugar\webapi.net7.sqlsugar\webapi.net7.sqlsugar
+2024-07-19 16:31:39.0087 | INFO | Request starting HTTP/1.1 GET http://localhost:5149/swagger - -
+2024-07-19 16:31:39.2614 | INFO | Request finished HTTP/1.1 GET http://localhost:5149/swagger - - - 301 0 - 254.8973ms
+2024-07-19 16:31:39.2614 | INFO | Request starting HTTP/1.1 GET http://localhost:5149/swagger/index.html - -
+2024-07-19 16:31:39.3554 | INFO | Request finished HTTP/1.1 GET http://localhost:5149/swagger/index.html - - - 200 - text/html;charset=utf-8 98.8530ms
+2024-07-19 16:31:39.3721 | INFO | Request starting HTTP/1.1 GET http://localhost:5149/swagger/swagger-ui.css - -
+2024-07-19 16:31:39.3721 | INFO | Request starting HTTP/1.1 GET http://localhost:5149/swagger/swagger-ui-bundle.js - -
+2024-07-19 16:31:39.3721 | INFO | Request starting HTTP/1.1 GET http://localhost:5149/_framework/aspnetcore-browser-refresh.js - -
+2024-07-19 16:31:39.3721 | INFO | Request starting HTTP/1.1 GET http://localhost:5149/swagger/swagger-ui-standalone-preset.js - -
+2024-07-19 16:31:39.3721 | INFO | Request starting HTTP/1.1 GET http://localhost:5149/_vs/browserLink - -
+2024-07-19 16:31:39.3721 | INFO | Request finished HTTP/1.1 GET http://localhost:5149/_framework/aspnetcore-browser-refresh.js - - - 200 13776 application/javascript;+charset=utf-8 7.6482ms
+2024-07-19 16:31:39.4222 | INFO | Sending file. Request path: '/swagger-ui-standalone-preset.js'. Physical path: 'N/A'
+2024-07-19 16:31:39.4222 | INFO | Sending file. Request path: '/swagger-ui.css'. Physical path: 'N/A'
+2024-07-19 16:31:39.4222 | INFO | Request finished HTTP/1.1 GET http://localhost:5149/swagger/swagger-ui.css - - - 200 144929 text/css 51.5195ms
+2024-07-19 16:31:39.4222 | INFO | Request finished HTTP/1.1 GET http://localhost:5149/swagger/swagger-ui-standalone-preset.js - - - 200 312163 text/javascript 50.5269ms
+2024-07-19 16:31:39.4222 | INFO | Sending file. Request path: '/swagger-ui-bundle.js'. Physical path: 'N/A'
+2024-07-19 16:31:39.4222 | INFO | Request finished HTTP/1.1 GET http://localhost:5149/swagger/swagger-ui-bundle.js - - - 200 1061536 text/javascript 57.8833ms
+2024-07-19 16:31:39.4568 | INFO | Request finished HTTP/1.1 GET http://localhost:5149/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 77.3392ms
+2024-07-19 16:31:39.5786 | INFO | Request starting HTTP/1.1 GET http://localhost:5149/swagger/东泽房源管理接口/swagger.json - -
+2024-07-19 16:31:39.6075 | INFO | Request starting HTTP/1.1 GET http://localhost:5149/swagger/favicon-32x32.png - -
+2024-07-19 16:31:39.6075 | INFO | Sending file. Request path: '/favicon-32x32.png'. Physical path: 'N/A'
+2024-07-19 16:31:39.6075 | INFO | Request finished HTTP/1.1 GET http://localhost:5149/swagger/favicon-32x32.png - - - 200 628 image/png 1.4054ms
+2024-07-19 16:31:39.9412 | INFO | Request finished HTTP/1.1 GET http://localhost:5149/swagger/东泽房源管理接口/swagger.json - - - 200 - application/json;charset=utf-8 362.7237ms
+2024-07-19 16:31:47.3485 | INFO | Request starting HTTP/1.1 POST http://localhost:5149/api/Getrcs - 0
+2024-07-19 16:31:47.3554 | WARN | Failed to determine the https port for redirect.
+2024-07-19 16:31:47.4515 | INFO | CORS policy execution successful.
+2024-07-19 16:31:47.4515 | INFO | Executing endpoint 'webapi.net7.sqlsugar.Controllers.CRMAppControlle.Getrcs (webapi.net7.sqlsugar)'
+2024-07-19 16:31:47.4651 | INFO | Route matched with {action = "Getrcs", controller = "CRMAppControlle"}. Executing controller action with signature System.Object Getrcs() on controller webapi.net7.sqlsugar.Controllers.CRMAppControlle (webapi.net7.sqlsugar).
+2024-07-19 16:31:47.4651 | INFO | Executing action method webapi.net7.sqlsugar.Controllers.CRMAppControlle.Getrcs (webapi.net7.sqlsugar) - Validation state: Valid
+2024-07-19 16:32:37.8948 | INFO | Executed action webapi.net7.sqlsugar.Controllers.CRMAppControlle.Getrcs (webapi.net7.sqlsugar) in 50429.2439ms
+2024-07-19 16:32:37.8948 | INFO | Executed endpoint 'webapi.net7.sqlsugar.Controllers.CRMAppControlle.Getrcs (webapi.net7.sqlsugar)'
+2024-07-19 16:32:37.9436 | ERROR | An unhandled exception has occurred while executing the request.
+2024-07-19 16:32:37.9496 | INFO | Request finished HTTP/1.1 POST http://localhost:5149/api/Getrcs - 0 - 500 - text/plain;+charset=utf-8 50601.1203ms

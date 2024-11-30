@@ -1,0 +1,58 @@
+2024-10-16 16:18:12.2225 | INFO | User profile is available. Using 'C:\Users\Administrator\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-10-16 16:18:12.2470 | INFO | Creating key {a1a08447-4188-4fd2-8003-834ef2737839} with creation date 2024-10-16 08:18:12Z, activation date 2024-10-17 08:31:37Z, and expiration date 2025-01-14 08:18:12Z.
+2024-10-16 16:18:12.2654 | INFO | Writing data to file 'C:\Users\Administrator\AppData\Local\ASP.NET\DataProtection-Keys\key-a1a08447-4188-4fd2-8003-834ef2737839.xml'.
+2024-10-16 16:18:12.4301 | INFO | Now listening on: http://localhost:5149
+2024-10-16 16:18:12.4335 | INFO | Application started. Press Ctrl+C to shut down.
+2024-10-16 16:18:12.4335 | INFO | Hosting environment: Development
+2024-10-16 16:18:12.4335 | INFO | Content root path: D:\BaiduSyncdisk\webapi.net7+sqlsugar\webapi.net7.sqlsugar\webapi.net7.sqlsugar
+2024-10-16 16:18:13.5463 | INFO | Request starting HTTP/1.1 GET http://localhost:5149/swagger - -
+2024-10-16 16:18:14.0176 | INFO | Request finished HTTP/1.1 GET http://localhost:5149/swagger - - - 301 0 - 474.7475ms
+2024-10-16 16:18:14.0176 | INFO | Request starting HTTP/1.1 GET http://localhost:5149/swagger/index.html - -
+2024-10-16 16:18:14.1284 | INFO | Request finished HTTP/1.1 GET http://localhost:5149/swagger/index.html - - - 200 - text/html;charset=utf-8 106.1073ms
+2024-10-16 16:18:14.1284 | INFO | Request starting HTTP/1.1 GET http://localhost:5149/swagger/swagger-ui.css - -
+2024-10-16 16:18:14.1284 | INFO | Request starting HTTP/1.1 GET http://localhost:5149/swagger/swagger-ui-bundle.js - -
+2024-10-16 16:18:14.1284 | INFO | Request starting HTTP/1.1 GET http://localhost:5149/swagger/swagger-ui-standalone-preset.js - -
+2024-10-16 16:18:14.1284 | INFO | Request starting HTTP/1.1 GET http://localhost:5149/_framework/aspnetcore-browser-refresh.js - -
+2024-10-16 16:18:14.1363 | INFO | Request starting HTTP/1.1 GET http://localhost:5149/_vs/browserLink - -
+2024-10-16 16:18:14.1363 | INFO | Request finished HTTP/1.1 GET http://localhost:5149/_framework/aspnetcore-browser-refresh.js - - - 200 13776 application/javascript;+charset=utf-8 6.2419ms
+2024-10-16 16:18:14.1682 | INFO | Sending file. Request path: '/swagger-ui.css'. Physical path: 'N/A'
+2024-10-16 16:18:14.1682 | INFO | Sending file. Request path: '/swagger-ui-standalone-preset.js'. Physical path: 'N/A'
+2024-10-16 16:18:14.1682 | INFO | Request finished HTTP/1.1 GET http://localhost:5149/swagger/swagger-ui.css - - - 200 144929 text/css 39.1372ms
+2024-10-16 16:18:14.1682 | INFO | Request finished HTTP/1.1 GET http://localhost:5149/swagger/swagger-ui-standalone-preset.js - - - 200 312163 text/javascript 38.4886ms
+2024-10-16 16:18:14.1682 | INFO | Sending file. Request path: '/swagger-ui-bundle.js'. Physical path: 'N/A'
+2024-10-16 16:18:14.1682 | INFO | Request finished HTTP/1.1 GET http://localhost:5149/swagger/swagger-ui-bundle.js - - - 200 1061536 text/javascript 47.9053ms
+2024-10-16 16:18:14.2396 | INFO | Request finished HTTP/1.1 GET http://localhost:5149/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 99.8217ms
+2024-10-16 16:18:14.4266 | INFO | Request starting HTTP/1.1 GET http://localhost:5149/swagger/东泽房源管理接口/swagger.json - -
+2024-10-16 16:18:14.4501 | INFO | Request starting HTTP/1.1 GET http://localhost:5149/swagger/favicon-32x32.png - -
+2024-10-16 16:18:14.4501 | INFO | Sending file. Request path: '/favicon-32x32.png'. Physical path: 'N/A'
+2024-10-16 16:18:14.4501 | INFO | Request finished HTTP/1.1 GET http://localhost:5149/swagger/favicon-32x32.png - - - 200 628 image/png 1.2321ms
+2024-10-16 16:18:14.8887 | INFO | Request finished HTTP/1.1 GET http://localhost:5149/swagger/东泽房源管理接口/swagger.json - - - 200 - application/json;charset=utf-8 462.2760ms
+2024-10-16 16:18:21.1409 | INFO | Request starting HTTP/1.1 GET http://localhost:5149/swagger/U8移动端接口/swagger.json - -
+2024-10-16 16:18:21.1722 | INFO | Request finished HTTP/1.1 GET http://localhost:5149/swagger/U8移动端接口/swagger.json - - - 200 - application/json;charset=utf-8 31.4867ms
+2024-10-16 16:18:36.2724 | INFO | Request starting HTTP/1.1 POST http://localhost:5149/api/GetToken application/json 48
+2024-10-16 16:18:36.2803 | WARN | Failed to determine the https port for redirect.
+2024-10-16 16:18:36.3528 | INFO | CORS policy execution successful.
+2024-10-16 16:18:36.4080 | INFO | Executing endpoint 'webapi.net7.sqlsugar.Controllers.ApiTokenController.GetToken (webapi.net7.sqlsugar)'
+2024-10-16 16:18:36.4285 | INFO | Route matched with {action = "GetToken", controller = "ApiToken"}. Executing controller action with signature webapi.net7.sqlsugar.MessageToken GetToken(webapi.net7.sqlsugar.User) on controller webapi.net7.sqlsugar.Controllers.ApiTokenController (webapi.net7.sqlsugar).
+2024-10-16 16:18:36.4488 | INFO | Executing action method webapi.net7.sqlsugar.Controllers.ApiTokenController.GetToken (webapi.net7.sqlsugar) - Validation state: Valid
+2024-10-16 16:18:36.5698 | INFO | Executed action method webapi.net7.sqlsugar.Controllers.ApiTokenController.GetToken (webapi.net7.sqlsugar), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 115.4718ms.
+2024-10-16 16:18:36.5744 | INFO | Executing ObjectResult, writing value of type 'webapi.net7.sqlsugar.MessageToken'.
+2024-10-16 16:18:36.5744 | INFO | Executed action webapi.net7.sqlsugar.Controllers.ApiTokenController.GetToken (webapi.net7.sqlsugar) in 148.631ms
+2024-10-16 16:18:36.5744 | INFO | Executed endpoint 'webapi.net7.sqlsugar.Controllers.ApiTokenController.GetToken (webapi.net7.sqlsugar)'
+2024-10-16 16:18:36.8501 | ERROR | An unhandled exception has occurred while executing the request.
+2024-10-16 16:18:36.8501 | WARN | The response has already started, the error page middleware will not be executed.
+2024-10-16 16:18:36.8744 | ERROR | Connection id "0HN7DNC9UP701", Request id "0HN7DNC9UP701:00000004": An unhandled exception was thrown by the application.
+2024-10-16 16:18:36.8744 | INFO | Request finished HTTP/1.1 POST http://localhost:5149/api/GetToken application/json 48 - 200 - application/json;+charset=utf-8 602.5212ms
+2024-10-16 16:19:49.5679 | INFO | Request starting HTTP/1.1 POST http://localhost:5149/api/GetToken application/json 48
+2024-10-16 16:19:49.5784 | INFO | CORS policy execution successful.
+2024-10-16 16:19:49.5784 | INFO | Executing endpoint 'webapi.net7.sqlsugar.Controllers.ApiTokenController.GetToken (webapi.net7.sqlsugar)'
+2024-10-16 16:19:49.5784 | INFO | Route matched with {action = "GetToken", controller = "ApiToken"}. Executing controller action with signature webapi.net7.sqlsugar.MessageToken GetToken(webapi.net7.sqlsugar.User) on controller webapi.net7.sqlsugar.Controllers.ApiTokenController (webapi.net7.sqlsugar).
+2024-10-16 16:19:49.5784 | INFO | Executing action method webapi.net7.sqlsugar.Controllers.ApiTokenController.GetToken (webapi.net7.sqlsugar) - Validation state: Valid
+2024-10-16 16:19:49.5891 | INFO | Executed action method webapi.net7.sqlsugar.Controllers.ApiTokenController.GetToken (webapi.net7.sqlsugar), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 0.7821ms.
+2024-10-16 16:19:49.5891 | INFO | Executing ObjectResult, writing value of type 'webapi.net7.sqlsugar.MessageToken'.
+2024-10-16 16:19:49.5891 | INFO | Executed action webapi.net7.sqlsugar.Controllers.ApiTokenController.GetToken (webapi.net7.sqlsugar) in 5.707ms
+2024-10-16 16:19:49.5891 | INFO | Executed endpoint 'webapi.net7.sqlsugar.Controllers.ApiTokenController.GetToken (webapi.net7.sqlsugar)'
+2024-10-16 16:19:49.6057 | ERROR | An unhandled exception has occurred while executing the request.
+2024-10-16 16:19:49.6057 | WARN | The response has already started, the error page middleware will not be executed.
+2024-10-16 16:19:49.6057 | ERROR | Connection id "0HN7DNC9UP6VU", Request id "0HN7DNC9UP6VU:00000003": An unhandled exception was thrown by the application.
+2024-10-16 16:19:49.6057 | INFO | Request finished HTTP/1.1 POST http://localhost:5149/api/GetToken application/json 48 - 200 - application/json;+charset=utf-8 44.1246ms

@@ -1,0 +1,197 @@
+2024-01-28 00:02:03.4861 | INFO | Request starting HTTP/1.1 POST http://localhost:5149/api/ceshi application/json 60
+2024-01-28 00:02:03.5908 | DEBUG | 1 candidate(s) found for the request path '/api/ceshi'
+2024-01-28 00:02:03.5908 | DEBUG | Endpoint 'webapi.net7.sqlsugar.Controllers.ApiLoginController.ceshi (webapi.net7.sqlsugar)' with route pattern 'api/ceshi' is valid for the request path '/api/ceshi'
+2024-01-28 00:02:03.5908 | DEBUG | Request matched endpoint 'webapi.net7.sqlsugar.Controllers.ApiLoginController.ceshi (webapi.net7.sqlsugar)'
+2024-01-28 00:02:03.5908 | DEBUG | Static files was skipped as the request already matched an endpoint.
+2024-01-28 00:02:03.5999 | DEBUG | Static files was skipped as the request already matched an endpoint.
+2024-01-28 00:02:03.5999 | DEBUG | AuthenticationScheme: Bearer was not authenticated.
+2024-01-28 00:02:03.5999 | DEBUG | The request has an origin header: 'http://localhost:5149'.
+2024-01-28 00:02:03.5999 | INFO | CORS policy execution successful.
+2024-01-28 00:02:03.5999 | INFO | Executing endpoint 'webapi.net7.sqlsugar.Controllers.ApiLoginController.ceshi (webapi.net7.sqlsugar)'
+2024-01-28 00:02:03.5999 | INFO | Route matched with {action = "ceshi", controller = "ApiLogin"}. Executing controller action with signature System.Object ceshi(System.Object) on controller webapi.net7.sqlsugar.Controllers.ApiLoginController (webapi.net7.sqlsugar).
+2024-01-28 00:02:03.5999 | DEBUG | Execution plan of authorization filters (in the following order): None
+2024-01-28 00:02:03.5999 | DEBUG | Execution plan of resource filters (in the following order): None
+2024-01-28 00:02:03.5999 | DEBUG | Execution plan of action filters (in the following order): Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000), Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)
+2024-01-28 00:02:03.5999 | DEBUG | Execution plan of exception filters (in the following order): None
+2024-01-28 00:02:03.5999 | DEBUG | Execution plan of result filters (in the following order): Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)
+2024-01-28 00:02:03.5999 | DEBUG | Executing controller factory for controller webapi.net7.sqlsugar.Controllers.ApiLoginController (webapi.net7.sqlsugar)
+2024-01-28 00:02:03.5999 | DEBUG | Executed controller factory for controller webapi.net7.sqlsugar.Controllers.ApiLoginController (webapi.net7.sqlsugar)
+2024-01-28 00:02:03.5999 | DEBUG | Attempting to bind parameter 'ob' of type 'System.Object' ...
+2024-01-28 00:02:03.5999 | DEBUG | Attempting to bind parameter 'ob' of type 'System.Object' using the name '' in request data ...
+2024-01-28 00:02:03.5999 | DEBUG | Selected input formatter 'Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonInputFormatter' for content type 'application/json'.
+2024-01-28 00:02:03.5999 | DEBUG | Connection id "0HN0VA2PCG5CE", Request id "0HN0VA2PCG5CE:00000004": started reading request body.
+2024-01-28 00:02:03.5999 | DEBUG | Connection id "0HN0VA2PCG5CE", Request id "0HN0VA2PCG5CE:00000004": done reading request body.
+2024-01-28 00:02:03.5999 | DEBUG | JSON input formatter succeeded, deserializing to type 'System.Object'
+2024-01-28 00:02:03.5999 | DEBUG | Done attempting to bind parameter 'ob' of type 'System.Object'.
+2024-01-28 00:02:03.5999 | DEBUG | Done attempting to bind parameter 'ob' of type 'System.Object'.
+2024-01-28 00:02:03.5999 | DEBUG | Attempting to validate the bound parameter 'ob' of type 'System.Object' ...
+2024-01-28 00:02:03.5999 | DEBUG | Done attempting to validate the bound parameter 'ob' of type 'System.Object'.
+2024-01-28 00:02:03.5999 | INFO | Executing action method webapi.net7.sqlsugar.Controllers.ApiLoginController.ceshi (webapi.net7.sqlsugar) - Validation state: Valid
+2024-01-28 00:02:03.5999 | INFO | Executed action method webapi.net7.sqlsugar.Controllers.ApiLoginController.ceshi (webapi.net7.sqlsugar), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 0.1973ms.
+2024-01-28 00:02:03.5999 | DEBUG | List of registered output formatters, in the following order: Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter, Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter, Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter, Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter
+2024-01-28 00:02:03.5999 | DEBUG | No information found on request to perform content negotiation.
+2024-01-28 00:02:03.5999 | DEBUG | Attempting to select an output formatter without using a content type as no explicit content types were specified for the response.
+2024-01-28 00:02:03.5999 | DEBUG | Attempting to select the first formatter in the output formatters list which can write the result.
+2024-01-28 00:02:03.5999 | DEBUG | Selected output formatter 'Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter' and content type 'application/json' to write the response.
+2024-01-28 00:02:03.5999 | INFO | Executing ObjectResult, writing value of type 'Newtonsoft.Json.Linq.JValue'.
+2024-01-28 00:02:03.5999 | INFO | Executed action webapi.net7.sqlsugar.Controllers.ApiLoginController.ceshi (webapi.net7.sqlsugar) in 3.9659ms
+2024-01-28 00:02:03.5999 | INFO | Executed endpoint 'webapi.net7.sqlsugar.Controllers.ApiLoginController.ceshi (webapi.net7.sqlsugar)'
+2024-01-28 00:02:03.5999 | DEBUG | Connection id "0HN0VA2PCG5CE" completed keep alive response.
+2024-01-28 00:02:03.5999 | INFO | Request finished HTTP/1.1 POST http://localhost:5149/api/ceshi application/json 60 - 200 - application/json;+charset=utf-8 122.0237ms
+2024-01-28 00:02:12.7905 | DEBUG | Registered model binder providers, in the following order: Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DateTimeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.TryParseModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinderProvider
+2024-01-28 00:02:12.9078 | DEBUG | Hosting starting
+2024-01-28 00:02:12.9372 | INFO | User profile is available. Using 'C:\Users\Administrator\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-01-28 00:02:12.9372 | DEBUG | Reading data from file 'C:\Users\Administrator\AppData\Local\ASP.NET\DataProtection-Keys\key-34692722-1836-4131-841e-52bc30c5cc34.xml'.
+2024-01-28 00:02:12.9439 | DEBUG | Reading data from file 'C:\Users\Administrator\AppData\Local\ASP.NET\DataProtection-Keys\key-691d2c1e-819d-4ace-bf8c-4b95df9c96f1.xml'.
+2024-01-28 00:02:12.9439 | DEBUG | Found key {34692722-1836-4131-841e-52bc30c5cc34}.
+2024-01-28 00:02:12.9439 | DEBUG | Found key {691d2c1e-819d-4ace-bf8c-4b95df9c96f1}.
+2024-01-28 00:02:12.9439 | DEBUG | Considering key {34692722-1836-4131-841e-52bc30c5cc34} with expiration date 2024-04-15 01:35:41Z as default key.
+2024-01-28 00:02:12.9611 | DEBUG | Forwarded activator type request from Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Version=7.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60 to Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60
+2024-01-28 00:02:12.9611 | DEBUG | Decrypting secret element using Windows DPAPI.
+2024-01-28 00:02:12.9611 | DEBUG | Forwarded activator type request from Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Version=7.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60 to Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60
+2024-01-28 00:02:12.9611 | DEBUG | Opening CNG algorithm 'AES' from provider '(null)' with chaining mode CBC.
+2024-01-28 00:02:12.9611 | DEBUG | Opening CNG algorithm 'SHA256' from provider '(null)' with HMAC.
+2024-01-28 00:02:12.9611 | DEBUG | Using key {34692722-1836-4131-841e-52bc30c5cc34} as the default key.
+2024-01-28 00:02:12.9611 | DEBUG | Key ring with default key {34692722-1836-4131-841e-52bc30c5cc34} was loaded during application startup.
+2024-01-28 00:02:13.1123 | INFO | Now listening on: http://localhost:5149
+2024-01-28 00:02:13.1123 | DEBUG | Loaded hosting startup assembly webapi.net7.sqlsugar
+2024-01-28 00:02:13.1123 | DEBUG | Loaded hosting startup assembly Microsoft.AspNetCore.Watch.BrowserRefresh
+2024-01-28 00:02:13.1123 | DEBUG | Loaded hosting startup assembly Microsoft.WebTools.BrowserLink.Net
+2024-01-28 00:02:13.1169 | INFO | Application started. Press Ctrl+C to shut down.
+2024-01-28 00:02:13.1169 | INFO | Hosting environment: Development
+2024-01-28 00:02:13.1169 | INFO | Content root path: D:\BaiduSyncdisk\webapi.net7+sqlsugar\webapi.net7.sqlsugar\webapi.net7.sqlsugar
+2024-01-28 00:02:13.1169 | DEBUG | Hosting started
+2024-01-28 00:02:13.4387 | DEBUG | Connection id "0HN0VA59ORJ4P" received FIN.
+2024-01-28 00:02:13.4387 | DEBUG | Connection id "0HN0VA59ORJ4O" received FIN.
+2024-01-28 00:02:13.4563 | DEBUG | Connection id "0HN0VA59ORJ4O" accepted.
+2024-01-28 00:02:13.4563 | DEBUG | Connection id "0HN0VA59ORJ4P" accepted.
+2024-01-28 00:02:13.4563 | DEBUG | Connection id "0HN0VA59ORJ4P" started.
+2024-01-28 00:02:13.4563 | DEBUG | Connection id "0HN0VA59ORJ4O" started.
+2024-01-28 00:02:13.4674 | DEBUG | Connection id "0HN0VA59ORJ4O" sending FIN because: "The Socket transport's send loop completed gracefully."
+2024-01-28 00:02:13.4674 | DEBUG | Connection id "0HN0VA59ORJ4P" sending FIN because: "The Socket transport's send loop completed gracefully."
+2024-01-28 00:02:13.4674 | DEBUG | Connection id "0HN0VA59ORJ4P" disconnecting.
+2024-01-28 00:02:13.4674 | DEBUG | Connection id "0HN0VA59ORJ4O" disconnecting.
+2024-01-28 00:02:13.4674 | DEBUG | Connection id "0HN0VA59ORJ4P" stopped.
+2024-01-28 00:02:13.4674 | DEBUG | Connection id "0HN0VA59ORJ4O" stopped.
+2024-01-28 00:02:15.8625 | DEBUG | Connection id "0HN0VA59ORJ4Q" accepted.
+2024-01-28 00:02:15.8625 | DEBUG | Connection id "0HN0VA59ORJ4Q" started.
+2024-01-28 00:02:15.9151 | DEBUG | Connection id "0HN0VA59ORJ4R" accepted.
+2024-01-28 00:02:15.9151 | DEBUG | Connection id "0HN0VA59ORJ4R" started.
+2024-01-28 00:02:15.9431 | INFO | Request starting HTTP/1.1 GET http://localhost:5149/swagger/index.html - -
+2024-01-28 00:02:16.0446 | DEBUG | Wildcard detected, all requests with hosts will be allowed.
+2024-01-28 00:02:16.0814 | DEBUG | No candidates found for the request path '/swagger/index.html'
+2024-01-28 00:02:16.0814 | DEBUG | Request did not match any endpoints
+2024-01-28 00:02:16.2243 | DEBUG | Response markup is scheduled to include browser refresh script injection.
+2024-01-28 00:02:16.2424 | DEBUG | Response markup was updated to include browser refresh script injection.
+2024-01-28 00:02:16.2424 | DEBUG | Connection id "0HN0VA59ORJ4Q" completed keep alive response.
+2024-01-28 00:02:16.2424 | INFO | Request finished HTTP/1.1 GET http://localhost:5149/swagger/index.html - - - 200 - text/html;charset=utf-8 301.9854ms
+2024-01-28 00:02:16.2424 | INFO | Request starting HTTP/1.1 GET http://localhost:5149/_vs/browserLink - -
+2024-01-28 00:02:16.2565 | INFO | Request starting HTTP/1.1 GET http://localhost:5149/_framework/aspnetcore-browser-refresh.js - -
+2024-01-28 00:02:16.2565 | DEBUG | Connection id "0HN0VA59ORJ4Q" completed keep alive response.
+2024-01-28 00:02:16.2565 | INFO | Request finished HTTP/1.1 GET http://localhost:5149/_framework/aspnetcore-browser-refresh.js - - - 200 13776 application/javascript;+charset=utf-8 2.3380ms
+2024-01-28 00:02:16.2976 | DEBUG | Connection id "0HN0VA59ORJ4R" completed keep alive response.
+2024-01-28 00:02:16.2976 | INFO | Request finished HTTP/1.1 GET http://localhost:5149/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 43.6757ms
+2024-01-28 00:02:16.3404 | INFO | Request starting HTTP/1.1 GET http://localhost:5149/swagger/V1/swagger.json - -
+2024-01-28 00:02:16.3404 | DEBUG | No candidates found for the request path '/swagger/V1/swagger.json'
+2024-01-28 00:02:16.3404 | DEBUG | Request did not match any endpoints
+2024-01-28 00:02:16.6840 | DEBUG | Connection id "0HN0VA59ORJ4R" completed keep alive response.
+2024-01-28 00:02:16.6840 | INFO | Request finished HTTP/1.1 GET http://localhost:5149/swagger/V1/swagger.json - - - 200 - application/json;charset=utf-8 343.7562ms
+2024-01-28 00:02:22.5702 | INFO | Request starting HTTP/1.1 POST http://localhost:5149/api/ceshi application/json 60
+2024-01-28 00:02:22.5702 | DEBUG | 1 candidate(s) found for the request path '/api/ceshi'
+2024-01-28 00:02:22.5853 | DEBUG | Endpoint 'webapi.net7.sqlsugar.Controllers.ApiLoginController.ceshi (webapi.net7.sqlsugar)' with route pattern 'api/ceshi' is valid for the request path '/api/ceshi'
+2024-01-28 00:02:22.5853 | DEBUG | Request matched endpoint 'webapi.net7.sqlsugar.Controllers.ApiLoginController.ceshi (webapi.net7.sqlsugar)'
+2024-01-28 00:02:22.5853 | DEBUG | Static files was skipped as the request already matched an endpoint.
+2024-01-28 00:02:22.5853 | DEBUG | Static files was skipped as the request already matched an endpoint.
+2024-01-28 00:02:22.6084 | WARN | Failed to determine the https port for redirect.
+2024-01-28 00:02:22.7356 | DEBUG | AuthenticationScheme: Bearer was not authenticated.
+2024-01-28 00:02:22.7356 | DEBUG | The request has an origin header: 'http://localhost:5149'.
+2024-01-28 00:02:22.7356 | INFO | CORS policy execution successful.
+2024-01-28 00:02:22.7416 | INFO | Executing endpoint 'webapi.net7.sqlsugar.Controllers.ApiLoginController.ceshi (webapi.net7.sqlsugar)'
+2024-01-28 00:02:22.7793 | INFO | Route matched with {action = "ceshi", controller = "ApiLogin"}. Executing controller action with signature System.Object ceshi(System.Object) on controller webapi.net7.sqlsugar.Controllers.ApiLoginController (webapi.net7.sqlsugar).
+2024-01-28 00:02:22.7793 | DEBUG | Execution plan of authorization filters (in the following order): None
+2024-01-28 00:02:22.7793 | DEBUG | Execution plan of resource filters (in the following order): None
+2024-01-28 00:02:22.7793 | DEBUG | Execution plan of action filters (in the following order): Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000), Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)
+2024-01-28 00:02:22.7793 | DEBUG | Execution plan of exception filters (in the following order): None
+2024-01-28 00:02:22.7793 | DEBUG | Execution plan of result filters (in the following order): Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)
+2024-01-28 00:02:22.7793 | DEBUG | Executing controller factory for controller webapi.net7.sqlsugar.Controllers.ApiLoginController (webapi.net7.sqlsugar)
+2024-01-28 00:02:22.7793 | DEBUG | Executed controller factory for controller webapi.net7.sqlsugar.Controllers.ApiLoginController (webapi.net7.sqlsugar)
+2024-01-28 00:02:22.7907 | DEBUG | Attempting to bind parameter 'ob' of type 'System.Object' ...
+2024-01-28 00:02:22.7907 | DEBUG | Attempting to bind parameter 'ob' of type 'System.Object' using the name '' in request data ...
+2024-01-28 00:02:22.7907 | DEBUG | Selected input formatter 'Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonInputFormatter' for content type 'application/json'.
+2024-01-28 00:02:22.7907 | DEBUG | Connection id "0HN0VA59ORJ4R", Request id "0HN0VA59ORJ4R:00000003": started reading request body.
+2024-01-28 00:02:22.7907 | DEBUG | Connection id "0HN0VA59ORJ4R", Request id "0HN0VA59ORJ4R:00000003": done reading request body.
+2024-01-28 00:02:22.8061 | DEBUG | JSON input formatter succeeded, deserializing to type 'System.Object'
+2024-01-28 00:02:22.8061 | DEBUG | Done attempting to bind parameter 'ob' of type 'System.Object'.
+2024-01-28 00:02:22.8061 | DEBUG | Done attempting to bind parameter 'ob' of type 'System.Object'.
+2024-01-28 00:02:22.8061 | DEBUG | Attempting to validate the bound parameter 'ob' of type 'System.Object' ...
+2024-01-28 00:02:22.8061 | DEBUG | Done attempting to validate the bound parameter 'ob' of type 'System.Object'.
+2024-01-28 00:02:22.8182 | INFO | Executing action method webapi.net7.sqlsugar.Controllers.ApiLoginController.ceshi (webapi.net7.sqlsugar) - Validation state: Valid
+2024-01-28 00:02:23.0473 | INFO | Executed action method webapi.net7.sqlsugar.Controllers.ApiLoginController.ceshi (webapi.net7.sqlsugar), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 216.5072ms.
+2024-01-28 00:02:23.0473 | DEBUG | List of registered output formatters, in the following order: Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter, Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter, Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter, Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter
+2024-01-28 00:02:23.0533 | DEBUG | No information found on request to perform content negotiation.
+2024-01-28 00:02:23.0533 | DEBUG | Attempting to select an output formatter without using a content type as no explicit content types were specified for the response.
+2024-01-28 00:02:23.0533 | DEBUG | Attempting to select the first formatter in the output formatters list which can write the result.
+2024-01-28 00:02:23.0533 | DEBUG | Selected output formatter 'Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter' and content type 'application/json' to write the response.
+2024-01-28 00:02:23.0533 | INFO | Executing ObjectResult, writing value of type 'System.String[]'.
+2024-01-28 00:02:23.0533 | INFO | Executed action webapi.net7.sqlsugar.Controllers.ApiLoginController.ceshi (webapi.net7.sqlsugar) in 281.4133ms
+2024-01-28 00:02:23.0533 | INFO | Executed endpoint 'webapi.net7.sqlsugar.Controllers.ApiLoginController.ceshi (webapi.net7.sqlsugar)'
+2024-01-28 00:02:23.0533 | DEBUG | Connection id "0HN0VA59ORJ4R" completed keep alive response.
+2024-01-28 00:02:23.0533 | INFO | Request finished HTTP/1.1 POST http://localhost:5149/api/ceshi application/json 60 - 200 - application/json;+charset=utf-8 497.7350ms
+2024-01-28 00:03:10.0560 | INFO | Request starting HTTP/1.1 GET http://localhost:5149/swagger/index.html - -
+2024-01-28 00:03:10.0686 | DEBUG | No candidates found for the request path '/swagger/index.html'
+2024-01-28 00:03:10.0686 | DEBUG | Request did not match any endpoints
+2024-01-28 00:03:10.0686 | DEBUG | Response markup is scheduled to include browser refresh script injection.
+2024-01-28 00:03:10.0686 | DEBUG | Response markup was updated to include browser refresh script injection.
+2024-01-28 00:03:10.0686 | DEBUG | Connection id "0HN0VA59ORJ4R" completed keep alive response.
+2024-01-28 00:03:10.0686 | INFO | Request finished HTTP/1.1 GET http://localhost:5149/swagger/index.html - - - 200 - text/html;charset=utf-8 26.5629ms
+2024-01-28 00:03:10.0996 | INFO | Request starting HTTP/1.1 GET http://localhost:5149/_vs/browserLink - -
+2024-01-28 00:03:10.0996 | INFO | Request starting HTTP/1.1 GET http://localhost:5149/_framework/aspnetcore-browser-refresh.js - -
+2024-01-28 00:03:10.0996 | DEBUG | Connection id "0HN0VA59ORJ4R" completed keep alive response.
+2024-01-28 00:03:10.0996 | INFO | Request finished HTTP/1.1 GET http://localhost:5149/_framework/aspnetcore-browser-refresh.js - - - 200 13776 application/javascript;+charset=utf-8 0.4216ms
+2024-01-28 00:03:10.1242 | DEBUG | Connection id "0HN0VA59ORJ4Q" completed keep alive response.
+2024-01-28 00:03:10.1242 | INFO | Request finished HTTP/1.1 GET http://localhost:5149/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 24.6665ms
+2024-01-28 00:03:10.2554 | INFO | Request starting HTTP/1.1 GET http://localhost:5149/swagger/V1/swagger.json - -
+2024-01-28 00:03:10.2555 | DEBUG | No candidates found for the request path '/swagger/V1/swagger.json'
+2024-01-28 00:03:10.2555 | DEBUG | Request did not match any endpoints
+2024-01-28 00:03:10.2912 | DEBUG | Connection id "0HN0VA59ORJ4Q" completed keep alive response.
+2024-01-28 00:03:10.2912 | INFO | Request finished HTTP/1.1 GET http://localhost:5149/swagger/V1/swagger.json - - - 200 - application/json;charset=utf-8 35.9176ms
+2024-01-28 00:03:59.3564 | INFO | Request starting HTTP/1.1 POST http://localhost:5149/api/ceshi application/json 58
+2024-01-28 00:03:59.3564 | DEBUG | 1 candidate(s) found for the request path '/api/ceshi'
+2024-01-28 00:03:59.3564 | DEBUG | Endpoint 'webapi.net7.sqlsugar.Controllers.ApiLoginController.ceshi (webapi.net7.sqlsugar)' with route pattern 'api/ceshi' is valid for the request path '/api/ceshi'
+2024-01-28 00:03:59.3564 | DEBUG | Request matched endpoint 'webapi.net7.sqlsugar.Controllers.ApiLoginController.ceshi (webapi.net7.sqlsugar)'
+2024-01-28 00:03:59.3564 | DEBUG | Static files was skipped as the request already matched an endpoint.
+2024-01-28 00:03:59.3564 | DEBUG | Static files was skipped as the request already matched an endpoint.
+2024-01-28 00:03:59.3729 | DEBUG | AuthenticationScheme: Bearer was not authenticated.
+2024-01-28 00:03:59.3729 | DEBUG | The request has an origin header: 'http://localhost:5149'.
+2024-01-28 00:03:59.3729 | INFO | CORS policy execution successful.
+2024-01-28 00:03:59.3729 | INFO | Executing endpoint 'webapi.net7.sqlsugar.Controllers.ApiLoginController.ceshi (webapi.net7.sqlsugar)'
+2024-01-28 00:03:59.3729 | INFO | Route matched with {action = "ceshi", controller = "ApiLogin"}. Executing controller action with signature System.Object ceshi(System.Object) on controller webapi.net7.sqlsugar.Controllers.ApiLoginController (webapi.net7.sqlsugar).
+2024-01-28 00:03:59.3729 | DEBUG | Execution plan of authorization filters (in the following order): None
+2024-01-28 00:03:59.3729 | DEBUG | Execution plan of resource filters (in the following order): None
+2024-01-28 00:03:59.3729 | DEBUG | Execution plan of action filters (in the following order): Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000), Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)
+2024-01-28 00:03:59.3729 | DEBUG | Execution plan of exception filters (in the following order): None
+2024-01-28 00:03:59.3729 | DEBUG | Execution plan of result filters (in the following order): Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)
+2024-01-28 00:03:59.3729 | DEBUG | Executing controller factory for controller webapi.net7.sqlsugar.Controllers.ApiLoginController (webapi.net7.sqlsugar)
+2024-01-28 00:03:59.3729 | DEBUG | Executed controller factory for controller webapi.net7.sqlsugar.Controllers.ApiLoginController (webapi.net7.sqlsugar)
+2024-01-28 00:03:59.3729 | DEBUG | Attempting to bind parameter 'ob' of type 'System.Object' ...
+2024-01-28 00:03:59.3729 | DEBUG | Attempting to bind parameter 'ob' of type 'System.Object' using the name '' in request data ...
+2024-01-28 00:03:59.3729 | DEBUG | Selected input formatter 'Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonInputFormatter' for content type 'application/json'.
+2024-01-28 00:03:59.3729 | DEBUG | Connection id "0HN0VA59ORJ4Q", Request id "0HN0VA59ORJ4Q:00000005": started reading request body.
+2024-01-28 00:03:59.3729 | DEBUG | Connection id "0HN0VA59ORJ4Q", Request id "0HN0VA59ORJ4Q:00000005": done reading request body.
+2024-01-28 00:03:59.3805 | DEBUG | JSON input formatter succeeded, deserializing to type 'System.Object'
+2024-01-28 00:03:59.3805 | DEBUG | Done attempting to bind parameter 'ob' of type 'System.Object'.
+2024-01-28 00:03:59.3805 | DEBUG | Done attempting to bind parameter 'ob' of type 'System.Object'.
+2024-01-28 00:03:59.3805 | DEBUG | Attempting to validate the bound parameter 'ob' of type 'System.Object' ...
+2024-01-28 00:03:59.3805 | DEBUG | Done attempting to validate the bound parameter 'ob' of type 'System.Object'.
+2024-01-28 00:03:59.3805 | INFO | Executing action method webapi.net7.sqlsugar.Controllers.ApiLoginController.ceshi (webapi.net7.sqlsugar) - Validation state: Valid
+2024-01-28 00:03:59.3805 | INFO | Executed action method webapi.net7.sqlsugar.Controllers.ApiLoginController.ceshi (webapi.net7.sqlsugar), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 2.1394ms.
+2024-01-28 00:03:59.3805 | DEBUG | List of registered output formatters, in the following order: Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter, Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter, Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter, Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter
+2024-01-28 00:03:59.3805 | DEBUG | No information found on request to perform content negotiation.
+2024-01-28 00:03:59.3805 | DEBUG | Attempting to select an output formatter without using a content type as no explicit content types were specified for the response.
+2024-01-28 00:03:59.3805 | DEBUG | Attempting to select the first formatter in the output formatters list which can write the result.
+2024-01-28 00:03:59.3805 | DEBUG | Selected output formatter 'Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter' and content type 'text/plain' to write the response.
+2024-01-28 00:03:59.3805 | INFO | Executing ObjectResult, writing value of type 'System.String'.
+2024-01-28 00:03:59.3805 | INFO | Executed action webapi.net7.sqlsugar.Controllers.ApiLoginController.ceshi (webapi.net7.sqlsugar) in 8.4995ms
+2024-01-28 00:03:59.3805 | INFO | Executed endpoint 'webapi.net7.sqlsugar.Controllers.ApiLoginController.ceshi (webapi.net7.sqlsugar)'
+2024-01-28 00:03:59.3805 | DEBUG | Connection id "0HN0VA59ORJ4Q" completed keep alive response.
+2024-01-28 00:03:59.3805 | INFO | Request finished HTTP/1.1 POST http://localhost:5149/api/ceshi application/json 58 - 200 - text/plain;+charset=utf-8 35.8540ms

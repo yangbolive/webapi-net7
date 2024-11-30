@@ -1,0 +1,140 @@
+2024-01-18 08:31:57.4995 | INFO | User profile is available. Using 'C:\Users\Administrator\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-01-18 08:31:57.7611 | INFO | Now listening on: https://localhost:7225
+2024-01-18 08:31:57.7611 | INFO | Now listening on: http://localhost:5148
+2024-01-18 08:31:57.7611 | INFO | Application started. Press Ctrl+C to shut down.
+2024-01-18 08:31:57.7611 | INFO | Hosting environment: Development
+2024-01-18 08:31:57.7690 | INFO | Content root path: D:\BaiduSyncdisk\webapi.net7+sqlsugar\webapi.net7.sqlsugar\webapi.net7.sqlsugar
+2024-01-18 08:32:01.1368 | INFO | Request starting HTTP/2 GET https://localhost:7225/swagger/index.html - -
+2024-01-18 08:32:01.4108 | INFO | Request starting HTTP/2 GET https://localhost:7225/_vs/browserLink - -
+2024-01-18 08:32:01.4108 | INFO | Request starting HTTP/2 GET https://localhost:7225/_framework/aspnetcore-browser-refresh.js - -
+2024-01-18 08:32:01.4287 | INFO | Request finished HTTP/2 GET https://localhost:7225/swagger/index.html - - - 200 - text/html;charset=utf-8 295.1845ms
+2024-01-18 08:32:01.4287 | INFO | Request finished HTTP/2 GET https://localhost:7225/_framework/aspnetcore-browser-refresh.js - - - 200 13776 application/javascript;+charset=utf-8 17.7035ms
+2024-01-18 08:32:01.4881 | INFO | Request finished HTTP/2 GET https://localhost:7225/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 73.9623ms
+2024-01-18 08:32:01.5519 | INFO | Request starting HTTP/2 GET https://localhost:7225/swagger/V1/swagger.json - -
+2024-01-18 08:32:01.8376 | INFO | Request finished HTTP/2 GET https://localhost:7225/swagger/V1/swagger.json - - - 200 - application/json;charset=utf-8 287.8111ms
+2024-01-18 08:32:37.3367 | INFO | Request starting HTTP/2 POST https://localhost:7225/api/user application/json 37
+2024-01-18 08:32:37.4070 | INFO | CORS policy execution successful.
+2024-01-18 08:32:37.4592 | INFO | Executing endpoint 'webapi.net7.sqlsugar.Controllers.ApiLoginController.user (webapi.net7.sqlsugar)'
+2024-01-18 08:32:37.4802 | INFO | Route matched with {action = "user", controller = "ApiLogin"}. Executing controller action with signature System.Object user(System.Object) on controller webapi.net7.sqlsugar.Controllers.ApiLoginController (webapi.net7.sqlsugar).
+2024-01-18 08:32:37.4889 | INFO | Executing action method webapi.net7.sqlsugar.Controllers.ApiLoginController.user (webapi.net7.sqlsugar) - Validation state: Valid
+2024-01-18 08:32:37.6208 | INFO | Executed action method webapi.net7.sqlsugar.Controllers.ApiLoginController.user (webapi.net7.sqlsugar), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 119.7267ms.
+2024-01-18 08:32:37.6208 | INFO | Executing ObjectResult, writing value of type '<>f__AnonymousType3`3[[System.String, System.Private.CoreLib, Version=7.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=7.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=7.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2024-01-18 08:32:37.6276 | INFO | Executed action webapi.net7.sqlsugar.Controllers.ApiLoginController.user (webapi.net7.sqlsugar) in 145.1703ms
+2024-01-18 08:32:37.6276 | INFO | Executed endpoint 'webapi.net7.sqlsugar.Controllers.ApiLoginController.user (webapi.net7.sqlsugar)'
+2024-01-18 08:32:37.8305 | INFO | Request finished HTTP/2 POST https://localhost:7225/api/user application/json 37 - 200 - application/json;+charset=utf-8 493.2925ms
+2024-01-18 10:03:05.4217 | INFO | User profile is available. Using 'C:\Users\Administrator\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-01-18 10:03:05.6231 | INFO | Now listening on: https://localhost:7225
+2024-01-18 10:03:05.6231 | INFO | Now listening on: http://localhost:5148
+2024-01-18 10:03:05.6231 | INFO | Application started. Press Ctrl+C to shut down.
+2024-01-18 10:03:05.6289 | INFO | Hosting environment: Development
+2024-01-18 10:03:05.6289 | INFO | Content root path: D:\BaiduSyncdisk\webapi.net7+sqlsugar\webapi.net7.sqlsugar\webapi.net7.sqlsugar
+2024-01-18 10:03:08.6312 | INFO | Request starting HTTP/2 GET https://localhost:7225/swagger/index.html - -
+2024-01-18 10:03:08.8863 | INFO | Request starting HTTP/2 GET https://localhost:7225/_framework/aspnetcore-browser-refresh.js - -
+2024-01-18 10:03:08.8863 | INFO | Request starting HTTP/2 GET https://localhost:7225/_vs/browserLink - -
+2024-01-18 10:03:08.8863 | INFO | Request finished HTTP/2 GET https://localhost:7225/swagger/index.html - - - 200 - text/html;charset=utf-8 260.0200ms
+2024-01-18 10:03:08.8929 | INFO | Request finished HTTP/2 GET https://localhost:7225/_framework/aspnetcore-browser-refresh.js - - - 200 13776 application/javascript;+charset=utf-8 5.0495ms
+2024-01-18 10:03:08.9255 | INFO | Request finished HTTP/2 GET https://localhost:7225/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 46.4677ms
+2024-01-18 10:03:08.9732 | INFO | Request starting HTTP/2 GET https://localhost:7225/swagger/V1/swagger.json - -
+2024-01-18 10:03:09.2640 | INFO | Request finished HTTP/2 GET https://localhost:7225/swagger/V1/swagger.json - - - 200 - application/json;charset=utf-8 290.3298ms
+2024-01-18 10:04:20.0186 | INFO | Request starting HTTP/2 POST https://localhost:7225/api/user application/json 66
+2024-01-18 10:04:20.0778 | INFO | CORS policy execution successful.
+2024-01-18 10:04:20.1282 | INFO | Executing endpoint 'webapi.net7.sqlsugar.Controllers.ApiLoginController.user (webapi.net7.sqlsugar)'
+2024-01-18 10:04:20.1490 | INFO | Route matched with {action = "user", controller = "ApiLogin"}. Executing controller action with signature System.Object user(System.Object) on controller webapi.net7.sqlsugar.Controllers.ApiLoginController (webapi.net7.sqlsugar).
+2024-01-18 10:04:20.1602 | INFO | Executing action method webapi.net7.sqlsugar.Controllers.ApiLoginController.user (webapi.net7.sqlsugar) - Validation state: Valid
+2024-01-18 10:04:20.2659 | INFO | Executed action method webapi.net7.sqlsugar.Controllers.ApiLoginController.user (webapi.net7.sqlsugar), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 98.7636ms.
+2024-01-18 10:04:20.2686 | INFO | Executing ObjectResult, writing value of type '<>f__AnonymousType3`3[[System.String, System.Private.CoreLib, Version=7.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=7.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=7.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2024-01-18 10:04:20.2686 | INFO | Executed action webapi.net7.sqlsugar.Controllers.ApiLoginController.user (webapi.net7.sqlsugar) in 124.1037ms
+2024-01-18 10:04:20.2686 | INFO | Executed endpoint 'webapi.net7.sqlsugar.Controllers.ApiLoginController.user (webapi.net7.sqlsugar)'
+2024-01-18 10:04:20.4398 | INFO | Request finished HTTP/2 POST https://localhost:7225/api/user application/json 66 - 200 - application/json;+charset=utf-8 421.2200ms
+2024-01-18 22:36:41.2664 | INFO | User profile is available. Using 'C:\Users\Administrator\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-01-18 22:36:41.6189 | INFO | Now listening on: https://localhost:7225
+2024-01-18 22:36:41.6189 | INFO | Now listening on: http://localhost:5148
+2024-01-18 22:36:41.6189 | INFO | Application started. Press Ctrl+C to shut down.
+2024-01-18 22:36:41.6189 | INFO | Hosting environment: Development
+2024-01-18 22:36:41.6189 | INFO | Content root path: D:\BaiduSyncdisk\webapi.net7+sqlsugar\webapi.net7.sqlsugar\webapi.net7.sqlsugar
+2024-01-18 22:36:42.6776 | INFO | Request starting HTTP/2 GET https://localhost:7225/swagger/index.html - -
+2024-01-18 22:36:43.0841 | INFO | Request starting HTTP/2 GET https://localhost:7225/_vs/browserLink - -
+2024-01-18 22:36:43.0841 | INFO | Request starting HTTP/2 GET https://localhost:7225/_framework/aspnetcore-browser-refresh.js - -
+2024-01-18 22:36:43.0958 | INFO | Request finished HTTP/2 GET https://localhost:7225/swagger/index.html - - - 200 - text/html;charset=utf-8 427.2428ms
+2024-01-18 22:36:43.0958 | INFO | Request finished HTTP/2 GET https://localhost:7225/_framework/aspnetcore-browser-refresh.js - - - 200 13776 application/javascript;+charset=utf-8 15.6886ms
+2024-01-18 22:36:43.1896 | INFO | Request finished HTTP/2 GET https://localhost:7225/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 103.2852ms
+2024-01-18 22:36:43.2538 | INFO | Request starting HTTP/2 GET https://localhost:7225/swagger/V1/swagger.json - -
+2024-01-18 22:36:43.6130 | INFO | Request finished HTTP/2 GET https://localhost:7225/swagger/V1/swagger.json - - - 200 - application/json;charset=utf-8 361.5569ms
+2024-01-18 22:37:10.7457 | INFO | Request starting HTTP/2 POST https://localhost:7225/api/mysqluser application/json 12
+2024-01-18 22:37:10.8633 | INFO | CORS policy execution successful.
+2024-01-18 22:37:10.9280 | INFO | Executing endpoint 'webapi.net7.sqlsugar.Controllers.ApiLoginController.mysqluser (webapi.net7.sqlsugar)'
+2024-01-18 22:37:10.9544 | INFO | Route matched with {action = "mysqluser", controller = "ApiLogin"}. Executing controller action with signature System.Object mysqluser(System.Object) on controller webapi.net7.sqlsugar.Controllers.ApiLoginController (webapi.net7.sqlsugar).
+2024-01-18 22:37:10.9743 | INFO | Executing BadRequestObjectResult, writing value of type 'Microsoft.AspNetCore.Mvc.ValidationProblemDetails'.
+2024-01-18 22:37:10.9743 | INFO | Executed action webapi.net7.sqlsugar.Controllers.ApiLoginController.mysqluser (webapi.net7.sqlsugar) in 28.7988ms
+2024-01-18 22:37:10.9743 | INFO | Executed endpoint 'webapi.net7.sqlsugar.Controllers.ApiLoginController.mysqluser (webapi.net7.sqlsugar)'
+2024-01-18 22:37:11.2191 | INFO | Request finished HTTP/2 POST https://localhost:7225/api/mysqluser application/json 12 - 400 - application/problem+json;+charset=utf-8 473.0379ms
+2024-01-18 22:37:43.4502 | INFO | Request starting HTTP/2 POST https://localhost:7225/api/mysqluser application/json 12
+2024-01-18 22:37:43.4502 | INFO | CORS policy execution successful.
+2024-01-18 22:37:43.4642 | INFO | Executing endpoint 'webapi.net7.sqlsugar.Controllers.ApiLoginController.mysqluser (webapi.net7.sqlsugar)'
+2024-01-18 22:37:43.4642 | INFO | Route matched with {action = "mysqluser", controller = "ApiLogin"}. Executing controller action with signature System.Object mysqluser(System.Object) on controller webapi.net7.sqlsugar.Controllers.ApiLoginController (webapi.net7.sqlsugar).
+2024-01-18 22:37:43.4642 | INFO | Executing BadRequestObjectResult, writing value of type 'Microsoft.AspNetCore.Mvc.ValidationProblemDetails'.
+2024-01-18 22:37:43.4642 | INFO | Executed action webapi.net7.sqlsugar.Controllers.ApiLoginController.mysqluser (webapi.net7.sqlsugar) in 3.0461ms
+2024-01-18 22:37:43.4642 | INFO | Executed endpoint 'webapi.net7.sqlsugar.Controllers.ApiLoginController.mysqluser (webapi.net7.sqlsugar)'
+2024-01-18 22:37:43.4726 | INFO | Request finished HTTP/2 POST https://localhost:7225/api/mysqluser application/json 12 - 400 - application/problem+json;+charset=utf-8 23.1965ms
+2024-01-18 22:37:52.7018 | INFO | Request starting HTTP/2 POST https://localhost:7225/api/mysqluser application/json 12
+2024-01-18 22:37:52.7052 | INFO | CORS policy execution successful.
+2024-01-18 22:37:52.7052 | INFO | Executing endpoint 'webapi.net7.sqlsugar.Controllers.ApiLoginController.mysqluser (webapi.net7.sqlsugar)'
+2024-01-18 22:37:52.7052 | INFO | Route matched with {action = "mysqluser", controller = "ApiLogin"}. Executing controller action with signature System.Object mysqluser(System.Object) on controller webapi.net7.sqlsugar.Controllers.ApiLoginController (webapi.net7.sqlsugar).
+2024-01-18 22:37:52.7052 | INFO | Executing BadRequestObjectResult, writing value of type 'Microsoft.AspNetCore.Mvc.ValidationProblemDetails'.
+2024-01-18 22:37:52.7052 | INFO | Executed action webapi.net7.sqlsugar.Controllers.ApiLoginController.mysqluser (webapi.net7.sqlsugar) in 2.0966ms
+2024-01-18 22:37:52.7052 | INFO | Executed endpoint 'webapi.net7.sqlsugar.Controllers.ApiLoginController.mysqluser (webapi.net7.sqlsugar)'
+2024-01-18 22:37:52.7052 | INFO | Request finished HTTP/2 POST https://localhost:7225/api/mysqluser application/json 12 - 400 - application/problem+json;+charset=utf-8 6.1357ms
+2024-01-18 22:38:00.8301 | INFO | Request starting HTTP/2 POST https://localhost:7225/api/mysqluser application/json 12
+2024-01-18 22:38:00.8301 | INFO | CORS policy execution successful.
+2024-01-18 22:38:00.8301 | INFO | Executing endpoint 'webapi.net7.sqlsugar.Controllers.ApiLoginController.mysqluser (webapi.net7.sqlsugar)'
+2024-01-18 22:38:00.8301 | INFO | Route matched with {action = "mysqluser", controller = "ApiLogin"}. Executing controller action with signature System.Object mysqluser(System.Object) on controller webapi.net7.sqlsugar.Controllers.ApiLoginController (webapi.net7.sqlsugar).
+2024-01-18 22:38:00.8301 | INFO | Executing action method webapi.net7.sqlsugar.Controllers.ApiLoginController.mysqluser (webapi.net7.sqlsugar) - Validation state: Valid
+2024-01-18 22:40:04.2079 | INFO | User profile is available. Using 'C:\Users\Administrator\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-01-18 22:40:04.4180 | INFO | Now listening on: https://localhost:7225
+2024-01-18 22:40:04.4180 | INFO | Now listening on: http://localhost:5148
+2024-01-18 22:40:04.4180 | INFO | Application started. Press Ctrl+C to shut down.
+2024-01-18 22:40:04.4180 | INFO | Hosting environment: Development
+2024-01-18 22:40:04.4242 | INFO | Content root path: D:\BaiduSyncdisk\webapi.net7+sqlsugar\webapi.net7.sqlsugar\webapi.net7.sqlsugar
+2024-01-18 22:40:07.7930 | INFO | Request starting HTTP/2 GET https://localhost:7225/swagger/index.html - -
+2024-01-18 22:40:08.0655 | INFO | Request starting HTTP/2 GET https://localhost:7225/_vs/browserLink - -
+2024-01-18 22:40:08.0655 | INFO | Request finished HTTP/2 GET https://localhost:7225/swagger/index.html - - - 200 - text/html;charset=utf-8 276.5206ms
+2024-01-18 22:40:08.0807 | INFO | Request starting HTTP/2 GET https://localhost:7225/_framework/aspnetcore-browser-refresh.js - -
+2024-01-18 22:40:08.0807 | INFO | Request finished HTTP/2 GET https://localhost:7225/_framework/aspnetcore-browser-refresh.js - - - 200 13776 application/javascript;+charset=utf-8 12.5039ms
+2024-01-18 22:40:08.1124 | INFO | Request finished HTTP/2 GET https://localhost:7225/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 52.8359ms
+2024-01-18 22:40:08.1621 | INFO | Request starting HTTP/2 GET https://localhost:7225/swagger/V1/swagger.json - -
+2024-01-18 22:40:08.4937 | INFO | Request finished HTTP/2 GET https://localhost:7225/swagger/V1/swagger.json - - - 200 - application/json;charset=utf-8 333.2132ms
+2024-01-18 22:40:30.0184 | INFO | Request starting HTTP/2 POST https://localhost:7225/api/mysqluser application/json 12
+2024-01-18 22:40:30.1346 | INFO | CORS policy execution successful.
+2024-01-18 22:40:30.2556 | INFO | Executing endpoint 'webapi.net7.sqlsugar.Controllers.ApiLoginController.mysqluser (webapi.net7.sqlsugar)'
+2024-01-18 22:40:30.3139 | INFO | Route matched with {action = "mysqluser", controller = "ApiLogin"}. Executing controller action with signature System.Object mysqluser(System.Object) on controller webapi.net7.sqlsugar.Controllers.ApiLoginController (webapi.net7.sqlsugar).
+2024-01-18 22:40:30.3479 | INFO | Executing action method webapi.net7.sqlsugar.Controllers.ApiLoginController.mysqluser (webapi.net7.sqlsugar) - Validation state: Valid
+2024-01-18 22:40:51.5212 | INFO | Executed action method webapi.net7.sqlsugar.Controllers.ApiLoginController.mysqluser (webapi.net7.sqlsugar), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 21161.0647ms.
+2024-01-18 22:40:51.5212 | INFO | Executing ObjectResult, writing value of type '<>f__AnonymousType4`2[[System.String, System.Private.CoreLib, Version=7.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=7.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2024-01-18 22:40:51.5662 | INFO | Executed action webapi.net7.sqlsugar.Controllers.ApiLoginController.mysqluser (webapi.net7.sqlsugar) in 21245.8453ms
+2024-01-18 22:40:51.5662 | INFO | Executed endpoint 'webapi.net7.sqlsugar.Controllers.ApiLoginController.mysqluser (webapi.net7.sqlsugar)'
+2024-01-18 22:40:51.9578 | INFO | Request finished HTTP/2 POST https://localhost:7225/api/mysqluser application/json 12 - 200 - application/json;+charset=utf-8 21939.3897ms
+2024-01-18 22:41:10.8648 | INFO | Request starting HTTP/2 POST https://localhost:7225/api/mysqluser application/json 12
+2024-01-18 22:41:10.8648 | INFO | CORS policy execution successful.
+2024-01-18 22:41:10.8958 | INFO | Executing endpoint 'webapi.net7.sqlsugar.Controllers.ApiLoginController.mysqluser (webapi.net7.sqlsugar)'
+2024-01-18 22:41:10.8958 | INFO | Route matched with {action = "mysqluser", controller = "ApiLogin"}. Executing controller action with signature System.Object mysqluser(System.Object) on controller webapi.net7.sqlsugar.Controllers.ApiLoginController (webapi.net7.sqlsugar).
+2024-01-18 22:41:10.8958 | INFO | Executing action method webapi.net7.sqlsugar.Controllers.ApiLoginController.mysqluser (webapi.net7.sqlsugar) - Validation state: Valid
+2024-01-18 22:41:10.9105 | INFO | Executed action method webapi.net7.sqlsugar.Controllers.ApiLoginController.mysqluser (webapi.net7.sqlsugar), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 9.7587ms.
+2024-01-18 22:41:10.9105 | INFO | Executing ObjectResult, writing value of type '<>f__AnonymousType4`2[[System.String, System.Private.CoreLib, Version=7.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=7.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2024-01-18 22:41:10.9105 | INFO | Executed action webapi.net7.sqlsugar.Controllers.ApiLoginController.mysqluser (webapi.net7.sqlsugar) in 13.001ms
+2024-01-18 22:41:10.9105 | INFO | Executed endpoint 'webapi.net7.sqlsugar.Controllers.ApiLoginController.mysqluser (webapi.net7.sqlsugar)'
+2024-01-18 22:41:10.9105 | INFO | Request finished HTTP/2 POST https://localhost:7225/api/mysqluser application/json 12 - 200 - application/json;+charset=utf-8 53.6552ms
+2024-01-18 22:41:15.7693 | INFO | Request starting HTTP/2 POST https://localhost:7225/api/mysqluser application/json 12
+2024-01-18 22:41:15.7693 | INFO | CORS policy execution successful.
+2024-01-18 22:41:15.7693 | INFO | Executing endpoint 'webapi.net7.sqlsugar.Controllers.ApiLoginController.mysqluser (webapi.net7.sqlsugar)'
+2024-01-18 22:41:15.7693 | INFO | Route matched with {action = "mysqluser", controller = "ApiLogin"}. Executing controller action with signature System.Object mysqluser(System.Object) on controller webapi.net7.sqlsugar.Controllers.ApiLoginController (webapi.net7.sqlsugar).
+2024-01-18 22:41:15.7693 | INFO | Executing action method webapi.net7.sqlsugar.Controllers.ApiLoginController.mysqluser (webapi.net7.sqlsugar) - Validation state: Valid
+2024-01-18 22:41:15.7693 | INFO | Executed action method webapi.net7.sqlsugar.Controllers.ApiLoginController.mysqluser (webapi.net7.sqlsugar), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 1.6127ms.
+2024-01-18 22:41:15.7693 | INFO | Executing ObjectResult, writing value of type '<>f__AnonymousType4`2[[System.String, System.Private.CoreLib, Version=7.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=7.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2024-01-18 22:41:15.7693 | INFO | Executed action webapi.net7.sqlsugar.Controllers.ApiLoginController.mysqluser (webapi.net7.sqlsugar) in 3.2621ms
+2024-01-18 22:41:15.7693 | INFO | Executed endpoint 'webapi.net7.sqlsugar.Controllers.ApiLoginController.mysqluser (webapi.net7.sqlsugar)'
+2024-01-18 22:41:15.7899 | INFO | Request finished HTTP/2 POST https://localhost:7225/api/mysqluser application/json 12 - 200 - application/json;+charset=utf-8 19.6575ms
+2024-01-18 22:41:19.4249 | INFO | Request starting HTTP/2 POST https://localhost:7225/api/mysqluser application/json 12
+2024-01-18 22:41:19.4249 | INFO | CORS policy execution successful.
+2024-01-18 22:41:19.4249 | INFO | Executing endpoint 'webapi.net7.sqlsugar.Controllers.ApiLoginController.mysqluser (webapi.net7.sqlsugar)'
+2024-01-18 22:41:19.4249 | INFO | Route matched with {action = "mysqluser", controller = "ApiLogin"}. Executing controller action with signature System.Object mysqluser(System.Object) on controller webapi.net7.sqlsugar.Controllers.ApiLoginController (webapi.net7.sqlsugar).
+2024-01-18 22:41:19.4249 | INFO | Executing action method webapi.net7.sqlsugar.Controllers.ApiLoginController.mysqluser (webapi.net7.sqlsugar) - Validation state: Valid

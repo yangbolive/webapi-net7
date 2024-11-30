@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\buildMultiTargeting\webapi.net7.sqlsugar.props" />
+</Project>

@@ -1,0 +1,705 @@
+2024-03-26 20:30:55.9126 | INFO | User profile is available. Using 'C:\Users\Administrator\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-03-26 20:30:56.1263 | INFO | Now listening on: http://localhost:5149
+2024-03-26 20:30:56.1298 | INFO | Application started. Press Ctrl+C to shut down.
+2024-03-26 20:30:56.1298 | INFO | Hosting environment: Development
+2024-03-26 20:30:56.1298 | INFO | Content root path: D:\BaiduSyncdisk\webapi.net7+sqlsugar\webapi.net7.sqlsugar\webapi.net7.sqlsugar
+2024-03-26 20:30:59.7766 | INFO | Request starting HTTP/1.1 GET http://localhost:5149/swagger - -
+2024-03-26 20:31:00.0752 | INFO | Request finished HTTP/1.1 GET http://localhost:5149/swagger - - - 301 0 - 301.6596ms
+2024-03-26 20:31:00.0835 | INFO | Request starting HTTP/1.1 GET http://localhost:5149/swagger/index.html - -
+2024-03-26 20:31:00.2579 | INFO | Request finished HTTP/1.1 GET http://localhost:5149/swagger/index.html - - - 200 - text/html;charset=utf-8 174.8557ms
+2024-03-26 20:31:00.2899 | INFO | Request starting HTTP/1.1 GET http://localhost:5149/swagger/swagger-ui-bundle.js - -
+2024-03-26 20:31:00.2899 | INFO | Request starting HTTP/1.1 GET http://localhost:5149/_framework/aspnetcore-browser-refresh.js - -
+2024-03-26 20:31:00.3377 | INFO | Request starting HTTP/1.1 GET http://localhost:5149/swagger/swagger-ui-standalone-preset.js - -
+2024-03-26 20:31:00.3377 | INFO | Request starting HTTP/1.1 GET http://localhost:5149/swagger/swagger-ui.css - -
+2024-03-26 20:31:00.3377 | INFO | Request starting HTTP/1.1 GET http://localhost:5149/_vs/browserLink - -
+2024-03-26 20:31:00.3377 | INFO | Request finished HTTP/1.1 GET http://localhost:5149/_framework/aspnetcore-browser-refresh.js - - - 200 13776 application/javascript;+charset=utf-8 46.1848ms
+2024-03-26 20:31:00.3949 | INFO | Sending file. Request path: '/swagger-ui.css'. Physical path: 'N/A'
+2024-03-26 20:31:00.3949 | INFO | Request finished HTTP/1.1 GET http://localhost:5149/swagger/swagger-ui.css - - - 200 144929 text/css 66.3932ms
+2024-03-26 20:31:00.3949 | INFO | Sending file. Request path: '/swagger-ui-standalone-preset.js'. Physical path: 'N/A'
+2024-03-26 20:31:00.3949 | INFO | Request finished HTTP/1.1 GET http://localhost:5149/swagger/swagger-ui-standalone-preset.js - - - 200 312163 text/javascript 67.1469ms
+2024-03-26 20:31:00.4357 | INFO | Sending file. Request path: '/swagger-ui-bundle.js'. Physical path: 'N/A'
+2024-03-26 20:31:00.4357 | INFO | Request finished HTTP/1.1 GET http://localhost:5149/swagger/swagger-ui-bundle.js - - - 200 1061536 text/javascript 142.4511ms
+2024-03-26 20:31:00.4862 | INFO | Request finished HTTP/1.1 GET http://localhost:5149/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 148.5152ms
+2024-03-26 20:31:00.6184 | INFO | Request starting HTTP/1.1 GET http://localhost:5149/swagger/东泽房源管理接口/swagger.json - -
+2024-03-26 20:31:00.6342 | INFO | Request starting HTTP/1.1 GET http://localhost:5149/swagger/favicon-32x32.png - -
+2024-03-26 20:31:00.6342 | INFO | Sending file. Request path: '/favicon-32x32.png'. Physical path: 'N/A'
+2024-03-26 20:31:00.6342 | INFO | Request finished HTTP/1.1 GET http://localhost:5149/swagger/favicon-32x32.png - - - 200 628 image/png 1.3201ms
+2024-03-26 20:31:00.9360 | INFO | Request finished HTTP/1.1 GET http://localhost:5149/swagger/东泽房源管理接口/swagger.json - - - 200 - application/json;charset=utf-8 317.7734ms
+2024-03-26 20:31:04.4973 | INFO | Request starting HTTP/1.1 GET http://localhost:5149/swagger/U8移动端接口/swagger.json - -
+2024-03-26 20:31:04.5686 | INFO | Request finished HTTP/1.1 GET http://localhost:5149/swagger/U8移动端接口/swagger.json - - - 200 - application/json;charset=utf-8 71.3929ms
+2024-03-26 20:31:31.6658 | INFO | Request starting HTTP/1.1 POST http://localhost:5149/api/U8UserPassword?acccount=777&sDate=2024-1-1&sServer=192.168.0.76&sUserID=ssgw&sPassword=123 - 0
+2024-03-26 20:31:31.6830 | WARN | Failed to determine the https port for redirect.
+2024-03-26 20:31:31.7761 | INFO | CORS policy execution successful.
+2024-03-26 20:31:31.8671 | INFO | Executing endpoint 'webapi.net7.sqlsugar.Controllers.ApiLoginController.U8UserPassword (webapi.net7.sqlsugar)'
+2024-03-26 20:31:31.9215 | INFO | Route matched with {action = "U8UserPassword", controller = "ApiLogin"}. Executing controller action with signature System.Object U8UserPassword(System.String, System.String, System.String, System.String, System.String) on controller webapi.net7.sqlsugar.Controllers.ApiLoginController (webapi.net7.sqlsugar).
+2024-03-26 20:31:31.9570 | INFO | Executing action method webapi.net7.sqlsugar.Controllers.ApiLoginController.U8UserPassword (webapi.net7.sqlsugar) - Validation state: Valid
+2024-03-26 20:31:32.7496 | INFO | Executed action method webapi.net7.sqlsugar.Controllers.ApiLoginController.U8UserPassword (webapi.net7.sqlsugar), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 783.6722ms.
+2024-03-26 20:31:32.7530 | INFO | Executing ObjectResult, writing value of type '<>f__AnonymousType0`3[[System.Int32, System.Private.CoreLib, Version=7.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=7.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Boolean, System.Private.CoreLib, Version=7.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2024-03-26 20:31:32.7694 | INFO | Executed action webapi.net7.sqlsugar.Controllers.ApiLoginController.U8UserPassword (webapi.net7.sqlsugar) in 840.6335ms
+2024-03-26 20:31:32.7694 | INFO | Executed endpoint 'webapi.net7.sqlsugar.Controllers.ApiLoginController.U8UserPassword (webapi.net7.sqlsugar)'
+2024-03-26 20:31:33.1936 | ERROR | An unhandled exception has occurred while executing the request.
+2024-03-26 20:31:33.1936 | WARN | The response has already started, the error page middleware will not be executed.
+2024-03-26 20:31:33.2201 | ERROR | Connection id "0HN2DI2ASMURM", Request id "0HN2DI2ASMURM:00000004": An unhandled exception was thrown by the application.
+2024-03-26 20:31:33.2201 | INFO | Request finished HTTP/1.1 POST http://localhost:5149/api/U8UserPassword?acccount=777&sDate=2024-1-1&sServer=192.168.0.76&sUserID=ssgw&sPassword=123 - 0 - 200 - application/json;+charset=utf-8 1554.4986ms
+2024-03-26 20:32:33.5314 | INFO | User profile is available. Using 'C:\Users\Administrator\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-03-26 20:32:33.6788 | INFO | Now listening on: http://localhost:5149
+2024-03-26 20:32:33.6788 | INFO | Application started. Press Ctrl+C to shut down.
+2024-03-26 20:32:33.6788 | INFO | Hosting environment: Development
+2024-03-26 20:32:33.6788 | INFO | Content root path: D:\BaiduSyncdisk\webapi.net7+sqlsugar\webapi.net7.sqlsugar\webapi.net7.sqlsugar
+2024-03-26 20:32:33.9376 | INFO | Request starting HTTP/1.1 GET http://localhost:5149/swagger/index.html - -
+2024-03-26 20:32:34.1987 | INFO | Request finished HTTP/1.1 GET http://localhost:5149/swagger/index.html - - - 200 - text/html;charset=utf-8 263.7481ms
+2024-03-26 20:32:34.1987 | INFO | Request starting HTTP/1.1 GET http://localhost:5149/_framework/aspnetcore-browser-refresh.js - -
+2024-03-26 20:32:34.1987 | INFO | Request starting HTTP/1.1 GET http://localhost:5149/_vs/browserLink - -
+2024-03-26 20:32:34.1987 | INFO | Request finished HTTP/1.1 GET http://localhost:5149/_framework/aspnetcore-browser-refresh.js - - - 200 13776 application/javascript;+charset=utf-8 1.5980ms
+2024-03-26 20:32:34.2415 | INFO | Request finished HTTP/1.1 GET http://localhost:5149/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 38.6401ms
+2024-03-26 20:32:34.3654 | INFO | Request starting HTTP/1.1 GET http://localhost:5149/swagger/东泽房源管理接口/swagger.json - -
+2024-03-26 20:32:34.5934 | INFO | Request finished HTTP/1.1 GET http://localhost:5149/swagger/东泽房源管理接口/swagger.json - - - 200 - application/json;charset=utf-8 228.1906ms
+2024-03-26 20:32:37.0773 | INFO | Request starting HTTP/1.1 GET http://localhost:5149/swagger/U8移动端接口/swagger.json - -
+2024-03-26 20:32:37.1190 | INFO | Request finished HTTP/1.1 GET http://localhost:5149/swagger/U8移动端接口/swagger.json - - - 200 - application/json;charset=utf-8 41.8416ms
+2024-03-26 20:32:56.3937 | INFO | Request starting HTTP/1.1 POST http://localhost:5149/api/U8UserPassword?acccount=777&sDate=2024-1-1&sServer=192.168.0.76&sUserID=ssgw&sPassword=123 - 0
+2024-03-26 20:32:56.4136 | WARN | Failed to determine the https port for redirect.
+2024-03-26 20:32:56.4727 | INFO | CORS policy execution successful.
+2024-03-26 20:32:56.4727 | INFO | Executing endpoint 'webapi.net7.sqlsugar.Controllers.ApiLoginController.U8UserPassword (webapi.net7.sqlsugar)'
+2024-03-26 20:32:56.5073 | INFO | Route matched with {action = "U8UserPassword", controller = "ApiLogin"}. Executing controller action with signature System.Object U8UserPassword(System.String, System.String, System.String, System.String, System.String) on controller webapi.net7.sqlsugar.Controllers.ApiLoginController (webapi.net7.sqlsugar).
+2024-03-26 20:32:56.5332 | INFO | Executing action method webapi.net7.sqlsugar.Controllers.ApiLoginController.U8UserPassword (webapi.net7.sqlsugar) - Validation state: Valid
+2024-03-26 20:32:56.9561 | INFO | Executed action method webapi.net7.sqlsugar.Controllers.ApiLoginController.U8UserPassword (webapi.net7.sqlsugar), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 417.7228ms.
+2024-03-26 20:32:56.9561 | INFO | Executing ObjectResult, writing value of type '<>f__AnonymousType0`3[[System.Int32, System.Private.CoreLib, Version=7.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=7.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Boolean, System.Private.CoreLib, Version=7.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2024-03-26 20:32:56.9561 | INFO | Executed action webapi.net7.sqlsugar.Controllers.ApiLoginController.U8UserPassword (webapi.net7.sqlsugar) in 456.4488ms
+2024-03-26 20:32:56.9561 | INFO | Executed endpoint 'webapi.net7.sqlsugar.Controllers.ApiLoginController.U8UserPassword (webapi.net7.sqlsugar)'
+2024-03-26 20:32:56.9561 | INFO | Request finished HTTP/1.1 POST http://localhost:5149/api/U8UserPassword?acccount=777&sDate=2024-1-1&sServer=192.168.0.76&sUserID=ssgw&sPassword=123 - 0 - 200 - application/json;+charset=utf-8 574.7270ms
+2024-03-26 20:33:03.9326 | INFO | Request starting HTTP/1.1 POST http://localhost:5149/api/U8UserPassword?acccount=777&sDate=2024-1-1&sServer=192.168.0.76&sUserID=ssgw&sPassword=%21wlzh123 - 0
+2024-03-26 20:33:03.9580 | INFO | CORS policy execution successful.
+2024-03-26 20:33:03.9580 | INFO | Executing endpoint 'webapi.net7.sqlsugar.Controllers.ApiLoginController.U8UserPassword (webapi.net7.sqlsugar)'
+2024-03-26 20:33:03.9580 | INFO | Route matched with {action = "U8UserPassword", controller = "ApiLogin"}. Executing controller action with signature System.Object U8UserPassword(System.String, System.String, System.String, System.String, System.String) on controller webapi.net7.sqlsugar.Controllers.ApiLoginController (webapi.net7.sqlsugar).
+2024-03-26 20:33:03.9580 | INFO | Executing action method webapi.net7.sqlsugar.Controllers.ApiLoginController.U8UserPassword (webapi.net7.sqlsugar) - Validation state: Valid
+2024-03-26 20:33:37.6609 | INFO | Executed action method webapi.net7.sqlsugar.Controllers.ApiLoginController.U8UserPassword (webapi.net7.sqlsugar), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 33699.6912ms.
+2024-03-26 20:33:37.6609 | INFO | Executing ObjectResult, writing value of type '<>f__AnonymousType0`3[[System.Int32, System.Private.CoreLib, Version=7.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=7.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Boolean, System.Private.CoreLib, Version=7.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2024-03-26 20:33:37.6609 | INFO | Executed action webapi.net7.sqlsugar.Controllers.ApiLoginController.U8UserPassword (webapi.net7.sqlsugar) in 33703.1283ms
+2024-03-26 20:33:37.6609 | INFO | Executed endpoint 'webapi.net7.sqlsugar.Controllers.ApiLoginController.U8UserPassword (webapi.net7.sqlsugar)'
+2024-03-26 20:33:37.6609 | INFO | Request finished HTTP/1.1 POST http://localhost:5149/api/U8UserPassword?acccount=777&sDate=2024-1-1&sServer=192.168.0.76&sUserID=ssgw&sPassword=%21wlzh123 - 0 - 200 - application/json;+charset=utf-8 33730.7047ms
+2024-03-26 20:33:48.6971 | INFO | Request starting HTTP/1.1 POST http://localhost:5149/api/U8UserPassword?acccount=777&sDate=2024-1-1&sServer=192.168.0.76&sUserID=ssgw&sPassword=%21wlzh123 - 0
+2024-03-26 20:33:48.6971 | INFO | CORS policy execution successful.
+2024-03-26 20:33:48.6971 | INFO | Executing endpoint 'webapi.net7.sqlsugar.Controllers.ApiLoginController.U8UserPassword (webapi.net7.sqlsugar)'
+2024-03-26 20:33:48.6971 | INFO | Route matched with {action = "U8UserPassword", controller = "ApiLogin"}. Executing controller action with signature System.Object U8UserPassword(System.String, System.String, System.String, System.String, System.String) on controller webapi.net7.sqlsugar.Controllers.ApiLoginController (webapi.net7.sqlsugar).
+2024-03-26 20:33:48.6971 | INFO | Executing action method webapi.net7.sqlsugar.Controllers.ApiLoginController.U8UserPassword (webapi.net7.sqlsugar) - Validation state: Valid
+2024-03-26 20:34:05.5885 | INFO | Request starting HTTP/1.1 POST http://localhost:5149/api/PassWordPost?username=ssgw&password=123 - 0
+2024-03-26 20:34:05.5885 | INFO | CORS policy execution successful.
+2024-03-26 20:34:05.5885 | INFO | Executing endpoint 'webapi.net7.sqlsugar.Controllers.ApiLoginController.PassWordPost (webapi.net7.sqlsugar)'
+2024-03-26 20:34:05.5885 | INFO | Route matched with {action = "PassWordPost", controller = "ApiLogin"}. Executing controller action with signature webapi.net7.sqlsugar.Model.MessageLogin PassWordPost(System.String, System.String) on controller webapi.net7.sqlsugar.Controllers.ApiLoginController (webapi.net7.sqlsugar).
+2024-03-26 20:34:05.5885 | INFO | Executing action method webapi.net7.sqlsugar.Controllers.ApiLoginController.PassWordPost (webapi.net7.sqlsugar) - Validation state: Valid
+2024-03-26 20:34:06.2914 | INFO | Executed action method webapi.net7.sqlsugar.Controllers.ApiLoginController.PassWordPost (webapi.net7.sqlsugar), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 700.8031ms.
+2024-03-26 20:34:06.2914 | INFO | Executing ObjectResult, writing value of type 'webapi.net7.sqlsugar.Model.MessageLogin'.
+2024-03-26 20:34:06.2914 | INFO | Executed action webapi.net7.sqlsugar.Controllers.ApiLoginController.PassWordPost (webapi.net7.sqlsugar) in 704.292ms
+2024-03-26 20:34:06.2914 | INFO | Executed endpoint 'webapi.net7.sqlsugar.Controllers.ApiLoginController.PassWordPost (webapi.net7.sqlsugar)'
+2024-03-26 20:34:06.2914 | INFO | Request finished HTTP/1.1 POST http://localhost:5149/api/PassWordPost?username=ssgw&password=123 - 0 - 200 - application/json;+charset=utf-8 706.1068ms
+2024-03-26 20:34:16.2127 | INFO | Request starting HTTP/1.1 POST http://localhost:5149/api/PassWordPost?username=ssgw&password=%21wlzh123 - 0
+2024-03-26 20:34:16.2127 | INFO | CORS policy execution successful.
+2024-03-26 20:34:16.2127 | INFO | Executing endpoint 'webapi.net7.sqlsugar.Controllers.ApiLoginController.PassWordPost (webapi.net7.sqlsugar)'
+2024-03-26 20:34:16.2127 | INFO | Route matched with {action = "PassWordPost", controller = "ApiLogin"}. Executing controller action with signature webapi.net7.sqlsugar.Model.MessageLogin PassWordPost(System.String, System.String) on controller webapi.net7.sqlsugar.Controllers.ApiLoginController (webapi.net7.sqlsugar).
+2024-03-26 20:34:16.2127 | INFO | Executing action method webapi.net7.sqlsugar.Controllers.ApiLoginController.PassWordPost (webapi.net7.sqlsugar) - Validation state: Valid
+2024-03-26 20:34:16.2505 | INFO | Executed action method webapi.net7.sqlsugar.Controllers.ApiLoginController.PassWordPost (webapi.net7.sqlsugar), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 36.229ms.
+2024-03-26 20:34:16.2505 | INFO | Executing ObjectResult, writing value of type 'webapi.net7.sqlsugar.Model.MessageLogin'.
+2024-03-26 20:34:16.2505 | INFO | Executed action webapi.net7.sqlsugar.Controllers.ApiLoginController.PassWordPost (webapi.net7.sqlsugar) in 37.2453ms
+2024-03-26 20:34:16.2505 | INFO | Executed endpoint 'webapi.net7.sqlsugar.Controllers.ApiLoginController.PassWordPost (webapi.net7.sqlsugar)'
+2024-03-26 20:34:16.2505 | INFO | Request finished HTTP/1.1 POST http://localhost:5149/api/PassWordPost?username=ssgw&password=%21wlzh123 - 0 - 200 - application/json;+charset=utf-8 38.2308ms
+2024-03-26 20:34:22.1364 | INFO | Executed action method webapi.net7.sqlsugar.Controllers.ApiLoginController.U8UserPassword (webapi.net7.sqlsugar), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 33436.2231ms.
+2024-03-26 20:34:22.1364 | INFO | Executing ObjectResult, writing value of type '<>f__AnonymousType0`3[[System.Int32, System.Private.CoreLib, Version=7.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=7.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Boolean, System.Private.CoreLib, Version=7.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2024-03-26 20:34:22.1364 | INFO | Executed action webapi.net7.sqlsugar.Controllers.ApiLoginController.U8UserPassword (webapi.net7.sqlsugar) in 33438.0279ms
+2024-03-26 20:34:22.1364 | INFO | Executed endpoint 'webapi.net7.sqlsugar.Controllers.ApiLoginController.U8UserPassword (webapi.net7.sqlsugar)'
+2024-03-26 20:34:22.1364 | INFO | Request finished HTTP/1.1 POST http://localhost:5149/api/U8UserPassword?acccount=777&sDate=2024-1-1&sServer=192.168.0.76&sUserID=ssgw&sPassword=%21wlzh123 - 0 - 200 - application/json;+charset=utf-8 33440.7984ms
+2024-03-26 20:41:20.7413 | INFO | User profile is available. Using 'C:\Users\Administrator\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-03-26 20:41:20.8906 | INFO | Now listening on: http://localhost:5149
+2024-03-26 20:41:20.8933 | INFO | Application started. Press Ctrl+C to shut down.
+2024-03-26 20:41:20.8933 | INFO | Hosting environment: Development
+2024-03-26 20:41:20.8933 | INFO | Content root path: D:\BaiduSyncdisk\webapi.net7+sqlsugar\webapi.net7.sqlsugar\webapi.net7.sqlsugar
+2024-03-26 20:41:24.0427 | INFO | Request starting HTTP/1.1 GET http://localhost:5149/swagger/index.html - -
+2024-03-26 20:41:24.3085 | INFO | Request finished HTTP/1.1 GET http://localhost:5149/swagger/index.html - - - 200 - text/html;charset=utf-8 269.6446ms
+2024-03-26 20:41:24.3085 | INFO | Request starting HTTP/1.1 GET http://localhost:5149/_vs/browserLink - -
+2024-03-26 20:41:24.3148 | INFO | Request starting HTTP/1.1 GET http://localhost:5149/_framework/aspnetcore-browser-refresh.js - -
+2024-03-26 20:41:24.3148 | INFO | Request finished HTTP/1.1 GET http://localhost:5149/_framework/aspnetcore-browser-refresh.js - - - 200 13776 application/javascript;+charset=utf-8 2.6414ms
+2024-03-26 20:41:24.3567 | INFO | Request finished HTTP/1.1 GET http://localhost:5149/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 44.9658ms
+2024-03-26 20:41:24.3943 | INFO | Request starting HTTP/1.1 GET http://localhost:5149/swagger/东泽房源管理接口/swagger.json - -
+2024-03-26 20:41:24.6176 | INFO | Request finished HTTP/1.1 GET http://localhost:5149/swagger/东泽房源管理接口/swagger.json - - - 200 - application/json;charset=utf-8 223.4845ms
+2024-03-26 20:41:27.7201 | INFO | Request starting HTTP/1.1 GET http://localhost:5149/swagger/U8移动端接口/swagger.json - -
+2024-03-26 20:41:27.7869 | INFO | Request finished HTTP/1.1 GET http://localhost:5149/swagger/U8移动端接口/swagger.json - - - 200 - application/json;charset=utf-8 66.9329ms
+2024-03-26 20:41:37.1665 | INFO | Request starting HTTP/1.1 POST http://localhost:5149/api/PassWordPost application/json 45
+2024-03-26 20:41:37.1745 | WARN | Failed to determine the https port for redirect.
+2024-03-26 20:41:37.2458 | INFO | CORS policy execution successful.
+2024-03-26 20:41:37.2458 | INFO | Executing endpoint 'webapi.net7.sqlsugar.Controllers.ApiLoginController.PassWordPost (webapi.net7.sqlsugar)'
+2024-03-26 20:41:37.2870 | INFO | Route matched with {action = "PassWordPost", controller = "ApiLogin"}. Executing controller action with signature webapi.net7.sqlsugar.Model.MessageLogin PassWordPost(webapi.net7.sqlsugar.User) on controller webapi.net7.sqlsugar.Controllers.ApiLoginController (webapi.net7.sqlsugar).
+2024-03-26 20:41:37.3335 | INFO | Executing action method webapi.net7.sqlsugar.Controllers.ApiLoginController.PassWordPost (webapi.net7.sqlsugar) - Validation state: Valid
+2024-03-26 20:41:38.0285 | INFO | Executed action method webapi.net7.sqlsugar.Controllers.ApiLoginController.PassWordPost (webapi.net7.sqlsugar), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 689.1231ms.
+2024-03-26 20:41:38.0368 | INFO | Executing ObjectResult, writing value of type 'webapi.net7.sqlsugar.Model.MessageLogin'.
+2024-03-26 20:41:38.0368 | INFO | Executed action webapi.net7.sqlsugar.Controllers.ApiLoginController.PassWordPost (webapi.net7.sqlsugar) in 753.92ms
+2024-03-26 20:41:38.0368 | INFO | Executed endpoint 'webapi.net7.sqlsugar.Controllers.ApiLoginController.PassWordPost (webapi.net7.sqlsugar)'
+2024-03-26 20:41:38.0368 | INFO | Request finished HTTP/1.1 POST http://localhost:5149/api/PassWordPost application/json 45 - 200 - application/json;+charset=utf-8 881.2587ms
+2024-03-26 20:41:44.0795 | INFO | Request starting HTTP/1.1 POST http://localhost:5149/api/PassWordPost application/json 50
+2024-03-26 20:41:44.1003 | INFO | CORS policy execution successful.
+2024-03-26 20:41:44.1003 | INFO | Executing endpoint 'webapi.net7.sqlsugar.Controllers.ApiLoginController.PassWordPost (webapi.net7.sqlsugar)'
+2024-03-26 20:41:44.1003 | INFO | Route matched with {action = "PassWordPost", controller = "ApiLogin"}. Executing controller action with signature webapi.net7.sqlsugar.Model.MessageLogin PassWordPost(webapi.net7.sqlsugar.User) on controller webapi.net7.sqlsugar.Controllers.ApiLoginController (webapi.net7.sqlsugar).
+2024-03-26 20:41:44.1003 | INFO | Executing action method webapi.net7.sqlsugar.Controllers.ApiLoginController.PassWordPost (webapi.net7.sqlsugar) - Validation state: Valid
+2024-03-26 20:41:44.1334 | INFO | Executed action method webapi.net7.sqlsugar.Controllers.ApiLoginController.PassWordPost (webapi.net7.sqlsugar), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 30.4079ms.
+2024-03-26 20:41:44.1334 | INFO | Executing ObjectResult, writing value of type 'webapi.net7.sqlsugar.Model.MessageLogin'.
+2024-03-26 20:41:44.1334 | INFO | Executed action webapi.net7.sqlsugar.Controllers.ApiLoginController.PassWordPost (webapi.net7.sqlsugar) in 32.5034ms
+2024-03-26 20:41:44.1334 | INFO | Executed endpoint 'webapi.net7.sqlsugar.Controllers.ApiLoginController.PassWordPost (webapi.net7.sqlsugar)'
+2024-03-26 20:41:44.1334 | INFO | Request finished HTTP/1.1 POST http://localhost:5149/api/PassWordPost application/json 50 - 200 - application/json;+charset=utf-8 55.1212ms
+2024-03-26 20:46:13.7620 | INFO | Request starting HTTP/1.1 POST http://127.0.0.1:5149/api/PassWordPost application/x-www-form-urlencoded 26
+2024-03-26 20:46:13.7682 | INFO | CORS policy execution successful.
+2024-03-26 20:46:13.7682 | INFO | Executing endpoint 'webapi.net7.sqlsugar.Controllers.ApiLoginController.PassWordPost (webapi.net7.sqlsugar)'
+2024-03-26 20:46:13.7682 | INFO | Route matched with {action = "PassWordPost", controller = "ApiLogin"}. Executing controller action with signature webapi.net7.sqlsugar.Model.MessageLogin PassWordPost(webapi.net7.sqlsugar.User) on controller webapi.net7.sqlsugar.Controllers.ApiLoginController (webapi.net7.sqlsugar).
+2024-03-26 20:46:13.7682 | INFO | Executing ObjectResult, writing value of type 'Microsoft.AspNetCore.Mvc.ProblemDetails'.
+2024-03-26 20:46:13.7682 | INFO | Executed action webapi.net7.sqlsugar.Controllers.ApiLoginController.PassWordPost (webapi.net7.sqlsugar) in 10.4895ms
+2024-03-26 20:46:13.7682 | INFO | Executed endpoint 'webapi.net7.sqlsugar.Controllers.ApiLoginController.PassWordPost (webapi.net7.sqlsugar)'
+2024-03-26 20:46:13.7682 | INFO | Request finished HTTP/1.1 POST http://127.0.0.1:5149/api/PassWordPost application/x-www-form-urlencoded 26 - 415 - application/problem+json;+charset=utf-8 13.4111ms
+2024-03-26 20:50:12.7224 | INFO | Request starting HTTP/1.1 OPTIONS http://127.0.0.1:5149/api/PassWordPost - -
+2024-03-26 20:50:12.7224 | INFO | CORS policy execution successful.
+2024-03-26 20:50:12.7224 | INFO | Request finished HTTP/1.1 OPTIONS http://127.0.0.1:5149/api/PassWordPost - - - 204 - - 7.8497ms
+2024-03-26 20:50:12.7224 | INFO | Request starting HTTP/1.1 POST http://127.0.0.1:5149/api/PassWordPost application/x-www-form-urlencoded,+application/json 26
+2024-03-26 20:50:12.7224 | INFO | CORS policy execution successful.
+2024-03-26 20:50:12.7224 | INFO | Executing endpoint 'webapi.net7.sqlsugar.Controllers.ApiLoginController.PassWordPost (webapi.net7.sqlsugar)'
+2024-03-26 20:50:12.7224 | INFO | Route matched with {action = "PassWordPost", controller = "ApiLogin"}. Executing controller action with signature webapi.net7.sqlsugar.Model.MessageLogin PassWordPost(webapi.net7.sqlsugar.User) on controller webapi.net7.sqlsugar.Controllers.ApiLoginController (webapi.net7.sqlsugar).
+2024-03-26 20:50:12.7224 | INFO | Executing ObjectResult, writing value of type 'Microsoft.AspNetCore.Mvc.ProblemDetails'.
+2024-03-26 20:50:12.7224 | INFO | Executed action webapi.net7.sqlsugar.Controllers.ApiLoginController.PassWordPost (webapi.net7.sqlsugar) in 1.4698ms
+2024-03-26 20:50:12.7224 | INFO | Executed endpoint 'webapi.net7.sqlsugar.Controllers.ApiLoginController.PassWordPost (webapi.net7.sqlsugar)'
+2024-03-26 20:50:12.7224 | INFO | Request finished HTTP/1.1 POST http://127.0.0.1:5149/api/PassWordPost application/x-www-form-urlencoded,+application/json 26 - 415 - application/problem+json;+charset=utf-8 2.1192ms
+2024-03-26 20:50:19.3308 | INFO | Request starting HTTP/1.1 OPTIONS http://127.0.0.1:5149/api/PassWordPost - -
+2024-03-26 20:50:19.3308 | INFO | CORS policy execution successful.
+2024-03-26 20:50:19.3308 | INFO | Request finished HTTP/1.1 OPTIONS http://127.0.0.1:5149/api/PassWordPost - - - 204 - - 4.4112ms
+2024-03-26 20:50:19.3308 | INFO | Request starting HTTP/1.1 POST http://127.0.0.1:5149/api/PassWordPost application/x-www-form-urlencoded,+application/json 23
+2024-03-26 20:50:19.3308 | INFO | CORS policy execution successful.
+2024-03-26 20:50:19.3308 | INFO | Executing endpoint 'webapi.net7.sqlsugar.Controllers.ApiLoginController.PassWordPost (webapi.net7.sqlsugar)'
+2024-03-26 20:50:19.3308 | INFO | Route matched with {action = "PassWordPost", controller = "ApiLogin"}. Executing controller action with signature webapi.net7.sqlsugar.Model.MessageLogin PassWordPost(webapi.net7.sqlsugar.User) on controller webapi.net7.sqlsugar.Controllers.ApiLoginController (webapi.net7.sqlsugar).
+2024-03-26 20:50:19.3308 | INFO | Executing ObjectResult, writing value of type 'Microsoft.AspNetCore.Mvc.ProblemDetails'.
+2024-03-26 20:50:19.3308 | INFO | Executed action webapi.net7.sqlsugar.Controllers.ApiLoginController.PassWordPost (webapi.net7.sqlsugar) in 0.4434ms
+2024-03-26 20:50:19.3308 | INFO | Executed endpoint 'webapi.net7.sqlsugar.Controllers.ApiLoginController.PassWordPost (webapi.net7.sqlsugar)'
+2024-03-26 20:50:19.3308 | INFO | Request finished HTTP/1.1 POST http://127.0.0.1:5149/api/PassWordPost application/x-www-form-urlencoded,+application/json 23 - 415 - application/problem+json;+charset=utf-8 0.8860ms
+2024-03-26 20:52:59.5047 | INFO | Request starting HTTP/1.1 OPTIONS http://127.0.0.1:5149/api/PassWordPost - -
+2024-03-26 20:52:59.5047 | INFO | CORS policy execution successful.
+2024-03-26 20:52:59.5047 | INFO | Request finished HTTP/1.1 OPTIONS http://127.0.0.1:5149/api/PassWordPost - - - 204 - - 4.7349ms
+2024-03-26 20:52:59.5047 | INFO | Request starting HTTP/1.1 POST http://127.0.0.1:5149/api/PassWordPost application/x-www-form-urlencoded,+application/json 26
+2024-03-26 20:52:59.5047 | INFO | CORS policy execution successful.
+2024-03-26 20:52:59.5047 | INFO | Executing endpoint 'webapi.net7.sqlsugar.Controllers.ApiLoginController.PassWordPost (webapi.net7.sqlsugar)'
+2024-03-26 20:52:59.5047 | INFO | Route matched with {action = "PassWordPost", controller = "ApiLogin"}. Executing controller action with signature webapi.net7.sqlsugar.Model.MessageLogin PassWordPost(webapi.net7.sqlsugar.User) on controller webapi.net7.sqlsugar.Controllers.ApiLoginController (webapi.net7.sqlsugar).
+2024-03-26 20:52:59.5047 | INFO | Executing ObjectResult, writing value of type 'Microsoft.AspNetCore.Mvc.ProblemDetails'.
+2024-03-26 20:52:59.5047 | INFO | Executed action webapi.net7.sqlsugar.Controllers.ApiLoginController.PassWordPost (webapi.net7.sqlsugar) in 0.4882ms
+2024-03-26 20:52:59.5047 | INFO | Executed endpoint 'webapi.net7.sqlsugar.Controllers.ApiLoginController.PassWordPost (webapi.net7.sqlsugar)'
+2024-03-26 20:52:59.5047 | INFO | Request finished HTTP/1.1 POST http://127.0.0.1:5149/api/PassWordPost application/x-www-form-urlencoded,+application/json 26 - 415 - application/problem+json;+charset=utf-8 2.9839ms
+2024-03-26 20:53:03.6317 | INFO | Request starting HTTP/1.1 POST http://127.0.0.1:5149/api/PassWordPost application/x-www-form-urlencoded,+application/json 26
+2024-03-26 20:53:03.6317 | INFO | CORS policy execution successful.
+2024-03-26 20:53:03.6317 | INFO | Executing endpoint 'webapi.net7.sqlsugar.Controllers.ApiLoginController.PassWordPost (webapi.net7.sqlsugar)'
+2024-03-26 20:53:03.6317 | INFO | Route matched with {action = "PassWordPost", controller = "ApiLogin"}. Executing controller action with signature webapi.net7.sqlsugar.Model.MessageLogin PassWordPost(webapi.net7.sqlsugar.User) on controller webapi.net7.sqlsugar.Controllers.ApiLoginController (webapi.net7.sqlsugar).
+2024-03-26 20:53:03.6317 | INFO | Executing ObjectResult, writing value of type 'Microsoft.AspNetCore.Mvc.ProblemDetails'.
+2024-03-26 20:53:03.6317 | INFO | Executed action webapi.net7.sqlsugar.Controllers.ApiLoginController.PassWordPost (webapi.net7.sqlsugar) in 0.6765ms
+2024-03-26 20:53:03.6317 | INFO | Executed endpoint 'webapi.net7.sqlsugar.Controllers.ApiLoginController.PassWordPost (webapi.net7.sqlsugar)'
+2024-03-26 20:53:03.6317 | INFO | Request finished HTTP/1.1 POST http://127.0.0.1:5149/api/PassWordPost application/x-www-form-urlencoded,+application/json 26 - 415 - application/problem+json;+charset=utf-8 1.5858ms
+2024-03-26 20:53:28.7183 | INFO | Request starting HTTP/1.1 OPTIONS http://127.0.0.1:5149/api/PassWordPost - -
+2024-03-26 20:53:28.7501 | INFO | CORS policy execution successful.
+2024-03-26 20:53:28.7501 | INFO | Request finished HTTP/1.1 OPTIONS http://127.0.0.1:5149/api/PassWordPost - - - 204 - - 32.7364ms
+2024-03-26 20:53:28.7547 | INFO | Request starting HTTP/1.1 POST http://127.0.0.1:5149/api/PassWordPost application/x-www-form-urlencoded,+application/json 26
+2024-03-26 20:53:28.7547 | INFO | CORS policy execution successful.
+2024-03-26 20:53:28.7547 | INFO | Executing endpoint 'webapi.net7.sqlsugar.Controllers.ApiLoginController.PassWordPost (webapi.net7.sqlsugar)'
+2024-03-26 20:53:28.7547 | INFO | Route matched with {action = "PassWordPost", controller = "ApiLogin"}. Executing controller action with signature webapi.net7.sqlsugar.Model.MessageLogin PassWordPost(webapi.net7.sqlsugar.User) on controller webapi.net7.sqlsugar.Controllers.ApiLoginController (webapi.net7.sqlsugar).
+2024-03-26 20:53:28.7547 | INFO | Executing ObjectResult, writing value of type 'Microsoft.AspNetCore.Mvc.ProblemDetails'.
+2024-03-26 20:53:28.7547 | INFO | Executed action webapi.net7.sqlsugar.Controllers.ApiLoginController.PassWordPost (webapi.net7.sqlsugar) in 0.4583ms
+2024-03-26 20:53:28.7547 | INFO | Executed endpoint 'webapi.net7.sqlsugar.Controllers.ApiLoginController.PassWordPost (webapi.net7.sqlsugar)'
+2024-03-26 20:53:28.7547 | INFO | Request finished HTTP/1.1 POST http://127.0.0.1:5149/api/PassWordPost application/x-www-form-urlencoded,+application/json 26 - 415 - application/problem+json;+charset=utf-8 1.5576ms
+2024-03-26 20:57:07.3792 | INFO | Request starting HTTP/1.1 GET http://localhost:5149/swagger/index.html?urls.primaryName=%E3%80%90U8%E7%A7%BB%E5%8A%A8%E7%AB%AF%E6%8E%A5%E5%8F%A3%E3%80%91%E6%8E%A5%E5%8F%A3 - -
+2024-03-26 20:57:07.3930 | INFO | Request finished HTTP/1.1 GET http://localhost:5149/swagger/index.html?urls.primaryName=%E3%80%90U8%E7%A7%BB%E5%8A%A8%E7%AB%AF%E6%8E%A5%E5%8F%A3%E3%80%91%E6%8E%A5%E5%8F%A3 - - - 200 - text/html;charset=utf-8 18.6328ms
+2024-03-26 20:57:07.4145 | INFO | Request starting HTTP/1.1 GET http://localhost:5149/_framework/aspnetcore-browser-refresh.js - -
+2024-03-26 20:57:07.4145 | INFO | Request finished HTTP/1.1 GET http://localhost:5149/_framework/aspnetcore-browser-refresh.js - - - 200 13776 application/javascript;+charset=utf-8 0.3095ms
+2024-03-26 20:57:07.4145 | INFO | Request starting HTTP/1.1 GET http://localhost:5149/_vs/browserLink - -
+2024-03-26 20:57:07.4252 | INFO | Request finished HTTP/1.1 GET http://localhost:5149/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 10.4042ms
+2024-03-26 20:57:07.6155 | INFO | Request starting HTTP/1.1 GET http://localhost:5149/swagger/U8移动端接口/swagger.json - -
+2024-03-26 20:57:07.6419 | ERROR | An unhandled exception has occurred while executing the request.
+2024-03-26 20:57:07.6432 | INFO | Request finished HTTP/1.1 GET http://localhost:5149/swagger/U8移动端接口/swagger.json - - - 500 - text/plain;+charset=utf-8 27.8324ms
+2024-03-26 20:57:10.9082 | INFO | Request starting HTTP/1.1 GET http://localhost:5149/swagger/index.html?urls.primaryName=%E3%80%90U8%E7%A7%BB%E5%8A%A8%E7%AB%AF%E6%8E%A5%E5%8F%A3%E3%80%91%E6%8E%A5%E5%8F%A3 - -
+2024-03-26 20:57:10.9105 | INFO | Request finished HTTP/1.1 GET http://localhost:5149/swagger/index.html?urls.primaryName=%E3%80%90U8%E7%A7%BB%E5%8A%A8%E7%AB%AF%E6%8E%A5%E5%8F%A3%E3%80%91%E6%8E%A5%E5%8F%A3 - - - 200 - text/html;charset=utf-8 2.9606ms
+2024-03-26 20:57:10.9105 | INFO | Request starting HTTP/1.1 GET http://localhost:5149/_vs/browserLink - -
+2024-03-26 20:57:10.9105 | INFO | Request starting HTTP/1.1 GET http://localhost:5149/_framework/aspnetcore-browser-refresh.js - -
+2024-03-26 20:57:10.9105 | INFO | Request finished HTTP/1.1 GET http://localhost:5149/_framework/aspnetcore-browser-refresh.js - - - 200 13776 application/javascript;+charset=utf-8 0.1230ms
+2024-03-26 20:57:10.9284 | INFO | Request finished HTTP/1.1 GET http://localhost:5149/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 7.6300ms
+2024-03-26 20:57:10.9755 | INFO | Request starting HTTP/1.1 GET http://localhost:5149/swagger/U8移动端接口/swagger.json - -
+2024-03-26 20:57:10.9755 | ERROR | An unhandled exception has occurred while executing the request.
+2024-03-26 20:57:10.9755 | INFO | Request finished HTTP/1.1 GET http://localhost:5149/swagger/U8移动端接口/swagger.json - - - 500 - text/plain;+charset=utf-8 4.4427ms
+2024-03-26 20:57:32.0735 | INFO | User profile is available. Using 'C:\Users\Administrator\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-03-26 20:57:32.2612 | INFO | Now listening on: http://localhost:5149
+2024-03-26 20:57:32.2612 | INFO | Application started. Press Ctrl+C to shut down.
+2024-03-26 20:57:32.2612 | INFO | Hosting environment: Development
+2024-03-26 20:57:32.2683 | INFO | Content root path: D:\BaiduSyncdisk\webapi.net7+sqlsugar\webapi.net7.sqlsugar\webapi.net7.sqlsugar
+2024-03-26 20:57:32.6376 | INFO | Request starting HTTP/1.1 GET http://localhost:5149/swagger/index.html - -
+2024-03-26 20:57:32.8932 | INFO | Request finished HTTP/1.1 GET http://localhost:5149/swagger/index.html - - - 200 - text/html;charset=utf-8 261.5601ms
+2024-03-26 20:57:32.8932 | INFO | Request starting HTTP/1.1 GET http://localhost:5149/_vs/browserLink - -
+2024-03-26 20:57:32.8932 | INFO | Request starting HTTP/1.1 GET http://localhost:5149/_framework/aspnetcore-browser-refresh.js - -
+2024-03-26 20:57:32.8932 | INFO | Request finished HTTP/1.1 GET http://localhost:5149/_framework/aspnetcore-browser-refresh.js - - - 200 13776 application/javascript;+charset=utf-8 1.8554ms
+2024-03-26 20:57:32.9366 | INFO | Request finished HTTP/1.1 GET http://localhost:5149/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 37.3527ms
+2024-03-26 20:57:32.9670 | INFO | Request starting HTTP/1.1 GET http://localhost:5149/swagger/东泽房源管理接口/swagger.json - -
+2024-03-26 20:57:33.2199 | INFO | Request finished HTTP/1.1 GET http://localhost:5149/swagger/东泽房源管理接口/swagger.json - - - 200 - application/json;charset=utf-8 253.0864ms
+2024-03-26 20:57:36.0389 | INFO | Request starting HTTP/1.1 GET http://localhost:5149/swagger/U8移动端接口/swagger.json - -
+2024-03-26 20:57:36.0771 | INFO | Request finished HTTP/1.1 GET http://localhost:5149/swagger/U8移动端接口/swagger.json - - - 200 - application/json;charset=utf-8 38.4894ms
+2024-03-26 20:57:45.6477 | INFO | Request starting HTTP/1.1 POST http://localhost:5149/api/PassWordPost application/json 45
+2024-03-26 20:57:45.6692 | WARN | Failed to determine the https port for redirect.
+2024-03-26 20:57:45.7253 | INFO | CORS policy execution successful.
+2024-03-26 20:57:45.7253 | INFO | Executing endpoint 'webapi.net7.sqlsugar.Controllers.ApiLoginController.PassWordPost (webapi.net7.sqlsugar)'
+2024-03-26 20:57:45.7576 | INFO | Route matched with {action = "PassWordPost", controller = "ApiLogin"}. Executing controller action with signature System.Collections.Generic.List`1[webapi.net7.sqlsugar.Model.MessageLogin] PassWordPost(webapi.net7.sqlsugar.User) on controller webapi.net7.sqlsugar.Controllers.ApiLoginController (webapi.net7.sqlsugar).
+2024-03-26 20:57:45.7856 | INFO | Executing action method webapi.net7.sqlsugar.Controllers.ApiLoginController.PassWordPost (webapi.net7.sqlsugar) - Validation state: Valid
+2024-03-26 20:57:46.4637 | INFO | Executed action method webapi.net7.sqlsugar.Controllers.ApiLoginController.PassWordPost (webapi.net7.sqlsugar), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 670.308ms.
+2024-03-26 20:57:46.4733 | INFO | Executing ObjectResult, writing value of type 'System.Collections.Generic.List`1[[webapi.net7.sqlsugar.Model.MessageLogin, webapi.net7.sqlsugar, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-03-26 20:57:46.4887 | INFO | Executed action webapi.net7.sqlsugar.Controllers.ApiLoginController.PassWordPost (webapi.net7.sqlsugar) in 723.9277ms
+2024-03-26 20:57:46.4887 | INFO | Executed endpoint 'webapi.net7.sqlsugar.Controllers.ApiLoginController.PassWordPost (webapi.net7.sqlsugar)'
+2024-03-26 20:57:46.4887 | INFO | Request finished HTTP/1.1 POST http://localhost:5149/api/PassWordPost application/json 45 - 200 - application/json;+charset=utf-8 841.5470ms
+2024-03-26 20:57:53.1054 | INFO | Request starting HTTP/1.1 OPTIONS http://127.0.0.1:5149/api/PassWordPost - -
+2024-03-26 20:57:53.1323 | INFO | CORS policy execution successful.
+2024-03-26 20:57:53.1323 | INFO | Request finished HTTP/1.1 OPTIONS http://127.0.0.1:5149/api/PassWordPost - - - 204 - - 28.8221ms
+2024-03-26 20:57:53.1323 | INFO | Request starting HTTP/1.1 POST http://127.0.0.1:5149/api/PassWordPost application/x-www-form-urlencoded,+application/json 26
+2024-03-26 20:57:53.1323 | INFO | CORS policy execution successful.
+2024-03-26 20:57:53.1323 | INFO | Executing endpoint 'webapi.net7.sqlsugar.Controllers.ApiLoginController.PassWordPost (webapi.net7.sqlsugar)'
+2024-03-26 20:57:53.1323 | INFO | Route matched with {action = "PassWordPost", controller = "ApiLogin"}. Executing controller action with signature System.Collections.Generic.List`1[webapi.net7.sqlsugar.Model.MessageLogin] PassWordPost(webapi.net7.sqlsugar.User) on controller webapi.net7.sqlsugar.Controllers.ApiLoginController (webapi.net7.sqlsugar).
+2024-03-26 20:57:53.1452 | INFO | Executing ObjectResult, writing value of type 'Microsoft.AspNetCore.Mvc.ProblemDetails'.
+2024-03-26 20:57:53.1452 | INFO | Executed action webapi.net7.sqlsugar.Controllers.ApiLoginController.PassWordPost (webapi.net7.sqlsugar) in 7.6617ms
+2024-03-26 20:57:53.1452 | INFO | Executed endpoint 'webapi.net7.sqlsugar.Controllers.ApiLoginController.PassWordPost (webapi.net7.sqlsugar)'
+2024-03-26 20:57:53.1452 | INFO | Request finished HTTP/1.1 POST http://127.0.0.1:5149/api/PassWordPost application/x-www-form-urlencoded,+application/json 26 - 415 - application/problem+json;+charset=utf-8 10.6711ms
+2024-03-26 20:57:56.2578 | INFO | Request starting HTTP/1.1 POST http://127.0.0.1:5149/api/PassWordPost application/x-www-form-urlencoded,+application/json 26
+2024-03-26 20:57:56.2578 | INFO | CORS policy execution successful.
+2024-03-26 20:57:56.2578 | INFO | Executing endpoint 'webapi.net7.sqlsugar.Controllers.ApiLoginController.PassWordPost (webapi.net7.sqlsugar)'
+2024-03-26 20:57:56.2578 | INFO | Route matched with {action = "PassWordPost", controller = "ApiLogin"}. Executing controller action with signature System.Collections.Generic.List`1[webapi.net7.sqlsugar.Model.MessageLogin] PassWordPost(webapi.net7.sqlsugar.User) on controller webapi.net7.sqlsugar.Controllers.ApiLoginController (webapi.net7.sqlsugar).
+2024-03-26 20:57:56.2578 | INFO | Executing ObjectResult, writing value of type 'Microsoft.AspNetCore.Mvc.ProblemDetails'.
+2024-03-26 20:57:56.2578 | INFO | Executed action webapi.net7.sqlsugar.Controllers.ApiLoginController.PassWordPost (webapi.net7.sqlsugar) in 0.9036ms
+2024-03-26 20:57:56.2578 | INFO | Executed endpoint 'webapi.net7.sqlsugar.Controllers.ApiLoginController.PassWordPost (webapi.net7.sqlsugar)'
+2024-03-26 20:57:56.2578 | INFO | Request finished HTTP/1.1 POST http://127.0.0.1:5149/api/PassWordPost application/x-www-form-urlencoded,+application/json 26 - 415 - application/problem+json;+charset=utf-8 1.6599ms
+2024-03-26 20:59:14.9834 | INFO | Request starting HTTP/1.1 OPTIONS http://127.0.0.1:5149/api/PassWordPost - -
+2024-03-26 20:59:14.9834 | INFO | CORS policy execution successful.
+2024-03-26 20:59:14.9834 | INFO | Request finished HTTP/1.1 OPTIONS http://127.0.0.1:5149/api/PassWordPost - - - 204 - - 2.6188ms
+2024-03-26 20:59:14.9864 | INFO | Request starting HTTP/1.1 POST http://127.0.0.1:5149/api/PassWordPost application/json 36
+2024-03-26 20:59:14.9864 | INFO | CORS policy execution successful.
+2024-03-26 20:59:14.9864 | INFO | Executing endpoint 'webapi.net7.sqlsugar.Controllers.ApiLoginController.PassWordPost (webapi.net7.sqlsugar)'
+2024-03-26 20:59:14.9864 | INFO | Route matched with {action = "PassWordPost", controller = "ApiLogin"}. Executing controller action with signature System.Collections.Generic.List`1[webapi.net7.sqlsugar.Model.MessageLogin] PassWordPost(webapi.net7.sqlsugar.User) on controller webapi.net7.sqlsugar.Controllers.ApiLoginController (webapi.net7.sqlsugar).
+2024-03-26 20:59:14.9864 | INFO | Executing action method webapi.net7.sqlsugar.Controllers.ApiLoginController.PassWordPost (webapi.net7.sqlsugar) - Validation state: Valid
+2024-03-26 20:59:15.0235 | INFO | Executed action method webapi.net7.sqlsugar.Controllers.ApiLoginController.PassWordPost (webapi.net7.sqlsugar), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 28.749ms.
+2024-03-26 20:59:15.0235 | INFO | Executing ObjectResult, writing value of type 'System.Collections.Generic.List`1[[webapi.net7.sqlsugar.Model.MessageLogin, webapi.net7.sqlsugar, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-03-26 20:59:15.0235 | INFO | Executed action webapi.net7.sqlsugar.Controllers.ApiLoginController.PassWordPost (webapi.net7.sqlsugar) in 33.5033ms
+2024-03-26 20:59:15.0235 | INFO | Executed endpoint 'webapi.net7.sqlsugar.Controllers.ApiLoginController.PassWordPost (webapi.net7.sqlsugar)'
+2024-03-26 20:59:15.0235 | INFO | Request finished HTTP/1.1 POST http://127.0.0.1:5149/api/PassWordPost application/json 36 - 200 - application/json;+charset=utf-8 38.0090ms
+2024-03-26 21:02:52.3546 | INFO | Request starting HTTP/1.1 GET http://localhost:5149/swagger/index.html?urls.primaryName=%E3%80%90U8%E7%A7%BB%E5%8A%A8%E7%AB%AF%E6%8E%A5%E5%8F%A3%E3%80%91%E6%8E%A5%E5%8F%A3 - -
+2024-03-26 21:02:52.3671 | INFO | Request finished HTTP/1.1 GET http://localhost:5149/swagger/index.html?urls.primaryName=%E3%80%90U8%E7%A7%BB%E5%8A%A8%E7%AB%AF%E6%8E%A5%E5%8F%A3%E3%80%91%E6%8E%A5%E5%8F%A3 - - - 200 - text/html;charset=utf-8 19.6601ms
+2024-03-26 21:02:52.3933 | INFO | Request starting HTTP/1.1 GET http://localhost:5149/_framework/aspnetcore-browser-refresh.js - -
+2024-03-26 21:02:52.3933 | INFO | Request starting HTTP/1.1 GET http://localhost:5149/_vs/browserLink - -
+2024-03-26 21:02:52.3933 | INFO | Request finished HTTP/1.1 GET http://localhost:5149/_framework/aspnetcore-browser-refresh.js - - - 200 13776 application/javascript;+charset=utf-8 0.3780ms
+2024-03-26 21:02:52.3933 | INFO | Request finished HTTP/1.1 GET http://localhost:5149/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 11.1481ms
+2024-03-26 21:02:52.5836 | INFO | Request starting HTTP/1.1 GET http://localhost:5149/swagger/U8移动端接口/swagger.json - -
+2024-03-26 21:02:52.6132 | ERROR | An unhandled exception has occurred while executing the request.
+2024-03-26 21:02:52.6132 | INFO | Request finished HTTP/1.1 GET http://localhost:5149/swagger/U8移动端接口/swagger.json - - - 500 - text/plain;+charset=utf-8 33.4798ms
+2024-03-26 21:02:55.0391 | INFO | Request starting HTTP/1.1 GET http://localhost:5149/swagger/index.html?urls.primaryName=%E3%80%90U8%E7%A7%BB%E5%8A%A8%E7%AB%AF%E6%8E%A5%E5%8F%A3%E3%80%91%E6%8E%A5%E5%8F%A3 - -
+2024-03-26 21:02:55.0391 | INFO | Request finished HTTP/1.1 GET http://localhost:5149/swagger/index.html?urls.primaryName=%E3%80%90U8%E7%A7%BB%E5%8A%A8%E7%AB%AF%E6%8E%A5%E5%8F%A3%E3%80%91%E6%8E%A5%E5%8F%A3 - - - 200 - text/html;charset=utf-8 3.2135ms
+2024-03-26 21:02:55.0525 | INFO | Request starting HTTP/1.1 GET http://localhost:5149/_vs/browserLink - -
+2024-03-26 21:02:55.0525 | INFO | Request starting HTTP/1.1 GET http://localhost:5149/_framework/aspnetcore-browser-refresh.js - -
+2024-03-26 21:02:55.0525 | INFO | Request finished HTTP/1.1 GET http://localhost:5149/_framework/aspnetcore-browser-refresh.js - - - 200 13776 application/javascript;+charset=utf-8 0.1068ms
+2024-03-26 21:02:55.0525 | INFO | Request finished HTTP/1.1 GET http://localhost:5149/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 11.1720ms
+2024-03-26 21:02:55.0870 | INFO | Request starting HTTP/1.1 GET http://localhost:5149/swagger/U8移动端接口/swagger.json - -
+2024-03-26 21:02:55.0870 | ERROR | An unhandled exception has occurred while executing the request.
+2024-03-26 21:02:55.0870 | INFO | Request finished HTTP/1.1 GET http://localhost:5149/swagger/U8移动端接口/swagger.json - - - 500 - text/plain;+charset=utf-8 4.0479ms
+2024-03-26 21:03:04.5807 | INFO | User profile is available. Using 'C:\Users\Administrator\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-03-26 21:03:04.7246 | INFO | Now listening on: http://localhost:5149
+2024-03-26 21:03:04.7246 | INFO | Application started. Press Ctrl+C to shut down.
+2024-03-26 21:03:04.7246 | INFO | Hosting environment: Development
+2024-03-26 21:03:04.7246 | INFO | Content root path: D:\BaiduSyncdisk\webapi.net7+sqlsugar\webapi.net7.sqlsugar\webapi.net7.sqlsugar
+2024-03-26 21:03:08.0297 | INFO | Request starting HTTP/1.1 GET http://localhost:5149/swagger/index.html - -
+2024-03-26 21:03:08.2868 | INFO | Request finished HTTP/1.1 GET http://localhost:5149/swagger/index.html - - - 200 - text/html;charset=utf-8 260.9670ms
+2024-03-26 21:03:08.2868 | INFO | Request starting HTTP/1.1 GET http://localhost:5149/_vs/browserLink - -
+2024-03-26 21:03:08.2868 | INFO | Request starting HTTP/1.1 GET http://localhost:5149/_framework/aspnetcore-browser-refresh.js - -
+2024-03-26 21:03:08.2868 | INFO | Request finished HTTP/1.1 GET http://localhost:5149/_framework/aspnetcore-browser-refresh.js - - - 200 13776 application/javascript;+charset=utf-8 3.8537ms
+2024-03-26 21:03:08.3274 | INFO | Request finished HTTP/1.1 GET http://localhost:5149/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 36.5734ms
+2024-03-26 21:03:08.3532 | INFO | Request starting HTTP/1.1 GET http://localhost:5149/swagger/东泽房源管理接口/swagger.json - -
+2024-03-26 21:03:08.5945 | INFO | Request finished HTTP/1.1 GET http://localhost:5149/swagger/东泽房源管理接口/swagger.json - - - 200 - application/json;charset=utf-8 241.4464ms
+2024-03-26 21:03:27.4040 | INFO | Request starting HTTP/1.1 OPTIONS http://127.0.0.1:5149/api/PassWordPost - -
+2024-03-26 21:03:27.4091 | WARN | Failed to determine the https port for redirect.
+2024-03-26 21:03:27.4806 | INFO | CORS policy execution successful.
+2024-03-26 21:03:27.4868 | INFO | Request finished HTTP/1.1 OPTIONS http://127.0.0.1:5149/api/PassWordPost - - - 204 - - 82.0889ms
+2024-03-26 21:03:27.4868 | INFO | Request starting HTTP/1.1 POST http://127.0.0.1:5149/api/PassWordPost application/json 36
+2024-03-26 21:03:27.5213 | INFO | CORS policy execution successful.
+2024-03-26 21:03:27.5213 | INFO | Executing endpoint 'webapi.net7.sqlsugar.Controllers.ApiLoginController.PassWordPost (webapi.net7.sqlsugar)'
+2024-03-26 21:03:27.5665 | INFO | Route matched with {action = "PassWordPost", controller = "ApiLogin"}. Executing controller action with signature webapi.net7.sqlsugar.Model.MessageLogin PassWordPost(webapi.net7.sqlsugar.User) on controller webapi.net7.sqlsugar.Controllers.ApiLoginController (webapi.net7.sqlsugar).
+2024-03-26 21:03:27.6024 | INFO | Executing action method webapi.net7.sqlsugar.Controllers.ApiLoginController.PassWordPost (webapi.net7.sqlsugar) - Validation state: Valid
+2024-03-26 21:03:28.2092 | INFO | Executed action method webapi.net7.sqlsugar.Controllers.ApiLoginController.PassWordPost (webapi.net7.sqlsugar), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 594.2202ms.
+2024-03-26 21:03:28.2092 | INFO | Executing ObjectResult, writing value of type 'webapi.net7.sqlsugar.Model.MessageLogin'.
+2024-03-26 21:03:28.2231 | INFO | Executed action webapi.net7.sqlsugar.Controllers.ApiLoginController.PassWordPost (webapi.net7.sqlsugar) in 655.229ms
+2024-03-26 21:03:28.2231 | INFO | Executed endpoint 'webapi.net7.sqlsugar.Controllers.ApiLoginController.PassWordPost (webapi.net7.sqlsugar)'
+2024-03-26 21:03:28.2231 | INFO | Request finished HTTP/1.1 POST http://127.0.0.1:5149/api/PassWordPost application/json 36 - 200 - application/json;+charset=utf-8 740.7237ms
+2024-03-26 21:03:31.7104 | INFO | Request starting HTTP/1.1 POST http://127.0.0.1:5149/api/PassWordPost application/json 36
+2024-03-26 21:03:31.7104 | INFO | CORS policy execution successful.
+2024-03-26 21:03:31.7104 | INFO | Executing endpoint 'webapi.net7.sqlsugar.Controllers.ApiLoginController.PassWordPost (webapi.net7.sqlsugar)'
+2024-03-26 21:03:31.7104 | INFO | Route matched with {action = "PassWordPost", controller = "ApiLogin"}. Executing controller action with signature webapi.net7.sqlsugar.Model.MessageLogin PassWordPost(webapi.net7.sqlsugar.User) on controller webapi.net7.sqlsugar.Controllers.ApiLoginController (webapi.net7.sqlsugar).
+2024-03-26 21:03:31.7104 | INFO | Executing action method webapi.net7.sqlsugar.Controllers.ApiLoginController.PassWordPost (webapi.net7.sqlsugar) - Validation state: Valid
+2024-03-26 21:03:31.7456 | INFO | Executed action method webapi.net7.sqlsugar.Controllers.ApiLoginController.PassWordPost (webapi.net7.sqlsugar), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 29.86ms.
+2024-03-26 21:03:31.7456 | INFO | Executing ObjectResult, writing value of type 'webapi.net7.sqlsugar.Model.MessageLogin'.
+2024-03-26 21:03:31.7456 | INFO | Executed action webapi.net7.sqlsugar.Controllers.ApiLoginController.PassWordPost (webapi.net7.sqlsugar) in 32.4606ms
+2024-03-26 21:03:31.7456 | INFO | Executed endpoint 'webapi.net7.sqlsugar.Controllers.ApiLoginController.PassWordPost (webapi.net7.sqlsugar)'
+2024-03-26 21:03:31.7456 | INFO | Request finished HTTP/1.1 POST http://127.0.0.1:5149/api/PassWordPost application/json 36 - 200 - application/json;+charset=utf-8 36.4948ms
+2024-03-26 21:03:44.4370 | INFO | Request starting HTTP/1.1 OPTIONS http://127.0.0.1:5149/api/PassWordPost - -
+2024-03-26 21:03:44.4370 | INFO | CORS policy execution successful.
+2024-03-26 21:03:44.4370 | INFO | Request finished HTTP/1.1 OPTIONS http://127.0.0.1:5149/api/PassWordPost - - - 204 - - 1.2695ms
+2024-03-26 21:03:44.4396 | INFO | Request starting HTTP/1.1 POST http://127.0.0.1:5149/api/PassWordPost application/json 41
+2024-03-26 21:03:44.4396 | INFO | CORS policy execution successful.
+2024-03-26 21:03:44.4396 | INFO | Executing endpoint 'webapi.net7.sqlsugar.Controllers.ApiLoginController.PassWordPost (webapi.net7.sqlsugar)'
+2024-03-26 21:03:44.4396 | INFO | Route matched with {action = "PassWordPost", controller = "ApiLogin"}. Executing controller action with signature webapi.net7.sqlsugar.Model.MessageLogin PassWordPost(webapi.net7.sqlsugar.User) on controller webapi.net7.sqlsugar.Controllers.ApiLoginController (webapi.net7.sqlsugar).
+2024-03-26 21:03:44.4396 | INFO | Executing action method webapi.net7.sqlsugar.Controllers.ApiLoginController.PassWordPost (webapi.net7.sqlsugar) - Validation state: Valid
+2024-03-26 21:03:44.4682 | INFO | Executed action method webapi.net7.sqlsugar.Controllers.ApiLoginController.PassWordPost (webapi.net7.sqlsugar), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 27.1475ms.
+2024-03-26 21:03:44.4682 | INFO | Executing ObjectResult, writing value of type 'webapi.net7.sqlsugar.Model.MessageLogin'.
+2024-03-26 21:03:44.4682 | INFO | Executed action webapi.net7.sqlsugar.Controllers.ApiLoginController.PassWordPost (webapi.net7.sqlsugar) in 29.3173ms
+2024-03-26 21:03:44.4682 | INFO | Executed endpoint 'webapi.net7.sqlsugar.Controllers.ApiLoginController.PassWordPost (webapi.net7.sqlsugar)'
+2024-03-26 21:03:44.4682 | INFO | Request finished HTTP/1.1 POST http://127.0.0.1:5149/api/PassWordPost application/json 41 - 200 - application/json;+charset=utf-8 30.1940ms
+2024-03-26 21:03:44.4726 | INFO | Request starting HTTP/1.1 POST http://127.0.0.1:5149/api/userqx application/x-www-form-urlencoded 11
+2024-03-26 21:03:44.4726 | INFO | CORS policy execution successful.
+2024-03-26 21:03:44.4726 | INFO | Request finished HTTP/1.1 POST http://127.0.0.1:5149/api/userqx application/x-www-form-urlencoded 11 - 404 0 - 0.8116ms
+2024-03-26 21:04:39.5587 | INFO | Request starting HTTP/1.1 GET http://localhost:5149/swagger/U8移动端接口/swagger.json - -
+2024-03-26 21:04:39.5991 | INFO | Request finished HTTP/1.1 GET http://localhost:5149/swagger/U8移动端接口/swagger.json - - - 200 - application/json;charset=utf-8 40.5118ms
+2024-03-26 21:04:49.9682 | INFO | Request starting HTTP/1.1 POST http://localhost:5149/api/U8authority application/json 19
+2024-03-26 21:04:49.9682 | INFO | CORS policy execution successful.
+2024-03-26 21:04:49.9682 | INFO | Executing endpoint 'webapi.net7.sqlsugar.Controllers.ApiLoginController.U8authority (webapi.net7.sqlsugar)'
+2024-03-26 21:04:49.9682 | INFO | Route matched with {action = "U8authority", controller = "ApiLogin"}. Executing controller action with signature System.Object U8authority(webapi.net7.sqlsugar.Model.Authority) on controller webapi.net7.sqlsugar.Controllers.ApiLoginController (webapi.net7.sqlsugar).
+2024-03-26 21:04:49.9708 | INFO | Executing action method webapi.net7.sqlsugar.Controllers.ApiLoginController.U8authority (webapi.net7.sqlsugar) - Validation state: Valid
+2024-03-26 21:04:50.1052 | INFO | Executed action method webapi.net7.sqlsugar.Controllers.ApiLoginController.U8authority (webapi.net7.sqlsugar), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 132.2288ms.
+2024-03-26 21:04:50.1052 | INFO | Executing ObjectResult, writing value of type '<>f__AnonymousType0`3[[System.Int32, System.Private.CoreLib, Version=7.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=7.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Boolean, System.Private.CoreLib, Version=7.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2024-03-26 21:04:50.1052 | INFO | Executed action webapi.net7.sqlsugar.Controllers.ApiLoginController.U8authority (webapi.net7.sqlsugar) in 139.4993ms
+2024-03-26 21:04:50.1052 | INFO | Executed endpoint 'webapi.net7.sqlsugar.Controllers.ApiLoginController.U8authority (webapi.net7.sqlsugar)'
+2024-03-26 21:04:50.1052 | INFO | Request finished HTTP/1.1 POST http://localhost:5149/api/U8authority application/json 19 - 200 - application/json;+charset=utf-8 142.4610ms
+2024-03-26 21:05:02.0480 | INFO | Request starting HTTP/1.1 POST http://localhost:5149/api/U8authority application/json 19
+2024-03-26 21:05:02.0480 | INFO | CORS policy execution successful.
+2024-03-26 21:05:02.0480 | INFO | Executing endpoint 'webapi.net7.sqlsugar.Controllers.ApiLoginController.U8authority (webapi.net7.sqlsugar)'
+2024-03-26 21:05:02.0480 | INFO | Route matched with {action = "U8authority", controller = "ApiLogin"}. Executing controller action with signature System.Object U8authority(webapi.net7.sqlsugar.Model.Authority) on controller webapi.net7.sqlsugar.Controllers.ApiLoginController (webapi.net7.sqlsugar).
+2024-03-26 21:05:02.0488 | INFO | Executing action method webapi.net7.sqlsugar.Controllers.ApiLoginController.U8authority (webapi.net7.sqlsugar) - Validation state: Valid
+2024-03-26 21:05:02.0982 | INFO | Executed action method webapi.net7.sqlsugar.Controllers.ApiLoginController.U8authority (webapi.net7.sqlsugar), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 48.9896ms.
+2024-03-26 21:05:02.0982 | INFO | Executing ObjectResult, writing value of type '<>f__AnonymousType0`3[[System.Int32, System.Private.CoreLib, Version=7.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=7.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Boolean, System.Private.CoreLib, Version=7.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2024-03-26 21:05:02.0982 | INFO | Executed action webapi.net7.sqlsugar.Controllers.ApiLoginController.U8authority (webapi.net7.sqlsugar) in 49.9053ms
+2024-03-26 21:05:02.0982 | INFO | Executed endpoint 'webapi.net7.sqlsugar.Controllers.ApiLoginController.U8authority (webapi.net7.sqlsugar)'
+2024-03-26 21:05:02.0982 | INFO | Request finished HTTP/1.1 POST http://localhost:5149/api/U8authority application/json 19 - 200 - application/json;+charset=utf-8 50.8168ms
+2024-03-26 21:10:49.9460 | INFO | User profile is available. Using 'C:\Users\Administrator\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-03-26 21:10:50.1112 | INFO | Now listening on: http://localhost:5149
+2024-03-26 21:10:50.1148 | INFO | Application started. Press Ctrl+C to shut down.
+2024-03-26 21:10:50.1148 | INFO | Hosting environment: Development
+2024-03-26 21:10:50.1148 | INFO | Content root path: D:\BaiduSyncdisk\webapi.net7+sqlsugar\webapi.net7.sqlsugar\webapi.net7.sqlsugar
+2024-03-26 21:10:50.3653 | INFO | Request starting HTTP/1.1 GET http://localhost:5149/swagger/index.html - -
+2024-03-26 21:10:50.6687 | INFO | Request finished HTTP/1.1 GET http://localhost:5149/swagger/index.html - - - 200 - text/html;charset=utf-8 306.5979ms
+2024-03-26 21:10:50.6687 | INFO | Request starting HTTP/1.1 GET http://localhost:5149/_vs/browserLink - -
+2024-03-26 21:10:50.6754 | INFO | Request starting HTTP/1.1 GET http://localhost:5149/_framework/aspnetcore-browser-refresh.js - -
+2024-03-26 21:10:50.6754 | INFO | Request finished HTTP/1.1 GET http://localhost:5149/_framework/aspnetcore-browser-refresh.js - - - 200 13776 application/javascript;+charset=utf-8 4.0119ms
+2024-03-26 21:10:50.7152 | INFO | Request finished HTTP/1.1 GET http://localhost:5149/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 41.4413ms
+2024-03-26 21:10:50.7501 | INFO | Request starting HTTP/1.1 GET http://localhost:5149/swagger/东泽房源管理接口/swagger.json - -
+2024-03-26 21:10:51.0143 | INFO | Request finished HTTP/1.1 GET http://localhost:5149/swagger/东泽房源管理接口/swagger.json - - - 200 - application/json;charset=utf-8 264.3665ms
+2024-03-26 21:10:53.5198 | INFO | Request starting HTTP/1.1 GET http://localhost:5149/swagger/U8移动端接口/swagger.json - -
+2024-03-26 21:10:53.5629 | INFO | Request finished HTTP/1.1 GET http://localhost:5149/swagger/U8移动端接口/swagger.json - - - 200 - application/json;charset=utf-8 43.1943ms
+2024-03-26 21:11:02.4904 | INFO | Request starting HTTP/1.1 POST http://localhost:5149/api/PassWordPost application/json 45
+2024-03-26 21:11:02.5142 | WARN | Failed to determine the https port for redirect.
+2024-03-26 21:11:02.5690 | INFO | CORS policy execution successful.
+2024-03-26 21:11:02.5690 | INFO | Executing endpoint 'webapi.net7.sqlsugar.Controllers.ApiLoginController.PassWordPost (webapi.net7.sqlsugar)'
+2024-03-26 21:11:02.5901 | INFO | Route matched with {action = "PassWordPost", controller = "ApiLogin"}. Executing controller action with signature webapi.net7.sqlsugar.Model.MessageLogin PassWordPost(webapi.net7.sqlsugar.User) on controller webapi.net7.sqlsugar.Controllers.ApiLoginController (webapi.net7.sqlsugar).
+2024-03-26 21:11:02.6181 | INFO | Executing action method webapi.net7.sqlsugar.Controllers.ApiLoginController.PassWordPost (webapi.net7.sqlsugar) - Validation state: Valid
+2024-03-26 21:11:03.5562 | INFO | Executed action method webapi.net7.sqlsugar.Controllers.ApiLoginController.PassWordPost (webapi.net7.sqlsugar), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 929.4278ms.
+2024-03-26 21:11:03.5562 | INFO | Executing ObjectResult, writing value of type 'webapi.net7.sqlsugar.Model.MessageLogin'.
+2024-03-26 21:11:03.5651 | INFO | Executed action webapi.net7.sqlsugar.Controllers.ApiLoginController.PassWordPost (webapi.net7.sqlsugar) in 974.2832ms
+2024-03-26 21:11:03.5651 | INFO | Executed endpoint 'webapi.net7.sqlsugar.Controllers.ApiLoginController.PassWordPost (webapi.net7.sqlsugar)'
+2024-03-26 21:11:03.5651 | INFO | Request finished HTTP/1.1 POST http://localhost:5149/api/PassWordPost application/json 45 - 200 - application/json;+charset=utf-8 1077.3809ms
+2024-03-26 21:11:09.9553 | INFO | Request starting HTTP/1.1 POST http://localhost:5149/api/PassWordPost application/json 50
+2024-03-26 21:11:09.9758 | INFO | CORS policy execution successful.
+2024-03-26 21:11:09.9758 | INFO | Executing endpoint 'webapi.net7.sqlsugar.Controllers.ApiLoginController.PassWordPost (webapi.net7.sqlsugar)'
+2024-03-26 21:11:09.9758 | INFO | Route matched with {action = "PassWordPost", controller = "ApiLogin"}. Executing controller action with signature webapi.net7.sqlsugar.Model.MessageLogin PassWordPost(webapi.net7.sqlsugar.User) on controller webapi.net7.sqlsugar.Controllers.ApiLoginController (webapi.net7.sqlsugar).
+2024-03-26 21:11:09.9758 | INFO | Executing action method webapi.net7.sqlsugar.Controllers.ApiLoginController.PassWordPost (webapi.net7.sqlsugar) - Validation state: Valid
+2024-03-26 21:11:10.0161 | INFO | Executed action method webapi.net7.sqlsugar.Controllers.ApiLoginController.PassWordPost (webapi.net7.sqlsugar), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 36.3901ms.
+2024-03-26 21:11:10.0161 | INFO | Executing ObjectResult, writing value of type 'webapi.net7.sqlsugar.Model.MessageLogin'.
+2024-03-26 21:11:10.0161 | INFO | Executed action webapi.net7.sqlsugar.Controllers.ApiLoginController.PassWordPost (webapi.net7.sqlsugar) in 38.3427ms
+2024-03-26 21:11:10.0161 | INFO | Executed endpoint 'webapi.net7.sqlsugar.Controllers.ApiLoginController.PassWordPost (webapi.net7.sqlsugar)'
+2024-03-26 21:11:10.0161 | INFO | Request finished HTTP/1.1 POST http://localhost:5149/api/PassWordPost application/json 50 - 200 - application/json;+charset=utf-8 61.9318ms
+2024-03-26 21:11:19.1453 | INFO | Request starting HTTP/1.1 POST http://localhost:5149/api/U8authority application/json 19
+2024-03-26 21:11:19.1453 | INFO | CORS policy execution successful.
+2024-03-26 21:11:19.1453 | INFO | Executing endpoint 'webapi.net7.sqlsugar.Controllers.ApiLoginController.U8authority (webapi.net7.sqlsugar)'
+2024-03-26 21:11:19.1453 | INFO | Route matched with {action = "U8authority", controller = "ApiLogin"}. Executing controller action with signature System.Object U8authority(webapi.net7.sqlsugar.Model.Authority) on controller webapi.net7.sqlsugar.Controllers.ApiLoginController (webapi.net7.sqlsugar).
+2024-03-26 21:11:19.1453 | INFO | Executing action method webapi.net7.sqlsugar.Controllers.ApiLoginController.U8authority (webapi.net7.sqlsugar) - Validation state: Valid
+2024-03-26 21:11:19.1814 | INFO | Executed action method webapi.net7.sqlsugar.Controllers.ApiLoginController.U8authority (webapi.net7.sqlsugar), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 30.2984ms.
+2024-03-26 21:11:19.1814 | INFO | Executing ObjectResult, writing value of type '<>f__AnonymousType0`3[[System.Int32, System.Private.CoreLib, Version=7.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=7.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Boolean, System.Private.CoreLib, Version=7.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2024-03-26 21:11:19.1814 | INFO | Executed action webapi.net7.sqlsugar.Controllers.ApiLoginController.U8authority (webapi.net7.sqlsugar) in 35.3411ms
+2024-03-26 21:11:19.1814 | INFO | Executed endpoint 'webapi.net7.sqlsugar.Controllers.ApiLoginController.U8authority (webapi.net7.sqlsugar)'
+2024-03-26 21:11:19.1814 | INFO | Request finished HTTP/1.1 POST http://localhost:5149/api/U8authority application/json 19 - 200 - application/json;+charset=utf-8 39.4163ms
+2024-03-26 21:13:32.4164 | INFO | Request starting HTTP/1.1 OPTIONS http://127.0.0.1:5149/api/PassWordPost - -
+2024-03-26 21:13:32.4164 | INFO | CORS policy execution successful.
+2024-03-26 21:13:32.4164 | INFO | Request finished HTTP/1.1 OPTIONS http://127.0.0.1:5149/api/PassWordPost - - - 204 - - 1.1399ms
+2024-03-26 21:13:32.4164 | INFO | Request starting HTTP/1.1 POST http://127.0.0.1:5149/api/PassWordPost application/json 41
+2024-03-26 21:13:32.4164 | INFO | CORS policy execution successful.
+2024-03-26 21:13:32.4164 | INFO | Executing endpoint 'webapi.net7.sqlsugar.Controllers.ApiLoginController.PassWordPost (webapi.net7.sqlsugar)'
+2024-03-26 21:13:32.4164 | INFO | Route matched with {action = "PassWordPost", controller = "ApiLogin"}. Executing controller action with signature webapi.net7.sqlsugar.Model.MessageLogin PassWordPost(webapi.net7.sqlsugar.User) on controller webapi.net7.sqlsugar.Controllers.ApiLoginController (webapi.net7.sqlsugar).
+2024-03-26 21:13:32.4164 | INFO | Executing action method webapi.net7.sqlsugar.Controllers.ApiLoginController.PassWordPost (webapi.net7.sqlsugar) - Validation state: Valid
+2024-03-26 21:13:32.4480 | INFO | Executed action method webapi.net7.sqlsugar.Controllers.ApiLoginController.PassWordPost (webapi.net7.sqlsugar), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 26.8076ms.
+2024-03-26 21:13:32.4480 | INFO | Executing ObjectResult, writing value of type 'webapi.net7.sqlsugar.Model.MessageLogin'.
+2024-03-26 21:13:32.4480 | INFO | Executed action webapi.net7.sqlsugar.Controllers.ApiLoginController.PassWordPost (webapi.net7.sqlsugar) in 29.9871ms
+2024-03-26 21:13:32.4480 | INFO | Executed endpoint 'webapi.net7.sqlsugar.Controllers.ApiLoginController.PassWordPost (webapi.net7.sqlsugar)'
+2024-03-26 21:13:32.4480 | INFO | Request finished HTTP/1.1 POST http://127.0.0.1:5149/api/PassWordPost application/json 41 - 200 - application/json;+charset=utf-8 30.6080ms
+2024-03-26 21:13:32.4480 | INFO | Request starting HTTP/1.1 POST http://127.0.0.1:5149/api/userqx application/x-www-form-urlencoded 11
+2024-03-26 21:13:32.4480 | INFO | CORS policy execution successful.
+2024-03-26 21:13:32.4480 | INFO | Request finished HTTP/1.1 POST http://127.0.0.1:5149/api/userqx application/x-www-form-urlencoded 11 - 404 0 - 0.8727ms
+2024-03-26 21:15:14.3097 | INFO | User profile is available. Using 'C:\Users\Administrator\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-03-26 21:15:14.4576 | INFO | Now listening on: http://localhost:5149
+2024-03-26 21:15:14.4576 | INFO | Application started. Press Ctrl+C to shut down.
+2024-03-26 21:15:14.4576 | INFO | Hosting environment: Development
+2024-03-26 21:15:14.4576 | INFO | Content root path: D:\BaiduSyncdisk\webapi.net7+sqlsugar\webapi.net7.sqlsugar\webapi.net7.sqlsugar
+2024-03-26 21:15:17.4157 | INFO | Request starting HTTP/1.1 GET http://localhost:5149/swagger/index.html - -
+2024-03-26 21:15:17.6907 | INFO | Request starting HTTP/1.1 GET http://localhost:5149/_framework/aspnetcore-browser-refresh.js - -
+2024-03-26 21:15:17.6907 | INFO | Request finished HTTP/1.1 GET http://localhost:5149/swagger/index.html - - - 200 - text/html;charset=utf-8 277.7225ms
+2024-03-26 21:15:17.6907 | INFO | Request finished HTTP/1.1 GET http://localhost:5149/_framework/aspnetcore-browser-refresh.js - - - 200 13776 application/javascript;+charset=utf-8 3.8552ms
+2024-03-26 21:15:17.6907 | INFO | Request starting HTTP/1.1 GET http://localhost:5149/_vs/browserLink - -
+2024-03-26 21:15:17.7293 | INFO | Request finished HTTP/1.1 GET http://localhost:5149/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 32.9250ms
+2024-03-26 21:15:17.7576 | INFO | Request starting HTTP/1.1 GET http://localhost:5149/swagger/东泽房源管理接口/swagger.json - -
+2024-03-26 21:15:17.9854 | INFO | Request finished HTTP/1.1 GET http://localhost:5149/swagger/东泽房源管理接口/swagger.json - - - 200 - application/json;charset=utf-8 227.9590ms
+2024-03-26 21:15:32.7923 | INFO | Request starting HTTP/1.1 GET http://localhost:5149/swagger/U8移动端接口/swagger.json - -
+2024-03-26 21:15:32.8457 | INFO | Request finished HTTP/1.1 GET http://localhost:5149/swagger/U8移动端接口/swagger.json - - - 200 - application/json;charset=utf-8 53.3987ms
+2024-03-26 21:16:10.6133 | INFO | Request starting HTTP/1.1 POST http://localhost:5149/api/U8authority application/json 18
+2024-03-26 21:16:10.6338 | WARN | Failed to determine the https port for redirect.
+2024-03-26 21:16:10.6859 | INFO | CORS policy execution successful.
+2024-03-26 21:16:10.6859 | INFO | Executing endpoint 'webapi.net7.sqlsugar.Controllers.ApiLoginController.U8authority (webapi.net7.sqlsugar)'
+2024-03-26 21:16:10.7061 | INFO | Route matched with {action = "U8authority", controller = "ApiLogin"}. Executing controller action with signature System.Object U8authority(webapi.net7.sqlsugar.Model.Authority) on controller webapi.net7.sqlsugar.Controllers.ApiLoginController (webapi.net7.sqlsugar).
+2024-03-26 21:16:10.7214 | INFO | Executing action method webapi.net7.sqlsugar.Controllers.ApiLoginController.U8authority (webapi.net7.sqlsugar) - Validation state: Valid
+2024-03-26 21:16:11.3622 | INFO | Executed action method webapi.net7.sqlsugar.Controllers.ApiLoginController.U8authority (webapi.net7.sqlsugar), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 620.6995ms.
+2024-03-26 21:16:11.3622 | INFO | Executing ObjectResult, writing value of type '<>f__AnonymousType0`3[[System.Int32, System.Private.CoreLib, Version=7.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=7.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Boolean, System.Private.CoreLib, Version=7.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2024-03-26 21:16:11.3773 | INFO | Executed action webapi.net7.sqlsugar.Controllers.ApiLoginController.U8authority (webapi.net7.sqlsugar) in 670.5687ms
+2024-03-26 21:16:11.3773 | INFO | Executed endpoint 'webapi.net7.sqlsugar.Controllers.ApiLoginController.U8authority (webapi.net7.sqlsugar)'
+2024-03-26 21:16:11.3773 | INFO | Request finished HTTP/1.1 POST http://localhost:5149/api/U8authority application/json 18 - 200 - application/json;+charset=utf-8 768.2957ms
+2024-03-26 21:17:54.1354 | INFO | Request starting HTTP/1.1 OPTIONS http://127.0.0.1:5149/api/PassWordPost - -
+2024-03-26 21:17:54.1630 | INFO | CORS policy execution successful.
+2024-03-26 21:17:54.1630 | INFO | Request finished HTTP/1.1 OPTIONS http://127.0.0.1:5149/api/PassWordPost - - - 204 - - 25.7086ms
+2024-03-26 21:17:54.1630 | INFO | Request starting HTTP/1.1 POST http://127.0.0.1:5149/api/PassWordPost application/json 41
+2024-03-26 21:17:54.1630 | INFO | CORS policy execution successful.
+2024-03-26 21:17:54.1630 | INFO | Executing endpoint 'webapi.net7.sqlsugar.Controllers.ApiLoginController.PassWordPost (webapi.net7.sqlsugar)'
+2024-03-26 21:17:54.1630 | INFO | Route matched with {action = "PassWordPost", controller = "ApiLogin"}. Executing controller action with signature webapi.net7.sqlsugar.Model.MessageLogin PassWordPost(webapi.net7.sqlsugar.User) on controller webapi.net7.sqlsugar.Controllers.ApiLoginController (webapi.net7.sqlsugar).
+2024-03-26 21:17:54.1745 | INFO | Executing action method webapi.net7.sqlsugar.Controllers.ApiLoginController.PassWordPost (webapi.net7.sqlsugar) - Validation state: Valid
+2024-03-26 21:17:54.2122 | INFO | Executed action method webapi.net7.sqlsugar.Controllers.ApiLoginController.PassWordPost (webapi.net7.sqlsugar), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 34.6507ms.
+2024-03-26 21:17:54.2122 | INFO | Executing ObjectResult, writing value of type 'webapi.net7.sqlsugar.Model.MessageLogin'.
+2024-03-26 21:17:54.2122 | INFO | Executed action webapi.net7.sqlsugar.Controllers.ApiLoginController.PassWordPost (webapi.net7.sqlsugar) in 42.9123ms
+2024-03-26 21:17:54.2122 | INFO | Executed endpoint 'webapi.net7.sqlsugar.Controllers.ApiLoginController.PassWordPost (webapi.net7.sqlsugar)'
+2024-03-26 21:17:54.2122 | INFO | Request finished HTTP/1.1 POST http://127.0.0.1:5149/api/PassWordPost application/json 41 - 200 - application/json;+charset=utf-8 49.0302ms
+2024-03-26 21:17:54.2122 | INFO | Request starting HTTP/1.1 POST http://127.0.0.1:5149/api/U8authorit application/x-www-form-urlencoded 8
+2024-03-26 21:17:54.2122 | INFO | CORS policy execution successful.
+2024-03-26 21:17:54.2212 | INFO | Request finished HTTP/1.1 POST http://127.0.0.1:5149/api/U8authorit application/x-www-form-urlencoded 8 - 404 0 - 1.0639ms
+2024-03-26 21:18:42.2228 | INFO | Request starting HTTP/1.1 OPTIONS http://127.0.0.1:5149/api/PassWordPost - -
+2024-03-26 21:18:42.2228 | INFO | CORS policy execution successful.
+2024-03-26 21:18:42.2228 | INFO | Request finished HTTP/1.1 OPTIONS http://127.0.0.1:5149/api/PassWordPost - - - 204 - - 1.7866ms
+2024-03-26 21:18:42.2228 | INFO | Request starting HTTP/1.1 POST http://127.0.0.1:5149/api/PassWordPost application/json 41
+2024-03-26 21:18:42.2228 | INFO | CORS policy execution successful.
+2024-03-26 21:18:42.2228 | INFO | Executing endpoint 'webapi.net7.sqlsugar.Controllers.ApiLoginController.PassWordPost (webapi.net7.sqlsugar)'
+2024-03-26 21:18:42.2228 | INFO | Route matched with {action = "PassWordPost", controller = "ApiLogin"}. Executing controller action with signature webapi.net7.sqlsugar.Model.MessageLogin PassWordPost(webapi.net7.sqlsugar.User) on controller webapi.net7.sqlsugar.Controllers.ApiLoginController (webapi.net7.sqlsugar).
+2024-03-26 21:18:42.2228 | INFO | Executing action method webapi.net7.sqlsugar.Controllers.ApiLoginController.PassWordPost (webapi.net7.sqlsugar) - Validation state: Valid
+2024-03-26 21:18:42.2609 | INFO | Executed action method webapi.net7.sqlsugar.Controllers.ApiLoginController.PassWordPost (webapi.net7.sqlsugar), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 26.6044ms.
+2024-03-26 21:18:42.2609 | INFO | Executing ObjectResult, writing value of type 'webapi.net7.sqlsugar.Model.MessageLogin'.
+2024-03-26 21:18:42.2609 | INFO | Executed action webapi.net7.sqlsugar.Controllers.ApiLoginController.PassWordPost (webapi.net7.sqlsugar) in 27.4587ms
+2024-03-26 21:18:42.2609 | INFO | Executed endpoint 'webapi.net7.sqlsugar.Controllers.ApiLoginController.PassWordPost (webapi.net7.sqlsugar)'
+2024-03-26 21:18:42.2609 | INFO | Request finished HTTP/1.1 POST http://127.0.0.1:5149/api/PassWordPost application/json 41 - 200 - application/json;+charset=utf-8 32.6451ms
+2024-03-26 21:18:42.2609 | INFO | Request starting HTTP/1.1 OPTIONS http://127.0.0.1:5149/api/U8authorit - -
+2024-03-26 21:18:42.2609 | INFO | CORS policy execution successful.
+2024-03-26 21:18:42.2609 | INFO | Request finished HTTP/1.1 OPTIONS http://127.0.0.1:5149/api/U8authorit - - - 204 - - 0.2923ms
+2024-03-26 21:18:42.2609 | INFO | Request starting HTTP/1.1 POST http://127.0.0.1:5149/api/U8authorit application/json 14
+2024-03-26 21:18:42.2609 | INFO | CORS policy execution successful.
+2024-03-26 21:18:42.2609 | INFO | Request finished HTTP/1.1 POST http://127.0.0.1:5149/api/U8authorit application/json 14 - 404 0 - 0.6455ms
+2024-03-26 21:19:20.5584 | INFO | Request starting HTTP/1.1 OPTIONS http://127.0.0.1:5149/api/PassWordPost - -
+2024-03-26 21:19:20.5648 | INFO | CORS policy execution successful.
+2024-03-26 21:19:20.5648 | INFO | Request finished HTTP/1.1 OPTIONS http://127.0.0.1:5149/api/PassWordPost - - - 204 - - 6.8988ms
+2024-03-26 21:19:20.5648 | INFO | Request starting HTTP/1.1 POST http://127.0.0.1:5149/api/PassWordPost application/json 41
+2024-03-26 21:19:20.5648 | INFO | CORS policy execution successful.
+2024-03-26 21:19:20.5648 | INFO | Executing endpoint 'webapi.net7.sqlsugar.Controllers.ApiLoginController.PassWordPost (webapi.net7.sqlsugar)'
+2024-03-26 21:19:20.5648 | INFO | Route matched with {action = "PassWordPost", controller = "ApiLogin"}. Executing controller action with signature webapi.net7.sqlsugar.Model.MessageLogin PassWordPost(webapi.net7.sqlsugar.User) on controller webapi.net7.sqlsugar.Controllers.ApiLoginController (webapi.net7.sqlsugar).
+2024-03-26 21:19:20.5648 | INFO | Executing action method webapi.net7.sqlsugar.Controllers.ApiLoginController.PassWordPost (webapi.net7.sqlsugar) - Validation state: Valid
+2024-03-26 21:19:20.5965 | INFO | Executed action method webapi.net7.sqlsugar.Controllers.ApiLoginController.PassWordPost (webapi.net7.sqlsugar), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 25.374ms.
+2024-03-26 21:19:20.5965 | INFO | Executing ObjectResult, writing value of type 'webapi.net7.sqlsugar.Model.MessageLogin'.
+2024-03-26 21:19:20.5965 | INFO | Executed action webapi.net7.sqlsugar.Controllers.ApiLoginController.PassWordPost (webapi.net7.sqlsugar) in 26.2291ms
+2024-03-26 21:19:20.5965 | INFO | Executed endpoint 'webapi.net7.sqlsugar.Controllers.ApiLoginController.PassWordPost (webapi.net7.sqlsugar)'
+2024-03-26 21:19:20.5965 | INFO | Request finished HTTP/1.1 POST http://127.0.0.1:5149/api/PassWordPost application/json 41 - 200 - application/json;+charset=utf-8 27.3718ms
+2024-03-26 21:19:20.5965 | INFO | Request starting HTTP/1.1 OPTIONS http://127.0.0.1:5149/api/U8authorit - -
+2024-03-26 21:19:20.5965 | INFO | CORS policy execution successful.
+2024-03-26 21:19:20.5965 | INFO | Request finished HTTP/1.1 OPTIONS http://127.0.0.1:5149/api/U8authorit - - - 204 - - 0.4161ms
+2024-03-26 21:19:20.5965 | INFO | Request starting HTTP/1.1 POST http://127.0.0.1:5149/api/U8authorit application/json 14
+2024-03-26 21:19:20.5965 | INFO | CORS policy execution successful.
+2024-03-26 21:19:20.5965 | INFO | Request finished HTTP/1.1 POST http://127.0.0.1:5149/api/U8authorit application/json 14 - 404 0 - 0.3535ms
+2024-03-26 21:19:24.8204 | INFO | Request starting HTTP/1.1 POST http://127.0.0.1:5149/api/PassWordPost application/json 41
+2024-03-26 21:19:24.8204 | INFO | CORS policy execution successful.
+2024-03-26 21:19:24.8204 | INFO | Executing endpoint 'webapi.net7.sqlsugar.Controllers.ApiLoginController.PassWordPost (webapi.net7.sqlsugar)'
+2024-03-26 21:19:24.8204 | INFO | Route matched with {action = "PassWordPost", controller = "ApiLogin"}. Executing controller action with signature webapi.net7.sqlsugar.Model.MessageLogin PassWordPost(webapi.net7.sqlsugar.User) on controller webapi.net7.sqlsugar.Controllers.ApiLoginController (webapi.net7.sqlsugar).
+2024-03-26 21:19:24.8204 | INFO | Executing action method webapi.net7.sqlsugar.Controllers.ApiLoginController.PassWordPost (webapi.net7.sqlsugar) - Validation state: Valid
+2024-03-26 21:19:24.8484 | INFO | Executed action method webapi.net7.sqlsugar.Controllers.ApiLoginController.PassWordPost (webapi.net7.sqlsugar), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 27.0284ms.
+2024-03-26 21:19:24.8484 | INFO | Executing ObjectResult, writing value of type 'webapi.net7.sqlsugar.Model.MessageLogin'.
+2024-03-26 21:19:24.8484 | INFO | Executed action webapi.net7.sqlsugar.Controllers.ApiLoginController.PassWordPost (webapi.net7.sqlsugar) in 27.7204ms
+2024-03-26 21:19:24.8484 | INFO | Executed endpoint 'webapi.net7.sqlsugar.Controllers.ApiLoginController.PassWordPost (webapi.net7.sqlsugar)'
+2024-03-26 21:19:24.8484 | INFO | Request finished HTTP/1.1 POST http://127.0.0.1:5149/api/PassWordPost application/json 41 - 200 - application/json;+charset=utf-8 28.4408ms
+2024-03-26 21:19:24.8484 | INFO | Request starting HTTP/1.1 POST http://127.0.0.1:5149/api/U8authorit application/json 14
+2024-03-26 21:19:24.8484 | INFO | CORS policy execution successful.
+2024-03-26 21:19:24.8484 | INFO | Request finished HTTP/1.1 POST http://127.0.0.1:5149/api/U8authorit application/json 14 - 404 0 - 0.4411ms
+2024-03-26 21:20:11.4118 | INFO | Request starting HTTP/1.1 OPTIONS http://127.0.0.1:5149/api/PassWordPost - -
+2024-03-26 21:20:11.4118 | INFO | CORS policy execution successful.
+2024-03-26 21:20:11.4118 | INFO | Request finished HTTP/1.1 OPTIONS http://127.0.0.1:5149/api/PassWordPost - - - 204 - - 0.6071ms
+2024-03-26 21:20:11.4118 | INFO | Request starting HTTP/1.1 POST http://127.0.0.1:5149/api/PassWordPost application/json 41
+2024-03-26 21:20:11.4469 | INFO | CORS policy execution successful.
+2024-03-26 21:20:11.4469 | INFO | Executing endpoint 'webapi.net7.sqlsugar.Controllers.ApiLoginController.PassWordPost (webapi.net7.sqlsugar)'
+2024-03-26 21:20:11.4469 | INFO | Route matched with {action = "PassWordPost", controller = "ApiLogin"}. Executing controller action with signature webapi.net7.sqlsugar.Model.MessageLogin PassWordPost(webapi.net7.sqlsugar.User) on controller webapi.net7.sqlsugar.Controllers.ApiLoginController (webapi.net7.sqlsugar).
+2024-03-26 21:20:11.4469 | INFO | Executing action method webapi.net7.sqlsugar.Controllers.ApiLoginController.PassWordPost (webapi.net7.sqlsugar) - Validation state: Valid
+2024-03-26 21:20:11.4736 | INFO | Executed action method webapi.net7.sqlsugar.Controllers.ApiLoginController.PassWordPost (webapi.net7.sqlsugar), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 26.1493ms.
+2024-03-26 21:20:11.4736 | INFO | Executing ObjectResult, writing value of type 'webapi.net7.sqlsugar.Model.MessageLogin'.
+2024-03-26 21:20:11.4736 | INFO | Executed action webapi.net7.sqlsugar.Controllers.ApiLoginController.PassWordPost (webapi.net7.sqlsugar) in 26.8368ms
+2024-03-26 21:20:11.4736 | INFO | Executed endpoint 'webapi.net7.sqlsugar.Controllers.ApiLoginController.PassWordPost (webapi.net7.sqlsugar)'
+2024-03-26 21:20:11.4736 | INFO | Request finished HTTP/1.1 POST http://127.0.0.1:5149/api/PassWordPost application/json 41 - 200 - application/json;+charset=utf-8 60.1737ms
+2024-03-26 21:20:11.4736 | INFO | Request starting HTTP/1.1 OPTIONS http://127.0.0.1:5149/api/U8authorit - -
+2024-03-26 21:20:11.4736 | INFO | CORS policy execution successful.
+2024-03-26 21:20:11.4736 | INFO | Request finished HTTP/1.1 OPTIONS http://127.0.0.1:5149/api/U8authorit - - - 204 - - 0.4212ms
+2024-03-26 21:20:11.4736 | INFO | Request starting HTTP/1.1 POST http://127.0.0.1:5149/api/U8authorit application/json 14
+2024-03-26 21:20:11.4736 | INFO | CORS policy execution successful.
+2024-03-26 21:20:11.4736 | INFO | Request finished HTTP/1.1 POST http://127.0.0.1:5149/api/U8authorit application/json 14 - 404 0 - 0.3055ms
+2024-03-26 21:20:21.5128 | INFO | Request starting HTTP/1.1 POST http://localhost:5149/api/U8authority application/json 19
+2024-03-26 21:20:21.5128 | INFO | CORS policy execution successful.
+2024-03-26 21:20:21.5128 | INFO | Executing endpoint 'webapi.net7.sqlsugar.Controllers.ApiLoginController.U8authority (webapi.net7.sqlsugar)'
+2024-03-26 21:20:21.5128 | INFO | Route matched with {action = "U8authority", controller = "ApiLogin"}. Executing controller action with signature System.Object U8authority(webapi.net7.sqlsugar.Model.Authority) on controller webapi.net7.sqlsugar.Controllers.ApiLoginController (webapi.net7.sqlsugar).
+2024-03-26 21:20:21.5128 | INFO | Executing action method webapi.net7.sqlsugar.Controllers.ApiLoginController.U8authority (webapi.net7.sqlsugar) - Validation state: Valid
+2024-03-26 21:20:21.5411 | INFO | Executed action method webapi.net7.sqlsugar.Controllers.ApiLoginController.U8authority (webapi.net7.sqlsugar), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 27.525ms.
+2024-03-26 21:20:21.5411 | INFO | Executing ObjectResult, writing value of type '<>f__AnonymousType0`3[[System.Int32, System.Private.CoreLib, Version=7.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=7.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Boolean, System.Private.CoreLib, Version=7.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2024-03-26 21:20:21.5411 | INFO | Executed action webapi.net7.sqlsugar.Controllers.ApiLoginController.U8authority (webapi.net7.sqlsugar) in 28.1838ms
+2024-03-26 21:20:21.5411 | INFO | Executed endpoint 'webapi.net7.sqlsugar.Controllers.ApiLoginController.U8authority (webapi.net7.sqlsugar)'
+2024-03-26 21:20:21.5411 | INFO | Request finished HTTP/1.1 POST http://localhost:5149/api/U8authority application/json 19 - 200 - application/json;+charset=utf-8 28.7013ms
+2024-03-26 21:20:49.1533 | INFO | Request starting HTTP/1.1 OPTIONS http://127.0.0.1:5149/api/PassWordPost - -
+2024-03-26 21:20:49.1533 | INFO | CORS policy execution successful.
+2024-03-26 21:20:49.1596 | INFO | Request finished HTTP/1.1 OPTIONS http://127.0.0.1:5149/api/PassWordPost - - - 204 - - 6.5076ms
+2024-03-26 21:20:49.1596 | INFO | Request starting HTTP/1.1 POST http://127.0.0.1:5149/api/PassWordPost application/json 41
+2024-03-26 21:20:49.1596 | INFO | CORS policy execution successful.
+2024-03-26 21:20:49.1596 | INFO | Executing endpoint 'webapi.net7.sqlsugar.Controllers.ApiLoginController.PassWordPost (webapi.net7.sqlsugar)'
+2024-03-26 21:20:49.1596 | INFO | Route matched with {action = "PassWordPost", controller = "ApiLogin"}. Executing controller action with signature webapi.net7.sqlsugar.Model.MessageLogin PassWordPost(webapi.net7.sqlsugar.User) on controller webapi.net7.sqlsugar.Controllers.ApiLoginController (webapi.net7.sqlsugar).
+2024-03-26 21:20:49.1596 | INFO | Executing action method webapi.net7.sqlsugar.Controllers.ApiLoginController.PassWordPost (webapi.net7.sqlsugar) - Validation state: Valid
+2024-03-26 21:20:49.1900 | INFO | Executed action method webapi.net7.sqlsugar.Controllers.ApiLoginController.PassWordPost (webapi.net7.sqlsugar), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 26.9857ms.
+2024-03-26 21:20:49.1900 | INFO | Executing ObjectResult, writing value of type 'webapi.net7.sqlsugar.Model.MessageLogin'.
+2024-03-26 21:20:49.1900 | INFO | Executed action webapi.net7.sqlsugar.Controllers.ApiLoginController.PassWordPost (webapi.net7.sqlsugar) in 27.9737ms
+2024-03-26 21:20:49.1900 | INFO | Executed endpoint 'webapi.net7.sqlsugar.Controllers.ApiLoginController.PassWordPost (webapi.net7.sqlsugar)'
+2024-03-26 21:20:49.1900 | INFO | Request finished HTTP/1.1 POST http://127.0.0.1:5149/api/PassWordPost application/json 41 - 200 - application/json;+charset=utf-8 28.7436ms
+2024-03-26 21:20:49.1900 | INFO | Request starting HTTP/1.1 OPTIONS http://127.0.0.1:5149/api/U8authority - -
+2024-03-26 21:20:49.1900 | INFO | CORS policy execution successful.
+2024-03-26 21:20:49.1900 | INFO | Request finished HTTP/1.1 OPTIONS http://127.0.0.1:5149/api/U8authority - - - 204 - - 0.4320ms
+2024-03-26 21:20:49.1900 | INFO | Request starting HTTP/1.1 POST http://127.0.0.1:5149/api/U8authority application/json 14
+2024-03-26 21:20:49.1900 | INFO | CORS policy execution successful.
+2024-03-26 21:20:49.1900 | INFO | Executing endpoint 'webapi.net7.sqlsugar.Controllers.ApiLoginController.U8authority (webapi.net7.sqlsugar)'
+2024-03-26 21:20:49.1900 | INFO | Route matched with {action = "U8authority", controller = "ApiLogin"}. Executing controller action with signature System.Object U8authority(webapi.net7.sqlsugar.Model.Authority) on controller webapi.net7.sqlsugar.Controllers.ApiLoginController (webapi.net7.sqlsugar).
+2024-03-26 21:20:49.1900 | INFO | Executing action method webapi.net7.sqlsugar.Controllers.ApiLoginController.U8authority (webapi.net7.sqlsugar) - Validation state: Valid
+2024-03-26 21:20:49.2252 | INFO | Executed action method webapi.net7.sqlsugar.Controllers.ApiLoginController.U8authority (webapi.net7.sqlsugar), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 27.6437ms.
+2024-03-26 21:20:49.2252 | INFO | Executing ObjectResult, writing value of type '<>f__AnonymousType0`3[[System.Int32, System.Private.CoreLib, Version=7.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=7.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Boolean, System.Private.CoreLib, Version=7.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2024-03-26 21:20:49.2252 | INFO | Executed action webapi.net7.sqlsugar.Controllers.ApiLoginController.U8authority (webapi.net7.sqlsugar) in 28.7789ms
+2024-03-26 21:20:49.2252 | INFO | Executed endpoint 'webapi.net7.sqlsugar.Controllers.ApiLoginController.U8authority (webapi.net7.sqlsugar)'
+2024-03-26 21:20:49.2252 | INFO | Request finished HTTP/1.1 POST http://127.0.0.1:5149/api/U8authority application/json 14 - 200 - application/json;+charset=utf-8 29.4816ms
+2024-03-26 21:20:53.9770 | INFO | Request starting HTTP/1.1 POST http://127.0.0.1:5149/api/PassWordPost application/json 41
+2024-03-26 21:20:53.9770 | INFO | CORS policy execution successful.
+2024-03-26 21:20:53.9770 | INFO | Executing endpoint 'webapi.net7.sqlsugar.Controllers.ApiLoginController.PassWordPost (webapi.net7.sqlsugar)'
+2024-03-26 21:20:53.9770 | INFO | Route matched with {action = "PassWordPost", controller = "ApiLogin"}. Executing controller action with signature webapi.net7.sqlsugar.Model.MessageLogin PassWordPost(webapi.net7.sqlsugar.User) on controller webapi.net7.sqlsugar.Controllers.ApiLoginController (webapi.net7.sqlsugar).
+2024-03-26 21:20:53.9770 | INFO | Executing action method webapi.net7.sqlsugar.Controllers.ApiLoginController.PassWordPost (webapi.net7.sqlsugar) - Validation state: Valid
+2024-03-26 21:20:54.0043 | INFO | Executed action method webapi.net7.sqlsugar.Controllers.ApiLoginController.PassWordPost (webapi.net7.sqlsugar), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 25.4614ms.
+2024-03-26 21:20:54.0043 | INFO | Executing ObjectResult, writing value of type 'webapi.net7.sqlsugar.Model.MessageLogin'.
+2024-03-26 21:20:54.0043 | INFO | Executed action webapi.net7.sqlsugar.Controllers.ApiLoginController.PassWordPost (webapi.net7.sqlsugar) in 26.6059ms
+2024-03-26 21:20:54.0043 | INFO | Executed endpoint 'webapi.net7.sqlsugar.Controllers.ApiLoginController.PassWordPost (webapi.net7.sqlsugar)'
+2024-03-26 21:20:54.0043 | INFO | Request finished HTTP/1.1 POST http://127.0.0.1:5149/api/PassWordPost application/json 41 - 200 - application/json;+charset=utf-8 27.8032ms
+2024-03-26 21:20:54.0043 | INFO | Request starting HTTP/1.1 POST http://127.0.0.1:5149/api/U8authority application/json 14
+2024-03-26 21:20:54.0043 | INFO | CORS policy execution successful.
+2024-03-26 21:20:54.0043 | INFO | Executing endpoint 'webapi.net7.sqlsugar.Controllers.ApiLoginController.U8authority (webapi.net7.sqlsugar)'
+2024-03-26 21:20:54.0043 | INFO | Route matched with {action = "U8authority", controller = "ApiLogin"}. Executing controller action with signature System.Object U8authority(webapi.net7.sqlsugar.Model.Authority) on controller webapi.net7.sqlsugar.Controllers.ApiLoginController (webapi.net7.sqlsugar).
+2024-03-26 21:20:54.0043 | INFO | Executing action method webapi.net7.sqlsugar.Controllers.ApiLoginController.U8authority (webapi.net7.sqlsugar) - Validation state: Valid
+2024-03-26 21:20:54.0374 | INFO | Executed action method webapi.net7.sqlsugar.Controllers.ApiLoginController.U8authority (webapi.net7.sqlsugar), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 26.0253ms.
+2024-03-26 21:20:54.0374 | INFO | Executing ObjectResult, writing value of type '<>f__AnonymousType0`3[[System.Int32, System.Private.CoreLib, Version=7.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=7.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Boolean, System.Private.CoreLib, Version=7.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2024-03-26 21:20:54.0374 | INFO | Executed action webapi.net7.sqlsugar.Controllers.ApiLoginController.U8authority (webapi.net7.sqlsugar) in 26.9188ms
+2024-03-26 21:20:54.0374 | INFO | Executed endpoint 'webapi.net7.sqlsugar.Controllers.ApiLoginController.U8authority (webapi.net7.sqlsugar)'
+2024-03-26 21:20:54.0374 | INFO | Request finished HTTP/1.1 POST http://127.0.0.1:5149/api/U8authority application/json 14 - 200 - application/json;+charset=utf-8 27.5023ms
+2024-03-26 21:23:53.6717 | INFO | Request starting HTTP/1.1 POST http://127.0.0.1:5149/api/person application/x-www-form-urlencoded 4
+2024-03-26 21:23:53.6759 | INFO | CORS policy execution successful.
+2024-03-26 21:23:53.6759 | INFO | Request finished HTTP/1.1 POST http://127.0.0.1:5149/api/person application/x-www-form-urlencoded 4 - 404 0 - 5.1893ms
+2024-03-26 21:27:33.6658 | INFO | Request starting HTTP/1.1 POST http://localhost:5149/api/ProductionBarcode?code=1232323 - 0
+2024-03-26 21:27:33.6658 | INFO | CORS policy execution successful.
+2024-03-26 21:27:33.6658 | INFO | Executing endpoint 'webapi.net7.sqlsugar.Controllers.WorkShopController.ProductionBarcode (webapi.net7.sqlsugar)'
+2024-03-26 21:27:33.6658 | INFO | Route matched with {action = "ProductionBarcode", controller = "WorkShop"}. Executing controller action with signature System.Object ProductionBarcode(System.String) on controller webapi.net7.sqlsugar.Controllers.WorkShopController (webapi.net7.sqlsugar).
+2024-03-26 21:27:33.8178 | INFO | Executing action method webapi.net7.sqlsugar.Controllers.WorkShopController.ProductionBarcode (webapi.net7.sqlsugar) - Validation state: Valid
+2024-03-26 21:27:44.2081 | INFO | Executed action method webapi.net7.sqlsugar.Controllers.WorkShopController.ProductionBarcode (webapi.net7.sqlsugar), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 10388.5631ms.
+2024-03-26 21:27:44.2081 | INFO | Executing ObjectResult, writing value of type '<>f__AnonymousType6`4[[System.String, System.Private.CoreLib, Version=7.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=7.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=7.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Boolean, System.Private.CoreLib, Version=7.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2024-03-26 21:27:44.2081 | INFO | Executed action webapi.net7.sqlsugar.Controllers.WorkShopController.ProductionBarcode (webapi.net7.sqlsugar) in 10538.8114ms
+2024-03-26 21:27:44.2081 | INFO | Executed endpoint 'webapi.net7.sqlsugar.Controllers.WorkShopController.ProductionBarcode (webapi.net7.sqlsugar)'
+2024-03-26 21:27:44.2081 | INFO | Request finished HTTP/1.1 POST http://localhost:5149/api/ProductionBarcode?code=1232323 - 0 - 200 - application/json;+charset=utf-8 10544.5206ms
+2024-03-26 21:30:47.2133 | INFO | User profile is available. Using 'C:\Users\Administrator\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-03-26 21:30:47.3657 | INFO | Now listening on: http://localhost:5149
+2024-03-26 21:30:47.3657 | INFO | Application started. Press Ctrl+C to shut down.
+2024-03-26 21:30:47.3657 | INFO | Hosting environment: Development
+2024-03-26 21:30:47.3657 | INFO | Content root path: D:\BaiduSyncdisk\webapi.net7+sqlsugar\webapi.net7.sqlsugar\webapi.net7.sqlsugar
+2024-03-26 21:30:47.6976 | INFO | Request starting HTTP/1.1 GET http://localhost:5149/swagger/index.html - -
+2024-03-26 21:30:47.9668 | INFO | Request finished HTTP/1.1 GET http://localhost:5149/swagger/index.html - - - 200 - text/html;charset=utf-8 272.8238ms
+2024-03-26 21:30:47.9668 | INFO | Request starting HTTP/1.1 GET http://localhost:5149/_vs/browserLink - -
+2024-03-26 21:30:47.9720 | INFO | Request starting HTTP/1.1 GET http://localhost:5149/_framework/aspnetcore-browser-refresh.js - -
+2024-03-26 21:30:47.9720 | INFO | Request finished HTTP/1.1 GET http://localhost:5149/_framework/aspnetcore-browser-refresh.js - - - 200 13776 application/javascript;+charset=utf-8 2.4852ms
+2024-03-26 21:30:48.0092 | INFO | Request finished HTTP/1.1 GET http://localhost:5149/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 39.2727ms
+2024-03-26 21:30:48.0346 | INFO | Request starting HTTP/1.1 GET http://localhost:5149/swagger/东泽房源管理接口/swagger.json - -
+2024-03-26 21:30:48.2641 | INFO | Request finished HTTP/1.1 GET http://localhost:5149/swagger/东泽房源管理接口/swagger.json - - - 200 - application/json;charset=utf-8 229.7515ms
+2024-03-26 21:30:54.1429 | INFO | Request starting HTTP/1.1 GET http://localhost:5149/swagger/U8移动端接口/swagger.json - -
+2024-03-26 21:30:54.2040 | INFO | Request finished HTTP/1.1 GET http://localhost:5149/swagger/U8移动端接口/swagger.json - - - 200 - application/json;charset=utf-8 61.3815ms
+2024-03-26 21:31:01.8015 | INFO | Request starting HTTP/1.1 POST http://localhost:5149/api/ProductionBarcode?code=123232 - 0
+2024-03-26 21:31:01.8207 | WARN | Failed to determine the https port for redirect.
+2024-03-26 21:31:01.8842 | INFO | CORS policy execution successful.
+2024-03-26 21:31:01.8842 | INFO | Executing endpoint 'webapi.net7.sqlsugar.Controllers.WorkShopController.ProductionBarcode (webapi.net7.sqlsugar)'
+2024-03-26 21:31:01.9143 | INFO | Route matched with {action = "ProductionBarcode", controller = "WorkShop"}. Executing controller action with signature System.Object ProductionBarcode(System.String) on controller webapi.net7.sqlsugar.Controllers.WorkShopController (webapi.net7.sqlsugar).
+2024-03-26 21:31:02.1607 | INFO | Executing action method webapi.net7.sqlsugar.Controllers.WorkShopController.ProductionBarcode (webapi.net7.sqlsugar) - Validation state: Valid
+2024-03-26 21:31:03.0435 | INFO | Executed action method webapi.net7.sqlsugar.Controllers.WorkShopController.ProductionBarcode (webapi.net7.sqlsugar), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 877.2861ms.
+2024-03-26 21:31:03.0490 | INFO | Executing ObjectResult, writing value of type 'System.Collections.Generic.List`1[[webapi.net7.sqlsugar.ua_account_v, webapi.net7.sqlsugar, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-03-26 21:31:03.0490 | INFO | Executed action webapi.net7.sqlsugar.Controllers.WorkShopController.ProductionBarcode (webapi.net7.sqlsugar) in 1141.7928ms
+2024-03-26 21:31:03.0490 | INFO | Executed endpoint 'webapi.net7.sqlsugar.Controllers.WorkShopController.ProductionBarcode (webapi.net7.sqlsugar)'
+2024-03-26 21:31:03.0490 | INFO | Request finished HTTP/1.1 POST http://localhost:5149/api/ProductionBarcode?code=123232 - 0 - 200 - application/json;+charset=utf-8 1260.8930ms
+2024-03-26 21:32:18.6222 | INFO | User profile is available. Using 'C:\Users\Administrator\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-03-26 21:32:18.7700 | INFO | Now listening on: http://localhost:5149
+2024-03-26 21:32:18.7700 | INFO | Application started. Press Ctrl+C to shut down.
+2024-03-26 21:32:18.7700 | INFO | Hosting environment: Development
+2024-03-26 21:32:18.7700 | INFO | Content root path: D:\BaiduSyncdisk\webapi.net7+sqlsugar\webapi.net7.sqlsugar\webapi.net7.sqlsugar
+2024-03-26 21:32:19.0213 | INFO | Request starting HTTP/1.1 GET http://localhost:5149/swagger/index.html - -
+2024-03-26 21:32:19.2746 | INFO | Request finished HTTP/1.1 GET http://localhost:5149/swagger/index.html - - - 200 - text/html;charset=utf-8 259.5809ms
+2024-03-26 21:32:19.2746 | INFO | Request starting HTTP/1.1 GET http://localhost:5149/_framework/aspnetcore-browser-refresh.js - -
+2024-03-26 21:32:19.2746 | INFO | Request starting HTTP/1.1 GET http://localhost:5149/_vs/browserLink - -
+2024-03-26 21:32:19.2836 | INFO | Request finished HTTP/1.1 GET http://localhost:5149/_framework/aspnetcore-browser-refresh.js - - - 200 13776 application/javascript;+charset=utf-8 2.9993ms
+2024-03-26 21:32:19.3157 | INFO | Request finished HTTP/1.1 GET http://localhost:5149/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 33.1800ms
+2024-03-26 21:32:19.3459 | INFO | Request starting HTTP/1.1 GET http://localhost:5149/swagger/东泽房源管理接口/swagger.json - -
+2024-03-26 21:32:19.5951 | INFO | Request finished HTTP/1.1 GET http://localhost:5149/swagger/东泽房源管理接口/swagger.json - - - 200 - application/json;charset=utf-8 249.4679ms
+2024-03-26 21:32:21.4417 | INFO | Request starting HTTP/1.1 GET http://localhost:5149/swagger/U8移动端接口/swagger.json - -
+2024-03-26 21:32:21.4799 | INFO | Request finished HTTP/1.1 GET http://localhost:5149/swagger/U8移动端接口/swagger.json - - - 200 - application/json;charset=utf-8 38.3206ms
+2024-03-26 21:32:42.3408 | INFO | Request starting HTTP/1.1 POST http://localhost:5149/api/ProductionBarcode?code=1232323 - 0
+2024-03-26 21:32:42.3637 | WARN | Failed to determine the https port for redirect.
+2024-03-26 21:32:42.4173 | INFO | CORS policy execution successful.
+2024-03-26 21:32:42.4173 | INFO | Executing endpoint 'webapi.net7.sqlsugar.Controllers.WorkShopController.ProductionBarcode (webapi.net7.sqlsugar)'
+2024-03-26 21:32:42.4391 | INFO | Route matched with {action = "ProductionBarcode", controller = "WorkShop"}. Executing controller action with signature System.Object ProductionBarcode(System.String) on controller webapi.net7.sqlsugar.Controllers.WorkShopController (webapi.net7.sqlsugar).
+2024-03-26 21:32:42.6283 | INFO | Executing action method webapi.net7.sqlsugar.Controllers.WorkShopController.ProductionBarcode (webapi.net7.sqlsugar) - Validation state: Valid
+2024-03-26 21:32:43.7097 | INFO | Executed action method webapi.net7.sqlsugar.Controllers.WorkShopController.ProductionBarcode (webapi.net7.sqlsugar), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 1075.929ms.
+2024-03-26 21:32:43.7097 | INFO | Executing ObjectResult, writing value of type '<>f__AnonymousType4`4[[System.String, System.Private.CoreLib, Version=7.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=7.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=7.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Boolean, System.Private.CoreLib, Version=7.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2024-03-26 21:32:43.7273 | INFO | Executed action webapi.net7.sqlsugar.Controllers.WorkShopController.ProductionBarcode (webapi.net7.sqlsugar) in 1287.8231ms
+2024-03-26 21:32:43.7273 | INFO | Executed endpoint 'webapi.net7.sqlsugar.Controllers.WorkShopController.ProductionBarcode (webapi.net7.sqlsugar)'
+2024-03-26 21:32:43.7273 | INFO | Request finished HTTP/1.1 POST http://localhost:5149/api/ProductionBarcode?code=1232323 - 0 - 200 - application/json;+charset=utf-8 1390.8821ms
+2024-03-26 21:33:08.9664 | INFO | Request starting HTTP/1.1 POST http://localhost:5149/api/ProductionBarcode_system?code=1232323 - 0
+2024-03-26 21:33:08.9955 | INFO | CORS policy execution successful.
+2024-03-26 21:33:09.0031 | INFO | Executing endpoint 'webapi.net7.sqlsugar.Controllers.WorkShopController.ProductionBarcode_system (webapi.net7.sqlsugar)'
+2024-03-26 21:33:09.0031 | INFO | Route matched with {action = "ProductionBarcode_system", controller = "WorkShop"}. Executing controller action with signature System.Object ProductionBarcode_system(System.String) on controller webapi.net7.sqlsugar.Controllers.WorkShopController (webapi.net7.sqlsugar).
+2024-03-26 21:33:09.0031 | INFO | Executing action method webapi.net7.sqlsugar.Controllers.WorkShopController.ProductionBarcode_system (webapi.net7.sqlsugar) - Validation state: Valid
+2024-03-26 21:33:09.2030 | INFO | Executed action method webapi.net7.sqlsugar.Controllers.WorkShopController.ProductionBarcode_system (webapi.net7.sqlsugar), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 195.0815ms.
+2024-03-26 21:33:09.2030 | INFO | Executing ObjectResult, writing value of type 'System.Collections.Generic.List`1[[webapi.net7.sqlsugar.ua_account_v, webapi.net7.sqlsugar, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-03-26 21:33:09.2061 | INFO | Executed action webapi.net7.sqlsugar.Controllers.WorkShopController.ProductionBarcode_system (webapi.net7.sqlsugar) in 200.3955ms
+2024-03-26 21:33:09.2061 | INFO | Executed endpoint 'webapi.net7.sqlsugar.Controllers.WorkShopController.ProductionBarcode_system (webapi.net7.sqlsugar)'
+2024-03-26 21:33:09.2061 | INFO | Request finished HTTP/1.1 POST http://localhost:5149/api/ProductionBarcode_system?code=1232323 - 0 - 200 - application/json;+charset=utf-8 240.0779ms
+2024-03-26 21:34:09.4786 | INFO | User profile is available. Using 'C:\Users\Administrator\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-03-26 21:34:09.6220 | INFO | Now listening on: http://localhost:5149
+2024-03-26 21:34:09.6220 | INFO | Application started. Press Ctrl+C to shut down.
+2024-03-26 21:34:09.6220 | INFO | Hosting environment: Development
+2024-03-26 21:34:09.6220 | INFO | Content root path: D:\BaiduSyncdisk\webapi.net7+sqlsugar\webapi.net7.sqlsugar\webapi.net7.sqlsugar
+2024-03-26 21:34:12.7132 | INFO | Request starting HTTP/1.1 GET http://localhost:5149/swagger/index.html - -
+2024-03-26 21:34:12.9771 | INFO | Request finished HTTP/1.1 GET http://localhost:5149/swagger/index.html - - - 200 - text/html;charset=utf-8 266.5894ms
+2024-03-26 21:34:12.9771 | INFO | Request starting HTTP/1.1 GET http://localhost:5149/_vs/browserLink - -
+2024-03-26 21:34:12.9771 | INFO | Request starting HTTP/1.1 GET http://localhost:5149/_framework/aspnetcore-browser-refresh.js - -
+2024-03-26 21:34:12.9771 | INFO | Request finished HTTP/1.1 GET http://localhost:5149/_framework/aspnetcore-browser-refresh.js - - - 200 13776 application/javascript;+charset=utf-8 1.8042ms
+2024-03-26 21:34:13.0282 | INFO | Request finished HTTP/1.1 GET http://localhost:5149/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 47.5679ms
+2024-03-26 21:34:13.0544 | INFO | Request starting HTTP/1.1 GET http://localhost:5149/swagger/东泽房源管理接口/swagger.json - -
+2024-03-26 21:34:13.3164 | INFO | Request finished HTTP/1.1 GET http://localhost:5149/swagger/东泽房源管理接口/swagger.json - - - 200 - application/json;charset=utf-8 262.1663ms
+2024-03-26 21:34:15.1073 | INFO | Request starting HTTP/1.1 GET http://localhost:5149/swagger/U8移动端接口/swagger.json - -
+2024-03-26 21:34:15.1447 | INFO | Request finished HTTP/1.1 GET http://localhost:5149/swagger/U8移动端接口/swagger.json - - - 200 - application/json;charset=utf-8 37.4336ms
+2024-03-26 21:35:57.4130 | INFO | Request starting HTTP/1.1 POST http://localhost:5149/api/ProductionBarcode?code=%7C%7CMO21%7C0000058752%7C2 - 0
+2024-03-26 21:35:57.4337 | WARN | Failed to determine the https port for redirect.
+2024-03-26 21:35:57.4877 | INFO | CORS policy execution successful.
+2024-03-26 21:35:57.4877 | INFO | Executing endpoint 'webapi.net7.sqlsugar.Controllers.WorkShopController.ProductionBarcode (webapi.net7.sqlsugar)'
+2024-03-26 21:35:57.5164 | INFO | Route matched with {action = "ProductionBarcode", controller = "WorkShop"}. Executing controller action with signature System.Object ProductionBarcode(System.String) on controller webapi.net7.sqlsugar.Controllers.WorkShopController (webapi.net7.sqlsugar).
+2024-03-26 21:35:57.6780 | INFO | Executing action method webapi.net7.sqlsugar.Controllers.WorkShopController.ProductionBarcode (webapi.net7.sqlsugar) - Validation state: Valid
+2024-03-26 21:35:58.4762 | INFO | Executed action method webapi.net7.sqlsugar.Controllers.WorkShopController.ProductionBarcode (webapi.net7.sqlsugar), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 784.6833ms.
+2024-03-26 21:35:58.4762 | INFO | Executing ObjectResult, writing value of type '<>f__AnonymousType4`4[[System.String, System.Private.CoreLib, Version=7.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=7.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Collections.Generic.List`1[[webapi.net7.sqlsugar.Model.wlzh_v_Production, webapi.net7.sqlsugar, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=7.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Boolean, System.Private.CoreLib, Version=7.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2024-03-26 21:35:58.5085 | INFO | Executed action webapi.net7.sqlsugar.Controllers.WorkShopController.ProductionBarcode (webapi.net7.sqlsugar) in 991.9403ms
+2024-03-26 21:35:58.5085 | INFO | Executed endpoint 'webapi.net7.sqlsugar.Controllers.WorkShopController.ProductionBarcode (webapi.net7.sqlsugar)'
+2024-03-26 21:35:58.5085 | INFO | Request finished HTTP/1.1 POST http://localhost:5149/api/ProductionBarcode?code=%7C%7CMO21%7C0000058752%7C2 - 0 - 200 - application/json;+charset=utf-8 1101.0344ms

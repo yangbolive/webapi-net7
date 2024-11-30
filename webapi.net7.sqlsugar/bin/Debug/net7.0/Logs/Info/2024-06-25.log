@@ -1,0 +1,324 @@
+2024-06-25 10:15:31.0722 | INFO | User profile is available. Using 'C:\Users\Administrator\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-06-25 10:15:31.3117 | INFO | Now listening on: http://localhost:5149
+2024-06-25 10:15:31.3152 | INFO | Application started. Press Ctrl+C to shut down.
+2024-06-25 10:15:31.3152 | INFO | Hosting environment: Development
+2024-06-25 10:15:31.3152 | INFO | Content root path: D:\BaiduSyncdisk\webapi.net7+sqlsugar\webapi.net7.sqlsugar\webapi.net7.sqlsugar
+2024-06-25 10:15:33.0732 | INFO | Request starting HTTP/1.1 GET http://localhost:5149/swagger - -
+2024-06-25 10:15:33.3188 | INFO | Request finished HTTP/1.1 GET http://localhost:5149/swagger - - - 301 0 - 248.0600ms
+2024-06-25 10:15:33.3188 | INFO | Request starting HTTP/1.1 GET http://localhost:5149/swagger/index.html - -
+2024-06-25 10:15:33.4085 | INFO | Request finished HTTP/1.1 GET http://localhost:5149/swagger/index.html - - - 200 - text/html;charset=utf-8 95.9019ms
+2024-06-25 10:15:33.4085 | INFO | Request starting HTTP/1.1 GET http://localhost:5149/swagger/swagger-ui.css - -
+2024-06-25 10:15:33.4085 | INFO | Request starting HTTP/1.1 GET http://localhost:5149/swagger/swagger-ui-bundle.js - -
+2024-06-25 10:15:33.4085 | INFO | Request starting HTTP/1.1 GET http://localhost:5149/swagger/swagger-ui-standalone-preset.js - -
+2024-06-25 10:15:33.4277 | INFO | Request starting HTTP/1.1 GET http://localhost:5149/_framework/aspnetcore-browser-refresh.js - -
+2024-06-25 10:15:33.4277 | INFO | Request finished HTTP/1.1 GET http://localhost:5149/_framework/aspnetcore-browser-refresh.js - - - 200 13776 application/javascript;+charset=utf-8 5.1929ms
+2024-06-25 10:15:33.4277 | INFO | Request starting HTTP/1.1 GET http://localhost:5149/_vs/browserLink - -
+2024-06-25 10:15:33.4742 | INFO | Sending file. Request path: '/swagger-ui.css'. Physical path: 'N/A'
+2024-06-25 10:15:33.4742 | INFO | Sending file. Request path: '/swagger-ui-standalone-preset.js'. Physical path: 'N/A'
+2024-06-25 10:15:33.4742 | INFO | Request finished HTTP/1.1 GET http://localhost:5149/swagger/swagger-ui.css - - - 200 144929 text/css 56.1093ms
+2024-06-25 10:15:33.4742 | INFO | Request finished HTTP/1.1 GET http://localhost:5149/swagger/swagger-ui-standalone-preset.js - - - 200 312163 text/javascript 54.2934ms
+2024-06-25 10:15:33.4742 | INFO | Sending file. Request path: '/swagger-ui-bundle.js'. Physical path: 'N/A'
+2024-06-25 10:15:33.4742 | INFO | Request finished HTTP/1.1 GET http://localhost:5149/swagger/swagger-ui-bundle.js - - - 200 1061536 text/javascript 56.9434ms
+2024-06-25 10:15:33.5091 | INFO | Request finished HTTP/1.1 GET http://localhost:5149/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 74.7085ms
+2024-06-25 10:15:33.6294 | INFO | Request starting HTTP/1.1 GET http://localhost:5149/swagger/东泽房源管理接口/swagger.json - -
+2024-06-25 10:15:33.6294 | INFO | Request starting HTTP/1.1 GET http://localhost:5149/swagger/favicon-32x32.png - -
+2024-06-25 10:15:33.6294 | INFO | Sending file. Request path: '/favicon-32x32.png'. Physical path: 'N/A'
+2024-06-25 10:15:33.6294 | INFO | Request finished HTTP/1.1 GET http://localhost:5149/swagger/favicon-32x32.png - - - 200 628 image/png 0.9337ms
+2024-06-25 10:15:33.9205 | INFO | Request finished HTTP/1.1 GET http://localhost:5149/swagger/东泽房源管理接口/swagger.json - - - 200 - application/json;charset=utf-8 291.2357ms
+2024-06-25 10:16:05.2115 | INFO | User profile is available. Using 'C:\Users\Administrator\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-06-25 10:16:05.3690 | INFO | Now listening on: http://localhost:5149
+2024-06-25 10:16:05.3690 | INFO | Application started. Press Ctrl+C to shut down.
+2024-06-25 10:16:05.3690 | INFO | Hosting environment: Development
+2024-06-25 10:16:05.3690 | INFO | Content root path: D:\BaiduSyncdisk\webapi.net7+sqlsugar\webapi.net7.sqlsugar\webapi.net7.sqlsugar
+2024-06-25 10:16:06.5655 | INFO | Request starting HTTP/1.1 GET http://localhost:5149/swagger/index.html - -
+2024-06-25 10:16:06.8337 | INFO | Request finished HTTP/1.1 GET http://localhost:5149/swagger/index.html - - - 200 - text/html;charset=utf-8 273.2276ms
+2024-06-25 10:16:06.8511 | INFO | Request starting HTTP/1.1 GET http://localhost:5149/_vs/browserLink - -
+2024-06-25 10:16:06.8511 | INFO | Request starting HTTP/1.1 GET http://localhost:5149/_framework/aspnetcore-browser-refresh.js - -
+2024-06-25 10:16:06.8511 | INFO | Request finished HTTP/1.1 GET http://localhost:5149/_framework/aspnetcore-browser-refresh.js - - - 200 13776 application/javascript;+charset=utf-8 2.6334ms
+2024-06-25 10:16:06.8952 | INFO | Request finished HTTP/1.1 GET http://localhost:5149/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 44.2937ms
+2024-06-25 10:16:07.0403 | INFO | Request starting HTTP/1.1 GET http://localhost:5149/swagger/东泽房源管理接口/swagger.json - -
+2024-06-25 10:16:07.3167 | INFO | Request finished HTTP/1.1 GET http://localhost:5149/swagger/东泽房源管理接口/swagger.json - - - 200 - application/json;charset=utf-8 276.5390ms
+2024-06-25 10:16:11.0184 | INFO | Request starting HTTP/1.1 GET http://localhost:5149/swagger/U8移动端接口/swagger.json - -
+2024-06-25 10:16:11.0412 | INFO | Request finished HTTP/1.1 GET http://localhost:5149/swagger/U8移动端接口/swagger.json - - - 200 - application/json;charset=utf-8 22.3512ms
+2024-06-25 10:25:42.5568 | INFO | Request starting HTTP/1.1 POST http://localhost:5149/api/SubmitApplicationMessage application/json 125
+2024-06-25 10:25:42.5649 | WARN | Failed to determine the https port for redirect.
+2024-06-25 10:25:42.6698 | INFO | CORS policy execution successful.
+2024-06-25 10:25:42.6750 | INFO | Executing endpoint 'webapi.net7.sqlsugar.Controllers.WorkShopController.SubmitApplicationMessage (webapi.net7.sqlsugar)'
+2024-06-25 10:25:42.7003 | INFO | Route matched with {action = "SubmitApplicationMessage", controller = "WorkShop"}. Executing controller action with signature System.Object SubmitApplicationMessage(System.Object) on controller webapi.net7.sqlsugar.Controllers.WorkShopController (webapi.net7.sqlsugar).
+2024-06-25 10:25:42.9394 | INFO | Executing BadRequestObjectResult, writing value of type 'Microsoft.AspNetCore.Mvc.ValidationProblemDetails'.
+2024-06-25 10:25:42.9559 | INFO | Executed action webapi.net7.sqlsugar.Controllers.WorkShopController.SubmitApplicationMessage (webapi.net7.sqlsugar) in 255.1789ms
+2024-06-25 10:25:42.9559 | INFO | Executed endpoint 'webapi.net7.sqlsugar.Controllers.WorkShopController.SubmitApplicationMessage (webapi.net7.sqlsugar)'
+2024-06-25 10:25:42.9559 | INFO | Request finished HTTP/1.1 POST http://localhost:5149/api/SubmitApplicationMessage application/json 125 - 400 - application/problem+json;+charset=utf-8 403.2516ms
+2024-06-25 10:28:24.8366 | INFO | Request starting HTTP/1.1 POST http://localhost:5149/api/SubmitApplicationMessage application/json 155
+2024-06-25 10:28:24.8478 | INFO | CORS policy execution successful.
+2024-06-25 10:28:24.8478 | INFO | Executing endpoint 'webapi.net7.sqlsugar.Controllers.WorkShopController.SubmitApplicationMessage (webapi.net7.sqlsugar)'
+2024-06-25 10:28:24.8478 | INFO | Route matched with {action = "SubmitApplicationMessage", controller = "WorkShop"}. Executing controller action with signature System.Object SubmitApplicationMessage(System.Object) on controller webapi.net7.sqlsugar.Controllers.WorkShopController (webapi.net7.sqlsugar).
+2024-06-25 10:28:24.8622 | INFO | Executing action method webapi.net7.sqlsugar.Controllers.WorkShopController.SubmitApplicationMessage (webapi.net7.sqlsugar) - Validation state: Valid
+2024-06-25 10:28:46.9229 | INFO | Executed action method webapi.net7.sqlsugar.Controllers.WorkShopController.SubmitApplicationMessage (webapi.net7.sqlsugar), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 22052.0181ms.
+2024-06-25 10:28:46.9234 | INFO | Executing ObjectResult, writing value of type 'System.String'.
+2024-06-25 10:28:46.9234 | INFO | Executed action webapi.net7.sqlsugar.Controllers.WorkShopController.SubmitApplicationMessage (webapi.net7.sqlsugar) in 22070.5312ms
+2024-06-25 10:28:46.9234 | INFO | Executed endpoint 'webapi.net7.sqlsugar.Controllers.WorkShopController.SubmitApplicationMessage (webapi.net7.sqlsugar)'
+2024-06-25 10:28:46.9234 | INFO | Request finished HTTP/1.1 POST http://localhost:5149/api/SubmitApplicationMessage application/json 155 - 200 - text/plain;+charset=utf-8 22089.4203ms
+2024-06-25 10:29:49.2602 | INFO | Request starting HTTP/1.1 POST http://localhost:5149/api/SubmitApplicationMessage application/json 155
+2024-06-25 10:29:49.2602 | INFO | CORS policy execution successful.
+2024-06-25 10:29:49.2602 | INFO | Executing endpoint 'webapi.net7.sqlsugar.Controllers.WorkShopController.SubmitApplicationMessage (webapi.net7.sqlsugar)'
+2024-06-25 10:29:49.2602 | INFO | Route matched with {action = "SubmitApplicationMessage", controller = "WorkShop"}. Executing controller action with signature System.Object SubmitApplicationMessage(System.Object) on controller webapi.net7.sqlsugar.Controllers.WorkShopController (webapi.net7.sqlsugar).
+2024-06-25 10:29:49.2602 | INFO | Executing action method webapi.net7.sqlsugar.Controllers.WorkShopController.SubmitApplicationMessage (webapi.net7.sqlsugar) - Validation state: Valid
+2024-06-25 10:30:40.2722 | INFO | User profile is available. Using 'C:\Users\Administrator\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-06-25 10:30:40.4418 | INFO | Now listening on: http://localhost:5149
+2024-06-25 10:30:40.4418 | INFO | Application started. Press Ctrl+C to shut down.
+2024-06-25 10:30:40.4418 | INFO | Hosting environment: Development
+2024-06-25 10:30:40.4418 | INFO | Content root path: D:\BaiduSyncdisk\webapi.net7+sqlsugar\webapi.net7.sqlsugar\webapi.net7.sqlsugar
+2024-06-25 10:30:41.2609 | INFO | Request starting HTTP/1.1 GET http://localhost:5149/swagger/index.html - -
+2024-06-25 10:30:41.5417 | INFO | Request finished HTTP/1.1 GET http://localhost:5149/swagger/index.html - - - 200 - text/html;charset=utf-8 284.4267ms
+2024-06-25 10:30:41.5602 | INFO | Request starting HTTP/1.1 GET http://localhost:5149/_vs/browserLink - -
+2024-06-25 10:30:41.5602 | INFO | Request starting HTTP/1.1 GET http://localhost:5149/_framework/aspnetcore-browser-refresh.js - -
+2024-06-25 10:30:41.5646 | INFO | Request finished HTTP/1.1 GET http://localhost:5149/_framework/aspnetcore-browser-refresh.js - - - 200 13776 application/javascript;+charset=utf-8 2.8631ms
+2024-06-25 10:30:41.6090 | INFO | Request finished HTTP/1.1 GET http://localhost:5149/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 48.9672ms
+2024-06-25 10:30:41.6834 | INFO | Request starting HTTP/1.1 GET http://localhost:5149/swagger/东泽房源管理接口/swagger.json - -
+2024-06-25 10:30:42.0059 | INFO | Request finished HTTP/1.1 GET http://localhost:5149/swagger/东泽房源管理接口/swagger.json - - - 200 - application/json;charset=utf-8 322.7418ms
+2024-06-25 10:31:41.6488 | INFO | Request starting HTTP/1.1 GET http://localhost:5149/swagger/U8移动端接口/swagger.json - -
+2024-06-25 10:31:41.6745 | INFO | Request finished HTTP/1.1 GET http://localhost:5149/swagger/U8移动端接口/swagger.json - - - 200 - application/json;charset=utf-8 24.5664ms
+2024-06-25 10:31:47.6153 | INFO | Request starting HTTP/1.1 POST http://localhost:5149/api/SubmitApplicationMessage application/json 137
+2024-06-25 10:31:47.6328 | WARN | Failed to determine the https port for redirect.
+2024-06-25 10:31:47.6921 | INFO | CORS policy execution successful.
+2024-06-25 10:31:47.6921 | INFO | Executing endpoint 'webapi.net7.sqlsugar.Controllers.WorkShopController.SubmitApplicationMessage (webapi.net7.sqlsugar)'
+2024-06-25 10:31:47.7279 | INFO | Route matched with {action = "SubmitApplicationMessage", controller = "WorkShop"}. Executing controller action with signature System.Object SubmitApplicationMessage(System.Object) on controller webapi.net7.sqlsugar.Controllers.WorkShopController (webapi.net7.sqlsugar).
+2024-06-25 10:31:47.9577 | INFO | Executing action method webapi.net7.sqlsugar.Controllers.WorkShopController.SubmitApplicationMessage (webapi.net7.sqlsugar) - Validation state: Valid
+2024-06-25 10:32:15.3789 | INFO | Executed action method webapi.net7.sqlsugar.Controllers.WorkShopController.SubmitApplicationMessage (webapi.net7.sqlsugar), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 27417.5124ms.
+2024-06-25 10:32:15.3789 | INFO | Executing ObjectResult, writing value of type 'System.String'.
+2024-06-25 10:32:15.3926 | INFO | Executed action webapi.net7.sqlsugar.Controllers.WorkShopController.SubmitApplicationMessage (webapi.net7.sqlsugar) in 27659.5205ms
+2024-06-25 10:32:15.3926 | INFO | Executed endpoint 'webapi.net7.sqlsugar.Controllers.WorkShopController.SubmitApplicationMessage (webapi.net7.sqlsugar)'
+2024-06-25 10:32:15.3926 | INFO | Request finished HTTP/1.1 POST http://localhost:5149/api/SubmitApplicationMessage application/json 137 - 200 - text/plain;+charset=utf-8 27777.7506ms
+2024-06-25 10:32:23.8022 | INFO | Request starting HTTP/1.1 POST http://localhost:5149/api/SubmitApplicationMessage application/json 137
+2024-06-25 10:32:23.8022 | INFO | CORS policy execution successful.
+2024-06-25 10:32:23.8022 | INFO | Executing endpoint 'webapi.net7.sqlsugar.Controllers.WorkShopController.SubmitApplicationMessage (webapi.net7.sqlsugar)'
+2024-06-25 10:32:23.8022 | INFO | Route matched with {action = "SubmitApplicationMessage", controller = "WorkShop"}. Executing controller action with signature System.Object SubmitApplicationMessage(System.Object) on controller webapi.net7.sqlsugar.Controllers.WorkShopController (webapi.net7.sqlsugar).
+2024-06-25 10:32:23.8022 | INFO | Executing action method webapi.net7.sqlsugar.Controllers.WorkShopController.SubmitApplicationMessage (webapi.net7.sqlsugar) - Validation state: Valid
+2024-06-25 10:32:59.9400 | INFO | Executed action method webapi.net7.sqlsugar.Controllers.WorkShopController.SubmitApplicationMessage (webapi.net7.sqlsugar), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 36130.9439ms.
+2024-06-25 10:32:59.9400 | INFO | Executing ObjectResult, writing value of type 'System.String'.
+2024-06-25 10:32:59.9400 | INFO | Executed action webapi.net7.sqlsugar.Controllers.WorkShopController.SubmitApplicationMessage (webapi.net7.sqlsugar) in 36134.8848ms
+2024-06-25 10:32:59.9400 | INFO | Executed endpoint 'webapi.net7.sqlsugar.Controllers.WorkShopController.SubmitApplicationMessage (webapi.net7.sqlsugar)'
+2024-06-25 10:32:59.9400 | INFO | Request finished HTTP/1.1 POST http://localhost:5149/api/SubmitApplicationMessage application/json 137 - 200 - text/plain;+charset=utf-8 36139.1388ms
+2024-06-25 10:35:08.2009 | INFO | Request starting HTTP/1.1 POST http://localhost:5149/api/SubmitApplicationMessage application/json 137
+2024-06-25 10:35:08.2293 | INFO | CORS policy execution successful.
+2024-06-25 10:35:08.2293 | INFO | Executing endpoint 'webapi.net7.sqlsugar.Controllers.WorkShopController.SubmitApplicationMessage (webapi.net7.sqlsugar)'
+2024-06-25 10:35:08.2293 | INFO | Route matched with {action = "SubmitApplicationMessage", controller = "WorkShop"}. Executing controller action with signature System.Object SubmitApplicationMessage(System.Object) on controller webapi.net7.sqlsugar.Controllers.WorkShopController (webapi.net7.sqlsugar).
+2024-06-25 10:35:08.2293 | INFO | Executing action method webapi.net7.sqlsugar.Controllers.WorkShopController.SubmitApplicationMessage (webapi.net7.sqlsugar) - Validation state: Valid
+2024-06-25 10:37:57.8928 | INFO | Executed action method webapi.net7.sqlsugar.Controllers.WorkShopController.SubmitApplicationMessage (webapi.net7.sqlsugar), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 169659.4785ms.
+2024-06-25 10:37:57.8928 | INFO | Executing ObjectResult, writing value of type 'System.String'.
+2024-06-25 10:37:57.8928 | INFO | Executed action webapi.net7.sqlsugar.Controllers.WorkShopController.SubmitApplicationMessage (webapi.net7.sqlsugar) in 169661.4965ms
+2024-06-25 10:37:57.8928 | INFO | Executed endpoint 'webapi.net7.sqlsugar.Controllers.WorkShopController.SubmitApplicationMessage (webapi.net7.sqlsugar)'
+2024-06-25 10:37:57.8928 | INFO | Request finished HTTP/1.1 POST http://localhost:5149/api/SubmitApplicationMessage application/json 137 - 200 - text/plain;+charset=utf-8 169692.6848ms
+2024-06-25 10:39:04.4044 | INFO | Request starting HTTP/1.1 POST http://localhost:5149/api/SubmitApplicationMessage application/json 137
+2024-06-25 10:39:04.4088 | INFO | CORS policy execution successful.
+2024-06-25 10:39:04.4088 | INFO | Executing endpoint 'webapi.net7.sqlsugar.Controllers.WorkShopController.SubmitApplicationMessage (webapi.net7.sqlsugar)'
+2024-06-25 10:39:04.4088 | INFO | Route matched with {action = "SubmitApplicationMessage", controller = "WorkShop"}. Executing controller action with signature System.Object SubmitApplicationMessage(System.Object) on controller webapi.net7.sqlsugar.Controllers.WorkShopController (webapi.net7.sqlsugar).
+2024-06-25 10:39:04.4088 | INFO | Executing action method webapi.net7.sqlsugar.Controllers.WorkShopController.SubmitApplicationMessage (webapi.net7.sqlsugar) - Validation state: Valid
+2024-06-25 10:39:45.8471 | INFO | Executed action method webapi.net7.sqlsugar.Controllers.WorkShopController.SubmitApplicationMessage (webapi.net7.sqlsugar), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 41408.774ms.
+2024-06-25 10:39:45.8471 | INFO | Executing ObjectResult, writing value of type 'System.String'.
+2024-06-25 10:39:45.8471 | INFO | Executed action webapi.net7.sqlsugar.Controllers.WorkShopController.SubmitApplicationMessage (webapi.net7.sqlsugar) in 41437.8086ms
+2024-06-25 10:39:45.8471 | INFO | Executed endpoint 'webapi.net7.sqlsugar.Controllers.WorkShopController.SubmitApplicationMessage (webapi.net7.sqlsugar)'
+2024-06-25 10:39:45.8471 | INFO | Request finished HTTP/1.1 POST http://localhost:5149/api/SubmitApplicationMessage application/json 137 - 200 - text/plain;+charset=utf-8 41443.4731ms
+2024-06-25 10:49:55.0219 | INFO | Request starting HTTP/1.1 POST http://localhost:5149/api/SubmitApplicationMessage application/json 137
+2024-06-25 10:49:55.0219 | INFO | CORS policy execution successful.
+2024-06-25 10:49:55.0219 | INFO | Executing endpoint 'webapi.net7.sqlsugar.Controllers.WorkShopController.SubmitApplicationMessage (webapi.net7.sqlsugar)'
+2024-06-25 10:49:55.0219 | INFO | Route matched with {action = "SubmitApplicationMessage", controller = "WorkShop"}. Executing controller action with signature System.Object SubmitApplicationMessage(System.Object) on controller webapi.net7.sqlsugar.Controllers.WorkShopController (webapi.net7.sqlsugar).
+2024-06-25 10:49:55.0219 | INFO | Executing action method webapi.net7.sqlsugar.Controllers.WorkShopController.SubmitApplicationMessage (webapi.net7.sqlsugar) - Validation state: Valid
+2024-06-25 10:51:10.0122 | INFO | Executed action method webapi.net7.sqlsugar.Controllers.WorkShopController.SubmitApplicationMessage (webapi.net7.sqlsugar), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 74982.6077ms.
+2024-06-25 10:51:10.0122 | INFO | Executing ObjectResult, writing value of type 'System.String'.
+2024-06-25 10:51:10.0122 | INFO | Executed action webapi.net7.sqlsugar.Controllers.WorkShopController.SubmitApplicationMessage (webapi.net7.sqlsugar) in 74985.088ms
+2024-06-25 10:51:10.0122 | INFO | Executed endpoint 'webapi.net7.sqlsugar.Controllers.WorkShopController.SubmitApplicationMessage (webapi.net7.sqlsugar)'
+2024-06-25 10:51:10.0122 | INFO | Request finished HTTP/1.1 POST http://localhost:5149/api/SubmitApplicationMessage application/json 137 - 200 - text/plain;+charset=utf-8 74988.6850ms
+2024-06-25 10:51:12.3906 | INFO | Request starting HTTP/1.1 POST http://localhost:5149/api/SubmitApplicationMessage application/json 137
+2024-06-25 10:51:15.9383 | INFO | CORS policy execution successful.
+2024-06-25 10:51:15.9383 | INFO | Executing endpoint 'webapi.net7.sqlsugar.Controllers.WorkShopController.SubmitApplicationMessage (webapi.net7.sqlsugar)'
+2024-06-25 10:51:15.9383 | INFO | Route matched with {action = "SubmitApplicationMessage", controller = "WorkShop"}. Executing controller action with signature System.Object SubmitApplicationMessage(System.Object) on controller webapi.net7.sqlsugar.Controllers.WorkShopController (webapi.net7.sqlsugar).
+2024-06-25 10:51:24.9087 | INFO | Executing action method webapi.net7.sqlsugar.Controllers.WorkShopController.SubmitApplicationMessage (webapi.net7.sqlsugar) - Validation state: Valid
+2024-06-25 10:52:01.1634 | INFO | Executed action method webapi.net7.sqlsugar.Controllers.WorkShopController.SubmitApplicationMessage (webapi.net7.sqlsugar), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 36253.9985ms.
+2024-06-25 10:52:01.1634 | INFO | Executing ObjectResult, writing value of type 'System.String'.
+2024-06-25 10:52:01.1634 | INFO | Executed action webapi.net7.sqlsugar.Controllers.WorkShopController.SubmitApplicationMessage (webapi.net7.sqlsugar) in 45225.217ms
+2024-06-25 10:52:01.1634 | INFO | Executed endpoint 'webapi.net7.sqlsugar.Controllers.WorkShopController.SubmitApplicationMessage (webapi.net7.sqlsugar)'
+2024-06-25 10:52:01.1634 | INFO | Request finished HTTP/1.1 POST http://localhost:5149/api/SubmitApplicationMessage application/json 137 - 200 - text/plain;+charset=utf-8 48773.4803ms
+2024-06-25 10:52:58.9986 | INFO | User profile is available. Using 'C:\Users\Administrator\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-06-25 10:52:59.1562 | INFO | Now listening on: http://localhost:5149
+2024-06-25 10:52:59.1599 | INFO | Application started. Press Ctrl+C to shut down.
+2024-06-25 10:52:59.1599 | INFO | Hosting environment: Development
+2024-06-25 10:52:59.1599 | INFO | Content root path: D:\BaiduSyncdisk\webapi.net7+sqlsugar\webapi.net7.sqlsugar\webapi.net7.sqlsugar
+2024-06-25 10:52:59.9551 | INFO | Request starting HTTP/1.1 GET http://localhost:5149/swagger/index.html - -
+2024-06-25 10:53:00.2677 | INFO | Request finished HTTP/1.1 GET http://localhost:5149/swagger/index.html - - - 200 - text/html;charset=utf-8 314.6297ms
+2024-06-25 10:53:00.2677 | INFO | Request starting HTTP/1.1 GET http://localhost:5149/_vs/browserLink - -
+2024-06-25 10:53:00.2837 | INFO | Request starting HTTP/1.1 GET http://localhost:5149/_framework/aspnetcore-browser-refresh.js - -
+2024-06-25 10:53:00.2837 | INFO | Request finished HTTP/1.1 GET http://localhost:5149/_framework/aspnetcore-browser-refresh.js - - - 200 13776 application/javascript;+charset=utf-8 3.0831ms
+2024-06-25 10:53:00.3276 | INFO | Request finished HTTP/1.1 GET http://localhost:5149/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 46.0108ms
+2024-06-25 10:53:00.3844 | INFO | Request starting HTTP/1.1 GET http://localhost:5149/swagger/东泽房源管理接口/swagger.json - -
+2024-06-25 10:53:00.7077 | INFO | Request finished HTTP/1.1 GET http://localhost:5149/swagger/东泽房源管理接口/swagger.json - - - 200 - application/json;charset=utf-8 323.5219ms
+2024-06-25 10:53:02.9911 | INFO | Request starting HTTP/1.1 GET http://localhost:5149/swagger/U8移动端接口/swagger.json - -
+2024-06-25 10:53:03.0147 | INFO | Request finished HTTP/1.1 GET http://localhost:5149/swagger/U8移动端接口/swagger.json - - - 200 - application/json;charset=utf-8 22.9797ms
+2024-06-25 10:53:16.5975 | INFO | Request starting HTTP/1.1 POST http://localhost:5149/api/SubmitApplicationMessage application/json 137
+2024-06-25 10:53:16.6167 | WARN | Failed to determine the https port for redirect.
+2024-06-25 10:53:16.6802 | INFO | CORS policy execution successful.
+2024-06-25 10:53:16.6802 | INFO | Executing endpoint 'webapi.net7.sqlsugar.Controllers.WorkShopController.SubmitApplicationMessage (webapi.net7.sqlsugar)'
+2024-06-25 10:53:16.7035 | INFO | Route matched with {action = "SubmitApplicationMessage", controller = "WorkShop"}. Executing controller action with signature System.Object SubmitApplicationMessage(System.Object) on controller webapi.net7.sqlsugar.Controllers.WorkShopController (webapi.net7.sqlsugar).
+2024-06-25 10:53:16.8635 | INFO | Executing action method webapi.net7.sqlsugar.Controllers.WorkShopController.SubmitApplicationMessage (webapi.net7.sqlsugar) - Validation state: Valid
+2024-06-25 10:53:29.2067 | INFO | Executed action webapi.net7.sqlsugar.Controllers.WorkShopController.SubmitApplicationMessage (webapi.net7.sqlsugar) in 12498.8021ms
+2024-06-25 10:53:29.2067 | INFO | Executed endpoint 'webapi.net7.sqlsugar.Controllers.WorkShopController.SubmitApplicationMessage (webapi.net7.sqlsugar)'
+2024-06-25 10:53:29.2277 | ERROR | An unhandled exception has occurred while executing the request.
+2024-06-25 10:53:29.2277 | INFO | Request finished HTTP/1.1 POST http://localhost:5149/api/SubmitApplicationMessage application/json 137 - 500 - text/plain;+charset=utf-8 12633.6919ms
+2024-06-25 10:56:02.5901 | INFO | User profile is available. Using 'C:\Users\Administrator\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-06-25 10:56:02.7613 | INFO | Now listening on: http://localhost:5149
+2024-06-25 10:56:02.7613 | INFO | Application started. Press Ctrl+C to shut down.
+2024-06-25 10:56:02.7613 | INFO | Hosting environment: Development
+2024-06-25 10:56:02.7674 | INFO | Content root path: D:\BaiduSyncdisk\webapi.net7+sqlsugar\webapi.net7.sqlsugar\webapi.net7.sqlsugar
+2024-06-25 10:56:03.8517 | INFO | Request starting HTTP/1.1 GET http://localhost:5149/swagger/index.html - -
+2024-06-25 10:56:04.1429 | INFO | Request finished HTTP/1.1 GET http://localhost:5149/swagger/index.html - - - 200 - text/html;charset=utf-8 291.8285ms
+2024-06-25 10:56:04.1429 | INFO | Request starting HTTP/1.1 GET http://localhost:5149/_vs/browserLink - -
+2024-06-25 10:56:04.1594 | INFO | Request starting HTTP/1.1 GET http://localhost:5149/_framework/aspnetcore-browser-refresh.js - -
+2024-06-25 10:56:04.1594 | INFO | Request finished HTTP/1.1 GET http://localhost:5149/_framework/aspnetcore-browser-refresh.js - - - 200 13776 application/javascript;+charset=utf-8 2.6566ms
+2024-06-25 10:56:04.1990 | INFO | Request finished HTTP/1.1 GET http://localhost:5149/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 41.8100ms
+2024-06-25 10:56:04.2447 | INFO | Request starting HTTP/1.1 GET http://localhost:5149/swagger/东泽房源管理接口/swagger.json - -
+2024-06-25 10:56:04.5333 | INFO | Request finished HTTP/1.1 GET http://localhost:5149/swagger/东泽房源管理接口/swagger.json - - - 200 - application/json;charset=utf-8 288.7519ms
+2024-06-25 10:56:06.7778 | INFO | Request starting HTTP/1.1 GET http://localhost:5149/swagger/U8移动端接口/swagger.json - -
+2024-06-25 10:56:06.8038 | INFO | Request finished HTTP/1.1 GET http://localhost:5149/swagger/U8移动端接口/swagger.json - - - 200 - application/json;charset=utf-8 25.8612ms
+2024-06-25 10:56:17.4422 | INFO | Request starting HTTP/1.1 POST http://localhost:5149/api/SubmitApplicationMessage application/json 137
+2024-06-25 10:56:17.4617 | WARN | Failed to determine the https port for redirect.
+2024-06-25 10:56:17.5186 | INFO | CORS policy execution successful.
+2024-06-25 10:56:17.5186 | INFO | Executing endpoint 'webapi.net7.sqlsugar.Controllers.WorkShopController.SubmitApplicationMessage (webapi.net7.sqlsugar)'
+2024-06-25 10:56:17.5442 | INFO | Route matched with {action = "SubmitApplicationMessage", controller = "WorkShop"}. Executing controller action with signature System.Object SubmitApplicationMessage(System.Object) on controller webapi.net7.sqlsugar.Controllers.WorkShopController (webapi.net7.sqlsugar).
+2024-06-25 10:56:17.7048 | INFO | Executing action method webapi.net7.sqlsugar.Controllers.WorkShopController.SubmitApplicationMessage (webapi.net7.sqlsugar) - Validation state: Valid
+2024-06-25 10:57:00.8318 | INFO | Executed action method webapi.net7.sqlsugar.Controllers.WorkShopController.SubmitApplicationMessage (webapi.net7.sqlsugar), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 43116.3526ms.
+2024-06-25 10:57:00.8318 | INFO | Executing ObjectResult, writing value of type 'System.String'.
+2024-06-25 10:57:00.8318 | INFO | Executed action webapi.net7.sqlsugar.Controllers.WorkShopController.SubmitApplicationMessage (webapi.net7.sqlsugar) in 43293.8268ms
+2024-06-25 10:57:00.8318 | INFO | Executed endpoint 'webapi.net7.sqlsugar.Controllers.WorkShopController.SubmitApplicationMessage (webapi.net7.sqlsugar)'
+2024-06-25 10:57:00.8318 | INFO | Request finished HTTP/1.1 POST http://localhost:5149/api/SubmitApplicationMessage application/json 137 - 200 - text/plain;+charset=utf-8 43399.7597ms
+2024-06-25 10:57:35.2070 | INFO | Request starting HTTP/1.1 GET http://localhost:5149/swagger/index.html?urls.primaryName=%E3%80%90U8%E7%A7%BB%E5%8A%A8%E7%AB%AF%E6%8E%A5%E5%8F%A3%E3%80%91%E6%8E%A5%E5%8F%A3 - -
+2024-06-25 10:57:35.2070 | INFO | Request finished HTTP/1.1 GET http://localhost:5149/swagger/index.html?urls.primaryName=%E3%80%90U8%E7%A7%BB%E5%8A%A8%E7%AB%AF%E6%8E%A5%E5%8F%A3%E3%80%91%E6%8E%A5%E5%8F%A3 - - - 200 - text/html;charset=utf-8 11.2575ms
+2024-06-25 10:57:35.2340 | INFO | Request starting HTTP/1.1 GET http://localhost:5149/_framework/aspnetcore-browser-refresh.js - -
+2024-06-25 10:57:35.2340 | INFO | Request finished HTTP/1.1 GET http://localhost:5149/_framework/aspnetcore-browser-refresh.js - - - 200 13776 application/javascript;+charset=utf-8 0.3330ms
+2024-06-25 10:57:35.2439 | INFO | Request starting HTTP/1.1 GET http://localhost:5149/_vs/browserLink - -
+2024-06-25 10:57:35.2619 | INFO | Request finished HTTP/1.1 GET http://localhost:5149/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 18.0588ms
+2024-06-25 10:57:35.3949 | INFO | Request starting HTTP/1.1 GET http://localhost:5149/swagger/U8移动端接口/swagger.json - -
+2024-06-25 10:57:40.8771 | INFO | Request finished HTTP/1.1 GET http://localhost:5149/swagger/U8移动端接口/swagger.json - - - 200 - application/json;charset=utf-8 5482.3468ms
+2024-06-25 10:57:51.9506 | INFO | Request starting HTTP/1.1 POST http://localhost:5149/api/SubmitApplicationMessage application/json 137
+2024-06-25 10:57:51.9506 | INFO | CORS policy execution successful.
+2024-06-25 10:57:51.9506 | INFO | Executing endpoint 'webapi.net7.sqlsugar.Controllers.WorkShopController.SubmitApplicationMessage (webapi.net7.sqlsugar)'
+2024-06-25 10:57:51.9560 | INFO | Route matched with {action = "SubmitApplicationMessage", controller = "WorkShop"}. Executing controller action with signature System.Object SubmitApplicationMessage(System.Object) on controller webapi.net7.sqlsugar.Controllers.WorkShopController (webapi.net7.sqlsugar).
+2024-06-25 10:57:51.9560 | INFO | Executing action method webapi.net7.sqlsugar.Controllers.WorkShopController.SubmitApplicationMessage (webapi.net7.sqlsugar) - Validation state: Valid
+2024-06-25 10:58:03.5970 | INFO | Executed action webapi.net7.sqlsugar.Controllers.WorkShopController.SubmitApplicationMessage (webapi.net7.sqlsugar) in 11640.7331ms
+2024-06-25 10:58:03.5970 | INFO | Executed endpoint 'webapi.net7.sqlsugar.Controllers.WorkShopController.SubmitApplicationMessage (webapi.net7.sqlsugar)'
+2024-06-25 10:58:03.5970 | ERROR | An unhandled exception has occurred while executing the request.
+2024-06-25 10:58:03.6133 | INFO | Request finished HTTP/1.1 POST http://localhost:5149/api/SubmitApplicationMessage application/json 137 - 500 - text/plain;+charset=utf-8 11662.8479ms
+2024-06-25 10:59:23.5747 | INFO | User profile is available. Using 'C:\Users\Administrator\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-06-25 10:59:23.7540 | INFO | Now listening on: http://localhost:5149
+2024-06-25 10:59:23.7540 | INFO | Application started. Press Ctrl+C to shut down.
+2024-06-25 10:59:23.7540 | INFO | Hosting environment: Development
+2024-06-25 10:59:23.7540 | INFO | Content root path: D:\BaiduSyncdisk\webapi.net7+sqlsugar\webapi.net7.sqlsugar\webapi.net7.sqlsugar
+2024-06-25 10:59:24.8827 | INFO | Request starting HTTP/1.1 GET http://localhost:5149/swagger/index.html - -
+2024-06-25 10:59:25.1597 | INFO | Request finished HTTP/1.1 GET http://localhost:5149/swagger/index.html - - - 200 - text/html;charset=utf-8 281.4050ms
+2024-06-25 10:59:25.1789 | INFO | Request starting HTTP/1.1 GET http://localhost:5149/_vs/browserLink - -
+2024-06-25 10:59:25.1789 | INFO | Request starting HTTP/1.1 GET http://localhost:5149/_framework/aspnetcore-browser-refresh.js - -
+2024-06-25 10:59:25.1789 | INFO | Request finished HTTP/1.1 GET http://localhost:5149/_framework/aspnetcore-browser-refresh.js - - - 200 13776 application/javascript;+charset=utf-8 2.7280ms
+2024-06-25 10:59:25.2329 | INFO | Request finished HTTP/1.1 GET http://localhost:5149/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 54.1557ms
+2024-06-25 10:59:25.2821 | INFO | Request starting HTTP/1.1 GET http://localhost:5149/swagger/东泽房源管理接口/swagger.json - -
+2024-06-25 10:59:25.5873 | INFO | Request finished HTTP/1.1 GET http://localhost:5149/swagger/东泽房源管理接口/swagger.json - - - 200 - application/json;charset=utf-8 305.3115ms
+2024-06-25 10:59:41.8551 | INFO | Request starting HTTP/1.1 GET http://localhost:5149/swagger/index.html - -
+2024-06-25 10:59:41.8651 | INFO | Request finished HTTP/1.1 GET http://localhost:5149/swagger/index.html - - - 200 - text/html;charset=utf-8 10.4602ms
+2024-06-25 10:59:41.8849 | INFO | Request starting HTTP/1.1 GET http://localhost:5149/_framework/aspnetcore-browser-refresh.js - -
+2024-06-25 10:59:41.8849 | INFO | Request finished HTTP/1.1 GET http://localhost:5149/_framework/aspnetcore-browser-refresh.js - - - 200 13776 application/javascript;+charset=utf-8 0.6808ms
+2024-06-25 10:59:41.8938 | INFO | Request starting HTTP/1.1 GET http://localhost:5149/_vs/browserLink - -
+2024-06-25 10:59:41.8938 | INFO | Request finished HTTP/1.1 GET http://localhost:5149/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 13.8790ms
+2024-06-25 10:59:41.9721 | INFO | Request starting HTTP/1.1 GET http://localhost:5149/swagger/东泽房源管理接口/swagger.json - -
+2024-06-25 10:59:42.0071 | INFO | Request finished HTTP/1.1 GET http://localhost:5149/swagger/东泽房源管理接口/swagger.json - - - 200 - application/json;charset=utf-8 35.0836ms
+2024-06-25 10:59:45.3718 | INFO | Request starting HTTP/1.1 GET http://localhost:5149/swagger/U8移动端接口/swagger.json - -
+2024-06-25 10:59:45.3925 | INFO | Request finished HTTP/1.1 GET http://localhost:5149/swagger/U8移动端接口/swagger.json - - - 200 - application/json;charset=utf-8 19.9833ms
+2024-06-25 10:59:53.5020 | INFO | Request starting HTTP/1.1 POST http://localhost:5149/api/SubmitApplicationMessage application/json 137
+2024-06-25 10:59:53.5191 | WARN | Failed to determine the https port for redirect.
+2024-06-25 10:59:53.5652 | INFO | CORS policy execution successful.
+2024-06-25 10:59:53.5652 | INFO | Executing endpoint 'webapi.net7.sqlsugar.Controllers.WorkShopController.SubmitApplicationMessage (webapi.net7.sqlsugar)'
+2024-06-25 10:59:53.5863 | INFO | Route matched with {action = "SubmitApplicationMessage", controller = "WorkShop"}. Executing controller action with signature System.Object SubmitApplicationMessage(System.Object) on controller webapi.net7.sqlsugar.Controllers.WorkShopController (webapi.net7.sqlsugar).
+2024-06-25 10:59:53.7577 | INFO | Executing action method webapi.net7.sqlsugar.Controllers.WorkShopController.SubmitApplicationMessage (webapi.net7.sqlsugar) - Validation state: Valid
+2024-06-25 11:00:05.4674 | INFO | Executed action method webapi.net7.sqlsugar.Controllers.WorkShopController.SubmitApplicationMessage (webapi.net7.sqlsugar), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 11696.7009ms.
+2024-06-25 11:00:05.4715 | INFO | Executing ObjectResult, writing value of type 'System.String'.
+2024-06-25 11:00:05.4715 | INFO | Executed action webapi.net7.sqlsugar.Controllers.WorkShopController.SubmitApplicationMessage (webapi.net7.sqlsugar) in 11888.8541ms
+2024-06-25 11:00:05.4715 | INFO | Executed endpoint 'webapi.net7.sqlsugar.Controllers.WorkShopController.SubmitApplicationMessage (webapi.net7.sqlsugar)'
+2024-06-25 11:00:05.4715 | INFO | Request finished HTTP/1.1 POST http://localhost:5149/api/SubmitApplicationMessage application/json 137 - 200 - text/plain;+charset=utf-8 11977.7852ms
+2024-06-25 11:01:38.4346 | INFO | User profile is available. Using 'C:\Users\Administrator\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-06-25 11:01:38.5904 | INFO | Now listening on: http://localhost:5149
+2024-06-25 11:01:38.5904 | INFO | Application started. Press Ctrl+C to shut down.
+2024-06-25 11:01:38.5904 | INFO | Hosting environment: Development
+2024-06-25 11:01:38.5968 | INFO | Content root path: D:\BaiduSyncdisk\webapi.net7+sqlsugar\webapi.net7.sqlsugar\webapi.net7.sqlsugar
+2024-06-25 11:01:39.7826 | INFO | Request starting HTTP/1.1 GET http://localhost:5149/swagger/index.html - -
+2024-06-25 11:01:40.0521 | INFO | Request finished HTTP/1.1 GET http://localhost:5149/swagger/index.html - - - 200 - text/html;charset=utf-8 273.9360ms
+2024-06-25 11:01:40.0727 | INFO | Request starting HTTP/1.1 GET http://localhost:5149/_vs/browserLink - -
+2024-06-25 11:01:40.0727 | INFO | Request starting HTTP/1.1 GET http://localhost:5149/_framework/aspnetcore-browser-refresh.js - -
+2024-06-25 11:01:40.0727 | INFO | Request finished HTTP/1.1 GET http://localhost:5149/_framework/aspnetcore-browser-refresh.js - - - 200 13776 application/javascript;+charset=utf-8 2.6794ms
+2024-06-25 11:01:40.1224 | INFO | Request finished HTTP/1.1 GET http://localhost:5149/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 49.8036ms
+2024-06-25 11:01:40.1833 | INFO | Request starting HTTP/1.1 GET http://localhost:5149/swagger/东泽房源管理接口/swagger.json - -
+2024-06-25 11:01:40.5262 | INFO | Request finished HTTP/1.1 GET http://localhost:5149/swagger/东泽房源管理接口/swagger.json - - - 200 - application/json;charset=utf-8 343.0528ms
+2024-06-25 11:01:42.3681 | INFO | Request starting HTTP/1.1 GET http://localhost:5149/swagger/U8移动端接口/swagger.json - -
+2024-06-25 11:01:42.3912 | INFO | Request finished HTTP/1.1 GET http://localhost:5149/swagger/U8移动端接口/swagger.json - - - 200 - application/json;charset=utf-8 23.2511ms
+2024-06-25 11:01:49.7339 | INFO | Request starting HTTP/1.1 POST http://localhost:5149/api/SubmitApplicationMessage application/json 137
+2024-06-25 11:01:49.7375 | WARN | Failed to determine the https port for redirect.
+2024-06-25 11:01:49.8149 | INFO | CORS policy execution successful.
+2024-06-25 11:01:49.8149 | INFO | Executing endpoint 'webapi.net7.sqlsugar.Controllers.WorkShopController.SubmitApplicationMessage (webapi.net7.sqlsugar)'
+2024-06-25 11:01:49.8379 | INFO | Route matched with {action = "SubmitApplicationMessage", controller = "WorkShop"}. Executing controller action with signature System.Object SubmitApplicationMessage(System.Object) on controller webapi.net7.sqlsugar.Controllers.WorkShopController (webapi.net7.sqlsugar).
+2024-06-25 11:01:50.0031 | INFO | Executing action method webapi.net7.sqlsugar.Controllers.WorkShopController.SubmitApplicationMessage (webapi.net7.sqlsugar) - Validation state: Valid
+2024-06-25 11:05:33.8614 | INFO | User profile is available. Using 'C:\Users\Administrator\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-06-25 11:05:34.0218 | INFO | Now listening on: http://localhost:5149
+2024-06-25 11:05:34.0218 | INFO | Application started. Press Ctrl+C to shut down.
+2024-06-25 11:05:34.0218 | INFO | Hosting environment: Development
+2024-06-25 11:05:34.0218 | INFO | Content root path: D:\BaiduSyncdisk\webapi.net7+sqlsugar\webapi.net7.sqlsugar\webapi.net7.sqlsugar
+2024-06-25 11:05:34.7587 | INFO | Request starting HTTP/1.1 GET http://localhost:5149/swagger/index.html - -
+2024-06-25 11:05:35.0435 | INFO | Request finished HTTP/1.1 GET http://localhost:5149/swagger/index.html - - - 200 - text/html;charset=utf-8 289.4413ms
+2024-06-25 11:05:35.0555 | INFO | Request starting HTTP/1.1 GET http://localhost:5149/_framework/aspnetcore-browser-refresh.js - -
+2024-06-25 11:05:35.0555 | INFO | Request starting HTTP/1.1 GET http://localhost:5149/_vs/browserLink - -
+2024-06-25 11:05:35.0555 | INFO | Request finished HTTP/1.1 GET http://localhost:5149/_framework/aspnetcore-browser-refresh.js - - - 200 13776 application/javascript;+charset=utf-8 2.1082ms
+2024-06-25 11:05:35.1008 | INFO | Request finished HTTP/1.1 GET http://localhost:5149/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 44.2712ms
+2024-06-25 11:05:35.1634 | INFO | Request starting HTTP/1.1 GET http://localhost:5149/swagger/东泽房源管理接口/swagger.json - -
+2024-06-25 11:05:35.4383 | INFO | Request finished HTTP/1.1 GET http://localhost:5149/swagger/东泽房源管理接口/swagger.json - - - 200 - application/json;charset=utf-8 275.0208ms
+2024-06-25 11:05:37.5444 | INFO | Request starting HTTP/1.1 GET http://localhost:5149/swagger/U8移动端接口/swagger.json - -
+2024-06-25 11:05:37.5747 | INFO | Request finished HTTP/1.1 GET http://localhost:5149/swagger/U8移动端接口/swagger.json - - - 200 - application/json;charset=utf-8 28.8598ms
+2024-06-25 11:05:49.2205 | INFO | Request starting HTTP/1.1 POST http://localhost:5149/api/SubmitApplicationMessage application/json 137
+2024-06-25 11:05:49.2392 | WARN | Failed to determine the https port for redirect.
+2024-06-25 11:05:49.3003 | INFO | CORS policy execution successful.
+2024-06-25 11:05:49.3003 | INFO | Executing endpoint 'webapi.net7.sqlsugar.Controllers.WorkShopController.SubmitApplicationMessage (webapi.net7.sqlsugar)'
+2024-06-25 11:05:49.3234 | INFO | Route matched with {action = "SubmitApplicationMessage", controller = "WorkShop"}. Executing controller action with signature System.Object SubmitApplicationMessage(System.Object) on controller webapi.net7.sqlsugar.Controllers.WorkShopController (webapi.net7.sqlsugar).
+2024-06-25 11:05:49.4749 | INFO | Executing action method webapi.net7.sqlsugar.Controllers.WorkShopController.SubmitApplicationMessage (webapi.net7.sqlsugar) - Validation state: Valid
+2024-06-25 11:05:58.9107 | INFO | Executed action webapi.net7.sqlsugar.Controllers.WorkShopController.SubmitApplicationMessage (webapi.net7.sqlsugar) in 9584.194ms
+2024-06-25 11:05:58.9107 | INFO | Executed endpoint 'webapi.net7.sqlsugar.Controllers.WorkShopController.SubmitApplicationMessage (webapi.net7.sqlsugar)'
+2024-06-25 11:05:58.9270 | ERROR | An unhandled exception has occurred while executing the request.
+2024-06-25 11:05:58.9270 | INFO | Request finished HTTP/1.1 POST http://localhost:5149/api/SubmitApplicationMessage application/json 137 - 500 - text/plain;+charset=utf-8 9710.1372ms
+2024-06-25 11:07:07.2871 | INFO | Request starting HTTP/1.1 GET http://localhost:5149/swagger/index.html?urls.primaryName=%E3%80%90U8%E7%A7%BB%E5%8A%A8%E7%AB%AF%E6%8E%A5%E5%8F%A3%E3%80%91%E6%8E%A5%E5%8F%A3 - -
+2024-06-25 11:07:07.3024 | INFO | Request finished HTTP/1.1 GET http://localhost:5149/swagger/index.html?urls.primaryName=%E3%80%90U8%E7%A7%BB%E5%8A%A8%E7%AB%AF%E6%8E%A5%E5%8F%A3%E3%80%91%E6%8E%A5%E5%8F%A3 - - - 200 - text/html;charset=utf-8 16.3767ms
+2024-06-25 11:07:07.3179 | INFO | Request starting HTTP/1.1 GET http://localhost:5149/_framework/aspnetcore-browser-refresh.js - -
+2024-06-25 11:07:07.3179 | INFO | Request finished HTTP/1.1 GET http://localhost:5149/_framework/aspnetcore-browser-refresh.js - - - 200 13776 application/javascript;+charset=utf-8 0.4842ms
+2024-06-25 11:07:07.3179 | INFO | Request starting HTTP/1.1 GET http://localhost:5149/_vs/browserLink - -
+2024-06-25 11:07:07.3382 | INFO | Request finished HTTP/1.1 GET http://localhost:5149/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 16.0481ms
+2024-06-25 11:07:07.4262 | INFO | Request starting HTTP/1.1 GET http://localhost:5149/swagger/U8移动端接口/swagger.json - -
+2024-06-25 11:07:07.4412 | INFO | Request finished HTTP/1.1 GET http://localhost:5149/swagger/U8移动端接口/swagger.json - - - 200 - application/json;charset=utf-8 15.1189ms
+2024-06-25 11:07:16.7781 | INFO | Request starting HTTP/1.1 POST http://localhost:5149/api/SubmitApplicationMessage application/json 137
+2024-06-25 11:07:16.7781 | INFO | CORS policy execution successful.
+2024-06-25 11:07:16.7781 | INFO | Executing endpoint 'webapi.net7.sqlsugar.Controllers.WorkShopController.SubmitApplicationMessage (webapi.net7.sqlsugar)'
+2024-06-25 11:07:16.7781 | INFO | Route matched with {action = "SubmitApplicationMessage", controller = "WorkShop"}. Executing controller action with signature System.Object SubmitApplicationMessage(System.Object) on controller webapi.net7.sqlsugar.Controllers.WorkShopController (webapi.net7.sqlsugar).
+2024-06-25 11:07:16.7832 | INFO | Executing action method webapi.net7.sqlsugar.Controllers.WorkShopController.SubmitApplicationMessage (webapi.net7.sqlsugar) - Validation state: Valid
+2024-06-25 11:07:31.6609 | INFO | Executed action method webapi.net7.sqlsugar.Controllers.WorkShopController.SubmitApplicationMessage (webapi.net7.sqlsugar), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 14873.4433ms.
+2024-06-25 11:07:31.6609 | INFO | Executing ObjectResult, writing value of type 'System.String'.
+2024-06-25 11:07:31.6609 | INFO | Executed action webapi.net7.sqlsugar.Controllers.WorkShopController.SubmitApplicationMessage (webapi.net7.sqlsugar) in 14882.7954ms
+2024-06-25 11:07:31.6609 | INFO | Executed endpoint 'webapi.net7.sqlsugar.Controllers.WorkShopController.SubmitApplicationMessage (webapi.net7.sqlsugar)'
+2024-06-25 11:07:31.6609 | INFO | Request finished HTTP/1.1 POST http://localhost:5149/api/SubmitApplicationMessage application/json 137 - 200 - text/plain;+charset=utf-8 14887.0049ms
+2024-06-25 11:09:48.3131 | INFO | Request starting HTTP/1.1 GET http://localhost:5149/swagger/index.html?urls.primaryName=%E3%80%90U8%E7%A7%BB%E5%8A%A8%E7%AB%AF%E6%8E%A5%E5%8F%A3%E3%80%91%E6%8E%A5%E5%8F%A3 - -
+2024-06-25 11:09:48.3171 | INFO | Request finished HTTP/1.1 GET http://localhost:5149/swagger/index.html?urls.primaryName=%E3%80%90U8%E7%A7%BB%E5%8A%A8%E7%AB%AF%E6%8E%A5%E5%8F%A3%E3%80%91%E6%8E%A5%E5%8F%A3 - - - 200 - text/html;charset=utf-8 9.6866ms
+2024-06-25 11:09:48.3473 | INFO | Request starting HTTP/1.1 GET http://localhost:5149/_framework/aspnetcore-browser-refresh.js - -
+2024-06-25 11:09:48.3473 | INFO | Request finished HTTP/1.1 GET http://localhost:5149/_framework/aspnetcore-browser-refresh.js - - - 200 13776 application/javascript;+charset=utf-8 0.3118ms
+2024-06-25 11:09:48.3473 | INFO | Request starting HTTP/1.1 GET http://localhost:5149/_vs/browserLink - -
+2024-06-25 11:09:48.3612 | INFO | Request finished HTTP/1.1 GET http://localhost:5149/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 4.7943ms
+2024-06-25 11:09:48.4992 | INFO | Request starting HTTP/1.1 GET http://localhost:5149/swagger/U8移动端接口/swagger.json - -
+2024-06-25 11:09:48.5106 | INFO | Request finished HTTP/1.1 GET http://localhost:5149/swagger/U8移动端接口/swagger.json - - - 200 - application/json;charset=utf-8 11.4743ms
+2024-06-25 11:13:49.6522 | INFO | Request starting HTTP/1.1 GET http://localhost:5149/swagger/index.html?urls.primaryName=%E3%80%90U8%E7%A7%BB%E5%8A%A8%E7%AB%AF%E6%8E%A5%E5%8F%A3%E3%80%91%E6%8E%A5%E5%8F%A3 - -
+2024-06-25 11:13:49.6628 | INFO | Request finished HTTP/1.1 GET http://localhost:5149/swagger/index.html?urls.primaryName=%E3%80%90U8%E7%A7%BB%E5%8A%A8%E7%AB%AF%E6%8E%A5%E5%8F%A3%E3%80%91%E6%8E%A5%E5%8F%A3 - - - 200 - text/html;charset=utf-8 17.0265ms
+2024-06-25 11:13:49.6889 | INFO | Request starting HTTP/1.1 GET http://localhost:5149/_framework/aspnetcore-browser-refresh.js - -
+2024-06-25 11:13:49.6901 | INFO | Request finished HTTP/1.1 GET http://localhost:5149/_framework/aspnetcore-browser-refresh.js - - - 200 13776 application/javascript;+charset=utf-8 1.5690ms
+2024-06-25 11:13:49.6901 | INFO | Request starting HTTP/1.1 GET http://localhost:5149/_vs/browserLink - -
+2024-06-25 11:13:49.6901 | INFO | Request finished HTTP/1.1 GET http://localhost:5149/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 4.4740ms
+2024-06-25 11:13:49.8517 | INFO | Request starting HTTP/1.1 GET http://localhost:5149/swagger/U8移动端接口/swagger.json - -
+2024-06-25 11:13:49.8631 | INFO | Request finished HTTP/1.1 GET http://localhost:5149/swagger/U8移动端接口/swagger.json - - - 200 - application/json;charset=utf-8 11.4993ms

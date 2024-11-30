@@ -1,0 +1,756 @@
+2024-05-06 20:17:52.7713 | DEBUG | Registered model binder providers, in the following order: Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DateTimeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.TryParseModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinderProvider
+2024-05-06 20:17:53.1376 | DEBUG | Hosting starting
+2024-05-06 20:17:53.2987 | INFO | User profile is available. Using 'C:\Users\Administrator\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-05-06 20:17:53.3147 | DEBUG | Reading data from file 'C:\Users\Administrator\AppData\Local\ASP.NET\DataProtection-Keys\key-34692722-1836-4131-841e-52bc30c5cc34.xml'.
+2024-05-06 20:17:53.3223 | DEBUG | Reading data from file 'C:\Users\Administrator\AppData\Local\ASP.NET\DataProtection-Keys\key-691d2c1e-819d-4ace-bf8c-4b95df9c96f1.xml'.
+2024-05-06 20:17:53.3223 | DEBUG | Reading data from file 'C:\Users\Administrator\AppData\Local\ASP.NET\DataProtection-Keys\key-9c621d14-e4f3-453a-a88c-5b12868c45f6.xml'.
+2024-05-06 20:17:53.3223 | DEBUG | Found key {34692722-1836-4131-841e-52bc30c5cc34}.
+2024-05-06 20:17:53.3404 | DEBUG | Found key {691d2c1e-819d-4ace-bf8c-4b95df9c96f1}.
+2024-05-06 20:17:53.3404 | DEBUG | Found key {9c621d14-e4f3-453a-a88c-5b12868c45f6}.
+2024-05-06 20:17:53.3490 | DEBUG | Considering key {9c621d14-e4f3-453a-a88c-5b12868c45f6} with expiration date 2024-07-14 12:08:15Z as default key.
+2024-05-06 20:17:53.3490 | DEBUG | Forwarded activator type request from Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Version=7.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60 to Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60
+2024-05-06 20:17:53.3490 | DEBUG | Decrypting secret element using Windows DPAPI.
+2024-05-06 20:17:53.3490 | DEBUG | Forwarded activator type request from Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Version=7.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60 to Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60
+2024-05-06 20:17:53.3490 | DEBUG | Opening CNG algorithm 'AES' from provider '(null)' with chaining mode CBC.
+2024-05-06 20:17:53.3490 | DEBUG | Opening CNG algorithm 'SHA256' from provider '(null)' with HMAC.
+2024-05-06 20:17:53.3643 | DEBUG | Using key {9c621d14-e4f3-453a-a88c-5b12868c45f6} as the default key.
+2024-05-06 20:17:53.3643 | DEBUG | Key ring with default key {9c621d14-e4f3-453a-a88c-5b12868c45f6} was loaded during application startup.
+2024-05-06 20:17:53.8590 | INFO | Now listening on: http://localhost:5149
+2024-05-06 20:17:53.8590 | DEBUG | Loaded hosting startup assembly webapi.net7.sqlsugar
+2024-05-06 20:17:53.8590 | DEBUG | Loaded hosting startup assembly Microsoft.AspNetCore.Watch.BrowserRefresh
+2024-05-06 20:17:53.8590 | DEBUG | Loaded hosting startup assembly Microsoft.WebTools.BrowserLink.Net
+2024-05-06 20:17:53.8590 | INFO | Application started. Press Ctrl+C to shut down.
+2024-05-06 20:17:53.8639 | INFO | Hosting environment: Development
+2024-05-06 20:17:53.8639 | INFO | Content root path: D:\BaiduSyncdisk\webapi.net7+sqlsugar\webapi.net7.sqlsugar\webapi.net7.sqlsugar
+2024-05-06 20:17:53.8639 | DEBUG | Hosting started
+2024-05-06 20:17:54.0647 | DEBUG | Connection id "0HN3DOQ776N5R" accepted.
+2024-05-06 20:17:54.0647 | DEBUG | Connection id "0HN3DOQ776N5R" started.
+2024-05-06 20:17:54.0740 | DEBUG | Connection id "0HN3DOQ776N5S" accepted.
+2024-05-06 20:17:54.0740 | DEBUG | Connection id "0HN3DOQ776N5S" started.
+2024-05-06 20:17:57.3586 | DEBUG | Connection id "0HN3DOQ776N5T" accepted.
+2024-05-06 20:17:57.3586 | DEBUG | Connection id "0HN3DOQ776N5T" started.
+2024-05-06 20:17:57.3705 | DEBUG | Connection id "0HN3DOQ776N5U" accepted.
+2024-05-06 20:17:57.3705 | DEBUG | Connection id "0HN3DOQ776N5U" started.
+2024-05-06 20:17:57.4285 | INFO | Request starting HTTP/1.1 GET http://localhost:5149/swagger - -
+2024-05-06 20:17:57.6663 | DEBUG | Wildcard detected, all requests with hosts will be allowed.
+2024-05-06 20:17:57.6663 | TRACE | All hosts are allowed.
+2024-05-06 20:17:57.7162 | DEBUG | No candidates found for the request path '/swagger'
+2024-05-06 20:17:57.7162 | DEBUG | Request did not match any endpoints
+2024-05-06 20:17:57.8116 | DEBUG | Connection id "0HN3DOQ776N5T" completed keep alive response.
+2024-05-06 20:17:57.8116 | INFO | Request finished HTTP/1.1 GET http://localhost:5149/swagger - - - 301 0 - 386.2957ms
+2024-05-06 20:17:57.8205 | INFO | Request starting HTTP/1.1 GET http://localhost:5149/swagger/index.html - -
+2024-05-06 20:17:57.8205 | TRACE | All hosts are allowed.
+2024-05-06 20:17:57.8205 | DEBUG | No candidates found for the request path '/swagger/index.html'
+2024-05-06 20:17:57.8205 | DEBUG | Request did not match any endpoints
+2024-05-06 20:17:57.9428 | DEBUG | Response markup is scheduled to include browser refresh script injection.
+2024-05-06 20:17:57.9428 | DEBUG | Response markup was updated to include browser refresh script injection.
+2024-05-06 20:17:57.9428 | DEBUG | Connection id "0HN3DOQ776N5T" completed keep alive response.
+2024-05-06 20:17:57.9428 | INFO | Request finished HTTP/1.1 GET http://localhost:5149/swagger/index.html - - - 200 - text/html;charset=utf-8 133.9472ms
+2024-05-06 20:17:57.9584 | INFO | Request starting HTTP/1.1 GET http://localhost:5149/swagger/swagger-ui.css - -
+2024-05-06 20:17:57.9584 | TRACE | All hosts are allowed.
+2024-05-06 20:17:57.9584 | DEBUG | No candidates found for the request path '/swagger/swagger-ui.css'
+2024-05-06 20:17:57.9584 | DEBUG | Request did not match any endpoints
+2024-05-06 20:17:57.9584 | INFO | Request starting HTTP/1.1 GET http://localhost:5149/swagger/swagger-ui-bundle.js - -
+2024-05-06 20:17:57.9584 | TRACE | All hosts are allowed.
+2024-05-06 20:17:57.9584 | DEBUG | No candidates found for the request path '/swagger/swagger-ui-bundle.js'
+2024-05-06 20:17:57.9584 | DEBUG | Request did not match any endpoints
+2024-05-06 20:17:57.9584 | DEBUG | Connection id "0HN3DOQ776N5V" accepted.
+2024-05-06 20:17:57.9584 | DEBUG | Connection id "0HN3DOQ776N5V" started.
+2024-05-06 20:17:57.9584 | DEBUG | Connection id "0HN3DOQ776N60" accepted.
+2024-05-06 20:17:57.9584 | DEBUG | Connection id "0HN3DOQ776N60" started.
+2024-05-06 20:17:57.9584 | INFO | Request starting HTTP/1.1 GET http://localhost:5149/swagger/swagger-ui-standalone-preset.js - -
+2024-05-06 20:17:57.9584 | INFO | Request starting HTTP/1.1 GET http://localhost:5149/_framework/aspnetcore-browser-refresh.js - -
+2024-05-06 20:17:57.9584 | TRACE | All hosts are allowed.
+2024-05-06 20:17:57.9584 | DEBUG | No candidates found for the request path '/swagger/swagger-ui-standalone-preset.js'
+2024-05-06 20:17:57.9584 | DEBUG | Request did not match any endpoints
+2024-05-06 20:17:57.9584 | DEBUG | Connection id "0HN3DOQ776N61" accepted.
+2024-05-06 20:17:57.9584 | DEBUG | Connection id "0HN3DOQ776N61" started.
+2024-05-06 20:17:57.9584 | INFO | Request starting HTTP/1.1 GET http://localhost:5149/_vs/browserLink - -
+2024-05-06 20:17:57.9724 | DEBUG | Connection id "0HN3DOQ776N60" completed keep alive response.
+2024-05-06 20:17:57.9724 | INFO | Request finished HTTP/1.1 GET http://localhost:5149/_framework/aspnetcore-browser-refresh.js - - - 200 13776 application/javascript;+charset=utf-8 10.6592ms
+2024-05-06 20:17:57.9724 | TRACE | Range header's value is empty.
+2024-05-06 20:17:57.9724 | TRACE | Range header's value is empty.
+2024-05-06 20:17:57.9724 | TRACE | Range header's value is empty.
+2024-05-06 20:17:58.0370 | INFO | Sending file. Request path: '/swagger-ui-standalone-preset.js'. Physical path: 'N/A'
+2024-05-06 20:17:58.0370 | INFO | Sending file. Request path: '/swagger-ui.css'. Physical path: 'N/A'
+2024-05-06 20:17:58.0370 | DEBUG | Connection id "0HN3DOQ776N5T" completed keep alive response.
+2024-05-06 20:17:58.0370 | DEBUG | Connection id "0HN3DOQ776N5V" completed keep alive response.
+2024-05-06 20:17:58.0370 | INFO | Request finished HTTP/1.1 GET http://localhost:5149/swagger/swagger-ui-standalone-preset.js - - - 200 312163 text/javascript 80.7460ms
+2024-05-06 20:17:58.0370 | INFO | Request finished HTTP/1.1 GET http://localhost:5149/swagger/swagger-ui.css - - - 200 144929 text/css 84.2012ms
+2024-05-06 20:17:58.0370 | INFO | Sending file. Request path: '/swagger-ui-bundle.js'. Physical path: 'N/A'
+2024-05-06 20:17:58.0370 | DEBUG | Connection id "0HN3DOQ776N5U" completed keep alive response.
+2024-05-06 20:17:58.0370 | INFO | Request finished HTTP/1.1 GET http://localhost:5149/swagger/swagger-ui-bundle.js - - - 200 1061536 text/javascript 90.1339ms
+2024-05-06 20:17:58.0798 | DEBUG | Connection id "0HN3DOQ776N61" completed keep alive response.
+2024-05-06 20:17:58.0798 | INFO | Request finished HTTP/1.1 GET http://localhost:5149/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 108.6248ms
+2024-05-06 20:17:58.2798 | INFO | Request starting HTTP/1.1 GET http://localhost:5149/swagger/东泽房源管理接口/swagger.json - -
+2024-05-06 20:17:58.2798 | TRACE | All hosts are allowed.
+2024-05-06 20:17:58.2798 | DEBUG | No candidates found for the request path '/swagger/东泽房源管理接口/swagger.json'
+2024-05-06 20:17:58.2798 | DEBUG | Request did not match any endpoints
+2024-05-06 20:17:58.2982 | INFO | Request starting HTTP/1.1 GET http://localhost:5149/swagger/favicon-32x32.png - -
+2024-05-06 20:17:58.2982 | TRACE | All hosts are allowed.
+2024-05-06 20:17:58.2982 | DEBUG | No candidates found for the request path '/swagger/favicon-32x32.png'
+2024-05-06 20:17:58.2982 | DEBUG | Request did not match any endpoints
+2024-05-06 20:17:58.2982 | TRACE | Range header's value is empty.
+2024-05-06 20:17:58.2982 | INFO | Sending file. Request path: '/favicon-32x32.png'. Physical path: 'N/A'
+2024-05-06 20:17:58.2982 | DEBUG | Connection id "0HN3DOQ776N5U" completed keep alive response.
+2024-05-06 20:17:58.2982 | INFO | Request finished HTTP/1.1 GET http://localhost:5149/swagger/favicon-32x32.png - - - 200 628 image/png 0.7626ms
+2024-05-06 20:17:58.7262 | DEBUG | Connection id "0HN3DOQ776N61" completed keep alive response.
+2024-05-06 20:17:58.7262 | INFO | Request finished HTTP/1.1 GET http://localhost:5149/swagger/东泽房源管理接口/swagger.json - - - 200 - application/json;charset=utf-8 446.5910ms
+2024-05-06 20:18:00.0374 | INFO | Request starting HTTP/1.1 GET http://localhost:5149/swagger/报表接口/swagger.json - -
+2024-05-06 20:18:00.0374 | TRACE | All hosts are allowed.
+2024-05-06 20:18:00.0374 | DEBUG | No candidates found for the request path '/swagger/报表接口/swagger.json'
+2024-05-06 20:18:00.0374 | DEBUG | Request did not match any endpoints
+2024-05-06 20:18:00.0953 | ERROR | An unhandled exception has occurred while executing the request.
+2024-05-06 20:18:00.0980 | DEBUG | Connection id "0HN3DOQ776N61" completed keep alive response.
+2024-05-06 20:18:00.0980 | INFO | Request finished HTTP/1.1 GET http://localhost:5149/swagger/报表接口/swagger.json - - - 500 - text/plain;+charset=utf-8 60.7020ms
+2024-05-06 20:18:43.6603 | DEBUG | Registered model binder providers, in the following order: Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DateTimeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.TryParseModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinderProvider
+2024-05-06 20:18:43.7687 | DEBUG | Hosting starting
+2024-05-06 20:18:43.8011 | INFO | User profile is available. Using 'C:\Users\Administrator\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-05-06 20:18:43.8011 | DEBUG | Reading data from file 'C:\Users\Administrator\AppData\Local\ASP.NET\DataProtection-Keys\key-34692722-1836-4131-841e-52bc30c5cc34.xml'.
+2024-05-06 20:18:43.8011 | DEBUG | Reading data from file 'C:\Users\Administrator\AppData\Local\ASP.NET\DataProtection-Keys\key-691d2c1e-819d-4ace-bf8c-4b95df9c96f1.xml'.
+2024-05-06 20:18:43.8011 | DEBUG | Reading data from file 'C:\Users\Administrator\AppData\Local\ASP.NET\DataProtection-Keys\key-9c621d14-e4f3-453a-a88c-5b12868c45f6.xml'.
+2024-05-06 20:18:43.8011 | DEBUG | Found key {34692722-1836-4131-841e-52bc30c5cc34}.
+2024-05-06 20:18:43.8011 | DEBUG | Found key {691d2c1e-819d-4ace-bf8c-4b95df9c96f1}.
+2024-05-06 20:18:43.8011 | DEBUG | Found key {9c621d14-e4f3-453a-a88c-5b12868c45f6}.
+2024-05-06 20:18:43.8204 | DEBUG | Considering key {9c621d14-e4f3-453a-a88c-5b12868c45f6} with expiration date 2024-07-14 12:08:15Z as default key.
+2024-05-06 20:18:43.8204 | DEBUG | Forwarded activator type request from Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Version=7.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60 to Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60
+2024-05-06 20:18:43.8204 | DEBUG | Decrypting secret element using Windows DPAPI.
+2024-05-06 20:18:43.8204 | DEBUG | Forwarded activator type request from Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Version=7.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60 to Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60
+2024-05-06 20:18:43.8204 | DEBUG | Opening CNG algorithm 'AES' from provider '(null)' with chaining mode CBC.
+2024-05-06 20:18:43.8204 | DEBUG | Opening CNG algorithm 'SHA256' from provider '(null)' with HMAC.
+2024-05-06 20:18:43.8204 | DEBUG | Using key {9c621d14-e4f3-453a-a88c-5b12868c45f6} as the default key.
+2024-05-06 20:18:43.8204 | DEBUG | Key ring with default key {9c621d14-e4f3-453a-a88c-5b12868c45f6} was loaded during application startup.
+2024-05-06 20:18:43.9771 | INFO | Now listening on: http://localhost:5149
+2024-05-06 20:18:43.9771 | DEBUG | Loaded hosting startup assembly webapi.net7.sqlsugar
+2024-05-06 20:18:43.9771 | DEBUG | Loaded hosting startup assembly Microsoft.AspNetCore.Watch.BrowserRefresh
+2024-05-06 20:18:43.9771 | DEBUG | Loaded hosting startup assembly Microsoft.WebTools.BrowserLink.Net
+2024-05-06 20:18:43.9771 | INFO | Application started. Press Ctrl+C to shut down.
+2024-05-06 20:18:43.9771 | INFO | Hosting environment: Development
+2024-05-06 20:18:43.9771 | INFO | Content root path: D:\BaiduSyncdisk\webapi.net7+sqlsugar\webapi.net7.sqlsugar\webapi.net7.sqlsugar
+2024-05-06 20:18:43.9771 | DEBUG | Hosting started
+2024-05-06 20:18:44.3360 | DEBUG | Connection id "0HN3DOQM6K9VS" accepted.
+2024-05-06 20:18:44.3360 | DEBUG | Connection id "0HN3DOQM6K9VS" started.
+2024-05-06 20:18:44.3360 | DEBUG | Connection id "0HN3DOQM6K9VT" accepted.
+2024-05-06 20:18:44.3484 | DEBUG | Connection id "0HN3DOQM6K9VT" started.
+2024-05-06 20:18:44.3484 | DEBUG | Connection id "0HN3DOQM6K9VT" received FIN.
+2024-05-06 20:18:44.3484 | DEBUG | Connection id "0HN3DOQM6K9VS" received FIN.
+2024-05-06 20:18:44.3484 | DEBUG | Connection id "0HN3DOQM6K9VS" sending FIN because: "The Socket transport's send loop completed gracefully."
+2024-05-06 20:18:44.3484 | DEBUG | Connection id "0HN3DOQM6K9VT" sending FIN because: "The Socket transport's send loop completed gracefully."
+2024-05-06 20:18:44.3484 | DEBUG | Connection id "0HN3DOQM6K9VT" disconnecting.
+2024-05-06 20:18:44.3484 | DEBUG | Connection id "0HN3DOQM6K9VS" disconnecting.
+2024-05-06 20:18:44.3693 | DEBUG | Connection id "0HN3DOQM6K9VT" stopped.
+2024-05-06 20:18:44.3693 | DEBUG | Connection id "0HN3DOQM6K9VS" stopped.
+2024-05-06 20:18:47.3626 | DEBUG | Connection id "0HN3DOQM6K9VU" accepted.
+2024-05-06 20:18:47.3631 | DEBUG | Connection id "0HN3DOQM6K9VU" started.
+2024-05-06 20:18:47.3631 | DEBUG | Connection id "0HN3DOQM6K9VV" accepted.
+2024-05-06 20:18:47.3631 | DEBUG | Connection id "0HN3DOQM6K9VV" started.
+2024-05-06 20:18:47.4080 | INFO | Request starting HTTP/1.1 GET http://localhost:5149/swagger/index.html - -
+2024-05-06 20:18:47.5417 | DEBUG | Wildcard detected, all requests with hosts will be allowed.
+2024-05-06 20:18:47.5417 | TRACE | All hosts are allowed.
+2024-05-06 20:18:47.5727 | DEBUG | No candidates found for the request path '/swagger/index.html'
+2024-05-06 20:18:47.5727 | DEBUG | Request did not match any endpoints
+2024-05-06 20:18:47.7105 | DEBUG | Response markup is scheduled to include browser refresh script injection.
+2024-05-06 20:18:47.7327 | DEBUG | Response markup was updated to include browser refresh script injection.
+2024-05-06 20:18:47.7327 | DEBUG | Connection id "0HN3DOQM6K9VU" completed keep alive response.
+2024-05-06 20:18:47.7327 | INFO | Request finished HTTP/1.1 GET http://localhost:5149/swagger/index.html - - - 200 - text/html;charset=utf-8 328.3391ms
+2024-05-06 20:18:47.7381 | INFO | Request starting HTTP/1.1 GET http://localhost:5149/_vs/browserLink - -
+2024-05-06 20:18:47.7381 | INFO | Request starting HTTP/1.1 GET http://localhost:5149/_framework/aspnetcore-browser-refresh.js - -
+2024-05-06 20:18:47.7381 | DEBUG | Connection id "0HN3DOQM6K9VU" completed keep alive response.
+2024-05-06 20:18:47.7381 | INFO | Request finished HTTP/1.1 GET http://localhost:5149/_framework/aspnetcore-browser-refresh.js - - - 200 13776 application/javascript;+charset=utf-8 2.5732ms
+2024-05-06 20:18:47.7862 | DEBUG | Connection id "0HN3DOQM6K9VV" completed keep alive response.
+2024-05-06 20:18:47.7862 | INFO | Request finished HTTP/1.1 GET http://localhost:5149/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 48.3695ms
+2024-05-06 20:18:47.9339 | INFO | Request starting HTTP/1.1 GET http://localhost:5149/swagger/东泽房源管理接口/swagger.json - -
+2024-05-06 20:18:47.9339 | TRACE | All hosts are allowed.
+2024-05-06 20:18:47.9339 | DEBUG | No candidates found for the request path '/swagger/东泽房源管理接口/swagger.json'
+2024-05-06 20:18:47.9339 | DEBUG | Request did not match any endpoints
+2024-05-06 20:18:48.2474 | DEBUG | Connection id "0HN3DOQM6K9VV" completed keep alive response.
+2024-05-06 20:18:48.2474 | INFO | Request finished HTTP/1.1 GET http://localhost:5149/swagger/东泽房源管理接口/swagger.json - - - 200 - application/json;charset=utf-8 313.7341ms
+2024-05-06 20:18:49.5653 | INFO | Request starting HTTP/1.1 GET http://localhost:5149/swagger/报表接口/swagger.json - -
+2024-05-06 20:18:49.5653 | TRACE | All hosts are allowed.
+2024-05-06 20:18:49.5653 | DEBUG | No candidates found for the request path '/swagger/报表接口/swagger.json'
+2024-05-06 20:18:49.5653 | DEBUG | Request did not match any endpoints
+2024-05-06 20:18:49.6038 | ERROR | An unhandled exception has occurred while executing the request.
+2024-05-06 20:18:49.6038 | DEBUG | Connection id "0HN3DOQM6K9VV" completed keep alive response.
+2024-05-06 20:18:49.6038 | INFO | Request finished HTTP/1.1 GET http://localhost:5149/swagger/报表接口/swagger.json - - - 500 - text/plain;+charset=utf-8 41.8018ms
+2024-05-06 20:21:26.8011 | DEBUG | Registered model binder providers, in the following order: Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DateTimeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.TryParseModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinderProvider
+2024-05-06 20:21:28.3010 | DEBUG | Hosting starting
+2024-05-06 20:21:28.3400 | INFO | User profile is available. Using 'C:\Users\Administrator\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-05-06 20:21:28.3490 | DEBUG | Reading data from file 'C:\Users\Administrator\AppData\Local\ASP.NET\DataProtection-Keys\key-34692722-1836-4131-841e-52bc30c5cc34.xml'.
+2024-05-06 20:21:28.3490 | DEBUG | Reading data from file 'C:\Users\Administrator\AppData\Local\ASP.NET\DataProtection-Keys\key-691d2c1e-819d-4ace-bf8c-4b95df9c96f1.xml'.
+2024-05-06 20:21:28.3490 | DEBUG | Reading data from file 'C:\Users\Administrator\AppData\Local\ASP.NET\DataProtection-Keys\key-9c621d14-e4f3-453a-a88c-5b12868c45f6.xml'.
+2024-05-06 20:21:28.3490 | DEBUG | Found key {34692722-1836-4131-841e-52bc30c5cc34}.
+2024-05-06 20:21:28.3490 | DEBUG | Found key {691d2c1e-819d-4ace-bf8c-4b95df9c96f1}.
+2024-05-06 20:21:28.3633 | DEBUG | Found key {9c621d14-e4f3-453a-a88c-5b12868c45f6}.
+2024-05-06 20:21:28.3633 | DEBUG | Considering key {9c621d14-e4f3-453a-a88c-5b12868c45f6} with expiration date 2024-07-14 12:08:15Z as default key.
+2024-05-06 20:21:28.3633 | DEBUG | Forwarded activator type request from Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Version=7.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60 to Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60
+2024-05-06 20:21:28.3808 | DEBUG | Decrypting secret element using Windows DPAPI.
+2024-05-06 20:21:28.3808 | DEBUG | Forwarded activator type request from Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Version=7.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60 to Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60
+2024-05-06 20:21:28.3808 | DEBUG | Opening CNG algorithm 'AES' from provider '(null)' with chaining mode CBC.
+2024-05-06 20:21:28.3808 | DEBUG | Opening CNG algorithm 'SHA256' from provider '(null)' with HMAC.
+2024-05-06 20:21:28.3808 | DEBUG | Using key {9c621d14-e4f3-453a-a88c-5b12868c45f6} as the default key.
+2024-05-06 20:21:28.3808 | DEBUG | Key ring with default key {9c621d14-e4f3-453a-a88c-5b12868c45f6} was loaded during application startup.
+2024-05-06 20:21:35.2932 | INFO | Now listening on: http://localhost:5149
+2024-05-06 20:21:35.2932 | DEBUG | Loaded hosting startup assembly webapi.net7.sqlsugar
+2024-05-06 20:21:35.2932 | DEBUG | Loaded hosting startup assembly Microsoft.AspNetCore.Watch.BrowserRefresh
+2024-05-06 20:21:35.2932 | DEBUG | Loaded hosting startup assembly Microsoft.WebTools.BrowserLink.Net
+2024-05-06 20:21:35.2932 | INFO | Application started. Press Ctrl+C to shut down.
+2024-05-06 20:21:35.2932 | INFO | Hosting environment: Development
+2024-05-06 20:21:35.3007 | INFO | Content root path: D:\BaiduSyncdisk\webapi.net7+sqlsugar\webapi.net7.sqlsugar\webapi.net7.sqlsugar
+2024-05-06 20:21:35.3007 | DEBUG | Hosting started
+2024-05-06 20:21:35.7097 | DEBUG | Connection id "0HN3DOS98V9LI" accepted.
+2024-05-06 20:21:35.7097 | DEBUG | Connection id "0HN3DOS98V9LI" started.
+2024-05-06 20:21:35.7263 | DEBUG | Connection id "0HN3DOS98V9LI" received FIN.
+2024-05-06 20:21:35.7263 | DEBUG | Connection id "0HN3DOS98V9LI" sending FIN because: "The Socket transport's send loop completed gracefully."
+2024-05-06 20:21:35.7263 | DEBUG | Connection id "0HN3DOS98V9LI" disconnecting.
+2024-05-06 20:21:35.7263 | DEBUG | Connection id "0HN3DOS98V9LI" stopped.
+2024-05-06 20:21:36.8073 | DEBUG | Connection id "0HN3DOS98V9LJ" accepted.
+2024-05-06 20:21:36.8073 | DEBUG | Connection id "0HN3DOS98V9LJ" started.
+2024-05-06 20:21:36.8073 | DEBUG | Connection id "0HN3DOS98V9LK" accepted.
+2024-05-06 20:21:36.8073 | DEBUG | Connection id "0HN3DOS98V9LK" started.
+2024-05-06 20:21:36.8636 | INFO | Request starting HTTP/1.1 GET http://localhost:5149/swagger/index.html - -
+2024-05-06 20:21:37.1004 | DEBUG | Wildcard detected, all requests with hosts will be allowed.
+2024-05-06 20:21:37.1004 | TRACE | All hosts are allowed.
+2024-05-06 20:21:37.1653 | DEBUG | No candidates found for the request path '/swagger/index.html'
+2024-05-06 20:21:37.1653 | DEBUG | Request did not match any endpoints
+2024-05-06 20:21:37.3920 | DEBUG | Response markup is scheduled to include browser refresh script injection.
+2024-05-06 20:21:37.4168 | DEBUG | Response markup was updated to include browser refresh script injection.
+2024-05-06 20:21:37.4168 | DEBUG | Connection id "0HN3DOS98V9LJ" completed keep alive response.
+2024-05-06 20:21:37.4168 | INFO | Request starting HTTP/1.1 GET http://localhost:5149/_framework/aspnetcore-browser-refresh.js - -
+2024-05-06 20:21:37.4168 | INFO | Request finished HTTP/1.1 GET http://localhost:5149/swagger/index.html - - - 200 - text/html;charset=utf-8 557.1627ms
+2024-05-06 20:21:37.4168 | DEBUG | Connection id "0HN3DOS98V9LK" completed keep alive response.
+2024-05-06 20:21:37.4168 | INFO | Request finished HTTP/1.1 GET http://localhost:5149/_framework/aspnetcore-browser-refresh.js - - - 200 13776 application/javascript;+charset=utf-8 2.6834ms
+2024-05-06 20:21:37.4266 | INFO | Request starting HTTP/1.1 GET http://localhost:5149/_vs/browserLink - -
+2024-05-06 20:21:37.4691 | DEBUG | Connection id "0HN3DOS98V9LJ" completed keep alive response.
+2024-05-06 20:21:37.4691 | INFO | Request finished HTTP/1.1 GET http://localhost:5149/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 42.5488ms
+2024-05-06 20:21:37.5297 | INFO | Request starting HTTP/1.1 GET http://localhost:5149/swagger/东泽房源管理接口/swagger.json - -
+2024-05-06 20:21:37.5297 | TRACE | All hosts are allowed.
+2024-05-06 20:21:37.5297 | DEBUG | No candidates found for the request path '/swagger/东泽房源管理接口/swagger.json'
+2024-05-06 20:21:37.5297 | DEBUG | Request did not match any endpoints
+2024-05-06 20:21:38.0147 | DEBUG | Connection id "0HN3DOS98V9LJ" completed keep alive response.
+2024-05-06 20:21:38.0147 | INFO | Request finished HTTP/1.1 GET http://localhost:5149/swagger/东泽房源管理接口/swagger.json - - - 200 - application/json;charset=utf-8 485.2677ms
+2024-05-06 20:21:39.3565 | DEBUG | Connection id "0HN3DOS98V9LK" received FIN.
+2024-05-06 20:21:39.3565 | DEBUG | Connection id "0HN3DOS98V9LJ" received FIN.
+2024-05-06 20:21:39.3565 | DEBUG | Connection id "0HN3DOS98V9LJ" disconnecting.
+2024-05-06 20:21:39.3565 | DEBUG | Connection id "0HN3DOS98V9LK" sending FIN because: "The Socket transport's send loop completed gracefully."
+2024-05-06 20:21:39.3565 | DEBUG | Connection id "0HN3DOS98V9LJ" sending FIN because: "The Socket transport's send loop completed gracefully."
+2024-05-06 20:21:39.3565 | DEBUG | Connection id "0HN3DOS98V9LK" disconnecting.
+2024-05-06 20:21:39.3565 | DEBUG | Connection id "0HN3DOS98V9LJ" stopped.
+2024-05-06 20:21:39.3565 | DEBUG | Connection id "0HN3DOS98V9LK" stopped.
+2024-05-06 20:21:40.3499 | DEBUG | Connection id "0HN3DOS98V9LL" accepted.
+2024-05-06 20:21:40.3499 | DEBUG | Connection id "0HN3DOS98V9LL" started.
+2024-05-06 20:21:40.3499 | INFO | Request starting HTTP/1.1 GET http://localhost:5149/swagger/报表接口/swagger.json - -
+2024-05-06 20:21:40.3499 | TRACE | All hosts are allowed.
+2024-05-06 20:21:40.3499 | DEBUG | No candidates found for the request path '/swagger/报表接口/swagger.json'
+2024-05-06 20:21:40.3499 | DEBUG | Request did not match any endpoints
+2024-05-06 20:21:40.3860 | ERROR | An unhandled exception has occurred while executing the request.
+2024-05-06 20:21:40.3860 | DEBUG | Connection id "0HN3DOS98V9LL" completed keep alive response.
+2024-05-06 20:21:40.3860 | INFO | Request finished HTTP/1.1 GET http://localhost:5149/swagger/报表接口/swagger.json - - - 500 - text/plain;+charset=utf-8 38.1833ms
+2024-05-06 20:22:52.4053 | DEBUG | Registered model binder providers, in the following order: Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DateTimeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.TryParseModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinderProvider
+2024-05-06 20:22:52.5212 | DEBUG | Hosting starting
+2024-05-06 20:22:52.5603 | INFO | User profile is available. Using 'C:\Users\Administrator\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-05-06 20:22:52.5684 | DEBUG | Reading data from file 'C:\Users\Administrator\AppData\Local\ASP.NET\DataProtection-Keys\key-34692722-1836-4131-841e-52bc30c5cc34.xml'.
+2024-05-06 20:22:52.5684 | DEBUG | Reading data from file 'C:\Users\Administrator\AppData\Local\ASP.NET\DataProtection-Keys\key-691d2c1e-819d-4ace-bf8c-4b95df9c96f1.xml'.
+2024-05-06 20:22:52.5684 | DEBUG | Reading data from file 'C:\Users\Administrator\AppData\Local\ASP.NET\DataProtection-Keys\key-9c621d14-e4f3-453a-a88c-5b12868c45f6.xml'.
+2024-05-06 20:22:52.5684 | DEBUG | Found key {34692722-1836-4131-841e-52bc30c5cc34}.
+2024-05-06 20:22:52.5859 | DEBUG | Found key {691d2c1e-819d-4ace-bf8c-4b95df9c96f1}.
+2024-05-06 20:22:52.5859 | DEBUG | Found key {9c621d14-e4f3-453a-a88c-5b12868c45f6}.
+2024-05-06 20:22:52.5859 | DEBUG | Considering key {9c621d14-e4f3-453a-a88c-5b12868c45f6} with expiration date 2024-07-14 12:08:15Z as default key.
+2024-05-06 20:22:52.6027 | DEBUG | Forwarded activator type request from Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Version=7.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60 to Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60
+2024-05-06 20:22:52.6027 | DEBUG | Decrypting secret element using Windows DPAPI.
+2024-05-06 20:22:52.6027 | DEBUG | Forwarded activator type request from Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Version=7.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60 to Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60
+2024-05-06 20:22:52.6027 | DEBUG | Opening CNG algorithm 'AES' from provider '(null)' with chaining mode CBC.
+2024-05-06 20:22:52.6150 | DEBUG | Opening CNG algorithm 'SHA256' from provider '(null)' with HMAC.
+2024-05-06 20:22:52.6150 | DEBUG | Using key {9c621d14-e4f3-453a-a88c-5b12868c45f6} as the default key.
+2024-05-06 20:22:52.6150 | DEBUG | Key ring with default key {9c621d14-e4f3-453a-a88c-5b12868c45f6} was loaded during application startup.
+2024-05-06 20:22:52.8849 | INFO | Now listening on: http://localhost:5149
+2024-05-06 20:22:52.8849 | DEBUG | Loaded hosting startup assembly webapi.net7.sqlsugar
+2024-05-06 20:22:52.8849 | DEBUG | Loaded hosting startup assembly Microsoft.AspNetCore.Watch.BrowserRefresh
+2024-05-06 20:22:52.8849 | DEBUG | Loaded hosting startup assembly Microsoft.WebTools.BrowserLink.Net
+2024-05-06 20:22:52.8849 | INFO | Application started. Press Ctrl+C to shut down.
+2024-05-06 20:22:52.8849 | INFO | Hosting environment: Development
+2024-05-06 20:22:52.8953 | INFO | Content root path: D:\BaiduSyncdisk\webapi.net7+sqlsugar\webapi.net7.sqlsugar\webapi.net7.sqlsugar
+2024-05-06 20:22:52.8953 | DEBUG | Hosting started
+2024-05-06 20:22:53.3557 | DEBUG | Connection id "0HN3DOT0DF1V0" received FIN.
+2024-05-06 20:22:53.3557 | DEBUG | Connection id "0HN3DOT0DF1UV" received FIN.
+2024-05-06 20:22:53.3557 | DEBUG | Connection id "0HN3DOT0DF1V0" accepted.
+2024-05-06 20:22:53.3557 | DEBUG | Connection id "0HN3DOT0DF1UV" accepted.
+2024-05-06 20:22:53.3557 | DEBUG | Connection id "0HN3DOT0DF1V0" started.
+2024-05-06 20:22:53.3557 | DEBUG | Connection id "0HN3DOT0DF1UV" started.
+2024-05-06 20:22:53.3741 | DEBUG | Connection id "0HN3DOT0DF1V0" sending FIN because: "The Socket transport's send loop completed gracefully."
+2024-05-06 20:22:53.3741 | DEBUG | Connection id "0HN3DOT0DF1UV" sending FIN because: "The Socket transport's send loop completed gracefully."
+2024-05-06 20:22:53.3741 | DEBUG | Connection id "0HN3DOT0DF1UV" disconnecting.
+2024-05-06 20:22:53.3741 | DEBUG | Connection id "0HN3DOT0DF1V0" disconnecting.
+2024-05-06 20:22:53.3791 | DEBUG | Connection id "0HN3DOT0DF1V0" stopped.
+2024-05-06 20:22:53.3791 | DEBUG | Connection id "0HN3DOT0DF1UV" stopped.
+2024-05-06 20:22:54.8392 | DEBUG | Connection id "0HN3DOT0DF1V1" accepted.
+2024-05-06 20:22:54.8392 | DEBUG | Connection id "0HN3DOT0DF1V1" started.
+2024-05-06 20:22:54.8392 | DEBUG | Connection id "0HN3DOT0DF1V2" accepted.
+2024-05-06 20:22:54.8392 | DEBUG | Connection id "0HN3DOT0DF1V2" started.
+2024-05-06 20:22:54.8939 | INFO | Request starting HTTP/1.1 GET http://localhost:5149/swagger/index.html - -
+2024-05-06 20:22:55.0359 | DEBUG | Wildcard detected, all requests with hosts will be allowed.
+2024-05-06 20:22:55.0359 | TRACE | All hosts are allowed.
+2024-05-06 20:22:55.0893 | DEBUG | No candidates found for the request path '/swagger/index.html'
+2024-05-06 20:22:55.0893 | DEBUG | Request did not match any endpoints
+2024-05-06 20:22:55.3636 | DEBUG | Response markup is scheduled to include browser refresh script injection.
+2024-05-06 20:22:55.3882 | DEBUG | Response markup was updated to include browser refresh script injection.
+2024-05-06 20:22:55.3882 | DEBUG | Connection id "0HN3DOT0DF1V1" completed keep alive response.
+2024-05-06 20:22:55.3882 | INFO | Request finished HTTP/1.1 GET http://localhost:5149/swagger/index.html - - - 200 - text/html;charset=utf-8 497.7041ms
+2024-05-06 20:22:55.3882 | DEBUG | Connection id "0HN3DOT0DF1V3" accepted.
+2024-05-06 20:22:55.3882 | DEBUG | Connection id "0HN3DOT0DF1V3" started.
+2024-05-06 20:22:55.3882 | INFO | Request starting HTTP/1.1 GET http://localhost:5149/_vs/browserLink - -
+2024-05-06 20:22:55.3882 | INFO | Request starting HTTP/1.1 GET http://localhost:5149/_framework/aspnetcore-browser-refresh.js - -
+2024-05-06 20:22:55.3956 | DEBUG | Connection id "0HN3DOT0DF1V3" completed keep alive response.
+2024-05-06 20:22:55.3956 | INFO | Request finished HTTP/1.1 GET http://localhost:5149/_framework/aspnetcore-browser-refresh.js - - - 200 13776 application/javascript;+charset=utf-8 2.3239ms
+2024-05-06 20:22:55.4394 | DEBUG | Connection id "0HN3DOT0DF1V2" completed keep alive response.
+2024-05-06 20:22:55.4394 | INFO | Request finished HTTP/1.1 GET http://localhost:5149/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 46.0628ms
+2024-05-06 20:22:55.5025 | INFO | Request starting HTTP/1.1 GET http://localhost:5149/swagger/东泽房源管理接口/swagger.json - -
+2024-05-06 20:22:55.5025 | TRACE | All hosts are allowed.
+2024-05-06 20:22:55.5025 | DEBUG | No candidates found for the request path '/swagger/东泽房源管理接口/swagger.json'
+2024-05-06 20:22:55.5025 | DEBUG | Request did not match any endpoints
+2024-05-06 20:22:56.0170 | DEBUG | Connection id "0HN3DOT0DF1V2" completed keep alive response.
+2024-05-06 20:22:56.0170 | INFO | Request finished HTTP/1.1 GET http://localhost:5149/swagger/东泽房源管理接口/swagger.json - - - 200 - application/json;charset=utf-8 514.7559ms
+2024-05-06 20:22:57.0983 | INFO | Request starting HTTP/1.1 GET http://localhost:5149/swagger/报表接口/swagger.json - -
+2024-05-06 20:22:57.0983 | TRACE | All hosts are allowed.
+2024-05-06 20:22:57.0983 | DEBUG | No candidates found for the request path '/swagger/报表接口/swagger.json'
+2024-05-06 20:22:57.0983 | DEBUG | Request did not match any endpoints
+2024-05-06 20:22:57.0983 | DEBUG | Connection id "0HN3DOT0DF1V2" completed keep alive response.
+2024-05-06 20:22:57.0983 | INFO | Request finished HTTP/1.1 GET http://localhost:5149/swagger/报表接口/swagger.json - - - 200 - application/json;charset=utf-8 4.6564ms
+2024-05-06 20:22:57.2775 | DEBUG | Connection id "0HN3DOT0DF1V1" received FIN.
+2024-05-06 20:22:57.2775 | DEBUG | Connection id "0HN3DOT0DF1V3" received FIN.
+2024-05-06 20:22:57.2775 | DEBUG | Connection id "0HN3DOT0DF1V2" received FIN.
+2024-05-06 20:22:57.2775 | DEBUG | Connection id "0HN3DOT0DF1V1" sending FIN because: "The Socket transport's send loop completed gracefully."
+2024-05-06 20:22:57.2775 | DEBUG | Connection id "0HN3DOT0DF1V1" disconnecting.
+2024-05-06 20:22:57.2775 | DEBUG | Connection id "0HN3DOT0DF1V3" sending FIN because: "The Socket transport's send loop completed gracefully."
+2024-05-06 20:22:57.2775 | DEBUG | Connection id "0HN3DOT0DF1V3" disconnecting.
+2024-05-06 20:22:57.2775 | DEBUG | Connection id "0HN3DOT0DF1V2" disconnecting.
+2024-05-06 20:22:57.2775 | DEBUG | Connection id "0HN3DOT0DF1V2" sending FIN because: "The Socket transport's send loop completed gracefully."
+2024-05-06 20:22:57.2863 | DEBUG | Connection id "0HN3DOT0DF1V1" stopped.
+2024-05-06 20:22:57.2863 | DEBUG | Connection id "0HN3DOT0DF1V2" stopped.
+2024-05-06 20:22:57.2863 | DEBUG | Connection id "0HN3DOT0DF1V3" stopped.
+2024-05-06 20:23:41.0289 | DEBUG | Connection id "0HN3DOT0DF1V4" accepted.
+2024-05-06 20:23:41.0289 | DEBUG | Connection id "0HN3DOT0DF1V4" started.
+2024-05-06 20:23:41.0289 | INFO | Request starting HTTP/1.1 POST http://localhost:5149/api/StandingsStock application/json 17
+2024-05-06 20:23:41.0289 | TRACE | All hosts are allowed.
+2024-05-06 20:23:41.0289 | DEBUG | 1 candidate(s) found for the request path '/api/StandingsStock'
+2024-05-06 20:23:41.0289 | DEBUG | Endpoint 'webapi.net7.sqlsugar.Controllers.ReportController.StandingsStock (webapi.net7.sqlsugar)' with route pattern 'api/StandingsStock' is valid for the request path '/api/StandingsStock'
+2024-05-06 20:23:41.0289 | DEBUG | Request matched endpoint 'webapi.net7.sqlsugar.Controllers.ReportController.StandingsStock (webapi.net7.sqlsugar)'
+2024-05-06 20:23:41.0360 | DEBUG | Static files was skipped as the request already matched an endpoint.
+2024-05-06 20:23:41.0360 | DEBUG | Static files was skipped as the request already matched an endpoint.
+2024-05-06 20:23:41.0360 | WARN | Failed to determine the https port for redirect.
+2024-05-06 20:23:41.1565 | DEBUG | AuthenticationScheme: Bearer was not authenticated.
+2024-05-06 20:23:41.1603 | DEBUG | The request has an origin header: 'http://localhost:5149'.
+2024-05-06 20:23:41.1603 | INFO | CORS policy execution successful.
+2024-05-06 20:23:41.1603 | INFO | Executing endpoint 'webapi.net7.sqlsugar.Controllers.ReportController.StandingsStock (webapi.net7.sqlsugar)'
+2024-05-06 20:23:41.1881 | INFO | Route matched with {action = "StandingsStock", controller = "Report"}. Executing controller action with signature System.Object StandingsStock(System.Object) on controller webapi.net7.sqlsugar.Controllers.ReportController (webapi.net7.sqlsugar).
+2024-05-06 20:23:41.1881 | DEBUG | Execution plan of authorization filters (in the following order): None
+2024-05-06 20:23:41.1881 | DEBUG | Execution plan of resource filters (in the following order): None
+2024-05-06 20:23:41.1881 | DEBUG | Execution plan of action filters (in the following order): Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000), Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)
+2024-05-06 20:23:41.1881 | DEBUG | Execution plan of exception filters (in the following order): None
+2024-05-06 20:23:41.1881 | DEBUG | Execution plan of result filters (in the following order): Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)
+2024-05-06 20:23:41.1921 | DEBUG | Executing controller factory for controller webapi.net7.sqlsugar.Controllers.ReportController (webapi.net7.sqlsugar)
+2024-05-06 20:23:41.1921 | DEBUG | Executed controller factory for controller webapi.net7.sqlsugar.Controllers.ReportController (webapi.net7.sqlsugar)
+2024-05-06 20:23:41.1921 | DEBUG | Attempting to bind parameter 'ob' of type 'System.Object' ...
+2024-05-06 20:23:41.1921 | DEBUG | Attempting to bind parameter 'ob' of type 'System.Object' using the name '' in request data ...
+2024-05-06 20:23:41.1921 | DEBUG | Selected input formatter 'Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonInputFormatter' for content type 'application/json'.
+2024-05-06 20:23:41.2092 | DEBUG | Connection id "0HN3DOT0DF1V4", Request id "0HN3DOT0DF1V4:00000001": started reading request body.
+2024-05-06 20:23:41.2092 | DEBUG | Connection id "0HN3DOT0DF1V4", Request id "0HN3DOT0DF1V4:00000001": done reading request body.
+2024-05-06 20:23:41.2092 | DEBUG | JSON input formatter succeeded, deserializing to type 'System.Object'
+2024-05-06 20:23:41.2092 | DEBUG | Done attempting to bind parameter 'ob' of type 'System.Object'.
+2024-05-06 20:23:41.2092 | DEBUG | Done attempting to bind parameter 'ob' of type 'System.Object'.
+2024-05-06 20:23:41.2092 | DEBUG | Attempting to validate the bound parameter 'ob' of type 'System.Object' ...
+2024-05-06 20:23:41.2260 | DEBUG | Done attempting to validate the bound parameter 'ob' of type 'System.Object'.
+2024-05-06 20:23:41.2260 | TRACE | Action Filter: Before executing OnActionExecuting on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter.
+2024-05-06 20:23:41.2260 | TRACE | Action Filter: After executing OnActionExecuting on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter.
+2024-05-06 20:23:41.2260 | TRACE | Action Filter: Before executing OnActionExecuting on filter Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter.
+2024-05-06 20:23:41.2260 | TRACE | Action Filter: After executing OnActionExecuting on filter Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter.
+2024-05-06 20:23:41.2260 | INFO | Executing action method webapi.net7.sqlsugar.Controllers.ReportController.StandingsStock (webapi.net7.sqlsugar) - Validation state: Valid
+2024-05-06 20:23:41.2260 | TRACE | Executing action method webapi.net7.sqlsugar.Controllers.ReportController.StandingsStock (webapi.net7.sqlsugar) with arguments ({"cwhcode":"001"})
+2024-05-06 20:23:53.4939 | DEBUG | Connection id "0HN3DOT0DF1V4" received FIN.
+2024-05-06 20:23:53.4939 | DEBUG | Connection id "0HN3DOT0DF1V4" sending FIN because: "The Socket transport's send loop completed gracefully."
+2024-05-06 20:23:53.4939 | DEBUG | Connection id "0HN3DOT0DF1V4" disconnecting.
+2024-05-06 20:28:40.2497 | DEBUG | Registered model binder providers, in the following order: Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DateTimeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.TryParseModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinderProvider
+2024-05-06 20:28:40.3615 | DEBUG | Hosting starting
+2024-05-06 20:28:40.3926 | INFO | User profile is available. Using 'C:\Users\Administrator\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-05-06 20:28:40.3978 | DEBUG | Reading data from file 'C:\Users\Administrator\AppData\Local\ASP.NET\DataProtection-Keys\key-34692722-1836-4131-841e-52bc30c5cc34.xml'.
+2024-05-06 20:28:40.3978 | DEBUG | Reading data from file 'C:\Users\Administrator\AppData\Local\ASP.NET\DataProtection-Keys\key-691d2c1e-819d-4ace-bf8c-4b95df9c96f1.xml'.
+2024-05-06 20:28:40.3978 | DEBUG | Reading data from file 'C:\Users\Administrator\AppData\Local\ASP.NET\DataProtection-Keys\key-9c621d14-e4f3-453a-a88c-5b12868c45f6.xml'.
+2024-05-06 20:28:40.3978 | DEBUG | Found key {34692722-1836-4131-841e-52bc30c5cc34}.
+2024-05-06 20:28:40.3978 | DEBUG | Found key {691d2c1e-819d-4ace-bf8c-4b95df9c96f1}.
+2024-05-06 20:28:40.3978 | DEBUG | Found key {9c621d14-e4f3-453a-a88c-5b12868c45f6}.
+2024-05-06 20:28:40.3978 | DEBUG | Considering key {9c621d14-e4f3-453a-a88c-5b12868c45f6} with expiration date 2024-07-14 12:08:15Z as default key.
+2024-05-06 20:28:40.4116 | DEBUG | Forwarded activator type request from Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Version=7.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60 to Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60
+2024-05-06 20:28:40.4116 | DEBUG | Decrypting secret element using Windows DPAPI.
+2024-05-06 20:28:40.4116 | DEBUG | Forwarded activator type request from Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Version=7.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60 to Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60
+2024-05-06 20:28:40.4116 | DEBUG | Opening CNG algorithm 'AES' from provider '(null)' with chaining mode CBC.
+2024-05-06 20:28:40.4116 | DEBUG | Opening CNG algorithm 'SHA256' from provider '(null)' with HMAC.
+2024-05-06 20:28:40.4116 | DEBUG | Using key {9c621d14-e4f3-453a-a88c-5b12868c45f6} as the default key.
+2024-05-06 20:28:40.4116 | DEBUG | Key ring with default key {9c621d14-e4f3-453a-a88c-5b12868c45f6} was loaded during application startup.
+2024-05-06 20:28:40.5666 | INFO | Now listening on: http://localhost:5149
+2024-05-06 20:28:40.5666 | DEBUG | Loaded hosting startup assembly webapi.net7.sqlsugar
+2024-05-06 20:28:40.5666 | DEBUG | Loaded hosting startup assembly Microsoft.AspNetCore.Watch.BrowserRefresh
+2024-05-06 20:28:40.5666 | DEBUG | Loaded hosting startup assembly Microsoft.WebTools.BrowserLink.Net
+2024-05-06 20:28:40.5666 | INFO | Application started. Press Ctrl+C to shut down.
+2024-05-06 20:28:40.5666 | INFO | Hosting environment: Development
+2024-05-06 20:28:40.5666 | INFO | Content root path: D:\BaiduSyncdisk\webapi.net7+sqlsugar\webapi.net7.sqlsugar\webapi.net7.sqlsugar
+2024-05-06 20:28:40.5666 | DEBUG | Hosting started
+2024-05-06 20:28:40.7967 | DEBUG | Connection id "0HN3DP07UTLLJ" accepted.
+2024-05-06 20:28:40.7967 | DEBUG | Connection id "0HN3DP07UTLLJ" started.
+2024-05-06 20:28:40.8396 | DEBUG | Connection id "0HN3DP07UTLLJ" received FIN.
+2024-05-06 20:28:40.8396 | DEBUG | Connection id "0HN3DP07UTLLJ" sending FIN because: "The Socket transport's send loop completed gracefully."
+2024-05-06 20:28:40.8396 | DEBUG | Connection id "0HN3DP07UTLLJ" disconnecting.
+2024-05-06 20:28:40.8396 | DEBUG | Connection id "0HN3DP07UTLLJ" stopped.
+2024-05-06 20:28:44.2301 | DEBUG | Connection id "0HN3DP07UTLLK" accepted.
+2024-05-06 20:28:44.2301 | DEBUG | Connection id "0HN3DP07UTLLK" started.
+2024-05-06 20:28:44.2301 | DEBUG | Connection id "0HN3DP07UTLLL" accepted.
+2024-05-06 20:28:44.2301 | DEBUG | Connection id "0HN3DP07UTLLL" started.
+2024-05-06 20:28:44.2690 | INFO | Request starting HTTP/1.1 GET http://localhost:5149/swagger/index.html - -
+2024-05-06 20:28:44.3783 | DEBUG | Wildcard detected, all requests with hosts will be allowed.
+2024-05-06 20:28:44.3783 | TRACE | All hosts are allowed.
+2024-05-06 20:28:44.4053 | DEBUG | No candidates found for the request path '/swagger/index.html'
+2024-05-06 20:28:44.4053 | DEBUG | Request did not match any endpoints
+2024-05-06 20:28:44.5298 | DEBUG | Response markup is scheduled to include browser refresh script injection.
+2024-05-06 20:28:44.5521 | DEBUG | Response markup was updated to include browser refresh script injection.
+2024-05-06 20:28:44.5521 | DEBUG | Connection id "0HN3DP07UTLLK" completed keep alive response.
+2024-05-06 20:28:44.5521 | INFO | Request starting HTTP/1.1 GET http://localhost:5149/_framework/aspnetcore-browser-refresh.js - -
+2024-05-06 20:28:44.5521 | INFO | Request finished HTTP/1.1 GET http://localhost:5149/swagger/index.html - - - 200 - text/html;charset=utf-8 286.0840ms
+2024-05-06 20:28:44.5521 | DEBUG | Connection id "0HN3DP07UTLLL" completed keep alive response.
+2024-05-06 20:28:44.5521 | INFO | Request finished HTTP/1.1 GET http://localhost:5149/_framework/aspnetcore-browser-refresh.js - - - 200 13776 application/javascript;+charset=utf-8 3.9324ms
+2024-05-06 20:28:44.5521 | INFO | Request starting HTTP/1.1 GET http://localhost:5149/_vs/browserLink - -
+2024-05-06 20:28:44.5999 | DEBUG | Connection id "0HN3DP07UTLLK" completed keep alive response.
+2024-05-06 20:28:44.5999 | INFO | Request finished HTTP/1.1 GET http://localhost:5149/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 41.0499ms
+2024-05-06 20:28:44.6466 | INFO | Request starting HTTP/1.1 GET http://localhost:5149/swagger/东泽房源管理接口/swagger.json - -
+2024-05-06 20:28:44.6466 | TRACE | All hosts are allowed.
+2024-05-06 20:28:44.6466 | DEBUG | No candidates found for the request path '/swagger/东泽房源管理接口/swagger.json'
+2024-05-06 20:28:44.6466 | DEBUG | Request did not match any endpoints
+2024-05-06 20:28:44.9590 | DEBUG | Connection id "0HN3DP07UTLLK" completed keep alive response.
+2024-05-06 20:28:44.9590 | INFO | Request finished HTTP/1.1 GET http://localhost:5149/swagger/东泽房源管理接口/swagger.json - - - 200 - application/json;charset=utf-8 312.5493ms
+2024-05-06 20:28:46.2983 | INFO | Request starting HTTP/1.1 GET http://localhost:5149/swagger/报表接口/swagger.json - -
+2024-05-06 20:28:46.2983 | TRACE | All hosts are allowed.
+2024-05-06 20:28:46.2983 | DEBUG | No candidates found for the request path '/swagger/报表接口/swagger.json'
+2024-05-06 20:28:46.2983 | DEBUG | Request did not match any endpoints
+2024-05-06 20:28:46.3017 | DEBUG | Connection id "0HN3DP07UTLLK" completed keep alive response.
+2024-05-06 20:28:46.3017 | INFO | Request finished HTTP/1.1 GET http://localhost:5149/swagger/报表接口/swagger.json - - - 200 - application/json;charset=utf-8 3.5223ms
+2024-05-06 20:28:47.2732 | DEBUG | Connection id "0HN3DP07UTLLL" received FIN.
+2024-05-06 20:28:47.2732 | DEBUG | Connection id "0HN3DP07UTLLK" received FIN.
+2024-05-06 20:28:47.2732 | DEBUG | Connection id "0HN3DP07UTLLL" disconnecting.
+2024-05-06 20:28:47.2732 | DEBUG | Connection id "0HN3DP07UTLLK" sending FIN because: "The Socket transport's send loop completed gracefully."
+2024-05-06 20:28:47.2732 | DEBUG | Connection id "0HN3DP07UTLLL" sending FIN because: "The Socket transport's send loop completed gracefully."
+2024-05-06 20:28:47.2732 | DEBUG | Connection id "0HN3DP07UTLLK" disconnecting.
+2024-05-06 20:28:47.2732 | DEBUG | Connection id "0HN3DP07UTLLK" stopped.
+2024-05-06 20:28:47.2732 | DEBUG | Connection id "0HN3DP07UTLLL" stopped.
+2024-05-06 20:29:00.3980 | DEBUG | Connection id "0HN3DP07UTLLM" accepted.
+2024-05-06 20:29:00.3980 | DEBUG | Connection id "0HN3DP07UTLLM" started.
+2024-05-06 20:29:00.3980 | INFO | Request starting HTTP/1.1 POST http://localhost:5149/api/StandingsStock application/json 17
+2024-05-06 20:29:00.3980 | TRACE | All hosts are allowed.
+2024-05-06 20:29:00.3980 | DEBUG | 1 candidate(s) found for the request path '/api/StandingsStock'
+2024-05-06 20:29:00.3980 | DEBUG | Endpoint 'webapi.net7.sqlsugar.Controllers.ReportController.StandingsStock (webapi.net7.sqlsugar)' with route pattern 'api/StandingsStock' is valid for the request path '/api/StandingsStock'
+2024-05-06 20:29:00.3980 | DEBUG | Request matched endpoint 'webapi.net7.sqlsugar.Controllers.ReportController.StandingsStock (webapi.net7.sqlsugar)'
+2024-05-06 20:29:00.3980 | DEBUG | Static files was skipped as the request already matched an endpoint.
+2024-05-06 20:29:00.3980 | DEBUG | Static files was skipped as the request already matched an endpoint.
+2024-05-06 20:29:00.4179 | WARN | Failed to determine the https port for redirect.
+2024-05-06 20:29:00.4865 | DEBUG | AuthenticationScheme: Bearer was not authenticated.
+2024-05-06 20:29:00.4888 | DEBUG | The request has an origin header: 'http://localhost:5149'.
+2024-05-06 20:29:00.4888 | INFO | CORS policy execution successful.
+2024-05-06 20:29:00.4888 | INFO | Executing endpoint 'webapi.net7.sqlsugar.Controllers.ReportController.StandingsStock (webapi.net7.sqlsugar)'
+2024-05-06 20:29:00.5163 | INFO | Route matched with {action = "StandingsStock", controller = "Report"}. Executing controller action with signature System.Object StandingsStock(System.Object) on controller webapi.net7.sqlsugar.Controllers.ReportController (webapi.net7.sqlsugar).
+2024-05-06 20:29:00.5163 | DEBUG | Execution plan of authorization filters (in the following order): None
+2024-05-06 20:29:00.5163 | DEBUG | Execution plan of resource filters (in the following order): None
+2024-05-06 20:29:00.5163 | DEBUG | Execution plan of action filters (in the following order): Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000), Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)
+2024-05-06 20:29:00.5163 | DEBUG | Execution plan of exception filters (in the following order): None
+2024-05-06 20:29:00.5163 | DEBUG | Execution plan of result filters (in the following order): Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)
+2024-05-06 20:29:00.5163 | DEBUG | Executing controller factory for controller webapi.net7.sqlsugar.Controllers.ReportController (webapi.net7.sqlsugar)
+2024-05-06 20:29:00.5199 | DEBUG | Executed controller factory for controller webapi.net7.sqlsugar.Controllers.ReportController (webapi.net7.sqlsugar)
+2024-05-06 20:29:00.5199 | DEBUG | Attempting to bind parameter 'ob' of type 'System.Object' ...
+2024-05-06 20:29:00.5199 | DEBUG | Attempting to bind parameter 'ob' of type 'System.Object' using the name '' in request data ...
+2024-05-06 20:29:00.5199 | DEBUG | Selected input formatter 'Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonInputFormatter' for content type 'application/json'.
+2024-05-06 20:29:00.5403 | DEBUG | Connection id "0HN3DP07UTLLM", Request id "0HN3DP07UTLLM:00000001": started reading request body.
+2024-05-06 20:29:00.5403 | DEBUG | Connection id "0HN3DP07UTLLM", Request id "0HN3DP07UTLLM:00000001": done reading request body.
+2024-05-06 20:29:00.5403 | DEBUG | JSON input formatter succeeded, deserializing to type 'System.Object'
+2024-05-06 20:29:00.5403 | DEBUG | Done attempting to bind parameter 'ob' of type 'System.Object'.
+2024-05-06 20:29:00.5403 | DEBUG | Done attempting to bind parameter 'ob' of type 'System.Object'.
+2024-05-06 20:29:00.5403 | DEBUG | Attempting to validate the bound parameter 'ob' of type 'System.Object' ...
+2024-05-06 20:29:00.5403 | DEBUG | Done attempting to validate the bound parameter 'ob' of type 'System.Object'.
+2024-05-06 20:29:00.5531 | TRACE | Action Filter: Before executing OnActionExecuting on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter.
+2024-05-06 20:29:00.5531 | TRACE | Action Filter: After executing OnActionExecuting on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter.
+2024-05-06 20:29:00.5531 | TRACE | Action Filter: Before executing OnActionExecuting on filter Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter.
+2024-05-06 20:29:00.5531 | TRACE | Action Filter: After executing OnActionExecuting on filter Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter.
+2024-05-06 20:29:00.5531 | INFO | Executing action method webapi.net7.sqlsugar.Controllers.ReportController.StandingsStock (webapi.net7.sqlsugar) - Validation state: Valid
+2024-05-06 20:29:00.5531 | TRACE | Executing action method webapi.net7.sqlsugar.Controllers.ReportController.StandingsStock (webapi.net7.sqlsugar) with arguments ({"cwhcode":"001"})
+2024-05-06 20:29:26.0954 | TRACE | Action Filter: Before executing OnActionExecuted on filter Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter.
+2024-05-06 20:29:26.0954 | TRACE | Action Filter: After executing OnActionExecuted on filter Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter.
+2024-05-06 20:29:26.0954 | TRACE | Action Filter: Before executing OnActionExecuted on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter.
+2024-05-06 20:29:26.0954 | TRACE | Action Filter: After executing OnActionExecuted on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter.
+2024-05-06 20:29:26.1079 | INFO | Executed action webapi.net7.sqlsugar.Controllers.ReportController.StandingsStock (webapi.net7.sqlsugar) in 25586.3537ms
+2024-05-06 20:29:26.1135 | INFO | Executed endpoint 'webapi.net7.sqlsugar.Controllers.ReportController.StandingsStock (webapi.net7.sqlsugar)'
+2024-05-06 20:29:26.1605 | ERROR | An unhandled exception has occurred while executing the request.
+2024-05-06 20:29:26.1605 | DEBUG | Connection id "0HN3DP07UTLLM" completed keep alive response.
+2024-05-06 20:29:26.1605 | INFO | Request finished HTTP/1.1 POST http://localhost:5149/api/StandingsStock application/json 17 - 500 - text/plain;+charset=utf-8 25768.2536ms
+2024-05-06 20:29:28.7659 | INFO | Request starting HTTP/1.1 POST http://localhost:5149/api/StandingsStock application/json 17
+2024-05-06 20:29:28.7659 | TRACE | All hosts are allowed.
+2024-05-06 20:29:28.7659 | DEBUG | 1 candidate(s) found for the request path '/api/StandingsStock'
+2024-05-06 20:29:28.7659 | DEBUG | Endpoint 'webapi.net7.sqlsugar.Controllers.ReportController.StandingsStock (webapi.net7.sqlsugar)' with route pattern 'api/StandingsStock' is valid for the request path '/api/StandingsStock'
+2024-05-06 20:29:28.7659 | DEBUG | Request matched endpoint 'webapi.net7.sqlsugar.Controllers.ReportController.StandingsStock (webapi.net7.sqlsugar)'
+2024-05-06 20:29:28.7659 | DEBUG | Static files was skipped as the request already matched an endpoint.
+2024-05-06 20:29:28.7659 | DEBUG | Static files was skipped as the request already matched an endpoint.
+2024-05-06 20:29:28.7659 | DEBUG | AuthenticationScheme: Bearer was not authenticated.
+2024-05-06 20:29:28.7659 | DEBUG | The request has an origin header: 'http://localhost:5149'.
+2024-05-06 20:29:28.7659 | INFO | CORS policy execution successful.
+2024-05-06 20:29:28.7659 | INFO | Executing endpoint 'webapi.net7.sqlsugar.Controllers.ReportController.StandingsStock (webapi.net7.sqlsugar)'
+2024-05-06 20:29:28.7659 | INFO | Route matched with {action = "StandingsStock", controller = "Report"}. Executing controller action with signature System.Object StandingsStock(System.Object) on controller webapi.net7.sqlsugar.Controllers.ReportController (webapi.net7.sqlsugar).
+2024-05-06 20:29:28.7659 | DEBUG | Execution plan of authorization filters (in the following order): None
+2024-05-06 20:29:28.7659 | DEBUG | Execution plan of resource filters (in the following order): None
+2024-05-06 20:29:28.7659 | DEBUG | Execution plan of action filters (in the following order): Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000), Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)
+2024-05-06 20:29:28.7659 | DEBUG | Execution plan of exception filters (in the following order): None
+2024-05-06 20:29:28.7659 | DEBUG | Execution plan of result filters (in the following order): Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)
+2024-05-06 20:29:28.7659 | DEBUG | Executing controller factory for controller webapi.net7.sqlsugar.Controllers.ReportController (webapi.net7.sqlsugar)
+2024-05-06 20:29:28.7659 | DEBUG | Executed controller factory for controller webapi.net7.sqlsugar.Controllers.ReportController (webapi.net7.sqlsugar)
+2024-05-06 20:29:28.7659 | DEBUG | Attempting to bind parameter 'ob' of type 'System.Object' ...
+2024-05-06 20:29:28.7659 | DEBUG | Attempting to bind parameter 'ob' of type 'System.Object' using the name '' in request data ...
+2024-05-06 20:29:28.7659 | DEBUG | Selected input formatter 'Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonInputFormatter' for content type 'application/json'.
+2024-05-06 20:29:28.7659 | DEBUG | Connection id "0HN3DP07UTLLM", Request id "0HN3DP07UTLLM:00000002": started reading request body.
+2024-05-06 20:29:28.7659 | DEBUG | Connection id "0HN3DP07UTLLM", Request id "0HN3DP07UTLLM:00000002": done reading request body.
+2024-05-06 20:29:28.7659 | DEBUG | JSON input formatter succeeded, deserializing to type 'System.Object'
+2024-05-06 20:29:28.7659 | DEBUG | Done attempting to bind parameter 'ob' of type 'System.Object'.
+2024-05-06 20:29:28.7659 | DEBUG | Done attempting to bind parameter 'ob' of type 'System.Object'.
+2024-05-06 20:29:28.7659 | DEBUG | Attempting to validate the bound parameter 'ob' of type 'System.Object' ...
+2024-05-06 20:29:28.7659 | DEBUG | Done attempting to validate the bound parameter 'ob' of type 'System.Object'.
+2024-05-06 20:29:28.7659 | TRACE | Action Filter: Before executing OnActionExecuting on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter.
+2024-05-06 20:29:28.7659 | TRACE | Action Filter: After executing OnActionExecuting on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter.
+2024-05-06 20:29:28.7659 | TRACE | Action Filter: Before executing OnActionExecuting on filter Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter.
+2024-05-06 20:29:28.7659 | TRACE | Action Filter: After executing OnActionExecuting on filter Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter.
+2024-05-06 20:29:28.7659 | INFO | Executing action method webapi.net7.sqlsugar.Controllers.ReportController.StandingsStock (webapi.net7.sqlsugar) - Validation state: Valid
+2024-05-06 20:29:28.7659 | TRACE | Executing action method webapi.net7.sqlsugar.Controllers.ReportController.StandingsStock (webapi.net7.sqlsugar) with arguments ({"cwhcode":"001"})
+2024-05-06 20:29:50.9440 | DEBUG | Registered model binder providers, in the following order: Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DateTimeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.TryParseModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinderProvider
+2024-05-06 20:29:51.0898 | DEBUG | Hosting starting
+2024-05-06 20:29:51.1153 | INFO | User profile is available. Using 'C:\Users\Administrator\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-05-06 20:29:51.1153 | DEBUG | Reading data from file 'C:\Users\Administrator\AppData\Local\ASP.NET\DataProtection-Keys\key-34692722-1836-4131-841e-52bc30c5cc34.xml'.
+2024-05-06 20:29:51.1153 | DEBUG | Reading data from file 'C:\Users\Administrator\AppData\Local\ASP.NET\DataProtection-Keys\key-691d2c1e-819d-4ace-bf8c-4b95df9c96f1.xml'.
+2024-05-06 20:29:51.1153 | DEBUG | Reading data from file 'C:\Users\Administrator\AppData\Local\ASP.NET\DataProtection-Keys\key-9c621d14-e4f3-453a-a88c-5b12868c45f6.xml'.
+2024-05-06 20:29:51.1153 | DEBUG | Found key {34692722-1836-4131-841e-52bc30c5cc34}.
+2024-05-06 20:29:51.1153 | DEBUG | Found key {691d2c1e-819d-4ace-bf8c-4b95df9c96f1}.
+2024-05-06 20:29:51.1153 | DEBUG | Found key {9c621d14-e4f3-453a-a88c-5b12868c45f6}.
+2024-05-06 20:29:51.1347 | DEBUG | Considering key {9c621d14-e4f3-453a-a88c-5b12868c45f6} with expiration date 2024-07-14 12:08:15Z as default key.
+2024-05-06 20:29:51.1347 | DEBUG | Forwarded activator type request from Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Version=7.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60 to Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60
+2024-05-06 20:29:51.1347 | DEBUG | Decrypting secret element using Windows DPAPI.
+2024-05-06 20:29:51.1347 | DEBUG | Forwarded activator type request from Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Version=7.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60 to Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60
+2024-05-06 20:29:51.1347 | DEBUG | Opening CNG algorithm 'AES' from provider '(null)' with chaining mode CBC.
+2024-05-06 20:29:51.1347 | DEBUG | Opening CNG algorithm 'SHA256' from provider '(null)' with HMAC.
+2024-05-06 20:29:51.1347 | DEBUG | Using key {9c621d14-e4f3-453a-a88c-5b12868c45f6} as the default key.
+2024-05-06 20:29:51.1347 | DEBUG | Key ring with default key {9c621d14-e4f3-453a-a88c-5b12868c45f6} was loaded during application startup.
+2024-05-06 20:29:51.2817 | INFO | Now listening on: http://localhost:5149
+2024-05-06 20:29:51.2817 | DEBUG | Loaded hosting startup assembly webapi.net7.sqlsugar
+2024-05-06 20:29:51.2817 | DEBUG | Loaded hosting startup assembly Microsoft.AspNetCore.Watch.BrowserRefresh
+2024-05-06 20:29:51.2817 | DEBUG | Loaded hosting startup assembly Microsoft.WebTools.BrowserLink.Net
+2024-05-06 20:29:51.2817 | INFO | Application started. Press Ctrl+C to shut down.
+2024-05-06 20:29:51.2864 | INFO | Hosting environment: Development
+2024-05-06 20:29:51.2864 | INFO | Content root path: D:\BaiduSyncdisk\webapi.net7+sqlsugar\webapi.net7.sqlsugar\webapi.net7.sqlsugar
+2024-05-06 20:29:51.2864 | DEBUG | Hosting started
+2024-05-06 20:29:51.4877 | DEBUG | Connection id "0HN3DP0T12PM3" accepted.
+2024-05-06 20:29:51.4877 | DEBUG | Connection id "0HN3DP0T12PM3" started.
+2024-05-06 20:29:51.4976 | DEBUG | Connection id "0HN3DP0T12PM4" accepted.
+2024-05-06 20:29:51.4976 | DEBUG | Connection id "0HN3DP0T12PM4" started.
+2024-05-06 20:29:51.5284 | DEBUG | Connection id "0HN3DP0T12PM3" received FIN.
+2024-05-06 20:29:51.5284 | DEBUG | Connection id "0HN3DP0T12PM4" received FIN.
+2024-05-06 20:29:51.5284 | DEBUG | Connection id "0HN3DP0T12PM4" sending FIN because: "The Socket transport's send loop completed gracefully."
+2024-05-06 20:29:51.5284 | DEBUG | Connection id "0HN3DP0T12PM3" sending FIN because: "The Socket transport's send loop completed gracefully."
+2024-05-06 20:29:51.5360 | DEBUG | Connection id "0HN3DP0T12PM4" disconnecting.
+2024-05-06 20:29:51.5360 | DEBUG | Connection id "0HN3DP0T12PM3" disconnecting.
+2024-05-06 20:29:51.5360 | DEBUG | Connection id "0HN3DP0T12PM3" stopped.
+2024-05-06 20:29:51.5360 | DEBUG | Connection id "0HN3DP0T12PM4" stopped.
+2024-05-06 20:29:55.5316 | DEBUG | Connection id "0HN3DP0T12PM5" accepted.
+2024-05-06 20:29:55.5316 | DEBUG | Connection id "0HN3DP0T12PM5" started.
+2024-05-06 20:29:55.5316 | DEBUG | Connection id "0HN3DP0T12PM6" accepted.
+2024-05-06 20:29:55.5316 | DEBUG | Connection id "0HN3DP0T12PM6" started.
+2024-05-06 20:29:55.5751 | INFO | Request starting HTTP/1.1 GET http://localhost:5149/swagger/index.html - -
+2024-05-06 20:29:55.6750 | DEBUG | Wildcard detected, all requests with hosts will be allowed.
+2024-05-06 20:29:55.6750 | TRACE | All hosts are allowed.
+2024-05-06 20:29:55.7025 | DEBUG | No candidates found for the request path '/swagger/index.html'
+2024-05-06 20:29:55.7025 | DEBUG | Request did not match any endpoints
+2024-05-06 20:29:55.8193 | DEBUG | Response markup is scheduled to include browser refresh script injection.
+2024-05-06 20:29:55.8403 | DEBUG | Response markup was updated to include browser refresh script injection.
+2024-05-06 20:29:55.8403 | DEBUG | Connection id "0HN3DP0T12PM5" completed keep alive response.
+2024-05-06 20:29:55.8403 | INFO | Request finished HTTP/1.1 GET http://localhost:5149/swagger/index.html - - - 200 - text/html;charset=utf-8 269.1925ms
+2024-05-06 20:29:55.8403 | INFO | Request starting HTTP/1.1 GET http://localhost:5149/_vs/browserLink - -
+2024-05-06 20:29:55.8477 | INFO | Request starting HTTP/1.1 GET http://localhost:5149/_framework/aspnetcore-browser-refresh.js - -
+2024-05-06 20:29:55.8477 | DEBUG | Connection id "0HN3DP0T12PM5" completed keep alive response.
+2024-05-06 20:29:55.8477 | INFO | Request finished HTTP/1.1 GET http://localhost:5149/_framework/aspnetcore-browser-refresh.js - - - 200 13776 application/javascript;+charset=utf-8 2.7561ms
+2024-05-06 20:29:55.8870 | DEBUG | Connection id "0HN3DP0T12PM6" completed keep alive response.
+2024-05-06 20:29:55.8870 | INFO | Request finished HTTP/1.1 GET http://localhost:5149/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 42.0140ms
+2024-05-06 20:29:55.9317 | INFO | Request starting HTTP/1.1 GET http://localhost:5149/swagger/东泽房源管理接口/swagger.json - -
+2024-05-06 20:29:55.9317 | TRACE | All hosts are allowed.
+2024-05-06 20:29:55.9317 | DEBUG | No candidates found for the request path '/swagger/东泽房源管理接口/swagger.json'
+2024-05-06 20:29:55.9317 | DEBUG | Request did not match any endpoints
+2024-05-06 20:29:56.2244 | DEBUG | Connection id "0HN3DP0T12PM6" completed keep alive response.
+2024-05-06 20:29:56.2244 | INFO | Request finished HTTP/1.1 GET http://localhost:5149/swagger/东泽房源管理接口/swagger.json - - - 200 - application/json;charset=utf-8 292.8524ms
+2024-05-06 20:29:58.0380 | INFO | Request starting HTTP/1.1 GET http://localhost:5149/swagger/报表接口/swagger.json - -
+2024-05-06 20:29:58.0380 | TRACE | All hosts are allowed.
+2024-05-06 20:29:58.0380 | DEBUG | No candidates found for the request path '/swagger/报表接口/swagger.json'
+2024-05-06 20:29:58.0380 | DEBUG | Request did not match any endpoints
+2024-05-06 20:29:58.0380 | DEBUG | Connection id "0HN3DP0T12PM6" completed keep alive response.
+2024-05-06 20:29:58.0380 | INFO | Request finished HTTP/1.1 GET http://localhost:5149/swagger/报表接口/swagger.json - - - 200 - application/json;charset=utf-8 4.0337ms
+2024-05-06 20:29:58.5930 | DEBUG | Connection id "0HN3DP0T12PM5" received FIN.
+2024-05-06 20:29:58.5930 | DEBUG | Connection id "0HN3DP0T12PM6" received FIN.
+2024-05-06 20:29:58.5930 | DEBUG | Connection id "0HN3DP0T12PM5" disconnecting.
+2024-05-06 20:29:58.5930 | DEBUG | Connection id "0HN3DP0T12PM6" disconnecting.
+2024-05-06 20:29:58.5930 | DEBUG | Connection id "0HN3DP0T12PM6" stopped.
+2024-05-06 20:29:58.5930 | DEBUG | Connection id "0HN3DP0T12PM5" sending FIN because: "The Socket transport's send loop completed gracefully."
+2024-05-06 20:29:58.5930 | DEBUG | Connection id "0HN3DP0T12PM6" sending FIN because: "The Socket transport's send loop completed gracefully."
+2024-05-06 20:29:58.5988 | DEBUG | Connection id "0HN3DP0T12PM5" stopped.
+2024-05-06 20:30:13.7957 | DEBUG | Connection id "0HN3DP0T12PM7" accepted.
+2024-05-06 20:30:13.7957 | DEBUG | Connection id "0HN3DP0T12PM7" started.
+2024-05-06 20:30:13.7957 | INFO | Request starting HTTP/1.1 POST http://localhost:5149/api/StandingsStock application/json 17
+2024-05-06 20:30:13.7957 | TRACE | All hosts are allowed.
+2024-05-06 20:30:13.7957 | DEBUG | 1 candidate(s) found for the request path '/api/StandingsStock'
+2024-05-06 20:30:13.8042 | DEBUG | Endpoint 'webapi.net7.sqlsugar.Controllers.ReportController.StandingsStock (webapi.net7.sqlsugar)' with route pattern 'api/StandingsStock' is valid for the request path '/api/StandingsStock'
+2024-05-06 20:30:13.8042 | DEBUG | Request matched endpoint 'webapi.net7.sqlsugar.Controllers.ReportController.StandingsStock (webapi.net7.sqlsugar)'
+2024-05-06 20:30:13.8042 | DEBUG | Static files was skipped as the request already matched an endpoint.
+2024-05-06 20:30:13.8042 | DEBUG | Static files was skipped as the request already matched an endpoint.
+2024-05-06 20:30:13.8204 | WARN | Failed to determine the https port for redirect.
+2024-05-06 20:30:13.8921 | DEBUG | AuthenticationScheme: Bearer was not authenticated.
+2024-05-06 20:30:13.8921 | DEBUG | The request has an origin header: 'http://localhost:5149'.
+2024-05-06 20:30:13.8921 | INFO | CORS policy execution successful.
+2024-05-06 20:30:13.8949 | INFO | Executing endpoint 'webapi.net7.sqlsugar.Controllers.ReportController.StandingsStock (webapi.net7.sqlsugar)'
+2024-05-06 20:30:13.9220 | INFO | Route matched with {action = "StandingsStock", controller = "Report"}. Executing controller action with signature System.Object StandingsStock(System.Object) on controller webapi.net7.sqlsugar.Controllers.ReportController (webapi.net7.sqlsugar).
+2024-05-06 20:30:13.9220 | DEBUG | Execution plan of authorization filters (in the following order): None
+2024-05-06 20:30:13.9220 | DEBUG | Execution plan of resource filters (in the following order): None
+2024-05-06 20:30:13.9220 | DEBUG | Execution plan of action filters (in the following order): Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000), Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)
+2024-05-06 20:30:13.9220 | DEBUG | Execution plan of exception filters (in the following order): None
+2024-05-06 20:30:13.9220 | DEBUG | Execution plan of result filters (in the following order): Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)
+2024-05-06 20:30:13.9260 | DEBUG | Executing controller factory for controller webapi.net7.sqlsugar.Controllers.ReportController (webapi.net7.sqlsugar)
+2024-05-06 20:30:13.9260 | DEBUG | Executed controller factory for controller webapi.net7.sqlsugar.Controllers.ReportController (webapi.net7.sqlsugar)
+2024-05-06 20:30:13.9260 | DEBUG | Attempting to bind parameter 'ob' of type 'System.Object' ...
+2024-05-06 20:30:13.9260 | DEBUG | Attempting to bind parameter 'ob' of type 'System.Object' using the name '' in request data ...
+2024-05-06 20:30:13.9260 | DEBUG | Selected input formatter 'Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonInputFormatter' for content type 'application/json'.
+2024-05-06 20:30:13.9457 | DEBUG | Connection id "0HN3DP0T12PM7", Request id "0HN3DP0T12PM7:00000001": started reading request body.
+2024-05-06 20:30:13.9457 | DEBUG | Connection id "0HN3DP0T12PM7", Request id "0HN3DP0T12PM7:00000001": done reading request body.
+2024-05-06 20:30:13.9457 | DEBUG | JSON input formatter succeeded, deserializing to type 'System.Object'
+2024-05-06 20:30:13.9457 | DEBUG | Done attempting to bind parameter 'ob' of type 'System.Object'.
+2024-05-06 20:30:13.9457 | DEBUG | Done attempting to bind parameter 'ob' of type 'System.Object'.
+2024-05-06 20:30:13.9457 | DEBUG | Attempting to validate the bound parameter 'ob' of type 'System.Object' ...
+2024-05-06 20:30:13.9457 | DEBUG | Done attempting to validate the bound parameter 'ob' of type 'System.Object'.
+2024-05-06 20:30:13.9457 | TRACE | Action Filter: Before executing OnActionExecuting on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter.
+2024-05-06 20:30:13.9457 | TRACE | Action Filter: After executing OnActionExecuting on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter.
+2024-05-06 20:30:13.9457 | TRACE | Action Filter: Before executing OnActionExecuting on filter Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter.
+2024-05-06 20:30:13.9457 | TRACE | Action Filter: After executing OnActionExecuting on filter Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter.
+2024-05-06 20:30:13.9625 | INFO | Executing action method webapi.net7.sqlsugar.Controllers.ReportController.StandingsStock (webapi.net7.sqlsugar) - Validation state: Valid
+2024-05-06 20:30:13.9625 | TRACE | Executing action method webapi.net7.sqlsugar.Controllers.ReportController.StandingsStock (webapi.net7.sqlsugar) with arguments ({"cwhcode":"001"})
+2024-05-06 20:30:32.6809 | TRACE | Action Filter: Before executing OnActionExecuted on filter Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter.
+2024-05-06 20:30:32.6809 | TRACE | Action Filter: After executing OnActionExecuted on filter Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter.
+2024-05-06 20:30:32.6809 | TRACE | Action Filter: Before executing OnActionExecuted on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter.
+2024-05-06 20:30:32.6809 | TRACE | Action Filter: After executing OnActionExecuted on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter.
+2024-05-06 20:30:32.6969 | INFO | Executed action webapi.net7.sqlsugar.Controllers.ReportController.StandingsStock (webapi.net7.sqlsugar) in 18767.9917ms
+2024-05-06 20:30:32.6969 | INFO | Executed endpoint 'webapi.net7.sqlsugar.Controllers.ReportController.StandingsStock (webapi.net7.sqlsugar)'
+2024-05-06 20:30:32.7633 | ERROR | An unhandled exception has occurred while executing the request.
+2024-05-06 20:30:32.7633 | DEBUG | Connection id "0HN3DP0T12PM7" completed keep alive response.
+2024-05-06 20:30:32.7633 | INFO | Request finished HTTP/1.1 POST http://localhost:5149/api/StandingsStock application/json 17 - 500 - text/plain;+charset=utf-8 18970.1091ms
+2024-05-06 20:30:34.9165 | INFO | Request starting HTTP/1.1 POST http://localhost:5149/api/StandingsStock application/json 17
+2024-05-06 20:30:34.9165 | TRACE | All hosts are allowed.
+2024-05-06 20:30:34.9165 | DEBUG | 1 candidate(s) found for the request path '/api/StandingsStock'
+2024-05-06 20:30:34.9165 | DEBUG | Endpoint 'webapi.net7.sqlsugar.Controllers.ReportController.StandingsStock (webapi.net7.sqlsugar)' with route pattern 'api/StandingsStock' is valid for the request path '/api/StandingsStock'
+2024-05-06 20:30:34.9165 | DEBUG | Request matched endpoint 'webapi.net7.sqlsugar.Controllers.ReportController.StandingsStock (webapi.net7.sqlsugar)'
+2024-05-06 20:30:34.9165 | DEBUG | Static files was skipped as the request already matched an endpoint.
+2024-05-06 20:30:34.9165 | DEBUG | Static files was skipped as the request already matched an endpoint.
+2024-05-06 20:30:34.9165 | DEBUG | AuthenticationScheme: Bearer was not authenticated.
+2024-05-06 20:30:34.9165 | DEBUG | The request has an origin header: 'http://localhost:5149'.
+2024-05-06 20:30:34.9165 | INFO | CORS policy execution successful.
+2024-05-06 20:30:34.9165 | INFO | Executing endpoint 'webapi.net7.sqlsugar.Controllers.ReportController.StandingsStock (webapi.net7.sqlsugar)'
+2024-05-06 20:30:34.9165 | INFO | Route matched with {action = "StandingsStock", controller = "Report"}. Executing controller action with signature System.Object StandingsStock(System.Object) on controller webapi.net7.sqlsugar.Controllers.ReportController (webapi.net7.sqlsugar).
+2024-05-06 20:30:34.9165 | DEBUG | Execution plan of authorization filters (in the following order): None
+2024-05-06 20:30:34.9165 | DEBUG | Execution plan of resource filters (in the following order): None
+2024-05-06 20:30:34.9165 | DEBUG | Execution plan of action filters (in the following order): Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000), Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)
+2024-05-06 20:30:34.9165 | DEBUG | Execution plan of exception filters (in the following order): None
+2024-05-06 20:30:34.9165 | DEBUG | Execution plan of result filters (in the following order): Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)
+2024-05-06 20:30:34.9165 | DEBUG | Executing controller factory for controller webapi.net7.sqlsugar.Controllers.ReportController (webapi.net7.sqlsugar)
+2024-05-06 20:30:34.9165 | DEBUG | Executed controller factory for controller webapi.net7.sqlsugar.Controllers.ReportController (webapi.net7.sqlsugar)
+2024-05-06 20:30:34.9165 | DEBUG | Attempting to bind parameter 'ob' of type 'System.Object' ...
+2024-05-06 20:30:34.9165 | DEBUG | Attempting to bind parameter 'ob' of type 'System.Object' using the name '' in request data ...
+2024-05-06 20:30:34.9165 | DEBUG | Selected input formatter 'Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonInputFormatter' for content type 'application/json'.
+2024-05-06 20:30:34.9165 | DEBUG | Connection id "0HN3DP0T12PM7", Request id "0HN3DP0T12PM7:00000002": started reading request body.
+2024-05-06 20:30:34.9165 | DEBUG | Connection id "0HN3DP0T12PM7", Request id "0HN3DP0T12PM7:00000002": done reading request body.
+2024-05-06 20:30:34.9165 | DEBUG | JSON input formatter succeeded, deserializing to type 'System.Object'
+2024-05-06 20:30:34.9165 | DEBUG | Done attempting to bind parameter 'ob' of type 'System.Object'.
+2024-05-06 20:30:34.9165 | DEBUG | Done attempting to bind parameter 'ob' of type 'System.Object'.
+2024-05-06 20:30:34.9165 | DEBUG | Attempting to validate the bound parameter 'ob' of type 'System.Object' ...
+2024-05-06 20:30:34.9165 | DEBUG | Done attempting to validate the bound parameter 'ob' of type 'System.Object'.
+2024-05-06 20:30:34.9165 | TRACE | Action Filter: Before executing OnActionExecuting on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter.
+2024-05-06 20:30:34.9165 | TRACE | Action Filter: After executing OnActionExecuting on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter.
+2024-05-06 20:30:34.9165 | TRACE | Action Filter: Before executing OnActionExecuting on filter Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter.
+2024-05-06 20:30:34.9165 | TRACE | Action Filter: After executing OnActionExecuting on filter Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter.
+2024-05-06 20:30:34.9165 | INFO | Executing action method webapi.net7.sqlsugar.Controllers.ReportController.StandingsStock (webapi.net7.sqlsugar) - Validation state: Valid
+2024-05-06 20:30:34.9165 | TRACE | Executing action method webapi.net7.sqlsugar.Controllers.ReportController.StandingsStock (webapi.net7.sqlsugar) with arguments ({"cwhcode":"001"})
+2024-05-06 20:30:35.1177 | INFO | Executed action method webapi.net7.sqlsugar.Controllers.ReportController.StandingsStock (webapi.net7.sqlsugar), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 194.8296ms.
+2024-05-06 20:30:35.1177 | TRACE | Action Filter: Before executing OnActionExecuted on filter Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter.
+2024-05-06 20:30:35.1177 | TRACE | Action Filter: After executing OnActionExecuted on filter Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter.
+2024-05-06 20:30:35.1177 | TRACE | Action Filter: Before executing OnActionExecuted on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter.
+2024-05-06 20:30:35.1177 | TRACE | Action Filter: After executing OnActionExecuted on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter.
+2024-05-06 20:30:35.1177 | TRACE | Result Filter: Before executing OnResultExecuting on filter Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter.
+2024-05-06 20:30:35.1177 | TRACE | Result Filter: After executing OnResultExecuting on filter Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter.
+2024-05-06 20:30:35.1177 | TRACE | Before executing action result Microsoft.AspNetCore.Mvc.ObjectResult.
+2024-05-06 20:30:35.1177 | DEBUG | List of registered output formatters, in the following order: Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter, Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter, Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter, Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter
+2024-05-06 20:30:35.1177 | DEBUG | No information found on request to perform content negotiation.
+2024-05-06 20:30:35.1177 | DEBUG | Attempting to select an output formatter without using a content type as no explicit content types were specified for the response.
+2024-05-06 20:30:35.1177 | DEBUG | Attempting to select the first formatter in the output formatters list which can write the result.
+2024-05-06 20:30:35.1177 | DEBUG | Selected output formatter 'Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter' and content type 'text/plain' to write the response.
+2024-05-06 20:30:35.1177 | INFO | Executing ObjectResult, writing value of type 'System.String'.
+2024-05-06 20:30:35.1177 | TRACE | After executing action result Microsoft.AspNetCore.Mvc.ObjectResult.
+2024-05-06 20:30:35.1177 | TRACE | Result Filter: Before executing OnResultExecuted on filter Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter.
+2024-05-06 20:30:35.1177 | TRACE | Result Filter: After executing OnResultExecuted on filter Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter.
+2024-05-06 20:30:35.1177 | INFO | Executed action webapi.net7.sqlsugar.Controllers.ReportController.StandingsStock (webapi.net7.sqlsugar) in 204.3389ms
+2024-05-06 20:30:35.1177 | INFO | Executed endpoint 'webapi.net7.sqlsugar.Controllers.ReportController.StandingsStock (webapi.net7.sqlsugar)'
+2024-05-06 20:30:35.1177 | DEBUG | Connection id "0HN3DP0T12PM7" completed keep alive response.
+2024-05-06 20:30:35.1177 | INFO | Request finished HTTP/1.1 POST http://localhost:5149/api/StandingsStock application/json 17 - 200 - text/plain;+charset=utf-8 207.1921ms
+2024-05-06 20:35:36.3723 | DEBUG | Connection id "0HN3DP0T12PM7" received FIN.
+2024-05-06 20:35:36.3723 | DEBUG | Connection id "0HN3DP0T12PM7" disconnecting.
+2024-05-06 20:35:36.3723 | DEBUG | Connection id "0HN3DP0T12PM7" stopped.
+2024-05-06 20:35:36.3800 | DEBUG | Connection id "0HN3DP0T12PM7" sending FIN because: "The Socket transport's send loop completed gracefully."
+2024-05-06 20:37:22.7988 | DEBUG | Connection id "0HN3DP0T12PM8" accepted.
+2024-05-06 20:37:22.8125 | DEBUG | Connection id "0HN3DP0T12PM8" started.
+2024-05-06 20:37:22.8125 | INFO | Request starting HTTP/1.1 POST http://localhost:5149/api/Payable - 0
+2024-05-06 20:37:22.8125 | TRACE | All hosts are allowed.
+2024-05-06 20:37:22.8125 | DEBUG | 1 candidate(s) found for the request path '/api/Payable'
+2024-05-06 20:37:22.8125 | DEBUG | Endpoint 'webapi.net7.sqlsugar.Controllers.ReportController.Payable (webapi.net7.sqlsugar)' with route pattern 'api/Payable' is valid for the request path '/api/Payable'
+2024-05-06 20:37:22.8125 | DEBUG | Request matched endpoint 'webapi.net7.sqlsugar.Controllers.ReportController.Payable (webapi.net7.sqlsugar)'
+2024-05-06 20:37:22.8125 | DEBUG | Static files was skipped as the request already matched an endpoint.
+2024-05-06 20:37:22.8125 | DEBUG | Static files was skipped as the request already matched an endpoint.
+2024-05-06 20:37:22.8172 | DEBUG | AuthenticationScheme: Bearer was not authenticated.
+2024-05-06 20:37:22.8172 | DEBUG | The request has an origin header: 'http://localhost:5149'.
+2024-05-06 20:37:22.8172 | INFO | CORS policy execution successful.
+2024-05-06 20:37:22.8172 | INFO | Executing endpoint 'webapi.net7.sqlsugar.Controllers.ReportController.Payable (webapi.net7.sqlsugar)'
+2024-05-06 20:37:22.8172 | INFO | Route matched with {action = "Payable", controller = "Report"}. Executing controller action with signature System.Object Payable() on controller webapi.net7.sqlsugar.Controllers.ReportController (webapi.net7.sqlsugar).
+2024-05-06 20:37:22.8172 | DEBUG | Execution plan of authorization filters (in the following order): None
+2024-05-06 20:37:22.8172 | DEBUG | Execution plan of resource filters (in the following order): None
+2024-05-06 20:37:22.8172 | DEBUG | Execution plan of action filters (in the following order): Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000), Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)
+2024-05-06 20:37:22.8172 | DEBUG | Execution plan of exception filters (in the following order): None
+2024-05-06 20:37:22.8172 | DEBUG | Execution plan of result filters (in the following order): Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)
+2024-05-06 20:37:22.8172 | DEBUG | Executing controller factory for controller webapi.net7.sqlsugar.Controllers.ReportController (webapi.net7.sqlsugar)
+2024-05-06 20:37:22.8172 | DEBUG | Executed controller factory for controller webapi.net7.sqlsugar.Controllers.ReportController (webapi.net7.sqlsugar)
+2024-05-06 20:37:22.8172 | TRACE | Action Filter: Before executing OnActionExecuting on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter.
+2024-05-06 20:37:22.8172 | TRACE | Action Filter: After executing OnActionExecuting on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter.
+2024-05-06 20:37:22.8172 | TRACE | Action Filter: Before executing OnActionExecuting on filter Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter.
+2024-05-06 20:37:22.8172 | TRACE | Action Filter: After executing OnActionExecuting on filter Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter.
+2024-05-06 20:37:22.8172 | INFO | Executing action method webapi.net7.sqlsugar.Controllers.ReportController.Payable (webapi.net7.sqlsugar) - Validation state: Valid
+2024-05-06 20:37:22.8172 | INFO | Executed action method webapi.net7.sqlsugar.Controllers.ReportController.Payable (webapi.net7.sqlsugar), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 0.1661ms.
+2024-05-06 20:37:22.8172 | TRACE | Action Filter: Before executing OnActionExecuted on filter Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter.
+2024-05-06 20:37:22.8172 | TRACE | Action Filter: After executing OnActionExecuted on filter Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter.
+2024-05-06 20:37:22.8172 | TRACE | Action Filter: Before executing OnActionExecuted on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter.
+2024-05-06 20:37:22.8172 | TRACE | Action Filter: After executing OnActionExecuted on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter.
+2024-05-06 20:37:22.8172 | TRACE | Result Filter: Before executing OnResultExecuting on filter Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter.
+2024-05-06 20:37:22.8172 | TRACE | Result Filter: After executing OnResultExecuting on filter Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter.
+2024-05-06 20:37:22.8172 | TRACE | Before executing action result Microsoft.AspNetCore.Mvc.ObjectResult.
+2024-05-06 20:37:22.8172 | DEBUG | List of registered output formatters, in the following order: Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter, Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter, Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter, Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter
+2024-05-06 20:37:22.8172 | DEBUG | No information found on request to perform content negotiation.
+2024-05-06 20:37:22.8172 | DEBUG | Attempting to select an output formatter without using a content type as no explicit content types were specified for the response.
+2024-05-06 20:37:22.8172 | DEBUG | Attempting to select the first formatter in the output formatters list which can write the result.
+2024-05-06 20:37:22.8172 | DEBUG | Selected output formatter 'Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter' and content type '' to write the response.
+2024-05-06 20:37:22.8172 | INFO | Executing ObjectResult, writing value of type 'null'.
+2024-05-06 20:37:22.8172 | TRACE | After executing action result Microsoft.AspNetCore.Mvc.ObjectResult.
+2024-05-06 20:37:22.8172 | TRACE | Result Filter: Before executing OnResultExecuted on filter Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter.
+2024-05-06 20:37:22.8172 | TRACE | Result Filter: After executing OnResultExecuted on filter Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter.
+2024-05-06 20:37:22.8172 | INFO | Executed action webapi.net7.sqlsugar.Controllers.ReportController.Payable (webapi.net7.sqlsugar) in 0.9939ms
+2024-05-06 20:37:22.8172 | INFO | Executed endpoint 'webapi.net7.sqlsugar.Controllers.ReportController.Payable (webapi.net7.sqlsugar)'
+2024-05-06 20:37:22.8172 | DEBUG | Connection id "0HN3DP0T12PM8" completed keep alive response.
+2024-05-06 20:37:22.8172 | INFO | Request finished HTTP/1.1 POST http://localhost:5149/api/Payable - 0 - 204 - - 7.2777ms
+2024-05-06 20:43:20.5281 | DEBUG | Connection id "0HN3DP0T12PM8" received FIN.
+2024-05-06 20:43:20.5281 | DEBUG | Connection id "0HN3DP0T12PM8" disconnecting.
+2024-05-06 20:43:20.5281 | DEBUG | Connection id "0HN3DP0T12PM8" sending FIN because: "The Socket transport's send loop completed gracefully."
+2024-05-06 20:43:20.5281 | DEBUG | Connection id "0HN3DP0T12PM8" stopped.

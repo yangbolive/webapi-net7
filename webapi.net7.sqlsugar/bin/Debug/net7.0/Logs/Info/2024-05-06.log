@@ -1,0 +1,158 @@
+2024-05-06 20:17:53.2987 | INFO | User profile is available. Using 'C:\Users\Administrator\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-05-06 20:17:53.8590 | INFO | Now listening on: http://localhost:5149
+2024-05-06 20:17:53.8590 | INFO | Application started. Press Ctrl+C to shut down.
+2024-05-06 20:17:53.8639 | INFO | Hosting environment: Development
+2024-05-06 20:17:53.8639 | INFO | Content root path: D:\BaiduSyncdisk\webapi.net7+sqlsugar\webapi.net7.sqlsugar\webapi.net7.sqlsugar
+2024-05-06 20:17:57.4285 | INFO | Request starting HTTP/1.1 GET http://localhost:5149/swagger - -
+2024-05-06 20:17:57.8116 | INFO | Request finished HTTP/1.1 GET http://localhost:5149/swagger - - - 301 0 - 386.2957ms
+2024-05-06 20:17:57.8205 | INFO | Request starting HTTP/1.1 GET http://localhost:5149/swagger/index.html - -
+2024-05-06 20:17:57.9428 | INFO | Request finished HTTP/1.1 GET http://localhost:5149/swagger/index.html - - - 200 - text/html;charset=utf-8 133.9472ms
+2024-05-06 20:17:57.9584 | INFO | Request starting HTTP/1.1 GET http://localhost:5149/swagger/swagger-ui.css - -
+2024-05-06 20:17:57.9584 | INFO | Request starting HTTP/1.1 GET http://localhost:5149/swagger/swagger-ui-bundle.js - -
+2024-05-06 20:17:57.9584 | INFO | Request starting HTTP/1.1 GET http://localhost:5149/swagger/swagger-ui-standalone-preset.js - -
+2024-05-06 20:17:57.9584 | INFO | Request starting HTTP/1.1 GET http://localhost:5149/_framework/aspnetcore-browser-refresh.js - -
+2024-05-06 20:17:57.9584 | INFO | Request starting HTTP/1.1 GET http://localhost:5149/_vs/browserLink - -
+2024-05-06 20:17:57.9724 | INFO | Request finished HTTP/1.1 GET http://localhost:5149/_framework/aspnetcore-browser-refresh.js - - - 200 13776 application/javascript;+charset=utf-8 10.6592ms
+2024-05-06 20:17:58.0370 | INFO | Sending file. Request path: '/swagger-ui-standalone-preset.js'. Physical path: 'N/A'
+2024-05-06 20:17:58.0370 | INFO | Sending file. Request path: '/swagger-ui.css'. Physical path: 'N/A'
+2024-05-06 20:17:58.0370 | INFO | Request finished HTTP/1.1 GET http://localhost:5149/swagger/swagger-ui-standalone-preset.js - - - 200 312163 text/javascript 80.7460ms
+2024-05-06 20:17:58.0370 | INFO | Request finished HTTP/1.1 GET http://localhost:5149/swagger/swagger-ui.css - - - 200 144929 text/css 84.2012ms
+2024-05-06 20:17:58.0370 | INFO | Sending file. Request path: '/swagger-ui-bundle.js'. Physical path: 'N/A'
+2024-05-06 20:17:58.0370 | INFO | Request finished HTTP/1.1 GET http://localhost:5149/swagger/swagger-ui-bundle.js - - - 200 1061536 text/javascript 90.1339ms
+2024-05-06 20:17:58.0798 | INFO | Request finished HTTP/1.1 GET http://localhost:5149/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 108.6248ms
+2024-05-06 20:17:58.2798 | INFO | Request starting HTTP/1.1 GET http://localhost:5149/swagger/东泽房源管理接口/swagger.json - -
+2024-05-06 20:17:58.2982 | INFO | Request starting HTTP/1.1 GET http://localhost:5149/swagger/favicon-32x32.png - -
+2024-05-06 20:17:58.2982 | INFO | Sending file. Request path: '/favicon-32x32.png'. Physical path: 'N/A'
+2024-05-06 20:17:58.2982 | INFO | Request finished HTTP/1.1 GET http://localhost:5149/swagger/favicon-32x32.png - - - 200 628 image/png 0.7626ms
+2024-05-06 20:17:58.7262 | INFO | Request finished HTTP/1.1 GET http://localhost:5149/swagger/东泽房源管理接口/swagger.json - - - 200 - application/json;charset=utf-8 446.5910ms
+2024-05-06 20:18:00.0374 | INFO | Request starting HTTP/1.1 GET http://localhost:5149/swagger/报表接口/swagger.json - -
+2024-05-06 20:18:00.0953 | ERROR | An unhandled exception has occurred while executing the request.
+2024-05-06 20:18:00.0980 | INFO | Request finished HTTP/1.1 GET http://localhost:5149/swagger/报表接口/swagger.json - - - 500 - text/plain;+charset=utf-8 60.7020ms
+2024-05-06 20:18:43.8011 | INFO | User profile is available. Using 'C:\Users\Administrator\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-05-06 20:18:43.9771 | INFO | Now listening on: http://localhost:5149
+2024-05-06 20:18:43.9771 | INFO | Application started. Press Ctrl+C to shut down.
+2024-05-06 20:18:43.9771 | INFO | Hosting environment: Development
+2024-05-06 20:18:43.9771 | INFO | Content root path: D:\BaiduSyncdisk\webapi.net7+sqlsugar\webapi.net7.sqlsugar\webapi.net7.sqlsugar
+2024-05-06 20:18:47.4080 | INFO | Request starting HTTP/1.1 GET http://localhost:5149/swagger/index.html - -
+2024-05-06 20:18:47.7327 | INFO | Request finished HTTP/1.1 GET http://localhost:5149/swagger/index.html - - - 200 - text/html;charset=utf-8 328.3391ms
+2024-05-06 20:18:47.7381 | INFO | Request starting HTTP/1.1 GET http://localhost:5149/_vs/browserLink - -
+2024-05-06 20:18:47.7381 | INFO | Request starting HTTP/1.1 GET http://localhost:5149/_framework/aspnetcore-browser-refresh.js - -
+2024-05-06 20:18:47.7381 | INFO | Request finished HTTP/1.1 GET http://localhost:5149/_framework/aspnetcore-browser-refresh.js - - - 200 13776 application/javascript;+charset=utf-8 2.5732ms
+2024-05-06 20:18:47.7862 | INFO | Request finished HTTP/1.1 GET http://localhost:5149/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 48.3695ms
+2024-05-06 20:18:47.9339 | INFO | Request starting HTTP/1.1 GET http://localhost:5149/swagger/东泽房源管理接口/swagger.json - -
+2024-05-06 20:18:48.2474 | INFO | Request finished HTTP/1.1 GET http://localhost:5149/swagger/东泽房源管理接口/swagger.json - - - 200 - application/json;charset=utf-8 313.7341ms
+2024-05-06 20:18:49.5653 | INFO | Request starting HTTP/1.1 GET http://localhost:5149/swagger/报表接口/swagger.json - -
+2024-05-06 20:18:49.6038 | ERROR | An unhandled exception has occurred while executing the request.
+2024-05-06 20:18:49.6038 | INFO | Request finished HTTP/1.1 GET http://localhost:5149/swagger/报表接口/swagger.json - - - 500 - text/plain;+charset=utf-8 41.8018ms
+2024-05-06 20:21:28.3400 | INFO | User profile is available. Using 'C:\Users\Administrator\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-05-06 20:21:35.2932 | INFO | Now listening on: http://localhost:5149
+2024-05-06 20:21:35.2932 | INFO | Application started. Press Ctrl+C to shut down.
+2024-05-06 20:21:35.2932 | INFO | Hosting environment: Development
+2024-05-06 20:21:35.3007 | INFO | Content root path: D:\BaiduSyncdisk\webapi.net7+sqlsugar\webapi.net7.sqlsugar\webapi.net7.sqlsugar
+2024-05-06 20:21:36.8636 | INFO | Request starting HTTP/1.1 GET http://localhost:5149/swagger/index.html - -
+2024-05-06 20:21:37.4168 | INFO | Request starting HTTP/1.1 GET http://localhost:5149/_framework/aspnetcore-browser-refresh.js - -
+2024-05-06 20:21:37.4168 | INFO | Request finished HTTP/1.1 GET http://localhost:5149/swagger/index.html - - - 200 - text/html;charset=utf-8 557.1627ms
+2024-05-06 20:21:37.4168 | INFO | Request finished HTTP/1.1 GET http://localhost:5149/_framework/aspnetcore-browser-refresh.js - - - 200 13776 application/javascript;+charset=utf-8 2.6834ms
+2024-05-06 20:21:37.4266 | INFO | Request starting HTTP/1.1 GET http://localhost:5149/_vs/browserLink - -
+2024-05-06 20:21:37.4691 | INFO | Request finished HTTP/1.1 GET http://localhost:5149/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 42.5488ms
+2024-05-06 20:21:37.5297 | INFO | Request starting HTTP/1.1 GET http://localhost:5149/swagger/东泽房源管理接口/swagger.json - -
+2024-05-06 20:21:38.0147 | INFO | Request finished HTTP/1.1 GET http://localhost:5149/swagger/东泽房源管理接口/swagger.json - - - 200 - application/json;charset=utf-8 485.2677ms
+2024-05-06 20:21:40.3499 | INFO | Request starting HTTP/1.1 GET http://localhost:5149/swagger/报表接口/swagger.json - -
+2024-05-06 20:21:40.3860 | ERROR | An unhandled exception has occurred while executing the request.
+2024-05-06 20:21:40.3860 | INFO | Request finished HTTP/1.1 GET http://localhost:5149/swagger/报表接口/swagger.json - - - 500 - text/plain;+charset=utf-8 38.1833ms
+2024-05-06 20:22:52.5603 | INFO | User profile is available. Using 'C:\Users\Administrator\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-05-06 20:22:52.8849 | INFO | Now listening on: http://localhost:5149
+2024-05-06 20:22:52.8849 | INFO | Application started. Press Ctrl+C to shut down.
+2024-05-06 20:22:52.8849 | INFO | Hosting environment: Development
+2024-05-06 20:22:52.8953 | INFO | Content root path: D:\BaiduSyncdisk\webapi.net7+sqlsugar\webapi.net7.sqlsugar\webapi.net7.sqlsugar
+2024-05-06 20:22:54.8939 | INFO | Request starting HTTP/1.1 GET http://localhost:5149/swagger/index.html - -
+2024-05-06 20:22:55.3882 | INFO | Request finished HTTP/1.1 GET http://localhost:5149/swagger/index.html - - - 200 - text/html;charset=utf-8 497.7041ms
+2024-05-06 20:22:55.3882 | INFO | Request starting HTTP/1.1 GET http://localhost:5149/_vs/browserLink - -
+2024-05-06 20:22:55.3882 | INFO | Request starting HTTP/1.1 GET http://localhost:5149/_framework/aspnetcore-browser-refresh.js - -
+2024-05-06 20:22:55.3956 | INFO | Request finished HTTP/1.1 GET http://localhost:5149/_framework/aspnetcore-browser-refresh.js - - - 200 13776 application/javascript;+charset=utf-8 2.3239ms
+2024-05-06 20:22:55.4394 | INFO | Request finished HTTP/1.1 GET http://localhost:5149/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 46.0628ms
+2024-05-06 20:22:55.5025 | INFO | Request starting HTTP/1.1 GET http://localhost:5149/swagger/东泽房源管理接口/swagger.json - -
+2024-05-06 20:22:56.0170 | INFO | Request finished HTTP/1.1 GET http://localhost:5149/swagger/东泽房源管理接口/swagger.json - - - 200 - application/json;charset=utf-8 514.7559ms
+2024-05-06 20:22:57.0983 | INFO | Request starting HTTP/1.1 GET http://localhost:5149/swagger/报表接口/swagger.json - -
+2024-05-06 20:22:57.0983 | INFO | Request finished HTTP/1.1 GET http://localhost:5149/swagger/报表接口/swagger.json - - - 200 - application/json;charset=utf-8 4.6564ms
+2024-05-06 20:23:41.0289 | INFO | Request starting HTTP/1.1 POST http://localhost:5149/api/StandingsStock application/json 17
+2024-05-06 20:23:41.0360 | WARN | Failed to determine the https port for redirect.
+2024-05-06 20:23:41.1603 | INFO | CORS policy execution successful.
+2024-05-06 20:23:41.1603 | INFO | Executing endpoint 'webapi.net7.sqlsugar.Controllers.ReportController.StandingsStock (webapi.net7.sqlsugar)'
+2024-05-06 20:23:41.1881 | INFO | Route matched with {action = "StandingsStock", controller = "Report"}. Executing controller action with signature System.Object StandingsStock(System.Object) on controller webapi.net7.sqlsugar.Controllers.ReportController (webapi.net7.sqlsugar).
+2024-05-06 20:23:41.2260 | INFO | Executing action method webapi.net7.sqlsugar.Controllers.ReportController.StandingsStock (webapi.net7.sqlsugar) - Validation state: Valid
+2024-05-06 20:28:40.3926 | INFO | User profile is available. Using 'C:\Users\Administrator\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-05-06 20:28:40.5666 | INFO | Now listening on: http://localhost:5149
+2024-05-06 20:28:40.5666 | INFO | Application started. Press Ctrl+C to shut down.
+2024-05-06 20:28:40.5666 | INFO | Hosting environment: Development
+2024-05-06 20:28:40.5666 | INFO | Content root path: D:\BaiduSyncdisk\webapi.net7+sqlsugar\webapi.net7.sqlsugar\webapi.net7.sqlsugar
+2024-05-06 20:28:44.2690 | INFO | Request starting HTTP/1.1 GET http://localhost:5149/swagger/index.html - -
+2024-05-06 20:28:44.5521 | INFO | Request starting HTTP/1.1 GET http://localhost:5149/_framework/aspnetcore-browser-refresh.js - -
+2024-05-06 20:28:44.5521 | INFO | Request finished HTTP/1.1 GET http://localhost:5149/swagger/index.html - - - 200 - text/html;charset=utf-8 286.0840ms
+2024-05-06 20:28:44.5521 | INFO | Request finished HTTP/1.1 GET http://localhost:5149/_framework/aspnetcore-browser-refresh.js - - - 200 13776 application/javascript;+charset=utf-8 3.9324ms
+2024-05-06 20:28:44.5521 | INFO | Request starting HTTP/1.1 GET http://localhost:5149/_vs/browserLink - -
+2024-05-06 20:28:44.5999 | INFO | Request finished HTTP/1.1 GET http://localhost:5149/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 41.0499ms
+2024-05-06 20:28:44.6466 | INFO | Request starting HTTP/1.1 GET http://localhost:5149/swagger/东泽房源管理接口/swagger.json - -
+2024-05-06 20:28:44.9590 | INFO | Request finished HTTP/1.1 GET http://localhost:5149/swagger/东泽房源管理接口/swagger.json - - - 200 - application/json;charset=utf-8 312.5493ms
+2024-05-06 20:28:46.2983 | INFO | Request starting HTTP/1.1 GET http://localhost:5149/swagger/报表接口/swagger.json - -
+2024-05-06 20:28:46.3017 | INFO | Request finished HTTP/1.1 GET http://localhost:5149/swagger/报表接口/swagger.json - - - 200 - application/json;charset=utf-8 3.5223ms
+2024-05-06 20:29:00.3980 | INFO | Request starting HTTP/1.1 POST http://localhost:5149/api/StandingsStock application/json 17
+2024-05-06 20:29:00.4179 | WARN | Failed to determine the https port for redirect.
+2024-05-06 20:29:00.4888 | INFO | CORS policy execution successful.
+2024-05-06 20:29:00.4888 | INFO | Executing endpoint 'webapi.net7.sqlsugar.Controllers.ReportController.StandingsStock (webapi.net7.sqlsugar)'
+2024-05-06 20:29:00.5163 | INFO | Route matched with {action = "StandingsStock", controller = "Report"}. Executing controller action with signature System.Object StandingsStock(System.Object) on controller webapi.net7.sqlsugar.Controllers.ReportController (webapi.net7.sqlsugar).
+2024-05-06 20:29:00.5531 | INFO | Executing action method webapi.net7.sqlsugar.Controllers.ReportController.StandingsStock (webapi.net7.sqlsugar) - Validation state: Valid
+2024-05-06 20:29:26.1079 | INFO | Executed action webapi.net7.sqlsugar.Controllers.ReportController.StandingsStock (webapi.net7.sqlsugar) in 25586.3537ms
+2024-05-06 20:29:26.1135 | INFO | Executed endpoint 'webapi.net7.sqlsugar.Controllers.ReportController.StandingsStock (webapi.net7.sqlsugar)'
+2024-05-06 20:29:26.1605 | ERROR | An unhandled exception has occurred while executing the request.
+2024-05-06 20:29:26.1605 | INFO | Request finished HTTP/1.1 POST http://localhost:5149/api/StandingsStock application/json 17 - 500 - text/plain;+charset=utf-8 25768.2536ms
+2024-05-06 20:29:28.7659 | INFO | Request starting HTTP/1.1 POST http://localhost:5149/api/StandingsStock application/json 17
+2024-05-06 20:29:28.7659 | INFO | CORS policy execution successful.
+2024-05-06 20:29:28.7659 | INFO | Executing endpoint 'webapi.net7.sqlsugar.Controllers.ReportController.StandingsStock (webapi.net7.sqlsugar)'
+2024-05-06 20:29:28.7659 | INFO | Route matched with {action = "StandingsStock", controller = "Report"}. Executing controller action with signature System.Object StandingsStock(System.Object) on controller webapi.net7.sqlsugar.Controllers.ReportController (webapi.net7.sqlsugar).
+2024-05-06 20:29:28.7659 | INFO | Executing action method webapi.net7.sqlsugar.Controllers.ReportController.StandingsStock (webapi.net7.sqlsugar) - Validation state: Valid
+2024-05-06 20:29:51.1153 | INFO | User profile is available. Using 'C:\Users\Administrator\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-05-06 20:29:51.2817 | INFO | Now listening on: http://localhost:5149
+2024-05-06 20:29:51.2817 | INFO | Application started. Press Ctrl+C to shut down.
+2024-05-06 20:29:51.2864 | INFO | Hosting environment: Development
+2024-05-06 20:29:51.2864 | INFO | Content root path: D:\BaiduSyncdisk\webapi.net7+sqlsugar\webapi.net7.sqlsugar\webapi.net7.sqlsugar
+2024-05-06 20:29:55.5751 | INFO | Request starting HTTP/1.1 GET http://localhost:5149/swagger/index.html - -
+2024-05-06 20:29:55.8403 | INFO | Request finished HTTP/1.1 GET http://localhost:5149/swagger/index.html - - - 200 - text/html;charset=utf-8 269.1925ms
+2024-05-06 20:29:55.8403 | INFO | Request starting HTTP/1.1 GET http://localhost:5149/_vs/browserLink - -
+2024-05-06 20:29:55.8477 | INFO | Request starting HTTP/1.1 GET http://localhost:5149/_framework/aspnetcore-browser-refresh.js - -
+2024-05-06 20:29:55.8477 | INFO | Request finished HTTP/1.1 GET http://localhost:5149/_framework/aspnetcore-browser-refresh.js - - - 200 13776 application/javascript;+charset=utf-8 2.7561ms
+2024-05-06 20:29:55.8870 | INFO | Request finished HTTP/1.1 GET http://localhost:5149/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 42.0140ms
+2024-05-06 20:29:55.9317 | INFO | Request starting HTTP/1.1 GET http://localhost:5149/swagger/东泽房源管理接口/swagger.json - -
+2024-05-06 20:29:56.2244 | INFO | Request finished HTTP/1.1 GET http://localhost:5149/swagger/东泽房源管理接口/swagger.json - - - 200 - application/json;charset=utf-8 292.8524ms
+2024-05-06 20:29:58.0380 | INFO | Request starting HTTP/1.1 GET http://localhost:5149/swagger/报表接口/swagger.json - -
+2024-05-06 20:29:58.0380 | INFO | Request finished HTTP/1.1 GET http://localhost:5149/swagger/报表接口/swagger.json - - - 200 - application/json;charset=utf-8 4.0337ms
+2024-05-06 20:30:13.7957 | INFO | Request starting HTTP/1.1 POST http://localhost:5149/api/StandingsStock application/json 17
+2024-05-06 20:30:13.8204 | WARN | Failed to determine the https port for redirect.
+2024-05-06 20:30:13.8921 | INFO | CORS policy execution successful.
+2024-05-06 20:30:13.8949 | INFO | Executing endpoint 'webapi.net7.sqlsugar.Controllers.ReportController.StandingsStock (webapi.net7.sqlsugar)'
+2024-05-06 20:30:13.9220 | INFO | Route matched with {action = "StandingsStock", controller = "Report"}. Executing controller action with signature System.Object StandingsStock(System.Object) on controller webapi.net7.sqlsugar.Controllers.ReportController (webapi.net7.sqlsugar).
+2024-05-06 20:30:13.9625 | INFO | Executing action method webapi.net7.sqlsugar.Controllers.ReportController.StandingsStock (webapi.net7.sqlsugar) - Validation state: Valid
+2024-05-06 20:30:32.6969 | INFO | Executed action webapi.net7.sqlsugar.Controllers.ReportController.StandingsStock (webapi.net7.sqlsugar) in 18767.9917ms
+2024-05-06 20:30:32.6969 | INFO | Executed endpoint 'webapi.net7.sqlsugar.Controllers.ReportController.StandingsStock (webapi.net7.sqlsugar)'
+2024-05-06 20:30:32.7633 | ERROR | An unhandled exception has occurred while executing the request.
+2024-05-06 20:30:32.7633 | INFO | Request finished HTTP/1.1 POST http://localhost:5149/api/StandingsStock application/json 17 - 500 - text/plain;+charset=utf-8 18970.1091ms
+2024-05-06 20:30:34.9165 | INFO | Request starting HTTP/1.1 POST http://localhost:5149/api/StandingsStock application/json 17
+2024-05-06 20:30:34.9165 | INFO | CORS policy execution successful.
+2024-05-06 20:30:34.9165 | INFO | Executing endpoint 'webapi.net7.sqlsugar.Controllers.ReportController.StandingsStock (webapi.net7.sqlsugar)'
+2024-05-06 20:30:34.9165 | INFO | Route matched with {action = "StandingsStock", controller = "Report"}. Executing controller action with signature System.Object StandingsStock(System.Object) on controller webapi.net7.sqlsugar.Controllers.ReportController (webapi.net7.sqlsugar).
+2024-05-06 20:30:34.9165 | INFO | Executing action method webapi.net7.sqlsugar.Controllers.ReportController.StandingsStock (webapi.net7.sqlsugar) - Validation state: Valid
+2024-05-06 20:30:35.1177 | INFO | Executed action method webapi.net7.sqlsugar.Controllers.ReportController.StandingsStock (webapi.net7.sqlsugar), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 194.8296ms.
+2024-05-06 20:30:35.1177 | INFO | Executing ObjectResult, writing value of type 'System.String'.
+2024-05-06 20:30:35.1177 | INFO | Executed action webapi.net7.sqlsugar.Controllers.ReportController.StandingsStock (webapi.net7.sqlsugar) in 204.3389ms
+2024-05-06 20:30:35.1177 | INFO | Executed endpoint 'webapi.net7.sqlsugar.Controllers.ReportController.StandingsStock (webapi.net7.sqlsugar)'
+2024-05-06 20:30:35.1177 | INFO | Request finished HTTP/1.1 POST http://localhost:5149/api/StandingsStock application/json 17 - 200 - text/plain;+charset=utf-8 207.1921ms
+2024-05-06 20:37:22.8125 | INFO | Request starting HTTP/1.1 POST http://localhost:5149/api/Payable - 0
+2024-05-06 20:37:22.8172 | INFO | CORS policy execution successful.
+2024-05-06 20:37:22.8172 | INFO | Executing endpoint 'webapi.net7.sqlsugar.Controllers.ReportController.Payable (webapi.net7.sqlsugar)'
+2024-05-06 20:37:22.8172 | INFO | Route matched with {action = "Payable", controller = "Report"}. Executing controller action with signature System.Object Payable() on controller webapi.net7.sqlsugar.Controllers.ReportController (webapi.net7.sqlsugar).
+2024-05-06 20:37:22.8172 | INFO | Executing action method webapi.net7.sqlsugar.Controllers.ReportController.Payable (webapi.net7.sqlsugar) - Validation state: Valid
+2024-05-06 20:37:22.8172 | INFO | Executed action method webapi.net7.sqlsugar.Controllers.ReportController.Payable (webapi.net7.sqlsugar), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 0.1661ms.
+2024-05-06 20:37:22.8172 | INFO | Executing ObjectResult, writing value of type 'null'.
+2024-05-06 20:37:22.8172 | INFO | Executed action webapi.net7.sqlsugar.Controllers.ReportController.Payable (webapi.net7.sqlsugar) in 0.9939ms
+2024-05-06 20:37:22.8172 | INFO | Executed endpoint 'webapi.net7.sqlsugar.Controllers.ReportController.Payable (webapi.net7.sqlsugar)'
+2024-05-06 20:37:22.8172 | INFO | Request finished HTTP/1.1 POST http://localhost:5149/api/Payable - 0 - 204 - - 7.2777ms

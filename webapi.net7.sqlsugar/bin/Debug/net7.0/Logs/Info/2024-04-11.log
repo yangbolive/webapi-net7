@@ -1,0 +1,40 @@
+2024-04-11 20:19:45.3525 | INFO | User profile is available. Using 'C:\Users\Administrator\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-04-11 20:19:45.5734 | INFO | Application started. Press Ctrl+C to shut down.
+2024-04-11 20:19:45.5734 | INFO | Hosting environment: Development
+2024-04-11 20:19:45.5734 | INFO | Content root path: D:\BaiduSyncdisk\webapi.net7+sqlsugar\webapi.net7.sqlsugar\webapi.net7.sqlsugar
+2024-04-11 20:19:45.6184 | INFO | Request starting HTTP/2 GET https://localhost:44351/swagger - -
+2024-04-11 20:19:46.4725 | INFO | Request starting HTTP/2 GET https://localhost:44351/swagger/index.html - -
+2024-04-11 20:19:46.4798 | INFO | Request finished HTTP/2 GET https://localhost:44351/swagger - - - 301 - - 868.3558ms
+2024-04-11 20:19:46.5913 | INFO | Request finished HTTP/2 GET https://localhost:44351/swagger/index.html - - - 200 - text/html;charset=utf-8 122.9202ms
+2024-04-11 20:19:46.6037 | INFO | Request starting HTTP/2 GET https://localhost:44351/swagger/swagger-ui-standalone-preset.js - -
+2024-04-11 20:19:46.6037 | INFO | Request starting HTTP/2 GET https://localhost:44351/swagger/swagger-ui-bundle.js - -
+2024-04-11 20:19:46.6037 | INFO | Request starting HTTP/2 GET https://localhost:44351/swagger/swagger-ui.css - -
+2024-04-11 20:19:46.6272 | INFO | Sending file. Request path: '/swagger-ui.css'. Physical path: 'N/A'
+2024-04-11 20:19:46.6272 | INFO | Request finished HTTP/2 GET https://localhost:44351/swagger/swagger-ui.css - - - 200 144929 text/css 25.0205ms
+2024-04-11 20:19:46.6272 | INFO | Sending file. Request path: '/swagger-ui-standalone-preset.js'. Physical path: 'N/A'
+2024-04-11 20:19:46.6318 | INFO | Request starting HTTP/2 GET https://localhost:44351/_framework/aspnetcore-browser-refresh.js - -
+2024-04-11 20:19:46.6318 | INFO | Request finished HTTP/2 GET https://localhost:44351/_framework/aspnetcore-browser-refresh.js - - - 200 13776 application/javascript;+charset=utf-8 2.5543ms
+2024-04-11 20:19:46.6318 | INFO | Request finished HTTP/2 GET https://localhost:44351/swagger/swagger-ui-standalone-preset.js - - - 200 312163 text/javascript 31.8860ms
+2024-04-11 20:19:46.6318 | INFO | Request starting HTTP/2 GET https://localhost:44351/_vs/browserLink - -
+2024-04-11 20:19:46.6318 | INFO | Sending file. Request path: '/swagger-ui-bundle.js'. Physical path: 'N/A'
+2024-04-11 20:19:46.6641 | INFO | Request finished HTTP/2 GET https://localhost:44351/swagger/swagger-ui-bundle.js - - - 200 1061536 text/javascript 60.4537ms
+2024-04-11 20:19:46.9016 | INFO | Request finished HTTP/2 GET https://localhost:44351/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 262.5401ms
+2024-04-11 20:19:47.0467 | INFO | Request starting HTTP/2 GET https://localhost:44351/swagger/东泽房源管理接口/swagger.json - -
+2024-04-11 20:19:47.3705 | INFO | Request finished HTTP/2 GET https://localhost:44351/swagger/东泽房源管理接口/swagger.json - - - 200 - application/json;charset=utf-8 323.7999ms
+2024-04-11 20:20:02.4936 | INFO | User profile is available. Using 'C:\Users\Administrator\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-04-11 20:20:02.7989 | INFO | Application started. Press Ctrl+C to shut down.
+2024-04-11 20:20:02.7989 | INFO | Hosting environment: Development
+2024-04-11 20:20:02.8059 | INFO | Content root path: D:\BaiduSyncdisk\webapi.net7+sqlsugar\webapi.net7.sqlsugar\webapi.net7.sqlsugar
+2024-04-11 20:20:02.8449 | INFO | Request starting HTTP/2 GET https://localhost:44351/swagger/index.html - -
+2024-04-11 20:20:03.5274 | INFO | Request starting HTTP/2 GET https://localhost:44351/_framework/aspnetcore-browser-refresh.js - -
+2024-04-11 20:20:03.5274 | INFO | Request finished HTTP/2 GET https://localhost:44351/swagger/index.html - - - 200 - text/html;charset=utf-8 688.4845ms
+2024-04-11 20:20:03.5386 | INFO | Request starting HTTP/2 GET https://localhost:44351/_vs/browserLink - -
+2024-04-11 20:20:03.5386 | INFO | Request finished HTTP/2 GET https://localhost:44351/_framework/aspnetcore-browser-refresh.js - - - 200 13776 application/javascript;+charset=utf-8 4.9105ms
+2024-04-11 20:20:03.6331 | INFO | Request finished HTTP/2 GET https://localhost:44351/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 95.7127ms
+2024-04-11 20:20:03.7733 | INFO | Request starting HTTP/2 GET https://localhost:44351/swagger/东泽房源管理接口/swagger.json - -
+2024-04-11 20:20:04.4971 | INFO | Request finished HTTP/2 GET https://localhost:44351/swagger/东泽房源管理接口/swagger.json - - - 200 - application/json;charset=utf-8 723.8727ms
+2024-04-11 20:20:22.7277 | INFO | Request starting HTTP/2 POST https://localhost:44351/api/Getrgsdyywy application/json 57
+2024-04-11 20:20:22.8853 | INFO | CORS policy execution successful.
+2024-04-11 20:20:22.8853 | INFO | Executing endpoint 'webapi.net7.sqlsugar.Controllers.CRMAppControlle.Getrgsdyywy (webapi.net7.sqlsugar)'
+2024-04-11 20:20:22.9374 | INFO | Route matched with {action = "Getrgsdyywy", controller = "CRMAppControlle"}. Executing controller action with signature System.Object Getrgsdyywy(System.Object) on controller webapi.net7.sqlsugar.Controllers.CRMAppControlle (webapi.net7.sqlsugar).
+2024-04-11 20:20:22.9959 | INFO | Executing action method webapi.net7.sqlsugar.Controllers.CRMAppControlle.Getrgsdyywy (webapi.net7.sqlsugar) - Validation state: Valid

@@ -1,0 +1,52 @@
+2024-01-28 00:02:03.4861 | INFO | Request starting HTTP/1.1 POST http://localhost:5149/api/ceshi application/json 60
+2024-01-28 00:02:03.5999 | INFO | CORS policy execution successful.
+2024-01-28 00:02:03.5999 | INFO | Executing endpoint 'webapi.net7.sqlsugar.Controllers.ApiLoginController.ceshi (webapi.net7.sqlsugar)'
+2024-01-28 00:02:03.5999 | INFO | Route matched with {action = "ceshi", controller = "ApiLogin"}. Executing controller action with signature System.Object ceshi(System.Object) on controller webapi.net7.sqlsugar.Controllers.ApiLoginController (webapi.net7.sqlsugar).
+2024-01-28 00:02:03.5999 | INFO | Executing action method webapi.net7.sqlsugar.Controllers.ApiLoginController.ceshi (webapi.net7.sqlsugar) - Validation state: Valid
+2024-01-28 00:02:03.5999 | INFO | Executed action method webapi.net7.sqlsugar.Controllers.ApiLoginController.ceshi (webapi.net7.sqlsugar), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 0.1973ms.
+2024-01-28 00:02:03.5999 | INFO | Executing ObjectResult, writing value of type 'Newtonsoft.Json.Linq.JValue'.
+2024-01-28 00:02:03.5999 | INFO | Executed action webapi.net7.sqlsugar.Controllers.ApiLoginController.ceshi (webapi.net7.sqlsugar) in 3.9659ms
+2024-01-28 00:02:03.5999 | INFO | Executed endpoint 'webapi.net7.sqlsugar.Controllers.ApiLoginController.ceshi (webapi.net7.sqlsugar)'
+2024-01-28 00:02:03.5999 | INFO | Request finished HTTP/1.1 POST http://localhost:5149/api/ceshi application/json 60 - 200 - application/json;+charset=utf-8 122.0237ms
+2024-01-28 00:02:12.9372 | INFO | User profile is available. Using 'C:\Users\Administrator\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-01-28 00:02:13.1123 | INFO | Now listening on: http://localhost:5149
+2024-01-28 00:02:13.1169 | INFO | Application started. Press Ctrl+C to shut down.
+2024-01-28 00:02:13.1169 | INFO | Hosting environment: Development
+2024-01-28 00:02:13.1169 | INFO | Content root path: D:\BaiduSyncdisk\webapi.net7+sqlsugar\webapi.net7.sqlsugar\webapi.net7.sqlsugar
+2024-01-28 00:02:15.9431 | INFO | Request starting HTTP/1.1 GET http://localhost:5149/swagger/index.html - -
+2024-01-28 00:02:16.2424 | INFO | Request finished HTTP/1.1 GET http://localhost:5149/swagger/index.html - - - 200 - text/html;charset=utf-8 301.9854ms
+2024-01-28 00:02:16.2424 | INFO | Request starting HTTP/1.1 GET http://localhost:5149/_vs/browserLink - -
+2024-01-28 00:02:16.2565 | INFO | Request starting HTTP/1.1 GET http://localhost:5149/_framework/aspnetcore-browser-refresh.js - -
+2024-01-28 00:02:16.2565 | INFO | Request finished HTTP/1.1 GET http://localhost:5149/_framework/aspnetcore-browser-refresh.js - - - 200 13776 application/javascript;+charset=utf-8 2.3380ms
+2024-01-28 00:02:16.2976 | INFO | Request finished HTTP/1.1 GET http://localhost:5149/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 43.6757ms
+2024-01-28 00:02:16.3404 | INFO | Request starting HTTP/1.1 GET http://localhost:5149/swagger/V1/swagger.json - -
+2024-01-28 00:02:16.6840 | INFO | Request finished HTTP/1.1 GET http://localhost:5149/swagger/V1/swagger.json - - - 200 - application/json;charset=utf-8 343.7562ms
+2024-01-28 00:02:22.5702 | INFO | Request starting HTTP/1.1 POST http://localhost:5149/api/ceshi application/json 60
+2024-01-28 00:02:22.6084 | WARN | Failed to determine the https port for redirect.
+2024-01-28 00:02:22.7356 | INFO | CORS policy execution successful.
+2024-01-28 00:02:22.7416 | INFO | Executing endpoint 'webapi.net7.sqlsugar.Controllers.ApiLoginController.ceshi (webapi.net7.sqlsugar)'
+2024-01-28 00:02:22.7793 | INFO | Route matched with {action = "ceshi", controller = "ApiLogin"}. Executing controller action with signature System.Object ceshi(System.Object) on controller webapi.net7.sqlsugar.Controllers.ApiLoginController (webapi.net7.sqlsugar).
+2024-01-28 00:02:22.8182 | INFO | Executing action method webapi.net7.sqlsugar.Controllers.ApiLoginController.ceshi (webapi.net7.sqlsugar) - Validation state: Valid
+2024-01-28 00:02:23.0473 | INFO | Executed action method webapi.net7.sqlsugar.Controllers.ApiLoginController.ceshi (webapi.net7.sqlsugar), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 216.5072ms.
+2024-01-28 00:02:23.0533 | INFO | Executing ObjectResult, writing value of type 'System.String[]'.
+2024-01-28 00:02:23.0533 | INFO | Executed action webapi.net7.sqlsugar.Controllers.ApiLoginController.ceshi (webapi.net7.sqlsugar) in 281.4133ms
+2024-01-28 00:02:23.0533 | INFO | Executed endpoint 'webapi.net7.sqlsugar.Controllers.ApiLoginController.ceshi (webapi.net7.sqlsugar)'
+2024-01-28 00:02:23.0533 | INFO | Request finished HTTP/1.1 POST http://localhost:5149/api/ceshi application/json 60 - 200 - application/json;+charset=utf-8 497.7350ms
+2024-01-28 00:03:10.0560 | INFO | Request starting HTTP/1.1 GET http://localhost:5149/swagger/index.html - -
+2024-01-28 00:03:10.0686 | INFO | Request finished HTTP/1.1 GET http://localhost:5149/swagger/index.html - - - 200 - text/html;charset=utf-8 26.5629ms
+2024-01-28 00:03:10.0996 | INFO | Request starting HTTP/1.1 GET http://localhost:5149/_vs/browserLink - -
+2024-01-28 00:03:10.0996 | INFO | Request starting HTTP/1.1 GET http://localhost:5149/_framework/aspnetcore-browser-refresh.js - -
+2024-01-28 00:03:10.0996 | INFO | Request finished HTTP/1.1 GET http://localhost:5149/_framework/aspnetcore-browser-refresh.js - - - 200 13776 application/javascript;+charset=utf-8 0.4216ms
+2024-01-28 00:03:10.1242 | INFO | Request finished HTTP/1.1 GET http://localhost:5149/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 24.6665ms
+2024-01-28 00:03:10.2554 | INFO | Request starting HTTP/1.1 GET http://localhost:5149/swagger/V1/swagger.json - -
+2024-01-28 00:03:10.2912 | INFO | Request finished HTTP/1.1 GET http://localhost:5149/swagger/V1/swagger.json - - - 200 - application/json;charset=utf-8 35.9176ms
+2024-01-28 00:03:59.3564 | INFO | Request starting HTTP/1.1 POST http://localhost:5149/api/ceshi application/json 58
+2024-01-28 00:03:59.3729 | INFO | CORS policy execution successful.
+2024-01-28 00:03:59.3729 | INFO | Executing endpoint 'webapi.net7.sqlsugar.Controllers.ApiLoginController.ceshi (webapi.net7.sqlsugar)'
+2024-01-28 00:03:59.3729 | INFO | Route matched with {action = "ceshi", controller = "ApiLogin"}. Executing controller action with signature System.Object ceshi(System.Object) on controller webapi.net7.sqlsugar.Controllers.ApiLoginController (webapi.net7.sqlsugar).
+2024-01-28 00:03:59.3805 | INFO | Executing action method webapi.net7.sqlsugar.Controllers.ApiLoginController.ceshi (webapi.net7.sqlsugar) - Validation state: Valid
+2024-01-28 00:03:59.3805 | INFO | Executed action method webapi.net7.sqlsugar.Controllers.ApiLoginController.ceshi (webapi.net7.sqlsugar), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 2.1394ms.
+2024-01-28 00:03:59.3805 | INFO | Executing ObjectResult, writing value of type 'System.String'.
+2024-01-28 00:03:59.3805 | INFO | Executed action webapi.net7.sqlsugar.Controllers.ApiLoginController.ceshi (webapi.net7.sqlsugar) in 8.4995ms
+2024-01-28 00:03:59.3805 | INFO | Executed endpoint 'webapi.net7.sqlsugar.Controllers.ApiLoginController.ceshi (webapi.net7.sqlsugar)'
+2024-01-28 00:03:59.3805 | INFO | Request finished HTTP/1.1 POST http://localhost:5149/api/ceshi application/json 58 - 200 - text/plain;+charset=utf-8 35.8540ms

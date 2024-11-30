@@ -1,0 +1,249 @@
+2024-04-15 20:08:15.4468 | DEBUG | Registered model binder providers, in the following order: Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DateTimeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.TryParseModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinderProvider
+2024-04-15 20:08:15.5975 | DEBUG | Hosting starting
+2024-04-15 20:08:15.6264 | INFO | User profile is available. Using 'C:\Users\Administrator\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-04-15 20:08:15.6264 | DEBUG | Reading data from file 'C:\Users\Administrator\AppData\Local\ASP.NET\DataProtection-Keys\key-34692722-1836-4131-841e-52bc30c5cc34.xml'.
+2024-04-15 20:08:15.6264 | DEBUG | Reading data from file 'C:\Users\Administrator\AppData\Local\ASP.NET\DataProtection-Keys\key-691d2c1e-819d-4ace-bf8c-4b95df9c96f1.xml'.
+2024-04-15 20:08:15.6426 | DEBUG | Found key {34692722-1836-4131-841e-52bc30c5cc34}.
+2024-04-15 20:08:15.6426 | DEBUG | Found key {691d2c1e-819d-4ace-bf8c-4b95df9c96f1}.
+2024-04-15 20:08:15.6426 | DEBUG | Considering key {34692722-1836-4131-841e-52bc30c5cc34} with expiration date 2024-04-15 01:35:41Z as default key.
+2024-04-15 20:08:15.6535 | DEBUG | Key {34692722-1836-4131-841e-52bc30c5cc34} is no longer under consideration as default key because it is expired, revoked, or cannot be deciphered.
+2024-04-15 20:08:15.6535 | DEBUG | Forwarded activator type request from Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Version=7.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60 to Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60
+2024-04-15 20:08:15.6535 | DEBUG | Decrypting secret element using Windows DPAPI.
+2024-04-15 20:08:15.6535 | DEBUG | Forwarded activator type request from Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Version=7.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60 to Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60
+2024-04-15 20:08:15.6535 | DEBUG | Opening CNG algorithm 'AES' from provider '(null)' with chaining mode CBC.
+2024-04-15 20:08:15.6535 | DEBUG | Opening CNG algorithm 'SHA256' from provider '(null)' with HMAC.
+2024-04-15 20:08:15.6535 | DEBUG | Repository contains no viable default key. Caller should generate a key with immediate activation.
+2024-04-15 20:08:15.6535 | DEBUG | Policy resolution states that a new key should be added to the key ring.
+2024-04-15 20:08:15.6535 | INFO | Creating key {9c621d14-e4f3-453a-a88c-5b12868c45f6} with creation date 2024-04-15 12:08:15Z, activation date 2024-04-15 12:08:15Z, and expiration date 2024-07-14 12:08:15Z.
+2024-04-15 20:08:15.6691 | DEBUG | Descriptor deserializer type for key {9c621d14-e4f3-453a-a88c-5b12868c45f6} is 'Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Version=7.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60'.
+2024-04-15 20:08:15.6691 | DEBUG | No key escrow sink found. Not writing key {9c621d14-e4f3-453a-a88c-5b12868c45f6} to escrow.
+2024-04-15 20:08:15.6691 | DEBUG | Encrypting to Windows DPAPI for current user account (DESKTOP-5SSOPLI\Administrator).
+2024-04-15 20:08:15.6691 | INFO | Writing data to file 'C:\Users\Administrator\AppData\Local\ASP.NET\DataProtection-Keys\key-9c621d14-e4f3-453a-a88c-5b12868c45f6.xml'.
+2024-04-15 20:08:15.6691 | DEBUG | Key cache expiration token triggered by 'CreateNewKey' operation.
+2024-04-15 20:08:15.6691 | DEBUG | Reading data from file 'C:\Users\Administrator\AppData\Local\ASP.NET\DataProtection-Keys\key-34692722-1836-4131-841e-52bc30c5cc34.xml'.
+2024-04-15 20:08:15.6691 | DEBUG | Reading data from file 'C:\Users\Administrator\AppData\Local\ASP.NET\DataProtection-Keys\key-691d2c1e-819d-4ace-bf8c-4b95df9c96f1.xml'.
+2024-04-15 20:08:15.6691 | DEBUG | Reading data from file 'C:\Users\Administrator\AppData\Local\ASP.NET\DataProtection-Keys\key-9c621d14-e4f3-453a-a88c-5b12868c45f6.xml'.
+2024-04-15 20:08:15.6691 | DEBUG | Found key {34692722-1836-4131-841e-52bc30c5cc34}.
+2024-04-15 20:08:15.6691 | DEBUG | Found key {691d2c1e-819d-4ace-bf8c-4b95df9c96f1}.
+2024-04-15 20:08:15.6691 | DEBUG | Found key {9c621d14-e4f3-453a-a88c-5b12868c45f6}.
+2024-04-15 20:08:15.6691 | DEBUG | Considering key {9c621d14-e4f3-453a-a88c-5b12868c45f6} with expiration date 2024-07-14 12:08:15Z as default key.
+2024-04-15 20:08:15.6691 | DEBUG | Forwarded activator type request from Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Version=7.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60 to Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60
+2024-04-15 20:08:15.6691 | DEBUG | Decrypting secret element using Windows DPAPI.
+2024-04-15 20:08:15.6691 | DEBUG | Forwarded activator type request from Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Version=7.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60 to Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60
+2024-04-15 20:08:15.6691 | DEBUG | Opening CNG algorithm 'AES' from provider '(null)' with chaining mode CBC.
+2024-04-15 20:08:15.6691 | DEBUG | Opening CNG algorithm 'SHA256' from provider '(null)' with HMAC.
+2024-04-15 20:08:15.6691 | DEBUG | Using key {9c621d14-e4f3-453a-a88c-5b12868c45f6} as the default key.
+2024-04-15 20:08:15.6691 | DEBUG | Key ring with default key {9c621d14-e4f3-453a-a88c-5b12868c45f6} was loaded during application startup.
+2024-04-15 20:08:15.8066 | DEBUG | Loaded hosting startup assembly webapi.net7.sqlsugar
+2024-04-15 20:08:15.8066 | DEBUG | Loaded hosting startup assembly Microsoft.AspNetCore.Watch.BrowserRefresh
+2024-04-15 20:08:15.8066 | DEBUG | Loaded hosting startup assembly Microsoft.WebTools.BrowserLink.Net
+2024-04-15 20:08:15.8181 | INFO | Application started. Press Ctrl+C to shut down.
+2024-04-15 20:08:15.8181 | INFO | Hosting environment: Development
+2024-04-15 20:08:15.8181 | INFO | Content root path: D:\BaiduSyncdisk\webapi.net7+sqlsugar\webapi.net7.sqlsugar\webapi.net7.sqlsugar
+2024-04-15 20:08:15.8181 | DEBUG | Hosting started
+2024-04-15 20:08:15.8579 | INFO | Request starting HTTP/2 GET https://localhost:44351/swagger - -
+2024-04-15 20:08:16.5371 | DEBUG | Wildcard detected, all requests with hosts will be allowed.
+2024-04-15 20:08:16.5661 | DEBUG | No candidates found for the request path '/swagger'
+2024-04-15 20:08:16.5661 | DEBUG | Request did not match any endpoints
+2024-04-15 20:08:16.6904 | DEBUG | Connection ID "18374686498462105770" disconnecting.
+2024-04-15 20:08:16.6904 | INFO | Request starting HTTP/2 GET https://localhost:44351/swagger/index.html - -
+2024-04-15 20:08:16.6904 | DEBUG | No candidates found for the request path '/swagger/index.html'
+2024-04-15 20:08:16.6904 | DEBUG | Request did not match any endpoints
+2024-04-15 20:08:16.7056 | INFO | Request finished HTTP/2 GET https://localhost:44351/swagger - - - 301 - - 848.4004ms
+2024-04-15 20:08:16.7863 | DEBUG | Response markup is scheduled to include browser refresh script injection.
+2024-04-15 20:08:16.8003 | DEBUG | Response markup was updated to include browser refresh script injection.
+2024-04-15 20:08:16.8003 | DEBUG | Connection ID "18374686494167138387" disconnecting.
+2024-04-15 20:08:16.8003 | INFO | Request finished HTTP/2 GET https://localhost:44351/swagger/index.html - - - 200 - text/html;charset=utf-8 110.1876ms
+2024-04-15 20:08:16.8003 | INFO | Request starting HTTP/2 GET https://localhost:44351/_framework/aspnetcore-browser-refresh.js - -
+2024-04-15 20:08:16.8003 | INFO | Request starting HTTP/2 GET https://localhost:44351/swagger/swagger-ui-standalone-preset.js - -
+2024-04-15 20:08:16.8003 | INFO | Request starting HTTP/2 GET https://localhost:44351/swagger/swagger-ui-bundle.js - -
+2024-04-15 20:08:16.8003 | DEBUG | No candidates found for the request path '/swagger/swagger-ui-bundle.js'
+2024-04-15 20:08:16.8003 | DEBUG | No candidates found for the request path '/swagger/swagger-ui-standalone-preset.js'
+2024-04-15 20:08:16.8003 | INFO | Request starting HTTP/2 GET https://localhost:44351/swagger/swagger-ui.css - -
+2024-04-15 20:08:16.8003 | DEBUG | Request did not match any endpoints
+2024-04-15 20:08:16.8003 | DEBUG | Request did not match any endpoints
+2024-04-15 20:08:16.8003 | DEBUG | No candidates found for the request path '/swagger/swagger-ui.css'
+2024-04-15 20:08:16.8003 | DEBUG | Request did not match any endpoints
+2024-04-15 20:08:16.8112 | DEBUG | Connection ID "18086456135195295745" disconnecting.
+2024-04-15 20:08:16.8112 | INFO | Request finished HTTP/2 GET https://localhost:44351/_framework/aspnetcore-browser-refresh.js - - - 200 13776 application/javascript;+charset=utf-8 7.2183ms
+2024-04-15 20:08:16.8112 | INFO | Request starting HTTP/2 GET https://localhost:44351/_vs/browserLink - -
+2024-04-15 20:08:16.8373 | INFO | Sending file. Request path: '/swagger-ui.css'. Physical path: 'N/A'
+2024-04-15 20:08:16.8373 | INFO | Sending file. Request path: '/swagger-ui-standalone-preset.js'. Physical path: 'N/A'
+2024-04-15 20:08:16.8373 | INFO | Request finished HTTP/2 GET https://localhost:44351/swagger/swagger-ui.css - - - 200 144929 text/css 30.4805ms
+2024-04-15 20:08:16.8414 | DEBUG | Connection ID "18374686498462105772" disconnecting.
+2024-04-15 20:08:16.8414 | INFO | Request finished HTTP/2 GET https://localhost:44351/swagger/swagger-ui-standalone-preset.js - - - 200 312163 text/javascript 41.4769ms
+2024-04-15 20:08:16.8414 | INFO | Sending file. Request path: '/swagger-ui-bundle.js'. Physical path: 'N/A'
+2024-04-15 20:08:16.8722 | DEBUG | Connection ID "18230571323271151617" disconnecting.
+2024-04-15 20:08:16.8722 | INFO | Request finished HTTP/2 GET https://localhost:44351/swagger/swagger-ui-bundle.js - - - 200 1061536 text/javascript 68.0477ms
+2024-04-15 20:08:18.7179 | DEBUG | Connection ID "18086456130900328498" disconnecting.
+2024-04-15 20:08:18.7179 | INFO | Request finished HTTP/2 GET https://localhost:44351/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 1893.8174ms
+2024-04-15 20:08:18.7569 | INFO | Request starting HTTP/2 GET https://localhost:44351/swagger/东泽房源管理接口/swagger.json - -
+2024-04-15 20:08:18.7569 | DEBUG | No candidates found for the request path '/swagger/东泽房源管理接口/swagger.json'
+2024-04-15 20:08:18.7569 | DEBUG | Request did not match any endpoints
+2024-04-15 20:08:19.0793 | INFO | Request finished HTTP/2 GET https://localhost:44351/swagger/东泽房源管理接口/swagger.json - - - 200 - application/json;charset=utf-8 322.3920ms
+2024-04-15 20:08:19.0793 | DEBUG | Connection ID "18158513699168452609" disconnecting.
+2024-04-15 20:08:26.4960 | INFO | Request starting HTTP/2 GET https://localhost:44351/swagger/U8移动端接口/swagger.json - -
+2024-04-15 20:08:26.4965 | DEBUG | No candidates found for the request path '/swagger/U8移动端接口/swagger.json'
+2024-04-15 20:08:26.4965 | DEBUG | Request did not match any endpoints
+2024-04-15 20:08:26.5189 | INFO | Request finished HTTP/2 GET https://localhost:44351/swagger/U8移动端接口/swagger.json - - - 200 - application/json;charset=utf-8 22.9583ms
+2024-04-15 20:08:26.5189 | DEBUG | Connection ID "18158513724938256416" disconnecting.
+2024-04-15 20:44:45.5287 | DEBUG | Registered model binder providers, in the following order: Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DateTimeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.TryParseModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinderProvider
+2024-04-15 20:44:45.6414 | DEBUG | Hosting starting
+2024-04-15 20:44:45.6737 | INFO | User profile is available. Using 'C:\Users\Administrator\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-04-15 20:44:45.6737 | DEBUG | Reading data from file 'C:\Users\Administrator\AppData\Local\ASP.NET\DataProtection-Keys\key-34692722-1836-4131-841e-52bc30c5cc34.xml'.
+2024-04-15 20:44:45.6737 | DEBUG | Reading data from file 'C:\Users\Administrator\AppData\Local\ASP.NET\DataProtection-Keys\key-691d2c1e-819d-4ace-bf8c-4b95df9c96f1.xml'.
+2024-04-15 20:44:45.6737 | DEBUG | Reading data from file 'C:\Users\Administrator\AppData\Local\ASP.NET\DataProtection-Keys\key-9c621d14-e4f3-453a-a88c-5b12868c45f6.xml'.
+2024-04-15 20:44:45.6737 | DEBUG | Found key {34692722-1836-4131-841e-52bc30c5cc34}.
+2024-04-15 20:44:45.6852 | DEBUG | Found key {691d2c1e-819d-4ace-bf8c-4b95df9c96f1}.
+2024-04-15 20:44:45.6852 | DEBUG | Found key {9c621d14-e4f3-453a-a88c-5b12868c45f6}.
+2024-04-15 20:44:45.6852 | DEBUG | Considering key {9c621d14-e4f3-453a-a88c-5b12868c45f6} with expiration date 2024-07-14 12:08:15Z as default key.
+2024-04-15 20:44:45.6852 | DEBUG | Forwarded activator type request from Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Version=7.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60 to Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60
+2024-04-15 20:44:45.6852 | DEBUG | Decrypting secret element using Windows DPAPI.
+2024-04-15 20:44:45.6852 | DEBUG | Forwarded activator type request from Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Version=7.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60 to Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60
+2024-04-15 20:44:45.6852 | DEBUG | Opening CNG algorithm 'AES' from provider '(null)' with chaining mode CBC.
+2024-04-15 20:44:45.6852 | DEBUG | Opening CNG algorithm 'SHA256' from provider '(null)' with HMAC.
+2024-04-15 20:44:45.6852 | DEBUG | Using key {9c621d14-e4f3-453a-a88c-5b12868c45f6} as the default key.
+2024-04-15 20:44:45.6852 | DEBUG | Key ring with default key {9c621d14-e4f3-453a-a88c-5b12868c45f6} was loaded during application startup.
+2024-04-15 20:44:45.7813 | DEBUG | Loaded hosting startup assembly webapi.net7.sqlsugar
+2024-04-15 20:44:45.7813 | DEBUG | Loaded hosting startup assembly Microsoft.AspNetCore.Watch.BrowserRefresh
+2024-04-15 20:44:45.7813 | DEBUG | Loaded hosting startup assembly Microsoft.WebTools.BrowserLink.Net
+2024-04-15 20:44:45.8012 | INFO | Application started. Press Ctrl+C to shut down.
+2024-04-15 20:44:45.8012 | INFO | Hosting environment: Development
+2024-04-15 20:44:45.8012 | INFO | Content root path: D:\BaiduSyncdisk\webapi.net7+sqlsugar\webapi.net7.sqlsugar\webapi.net7.sqlsugar
+2024-04-15 20:44:45.8012 | DEBUG | Hosting started
+2024-04-15 20:44:45.8242 | INFO | Request starting HTTP/2 GET https://localhost:44351/swagger/index.html - -
+2024-04-15 20:44:46.0522 | DEBUG | Wildcard detected, all requests with hosts will be allowed.
+2024-04-15 20:44:46.1113 | DEBUG | No candidates found for the request path '/swagger/index.html'
+2024-04-15 20:44:46.1113 | DEBUG | Request did not match any endpoints
+2024-04-15 20:44:46.3121 | DEBUG | Response markup is scheduled to include browser refresh script injection.
+2024-04-15 20:44:46.3405 | DEBUG | Response markup was updated to include browser refresh script injection.
+2024-04-15 20:44:46.3405 | DEBUG | Connection ID "18158513724938256418" disconnecting.
+2024-04-15 20:44:46.3405 | INFO | Request finished HTTP/2 GET https://localhost:44351/swagger/index.html - - - 200 - text/html;charset=utf-8 526.5990ms
+2024-04-15 20:44:46.3405 | INFO | Request starting HTTP/2 GET https://localhost:44351/_framework/aspnetcore-browser-refresh.js - -
+2024-04-15 20:44:46.3405 | DEBUG | Connection ID "17942340938529505283" disconnecting.
+2024-04-15 20:44:46.3405 | INFO | Request finished HTTP/2 GET https://localhost:44351/_framework/aspnetcore-browser-refresh.js - - - 200 13776 application/javascript;+charset=utf-8 3.9077ms
+2024-04-15 20:44:46.3638 | INFO | Request starting HTTP/2 GET https://localhost:44351/_vs/browserLink - -
+2024-04-15 20:44:46.4164 | DEBUG | Connection ID "18230571301796315141" disconnecting.
+2024-04-15 20:44:46.4164 | INFO | Request finished HTTP/2 GET https://localhost:44351/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 53.3124ms
+2024-04-15 20:44:46.5673 | INFO | Request starting HTTP/2 GET https://localhost:44351/swagger/东泽房源管理接口/swagger.json - -
+2024-04-15 20:44:46.5673 | DEBUG | No candidates found for the request path '/swagger/东泽房源管理接口/swagger.json'
+2024-04-15 20:44:46.5673 | DEBUG | Request did not match any endpoints
+2024-04-15 20:44:47.0108 | DEBUG | Connection ID "18230571323271151629" disconnecting.
+2024-04-15 20:44:47.0108 | INFO | Request finished HTTP/2 GET https://localhost:44351/swagger/东泽房源管理接口/swagger.json - - - 200 - application/json;charset=utf-8 443.5143ms
+2024-04-15 20:44:49.2651 | INFO | Request starting HTTP/2 GET https://localhost:44351/swagger/U8移动端接口/swagger.json - -
+2024-04-15 20:44:49.2651 | DEBUG | No candidates found for the request path '/swagger/U8移动端接口/swagger.json'
+2024-04-15 20:44:49.2651 | DEBUG | Request did not match any endpoints
+2024-04-15 20:44:49.2965 | INFO | Request finished HTTP/2 GET https://localhost:44351/swagger/U8移动端接口/swagger.json - - - 200 - application/json;charset=utf-8 31.0614ms
+2024-04-15 20:44:57.1507 | INFO | Request starting HTTP/2 POST https://localhost:44351/api/PassWordPost application/json 45
+2024-04-15 20:44:57.1548 | DEBUG | 1 candidate(s) found for the request path '/api/PassWordPost'
+2024-04-15 20:44:57.1548 | DEBUG | Endpoint 'webapi.net7.sqlsugar.Controllers.ApiLoginController.PassWordPost (webapi.net7.sqlsugar)' with route pattern 'api/PassWordPost' is valid for the request path '/api/PassWordPost'
+2024-04-15 20:44:57.1548 | DEBUG | Request matched endpoint 'webapi.net7.sqlsugar.Controllers.ApiLoginController.PassWordPost (webapi.net7.sqlsugar)'
+2024-04-15 20:44:57.1548 | DEBUG | Static files was skipped as the request already matched an endpoint.
+2024-04-15 20:44:57.1548 | DEBUG | Static files was skipped as the request already matched an endpoint.
+2024-04-15 20:44:57.2464 | DEBUG | AuthenticationScheme: Bearer was not authenticated.
+2024-04-15 20:44:57.2499 | DEBUG | The request has an origin header: 'https://localhost:44351'.
+2024-04-15 20:44:57.2499 | INFO | CORS policy execution successful.
+2024-04-15 20:44:57.2499 | INFO | Executing endpoint 'webapi.net7.sqlsugar.Controllers.ApiLoginController.PassWordPost (webapi.net7.sqlsugar)'
+2024-04-15 20:44:57.2847 | INFO | Route matched with {action = "PassWordPost", controller = "ApiLogin"}. Executing controller action with signature webapi.net7.sqlsugar.Model.MessageLogin PassWordPost(webapi.net7.sqlsugar.User) on controller webapi.net7.sqlsugar.Controllers.ApiLoginController (webapi.net7.sqlsugar).
+2024-04-15 20:44:57.2847 | DEBUG | Execution plan of authorization filters (in the following order): None
+2024-04-15 20:44:57.2847 | DEBUG | Execution plan of resource filters (in the following order): None
+2024-04-15 20:44:57.2847 | DEBUG | Execution plan of action filters (in the following order): Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000), Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)
+2024-04-15 20:44:57.2847 | DEBUG | Execution plan of exception filters (in the following order): None
+2024-04-15 20:44:57.2847 | DEBUG | Execution plan of result filters (in the following order): Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)
+2024-04-15 20:44:57.2847 | DEBUG | Executing controller factory for controller webapi.net7.sqlsugar.Controllers.ApiLoginController (webapi.net7.sqlsugar)
+2024-04-15 20:44:57.2847 | DEBUG | Executed controller factory for controller webapi.net7.sqlsugar.Controllers.ApiLoginController (webapi.net7.sqlsugar)
+2024-04-15 20:44:57.2847 | DEBUG | Attempting to bind parameter 'obj' of type 'webapi.net7.sqlsugar.User' ...
+2024-04-15 20:44:57.2948 | DEBUG | Attempting to bind parameter 'obj' of type 'webapi.net7.sqlsugar.User' using the name '' in request data ...
+2024-04-15 20:44:57.2948 | DEBUG | Selected input formatter 'Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonInputFormatter' for content type 'application/json'.
+2024-04-15 20:44:57.3095 | DEBUG | JSON input formatter succeeded, deserializing to type 'webapi.net7.sqlsugar.User'
+2024-04-15 20:44:57.3095 | DEBUG | Done attempting to bind parameter 'obj' of type 'webapi.net7.sqlsugar.User'.
+2024-04-15 20:44:57.3095 | DEBUG | Done attempting to bind parameter 'obj' of type 'webapi.net7.sqlsugar.User'.
+2024-04-15 20:44:57.3095 | DEBUG | Attempting to validate the bound parameter 'obj' of type 'webapi.net7.sqlsugar.User' ...
+2024-04-15 20:44:57.3095 | DEBUG | Done attempting to validate the bound parameter 'obj' of type 'webapi.net7.sqlsugar.User'.
+2024-04-15 20:44:57.3255 | INFO | Executing action method webapi.net7.sqlsugar.Controllers.ApiLoginController.PassWordPost (webapi.net7.sqlsugar) - Validation state: Valid
+2024-04-15 20:46:24.4584 | DEBUG | Registered model binder providers, in the following order: Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DateTimeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.TryParseModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinderProvider
+2024-04-15 20:46:24.5702 | DEBUG | Hosting starting
+2024-04-15 20:46:24.5938 | INFO | User profile is available. Using 'C:\Users\Administrator\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-04-15 20:46:24.5938 | DEBUG | Reading data from file 'C:\Users\Administrator\AppData\Local\ASP.NET\DataProtection-Keys\key-34692722-1836-4131-841e-52bc30c5cc34.xml'.
+2024-04-15 20:46:24.5938 | DEBUG | Reading data from file 'C:\Users\Administrator\AppData\Local\ASP.NET\DataProtection-Keys\key-691d2c1e-819d-4ace-bf8c-4b95df9c96f1.xml'.
+2024-04-15 20:46:24.5938 | DEBUG | Reading data from file 'C:\Users\Administrator\AppData\Local\ASP.NET\DataProtection-Keys\key-9c621d14-e4f3-453a-a88c-5b12868c45f6.xml'.
+2024-04-15 20:46:24.5938 | DEBUG | Found key {34692722-1836-4131-841e-52bc30c5cc34}.
+2024-04-15 20:46:24.6085 | DEBUG | Found key {691d2c1e-819d-4ace-bf8c-4b95df9c96f1}.
+2024-04-15 20:46:24.6085 | DEBUG | Found key {9c621d14-e4f3-453a-a88c-5b12868c45f6}.
+2024-04-15 20:46:24.6085 | DEBUG | Considering key {9c621d14-e4f3-453a-a88c-5b12868c45f6} with expiration date 2024-07-14 12:08:15Z as default key.
+2024-04-15 20:46:24.6085 | DEBUG | Forwarded activator type request from Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Version=7.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60 to Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60
+2024-04-15 20:46:24.6085 | DEBUG | Decrypting secret element using Windows DPAPI.
+2024-04-15 20:46:24.6085 | DEBUG | Forwarded activator type request from Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Version=7.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60 to Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60
+2024-04-15 20:46:24.6085 | DEBUG | Opening CNG algorithm 'AES' from provider '(null)' with chaining mode CBC.
+2024-04-15 20:46:24.6085 | DEBUG | Opening CNG algorithm 'SHA256' from provider '(null)' with HMAC.
+2024-04-15 20:46:24.6085 | DEBUG | Using key {9c621d14-e4f3-453a-a88c-5b12868c45f6} as the default key.
+2024-04-15 20:46:24.6085 | DEBUG | Key ring with default key {9c621d14-e4f3-453a-a88c-5b12868c45f6} was loaded during application startup.
+2024-04-15 20:46:24.7191 | DEBUG | Loaded hosting startup assembly webapi.net7.sqlsugar
+2024-04-15 20:46:24.7191 | DEBUG | Loaded hosting startup assembly Microsoft.AspNetCore.Watch.BrowserRefresh
+2024-04-15 20:46:24.7191 | DEBUG | Loaded hosting startup assembly Microsoft.WebTools.BrowserLink.Net
+2024-04-15 20:46:24.7458 | INFO | Application started. Press Ctrl+C to shut down.
+2024-04-15 20:46:24.7480 | INFO | Hosting environment: Development
+2024-04-15 20:46:24.7480 | INFO | Content root path: D:\BaiduSyncdisk\webapi.net7+sqlsugar\webapi.net7.sqlsugar\webapi.net7.sqlsugar
+2024-04-15 20:46:24.7480 | DEBUG | Hosting started
+2024-04-15 20:46:24.7881 | INFO | Request starting HTTP/2 GET https://localhost:44351/swagger/index.html - -
+2024-04-15 20:46:24.9212 | DEBUG | Wildcard detected, all requests with hosts will be allowed.
+2024-04-15 20:46:24.9490 | DEBUG | No candidates found for the request path '/swagger/index.html'
+2024-04-15 20:46:24.9490 | DEBUG | Request did not match any endpoints
+2024-04-15 20:46:25.0860 | DEBUG | Response markup is scheduled to include browser refresh script injection.
+2024-04-15 20:46:25.1168 | DEBUG | Response markup was updated to include browser refresh script injection.
+2024-04-15 20:46:25.1290 | DEBUG | Connection ID "18086456130900328505" disconnecting.
+2024-04-15 20:46:25.1290 | INFO | Request starting HTTP/2 GET https://localhost:44351/_framework/aspnetcore-browser-refresh.js - -
+2024-04-15 20:46:25.1290 | INFO | Request finished HTTP/2 GET https://localhost:44351/swagger/index.html - - - 200 - text/html;charset=utf-8 343.3718ms
+2024-04-15 20:46:25.1380 | INFO | Request finished HTTP/2 GET https://localhost:44351/_framework/aspnetcore-browser-refresh.js - - - 200 13776 application/javascript;+charset=utf-8 3.8051ms
+2024-04-15 20:46:25.1380 | DEBUG | Connection ID "18302628891539275811" disconnecting.
+2024-04-15 20:46:25.1380 | INFO | Request starting HTTP/2 GET https://localhost:44351/_vs/browserLink - -
+2024-04-15 20:46:25.1848 | DEBUG | Connection ID "18374686498462105774" disconnecting.
+2024-04-15 20:46:25.1848 | INFO | Request finished HTTP/2 GET https://localhost:44351/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 40.1213ms
+2024-04-15 20:46:25.2344 | INFO | Request starting HTTP/2 GET https://localhost:44351/swagger/东泽房源管理接口/swagger.json - -
+2024-04-15 20:46:25.2344 | DEBUG | No candidates found for the request path '/swagger/东泽房源管理接口/swagger.json'
+2024-04-15 20:46:25.2344 | DEBUG | Request did not match any endpoints
+2024-04-15 20:46:25.5616 | DEBUG | Connection ID "17942340938529505285" disconnecting.
+2024-04-15 20:46:25.5616 | INFO | Request finished HTTP/2 GET https://localhost:44351/swagger/东泽房源管理接口/swagger.json - - - 200 - application/json;charset=utf-8 327.2490ms
+2024-04-15 20:46:28.9451 | INFO | Request starting HTTP/2 GET https://localhost:44351/swagger/U8移动端接口/swagger.json - -
+2024-04-15 20:46:28.9451 | DEBUG | No candidates found for the request path '/swagger/U8移动端接口/swagger.json'
+2024-04-15 20:46:28.9451 | DEBUG | Request did not match any endpoints
+2024-04-15 20:46:28.9676 | INFO | Request finished HTTP/2 GET https://localhost:44351/swagger/U8移动端接口/swagger.json - - - 200 - application/json;charset=utf-8 22.4488ms
+2024-04-15 20:46:28.9676 | DEBUG | Connection ID "18374686498462105776" disconnecting.
+2024-04-15 20:46:35.5491 | INFO | Request starting HTTP/2 POST https://localhost:44351/api/PassWordPost application/json 45
+2024-04-15 20:46:35.5491 | DEBUG | 1 candidate(s) found for the request path '/api/PassWordPost'
+2024-04-15 20:46:35.5491 | DEBUG | Endpoint 'webapi.net7.sqlsugar.Controllers.ApiLoginController.PassWordPost (webapi.net7.sqlsugar)' with route pattern 'api/PassWordPost' is valid for the request path '/api/PassWordPost'
+2024-04-15 20:46:35.5491 | DEBUG | Request matched endpoint 'webapi.net7.sqlsugar.Controllers.ApiLoginController.PassWordPost (webapi.net7.sqlsugar)'
+2024-04-15 20:46:35.5596 | DEBUG | Static files was skipped as the request already matched an endpoint.
+2024-04-15 20:46:35.5596 | DEBUG | Static files was skipped as the request already matched an endpoint.
+2024-04-15 20:46:35.6309 | DEBUG | AuthenticationScheme: Bearer was not authenticated.
+2024-04-15 20:46:35.6377 | DEBUG | The request has an origin header: 'https://localhost:44351'.
+2024-04-15 20:46:35.6377 | INFO | CORS policy execution successful.
+2024-04-15 20:46:35.6377 | INFO | Executing endpoint 'webapi.net7.sqlsugar.Controllers.ApiLoginController.PassWordPost (webapi.net7.sqlsugar)'
+2024-04-15 20:46:35.6720 | INFO | Route matched with {action = "PassWordPost", controller = "ApiLogin"}. Executing controller action with signature webapi.net7.sqlsugar.Model.MessageLogin PassWordPost(webapi.net7.sqlsugar.User) on controller webapi.net7.sqlsugar.Controllers.ApiLoginController (webapi.net7.sqlsugar).
+2024-04-15 20:46:35.6720 | DEBUG | Execution plan of authorization filters (in the following order): None
+2024-04-15 20:46:35.6720 | DEBUG | Execution plan of resource filters (in the following order): None
+2024-04-15 20:46:35.6720 | DEBUG | Execution plan of action filters (in the following order): Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000), Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)
+2024-04-15 20:46:35.6720 | DEBUG | Execution plan of exception filters (in the following order): None
+2024-04-15 20:46:35.6720 | DEBUG | Execution plan of result filters (in the following order): Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)
+2024-04-15 20:46:35.6720 | DEBUG | Executing controller factory for controller webapi.net7.sqlsugar.Controllers.ApiLoginController (webapi.net7.sqlsugar)
+2024-04-15 20:46:35.6720 | DEBUG | Executed controller factory for controller webapi.net7.sqlsugar.Controllers.ApiLoginController (webapi.net7.sqlsugar)
+2024-04-15 20:46:35.6720 | DEBUG | Attempting to bind parameter 'obj' of type 'webapi.net7.sqlsugar.User' ...
+2024-04-15 20:46:35.6839 | DEBUG | Attempting to bind parameter 'obj' of type 'webapi.net7.sqlsugar.User' using the name '' in request data ...
+2024-04-15 20:46:35.6839 | DEBUG | Selected input formatter 'Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonInputFormatter' for content type 'application/json'.
+2024-04-15 20:46:35.7017 | DEBUG | JSON input formatter succeeded, deserializing to type 'webapi.net7.sqlsugar.User'
+2024-04-15 20:46:35.7017 | DEBUG | Done attempting to bind parameter 'obj' of type 'webapi.net7.sqlsugar.User'.
+2024-04-15 20:46:35.7017 | DEBUG | Done attempting to bind parameter 'obj' of type 'webapi.net7.sqlsugar.User'.
+2024-04-15 20:46:35.7017 | DEBUG | Attempting to validate the bound parameter 'obj' of type 'webapi.net7.sqlsugar.User' ...
+2024-04-15 20:46:35.7017 | DEBUG | Done attempting to validate the bound parameter 'obj' of type 'webapi.net7.sqlsugar.User'.
+2024-04-15 20:46:35.7187 | INFO | Executing action method webapi.net7.sqlsugar.Controllers.ApiLoginController.PassWordPost (webapi.net7.sqlsugar) - Validation state: Valid
+2024-04-15 20:46:36.4940 | INFO | Executed action method webapi.net7.sqlsugar.Controllers.ApiLoginController.PassWordPost (webapi.net7.sqlsugar), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 771.8216ms.
+2024-04-15 20:46:36.4968 | DEBUG | List of registered output formatters, in the following order: Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter, Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter, Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter, Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter
+2024-04-15 20:46:36.4968 | DEBUG | Attempting to select an output formatter based on Accept header 'text/plain'.
+2024-04-15 20:46:36.4968 | DEBUG | Could not find an output formatter based on content negotiation. Accepted types were (text/plain)
+2024-04-15 20:46:36.4968 | DEBUG | Attempting to select an output formatter without using a content type as no explicit content types were specified for the response.
+2024-04-15 20:46:36.4968 | DEBUG | Attempting to select the first formatter in the output formatters list which can write the result.
+2024-04-15 20:46:36.4968 | DEBUG | Selected output formatter 'Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter' and content type 'application/json' to write the response.
+2024-04-15 20:46:36.4968 | INFO | Executing ObjectResult, writing value of type 'webapi.net7.sqlsugar.Model.MessageLogin'.
+2024-04-15 20:46:36.4968 | INFO | Executed action webapi.net7.sqlsugar.Controllers.ApiLoginController.PassWordPost (webapi.net7.sqlsugar) in 832.9867ms
+2024-04-15 20:46:36.4968 | INFO | Executed endpoint 'webapi.net7.sqlsugar.Controllers.ApiLoginController.PassWordPost (webapi.net7.sqlsugar)'
+2024-04-15 20:46:36.5123 | INFO | Request finished HTTP/2 POST https://localhost:44351/api/PassWordPost application/json 45 - 200 - application/json;+charset=utf-8 962.9958ms

@@ -1,0 +1,1268 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>webapi.net7.sqlsugar</name>
+    </assembly>
+    <members>
+        <member name="T:webapi.net7.sqlsugar.ActionFilter">
+            <summary>
+            方法过滤器
+            </summary>
+        </member>
+        <member name="P:webapi.net7.sqlsugar.ActionFilter.LoggerMonitor">
+            <summary>
+            监控日志
+            </summary>
+        </member>
+        <member name="P:webapi.net7.sqlsugar.ActionFilter.LoggerError">
+            <summary>
+            错误日志
+            </summary>
+        </member>
+        <member name="M:webapi.net7.sqlsugar.ActionFilter.CreateRequestLogText(System.String,System.String,System.String,System.Collections.Generic.IDictionary{System.String,System.Object})">
+            <summary>
+            创建请求日志文本
+            </summary>
+            <param name="method">请求方法</param>
+            <param name="controllerName">控制器名称</param>
+            <param name="actionName">方法名称</param>
+            <param name="actionArgs">方法参数</param>
+            <returns></returns>
+        </member>
+        <member name="M:webapi.net7.sqlsugar.ActionFilter.CreateResponseLogText(System.String,System.String,System.String,System.Object)">
+            <summary>
+            创建响应日志文本
+            </summary>
+            <param name="method">请求方法</param>
+            <param name="controllerName">控制器名称</param>
+            <param name="actionName">方法名称</param>
+            <param name="result">执行结果</param>
+            <returns></returns>
+        </member>
+        <member name="M:webapi.net7.sqlsugar.ActionFilter.OnActionExecuting(Microsoft.AspNetCore.Mvc.Filters.ActionExecutingContext)">
+            <summary>
+            方法执行前
+            </summary>
+            <param name="context"></param>
+        </member>
+        <member name="M:webapi.net7.sqlsugar.ActionFilter.OnActionExecuted(Microsoft.AspNetCore.Mvc.Filters.ActionExecutedContext)">
+            <summary>
+            方法执行后
+            </summary>
+            <param name="context"></param>
+        </member>
+        <member name="T:webapi.net7.sqlsugar.BLL.OperateResult">
+            <summary>
+            操作结果封装
+            </summary>
+        </member>
+        <member name="P:webapi.net7.sqlsugar.BLL.OperateResult.State">
+            <summary>
+            状态
+            </summary>
+        </member>
+        <member name="P:webapi.net7.sqlsugar.BLL.OperateResult.Message">
+            <summary>
+            消息
+            </summary>
+        </member>
+        <member name="P:webapi.net7.sqlsugar.BLL.OperateResult.Data">
+            <summary>
+            操作结果
+            </summary>
+        </member>
+        <member name="M:webapi.net7.sqlsugar.BLL.OperateResult.#ctor(System.Boolean,System.String,System.Object)">
+            <summary>
+            初始化
+            </summary>
+            <param name="state">状态</param>
+            <param name="message">消息</param>
+            <param name="data">操作结果</param>
+        </member>
+        <member name="T:webapi.net7.sqlsugar.UserFriendlyException">
+            <summary>
+            用户友好异常
+            </summary>
+        </member>
+        <member name="T:webapi.net7.sqlsugar.Controllers.ApiLoginController">
+            <summary>
+            登录管理
+            </summary>
+        </member>
+        <member name="M:webapi.net7.sqlsugar.Controllers.ApiLoginController.PassWordPost(webapi.net7.sqlsugar.User)">
+            <summary>
+            用户登录
+            </summary>
+            <param name="obj"></param>
+            <returns></returns>
+        </member>
+        <member name="M:webapi.net7.sqlsugar.Controllers.ApiLoginController.U8UserPassword(System.String,System.String,System.String,System.String,System.String)">
+            <summary>
+            通过U8账号和密码登录API
+            </summary>
+            <param name="acccount">账套号</param>
+            <param name="sDate">登录日期</param>
+            <param name="sServer">服务器地址</param>
+            <param name="sUserID">用户</param>
+            <param name="sPassword">密码</param>
+            <returns></returns>
+        </member>
+        <member name="M:webapi.net7.sqlsugar.Controllers.ApiLoginController.U8authority(webapi.net7.sqlsugar.Model.Authority)">
+            <summary>
+            用户获取权限
+            </summary>
+            <param name="au"></param>
+            <returns></returns>
+        </member>
+        <member name="M:webapi.net7.sqlsugar.Controllers.ApiLoginController.U8appVersion">
+            <summary>
+            获取U8APP的移动版本号
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="T:webapi.net7.sqlsugar.Controllers.ApiTokenController">
+            <summary>
+            Token管理
+            </summary>
+        </member>
+        <member name="M:webapi.net7.sqlsugar.Controllers.ApiTokenController.GetToken(webapi.net7.sqlsugar.User)">
+            <summary>
+            获取token
+            </summary>
+            <param name="user"></param>
+            <returns></returns>
+        </member>
+        <member name="T:webapi.net7.sqlsugar.Controllers.CRMAppControlle">
+            <summary>
+            登录管理
+            </summary>
+        </member>
+        <member name="M:webapi.net7.sqlsugar.Controllers.CRMAppControlle.usertest(System.Object)">
+            <summary>
+            CRM用户登录校验
+            </summary>
+            <param name="user"></param>
+            <returns></returns>
+        </member>
+        <member name="M:webapi.net7.sqlsugar.Controllers.CRMAppControlle.Getpassword(System.Object)">
+            <summary>
+            修改密码接口
+            </summary>
+            <param name="user"></param>
+            <returns></returns>
+        </member>
+        <member name="M:webapi.net7.sqlsugar.Controllers.CRMAppControlle.GetCcuscodeList(System.Object)">
+            <summary>
+            获取客户列表
+            </summary>
+            <param name="user"></param>
+            <returns></returns>
+        </member>
+        <member name="M:webapi.net7.sqlsugar.Controllers.CRMAppControlle.GetkhgzList(System.Object)">
+            <summary>
+            获取客户跟踪明细
+            </summary>
+            <param name="user"></param>
+            <returns></returns>
+        </member>
+        <member name="M:webapi.net7.sqlsugar.Controllers.CRMAppControlle.GetgjfsList">
+            <summary>
+            跟进方式获取接口
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:webapi.net7.sqlsugar.Controllers.CRMAppControlle.SetgjfsList(System.Object)">
+            <summary>
+            生成跟进明细接口
+            </summary>
+            <param name="ob"></param>
+            <returns></returns>
+        </member>
+        <member name="M:webapi.net7.sqlsugar.Controllers.CRMAppControlle.GetkhlxList(System.Object)">
+            <summary>
+            按客户类型获取数据量
+            </summary>
+            <param name="user"></param>
+            <returns></returns>
+        </member>
+        <member name="M:webapi.net7.sqlsugar.Controllers.CRMAppControlle.Setkhywy(System.Object)">
+            <summary>
+            客户回收分配业务接口
+            </summary>
+            <param name="ob"></param>
+            <returns></returns>
+        </member>
+        <member name="M:webapi.net7.sqlsugar.Controllers.CRMAppControlle.Getkhhzcx">
+            <summary>
+            客户汇总查询，无参查询
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:webapi.net7.sqlsugar.Controllers.CRMAppControlle.GetywyList">
+            <summary>
+            获取业务员接口
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:webapi.net7.sqlsugar.Controllers.CRMAppControlle.GetEunmList">
+            <summary>
+            获取所有枚举值接口
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:webapi.net7.sqlsugar.Controllers.CRMAppControlle.Customer(System.Object)">
+            <summary>
+            客户新增和修改
+            </summary>
+            <param name="ob"></param>
+            <returns></returns>
+        </member>
+        <member name="M:webapi.net7.sqlsugar.Controllers.CRMAppControlle.GetOAUser(System.Object)">
+            <summary>
+            页面传参接口
+            </summary>
+            <param name="user"></param>
+            <returns></returns>
+        </member>
+        <member name="M:webapi.net7.sqlsugar.Controllers.CRMAppControlle.GetYwykhhz(System.Object)">
+            <summary>
+            获取业务员汇总数据
+            </summary>
+            <param name="obj"></param>
+            <returns></returns>
+        </member>
+        <member name="M:webapi.net7.sqlsugar.Controllers.CRMAppControlle.Gethspflist(System.Object)">
+            <summary>
+            获取客户分配回收详细记录
+            </summary>
+            <param name="user"></param>
+            <returns></returns>
+        </member>
+        <member name="M:webapi.net7.sqlsugar.Controllers.CRMAppControlle.GetkhjbList">
+            <summary>
+            获取客户级别数据接口
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:webapi.net7.sqlsugar.Controllers.CRMAppControlle.Getjjyqkh(System.Object)">
+            <summary>
+            获取即将逾期客户数据接口
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:webapi.net7.sqlsugar.Controllers.CRMAppControlle.Getkhbglist(System.Object)">
+            <summary>
+            获取客户变更信息列表
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:webapi.net7.sqlsugar.Controllers.CRMAppControlle.Getkhbgxq(System.Object)">
+            <summary>
+            获取客户变更详细信息
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:webapi.net7.sqlsugar.Controllers.CRMAppControlle.Getfyxq(System.Object)">
+            <summary>
+            获取房源详情
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:webapi.net7.sqlsugar.Controllers.CRMAppControlle.Getfyfjh(System.Object)">
+            <summary>
+            通过传入楼栋获取房间号
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:webapi.net7.sqlsugar.Controllers.CRMAppControlle.Getfyld">
+            <summary>
+            获取所有楼栋
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:webapi.net7.sqlsugar.Controllers.CRMAppControlle.Getfykhlist(System.Object)">
+            <summary>
+            获取房源中客户信息
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:webapi.net7.sqlsugar.Controllers.CRMAppControlle.Getfykhmx(System.Object)">
+            <summary>
+            按客户编码获取姓名手机身份证信息
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:webapi.net7.sqlsugar.Controllers.CRMAppControlle.Getjjfs">
+            <summary>
+            获取计价方式
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:webapi.net7.sqlsugar.Controllers.CRMAppControlle.Getfkfs">
+            <summary>
+            获取付款方式
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:webapi.net7.sqlsugar.Controllers.CRMAppControlle.Getkxlx">
+            <summary>
+            获取款项类型
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:webapi.net7.sqlsugar.Controllers.CRMAppControlle.Getqyzt">
+            <summary>
+            签约状态
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:webapi.net7.sqlsugar.Controllers.CRMAppControlle.PostRGS(webapi.net7.sqlsugar.wlzh_rgdzb)">
+            <summary>
+            生成认购书
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:webapi.net7.sqlsugar.Controllers.CRMAppControlle.Getrgsbt(System.Object)">
+            <summary>
+            获取顾问认购书
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:webapi.net7.sqlsugar.Controllers.CRMAppControlle.Getrgskhmx(System.Object)">
+            <summary>
+            获取认购书客户
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:webapi.net7.sqlsugar.Controllers.CRMAppControlle.Getrgsfkmx(System.Object)">
+            <summary>
+            获取认购书付款计划
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:webapi.net7.sqlsugar.Controllers.CRMAppControlle.Getrgsdyywy(System.Object)">
+            <summary>
+            获取认购书是否存在并且是当前业务员认购书
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:webapi.net7.sqlsugar.Controllers.CRMAppControlle.GetDataTableToJson(System.Object)">
+            <summary>
+            datatable表转json功能
+            </summary>
+            <param name="ob"></param>
+            <returns></returns>
+        </member>
+        <member name="M:webapi.net7.sqlsugar.Controllers.CRMAppControlle.Getrgsajyy">
+            <summary>
+            获取认购书按揭银行
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:webapi.net7.sqlsugar.Controllers.CRMAppControlle.Getrcs(System.Object)">
+            <summary>
+            获取认筹书
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:webapi.net7.sqlsugar.Controllers.CRMAppControlle.Updatercszt(System.Object)">
+            <summary>
+            锁定和解锁认购书状态
+            </summary>
+            <param name="ob"></param>
+            <returns></returns>
+        </member>
+        <member name="T:webapi.net7.sqlsugar.Controllers.DeviceController">
+            <summary>
+            设备管理相关接口
+            </summary>
+        </member>
+        <member name="M:webapi.net7.sqlsugar.Controllers.DeviceController.DeviceSelect(webapi.net7.sqlsugar.Model.FLsbcx)">
+            <summary>
+            设备信息查询
+            </summary>
+            <param name="sbbm">设备编码</param>
+            <param name="sbzt">设备状态</param>
+            <returns></returns>
+        </member>
+        <member name="M:webapi.net7.sqlsugar.Controllers.DeviceController.DeviceUpdate(System.Object)">
+            <summary>
+            设备维修保养
+            </summary>
+            <param name="sbbm">设备编码</param>
+            <param name="upsbzt">修改后状态</param>
+            <param name="username">操作人员</param>
+            <returns></returns>
+        </member>
+        <member name="M:webapi.net7.sqlsugar.Controllers.DeviceController.DeviceTrack(webapi.net7.sqlsugar.Model.FLsbcx)">
+            <summary>
+            设备全过程跟踪
+            </summary>
+            <param name="sbbm"></param>
+            <returns></returns>
+        </member>
+        <member name="M:webapi.net7.sqlsugar.Controllers.DeviceController.DevicePerson(System.Object)">
+            <summary>
+            设备和班次获取人员信息
+            </summary>
+            <param name="jtname">机台号</param>
+            <param name="bz">班次</param>
+            <returns></returns>
+        </member>
+        <member name="M:webapi.net7.sqlsugar.Controllers.DeviceController.DeviceAllPerson(System.Object)">
+            <summary>
+            获取车间所有人员档案
+            </summary>
+            <param name="value">包含车间、人员条件</param>
+            <returns></returns>
+        </member>
+        <member name="T:webapi.net7.sqlsugar.Controllers.FileController">
+            <summary>
+            文件上传下载接口
+            </summary>
+        </member>
+        <member name="M:webapi.net7.sqlsugar.Controllers.FileController.UploadFile(Microsoft.AspNetCore.Http.IFormCollection,System.String,System.String,System.String,System.String)">
+            <summary>
+            单文件上传接口
+            </summary>
+            <param name="form"></param>
+            <param name="ccode"></param>
+            <param name="vouchType"></param>
+            <param name="autoid"></param>
+            <param name="maker"></param>
+            <returns></returns>
+        </member>
+        <member name="T:webapi.net7.sqlsugar.Controllers.QualityControlController">
+            <summary>
+            质量管理
+            </summary>
+        </member>
+        <member name="M:webapi.net7.sqlsugar.Controllers.QualityControlController.ProductInspectionSelect(System.Object)">
+            <summary>
+            根据条码生成产品报检单列表数据
+            </summary>
+            <param name="ob">生产订单行条码</param>
+            <returns></returns>
+        </member>
+        <member name="M:webapi.net7.sqlsugar.Controllers.QualityControlController.ProductInspectionDelete(System.Object)">
+            <summary>
+            删除产品报检单列表数据
+            </summary>
+            <param name="ob">报检单号</param>
+            <returns></returns>
+        </member>
+        <member name="M:webapi.net7.sqlsugar.Controllers.QualityControlController.ProductInspectionAdd(System.Object)">
+            <summary>
+            生产产品报检单
+            </summary>
+            <param name="obj">传入json对象</param>
+            <returns></returns>
+        </member>
+        <member name="M:webapi.net7.sqlsugar.Controllers.QualityControlController.ProductInspectionSelectSY(System.Object)">
+            <summary>
+            获取可检验列表数据
+            </summary>
+            <param name="ob">生产订单行条码</param>
+            <returns></returns>
+        </member>
+        <member name="M:webapi.net7.sqlsugar.Controllers.QualityControlController.InspectionForm(System.Object)">
+            <summary>
+            获取检验单数据
+            </summary>
+            <param name="ob">生产订单行条码</param>
+            <returns></returns>
+        </member>
+        <member name="T:webapi.net7.sqlsugar.Controllers.ReportController">
+            <summary>
+            报表相关接口
+            </summary>
+        </member>
+        <member name="M:webapi.net7.sqlsugar.Controllers.ReportController.WareHouse(System.Object)">
+            <summary>
+            仓库档案查询接口
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:webapi.net7.sqlsugar.Controllers.ReportController.CustomerCx(System.Object)">
+            <summary>
+            客户档案查询接口
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:webapi.net7.sqlsugar.Controllers.ReportController.Vendor(System.Object)">
+            <summary>
+            供应商档案查询接口
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:webapi.net7.sqlsugar.Controllers.ReportController.StandingsStock(System.Object)">
+            <summary>
+            查询现存量
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:webapi.net7.sqlsugar.Controllers.ReportController.Payable(System.Object)">
+            <summary>
+            应付款查询
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:webapi.net7.sqlsugar.Controllers.ReportController.Receivables(System.Object)">
+            <summary>
+            应收款查询
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:webapi.net7.sqlsugar.Controllers.ReportController.Collection(System.Object)">
+            <summary>
+            当日收款查询接口
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:webapi.net7.sqlsugar.Controllers.ReportController.SalesStatistics(System.Object)">
+            <summary>
+            销售统计数据表
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:webapi.net7.sqlsugar.Controllers.ReportController.SalesStatisticsCount(System.Object)">
+            <summary>
+            销售统计数据表汇总数
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="T:webapi.net7.sqlsugar.Controllers.SqlController">
+            <summary>
+            通过SQL查询
+            </summary>
+        </member>
+        <member name="M:webapi.net7.sqlsugar.Controllers.SqlController.UserLogin(webapi.net7.sqlsugar.User)">
+            <summary>
+            用户登录
+            </summary>
+            <param name="obj"></param>
+            <returns></returns>
+        </member>
+        <member name="T:webapi.net7.sqlsugar.Controllers.WorkShopController">
+            <summary>
+            生产管理
+            </summary>
+        </member>
+        <member name="M:webapi.net7.sqlsugar.Controllers.WorkShopController.ProductionBarcode(System.Object)">
+            <summary>
+            扫码获取生产订单信息
+            </summary>
+            <param name="code">生产订单行条码</param>
+            <returns></returns>
+        </member>
+        <member name="M:webapi.net7.sqlsugar.Controllers.WorkShopController.SubmitApplicationMessage(System.Object)">
+            <summary>
+            U8审批流提交接口
+            </summary>
+            <param name="ob"></param>
+            <returns></returns>
+        </member>
+        <member name="M:webapi.net7.sqlsugar.SqlSugarHelp.mySqlSugarTable(System.String)">
+            <summary>
+            通过sql语句查询生成table数据
+            </summary>
+            <param name="sql"></param>
+            <returns></returns>
+        </member>
+        <member name="M:webapi.net7.sqlsugar.SqlSugarHelp.SqlSugarTable(System.String)">
+            <summary>
+            通过sql语句查询生成table数据
+            </summary>
+            <param name="sql"></param>
+            <returns></returns>
+        </member>
+        <member name="M:webapi.net7.sqlsugar.SqlSugarHelp.SqlSugarTableFL(System.String)">
+            <summary>
+            通过sql语句查询生成table数据
+            </summary>
+            <param name="sql"></param>
+            <returns></returns>
+        </member>
+        <member name="M:webapi.net7.sqlsugar.SqlSugarHelp.SqlSugarTableProc(System.String,webapi.net7.sqlsugar.Parameter[])">
+            <summary>
+            存储过程不确定参数传参获取table数据
+            </summary>
+            <param name="procname"></param>
+            <param name="ps"></param>
+            <returns></returns>
+        </member>
+        <member name="M:webapi.net7.sqlsugar.SqlSugarHelp.SqlSugarClient(System.String,System.String)">
+            <summary>
+            生成数据库中全部实体类
+            </summary>
+            <param name="patch"></param>
+            <param name="spacename"></param>
+        </member>
+        <member name="M:webapi.net7.sqlsugar.SqlSugarHelp.SqlSugarClient(System.String,System.String,System.String)">
+            <summary>
+            生成指定名称的实体类
+            </summary>
+            <param name="tablename"></param>
+            <param name="ph"></param>
+            <param name="spacename"></param>
+        </member>
+        <member name="M:webapi.net7.sqlsugar.SqlSugarHelp.SqlSugarList``1(``0)">
+            <summary>
+            查询对象返回表结果数据
+            </summary>
+            <typeparam name="T"></typeparam>
+            <param name="tablename"></param>
+            <returns></returns>
+        </member>
+        <member name="M:webapi.net7.sqlsugar.SqlSugarHelp.SqlSugarListTop1``1(``0,System.String,System.String)">
+            <summary>
+            对象查询数据库表带条件
+            </summary>
+            <typeparam name="T"></typeparam>
+            <param name="tablename"></param>
+            <param name="id"></param>
+            <param name="sbzt">设备状态，暂时作废</param>
+            <returns></returns>
+        </member>
+        <member name="M:webapi.net7.sqlsugar.SqlSugarHelp.SqlSugarListTopversion_app``1(``0)">
+            <summary>
+            对象查询数据库表带条件
+            </summary>
+            <typeparam name="T"></typeparam>
+            <param name="tablename"></param>
+            <param name="id"></param>
+            <param name="sbzt">设备状态，暂时作废</param>
+            <returns></returns>
+        </member>
+        <member name="M:webapi.net7.sqlsugar.SqlSugarHelp.SqlSugarListPerson``1(``0,System.String)">
+            <summary>
+            查询人员对应设备班次
+            </summary>
+            <typeparam name="T"></typeparam>
+            <param name="tablename"></param>
+            <param name="jtname"></param>
+            <param name="bz"></param>
+            <returns></returns>
+        </member>
+        <member name="M:webapi.net7.sqlsugar.SqlSugarHelp.SqlSugarListProduction``1(``0,System.String)">
+            <summary>
+            扫码获取生产订单信息
+            </summary>
+            <typeparam name="T"></typeparam>
+            <param name="tablename"></param>
+            <param name="code"></param>
+            <returns></returns>
+        </member>
+        <member name="M:webapi.net7.sqlsugar.SqlSugarHelp.SqlSugarListProductInspectionList``1(``0,System.String)">
+            <summary>
+            扫码获取生产订单信息
+            </summary>
+            <typeparam name="T"></typeparam>
+            <param name="tablename"></param>
+            <param name="code"></param>
+            <returns></returns>
+        </member>
+        <member name="M:webapi.net7.sqlsugar.SqlSugarHelp.SqlSugarListProductInspectionListSY``1(``0,System.String)">
+            <summary>
+            扫码获取生产订单信息
+            </summary>
+            <typeparam name="T"></typeparam>
+            <param name="tablename"></param>
+            <param name="code"></param>
+            <returns></returns>
+        </member>
+        <member name="M:webapi.net7.sqlsugar.SqlSugarHelp.SqlSugarListInspectionForm``1(``0,System.String)">
+            <summary>
+            扫码获取检验单列表数据
+            </summary>
+            <typeparam name="T"></typeparam>
+            <param name="tablename"></param>
+            <param name="code"></param>
+            <returns></returns>
+        </member>
+        <member name="M:webapi.net7.sqlsugar.SqlSugarHelp.SqlSugarListAllPerson``1(``0,System.String)">
+            <summary>
+            查询所有人员档案
+            </summary>
+            <typeparam name="T"></typeparam>
+            <param name="tablename"></param>
+            <param name="id"></param>
+            <returns></returns>
+        </member>
+        <member name="M:webapi.net7.sqlsugar.SqlSugarHelp.SqlSugarJson``1(``0)">
+            <summary>
+            实体对象直接转json
+            </summary>
+            <typeparam name="T"></typeparam>
+            <param name="table"></param>
+            <returns></returns>
+        </member>
+        <member name="T:webapi.net7.sqlsugar.User">
+            <summary>
+            用户类
+            </summary>
+        </member>
+        <member name="P:webapi.net7.sqlsugar.wlzh_rgdzb.state">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:webapi.net7.sqlsugar.wlzh_rgdzb.start_member_id">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:webapi.net7.sqlsugar.wlzh_rgdzb.finishedflag">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:webapi.net7.sqlsugar.wlzh_rgdzb.ratifyflag">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:webapi.net7.sqlsugar.wlzh_rgdzb.ratify_member_id">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:webapi.net7.sqlsugar.wlzh_rgdzb.ratify_date">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:webapi.net7.sqlsugar.wlzh_rgdzb.sort">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:webapi.net7.sqlsugar.wlzh_rgdzb.modify_member_id">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:webapi.net7.sqlsugar.wlzh_rgdzb.modify_date">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:webapi.net7.sqlsugar.wlzh_rgdzb.field0001">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:webapi.net7.sqlsugar.wlzh_rgdzb.field0002">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:webapi.net7.sqlsugar.wlzh_rgdzb.field0003">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:webapi.net7.sqlsugar.wlzh_rgdzb.field0005">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:webapi.net7.sqlsugar.wlzh_rgdzb.field0006">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:webapi.net7.sqlsugar.wlzh_rgdzb.field0014">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:webapi.net7.sqlsugar.wlzh_rgdzb.field0017">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:webapi.net7.sqlsugar.wlzh_rgdzb.field0019">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:webapi.net7.sqlsugar.wlzh_rgdzb.field0020">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:webapi.net7.sqlsugar.wlzh_rgdzb.field0022">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:webapi.net7.sqlsugar.wlzh_rgdzb.field0023">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:webapi.net7.sqlsugar.wlzh_rgdzb.field0025">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:webapi.net7.sqlsugar.wlzh_rgdzb.field0026">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:webapi.net7.sqlsugar.wlzh_rgdzb.field0027">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:webapi.net7.sqlsugar.wlzh_rgdzb.field0028">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:webapi.net7.sqlsugar.wlzh_rgdzb.field0029">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:webapi.net7.sqlsugar.wlzh_rgdzb.field0037">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:webapi.net7.sqlsugar.wlzh_rgdzb.field0038">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:webapi.net7.sqlsugar.wlzh_rgdzb.field0039">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:webapi.net7.sqlsugar.wlzh_rgdzb.field0040">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:webapi.net7.sqlsugar.wlzh_rgdzb.field0041">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:webapi.net7.sqlsugar.wlzh_rgdzb.field0042">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:webapi.net7.sqlsugar.wlzh_rgdzb.field0043">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:webapi.net7.sqlsugar.wlzh_rgdzb.field0044">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:webapi.net7.sqlsugar.wlzh_rgdzb.field0045">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:webapi.net7.sqlsugar.wlzh_rgdzb.field0046">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:webapi.net7.sqlsugar.wlzh_rgdzb.field0047">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:webapi.net7.sqlsugar.wlzh_rgdzb.field0048">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:webapi.net7.sqlsugar.wlzh_rgdzb.field0049">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:webapi.net7.sqlsugar.wlzh_rgdzb.field0050">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:webapi.net7.sqlsugar.wlzh_rgdzb.field0051">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:webapi.net7.sqlsugar.wlzh_rgdzb.field0052">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:webapi.net7.sqlsugar.wlzh_rgdzb.field0053">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:webapi.net7.sqlsugar.wlzh_rgdzb.field0054">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:webapi.net7.sqlsugar.wlzh_rgdzb.field0055">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:webapi.net7.sqlsugar.wlzh_rgdzb.field0056">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:webapi.net7.sqlsugar.wlzh_rgdzb.field0058">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:webapi.net7.sqlsugar.wlzh_rgdzb.field0059">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:webapi.net7.sqlsugar.wlzh_rgdzb.field0062">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:webapi.net7.sqlsugar.wlzh_rgdzb.field0064">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:webapi.net7.sqlsugar.wlzh_rgdzb.field0065">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:webapi.net7.sqlsugar.wlzh_rgdzb.field0079">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:webapi.net7.sqlsugar.wlzh_rgdzb.field0035">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:webapi.net7.sqlsugar.wlzh_rgdzb.field0004">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:webapi.net7.sqlsugar.wlzh_rgdzb.field0007">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:webapi.net7.sqlsugar.wlzh_rgdzb.field0008">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:webapi.net7.sqlsugar.wlzh_rgdzb.field0009">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:webapi.net7.sqlsugar.wlzh_rgdzb.field0010">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:webapi.net7.sqlsugar.wlzh_rgdzb.field0012">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:webapi.net7.sqlsugar.wlzh_rgdzb.field0015">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:webapi.net7.sqlsugar.wlzh_rgdzb.field0016">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:webapi.net7.sqlsugar.wlzh_rgdzb.field0018">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:webapi.net7.sqlsugar.wlzh_rgdzb.field0024">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:webapi.net7.sqlsugar.wlzh_rgdzb.field0030">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:webapi.net7.sqlsugar.wlzh_rgdzb.field0031">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:webapi.net7.sqlsugar.wlzh_rgdzb.field0032">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:webapi.net7.sqlsugar.wlzh_rgdzb.field0033">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:webapi.net7.sqlsugar.wlzh_rgdzb.field0034">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:webapi.net7.sqlsugar.wlzh_rgdzb.field0036">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:webapi.net7.sqlsugar.wlzh_rgdzb.field0057">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:webapi.net7.sqlsugar.wlzh_rgdzb.field0060">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:webapi.net7.sqlsugar.wlzh_rgdzb.field0061">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:webapi.net7.sqlsugar.wlzh_rgdzb.field0063">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:webapi.net7.sqlsugar.wlzh_rgdzb.field0066">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:webapi.net7.sqlsugar.wlzh_rgdzb.field0067">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:webapi.net7.sqlsugar.wlzh_rgdzb.field0013">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:webapi.net7.sqlsugar.wlzh_rgdzb.field0011">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:webapi.net7.sqlsugar.wlzh_rgdzb.field0021">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:webapi.net7.sqlsugar.wlzh_rgdzb.field0093">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:webapi.net7.sqlsugar.wlzh_rgdzb.field0094">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:webapi.net7.sqlsugar.wlzh_rgdzb.field0095">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:webapi.net7.sqlsugar.wlzh_rgdzb.field0097">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:webapi.net7.sqlsugar.wlzh_rgdzb.field0098">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:webapi.net7.sqlsugar.wlzh_rgdzb.GID">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:webapi.net7.sqlsugar.wlzh_rgdzb.ID">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:webapi.net7.sqlsugar.wlzh_rgdzb.usercode">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:webapi.net7.sqlsugar.wlzh_rgdzb.modifytip">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:webapi.net7.sqlsugar.wlzh_rgdzb.result">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:webapi.net7.sqlsugar.wlzh_rgdzb.dtime">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:webapi.net7.sqlsugar.wlzh_rgdzb.khmx">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:webapi.net7.sqlsugar.wlzh_rgdzb.fkmx">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:webapi.net7.sqlsugar.wlzh_v_device_record.id">
+            <summary>
+            id
+            </summary>		
+        </member>
+        <member name="P:webapi.net7.sqlsugar.wlzh_v_device_record.sbbm">
+            <summary>
+            sbbm
+            </summary>		
+        </member>
+        <member name="P:webapi.net7.sqlsugar.wlzh_v_device_record.sbmc">
+            <summary>
+            sbmc
+            </summary>		
+        </member>
+        <member name="P:webapi.net7.sqlsugar.wlzh_v_device_record.zt">
+            <summary>
+            zt
+            </summary>		
+        </member>
+        <member name="P:webapi.net7.sqlsugar.wlzh_v_device_record.bgzt">
+            <summary>
+            bgzt
+            </summary>		
+        </member>
+        <member name="P:webapi.net7.sqlsugar.wlzh_v_device_record.bgyy">
+            <summary>
+            bgyy
+            </summary>		
+        </member>
+        <member name="P:webapi.net7.sqlsugar.wlzh_v_device_record.bm">
+            <summary>
+            bm
+            </summary>		
+        </member>
+        <member name="P:webapi.net7.sqlsugar.wlzh_v_device_record.bmmc">
+            <summary>
+            bmmc
+            </summary>		
+        </member>
+        <member name="P:webapi.net7.sqlsugar.wlzh_v_device_record.zcbm">
+            <summary>
+            zcbm
+            </summary>		
+        </member>
+        <member name="P:webapi.net7.sqlsugar.wlzh_v_device_record.zcmc">
+            <summary>
+            zcmc
+            </summary>		
+        </member>
+        <member name="P:webapi.net7.sqlsugar.wlzh_v_device_record.kpbm">
+            <summary>
+            kpbm
+            </summary>		
+        </member>
+        <member name="P:webapi.net7.sqlsugar.wlzh_v_device_record.zdr">
+            <summary>
+            zdr
+            </summary>		
+        </member>
+        <member name="P:webapi.net7.sqlsugar.wlzh_v_device_record.shr">
+            <summary>
+            shr
+            </summary>		
+        </member>
+        <member name="P:webapi.net7.sqlsugar.wlzh_v_device_record.sbxh">
+            <summary>
+            sbxh
+            </summary>		
+        </member>
+        <member name="P:webapi.net7.sqlsugar.wlzh_v_device_record.zzcs">
+            <summary>
+            zzcs
+            </summary>		
+        </member>
+        <member name="P:webapi.net7.sqlsugar.wlzh_v_device_record.ysrq">
+            <summary>
+            ysrq
+            </summary>		
+        </member>
+        <member name="P:webapi.net7.sqlsugar.wlzh_v_device_record.kpcs">
+            <summary>
+            kpcs
+            </summary>		
+        </member>
+        <member name="P:webapi.net7.sqlsugar.wlzh_v_device_record.kpcsmc">
+            <summary>
+            kpcsmc
+            </summary>		
+        </member>
+        <member name="T:webapi.net7.sqlsugar.ApiVersions">
+            <summary>
+            枚举中表示的就是不同版本
+            </summary>
+        </member>
+        <member name="T:webapi.net7.sqlsugar.CustomSwaggerExt">
+            <summary>
+            program中的swagger配置迁移到此处
+            </summary>
+        </member>
+        <member name="M:webapi.net7.sqlsugar.Extension.GetClientUserIp(Microsoft.AspNetCore.Http.HttpContext)">
+            <summary>
+            获取客户Ip
+            </summary>
+            <param name="context"></param>
+            <returns></returns>
+        </member>
+        <member name="T:webapi.net7.sqlsugar.FileUploadfilter">
+            <summary>
+            文件上传webapi功能类
+            </summary>
+        </member>
+    </members>
+</doc>

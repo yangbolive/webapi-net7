@@ -1,0 +1,64 @@
+2024-07-09 15:31:26.6645 | INFO | User profile is available. Using 'C:\Users\Administrator\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-07-09 15:31:26.9004 | INFO | Now listening on: http://localhost:5149
+2024-07-09 15:31:26.9004 | INFO | Application started. Press Ctrl+C to shut down.
+2024-07-09 15:31:26.9004 | INFO | Hosting environment: Development
+2024-07-09 15:31:26.9004 | INFO | Content root path: D:\BaiduSyncdisk\webapi.net7+sqlsugar\webapi.net7.sqlsugar\webapi.net7.sqlsugar
+2024-07-09 15:31:27.6709 | INFO | Request starting HTTP/1.1 GET http://localhost:5149/swagger - -
+2024-07-09 15:31:27.9474 | INFO | Request finished HTTP/1.1 GET http://localhost:5149/swagger - - - 301 0 - 279.3338ms
+2024-07-09 15:31:27.9474 | INFO | Request starting HTTP/1.1 GET http://localhost:5149/swagger/index.html - -
+2024-07-09 15:31:28.0743 | INFO | Request finished HTTP/1.1 GET http://localhost:5149/swagger/index.html - - - 200 - text/html;charset=utf-8 123.5527ms
+2024-07-09 15:31:28.0743 | INFO | Request starting HTTP/1.1 GET http://localhost:5149/swagger/swagger-ui.css - -
+2024-07-09 15:31:28.0743 | INFO | Request starting HTTP/1.1 GET http://localhost:5149/swagger/swagger-ui-bundle.js - -
+2024-07-09 15:31:28.0743 | INFO | Request starting HTTP/1.1 GET http://localhost:5149/swagger/swagger-ui-standalone-preset.js - -
+2024-07-09 15:31:28.1070 | INFO | Request starting HTTP/1.1 GET http://localhost:5149/_vs/browserLink - -
+2024-07-09 15:31:28.1070 | INFO | Request starting HTTP/1.1 GET http://localhost:5149/_framework/aspnetcore-browser-refresh.js - -
+2024-07-09 15:31:28.1170 | INFO | Request finished HTTP/1.1 GET http://localhost:5149/_framework/aspnetcore-browser-refresh.js - - - 200 13776 application/javascript;+charset=utf-8 7.1187ms
+2024-07-09 15:31:28.1170 | INFO | Sending file. Request path: '/swagger-ui.css'. Physical path: 'N/A'
+2024-07-09 15:31:28.1339 | INFO | Sending file. Request path: '/swagger-ui-standalone-preset.js'. Physical path: 'N/A'
+2024-07-09 15:31:28.1467 | INFO | Request finished HTTP/1.1 GET http://localhost:5149/swagger/swagger-ui.css - - - 200 144929 text/css 69.0553ms
+2024-07-09 15:31:28.1467 | INFO | Request finished HTTP/1.1 GET http://localhost:5149/swagger/swagger-ui-standalone-preset.js - - - 200 312163 text/javascript 68.2127ms
+2024-07-09 15:31:28.1794 | INFO | Sending file. Request path: '/swagger-ui-bundle.js'. Physical path: 'N/A'
+2024-07-09 15:31:28.1794 | INFO | Request finished HTTP/1.1 GET http://localhost:5149/swagger/swagger-ui-bundle.js - - - 200 1061536 text/javascript 103.3912ms
+2024-07-09 15:31:28.2608 | INFO | Request finished HTTP/1.1 GET http://localhost:5149/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 152.0232ms
+2024-07-09 15:31:28.3621 | INFO | Request starting HTTP/1.1 GET http://localhost:5149/swagger/东泽房源管理接口/swagger.json - -
+2024-07-09 15:31:28.3825 | INFO | Request starting HTTP/1.1 GET http://localhost:5149/swagger/favicon-32x32.png - -
+2024-07-09 15:31:28.3947 | INFO | Sending file. Request path: '/favicon-32x32.png'. Physical path: 'N/A'
+2024-07-09 15:31:28.3947 | INFO | Request finished HTTP/1.1 GET http://localhost:5149/swagger/favicon-32x32.png - - - 200 628 image/png 12.6973ms
+2024-07-09 15:31:28.7419 | INFO | Request finished HTTP/1.1 GET http://localhost:5149/swagger/东泽房源管理接口/swagger.json - - - 200 - application/json;charset=utf-8 379.9900ms
+2024-07-09 15:31:35.2390 | INFO | Request starting HTTP/1.1 GET http://localhost:5149/swagger/U8移动端接口/swagger.json - -
+2024-07-09 15:31:35.2728 | INFO | Request finished HTTP/1.1 GET http://localhost:5149/swagger/U8移动端接口/swagger.json - - - 200 - application/json;charset=utf-8 33.9239ms
+2024-07-09 15:31:38.0798 | INFO | Request starting HTTP/1.1 GET http://localhost:5149/swagger/报表接口/swagger.json - -
+2024-07-09 15:31:38.0827 | INFO | Request finished HTTP/1.1 GET http://localhost:5149/swagger/报表接口/swagger.json - - - 200 - application/json;charset=utf-8 3.0353ms
+2024-07-09 15:31:40.6956 | INFO | Request starting HTTP/1.1 GET http://localhost:5149/swagger/U8移动端接口/swagger.json - -
+2024-07-09 15:31:40.7102 | INFO | Request finished HTTP/1.1 GET http://localhost:5149/swagger/U8移动端接口/swagger.json - - - 200 - application/json;charset=utf-8 14.6835ms
+2024-07-09 15:33:02.7910 | INFO | Request starting HTTP/1.1 POST http://localhost:5149/api/SubmitApplicationMessage application/json 53
+2024-07-09 15:33:02.8093 | WARN | Failed to determine the https port for redirect.
+2024-07-09 15:33:02.8912 | INFO | CORS policy execution successful.
+2024-07-09 15:33:02.8941 | INFO | Executing endpoint 'webapi.net7.sqlsugar.Controllers.WorkShopController.SubmitApplicationMessage (webapi.net7.sqlsugar)'
+2024-07-09 15:33:02.9115 | INFO | Route matched with {action = "SubmitApplicationMessage", controller = "WorkShop"}. Executing controller action with signature System.Object SubmitApplicationMessage(System.Object) on controller webapi.net7.sqlsugar.Controllers.WorkShopController (webapi.net7.sqlsugar).
+2024-07-09 15:33:03.1482 | INFO | Executing action method webapi.net7.sqlsugar.Controllers.WorkShopController.SubmitApplicationMessage (webapi.net7.sqlsugar) - Validation state: Valid
+2024-07-09 15:33:08.4344 | INFO | Executed action method webapi.net7.sqlsugar.Controllers.WorkShopController.SubmitApplicationMessage (webapi.net7.sqlsugar), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 5277.0124ms.
+2024-07-09 15:33:08.4344 | INFO | Executing ObjectResult, writing value of type '<>f__AnonymousType10`2[[System.Nullable`1[[System.Int32, System.Private.CoreLib, Version=7.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]], System.Private.CoreLib, Version=7.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=7.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2024-07-09 15:33:08.4435 | INFO | Executed action webapi.net7.sqlsugar.Controllers.WorkShopController.SubmitApplicationMessage (webapi.net7.sqlsugar) in 5531.2272ms
+2024-07-09 15:33:08.4435 | INFO | Executed endpoint 'webapi.net7.sqlsugar.Controllers.WorkShopController.SubmitApplicationMessage (webapi.net7.sqlsugar)'
+2024-07-09 15:33:08.4435 | INFO | Request finished HTTP/1.1 POST http://localhost:5149/api/SubmitApplicationMessage application/json 53 - 200 - application/json;+charset=utf-8 5655.8162ms
+2024-07-09 15:38:12.4435 | INFO | Request starting HTTP/1.1 POST http://localhost:5149/api/SubmitApplicationMessage application/json 55
+2024-07-09 15:38:12.4585 | INFO | CORS policy execution successful.
+2024-07-09 15:38:12.4585 | INFO | Executing endpoint 'webapi.net7.sqlsugar.Controllers.WorkShopController.SubmitApplicationMessage (webapi.net7.sqlsugar)'
+2024-07-09 15:38:12.4585 | INFO | Route matched with {action = "SubmitApplicationMessage", controller = "WorkShop"}. Executing controller action with signature System.Object SubmitApplicationMessage(System.Object) on controller webapi.net7.sqlsugar.Controllers.WorkShopController (webapi.net7.sqlsugar).
+2024-07-09 15:38:12.4725 | INFO | Executing action method webapi.net7.sqlsugar.Controllers.WorkShopController.SubmitApplicationMessage (webapi.net7.sqlsugar) - Validation state: Valid
+2024-07-09 15:38:12.6331 | INFO | Executed action method webapi.net7.sqlsugar.Controllers.WorkShopController.SubmitApplicationMessage (webapi.net7.sqlsugar), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 159.4425ms.
+2024-07-09 15:38:12.6331 | INFO | Executing ObjectResult, writing value of type '<>f__AnonymousType10`2[[System.Nullable`1[[System.Int32, System.Private.CoreLib, Version=7.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]], System.Private.CoreLib, Version=7.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=7.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2024-07-09 15:38:12.6331 | INFO | Executed action webapi.net7.sqlsugar.Controllers.WorkShopController.SubmitApplicationMessage (webapi.net7.sqlsugar) in 172.898ms
+2024-07-09 15:38:12.6331 | INFO | Executed endpoint 'webapi.net7.sqlsugar.Controllers.WorkShopController.SubmitApplicationMessage (webapi.net7.sqlsugar)'
+2024-07-09 15:38:12.6331 | INFO | Request finished HTTP/1.1 POST http://localhost:5149/api/SubmitApplicationMessage application/json 55 - 200 - application/json;+charset=utf-8 181.0729ms
+2024-07-09 15:38:18.2380 | INFO | Request starting HTTP/1.1 POST http://localhost:5149/api/SubmitApplicationMessage application/json 54
+2024-07-09 15:38:18.2380 | INFO | CORS policy execution successful.
+2024-07-09 15:38:18.2380 | INFO | Executing endpoint 'webapi.net7.sqlsugar.Controllers.WorkShopController.SubmitApplicationMessage (webapi.net7.sqlsugar)'
+2024-07-09 15:38:18.2380 | INFO | Route matched with {action = "SubmitApplicationMessage", controller = "WorkShop"}. Executing controller action with signature System.Object SubmitApplicationMessage(System.Object) on controller webapi.net7.sqlsugar.Controllers.WorkShopController (webapi.net7.sqlsugar).
+2024-07-09 15:38:18.2380 | INFO | Executing action method webapi.net7.sqlsugar.Controllers.WorkShopController.SubmitApplicationMessage (webapi.net7.sqlsugar) - Validation state: Valid
+2024-07-09 15:38:20.2026 | INFO | Executed action method webapi.net7.sqlsugar.Controllers.WorkShopController.SubmitApplicationMessage (webapi.net7.sqlsugar), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 1958.6732ms.
+2024-07-09 15:38:20.2026 | INFO | Executing ObjectResult, writing value of type '<>f__AnonymousType10`2[[System.Nullable`1[[System.Int32, System.Private.CoreLib, Version=7.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]], System.Private.CoreLib, Version=7.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=7.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2024-07-09 15:38:20.2026 | INFO | Executed action webapi.net7.sqlsugar.Controllers.WorkShopController.SubmitApplicationMessage (webapi.net7.sqlsugar) in 1961.1728ms
+2024-07-09 15:38:20.2026 | INFO | Executed endpoint 'webapi.net7.sqlsugar.Controllers.WorkShopController.SubmitApplicationMessage (webapi.net7.sqlsugar)'
+2024-07-09 15:38:20.2026 | INFO | Request finished HTTP/1.1 POST http://localhost:5149/api/SubmitApplicationMessage application/json 54 - 200 - application/json;+charset=utf-8 1965.4455ms

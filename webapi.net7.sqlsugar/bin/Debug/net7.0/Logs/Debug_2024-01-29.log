@@ -1,0 +1,99 @@
+2024-01-29 14:21:17.3705 | DEBUG | Registered model binder providers, in the following order: Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DateTimeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.TryParseModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinderProvider
+2024-01-29 14:21:17.5227 | DEBUG | Hosting starting
+2024-01-29 14:21:17.5536 | INFO | User profile is available. Using 'C:\Users\Administrator\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-01-29 14:21:17.5603 | DEBUG | Reading data from file 'C:\Users\Administrator\AppData\Local\ASP.NET\DataProtection-Keys\key-34692722-1836-4131-841e-52bc30c5cc34.xml'.
+2024-01-29 14:21:17.5603 | DEBUG | Reading data from file 'C:\Users\Administrator\AppData\Local\ASP.NET\DataProtection-Keys\key-691d2c1e-819d-4ace-bf8c-4b95df9c96f1.xml'.
+2024-01-29 14:21:17.5603 | DEBUG | Found key {34692722-1836-4131-841e-52bc30c5cc34}.
+2024-01-29 14:21:17.5734 | DEBUG | Found key {691d2c1e-819d-4ace-bf8c-4b95df9c96f1}.
+2024-01-29 14:21:17.5734 | DEBUG | Considering key {34692722-1836-4131-841e-52bc30c5cc34} with expiration date 2024-04-15 01:35:41Z as default key.
+2024-01-29 14:21:17.5734 | DEBUG | Forwarded activator type request from Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Version=7.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60 to Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60
+2024-01-29 14:21:17.5734 | DEBUG | Decrypting secret element using Windows DPAPI.
+2024-01-29 14:21:17.5734 | DEBUG | Forwarded activator type request from Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Version=7.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60 to Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60
+2024-01-29 14:21:17.5734 | DEBUG | Opening CNG algorithm 'AES' from provider '(null)' with chaining mode CBC.
+2024-01-29 14:21:17.5734 | DEBUG | Opening CNG algorithm 'SHA256' from provider '(null)' with HMAC.
+2024-01-29 14:21:17.5734 | DEBUG | Using key {34692722-1836-4131-841e-52bc30c5cc34} as the default key.
+2024-01-29 14:21:17.5734 | DEBUG | Key ring with default key {34692722-1836-4131-841e-52bc30c5cc34} was loaded during application startup.
+2024-01-29 14:21:17.7879 | INFO | Now listening on: http://localhost:5149
+2024-01-29 14:21:17.7879 | DEBUG | Loaded hosting startup assembly webapi.net7.sqlsugar
+2024-01-29 14:21:17.7879 | DEBUG | Loaded hosting startup assembly Microsoft.AspNetCore.Watch.BrowserRefresh
+2024-01-29 14:21:17.7879 | DEBUG | Loaded hosting startup assembly Microsoft.WebTools.BrowserLink.Net
+2024-01-29 14:21:17.7914 | INFO | Application started. Press Ctrl+C to shut down.
+2024-01-29 14:21:17.7914 | INFO | Hosting environment: Development
+2024-01-29 14:21:17.7914 | INFO | Content root path: D:\BaiduSyncdisk\webapi.net7+sqlsugar\webapi.net7.sqlsugar\webapi.net7.sqlsugar
+2024-01-29 14:21:17.7914 | DEBUG | Hosting started
+2024-01-29 14:21:18.2159 | DEBUG | Connection id "0HN10IA0GOQ5R" accepted.
+2024-01-29 14:21:18.2159 | DEBUG | Connection id "0HN10IA0GOQ5R" started.
+2024-01-29 14:21:18.2159 | DEBUG | Connection id "0HN10IA0GOQ5S" accepted.
+2024-01-29 14:21:18.2159 | DEBUG | Connection id "0HN10IA0GOQ5S" started.
+2024-01-29 14:21:20.2272 | DEBUG | Connection id "0HN10IA0GOQ5T" accepted.
+2024-01-29 14:21:20.2272 | DEBUG | Connection id "0HN10IA0GOQ5T" started.
+2024-01-29 14:21:20.2724 | DEBUG | Connection id "0HN10IA0GOQ5U" accepted.
+2024-01-29 14:21:20.2853 | DEBUG | Connection id "0HN10IA0GOQ5U" started.
+2024-01-29 14:21:20.3364 | INFO | Request starting HTTP/1.1 GET http://localhost:5149/swagger/index.html - -
+2024-01-29 14:21:20.5572 | DEBUG | Wildcard detected, all requests with hosts will be allowed.
+2024-01-29 14:21:20.5956 | DEBUG | No candidates found for the request path '/swagger/index.html'
+2024-01-29 14:21:20.5956 | DEBUG | Request did not match any endpoints
+2024-01-29 14:21:20.8332 | DEBUG | Response markup is scheduled to include browser refresh script injection.
+2024-01-29 14:21:20.8609 | DEBUG | Response markup was updated to include browser refresh script injection.
+2024-01-29 14:21:20.8609 | DEBUG | Connection id "0HN10IA0GOQ5T" completed keep alive response.
+2024-01-29 14:21:20.8609 | INFO | Request finished HTTP/1.1 GET http://localhost:5149/swagger/index.html - - - 200 - text/html;charset=utf-8 533.1507ms
+2024-01-29 14:21:20.8759 | INFO | Request starting HTTP/1.1 GET http://localhost:5149/_vs/browserLink - -
+2024-01-29 14:21:20.8935 | INFO | Request starting HTTP/1.1 GET http://localhost:5149/_framework/aspnetcore-browser-refresh.js - -
+2024-01-29 14:21:20.8935 | DEBUG | Connection id "0HN10IA0GOQ5T" completed keep alive response.
+2024-01-29 14:21:20.8935 | INFO | Request finished HTTP/1.1 GET http://localhost:5149/_framework/aspnetcore-browser-refresh.js - - - 200 13776 application/javascript;+charset=utf-8 2.7976ms
+2024-01-29 14:21:21.0529 | DEBUG | Connection id "0HN10IA0GOQ5U" completed keep alive response.
+2024-01-29 14:21:21.0529 | INFO | Request finished HTTP/1.1 GET http://localhost:5149/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 177.1582ms
+2024-01-29 14:21:21.1237 | INFO | Request starting HTTP/1.1 GET http://localhost:5149/swagger/V1/swagger.json - -
+2024-01-29 14:21:21.1237 | DEBUG | No candidates found for the request path '/swagger/V1/swagger.json'
+2024-01-29 14:21:21.1237 | DEBUG | Request did not match any endpoints
+2024-01-29 14:21:21.4493 | DEBUG | Connection id "0HN10IA0GOQ5U" completed keep alive response.
+2024-01-29 14:21:21.4493 | INFO | Request finished HTTP/1.1 GET http://localhost:5149/swagger/V1/swagger.json - - - 200 - application/json;charset=utf-8 325.9596ms
+2024-01-29 14:21:54.3750 | INFO | Request starting HTTP/1.1 POST http://localhost:5149/api/GetOAUser application/json 16
+2024-01-29 14:21:54.3750 | DEBUG | 1 candidate(s) found for the request path '/api/GetOAUser'
+2024-01-29 14:21:54.3750 | DEBUG | Endpoint 'webapi.net7.sqlsugar.Controllers.CRMAppControlle.GetOAUser (webapi.net7.sqlsugar)' with route pattern 'api/GetOAUser' is valid for the request path '/api/GetOAUser'
+2024-01-29 14:21:54.3750 | DEBUG | Request matched endpoint 'webapi.net7.sqlsugar.Controllers.CRMAppControlle.GetOAUser (webapi.net7.sqlsugar)'
+2024-01-29 14:21:54.3750 | DEBUG | Static files was skipped as the request already matched an endpoint.
+2024-01-29 14:21:54.3750 | DEBUG | Static files was skipped as the request already matched an endpoint.
+2024-01-29 14:21:54.3936 | WARN | Failed to determine the https port for redirect.
+2024-01-29 14:21:54.4650 | DEBUG | AuthenticationScheme: Bearer was not authenticated.
+2024-01-29 14:21:54.4650 | DEBUG | The request has an origin header: 'http://localhost:5149'.
+2024-01-29 14:21:54.4650 | INFO | CORS policy execution successful.
+2024-01-29 14:21:54.4650 | INFO | Executing endpoint 'webapi.net7.sqlsugar.Controllers.CRMAppControlle.GetOAUser (webapi.net7.sqlsugar)'
+2024-01-29 14:21:54.4889 | INFO | Route matched with {action = "GetOAUser", controller = "CRMAppControlle"}. Executing controller action with signature System.Object GetOAUser(System.Object) on controller webapi.net7.sqlsugar.Controllers.CRMAppControlle (webapi.net7.sqlsugar).
+2024-01-29 14:21:54.4889 | DEBUG | Execution plan of authorization filters (in the following order): None
+2024-01-29 14:21:54.4889 | DEBUG | Execution plan of resource filters (in the following order): None
+2024-01-29 14:21:54.4889 | DEBUG | Execution plan of action filters (in the following order): Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000), Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)
+2024-01-29 14:21:54.4889 | DEBUG | Execution plan of exception filters (in the following order): None
+2024-01-29 14:21:54.4889 | DEBUG | Execution plan of result filters (in the following order): Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)
+2024-01-29 14:21:54.4889 | DEBUG | Executing controller factory for controller webapi.net7.sqlsugar.Controllers.CRMAppControlle (webapi.net7.sqlsugar)
+2024-01-29 14:21:54.4889 | DEBUG | Executed controller factory for controller webapi.net7.sqlsugar.Controllers.CRMAppControlle (webapi.net7.sqlsugar)
+2024-01-29 14:21:54.4889 | DEBUG | Attempting to bind parameter 'user' of type 'System.Object' ...
+2024-01-29 14:21:54.4957 | DEBUG | Attempting to bind parameter 'user' of type 'System.Object' using the name '' in request data ...
+2024-01-29 14:21:54.4957 | DEBUG | Selected input formatter 'Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonInputFormatter' for content type 'application/json'.
+2024-01-29 14:21:54.4957 | DEBUG | Connection id "0HN10IA0GOQ5U", Request id "0HN10IA0GOQ5U:00000003": started reading request body.
+2024-01-29 14:21:54.4957 | DEBUG | Connection id "0HN10IA0GOQ5U", Request id "0HN10IA0GOQ5U:00000003": done reading request body.
+2024-01-29 14:21:54.4957 | DEBUG | JSON input formatter succeeded, deserializing to type 'System.Object'
+2024-01-29 14:21:54.4957 | DEBUG | Done attempting to bind parameter 'user' of type 'System.Object'.
+2024-01-29 14:21:54.4957 | DEBUG | Done attempting to bind parameter 'user' of type 'System.Object'.
+2024-01-29 14:21:54.4957 | DEBUG | Attempting to validate the bound parameter 'user' of type 'System.Object' ...
+2024-01-29 14:21:54.4957 | DEBUG | Done attempting to validate the bound parameter 'user' of type 'System.Object'.
+2024-01-29 14:21:54.5106 | INFO | Executing action method webapi.net7.sqlsugar.Controllers.CRMAppControlle.GetOAUser (webapi.net7.sqlsugar) - Validation state: Valid
+2024-01-29 14:21:54.6540 | INFO | Executed action method webapi.net7.sqlsugar.Controllers.CRMAppControlle.GetOAUser (webapi.net7.sqlsugar), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 136.9486ms.
+2024-01-29 14:21:54.6540 | DEBUG | List of registered output formatters, in the following order: Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter, Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter, Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter, Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter
+2024-01-29 14:21:54.6540 | DEBUG | No information found on request to perform content negotiation.
+2024-01-29 14:21:54.6540 | DEBUG | Attempting to select an output formatter without using a content type as no explicit content types were specified for the response.
+2024-01-29 14:21:54.6540 | DEBUG | Attempting to select the first formatter in the output formatters list which can write the result.
+2024-01-29 14:21:54.6540 | DEBUG | Selected output formatter 'Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter' and content type 'application/json' to write the response.
+2024-01-29 14:21:54.6540 | INFO | Executing ObjectResult, writing value of type '<>f__AnonymousType6`1[[System.String, System.Private.CoreLib, Version=7.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2024-01-29 14:21:54.6678 | INFO | Executed action webapi.net7.sqlsugar.Controllers.CRMAppControlle.GetOAUser (webapi.net7.sqlsugar) in 173.9275ms
+2024-01-29 14:21:54.6678 | INFO | Executed endpoint 'webapi.net7.sqlsugar.Controllers.CRMAppControlle.GetOAUser (webapi.net7.sqlsugar)'
+2024-01-29 14:21:54.6678 | DEBUG | Connection id "0HN10IA0GOQ5U" completed keep alive response.
+2024-01-29 14:21:54.6678 | INFO | Request finished HTTP/1.1 POST http://localhost:5149/api/GetOAUser application/json 16 - 200 - application/json;+charset=utf-8 293.2058ms
+2024-01-29 14:26:21.8181 | DEBUG | Connection id "0HN10IA0GOQ5T" received FIN.
+2024-01-29 14:26:21.8266 | DEBUG | Connection id "0HN10IA0GOQ5T" sending FIN because: "The Socket transport's send loop completed gracefully."
+2024-01-29 14:26:21.8266 | DEBUG | Connection id "0HN10IA0GOQ5T" disconnecting.
+2024-01-29 14:26:21.8266 | DEBUG | Connection id "0HN10IA0GOQ5T" stopped.
+2024-01-29 14:27:09.2058 | DEBUG | Connection id "0HN10IA0GOQ5U" received FIN.
+2024-01-29 14:27:09.2058 | DEBUG | Connection id "0HN10IA0GOQ5U" disconnecting.
+2024-01-29 14:27:09.2058 | DEBUG | Connection id "0HN10IA0GOQ5U" stopped.
+2024-01-29 14:27:09.2058 | DEBUG | Connection id "0HN10IA0GOQ5U" sending FIN because: "The Socket transport's send loop completed gracefully."

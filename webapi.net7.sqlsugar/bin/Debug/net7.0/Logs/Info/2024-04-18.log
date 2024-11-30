@@ -1,0 +1,53 @@
+2024-04-18 08:22:51.1242 | INFO | User profile is available. Using 'C:\Users\Administrator\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-04-18 08:22:51.5737 | INFO | Now listening on: http://localhost:5149
+2024-04-18 08:22:51.5774 | INFO | Application started. Press Ctrl+C to shut down.
+2024-04-18 08:22:51.5774 | INFO | Hosting environment: Development
+2024-04-18 08:22:51.5774 | INFO | Content root path: D:\BaiduSyncdisk\webapi.net7+sqlsugar\webapi.net7.sqlsugar\webapi.net7.sqlsugar
+2024-04-18 08:22:55.1912 | INFO | Request starting HTTP/1.1 GET http://localhost:5149/swagger/index.html - -
+2024-04-18 08:22:55.6164 | INFO | Request finished HTTP/1.1 GET http://localhost:5149/swagger/index.html - - - 200 - text/html;charset=utf-8 428.4519ms
+2024-04-18 08:22:55.6401 | INFO | Request starting HTTP/1.1 GET http://localhost:5149/_vs/browserLink - -
+2024-04-18 08:22:55.6401 | INFO | Request starting HTTP/1.1 GET http://localhost:5149/_framework/aspnetcore-browser-refresh.js - -
+2024-04-18 08:22:55.6401 | INFO | Request finished HTTP/1.1 GET http://localhost:5149/_framework/aspnetcore-browser-refresh.js - - - 200 13776 application/javascript;+charset=utf-8 2.8061ms
+2024-04-18 08:22:55.6910 | INFO | Request finished HTTP/1.1 GET http://localhost:5149/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 51.0508ms
+2024-04-18 08:22:55.7480 | INFO | Request starting HTTP/1.1 GET http://localhost:5149/swagger/东泽房源管理接口/swagger.json - -
+2024-04-18 08:22:56.0625 | INFO | Request finished HTTP/1.1 GET http://localhost:5149/swagger/东泽房源管理接口/swagger.json - - - 200 - application/json;charset=utf-8 314.6376ms
+2024-04-18 08:23:57.4190 | INFO | Request starting HTTP/1.1 GET http://localhost:5149/swagger/U8移动端接口/swagger.json - -
+2024-04-18 08:23:57.4497 | INFO | Request finished HTTP/1.1 GET http://localhost:5149/swagger/U8移动端接口/swagger.json - - - 200 - application/json;charset=utf-8 29.6712ms
+2024-04-18 08:24:02.8861 | INFO | Request starting HTTP/1.1 POST http://localhost:5149/api/U8appVersion - 0
+2024-04-18 08:24:02.9056 | WARN | Failed to determine the https port for redirect.
+2024-04-18 08:24:02.9733 | INFO | CORS policy execution successful.
+2024-04-18 08:24:02.9733 | INFO | Executing endpoint 'webapi.net7.sqlsugar.Controllers.ApiLoginController.U8appVersion (webapi.net7.sqlsugar)'
+2024-04-18 08:24:02.9842 | INFO | Route matched with {action = "U8appVersion", controller = "ApiLogin"}. Executing controller action with signature System.Object U8appVersion() on controller webapi.net7.sqlsugar.Controllers.ApiLoginController (webapi.net7.sqlsugar).
+2024-04-18 08:24:02.9842 | INFO | Executing action method webapi.net7.sqlsugar.Controllers.ApiLoginController.U8appVersion (webapi.net7.sqlsugar) - Validation state: Valid
+2024-04-18 08:24:03.4452 | INFO | Executed action method webapi.net7.sqlsugar.Controllers.ApiLoginController.U8appVersion (webapi.net7.sqlsugar), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 454.8377ms.
+2024-04-18 08:24:03.4452 | INFO | Executing ObjectResult, writing value of type '<>f__AnonymousType1`4[[System.Int32, System.Private.CoreLib, Version=7.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=7.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Data.DataTable, System.Data.Common, Version=7.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a],[System.Boolean, System.Private.CoreLib, Version=7.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2024-04-18 08:24:03.4965 | INFO | Executed action webapi.net7.sqlsugar.Controllers.ApiLoginController.U8appVersion (webapi.net7.sqlsugar) in 514.1664ms
+2024-04-18 08:24:03.4965 | INFO | Executed endpoint 'webapi.net7.sqlsugar.Controllers.ApiLoginController.U8appVersion (webapi.net7.sqlsugar)'
+2024-04-18 08:24:03.5489 | ERROR | An unhandled exception has occurred while executing the request.
+2024-04-18 08:24:03.5489 | INFO | Request finished HTTP/1.1 POST http://localhost:5149/api/U8appVersion - 0 - 500 - text/plain;+charset=utf-8 667.9255ms
+2024-04-18 08:34:20.3390 | INFO | User profile is available. Using 'C:\Users\Administrator\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-04-18 08:34:20.4845 | INFO | Now listening on: http://localhost:5149
+2024-04-18 08:34:20.4845 | INFO | Application started. Press Ctrl+C to shut down.
+2024-04-18 08:34:20.4845 | INFO | Hosting environment: Development
+2024-04-18 08:34:20.4845 | INFO | Content root path: D:\BaiduSyncdisk\webapi.net7+sqlsugar\webapi.net7.sqlsugar\webapi.net7.sqlsugar
+2024-04-18 08:34:23.9894 | INFO | Request starting HTTP/1.1 GET http://localhost:5149/swagger/index.html - -
+2024-04-18 08:34:24.2686 | INFO | Request finished HTTP/1.1 GET http://localhost:5149/swagger/index.html - - - 200 - text/html;charset=utf-8 282.4323ms
+2024-04-18 08:34:24.2686 | INFO | Request starting HTTP/1.1 GET http://localhost:5149/_framework/aspnetcore-browser-refresh.js - -
+2024-04-18 08:34:24.2781 | INFO | Request finished HTTP/1.1 GET http://localhost:5149/_framework/aspnetcore-browser-refresh.js - - - 200 13776 application/javascript;+charset=utf-8 2.2065ms
+2024-04-18 08:34:24.2781 | INFO | Request starting HTTP/1.1 GET http://localhost:5149/_vs/browserLink - -
+2024-04-18 08:34:24.3239 | INFO | Request finished HTTP/1.1 GET http://localhost:5149/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 40.8451ms
+2024-04-18 08:34:24.3708 | INFO | Request starting HTTP/1.1 GET http://localhost:5149/swagger/东泽房源管理接口/swagger.json - -
+2024-04-18 08:34:24.6446 | INFO | Request finished HTTP/1.1 GET http://localhost:5149/swagger/东泽房源管理接口/swagger.json - - - 200 - application/json;charset=utf-8 273.9176ms
+2024-04-18 08:34:26.9515 | INFO | Request starting HTTP/1.1 GET http://localhost:5149/swagger/U8移动端接口/swagger.json - -
+2024-04-18 08:34:26.9912 | INFO | Request finished HTTP/1.1 GET http://localhost:5149/swagger/U8移动端接口/swagger.json - - - 200 - application/json;charset=utf-8 38.8344ms
+2024-04-18 08:34:33.5107 | INFO | Request starting HTTP/1.1 POST http://localhost:5149/api/U8appVersion - 0
+2024-04-18 08:34:33.5305 | WARN | Failed to determine the https port for redirect.
+2024-04-18 08:34:33.5907 | INFO | CORS policy execution successful.
+2024-04-18 08:34:33.5907 | INFO | Executing endpoint 'webapi.net7.sqlsugar.Controllers.ApiLoginController.U8appVersion (webapi.net7.sqlsugar)'
+2024-04-18 08:34:33.6066 | INFO | Route matched with {action = "U8appVersion", controller = "ApiLogin"}. Executing controller action with signature System.Object U8appVersion() on controller webapi.net7.sqlsugar.Controllers.ApiLoginController (webapi.net7.sqlsugar).
+2024-04-18 08:34:33.6066 | INFO | Executing action method webapi.net7.sqlsugar.Controllers.ApiLoginController.U8appVersion (webapi.net7.sqlsugar) - Validation state: Valid
+2024-04-18 08:34:34.5902 | INFO | Executed action method webapi.net7.sqlsugar.Controllers.ApiLoginController.U8appVersion (webapi.net7.sqlsugar), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 971.0887ms.
+2024-04-18 08:34:34.5902 | INFO | Executing ObjectResult, writing value of type '<>f__AnonymousType1`4[[System.Int32, System.Private.CoreLib, Version=7.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=7.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Collections.Generic.List`1[[webapi.net7.sqlsugar.version_app, webapi.net7.sqlsugar, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=7.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Boolean, System.Private.CoreLib, Version=7.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2024-04-18 08:34:34.6068 | INFO | Executed action webapi.net7.sqlsugar.Controllers.ApiLoginController.U8appVersion (webapi.net7.sqlsugar) in 998.9905ms
+2024-04-18 08:34:34.6068 | INFO | Executed endpoint 'webapi.net7.sqlsugar.Controllers.ApiLoginController.U8appVersion (webapi.net7.sqlsugar)'
+2024-04-18 08:34:34.6068 | INFO | Request finished HTTP/1.1 POST http://localhost:5149/api/U8appVersion - 0 - 200 - application/json;+charset=utf-8 1099.2927ms

@@ -1,0 +1,169 @@
+2024-11-24 09:23:02.5804 | INFO | User profile is available. Using 'C:\Users\Administrator\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-11-24 09:23:03.0632 | INFO | Now listening on: http://localhost:5149
+2024-11-24 09:23:03.0682 | INFO | Application started. Press Ctrl+C to shut down.
+2024-11-24 09:23:03.0682 | INFO | Hosting environment: Development
+2024-11-24 09:23:03.0682 | INFO | Content root path: D:\BaiduSyncdisk\webapi.net7+sqlsugar\webapi.net7.sqlsugar\webapi.net7.sqlsugar
+2024-11-24 09:23:04.0988 | INFO | Request starting HTTP/1.1 GET http://localhost:5149/swagger - -
+2024-11-24 09:23:04.4027 | INFO | Request finished HTTP/1.1 GET http://localhost:5149/swagger - - - 301 0 - 309.4709ms
+2024-11-24 09:23:04.4160 | INFO | Request starting HTTP/1.1 GET http://localhost:5149/swagger/index.html - -
+2024-11-24 09:23:04.5567 | INFO | Request finished HTTP/1.1 GET http://localhost:5149/swagger/index.html - - - 200 - text/html;charset=utf-8 141.5693ms
+2024-11-24 09:23:04.5567 | INFO | Request starting HTTP/1.1 GET http://localhost:5149/swagger/swagger-ui.css - -
+2024-11-24 09:23:04.5567 | INFO | Request starting HTTP/1.1 GET http://localhost:5149/swagger/swagger-ui-bundle.js - -
+2024-11-24 09:23:04.5666 | INFO | Request starting HTTP/1.1 GET http://localhost:5149/swagger/swagger-ui-standalone-preset.js - -
+2024-11-24 09:23:04.5666 | INFO | Request starting HTTP/1.1 GET http://localhost:5149/_vs/browserLink - -
+2024-11-24 09:23:04.5844 | INFO | Request starting HTTP/1.1 GET http://localhost:5149/_framework/aspnetcore-browser-refresh.js - -
+2024-11-24 09:23:04.5844 | INFO | Request finished HTTP/1.1 GET http://localhost:5149/_framework/aspnetcore-browser-refresh.js - - - 200 13776 application/javascript;+charset=utf-8 6.6896ms
+2024-11-24 09:23:04.6316 | INFO | Sending file. Request path: '/swagger-ui.css'. Physical path: 'N/A'
+2024-11-24 09:23:04.6316 | INFO | Sending file. Request path: '/swagger-ui-standalone-preset.js'. Physical path: 'N/A'
+2024-11-24 09:23:04.6316 | INFO | Request finished HTTP/1.1 GET http://localhost:5149/swagger/swagger-ui-standalone-preset.js - - - 200 312163 text/javascript 65.7782ms
+2024-11-24 09:23:04.6316 | INFO | Request finished HTTP/1.1 GET http://localhost:5149/swagger/swagger-ui.css - - - 200 144929 text/css 81.7977ms
+2024-11-24 09:23:04.6766 | INFO | Sending file. Request path: '/swagger-ui-bundle.js'. Physical path: 'N/A'
+2024-11-24 09:23:04.6766 | INFO | Request finished HTTP/1.1 GET http://localhost:5149/swagger/swagger-ui-bundle.js - - - 200 1061536 text/javascript 117.1801ms
+2024-11-24 09:23:04.8626 | INFO | Request finished HTTP/1.1 GET http://localhost:5149/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 281.7836ms
+2024-11-24 09:23:05.1722 | INFO | Request starting HTTP/1.1 GET http://localhost:5149/swagger/东泽房源管理接口/swagger.json - -
+2024-11-24 09:23:05.1831 | INFO | Request starting HTTP/1.1 GET http://localhost:5149/swagger/favicon-32x32.png - -
+2024-11-24 09:23:05.1831 | INFO | Sending file. Request path: '/favicon-32x32.png'. Physical path: 'N/A'
+2024-11-24 09:23:05.1831 | INFO | Request finished HTTP/1.1 GET http://localhost:5149/swagger/favicon-32x32.png - - - 200 628 image/png 1.9501ms
+2024-11-24 09:23:05.8847 | INFO | Request finished HTTP/1.1 GET http://localhost:5149/swagger/东泽房源管理接口/swagger.json - - - 200 - application/json;charset=utf-8 712.7423ms
+2024-11-24 09:23:07.7597 | INFO | Request starting HTTP/1.1 GET http://localhost:5149/swagger/U8移动端接口/swagger.json - -
+2024-11-24 09:23:07.8105 | INFO | Request finished HTTP/1.1 GET http://localhost:5149/swagger/U8移动端接口/swagger.json - - - 200 - application/json;charset=utf-8 50.9260ms
+2024-11-24 09:23:24.1689 | INFO | Request starting HTTP/1.1 POST http://localhost:5149/api/UserLogin application/json 214
+2024-11-24 09:23:24.1860 | WARN | Failed to determine the https port for redirect.
+2024-11-24 09:23:24.2803 | INFO | CORS policy execution successful.
+2024-11-24 09:23:24.3667 | INFO | Executing endpoint 'webapi.net7.sqlsugar.Controllers.SqlController.UserLogin (webapi.net7.sqlsugar)'
+2024-11-24 09:23:24.3927 | INFO | Route matched with {action = "UserLogin", controller = "Sql"}. Executing controller action with signature System.Object UserLogin(System.Object) on controller webapi.net7.sqlsugar.Controllers.SqlController (webapi.net7.sqlsugar).
+2024-11-24 09:23:24.5849 | INFO | Executing action method webapi.net7.sqlsugar.Controllers.SqlController.UserLogin (webapi.net7.sqlsugar) - Validation state: Valid
+2024-11-24 09:23:25.1298 | INFO | Executed action method webapi.net7.sqlsugar.Controllers.SqlController.UserLogin (webapi.net7.sqlsugar), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 533.3352ms.
+2024-11-24 09:23:25.1298 | INFO | Executing ObjectResult, writing value of type 'webapi.net7.sqlsugar.Model.MessageLogin'.
+2024-11-24 09:23:25.1298 | INFO | Executed action webapi.net7.sqlsugar.Controllers.SqlController.UserLogin (webapi.net7.sqlsugar) in 744.2691ms
+2024-11-24 09:23:25.1298 | INFO | Executed endpoint 'webapi.net7.sqlsugar.Controllers.SqlController.UserLogin (webapi.net7.sqlsugar)'
+2024-11-24 09:23:25.3867 | ERROR | An unhandled exception has occurred while executing the request.
+2024-11-24 09:23:25.3867 | WARN | The response has already started, the error page middleware will not be executed.
+2024-11-24 09:23:25.3971 | ERROR | Connection id "0HN8C4Q5DVR6M", Request id "0HN8C4Q5DVR6M:00000004": An unhandled exception was thrown by the application.
+2024-11-24 09:23:25.3971 | INFO | Request finished HTTP/1.1 POST http://localhost:5149/api/UserLogin application/json 214 - 200 - application/json;+charset=utf-8 1228.7312ms
+2024-11-24 09:23:43.3066 | INFO | Request starting HTTP/1.1 POST http://localhost:5149/api/UserLogin application/json 214
+2024-11-24 09:23:43.3066 | INFO | CORS policy execution successful.
+2024-11-24 09:23:43.3066 | INFO | Executing endpoint 'webapi.net7.sqlsugar.Controllers.SqlController.UserLogin (webapi.net7.sqlsugar)'
+2024-11-24 09:23:43.3066 | INFO | Route matched with {action = "UserLogin", controller = "Sql"}. Executing controller action with signature System.Object UserLogin(System.Object) on controller webapi.net7.sqlsugar.Controllers.SqlController (webapi.net7.sqlsugar).
+2024-11-24 09:23:43.3161 | INFO | Executing action method webapi.net7.sqlsugar.Controllers.SqlController.UserLogin (webapi.net7.sqlsugar) - Validation state: Valid
+2024-11-24 09:24:13.0499 | INFO | Executed action method webapi.net7.sqlsugar.Controllers.SqlController.UserLogin (webapi.net7.sqlsugar), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 29721.4915ms.
+2024-11-24 09:24:13.0517 | INFO | Executing ObjectResult, writing value of type 'webapi.net7.sqlsugar.Model.MessageLogin'.
+2024-11-24 09:24:13.0517 | INFO | Executed action webapi.net7.sqlsugar.Controllers.SqlController.UserLogin (webapi.net7.sqlsugar) in 29738.9556ms
+2024-11-24 09:24:13.0517 | INFO | Executed endpoint 'webapi.net7.sqlsugar.Controllers.SqlController.UserLogin (webapi.net7.sqlsugar)'
+2024-11-24 09:24:13.1304 | ERROR | An unhandled exception has occurred while executing the request.
+2024-11-24 09:24:13.1304 | WARN | The response has already started, the error page middleware will not be executed.
+2024-11-24 09:24:13.1304 | ERROR | Connection id "0HN8C4Q5DVR6J", Request id "0HN8C4Q5DVR6J:00000003": An unhandled exception was thrown by the application.
+2024-11-24 09:24:13.1304 | INFO | Request finished HTTP/1.1 POST http://localhost:5149/api/UserLogin application/json 214 - 200 - application/json;+charset=utf-8 29830.0077ms
+2024-11-24 09:24:23.8113 | INFO | Request starting HTTP/1.1 POST http://localhost:5149/api/UserLogin application/json 215
+2024-11-24 09:24:23.8113 | INFO | CORS policy execution successful.
+2024-11-24 09:24:23.8113 | INFO | Executing endpoint 'webapi.net7.sqlsugar.Controllers.SqlController.UserLogin (webapi.net7.sqlsugar)'
+2024-11-24 09:24:23.8113 | INFO | Route matched with {action = "UserLogin", controller = "Sql"}. Executing controller action with signature System.Object UserLogin(System.Object) on controller webapi.net7.sqlsugar.Controllers.SqlController (webapi.net7.sqlsugar).
+2024-11-24 09:24:23.8171 | INFO | Executing action method webapi.net7.sqlsugar.Controllers.SqlController.UserLogin (webapi.net7.sqlsugar) - Validation state: Valid
+2024-11-24 09:25:12.0185 | INFO | Executed action method webapi.net7.sqlsugar.Controllers.SqlController.UserLogin (webapi.net7.sqlsugar), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 48182.9109ms.
+2024-11-24 09:25:12.0188 | INFO | Executing ObjectResult, writing value of type 'webapi.net7.sqlsugar.Model.SqlSelectModel'.
+2024-11-24 09:25:12.1601 | INFO | Executed action webapi.net7.sqlsugar.Controllers.SqlController.UserLogin (webapi.net7.sqlsugar) in 48356.7873ms
+2024-11-24 09:25:12.1792 | INFO | Executed endpoint 'webapi.net7.sqlsugar.Controllers.SqlController.UserLogin (webapi.net7.sqlsugar)'
+2024-11-24 09:25:12.2079 | ERROR | An unhandled exception has occurred while executing the request.
+2024-11-24 09:25:12.2079 | INFO | Request finished HTTP/1.1 POST http://localhost:5149/api/UserLogin application/json 215 - 500 - text/plain;+charset=utf-8 48399.1357ms
+2024-11-24 09:49:14.5991 | INFO | Request starting HTTP/1.1 GET http://localhost:5149/swagger/index.html?urls.primaryName=%E3%80%90U8%E7%A7%BB%E5%8A%A8%E7%AB%AF%E6%8E%A5%E5%8F%A3%E3%80%91%E6%8E%A5%E5%8F%A3 - -
+2024-11-24 09:49:14.6286 | INFO | Request finished HTTP/1.1 GET http://localhost:5149/swagger/index.html?urls.primaryName=%E3%80%90U8%E7%A7%BB%E5%8A%A8%E7%AB%AF%E6%8E%A5%E5%8F%A3%E3%80%91%E6%8E%A5%E5%8F%A3 - - - 200 - text/html;charset=utf-8 28.8919ms
+2024-11-24 09:49:14.6923 | INFO | Request starting HTTP/1.1 GET http://localhost:5149/_framework/aspnetcore-browser-refresh.js - -
+2024-11-24 09:49:14.6923 | INFO | Request starting HTTP/1.1 GET http://localhost:5149/_vs/browserLink - -
+2024-11-24 09:49:14.6923 | INFO | Request finished HTTP/1.1 GET http://localhost:5149/_framework/aspnetcore-browser-refresh.js - - - 200 13776 application/javascript;+charset=utf-8 0.8581ms
+2024-11-24 09:49:14.8044 | INFO | Request finished HTTP/1.1 GET http://localhost:5149/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 111.7936ms
+2024-11-24 09:49:15.2023 | INFO | Request starting HTTP/1.1 GET http://localhost:5149/swagger/U8移动端接口/swagger.json - -
+2024-11-24 09:49:15.2428 | INFO | Request finished HTTP/1.1 GET http://localhost:5149/swagger/U8移动端接口/swagger.json - - - 200 - application/json;charset=utf-8 40.6332ms
+2024-11-24 09:49:36.0386 | INFO | Request starting HTTP/1.1 POST http://localhost:5149/api/UserLogin application/json 215
+2024-11-24 09:49:36.0386 | INFO | CORS policy execution successful.
+2024-11-24 09:49:36.0386 | INFO | Executing endpoint 'webapi.net7.sqlsugar.Controllers.SqlController.UserLogin (webapi.net7.sqlsugar)'
+2024-11-24 09:49:36.0386 | INFO | Route matched with {action = "UserLogin", controller = "Sql"}. Executing controller action with signature System.Object UserLogin(System.Object) on controller webapi.net7.sqlsugar.Controllers.SqlController (webapi.net7.sqlsugar).
+2024-11-24 09:49:36.0386 | INFO | Executing action method webapi.net7.sqlsugar.Controllers.SqlController.UserLogin (webapi.net7.sqlsugar) - Validation state: Valid
+2024-11-24 09:50:31.0757 | INFO | Executed action method webapi.net7.sqlsugar.Controllers.SqlController.UserLogin (webapi.net7.sqlsugar), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 55031.6188ms.
+2024-11-24 09:50:31.0757 | INFO | Executing ObjectResult, writing value of type 'webapi.net7.sqlsugar.Model.SqlSelectModel'.
+2024-11-24 09:50:31.0888 | INFO | Executed action webapi.net7.sqlsugar.Controllers.SqlController.UserLogin (webapi.net7.sqlsugar) in 55047.3115ms
+2024-11-24 09:50:31.0888 | INFO | Executed endpoint 'webapi.net7.sqlsugar.Controllers.SqlController.UserLogin (webapi.net7.sqlsugar)'
+2024-11-24 09:50:31.1462 | ERROR | An unhandled exception has occurred while executing the request.
+2024-11-24 09:50:31.1462 | WARN | The response has already started, the error page middleware will not be executed.
+2024-11-24 09:50:31.1462 | ERROR | Connection id "0HN8C4Q5DVR6O", Request id "0HN8C4Q5DVR6O:00000003": An unhandled exception was thrown by the application.
+2024-11-24 09:50:31.1462 | INFO | Request finished HTTP/1.1 POST http://localhost:5149/api/UserLogin application/json 215 - 200 - application/json;+charset=utf-8 55116.5584ms
+2024-11-24 10:04:19.6602 | INFO | User profile is available. Using 'C:\Users\Administrator\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-11-24 10:04:19.8377 | INFO | Now listening on: http://localhost:5149
+2024-11-24 10:04:19.8377 | INFO | Application started. Press Ctrl+C to shut down.
+2024-11-24 10:04:19.8377 | INFO | Hosting environment: Development
+2024-11-24 10:04:19.8377 | INFO | Content root path: D:\BaiduSyncdisk\webapi.net7+sqlsugar\webapi.net7.sqlsugar\webapi.net7.sqlsugar
+2024-11-24 10:04:20.8516 | INFO | Request starting HTTP/1.1 GET http://localhost:5149/swagger/index.html - -
+2024-11-24 10:04:21.2686 | INFO | Request finished HTTP/1.1 GET http://localhost:5149/swagger/index.html - - - 200 - text/html;charset=utf-8 423.6821ms
+2024-11-24 10:04:21.2881 | INFO | Request starting HTTP/1.1 GET http://localhost:5149/_framework/aspnetcore-browser-refresh.js - -
+2024-11-24 10:04:21.2881 | INFO | Request finished HTTP/1.1 GET http://localhost:5149/_framework/aspnetcore-browser-refresh.js - - - 200 13776 application/javascript;+charset=utf-8 2.7862ms
+2024-11-24 10:04:21.3278 | INFO | Request starting HTTP/1.1 GET http://localhost:5149/_vs/browserLink - -
+2024-11-24 10:04:21.5885 | INFO | Request finished HTTP/1.1 GET http://localhost:5149/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 260.8639ms
+2024-11-24 10:04:21.8301 | INFO | Request starting HTTP/1.1 GET http://localhost:5149/swagger/东泽房源管理接口/swagger.json - -
+2024-11-24 10:04:22.4418 | INFO | Request finished HTTP/1.1 GET http://localhost:5149/swagger/东泽房源管理接口/swagger.json - - - 200 - application/json;charset=utf-8 611.8894ms
+2024-11-24 10:04:24.1824 | INFO | Request starting HTTP/1.1 GET http://localhost:5149/swagger/U8移动端接口/swagger.json - -
+2024-11-24 10:04:24.2081 | INFO | Request finished HTTP/1.1 GET http://localhost:5149/swagger/U8移动端接口/swagger.json - - - 200 - application/json;charset=utf-8 25.7415ms
+2024-11-24 10:04:43.2881 | INFO | Request starting HTTP/1.1 POST http://localhost:5149/api/UserLogin application/json 215
+2024-11-24 10:04:43.3169 | WARN | Failed to determine the https port for redirect.
+2024-11-24 10:04:43.3893 | INFO | CORS policy execution successful.
+2024-11-24 10:04:43.4625 | INFO | Executing endpoint 'webapi.net7.sqlsugar.Controllers.SqlController.UserLogin (webapi.net7.sqlsugar)'
+2024-11-24 10:04:43.4897 | INFO | Route matched with {action = "UserLogin", controller = "Sql"}. Executing controller action with signature System.Object UserLogin(System.Object) on controller webapi.net7.sqlsugar.Controllers.SqlController (webapi.net7.sqlsugar).
+2024-11-24 10:04:43.6442 | INFO | Executing action method webapi.net7.sqlsugar.Controllers.SqlController.UserLogin (webapi.net7.sqlsugar) - Validation state: Valid
+2024-11-24 10:05:00.7480 | INFO | Executed action method webapi.net7.sqlsugar.Controllers.SqlController.UserLogin (webapi.net7.sqlsugar), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 17100.7388ms.
+2024-11-24 10:05:00.7480 | INFO | Executing ObjectResult, writing value of type 'System.String'.
+2024-11-24 10:05:00.7539 | INFO | Executed action webapi.net7.sqlsugar.Controllers.SqlController.UserLogin (webapi.net7.sqlsugar) in 17261.596ms
+2024-11-24 10:05:00.7539 | INFO | Executed endpoint 'webapi.net7.sqlsugar.Controllers.SqlController.UserLogin (webapi.net7.sqlsugar)'
+2024-11-24 10:05:00.8950 | ERROR | An unhandled exception has occurred while executing the request.
+2024-11-24 10:05:00.8950 | WARN | The response has already started, the error page middleware will not be executed.
+2024-11-24 10:05:00.8950 | ERROR | Connection id "0HN8C5H7EFJSJ", Request id "0HN8C5H7EFJSJ:00000006": An unhandled exception was thrown by the application.
+2024-11-24 10:05:00.8950 | INFO | Request finished HTTP/1.1 POST http://localhost:5149/api/UserLogin application/json 215 - 200 - text/plain;+charset=utf-8 17617.2388ms
+2024-11-24 10:05:14.3148 | INFO | Request starting HTTP/1.1 POST http://localhost:5149/api/UserLogin application/json 215
+2024-11-24 10:05:14.3157 | INFO | CORS policy execution successful.
+2024-11-24 10:05:14.3157 | INFO | Executing endpoint 'webapi.net7.sqlsugar.Controllers.SqlController.UserLogin (webapi.net7.sqlsugar)'
+2024-11-24 10:05:14.3157 | INFO | Route matched with {action = "UserLogin", controller = "Sql"}. Executing controller action with signature System.Object UserLogin(System.Object) on controller webapi.net7.sqlsugar.Controllers.SqlController (webapi.net7.sqlsugar).
+2024-11-24 10:05:14.3157 | INFO | Executing action method webapi.net7.sqlsugar.Controllers.SqlController.UserLogin (webapi.net7.sqlsugar) - Validation state: Valid
+2024-11-24 10:05:28.9696 | INFO | Executed action method webapi.net7.sqlsugar.Controllers.SqlController.UserLogin (webapi.net7.sqlsugar), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 14648.5163ms.
+2024-11-24 10:05:28.9696 | INFO | Executing ObjectResult, writing value of type 'System.String'.
+2024-11-24 10:05:28.9696 | INFO | Executed action webapi.net7.sqlsugar.Controllers.SqlController.UserLogin (webapi.net7.sqlsugar) in 14651.4742ms
+2024-11-24 10:05:28.9696 | INFO | Executed endpoint 'webapi.net7.sqlsugar.Controllers.SqlController.UserLogin (webapi.net7.sqlsugar)'
+2024-11-24 10:05:28.9935 | ERROR | An unhandled exception has occurred while executing the request.
+2024-11-24 10:05:28.9935 | WARN | The response has already started, the error page middleware will not be executed.
+2024-11-24 10:05:29.0099 | ERROR | Connection id "0HN8C5H7EFJSK", Request id "0HN8C5H7EFJSK:00000001": An unhandled exception was thrown by the application.
+2024-11-24 10:05:29.0099 | INFO | Request finished HTTP/1.1 POST http://localhost:5149/api/UserLogin application/json 215 - 200 - text/plain;+charset=utf-8 14695.3391ms
+2024-11-24 10:05:36.4425 | INFO | Request starting HTTP/1.1 POST http://localhost:5149/api/UserLogin application/json 215
+2024-11-24 10:05:36.4425 | INFO | CORS policy execution successful.
+2024-11-24 10:05:36.4425 | INFO | Executing endpoint 'webapi.net7.sqlsugar.Controllers.SqlController.UserLogin (webapi.net7.sqlsugar)'
+2024-11-24 10:05:36.4425 | INFO | Route matched with {action = "UserLogin", controller = "Sql"}. Executing controller action with signature System.Object UserLogin(System.Object) on controller webapi.net7.sqlsugar.Controllers.SqlController (webapi.net7.sqlsugar).
+2024-11-24 10:05:36.4589 | INFO | Executing action method webapi.net7.sqlsugar.Controllers.SqlController.UserLogin (webapi.net7.sqlsugar) - Validation state: Valid
+2024-11-24 10:05:36.4589 | INFO | Executed action method webapi.net7.sqlsugar.Controllers.SqlController.UserLogin (webapi.net7.sqlsugar), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 8.1042ms.
+2024-11-24 10:05:36.4589 | INFO | Executing ObjectResult, writing value of type 'System.String'.
+2024-11-24 10:05:36.4589 | INFO | Executed action webapi.net7.sqlsugar.Controllers.SqlController.UserLogin (webapi.net7.sqlsugar) in 21.6236ms
+2024-11-24 10:05:36.4589 | INFO | Executed endpoint 'webapi.net7.sqlsugar.Controllers.SqlController.UserLogin (webapi.net7.sqlsugar)'
+2024-11-24 10:05:36.4810 | ERROR | An unhandled exception has occurred while executing the request.
+2024-11-24 10:05:36.4810 | WARN | The response has already started, the error page middleware will not be executed.
+2024-11-24 10:05:36.4903 | ERROR | Connection id "0HN8C5H7EFJSL", Request id "0HN8C5H7EFJSL:00000001": An unhandled exception was thrown by the application.
+2024-11-24 10:05:36.4903 | INFO | Request finished HTTP/1.1 POST http://localhost:5149/api/UserLogin application/json 215 - 200 - text/plain;+charset=utf-8 47.3011ms
+2024-11-24 10:05:37.9377 | INFO | Request starting HTTP/1.1 POST http://localhost:5149/api/UserLogin application/json 215
+2024-11-24 10:05:37.9377 | INFO | CORS policy execution successful.
+2024-11-24 10:05:37.9377 | INFO | Executing endpoint 'webapi.net7.sqlsugar.Controllers.SqlController.UserLogin (webapi.net7.sqlsugar)'
+2024-11-24 10:05:37.9377 | INFO | Route matched with {action = "UserLogin", controller = "Sql"}. Executing controller action with signature System.Object UserLogin(System.Object) on controller webapi.net7.sqlsugar.Controllers.SqlController (webapi.net7.sqlsugar).
+2024-11-24 10:05:37.9431 | INFO | Executing action method webapi.net7.sqlsugar.Controllers.SqlController.UserLogin (webapi.net7.sqlsugar) - Validation state: Valid
+2024-11-24 10:05:37.9431 | INFO | Executed action method webapi.net7.sqlsugar.Controllers.SqlController.UserLogin (webapi.net7.sqlsugar), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 1.5556ms.
+2024-11-24 10:05:37.9431 | INFO | Executing ObjectResult, writing value of type 'System.String'.
+2024-11-24 10:05:37.9431 | INFO | Executed action webapi.net7.sqlsugar.Controllers.SqlController.UserLogin (webapi.net7.sqlsugar) in 6.6152ms
+2024-11-24 10:05:37.9431 | INFO | Executed endpoint 'webapi.net7.sqlsugar.Controllers.SqlController.UserLogin (webapi.net7.sqlsugar)'
+2024-11-24 10:05:37.9431 | ERROR | An unhandled exception has occurred while executing the request.
+2024-11-24 10:05:37.9583 | WARN | The response has already started, the error page middleware will not be executed.
+2024-11-24 10:05:37.9583 | ERROR | Connection id "0HN8C5H7EFJSM", Request id "0HN8C5H7EFJSM:00000001": An unhandled exception was thrown by the application.
+2024-11-24 10:05:37.9583 | INFO | Request finished HTTP/1.1 POST http://localhost:5149/api/UserLogin application/json 215 - 200 - text/plain;+charset=utf-8 32.3719ms
+2024-11-24 10:05:38.6556 | INFO | Request starting HTTP/1.1 POST http://localhost:5149/api/UserLogin application/json 215
+2024-11-24 10:05:38.6556 | INFO | CORS policy execution successful.
+2024-11-24 10:05:38.6556 | INFO | Executing endpoint 'webapi.net7.sqlsugar.Controllers.SqlController.UserLogin (webapi.net7.sqlsugar)'
+2024-11-24 10:05:38.6556 | INFO | Route matched with {action = "UserLogin", controller = "Sql"}. Executing controller action with signature System.Object UserLogin(System.Object) on controller webapi.net7.sqlsugar.Controllers.SqlController (webapi.net7.sqlsugar).
+2024-11-24 10:05:38.6586 | INFO | Executing action method webapi.net7.sqlsugar.Controllers.SqlController.UserLogin (webapi.net7.sqlsugar) - Validation state: Valid
+2024-11-24 10:05:38.6586 | INFO | Executed action method webapi.net7.sqlsugar.Controllers.SqlController.UserLogin (webapi.net7.sqlsugar), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 1.399ms.
+2024-11-24 10:05:38.6586 | INFO | Executing ObjectResult, writing value of type 'System.String'.
+2024-11-24 10:05:38.6586 | INFO | Executed action webapi.net7.sqlsugar.Controllers.SqlController.UserLogin (webapi.net7.sqlsugar) in 3.8221ms
+2024-11-24 10:05:38.6586 | INFO | Executed endpoint 'webapi.net7.sqlsugar.Controllers.SqlController.UserLogin (webapi.net7.sqlsugar)'
+2024-11-24 10:05:38.6586 | ERROR | An unhandled exception has occurred while executing the request.
+2024-11-24 10:05:38.6586 | WARN | The response has already started, the error page middleware will not be executed.
+2024-11-24 10:05:38.6777 | ERROR | Connection id "0HN8C5H7EFJSN", Request id "0HN8C5H7EFJSN:00000001": An unhandled exception was thrown by the application.
+2024-11-24 10:05:38.6777 | INFO | Request finished HTTP/1.1 POST http://localhost:5149/api/UserLogin application/json 215 - 200 - text/plain;+charset=utf-8 21.8451ms

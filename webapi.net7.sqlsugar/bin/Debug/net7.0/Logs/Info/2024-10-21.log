@@ -1,0 +1,27 @@
+2024-10-21 16:21:19.1015 | INFO | User profile is available. Using 'C:\Users\Administrator\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-10-21 16:21:19.2950 | INFO | Now listening on: http://localhost:5149
+2024-10-21 16:21:19.2989 | INFO | Application started. Press Ctrl+C to shut down.
+2024-10-21 16:21:19.2989 | INFO | Hosting environment: Development
+2024-10-21 16:21:19.2989 | INFO | Content root path: D:\BaiduSyncdisk\webapi.net7+sqlsugar\webapi.net7.sqlsugar\webapi.net7.sqlsugar
+2024-10-21 16:21:20.3363 | INFO | Request starting HTTP/1.1 GET http://localhost:5149/swagger - -
+2024-10-21 16:21:20.7833 | INFO | Request finished HTTP/1.1 GET http://localhost:5149/swagger - - - 301 0 - 448.4812ms
+2024-10-21 16:21:20.7833 | INFO | Request starting HTTP/1.1 GET http://localhost:5149/swagger/index.html - -
+2024-10-21 16:21:20.8775 | INFO | Request finished HTTP/1.1 GET http://localhost:5149/swagger/index.html - - - 200 - text/html;charset=utf-8 102.0441ms
+2024-10-21 16:21:20.8911 | INFO | Request starting HTTP/1.1 GET http://localhost:5149/swagger/swagger-ui.css - -
+2024-10-21 16:21:20.8911 | INFO | Request starting HTTP/1.1 GET http://localhost:5149/swagger/swagger-ui-bundle.js - -
+2024-10-21 16:21:20.8911 | INFO | Request starting HTTP/1.1 GET http://localhost:5149/swagger/swagger-ui-standalone-preset.js - -
+2024-10-21 16:21:20.8911 | INFO | Request starting HTTP/1.1 GET http://localhost:5149/_framework/aspnetcore-browser-refresh.js - -
+2024-10-21 16:21:20.8911 | INFO | Request finished HTTP/1.1 GET http://localhost:5149/_framework/aspnetcore-browser-refresh.js - - - 200 13776 application/javascript;+charset=utf-8 2.2633ms
+2024-10-21 16:21:20.8911 | INFO | Request starting HTTP/1.1 GET http://localhost:5149/_vs/browserLink - -
+2024-10-21 16:21:20.9273 | INFO | Sending file. Request path: '/swagger-ui.css'. Physical path: 'N/A'
+2024-10-21 16:21:20.9273 | INFO | Sending file. Request path: '/swagger-ui-standalone-preset.js'. Physical path: 'N/A'
+2024-10-21 16:21:20.9273 | INFO | Request finished HTTP/1.1 GET http://localhost:5149/swagger/swagger-ui-standalone-preset.js - - - 200 312163 text/javascript 38.2739ms
+2024-10-21 16:21:20.9273 | INFO | Request finished HTTP/1.1 GET http://localhost:5149/swagger/swagger-ui.css - - - 200 144929 text/css 39.2108ms
+2024-10-21 16:21:20.9577 | INFO | Sending file. Request path: '/swagger-ui-bundle.js'. Physical path: 'N/A'
+2024-10-21 16:21:20.9577 | INFO | Request finished HTTP/1.1 GET http://localhost:5149/swagger/swagger-ui-bundle.js - - - 200 1061536 text/javascript 66.7810ms
+2024-10-21 16:21:21.0083 | INFO | Request finished HTTP/1.1 GET http://localhost:5149/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 107.5935ms
+2024-10-21 16:21:21.1969 | INFO | Request starting HTTP/1.1 GET http://localhost:5149/swagger/东泽房源管理接口/swagger.json - -
+2024-10-21 16:21:21.2125 | INFO | Request starting HTTP/1.1 GET http://localhost:5149/swagger/favicon-32x32.png - -
+2024-10-21 16:21:21.2125 | INFO | Sending file. Request path: '/favicon-32x32.png'. Physical path: 'N/A'
+2024-10-21 16:21:21.2125 | INFO | Request finished HTTP/1.1 GET http://localhost:5149/swagger/favicon-32x32.png - - - 200 628 image/png 1.4471ms
+2024-10-21 16:21:21.5087 | INFO | Request finished HTTP/1.1 GET http://localhost:5149/swagger/东泽房源管理接口/swagger.json - - - 200 - application/json;charset=utf-8 311.9088ms

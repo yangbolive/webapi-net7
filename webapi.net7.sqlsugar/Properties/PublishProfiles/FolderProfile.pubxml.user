@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--
+https://go.microsoft.com/fwlink/?LinkID=208121.
+-->
+<Project>
+  <PropertyGroup>
+    <_PublishTargetUrl>D:\BaiduSyncdisk\webapi.net7+sqlsugar\webapi.net7.sqlsugar\webapi.net7.sqlsugar\bin\Release\net7.0\publish\</_PublishTargetUrl>
+    <History>True|2024-10-21T08:28:49.8923872Z||;True|2024-10-21T15:48:15.5500383+08:00||;True|2024-09-26T14:10:40.3004596+08:00||;True|2024-07-19T16:37:47.2534160+08:00||;True|2024-07-10T11:31:13.0646543+08:00||;True|2024-07-09T15:39:31.1877779+08:00||;True|2024-05-07T15:40:12.6298138+08:00||;True|2024-05-06T20:11:48.6901828+08:00||;True|2024-04-16T21:32:22.9229936+08:00||;True|2024-04-15T20:32:04.6852494+08:00||;True|2024-01-22T15:28:05.3324560+08:00||;True|2024-01-18T08:33:27.3609570+08:00||;True|2024-01-17T16:31:24.7902456+08:00||;True|2024-01-17T14:18:55.8946836+08:00||;True|2023-10-26T15:53:03.5656026+08:00||;True|2023-10-25T08:46:06.1683423+08:00||;True|2023-10-25T07:50:05.5668083+08:00||;True|2023-10-24T21:59:50.0702518+08:00||;</History>
+    <LastFailureDetails />
+  </PropertyGroup>
+</Project>

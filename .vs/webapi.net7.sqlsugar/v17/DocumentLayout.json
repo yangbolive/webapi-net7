@@ -1,0 +1,464 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\BaiduSyncdisk\\webapi.net7\u002Bsqlsugar\\webapi.net7.sqlsugar\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{87EB3932-46F3-49AA-A649-0587C3D09039}|webapi.net7.sqlsugar\\webapi.net7.sqlsugar.csproj|d:\\baidusyncdisk\\webapi.net7\u002Bsqlsugar\\webapi.net7.sqlsugar\\webapi.net7.sqlsugar\\controllers\\sqlcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{87EB3932-46F3-49AA-A649-0587C3D09039}|webapi.net7.sqlsugar\\webapi.net7.sqlsugar.csproj|solutionrelative:webapi.net7.sqlsugar\\controllers\\sqlcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{87EB3932-46F3-49AA-A649-0587C3D09039}|webapi.net7.sqlsugar\\webapi.net7.sqlsugar.csproj|d:\\baidusyncdisk\\webapi.net7\u002Bsqlsugar\\webapi.net7.sqlsugar\\webapi.net7.sqlsugar\\dal\\jsonhelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{87EB3932-46F3-49AA-A649-0587C3D09039}|webapi.net7.sqlsugar\\webapi.net7.sqlsugar.csproj|solutionrelative:webapi.net7.sqlsugar\\dal\\jsonhelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{87EB3932-46F3-49AA-A649-0587C3D09039}|webapi.net7.sqlsugar\\webapi.net7.sqlsugar.csproj|d:\\baidusyncdisk\\webapi.net7\u002Bsqlsugar\\webapi.net7.sqlsugar\\webapi.net7.sqlsugar\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{87EB3932-46F3-49AA-A649-0587C3D09039}|webapi.net7.sqlsugar\\webapi.net7.sqlsugar.csproj|solutionrelative:webapi.net7.sqlsugar\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{87EB3932-46F3-49AA-A649-0587C3D09039}|webapi.net7.sqlsugar\\webapi.net7.sqlsugar.csproj|d:\\baidusyncdisk\\webapi.net7\u002Bsqlsugar\\webapi.net7.sqlsugar\\webapi.net7.sqlsugar\\controllers\\crmappcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{87EB3932-46F3-49AA-A649-0587C3D09039}|webapi.net7.sqlsugar\\webapi.net7.sqlsugar.csproj|solutionrelative:webapi.net7.sqlsugar\\controllers\\crmappcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{87EB3932-46F3-49AA-A649-0587C3D09039}|webapi.net7.sqlsugar\\webapi.net7.sqlsugar.csproj|d:\\baidusyncdisk\\webapi.net7\u002Bsqlsugar\\webapi.net7.sqlsugar\\webapi.net7.sqlsugar\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{87EB3932-46F3-49AA-A649-0587C3D09039}|webapi.net7.sqlsugar\\webapi.net7.sqlsugar.csproj|solutionrelative:webapi.net7.sqlsugar\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{87EB3932-46F3-49AA-A649-0587C3D09039}|webapi.net7.sqlsugar\\webapi.net7.sqlsugar.csproj|d:\\baidusyncdisk\\webapi.net7\u002Bsqlsugar\\webapi.net7.sqlsugar\\webapi.net7.sqlsugar\\model\\sqlselectmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{87EB3932-46F3-49AA-A649-0587C3D09039}|webapi.net7.sqlsugar\\webapi.net7.sqlsugar.csproj|solutionrelative:webapi.net7.sqlsugar\\model\\sqlselectmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{87EB3932-46F3-49AA-A649-0587C3D09039}|webapi.net7.sqlsugar\\webapi.net7.sqlsugar.csproj|d:\\baidusyncdisk\\webapi.net7\u002Bsqlsugar\\webapi.net7.sqlsugar\\webapi.net7.sqlsugar\\controllers\\apilogincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{87EB3932-46F3-49AA-A649-0587C3D09039}|webapi.net7.sqlsugar\\webapi.net7.sqlsugar.csproj|solutionrelative:webapi.net7.sqlsugar\\controllers\\apilogincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{87EB3932-46F3-49AA-A649-0587C3D09039}|webapi.net7.sqlsugar\\webapi.net7.sqlsugar.csproj|d:\\baidusyncdisk\\webapi.net7\u002Bsqlsugar\\webapi.net7.sqlsugar\\webapi.net7.sqlsugar\\model\\messagelogin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{87EB3932-46F3-49AA-A649-0587C3D09039}|webapi.net7.sqlsugar\\webapi.net7.sqlsugar.csproj|solutionrelative:webapi.net7.sqlsugar\\model\\messagelogin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{87EB3932-46F3-49AA-A649-0587C3D09039}|webapi.net7.sqlsugar\\webapi.net7.sqlsugar.csproj|d:\\baidusyncdisk\\webapi.net7\u002Bsqlsugar\\webapi.net7.sqlsugar\\webapi.net7.sqlsugar\\controllers\\reportcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{87EB3932-46F3-49AA-A649-0587C3D09039}|webapi.net7.sqlsugar\\webapi.net7.sqlsugar.csproj|solutionrelative:webapi.net7.sqlsugar\\controllers\\reportcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{87EB3932-46F3-49AA-A649-0587C3D09039}|webapi.net7.sqlsugar\\webapi.net7.sqlsugar.csproj|d:\\baidusyncdisk\\webapi.net7\u002Bsqlsugar\\webapi.net7.sqlsugar\\webapi.net7.sqlsugar\\controllers\\workshopcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{87EB3932-46F3-49AA-A649-0587C3D09039}|webapi.net7.sqlsugar\\webapi.net7.sqlsugar.csproj|solutionrelative:webapi.net7.sqlsugar\\controllers\\workshopcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{87EB3932-46F3-49AA-A649-0587C3D09039}|webapi.net7.sqlsugar\\webapi.net7.sqlsugar.csproj|d:\\baidusyncdisk\\webapi.net7\u002Bsqlsugar\\webapi.net7.sqlsugar\\webapi.net7.sqlsugar\\controllers\\filecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{87EB3932-46F3-49AA-A649-0587C3D09039}|webapi.net7.sqlsugar\\webapi.net7.sqlsugar.csproj|solutionrelative:webapi.net7.sqlsugar\\controllers\\filecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{87EB3932-46F3-49AA-A649-0587C3D09039}|webapi.net7.sqlsugar\\webapi.net7.sqlsugar.csproj|d:\\baidusyncdisk\\webapi.net7\u002Bsqlsugar\\webapi.net7.sqlsugar\\webapi.net7.sqlsugar\\controllers\\qualitycontrolcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{87EB3932-46F3-49AA-A649-0587C3D09039}|webapi.net7.sqlsugar\\webapi.net7.sqlsugar.csproj|solutionrelative:webapi.net7.sqlsugar\\controllers\\qualitycontrolcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{87EB3932-46F3-49AA-A649-0587C3D09039}|webapi.net7.sqlsugar\\webapi.net7.sqlsugar.csproj|d:\\baidusyncdisk\\webapi.net7\u002Bsqlsugar\\webapi.net7.sqlsugar\\webapi.net7.sqlsugar\\model\\wmsfile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{87EB3932-46F3-49AA-A649-0587C3D09039}|webapi.net7.sqlsugar\\webapi.net7.sqlsugar.csproj|solutionrelative:webapi.net7.sqlsugar\\model\\wmsfile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{87EB3932-46F3-49AA-A649-0587C3D09039}|webapi.net7.sqlsugar\\webapi.net7.sqlsugar.csproj|d:\\baidusyncdisk\\webapi.net7\u002Bsqlsugar\\webapi.net7.sqlsugar\\webapi.net7.sqlsugar\\controllers\\apitokencontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{87EB3932-46F3-49AA-A649-0587C3D09039}|webapi.net7.sqlsugar\\webapi.net7.sqlsugar.csproj|solutionrelative:webapi.net7.sqlsugar\\controllers\\apitokencontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{87EB3932-46F3-49AA-A649-0587C3D09039}|webapi.net7.sqlsugar\\webapi.net7.sqlsugar.csproj|d:\\baidusyncdisk\\webapi.net7\u002Bsqlsugar\\webapi.net7.sqlsugar\\webapi.net7.sqlsugar\\controllers\\devicecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{87EB3932-46F3-49AA-A649-0587C3D09039}|webapi.net7.sqlsugar\\webapi.net7.sqlsugar.csproj|solutionrelative:webapi.net7.sqlsugar\\controllers\\devicecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{87EB3932-46F3-49AA-A649-0587C3D09039}|webapi.net7.sqlsugar\\webapi.net7.sqlsugar.csproj|d:\\baidusyncdisk\\webapi.net7\u002Bsqlsugar\\webapi.net7.sqlsugar\\webapi.net7.sqlsugar\\dal\\sqlsugarhelp.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{87EB3932-46F3-49AA-A649-0587C3D09039}|webapi.net7.sqlsugar\\webapi.net7.sqlsugar.csproj|solutionrelative:webapi.net7.sqlsugar\\dal\\sqlsugarhelp.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{87EB3932-46F3-49AA-A649-0587C3D09039}|webapi.net7.sqlsugar\\webapi.net7.sqlsugar.csproj|d:\\baidusyncdisk\\webapi.net7\u002Bsqlsugar\\webapi.net7.sqlsugar\\webapi.net7.sqlsugar\\utility\\swaggerext\\fileuploadfilter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{87EB3932-46F3-49AA-A649-0587C3D09039}|webapi.net7.sqlsugar\\webapi.net7.sqlsugar.csproj|solutionrelative:webapi.net7.sqlsugar\\utility\\swaggerext\\fileuploadfilter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{87EB3932-46F3-49AA-A649-0587C3D09039}|webapi.net7.sqlsugar\\webapi.net7.sqlsugar.csproj|d:\\baidusyncdisk\\webapi.net7\u002Bsqlsugar\\webapi.net7.sqlsugar\\webapi.net7.sqlsugar\\utility\\swaggerext\\extension.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{87EB3932-46F3-49AA-A649-0587C3D09039}|webapi.net7.sqlsugar\\webapi.net7.sqlsugar.csproj|solutionrelative:webapi.net7.sqlsugar\\utility\\swaggerext\\extension.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{87EB3932-46F3-49AA-A649-0587C3D09039}|webapi.net7.sqlsugar\\webapi.net7.sqlsugar.csproj|d:\\baidusyncdisk\\webapi.net7\u002Bsqlsugar\\webapi.net7.sqlsugar\\webapi.net7.sqlsugar\\utility\\swaggerext\\customswaggerext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{87EB3932-46F3-49AA-A649-0587C3D09039}|webapi.net7.sqlsugar\\webapi.net7.sqlsugar.csproj|solutionrelative:webapi.net7.sqlsugar\\utility\\swaggerext\\customswaggerext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{87EB3932-46F3-49AA-A649-0587C3D09039}|webapi.net7.sqlsugar\\webapi.net7.sqlsugar.csproj|d:\\baidusyncdisk\\webapi.net7\u002Bsqlsugar\\webapi.net7.sqlsugar\\webapi.net7.sqlsugar\\utility\\swaggerext\\apiversions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{87EB3932-46F3-49AA-A649-0587C3D09039}|webapi.net7.sqlsugar\\webapi.net7.sqlsugar.csproj|solutionrelative:webapi.net7.sqlsugar\\utility\\swaggerext\\apiversions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{87EB3932-46F3-49AA-A649-0587C3D09039}|webapi.net7.sqlsugar\\webapi.net7.sqlsugar.csproj|d:\\baidusyncdisk\\webapi.net7\u002Bsqlsugar\\webapi.net7.sqlsugar\\webapi.net7.sqlsugar\\configfile\\nlog.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{87EB3932-46F3-49AA-A649-0587C3D09039}|webapi.net7.sqlsugar\\webapi.net7.sqlsugar.csproj|solutionrelative:webapi.net7.sqlsugar\\configfile\\nlog.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{87EB3932-46F3-49AA-A649-0587C3D09039}|webapi.net7.sqlsugar\\webapi.net7.sqlsugar.csproj|d:\\baidusyncdisk\\webapi.net7\u002Bsqlsugar\\webapi.net7.sqlsugar\\webapi.net7.sqlsugar\\webapi.net7.sqlsugar.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|",
+      "RelativeMoniker": "D:0:0:{87EB3932-46F3-49AA-A649-0587C3D09039}|webapi.net7.sqlsugar\\webapi.net7.sqlsugar.csproj|solutionrelative:webapi.net7.sqlsugar\\webapi.net7.sqlsugar.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{87EB3932-46F3-49AA-A649-0587C3D09039}|webapi.net7.sqlsugar\\webapi.net7.sqlsugar.csproj|d:\\baidusyncdisk\\webapi.net7\u002Bsqlsugar\\webapi.net7.sqlsugar\\webapi.net7.sqlsugar\\model\\wlzh_rgdzb.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{87EB3932-46F3-49AA-A649-0587C3D09039}|webapi.net7.sqlsugar\\webapi.net7.sqlsugar.csproj|solutionrelative:webapi.net7.sqlsugar\\model\\wlzh_rgdzb.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{87EB3932-46F3-49AA-A649-0587C3D09039}|webapi.net7.sqlsugar\\webapi.net7.sqlsugar.csproj|d:\\baidusyncdisk\\webapi.net7\u002Bsqlsugar\\webapi.net7.sqlsugar\\webapi.net7.sqlsugar\\model\\crmdatalist.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{87EB3932-46F3-49AA-A649-0587C3D09039}|webapi.net7.sqlsugar\\webapi.net7.sqlsugar.csproj|solutionrelative:webapi.net7.sqlsugar\\model\\crmdatalist.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{87EB3932-46F3-49AA-A649-0587C3D09039}|webapi.net7.sqlsugar\\webapi.net7.sqlsugar.csproj|d:\\baidusyncdisk\\webapi.net7\u002Bsqlsugar\\webapi.net7.sqlsugar\\webapi.net7.sqlsugar\\connected services\\servicereference1\\reference.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{87EB3932-46F3-49AA-A649-0587C3D09039}|webapi.net7.sqlsugar\\webapi.net7.sqlsugar.csproj|solutionrelative:webapi.net7.sqlsugar\\connected services\\servicereference1\\reference.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{87EB3932-46F3-49AA-A649-0587C3D09039}|webapi.net7.sqlsugar\\webapi.net7.sqlsugar.csproj|d:\\baidusyncdisk\\webapi.net7\u002Bsqlsugar\\webapi.net7.sqlsugar\\webapi.net7.sqlsugar\\connected services\\servicereference1\\connectedservice.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{87EB3932-46F3-49AA-A649-0587C3D09039}|webapi.net7.sqlsugar\\webapi.net7.sqlsugar.csproj|solutionrelative:webapi.net7.sqlsugar\\connected services\\servicereference1\\connectedservice.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{87EB3932-46F3-49AA-A649-0587C3D09039}|webapi.net7.sqlsugar\\webapi.net7.sqlsugar.csproj|d:\\baidusyncdisk\\webapi.net7\u002Bsqlsugar\\webapi.net7.sqlsugar\\webapi.net7.sqlsugar\\model\\u8lgoin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{87EB3932-46F3-49AA-A649-0587C3D09039}|webapi.net7.sqlsugar\\webapi.net7.sqlsugar.csproj|solutionrelative:webapi.net7.sqlsugar\\model\\u8lgoin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 7,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:129:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "DeviceController.cs",
+              "DocumentMoniker": "D:\\BaiduSyncdisk\\webapi.net7\u002Bsqlsugar\\webapi.net7.sqlsugar\\webapi.net7.sqlsugar\\Controllers\\DeviceController.cs",
+              "RelativeDocumentMoniker": "webapi.net7.sqlsugar\\Controllers\\DeviceController.cs",
+              "ToolTip": "D:\\BaiduSyncdisk\\webapi.net7\u002Bsqlsugar\\webapi.net7.sqlsugar\\webapi.net7.sqlsugar\\Controllers\\DeviceController.cs",
+              "RelativeToolTip": "webapi.net7.sqlsugar\\Controllers\\DeviceController.cs",
+              "ViewState": "AQIAAA8AAAAAAAAAAAAAAAsAAAASAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-22T06:52:40.432Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "ApiTokenController.cs",
+              "DocumentMoniker": "D:\\BaiduSyncdisk\\webapi.net7\u002Bsqlsugar\\webapi.net7.sqlsugar\\webapi.net7.sqlsugar\\Controllers\\ApiTokenController.cs",
+              "RelativeDocumentMoniker": "webapi.net7.sqlsugar\\Controllers\\ApiTokenController.cs",
+              "ToolTip": "D:\\BaiduSyncdisk\\webapi.net7\u002Bsqlsugar\\webapi.net7.sqlsugar\\webapi.net7.sqlsugar\\Controllers\\ApiTokenController.cs",
+              "RelativeToolTip": "webapi.net7.sqlsugar\\Controllers\\ApiTokenController.cs",
+              "ViewState": "AQIAAA8AAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-02T12:44:16.154Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\BaiduSyncdisk\\webapi.net7\u002Bsqlsugar\\webapi.net7.sqlsugar\\webapi.net7.sqlsugar\\Program.cs",
+              "RelativeDocumentMoniker": "webapi.net7.sqlsugar\\Program.cs",
+              "ToolTip": "D:\\BaiduSyncdisk\\webapi.net7\u002Bsqlsugar\\webapi.net7.sqlsugar\\webapi.net7.sqlsugar\\Program.cs",
+              "RelativeToolTip": "webapi.net7.sqlsugar\\Program.cs",
+              "ViewState": "AQIAAH4AAAAAAAAAAAAowIcAAAClAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-10T03:30:33.062Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "FileController.cs",
+              "DocumentMoniker": "D:\\BaiduSyncdisk\\webapi.net7\u002Bsqlsugar\\webapi.net7.sqlsugar\\webapi.net7.sqlsugar\\Controllers\\FileController.cs",
+              "RelativeDocumentMoniker": "webapi.net7.sqlsugar\\Controllers\\FileController.cs",
+              "ToolTip": "D:\\BaiduSyncdisk\\webapi.net7\u002Bsqlsugar\\webapi.net7.sqlsugar\\webapi.net7.sqlsugar\\Controllers\\FileController.cs",
+              "RelativeToolTip": "webapi.net7.sqlsugar\\Controllers\\FileController.cs",
+              "ViewState": "AQIAAFEAAAAAAAAAAAAhwF4AAAAcAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-02T12:44:28.065Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "SqlController.cs",
+              "DocumentMoniker": "D:\\BaiduSyncdisk\\webapi.net7\u002Bsqlsugar\\webapi.net7.sqlsugar\\webapi.net7.sqlsugar\\Controllers\\SqlController.cs",
+              "RelativeDocumentMoniker": "webapi.net7.sqlsugar\\Controllers\\SqlController.cs",
+              "ToolTip": "D:\\BaiduSyncdisk\\webapi.net7\u002Bsqlsugar\\webapi.net7.sqlsugar\\webapi.net7.sqlsugar\\Controllers\\SqlController.cs",
+              "RelativeToolTip": "webapi.net7.sqlsugar\\Controllers\\SqlController.cs",
+              "ViewState": "AQIAABUAAAAAAAAAAAAmwFMAAAAnAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-25T22:19:17.626Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "ReportController.cs",
+              "DocumentMoniker": "D:\\BaiduSyncdisk\\webapi.net7\u002Bsqlsugar\\webapi.net7.sqlsugar\\webapi.net7.sqlsugar\\Controllers\\ReportController.cs",
+              "RelativeDocumentMoniker": "webapi.net7.sqlsugar\\Controllers\\ReportController.cs",
+              "ToolTip": "D:\\BaiduSyncdisk\\webapi.net7\u002Bsqlsugar\\webapi.net7.sqlsugar\\webapi.net7.sqlsugar\\Controllers\\ReportController.cs",
+              "RelativeToolTip": "webapi.net7.sqlsugar\\Controllers\\ReportController.cs",
+              "ViewState": "AQIAABIAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-02T12:44:34.634Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "D:\\BaiduSyncdisk\\webapi.net7\u002Bsqlsugar\\webapi.net7.sqlsugar\\webapi.net7.sqlsugar\\appsettings.json",
+              "RelativeDocumentMoniker": "webapi.net7.sqlsugar\\appsettings.json",
+              "ToolTip": "D:\\BaiduSyncdisk\\webapi.net7\u002Bsqlsugar\\webapi.net7.sqlsugar\\webapi.net7.sqlsugar\\appsettings.json",
+              "RelativeToolTip": "webapi.net7.sqlsugar\\appsettings.json",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAABkAAAAwAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-06-24T22:59:33.1Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "ApiLoginController.cs",
+              "DocumentMoniker": "D:\\BaiduSyncdisk\\webapi.net7\u002Bsqlsugar\\webapi.net7.sqlsugar\\webapi.net7.sqlsugar\\Controllers\\ApiLoginController.cs",
+              "RelativeDocumentMoniker": "webapi.net7.sqlsugar\\Controllers\\ApiLoginController.cs",
+              "ToolTip": "D:\\BaiduSyncdisk\\webapi.net7\u002Bsqlsugar\\webapi.net7.sqlsugar\\webapi.net7.sqlsugar\\Controllers\\ApiLoginController.cs",
+              "RelativeToolTip": "webapi.net7.sqlsugar\\Controllers\\ApiLoginController.cs",
+              "ViewState": "AQIAADAAAAAAAAAAAAAcwGsAAAA6AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-02T12:44:07.787Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "SqlSugarHelp.cs",
+              "DocumentMoniker": "D:\\BaiduSyncdisk\\webapi.net7\u002Bsqlsugar\\webapi.net7.sqlsugar\\webapi.net7.sqlsugar\\DAL\\SqlSugarHelp.cs",
+              "RelativeDocumentMoniker": "webapi.net7.sqlsugar\\DAL\\SqlSugarHelp.cs",
+              "ToolTip": "D:\\BaiduSyncdisk\\webapi.net7\u002Bsqlsugar\\webapi.net7.sqlsugar\\webapi.net7.sqlsugar\\DAL\\SqlSugarHelp.cs",
+              "RelativeToolTip": "webapi.net7.sqlsugar\\DAL\\SqlSugarHelp.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAAA8AAABfAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-24T22:59:07.926Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "CRMAppController.cs",
+              "DocumentMoniker": "D:\\BaiduSyncdisk\\webapi.net7\u002Bsqlsugar\\webapi.net7.sqlsugar\\webapi.net7.sqlsugar\\Controllers\\CRMAppController.cs",
+              "RelativeDocumentMoniker": "webapi.net7.sqlsugar\\Controllers\\CRMAppController.cs",
+              "ToolTip": "D:\\BaiduSyncdisk\\webapi.net7\u002Bsqlsugar\\webapi.net7.sqlsugar\\webapi.net7.sqlsugar\\Controllers\\CRMAppController.cs",
+              "RelativeToolTip": "webapi.net7.sqlsugar\\Controllers\\CRMAppController.cs",
+              "ViewState": "AQIAAC8CAAAAAAAAAAAYwEUCAAAeAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-19T03:21:24.459Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "JsonHelper.cs",
+              "DocumentMoniker": "D:\\BaiduSyncdisk\\webapi.net7\u002Bsqlsugar\\webapi.net7.sqlsugar\\webapi.net7.sqlsugar\\DAL\\JsonHelper.cs",
+              "RelativeDocumentMoniker": "webapi.net7.sqlsugar\\DAL\\JsonHelper.cs",
+              "ToolTip": "D:\\BaiduSyncdisk\\webapi.net7\u002Bsqlsugar\\webapi.net7.sqlsugar\\webapi.net7.sqlsugar\\DAL\\JsonHelper.cs",
+              "RelativeToolTip": "webapi.net7.sqlsugar\\DAL\\JsonHelper.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-24T22:58:55.19Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "MessageLogin.cs",
+              "DocumentMoniker": "D:\\BaiduSyncdisk\\webapi.net7\u002Bsqlsugar\\webapi.net7.sqlsugar\\webapi.net7.sqlsugar\\Model\\MessageLogin.cs",
+              "RelativeDocumentMoniker": "webapi.net7.sqlsugar\\Model\\MessageLogin.cs",
+              "ToolTip": "D:\\BaiduSyncdisk\\webapi.net7\u002Bsqlsugar\\webapi.net7.sqlsugar\\webapi.net7.sqlsugar\\Model\\MessageLogin.cs",
+              "RelativeToolTip": "webapi.net7.sqlsugar\\Model\\MessageLogin.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAAXAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-23T23:24:07.196Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "SqlSelectModel.cs",
+              "DocumentMoniker": "D:\\BaiduSyncdisk\\webapi.net7\u002Bsqlsugar\\webapi.net7.sqlsugar\\webapi.net7.sqlsugar\\Model\\SqlSelectModel.cs",
+              "RelativeDocumentMoniker": "webapi.net7.sqlsugar\\Model\\SqlSelectModel.cs",
+              "ToolTip": "D:\\BaiduSyncdisk\\webapi.net7\u002Bsqlsugar\\webapi.net7.sqlsugar\\webapi.net7.sqlsugar\\Model\\SqlSelectModel.cs",
+              "RelativeToolTip": "webapi.net7.sqlsugar\\Model\\SqlSelectModel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-24T01:15:15.892Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "WorkShopController.cs",
+              "DocumentMoniker": "D:\\BaiduSyncdisk\\webapi.net7\u002Bsqlsugar\\webapi.net7.sqlsugar\\webapi.net7.sqlsugar\\Controllers\\WorkShopController.cs",
+              "RelativeDocumentMoniker": "webapi.net7.sqlsugar\\Controllers\\WorkShopController.cs",
+              "ToolTip": "D:\\BaiduSyncdisk\\webapi.net7\u002Bsqlsugar\\webapi.net7.sqlsugar\\webapi.net7.sqlsugar\\Controllers\\WorkShopController.cs",
+              "RelativeToolTip": "webapi.net7.sqlsugar\\Controllers\\WorkShopController.cs",
+              "ViewState": "AQIAAA8AAAAAAAAAAAAgwCUAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-24T14:30:46.459Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "WmsFile.cs",
+              "DocumentMoniker": "D:\\BaiduSyncdisk\\webapi.net7\u002Bsqlsugar\\webapi.net7.sqlsugar\\webapi.net7.sqlsugar\\Model\\WmsFile.cs",
+              "RelativeDocumentMoniker": "webapi.net7.sqlsugar\\Model\\WmsFile.cs",
+              "ToolTip": "D:\\BaiduSyncdisk\\webapi.net7\u002Bsqlsugar\\webapi.net7.sqlsugar\\webapi.net7.sqlsugar\\Model\\WmsFile.cs",
+              "RelativeToolTip": "webapi.net7.sqlsugar\\Model\\WmsFile.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-18T01:01:56.028Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "QualityControlController.cs",
+              "DocumentMoniker": "D:\\BaiduSyncdisk\\webapi.net7\u002Bsqlsugar\\webapi.net7.sqlsugar\\webapi.net7.sqlsugar\\Controllers\\QualityControlController.cs",
+              "RelativeDocumentMoniker": "webapi.net7.sqlsugar\\Controllers\\QualityControlController.cs",
+              "ToolTip": "D:\\BaiduSyncdisk\\webapi.net7\u002Bsqlsugar\\webapi.net7.sqlsugar\\webapi.net7.sqlsugar\\Controllers\\QualityControlController.cs",
+              "RelativeToolTip": "webapi.net7.sqlsugar\\Controllers\\QualityControlController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-02T12:44:31.492Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "FileUploadfilter.cs",
+              "DocumentMoniker": "D:\\BaiduSyncdisk\\webapi.net7\u002Bsqlsugar\\webapi.net7.sqlsugar\\webapi.net7.sqlsugar\\Utility\\SwaggerExt\\FileUploadfilter.cs",
+              "RelativeDocumentMoniker": "webapi.net7.sqlsugar\\Utility\\SwaggerExt\\FileUploadfilter.cs",
+              "ToolTip": "D:\\BaiduSyncdisk\\webapi.net7\u002Bsqlsugar\\webapi.net7.sqlsugar\\webapi.net7.sqlsugar\\Utility\\SwaggerExt\\FileUploadfilter.cs",
+              "RelativeToolTip": "webapi.net7.sqlsugar\\Utility\\SwaggerExt\\FileUploadfilter.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-02T09:43:55.347Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "Extension.cs",
+              "DocumentMoniker": "D:\\BaiduSyncdisk\\webapi.net7\u002Bsqlsugar\\webapi.net7.sqlsugar\\webapi.net7.sqlsugar\\Utility\\SwaggerExt\\Extension.cs",
+              "RelativeDocumentMoniker": "webapi.net7.sqlsugar\\Utility\\SwaggerExt\\Extension.cs",
+              "ToolTip": "D:\\BaiduSyncdisk\\webapi.net7\u002Bsqlsugar\\webapi.net7.sqlsugar\\webapi.net7.sqlsugar\\Utility\\SwaggerExt\\Extension.cs",
+              "RelativeToolTip": "webapi.net7.sqlsugar\\Utility\\SwaggerExt\\Extension.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-02T09:43:54.492Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "CustomSwaggerExt.cs",
+              "DocumentMoniker": "D:\\BaiduSyncdisk\\webapi.net7\u002Bsqlsugar\\webapi.net7.sqlsugar\\webapi.net7.sqlsugar\\Utility\\SwaggerExt\\CustomSwaggerExt.cs",
+              "RelativeDocumentMoniker": "webapi.net7.sqlsugar\\Utility\\SwaggerExt\\CustomSwaggerExt.cs",
+              "ToolTip": "D:\\BaiduSyncdisk\\webapi.net7\u002Bsqlsugar\\webapi.net7.sqlsugar\\webapi.net7.sqlsugar\\Utility\\SwaggerExt\\CustomSwaggerExt.cs",
+              "RelativeToolTip": "webapi.net7.sqlsugar\\Utility\\SwaggerExt\\CustomSwaggerExt.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAABIAAAAtAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-02T09:44:02.475Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "NLog.config",
+              "DocumentMoniker": "D:\\BaiduSyncdisk\\webapi.net7\u002Bsqlsugar\\webapi.net7.sqlsugar\\webapi.net7.sqlsugar\\ConfigFile\\NLog.config",
+              "RelativeDocumentMoniker": "webapi.net7.sqlsugar\\ConfigFile\\NLog.config",
+              "ToolTip": "D:\\BaiduSyncdisk\\webapi.net7\u002Bsqlsugar\\webapi.net7.sqlsugar\\webapi.net7.sqlsugar\\ConfigFile\\NLog.config",
+              "RelativeToolTip": "webapi.net7.sqlsugar\\ConfigFile\\NLog.config",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABoAAAANAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
+              "WhenOpened": "2024-09-02T11:52:57.56Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "ApiVersions.cs",
+              "DocumentMoniker": "D:\\BaiduSyncdisk\\webapi.net7\u002Bsqlsugar\\webapi.net7.sqlsugar\\webapi.net7.sqlsugar\\Utility\\SwaggerExt\\ApiVersions.cs",
+              "RelativeDocumentMoniker": "webapi.net7.sqlsugar\\Utility\\SwaggerExt\\ApiVersions.cs",
+              "ToolTip": "D:\\BaiduSyncdisk\\webapi.net7\u002Bsqlsugar\\webapi.net7.sqlsugar\\webapi.net7.sqlsugar\\Utility\\SwaggerExt\\ApiVersions.cs",
+              "RelativeToolTip": "webapi.net7.sqlsugar\\Utility\\SwaggerExt\\ApiVersions.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-02T09:43:48.498Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "wlzh_rgdzb.cs",
+              "DocumentMoniker": "D:\\BaiduSyncdisk\\webapi.net7\u002Bsqlsugar\\webapi.net7.sqlsugar\\webapi.net7.sqlsugar\\Model\\wlzh_rgdzb.cs",
+              "RelativeDocumentMoniker": "webapi.net7.sqlsugar\\Model\\wlzh_rgdzb.cs",
+              "ToolTip": "D:\\BaiduSyncdisk\\webapi.net7\u002Bsqlsugar\\webapi.net7.sqlsugar\\webapi.net7.sqlsugar\\Model\\wlzh_rgdzb.cs",
+              "RelativeToolTip": "webapi.net7.sqlsugar\\Model\\wlzh_rgdzb.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAEcCAAAWAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-21T22:49:50.726Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "webapi.net7.sqlsugar",
+              "DocumentMoniker": "D:\\BaiduSyncdisk\\webapi.net7\u002Bsqlsugar\\webapi.net7.sqlsugar\\webapi.net7.sqlsugar\\webapi.net7.sqlsugar.csproj",
+              "RelativeDocumentMoniker": "webapi.net7.sqlsugar\\webapi.net7.sqlsugar.csproj",
+              "ToolTip": "D:\\BaiduSyncdisk\\webapi.net7\u002Bsqlsugar\\webapi.net7.sqlsugar\\webapi.net7.sqlsugar\\webapi.net7.sqlsugar.csproj",
+              "RelativeToolTip": "webapi.net7.sqlsugar\\webapi.net7.sqlsugar.csproj",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-09-02T11:34:45.281Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "CRMDatalist.cs",
+              "DocumentMoniker": "D:\\BaiduSyncdisk\\webapi.net7\u002Bsqlsugar\\webapi.net7.sqlsugar\\webapi.net7.sqlsugar\\Model\\CRMDatalist.cs",
+              "RelativeDocumentMoniker": "webapi.net7.sqlsugar\\Model\\CRMDatalist.cs",
+              "ToolTip": "D:\\BaiduSyncdisk\\webapi.net7\u002Bsqlsugar\\webapi.net7.sqlsugar\\webapi.net7.sqlsugar\\Model\\CRMDatalist.cs",
+              "RelativeToolTip": "webapi.net7.sqlsugar\\Model\\CRMDatalist.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-22T11:33:07.434Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "U8lgoin.cs",
+              "DocumentMoniker": "D:\\BaiduSyncdisk\\webapi.net7\u002Bsqlsugar\\webapi.net7.sqlsugar\\webapi.net7.sqlsugar\\Model\\U8lgoin.cs",
+              "RelativeDocumentMoniker": "webapi.net7.sqlsugar\\Model\\U8lgoin.cs",
+              "ToolTip": "D:\\BaiduSyncdisk\\webapi.net7\u002Bsqlsugar\\webapi.net7.sqlsugar\\webapi.net7.sqlsugar\\Model\\U8lgoin.cs",
+              "RelativeToolTip": "webapi.net7.sqlsugar\\Model\\U8lgoin.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAADwvwQAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-25T01:28:04.356Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "Reference.cs",
+              "DocumentMoniker": "D:\\BaiduSyncdisk\\webapi.net7\u002Bsqlsugar\\webapi.net7.sqlsugar\\webapi.net7.sqlsugar\\Connected Services\\ServiceReference1\\Reference.cs",
+              "RelativeDocumentMoniker": "webapi.net7.sqlsugar\\Connected Services\\ServiceReference1\\Reference.cs",
+              "ToolTip": "D:\\BaiduSyncdisk\\webapi.net7\u002Bsqlsugar\\webapi.net7.sqlsugar\\webapi.net7.sqlsugar\\Connected Services\\ServiceReference1\\Reference.cs",
+              "RelativeToolTip": "webapi.net7.sqlsugar\\Connected Services\\ServiceReference1\\Reference.cs",
+              "ViewState": "AQIAAGEIAAAAAAAAAAAUwHAIAAA/AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-24T15:27:25.58Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "ConnectedService.json",
+              "DocumentMoniker": "D:\\BaiduSyncdisk\\webapi.net7\u002Bsqlsugar\\webapi.net7.sqlsugar\\webapi.net7.sqlsugar\\Connected Services\\ServiceReference1\\ConnectedService.json",
+              "RelativeDocumentMoniker": "webapi.net7.sqlsugar\\Connected Services\\ServiceReference1\\ConnectedService.json",
+              "ToolTip": "D:\\BaiduSyncdisk\\webapi.net7\u002Bsqlsugar\\webapi.net7.sqlsugar\\webapi.net7.sqlsugar\\Connected Services\\ServiceReference1\\ConnectedService.json",
+              "RelativeToolTip": "webapi.net7.sqlsugar\\Connected Services\\ServiceReference1\\ConnectedService.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAMAAAAHAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-06-24T22:42:01.674Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

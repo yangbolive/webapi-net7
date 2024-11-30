@@ -1,0 +1,86 @@
+2024-09-02 17:42:49.9624 | DEBUG | Registered model binder providers, in the following order: Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DateTimeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.TryParseModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinderProvider
+2024-09-02 17:42:50.2909 | DEBUG | Registered SignalR Protocol: json, implemented by Microsoft.AspNetCore.SignalR.Protocol.JsonHubProtocol.
+2024-09-02 17:42:50.3031 | DEBUG | Hosting starting
+2024-09-02 17:42:50.3502 | INFO | User profile is available. Using 'C:\Users\Administrator\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-09-02 17:42:50.3502 | DEBUG | Reading data from file 'C:\Users\Administrator\AppData\Local\ASP.NET\DataProtection-Keys\key-34692722-1836-4131-841e-52bc30c5cc34.xml'.
+2024-09-02 17:42:50.3638 | DEBUG | Reading data from file 'C:\Users\Administrator\AppData\Local\ASP.NET\DataProtection-Keys\key-5253006b-7847-4af6-b43a-32e1140a5d05.xml'.
+2024-09-02 17:42:50.3638 | DEBUG | Reading data from file 'C:\Users\Administrator\AppData\Local\ASP.NET\DataProtection-Keys\key-691d2c1e-819d-4ace-bf8c-4b95df9c96f1.xml'.
+2024-09-02 17:42:50.3638 | DEBUG | Reading data from file 'C:\Users\Administrator\AppData\Local\ASP.NET\DataProtection-Keys\key-9c621d14-e4f3-453a-a88c-5b12868c45f6.xml'.
+2024-09-02 17:42:50.3638 | DEBUG | Found key {34692722-1836-4131-841e-52bc30c5cc34}.
+2024-09-02 17:42:50.3831 | DEBUG | Found key {5253006b-7847-4af6-b43a-32e1140a5d05}.
+2024-09-02 17:42:50.3831 | DEBUG | Found key {691d2c1e-819d-4ace-bf8c-4b95df9c96f1}.
+2024-09-02 17:42:50.3831 | DEBUG | Found key {9c621d14-e4f3-453a-a88c-5b12868c45f6}.
+2024-09-02 17:42:50.3998 | DEBUG | Considering key {5253006b-7847-4af6-b43a-32e1140a5d05} with expiration date 2024-10-17 08:31:37Z as default key.
+2024-09-02 17:42:50.3998 | DEBUG | Forwarded activator type request from Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Version=7.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60 to Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60
+2024-09-02 17:42:50.3998 | DEBUG | Decrypting secret element using Windows DPAPI.
+2024-09-02 17:42:50.4090 | DEBUG | Forwarded activator type request from Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Version=7.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60 to Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60
+2024-09-02 17:42:50.4090 | DEBUG | Opening CNG algorithm 'AES' from provider '(null)' with chaining mode CBC.
+2024-09-02 17:42:50.4090 | DEBUG | Opening CNG algorithm 'SHA256' from provider '(null)' with HMAC.
+2024-09-02 17:42:50.4090 | DEBUG | Using key {5253006b-7847-4af6-b43a-32e1140a5d05} as the default key.
+2024-09-02 17:42:50.4090 | DEBUG | Key ring with default key {5253006b-7847-4af6-b43a-32e1140a5d05} was loaded during application startup.
+2024-09-02 17:42:50.5892 | INFO | Now listening on: http://localhost:5149
+2024-09-02 17:42:50.5892 | DEBUG | Loaded hosting startup assembly webapi.net7.sqlsugar
+2024-09-02 17:42:50.5892 | DEBUG | Loaded hosting startup assembly Microsoft.AspNetCore.Watch.BrowserRefresh
+2024-09-02 17:42:50.5892 | DEBUG | Loaded hosting startup assembly Microsoft.WebTools.BrowserLink.Net
+2024-09-02 17:42:50.5892 | INFO | Application started. Press Ctrl+C to shut down.
+2024-09-02 17:42:50.5892 | INFO | Hosting environment: Development
+2024-09-02 17:42:50.5960 | INFO | Content root path: D:\BaiduSyncdisk\webapi.net7+sqlsugar\webapi.net7.sqlsugar\webapi.net7.sqlsugar
+2024-09-02 17:42:50.5960 | DEBUG | Hosting started
+2024-09-02 17:42:50.7084 | DEBUG | Connection id "0HN6B6EE605UO" accepted.
+2024-09-02 17:42:50.7084 | DEBUG | Connection id "0HN6B6EE605UO" started.
+2024-09-02 17:42:50.7219 | DEBUG | Connection id "0HN6B6EE605UO" received FIN.
+2024-09-02 17:42:50.7219 | DEBUG | Connection id "0HN6B6EE605UP" received FIN.
+2024-09-02 17:42:50.7219 | DEBUG | Connection id "0HN6B6EE605UP" accepted.
+2024-09-02 17:42:50.7219 | DEBUG | Connection id "0HN6B6EE605UP" started.
+2024-09-02 17:42:50.7219 | DEBUG | Connection id "0HN6B6EE605UO" sending FIN because: "The Socket transport's send loop completed gracefully."
+2024-09-02 17:42:50.7219 | DEBUG | Connection id "0HN6B6EE605UP" sending FIN because: "The Socket transport's send loop completed gracefully."
+2024-09-02 17:42:50.7219 | DEBUG | Connection id "0HN6B6EE605UP" disconnecting.
+2024-09-02 17:42:50.7219 | DEBUG | Connection id "0HN6B6EE605UO" disconnecting.
+2024-09-02 17:42:50.7219 | DEBUG | Connection id "0HN6B6EE605UP" stopped.
+2024-09-02 17:42:50.7219 | DEBUG | Connection id "0HN6B6EE605UO" stopped.
+2024-09-02 17:42:51.2424 | DEBUG | Connection id "0HN6B6EE605UQ" accepted.
+2024-09-02 17:42:51.2424 | DEBUG | Connection id "0HN6B6EE605UQ" started.
+2024-09-02 17:42:51.2424 | DEBUG | Connection id "0HN6B6EE605UR" accepted.
+2024-09-02 17:42:51.2424 | DEBUG | Connection id "0HN6B6EE605UR" started.
+2024-09-02 17:42:51.2985 | INFO | Request starting HTTP/1.1 GET http://localhost:5149/swagger - -
+2024-09-02 17:42:51.5707 | DEBUG | Wildcard detected, all requests with hosts will be allowed.
+2024-09-02 17:42:51.6346 | DEBUG | Connection id "0HN6B6EE605UR" completed keep alive response.
+2024-09-02 17:42:51.6346 | INFO | Request finished HTTP/1.1 GET http://localhost:5149/swagger - - - 301 0 - 338.4255ms
+2024-09-02 17:42:51.6425 | INFO | Request starting HTTP/1.1 GET http://localhost:5149/swagger/index.html - -
+2024-09-02 17:42:51.7321 | DEBUG | Response markup is scheduled to include Browser Link script injection.
+2024-09-02 17:42:51.7321 | DEBUG | Response markup is scheduled to include browser refresh script injection.
+2024-09-02 17:42:51.7418 | DEBUG | Response markup was updated to include Browser Link script injection.
+2024-09-02 17:42:51.7418 | DEBUG | Response markup was updated to include browser refresh script injection.
+2024-09-02 17:42:51.7418 | DEBUG | Connection id "0HN6B6EE605UR" completed keep alive response.
+2024-09-02 17:42:51.7418 | INFO | Request finished HTTP/1.1 GET http://localhost:5149/swagger/index.html - - - 200 - text/html;charset=utf-8 99.8703ms
+2024-09-02 17:42:51.7520 | INFO | Request starting HTTP/1.1 GET http://localhost:5149/swagger/swagger-ui.css - -
+2024-09-02 17:42:51.7520 | DEBUG | Connection id "0HN6B6EE605US" accepted.
+2024-09-02 17:42:51.7520 | DEBUG | Connection id "0HN6B6EE605US" started.
+2024-09-02 17:42:51.7520 | DEBUG | Connection id "0HN6B6EE605UT" accepted.
+2024-09-02 17:42:51.7520 | DEBUG | Connection id "0HN6B6EE605UT" started.
+2024-09-02 17:42:51.7520 | INFO | Request starting HTTP/1.1 GET http://localhost:5149/swagger/swagger-ui-bundle.js - -
+2024-09-02 17:42:51.7520 | INFO | Request starting HTTP/1.1 GET http://localhost:5149/swagger/swagger-ui-standalone-preset.js - -
+2024-09-02 17:42:51.7520 | INFO | Request starting HTTP/1.1 GET http://localhost:5149/_framework/aspnetcore-browser-refresh.js - -
+2024-09-02 17:42:51.7520 | DEBUG | Connection id "0HN6B6EE605UT" completed keep alive response.
+2024-09-02 17:42:51.7520 | INFO | Request finished HTTP/1.1 GET http://localhost:5149/_framework/aspnetcore-browser-refresh.js - - - 200 13776 application/javascript;+charset=utf-8 3.8399ms
+2024-09-02 17:42:51.7520 | DEBUG | Connection id "0HN6B6EE605UU" accepted.
+2024-09-02 17:42:51.7520 | DEBUG | Connection id "0HN6B6EE605UU" started.
+2024-09-02 17:42:51.7520 | INFO | Request starting HTTP/1.1 GET http://localhost:5149/_vs/browserLink - -
+2024-09-02 17:42:51.8034 | INFO | Sending file. Request path: '/swagger-ui.css'. Physical path: 'N/A'
+2024-09-02 17:42:51.8034 | INFO | Sending file. Request path: '/swagger-ui-standalone-preset.js'. Physical path: 'N/A'
+2024-09-02 17:42:51.8034 | DEBUG | Connection id "0HN6B6EE605US" completed keep alive response.
+2024-09-02 17:42:51.8034 | DEBUG | Connection id "0HN6B6EE605UR" completed keep alive response.
+2024-09-02 17:42:51.8034 | INFO | Request finished HTTP/1.1 GET http://localhost:5149/swagger/swagger-ui-standalone-preset.js - - - 200 312163 text/javascript 52.2955ms
+2024-09-02 17:42:51.8034 | INFO | Request finished HTTP/1.1 GET http://localhost:5149/swagger/swagger-ui.css - - - 200 144929 text/css 54.1019ms
+2024-09-02 17:42:51.8034 | INFO | Sending file. Request path: '/swagger-ui-bundle.js'. Physical path: 'N/A'
+2024-09-02 17:42:51.8034 | DEBUG | Connection id "0HN6B6EE605UQ" completed keep alive response.
+2024-09-02 17:42:51.8034 | INFO | Request finished HTTP/1.1 GET http://localhost:5149/swagger/swagger-ui-bundle.js - - - 200 1061536 text/javascript 61.0721ms
+2024-09-02 17:42:51.8638 | DEBUG | Connection id "0HN6B6EE605UU" completed keep alive response.
+2024-09-02 17:42:51.8638 | INFO | Request finished HTTP/1.1 GET http://localhost:5149/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 102.7113ms
+2024-09-02 17:42:52.0768 | INFO | Request starting HTTP/1.1 GET http://localhost:5149/swagger/东泽房源管理接口/swagger.json - -
+2024-09-02 17:42:52.1139 | INFO | Request starting HTTP/1.1 GET http://localhost:5149/swagger/favicon-32x32.png - -
+2024-09-02 17:42:52.1139 | INFO | Sending file. Request path: '/favicon-32x32.png'. Physical path: 'N/A'
+2024-09-02 17:42:52.1139 | DEBUG | Connection id "0HN6B6EE605UQ" completed keep alive response.
+2024-09-02 17:42:52.1139 | INFO | Request finished HTTP/1.1 GET http://localhost:5149/swagger/favicon-32x32.png - - - 200 628 image/png 0.5185ms
+2024-09-02 17:42:52.4163 | DEBUG | Connection id "0HN6B6EE605UU" completed keep alive response.
+2024-09-02 17:42:52.4163 | INFO | Request finished HTTP/1.1 GET http://localhost:5149/swagger/东泽房源管理接口/swagger.json - - - 200 - application/json;charset=utf-8 339.6081ms

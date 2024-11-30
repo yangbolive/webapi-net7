@@ -1,0 +1,59 @@
+2024-05-23 10:50:36.3481 | INFO | User profile is available. Using 'C:\Users\Administrator\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-05-23 10:50:36.6409 | INFO | Now listening on: http://localhost:5149
+2024-05-23 10:50:36.6458 | INFO | Application started. Press Ctrl+C to shut down.
+2024-05-23 10:50:36.6458 | INFO | Hosting environment: Development
+2024-05-23 10:50:36.6458 | INFO | Content root path: D:\BaiduSyncdisk\webapi.net7+sqlsugar\webapi.net7.sqlsugar\webapi.net7.sqlsugar
+2024-05-23 10:50:39.3461 | INFO | Request starting HTTP/1.1 GET http://localhost:5149/swagger/index.html - -
+2024-05-23 10:50:40.0563 | INFO | Request finished HTTP/1.1 GET http://localhost:5149/swagger/index.html - - - 200 - text/html;charset=utf-8 717.3993ms
+2024-05-23 10:50:40.0563 | INFO | Request starting HTTP/1.1 GET http://localhost:5149/_vs/browserLink - -
+2024-05-23 10:50:40.0563 | INFO | Request starting HTTP/1.1 GET http://localhost:5149/_framework/aspnetcore-browser-refresh.js - -
+2024-05-23 10:50:40.0671 | INFO | Request finished HTTP/1.1 GET http://localhost:5149/_framework/aspnetcore-browser-refresh.js - - - 200 13776 application/javascript;+charset=utf-8 2.4043ms
+2024-05-23 10:50:40.1330 | INFO | Request finished HTTP/1.1 GET http://localhost:5149/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 71.0633ms
+2024-05-23 10:50:40.2003 | INFO | Request starting HTTP/1.1 GET http://localhost:5149/swagger/东泽房源管理接口/swagger.json - -
+2024-05-23 10:50:40.5690 | INFO | Request finished HTTP/1.1 GET http://localhost:5149/swagger/东泽房源管理接口/swagger.json - - - 200 - application/json;charset=utf-8 368.8265ms
+2024-05-23 10:51:39.6800 | INFO | Request starting HTTP/1.1 POST http://localhost:5149/api/GetDataTableToJson application/json 29
+2024-05-23 10:51:39.6976 | WARN | Failed to determine the https port for redirect.
+2024-05-23 10:51:39.7707 | INFO | CORS policy execution successful.
+2024-05-23 10:51:39.7707 | INFO | Executing endpoint 'webapi.net7.sqlsugar.Controllers.CRMAppControlle.GetDataTableToJson (webapi.net7.sqlsugar)'
+2024-05-23 10:51:39.7870 | INFO | Route matched with {action = "GetDataTableToJson", controller = "CRMAppControlle"}. Executing controller action with signature System.String GetDataTableToJson(System.Object) on controller webapi.net7.sqlsugar.Controllers.CRMAppControlle (webapi.net7.sqlsugar).
+2024-05-23 10:51:39.8171 | INFO | Executing BadRequestObjectResult, writing value of type 'Microsoft.AspNetCore.Mvc.ValidationProblemDetails'.
+2024-05-23 10:51:39.8171 | INFO | Executed action webapi.net7.sqlsugar.Controllers.CRMAppControlle.GetDataTableToJson (webapi.net7.sqlsugar) in 35.1577ms
+2024-05-23 10:51:39.8171 | INFO | Executed endpoint 'webapi.net7.sqlsugar.Controllers.CRMAppControlle.GetDataTableToJson (webapi.net7.sqlsugar)'
+2024-05-23 10:51:39.8171 | INFO | Request finished HTTP/1.1 POST http://localhost:5149/api/GetDataTableToJson application/json 29 - 400 - application/problem+json;+charset=utf-8 147.4091ms
+2024-05-23 10:52:01.1686 | INFO | Request starting HTTP/1.1 POST http://localhost:5149/api/GetDataTableToJson application/json 29
+2024-05-23 10:52:01.1686 | INFO | CORS policy execution successful.
+2024-05-23 10:52:01.1686 | INFO | Executing endpoint 'webapi.net7.sqlsugar.Controllers.CRMAppControlle.GetDataTableToJson (webapi.net7.sqlsugar)'
+2024-05-23 10:52:01.1686 | INFO | Route matched with {action = "GetDataTableToJson", controller = "CRMAppControlle"}. Executing controller action with signature System.String GetDataTableToJson(System.Object) on controller webapi.net7.sqlsugar.Controllers.CRMAppControlle (webapi.net7.sqlsugar).
+2024-05-23 10:52:01.1686 | INFO | Executing BadRequestObjectResult, writing value of type 'Microsoft.AspNetCore.Mvc.ValidationProblemDetails'.
+2024-05-23 10:52:01.1686 | INFO | Executed action webapi.net7.sqlsugar.Controllers.CRMAppControlle.GetDataTableToJson (webapi.net7.sqlsugar) in 2.2187ms
+2024-05-23 10:52:01.1686 | INFO | Executed endpoint 'webapi.net7.sqlsugar.Controllers.CRMAppControlle.GetDataTableToJson (webapi.net7.sqlsugar)'
+2024-05-23 10:52:01.1686 | INFO | Request finished HTTP/1.1 POST http://localhost:5149/api/GetDataTableToJson application/json 29 - 400 - application/problem+json;+charset=utf-8 4.3775ms
+2024-05-23 10:52:11.5732 | INFO | Request starting HTTP/1.1 POST http://localhost:5149/api/GetDataTableToJson application/json 27
+2024-05-23 10:52:11.5732 | INFO | CORS policy execution successful.
+2024-05-23 10:52:11.5732 | INFO | Executing endpoint 'webapi.net7.sqlsugar.Controllers.CRMAppControlle.GetDataTableToJson (webapi.net7.sqlsugar)'
+2024-05-23 10:52:11.5732 | INFO | Route matched with {action = "GetDataTableToJson", controller = "CRMAppControlle"}. Executing controller action with signature System.String GetDataTableToJson(System.Object) on controller webapi.net7.sqlsugar.Controllers.CRMAppControlle (webapi.net7.sqlsugar).
+2024-05-23 10:52:11.5732 | INFO | Executing action method webapi.net7.sqlsugar.Controllers.CRMAppControlle.GetDataTableToJson (webapi.net7.sqlsugar) - Validation state: Valid
+2024-05-23 10:52:48.9823 | INFO | User profile is available. Using 'C:\Users\Administrator\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-05-23 10:52:49.2029 | INFO | Now listening on: http://localhost:5149
+2024-05-23 10:52:49.2029 | INFO | Application started. Press Ctrl+C to shut down.
+2024-05-23 10:52:49.2081 | INFO | Hosting environment: Development
+2024-05-23 10:52:49.2081 | INFO | Content root path: D:\BaiduSyncdisk\webapi.net7+sqlsugar\webapi.net7.sqlsugar\webapi.net7.sqlsugar
+2024-05-23 10:52:52.2710 | INFO | Request starting HTTP/1.1 GET http://localhost:5149/swagger/index.html - -
+2024-05-23 10:52:52.5906 | INFO | Request finished HTTP/1.1 GET http://localhost:5149/swagger/index.html - - - 200 - text/html;charset=utf-8 324.9947ms
+2024-05-23 10:52:52.5906 | INFO | Request starting HTTP/1.1 GET http://localhost:5149/_vs/browserLink - -
+2024-05-23 10:52:52.5997 | INFO | Request starting HTTP/1.1 GET http://localhost:5149/_framework/aspnetcore-browser-refresh.js - -
+2024-05-23 10:52:52.5997 | INFO | Request finished HTTP/1.1 GET http://localhost:5149/_framework/aspnetcore-browser-refresh.js - - - 200 13776 application/javascript;+charset=utf-8 2.5333ms
+2024-05-23 10:52:52.6356 | INFO | Request finished HTTP/1.1 GET http://localhost:5149/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 39.2417ms
+2024-05-23 10:52:52.7704 | INFO | Request starting HTTP/1.1 GET http://localhost:5149/swagger/东泽房源管理接口/swagger.json - -
+2024-05-23 10:52:53.0628 | INFO | Request finished HTTP/1.1 GET http://localhost:5149/swagger/东泽房源管理接口/swagger.json - - - 200 - application/json;charset=utf-8 292.7360ms
+2024-05-23 10:53:19.6015 | INFO | Request starting HTTP/1.1 POST http://localhost:5149/api/GetDataTableToJson application/json 27
+2024-05-23 10:53:19.6187 | WARN | Failed to determine the https port for redirect.
+2024-05-23 10:53:19.6711 | INFO | CORS policy execution successful.
+2024-05-23 10:53:19.6711 | INFO | Executing endpoint 'webapi.net7.sqlsugar.Controllers.CRMAppControlle.GetDataTableToJson (webapi.net7.sqlsugar)'
+2024-05-23 10:53:19.6972 | INFO | Route matched with {action = "GetDataTableToJson", controller = "CRMAppControlle"}. Executing controller action with signature System.String GetDataTableToJson(System.Object) on controller webapi.net7.sqlsugar.Controllers.CRMAppControlle (webapi.net7.sqlsugar).
+2024-05-23 10:53:19.7236 | INFO | Executing action method webapi.net7.sqlsugar.Controllers.CRMAppControlle.GetDataTableToJson (webapi.net7.sqlsugar) - Validation state: Valid
+2024-05-23 10:54:04.9551 | INFO | Executed action method webapi.net7.sqlsugar.Controllers.CRMAppControlle.GetDataTableToJson (webapi.net7.sqlsugar), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 45224.614ms.
+2024-05-23 10:54:04.9601 | INFO | Executing ObjectResult, writing value of type 'System.String'.
+2024-05-23 10:54:04.9601 | INFO | Executed action webapi.net7.sqlsugar.Controllers.CRMAppControlle.GetDataTableToJson (webapi.net7.sqlsugar) in 45268.0265ms
+2024-05-23 10:54:04.9601 | INFO | Executed endpoint 'webapi.net7.sqlsugar.Controllers.CRMAppControlle.GetDataTableToJson (webapi.net7.sqlsugar)'
+2024-05-23 10:54:04.9601 | INFO | Request finished HTTP/1.1 POST http://localhost:5149/api/GetDataTableToJson application/json 27 - 200 - text/plain;+charset=utf-8 45368.5347ms

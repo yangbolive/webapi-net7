@@ -1,0 +1,70 @@
+2024-04-15 20:08:15.6264 | INFO | User profile is available. Using 'C:\Users\Administrator\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-04-15 20:08:15.6535 | INFO | Creating key {9c621d14-e4f3-453a-a88c-5b12868c45f6} with creation date 2024-04-15 12:08:15Z, activation date 2024-04-15 12:08:15Z, and expiration date 2024-07-14 12:08:15Z.
+2024-04-15 20:08:15.6691 | INFO | Writing data to file 'C:\Users\Administrator\AppData\Local\ASP.NET\DataProtection-Keys\key-9c621d14-e4f3-453a-a88c-5b12868c45f6.xml'.
+2024-04-15 20:08:15.8181 | INFO | Application started. Press Ctrl+C to shut down.
+2024-04-15 20:08:15.8181 | INFO | Hosting environment: Development
+2024-04-15 20:08:15.8181 | INFO | Content root path: D:\BaiduSyncdisk\webapi.net7+sqlsugar\webapi.net7.sqlsugar\webapi.net7.sqlsugar
+2024-04-15 20:08:15.8579 | INFO | Request starting HTTP/2 GET https://localhost:44351/swagger - -
+2024-04-15 20:08:16.6904 | INFO | Request starting HTTP/2 GET https://localhost:44351/swagger/index.html - -
+2024-04-15 20:08:16.7056 | INFO | Request finished HTTP/2 GET https://localhost:44351/swagger - - - 301 - - 848.4004ms
+2024-04-15 20:08:16.8003 | INFO | Request finished HTTP/2 GET https://localhost:44351/swagger/index.html - - - 200 - text/html;charset=utf-8 110.1876ms
+2024-04-15 20:08:16.8003 | INFO | Request starting HTTP/2 GET https://localhost:44351/_framework/aspnetcore-browser-refresh.js - -
+2024-04-15 20:08:16.8003 | INFO | Request starting HTTP/2 GET https://localhost:44351/swagger/swagger-ui-standalone-preset.js - -
+2024-04-15 20:08:16.8003 | INFO | Request starting HTTP/2 GET https://localhost:44351/swagger/swagger-ui-bundle.js - -
+2024-04-15 20:08:16.8003 | INFO | Request starting HTTP/2 GET https://localhost:44351/swagger/swagger-ui.css - -
+2024-04-15 20:08:16.8112 | INFO | Request finished HTTP/2 GET https://localhost:44351/_framework/aspnetcore-browser-refresh.js - - - 200 13776 application/javascript;+charset=utf-8 7.2183ms
+2024-04-15 20:08:16.8112 | INFO | Request starting HTTP/2 GET https://localhost:44351/_vs/browserLink - -
+2024-04-15 20:08:16.8373 | INFO | Sending file. Request path: '/swagger-ui.css'. Physical path: 'N/A'
+2024-04-15 20:08:16.8373 | INFO | Sending file. Request path: '/swagger-ui-standalone-preset.js'. Physical path: 'N/A'
+2024-04-15 20:08:16.8373 | INFO | Request finished HTTP/2 GET https://localhost:44351/swagger/swagger-ui.css - - - 200 144929 text/css 30.4805ms
+2024-04-15 20:08:16.8414 | INFO | Request finished HTTP/2 GET https://localhost:44351/swagger/swagger-ui-standalone-preset.js - - - 200 312163 text/javascript 41.4769ms
+2024-04-15 20:08:16.8414 | INFO | Sending file. Request path: '/swagger-ui-bundle.js'. Physical path: 'N/A'
+2024-04-15 20:08:16.8722 | INFO | Request finished HTTP/2 GET https://localhost:44351/swagger/swagger-ui-bundle.js - - - 200 1061536 text/javascript 68.0477ms
+2024-04-15 20:08:18.7179 | INFO | Request finished HTTP/2 GET https://localhost:44351/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 1893.8174ms
+2024-04-15 20:08:18.7569 | INFO | Request starting HTTP/2 GET https://localhost:44351/swagger/东泽房源管理接口/swagger.json - -
+2024-04-15 20:08:19.0793 | INFO | Request finished HTTP/2 GET https://localhost:44351/swagger/东泽房源管理接口/swagger.json - - - 200 - application/json;charset=utf-8 322.3920ms
+2024-04-15 20:08:26.4960 | INFO | Request starting HTTP/2 GET https://localhost:44351/swagger/U8移动端接口/swagger.json - -
+2024-04-15 20:08:26.5189 | INFO | Request finished HTTP/2 GET https://localhost:44351/swagger/U8移动端接口/swagger.json - - - 200 - application/json;charset=utf-8 22.9583ms
+2024-04-15 20:44:45.6737 | INFO | User profile is available. Using 'C:\Users\Administrator\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-04-15 20:44:45.8012 | INFO | Application started. Press Ctrl+C to shut down.
+2024-04-15 20:44:45.8012 | INFO | Hosting environment: Development
+2024-04-15 20:44:45.8012 | INFO | Content root path: D:\BaiduSyncdisk\webapi.net7+sqlsugar\webapi.net7.sqlsugar\webapi.net7.sqlsugar
+2024-04-15 20:44:45.8242 | INFO | Request starting HTTP/2 GET https://localhost:44351/swagger/index.html - -
+2024-04-15 20:44:46.3405 | INFO | Request finished HTTP/2 GET https://localhost:44351/swagger/index.html - - - 200 - text/html;charset=utf-8 526.5990ms
+2024-04-15 20:44:46.3405 | INFO | Request starting HTTP/2 GET https://localhost:44351/_framework/aspnetcore-browser-refresh.js - -
+2024-04-15 20:44:46.3405 | INFO | Request finished HTTP/2 GET https://localhost:44351/_framework/aspnetcore-browser-refresh.js - - - 200 13776 application/javascript;+charset=utf-8 3.9077ms
+2024-04-15 20:44:46.3638 | INFO | Request starting HTTP/2 GET https://localhost:44351/_vs/browserLink - -
+2024-04-15 20:44:46.4164 | INFO | Request finished HTTP/2 GET https://localhost:44351/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 53.3124ms
+2024-04-15 20:44:46.5673 | INFO | Request starting HTTP/2 GET https://localhost:44351/swagger/东泽房源管理接口/swagger.json - -
+2024-04-15 20:44:47.0108 | INFO | Request finished HTTP/2 GET https://localhost:44351/swagger/东泽房源管理接口/swagger.json - - - 200 - application/json;charset=utf-8 443.5143ms
+2024-04-15 20:44:49.2651 | INFO | Request starting HTTP/2 GET https://localhost:44351/swagger/U8移动端接口/swagger.json - -
+2024-04-15 20:44:49.2965 | INFO | Request finished HTTP/2 GET https://localhost:44351/swagger/U8移动端接口/swagger.json - - - 200 - application/json;charset=utf-8 31.0614ms
+2024-04-15 20:44:57.1507 | INFO | Request starting HTTP/2 POST https://localhost:44351/api/PassWordPost application/json 45
+2024-04-15 20:44:57.2499 | INFO | CORS policy execution successful.
+2024-04-15 20:44:57.2499 | INFO | Executing endpoint 'webapi.net7.sqlsugar.Controllers.ApiLoginController.PassWordPost (webapi.net7.sqlsugar)'
+2024-04-15 20:44:57.2847 | INFO | Route matched with {action = "PassWordPost", controller = "ApiLogin"}. Executing controller action with signature webapi.net7.sqlsugar.Model.MessageLogin PassWordPost(webapi.net7.sqlsugar.User) on controller webapi.net7.sqlsugar.Controllers.ApiLoginController (webapi.net7.sqlsugar).
+2024-04-15 20:44:57.3255 | INFO | Executing action method webapi.net7.sqlsugar.Controllers.ApiLoginController.PassWordPost (webapi.net7.sqlsugar) - Validation state: Valid
+2024-04-15 20:46:24.5938 | INFO | User profile is available. Using 'C:\Users\Administrator\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-04-15 20:46:24.7458 | INFO | Application started. Press Ctrl+C to shut down.
+2024-04-15 20:46:24.7480 | INFO | Hosting environment: Development
+2024-04-15 20:46:24.7480 | INFO | Content root path: D:\BaiduSyncdisk\webapi.net7+sqlsugar\webapi.net7.sqlsugar\webapi.net7.sqlsugar
+2024-04-15 20:46:24.7881 | INFO | Request starting HTTP/2 GET https://localhost:44351/swagger/index.html - -
+2024-04-15 20:46:25.1290 | INFO | Request starting HTTP/2 GET https://localhost:44351/_framework/aspnetcore-browser-refresh.js - -
+2024-04-15 20:46:25.1290 | INFO | Request finished HTTP/2 GET https://localhost:44351/swagger/index.html - - - 200 - text/html;charset=utf-8 343.3718ms
+2024-04-15 20:46:25.1380 | INFO | Request finished HTTP/2 GET https://localhost:44351/_framework/aspnetcore-browser-refresh.js - - - 200 13776 application/javascript;+charset=utf-8 3.8051ms
+2024-04-15 20:46:25.1380 | INFO | Request starting HTTP/2 GET https://localhost:44351/_vs/browserLink - -
+2024-04-15 20:46:25.1848 | INFO | Request finished HTTP/2 GET https://localhost:44351/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 40.1213ms
+2024-04-15 20:46:25.2344 | INFO | Request starting HTTP/2 GET https://localhost:44351/swagger/东泽房源管理接口/swagger.json - -
+2024-04-15 20:46:25.5616 | INFO | Request finished HTTP/2 GET https://localhost:44351/swagger/东泽房源管理接口/swagger.json - - - 200 - application/json;charset=utf-8 327.2490ms
+2024-04-15 20:46:28.9451 | INFO | Request starting HTTP/2 GET https://localhost:44351/swagger/U8移动端接口/swagger.json - -
+2024-04-15 20:46:28.9676 | INFO | Request finished HTTP/2 GET https://localhost:44351/swagger/U8移动端接口/swagger.json - - - 200 - application/json;charset=utf-8 22.4488ms
+2024-04-15 20:46:35.5491 | INFO | Request starting HTTP/2 POST https://localhost:44351/api/PassWordPost application/json 45
+2024-04-15 20:46:35.6377 | INFO | CORS policy execution successful.
+2024-04-15 20:46:35.6377 | INFO | Executing endpoint 'webapi.net7.sqlsugar.Controllers.ApiLoginController.PassWordPost (webapi.net7.sqlsugar)'
+2024-04-15 20:46:35.6720 | INFO | Route matched with {action = "PassWordPost", controller = "ApiLogin"}. Executing controller action with signature webapi.net7.sqlsugar.Model.MessageLogin PassWordPost(webapi.net7.sqlsugar.User) on controller webapi.net7.sqlsugar.Controllers.ApiLoginController (webapi.net7.sqlsugar).
+2024-04-15 20:46:35.7187 | INFO | Executing action method webapi.net7.sqlsugar.Controllers.ApiLoginController.PassWordPost (webapi.net7.sqlsugar) - Validation state: Valid
+2024-04-15 20:46:36.4940 | INFO | Executed action method webapi.net7.sqlsugar.Controllers.ApiLoginController.PassWordPost (webapi.net7.sqlsugar), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 771.8216ms.
+2024-04-15 20:46:36.4968 | INFO | Executing ObjectResult, writing value of type 'webapi.net7.sqlsugar.Model.MessageLogin'.
+2024-04-15 20:46:36.4968 | INFO | Executed action webapi.net7.sqlsugar.Controllers.ApiLoginController.PassWordPost (webapi.net7.sqlsugar) in 832.9867ms
+2024-04-15 20:46:36.4968 | INFO | Executed endpoint 'webapi.net7.sqlsugar.Controllers.ApiLoginController.PassWordPost (webapi.net7.sqlsugar)'
+2024-04-15 20:46:36.5123 | INFO | Request finished HTTP/2 POST https://localhost:44351/api/PassWordPost application/json 45 - 200 - application/json;+charset=utf-8 962.9958ms

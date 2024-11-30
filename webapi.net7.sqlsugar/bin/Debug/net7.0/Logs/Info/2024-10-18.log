@@ -1,0 +1,446 @@
+2024-10-18 08:13:26.9026 | INFO | User profile is available. Using 'C:\Users\Administrator\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-10-18 08:13:27.0702 | INFO | Now listening on: http://localhost:5149
+2024-10-18 08:13:27.0702 | INFO | Application started. Press Ctrl+C to shut down.
+2024-10-18 08:13:27.0702 | INFO | Hosting environment: Development
+2024-10-18 08:13:27.0702 | INFO | Content root path: D:\BaiduSyncdisk\webapi.net7+sqlsugar\webapi.net7.sqlsugar\webapi.net7.sqlsugar
+2024-10-18 08:13:28.7418 | INFO | Request starting HTTP/1.1 GET http://localhost:5149/swagger - -
+2024-10-18 08:13:29.1102 | INFO | Request finished HTTP/1.1 GET http://localhost:5149/swagger - - - 301 0 - 371.9116ms
+2024-10-18 08:13:29.1102 | INFO | Request starting HTTP/1.1 GET http://localhost:5149/swagger/index.html - -
+2024-10-18 08:13:29.2214 | INFO | Request finished HTTP/1.1 GET http://localhost:5149/swagger/index.html - - - 200 - text/html;charset=utf-8 108.1602ms
+2024-10-18 08:13:29.2214 | INFO | Request starting HTTP/1.1 GET http://localhost:5149/swagger/swagger-ui.css - -
+2024-10-18 08:13:29.2214 | INFO | Request starting HTTP/1.1 GET http://localhost:5149/swagger/swagger-ui-bundle.js - -
+2024-10-18 08:13:29.2214 | INFO | Request starting HTTP/1.1 GET http://localhost:5149/swagger/swagger-ui-standalone-preset.js - -
+2024-10-18 08:13:29.2368 | INFO | Request starting HTTP/1.1 GET http://localhost:5149/_framework/aspnetcore-browser-refresh.js - -
+2024-10-18 08:13:29.2368 | INFO | Request starting HTTP/1.1 GET http://localhost:5149/_vs/browserLink - -
+2024-10-18 08:13:29.2368 | INFO | Request finished HTTP/1.1 GET http://localhost:5149/_framework/aspnetcore-browser-refresh.js - - - 200 13776 application/javascript;+charset=utf-8 2.0251ms
+2024-10-18 08:13:29.2691 | INFO | Sending file. Request path: '/swagger-ui.css'. Physical path: 'N/A'
+2024-10-18 08:13:29.2691 | INFO | Sending file. Request path: '/swagger-ui-standalone-preset.js'. Physical path: 'N/A'
+2024-10-18 08:13:29.2691 | INFO | Request finished HTTP/1.1 GET http://localhost:5149/swagger/swagger-ui-standalone-preset.js - - - 200 312163 text/javascript 36.0762ms
+2024-10-18 08:13:29.2691 | INFO | Request finished HTTP/1.1 GET http://localhost:5149/swagger/swagger-ui.css - - - 200 144929 text/css 43.6186ms
+2024-10-18 08:13:29.2691 | INFO | Sending file. Request path: '/swagger-ui-bundle.js'. Physical path: 'N/A'
+2024-10-18 08:13:29.2691 | INFO | Request finished HTTP/1.1 GET http://localhost:5149/swagger/swagger-ui-bundle.js - - - 200 1061536 text/javascript 47.6336ms
+2024-10-18 08:13:29.3215 | INFO | Request finished HTTP/1.1 GET http://localhost:5149/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 82.9844ms
+2024-10-18 08:13:29.4953 | INFO | Request starting HTTP/1.1 GET http://localhost:5149/swagger/东泽房源管理接口/swagger.json - -
+2024-10-18 08:13:29.5331 | INFO | Request starting HTTP/1.1 GET http://localhost:5149/swagger/favicon-32x32.png - -
+2024-10-18 08:13:29.5331 | INFO | Sending file. Request path: '/favicon-32x32.png'. Physical path: 'N/A'
+2024-10-18 08:13:29.5331 | INFO | Request finished HTTP/1.1 GET http://localhost:5149/swagger/favicon-32x32.png - - - 200 628 image/png 0.5548ms
+2024-10-18 08:13:29.8151 | INFO | Request finished HTTP/1.1 GET http://localhost:5149/swagger/东泽房源管理接口/swagger.json - - - 200 - application/json;charset=utf-8 320.0123ms
+2024-10-18 08:13:33.2749 | INFO | Request starting HTTP/1.1 GET http://localhost:5149/swagger/文件上传接口/swagger.json - -
+2024-10-18 08:13:33.2827 | INFO | Request finished HTTP/1.1 GET http://localhost:5149/swagger/文件上传接口/swagger.json - - - 200 - application/json;charset=utf-8 7.3065ms
+2024-10-18 08:13:47.7479 | INFO | Request starting HTTP/1.1 POST http://localhost:5149/api/UploadFile multipart/form-data;+boundary=----WebKitFormBoundaryAlEFoOziA2xuIZWP 61203
+2024-10-18 08:13:47.7586 | WARN | Failed to determine the https port for redirect.
+2024-10-18 08:13:47.8249 | INFO | CORS policy execution successful.
+2024-10-18 08:13:47.8809 | INFO | Executing endpoint 'webapi.net7.sqlsugar.Controllers.FileController.UploadFile (webapi.net7.sqlsugar)'
+2024-10-18 08:13:47.9027 | INFO | Route matched with {action = "UploadFile", controller = "File"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.JsonResult UploadFile(Microsoft.AspNetCore.Http.IFormCollection) on controller webapi.net7.sqlsugar.Controllers.FileController (webapi.net7.sqlsugar).
+2024-10-18 08:13:47.9395 | INFO | Executing action method webapi.net7.sqlsugar.Controllers.FileController.UploadFile (webapi.net7.sqlsugar) - Validation state: Valid
+2024-10-18 08:13:47.9666 | INFO | Executed action method webapi.net7.sqlsugar.Controllers.FileController.UploadFile (webapi.net7.sqlsugar), returned result Microsoft.AspNetCore.Mvc.JsonResult in 22.153ms.
+2024-10-18 08:13:47.9666 | INFO | Executing JsonResult, writing value of type '<>f__AnonymousType8`4[[System.Boolean, System.Private.CoreLib, Version=7.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=7.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=7.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=7.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2024-10-18 08:13:47.9742 | INFO | Executed action webapi.net7.sqlsugar.Controllers.FileController.UploadFile (webapi.net7.sqlsugar) in 70.8235ms
+2024-10-18 08:13:47.9742 | INFO | Executed endpoint 'webapi.net7.sqlsugar.Controllers.FileController.UploadFile (webapi.net7.sqlsugar)'
+2024-10-18 08:13:48.3298 | ERROR | An unhandled exception has occurred while executing the request.
+2024-10-18 08:13:48.3298 | WARN | The response has already started, the error page middleware will not be executed.
+2024-10-18 08:13:48.3509 | ERROR | Connection id "0HN7F16O5QT8D", Request id "0HN7F16O5QT8D:00000002": An unhandled exception was thrown by the application.
+2024-10-18 08:13:48.3509 | INFO | Request finished HTTP/1.1 POST http://localhost:5149/api/UploadFile multipart/form-data;+boundary=----WebKitFormBoundaryAlEFoOziA2xuIZWP 61203 - 200 - application/json;+charset=utf-8 604.0072ms
+2024-10-18 08:23:43.7354 | INFO | Request starting HTTP/1.1 GET http://localhost:5149/swagger/index.html?urls.primaryName=%E3%80%90%E6%96%87%E4%BB%B6%E4%B8%8A%E4%BC%A0%E6%8E%A5%E5%8F%A3%E3%80%91%E6%8E%A5%E5%8F%A3 - -
+2024-10-18 08:23:43.7521 | INFO | Request finished HTTP/1.1 GET http://localhost:5149/swagger/index.html?urls.primaryName=%E3%80%90%E6%96%87%E4%BB%B6%E4%B8%8A%E4%BC%A0%E6%8E%A5%E5%8F%A3%E3%80%91%E6%8E%A5%E5%8F%A3 - - - 200 - text/html;charset=utf-8 25.7636ms
+2024-10-18 08:23:43.7796 | INFO | Request starting HTTP/1.1 GET http://localhost:5149/_framework/aspnetcore-browser-refresh.js - -
+2024-10-18 08:23:43.7796 | INFO | Request starting HTTP/1.1 GET http://localhost:5149/_vs/browserLink - -
+2024-10-18 08:23:43.7796 | INFO | Request finished HTTP/1.1 GET http://localhost:5149/_framework/aspnetcore-browser-refresh.js - - - 200 13776 application/javascript;+charset=utf-8 0.2804ms
+2024-10-18 08:23:43.7948 | INFO | Request finished HTTP/1.1 GET http://localhost:5149/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 15.2056ms
+2024-10-18 08:23:43.8701 | INFO | Request starting HTTP/1.1 GET http://localhost:5149/swagger/文件上传接口/swagger.json - -
+2024-10-18 08:23:43.8701 | INFO | Request finished HTTP/1.1 GET http://localhost:5149/swagger/文件上传接口/swagger.json - - - 200 - application/json;charset=utf-8 3.5839ms
+2024-10-18 08:23:58.1374 | INFO | Request starting HTTP/1.1 POST http://localhost:5149/api/UploadFile multipart/form-data;+boundary=----WebKitFormBoundaryAqNhf6GjwUTrt51D 25940595
+2024-10-18 08:23:58.1374 | INFO | CORS policy execution successful.
+2024-10-18 08:23:58.5850 | INFO | Executing endpoint 'webapi.net7.sqlsugar.Controllers.FileController.UploadFile (webapi.net7.sqlsugar)'
+2024-10-18 08:23:58.5850 | INFO | Route matched with {action = "UploadFile", controller = "File"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.JsonResult UploadFile(Microsoft.AspNetCore.Http.IFormCollection) on controller webapi.net7.sqlsugar.Controllers.FileController (webapi.net7.sqlsugar).
+2024-10-18 08:23:58.9697 | INFO | Executing action method webapi.net7.sqlsugar.Controllers.FileController.UploadFile (webapi.net7.sqlsugar) - Validation state: Valid
+2024-10-18 08:30:13.1963 | INFO | Executed action method webapi.net7.sqlsugar.Controllers.FileController.UploadFile (webapi.net7.sqlsugar), returned result Microsoft.AspNetCore.Mvc.JsonResult in 374225.4011ms.
+2024-10-18 08:30:13.1963 | INFO | Executing JsonResult, writing value of type '<>f__AnonymousType9`3[[System.Boolean, System.Private.CoreLib, Version=7.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=7.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=7.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2024-10-18 08:30:13.2280 | INFO | Executed action webapi.net7.sqlsugar.Controllers.FileController.UploadFile (webapi.net7.sqlsugar) in 374639.566ms
+2024-10-18 08:30:13.2280 | INFO | Executed endpoint 'webapi.net7.sqlsugar.Controllers.FileController.UploadFile (webapi.net7.sqlsugar)'
+2024-10-18 08:30:13.2641 | ERROR | An unhandled exception has occurred while executing the request.
+2024-10-18 08:30:13.2657 | WARN | The response has already started, the error page middleware will not be executed.
+2024-10-18 08:30:13.2657 | ERROR | Connection id "0HN7F16O5QT8F", Request id "0HN7F16O5QT8F:00000003": An unhandled exception was thrown by the application.
+2024-10-18 08:30:13.2657 | INFO | Request finished HTTP/1.1 POST http://localhost:5149/api/UploadFile multipart/form-data;+boundary=----WebKitFormBoundaryAqNhf6GjwUTrt51D 25940595 - 200 - application/json;+charset=utf-8 375135.2407ms
+2024-10-18 08:30:49.1563 | INFO | Request starting HTTP/1.1 POST http://localhost:5149/api/UploadFile multipart/form-data;+boundary=----WebKitFormBoundary7iAHVS1unVt5hYRB 25940595
+2024-10-18 08:30:49.1563 | INFO | CORS policy execution successful.
+2024-10-18 08:30:49.5072 | INFO | Executing endpoint 'webapi.net7.sqlsugar.Controllers.FileController.UploadFile (webapi.net7.sqlsugar)'
+2024-10-18 08:30:49.5072 | INFO | Route matched with {action = "UploadFile", controller = "File"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.JsonResult UploadFile(Microsoft.AspNetCore.Http.IFormCollection) on controller webapi.net7.sqlsugar.Controllers.FileController (webapi.net7.sqlsugar).
+2024-10-18 08:30:49.8384 | INFO | Executing action method webapi.net7.sqlsugar.Controllers.FileController.UploadFile (webapi.net7.sqlsugar) - Validation state: Valid
+2024-10-18 08:32:14.6608 | INFO | Executed action method webapi.net7.sqlsugar.Controllers.FileController.UploadFile (webapi.net7.sqlsugar), returned result Microsoft.AspNetCore.Mvc.JsonResult in 84821.8806ms.
+2024-10-18 08:32:14.6608 | INFO | Executing JsonResult, writing value of type '<>f__AnonymousType8`4[[System.Boolean, System.Private.CoreLib, Version=7.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=7.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=7.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=7.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2024-10-18 08:32:14.6721 | INFO | Executed action webapi.net7.sqlsugar.Controllers.FileController.UploadFile (webapi.net7.sqlsugar) in 85163.7824ms
+2024-10-18 08:32:14.6721 | INFO | Executed endpoint 'webapi.net7.sqlsugar.Controllers.FileController.UploadFile (webapi.net7.sqlsugar)'
+2024-10-18 08:32:14.7072 | ERROR | An unhandled exception has occurred while executing the request.
+2024-10-18 08:32:14.7072 | WARN | The response has already started, the error page middleware will not be executed.
+2024-10-18 08:32:14.7072 | ERROR | Connection id "0HN7F16O5QT8G", Request id "0HN7F16O5QT8G:00000001": An unhandled exception was thrown by the application.
+2024-10-18 08:32:14.7072 | INFO | Request finished HTTP/1.1 POST http://localhost:5149/api/UploadFile multipart/form-data;+boundary=----WebKitFormBoundary7iAHVS1unVt5hYRB 25940595 - 200 - application/json;+charset=utf-8 85554.5465ms
+2024-10-18 08:45:25.0858 | INFO | User profile is available. Using 'C:\Users\Administrator\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-10-18 08:45:25.1976 | INFO | Now listening on: http://localhost:5149
+2024-10-18 08:45:25.1976 | INFO | Application started. Press Ctrl+C to shut down.
+2024-10-18 08:45:25.1976 | INFO | Hosting environment: Development
+2024-10-18 08:45:25.1976 | INFO | Content root path: D:\BaiduSyncdisk\webapi.net7+sqlsugar\webapi.net7.sqlsugar\webapi.net7.sqlsugar
+2024-10-18 08:45:26.7087 | INFO | Request starting HTTP/1.1 GET http://localhost:5149/swagger/index.html - -
+2024-10-18 08:45:27.0284 | INFO | Request finished HTTP/1.1 GET http://localhost:5149/swagger/index.html - - - 200 - text/html;charset=utf-8 323.2379ms
+2024-10-18 08:45:27.0403 | INFO | Request starting HTTP/1.1 GET http://localhost:5149/_vs/browserLink - -
+2024-10-18 08:45:27.0403 | INFO | Request starting HTTP/1.1 GET http://localhost:5149/_framework/aspnetcore-browser-refresh.js - -
+2024-10-18 08:45:27.0403 | INFO | Request finished HTTP/1.1 GET http://localhost:5149/_framework/aspnetcore-browser-refresh.js - - - 200 13776 application/javascript;+charset=utf-8 2.7497ms
+2024-10-18 08:45:27.0882 | INFO | Request finished HTTP/1.1 GET http://localhost:5149/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 48.0181ms
+2024-10-18 08:45:27.2566 | INFO | Request starting HTTP/1.1 GET http://localhost:5149/swagger/东泽房源管理接口/swagger.json - -
+2024-10-18 08:45:27.5295 | INFO | Request finished HTTP/1.1 GET http://localhost:5149/swagger/东泽房源管理接口/swagger.json - - - 200 - application/json;charset=utf-8 273.0639ms
+2024-10-18 08:45:29.9926 | INFO | Request starting HTTP/1.1 GET http://localhost:5149/swagger/文件上传接口/swagger.json - -
+2024-10-18 08:45:30.0036 | INFO | Request finished HTTP/1.1 GET http://localhost:5149/swagger/文件上传接口/swagger.json - - - 200 - application/json;charset=utf-8 10.5593ms
+2024-10-18 09:17:49.9663 | INFO | User profile is available. Using 'C:\Users\Administrator\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-10-18 09:17:50.0795 | INFO | Now listening on: http://localhost:5149
+2024-10-18 09:17:50.0795 | INFO | Application started. Press Ctrl+C to shut down.
+2024-10-18 09:17:50.0795 | INFO | Hosting environment: Development
+2024-10-18 09:17:50.0795 | INFO | Content root path: D:\BaiduSyncdisk\webapi.net7+sqlsugar\webapi.net7.sqlsugar\webapi.net7.sqlsugar
+2024-10-18 09:17:51.2635 | INFO | Request starting HTTP/1.1 GET http://localhost:5149/swagger/index.html - -
+2024-10-18 09:17:51.6582 | INFO | Request finished HTTP/1.1 GET http://localhost:5149/swagger/index.html - - - 200 - text/html;charset=utf-8 396.0076ms
+2024-10-18 09:17:51.6582 | INFO | Request starting HTTP/1.1 GET http://localhost:5149/_vs/browserLink - -
+2024-10-18 09:17:51.6582 | INFO | Request starting HTTP/1.1 GET http://localhost:5149/_framework/aspnetcore-browser-refresh.js - -
+2024-10-18 09:17:51.6582 | INFO | Request finished HTTP/1.1 GET http://localhost:5149/_framework/aspnetcore-browser-refresh.js - - - 200 13776 application/javascript;+charset=utf-8 1.6937ms
+2024-10-18 09:17:51.7095 | INFO | Request finished HTTP/1.1 GET http://localhost:5149/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 46.6072ms
+2024-10-18 09:17:51.8013 | INFO | Request starting HTTP/1.1 GET http://localhost:5149/swagger/东泽房源管理接口/swagger.json - -
+2024-10-18 09:17:52.1349 | INFO | Request finished HTTP/1.1 GET http://localhost:5149/swagger/东泽房源管理接口/swagger.json - - - 200 - application/json;charset=utf-8 333.8506ms
+2024-10-18 09:18:37.8816 | INFO | Request starting HTTP/1.1 GET http://localhost:5149/swagger/文件上传接口/swagger.json - -
+2024-10-18 09:18:37.8912 | INFO | Request finished HTTP/1.1 GET http://localhost:5149/swagger/文件上传接口/swagger.json - - - 200 - application/json;charset=utf-8 4.3108ms
+2024-10-18 09:20:01.5328 | INFO | Request starting HTTP/1.1 GET http://localhost:5149/swagger/index.html?urls.primaryName=%E3%80%90%E6%96%87%E4%BB%B6%E4%B8%8A%E4%BC%A0%E6%8E%A5%E5%8F%A3%E3%80%91%E6%8E%A5%E5%8F%A3 - -
+2024-10-18 09:20:01.5501 | INFO | Request finished HTTP/1.1 GET http://localhost:5149/swagger/index.html?urls.primaryName=%E3%80%90%E6%96%87%E4%BB%B6%E4%B8%8A%E4%BC%A0%E6%8E%A5%E5%8F%A3%E3%80%91%E6%8E%A5%E5%8F%A3 - - - 200 - text/html;charset=utf-8 17.9644ms
+2024-10-18 09:20:01.5640 | INFO | Request starting HTTP/1.1 GET http://localhost:5149/_vs/browserLink - -
+2024-10-18 09:20:01.5640 | INFO | Request starting HTTP/1.1 GET http://localhost:5149/_framework/aspnetcore-browser-refresh.js - -
+2024-10-18 09:20:01.5640 | INFO | Request finished HTTP/1.1 GET http://localhost:5149/_framework/aspnetcore-browser-refresh.js - - - 200 13776 application/javascript;+charset=utf-8 1.1323ms
+2024-10-18 09:20:01.5854 | INFO | Request finished HTTP/1.1 GET http://localhost:5149/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 21.4888ms
+2024-10-18 09:20:01.7843 | INFO | Request starting HTTP/1.1 GET http://localhost:5149/swagger/文件上传接口/swagger.json - -
+2024-10-18 09:20:01.7843 | INFO | Request finished HTTP/1.1 GET http://localhost:5149/swagger/文件上传接口/swagger.json - - - 200 - application/json;charset=utf-8 2.0408ms
+2024-10-18 09:20:12.0687 | INFO | User profile is available. Using 'C:\Users\Administrator\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-10-18 09:20:12.1831 | INFO | Now listening on: http://localhost:5149
+2024-10-18 09:20:12.1831 | INFO | Application started. Press Ctrl+C to shut down.
+2024-10-18 09:20:12.1831 | INFO | Hosting environment: Development
+2024-10-18 09:20:12.1878 | INFO | Content root path: D:\BaiduSyncdisk\webapi.net7+sqlsugar\webapi.net7.sqlsugar\webapi.net7.sqlsugar
+2024-10-18 09:20:13.2489 | INFO | Request starting HTTP/1.1 GET http://localhost:5149/swagger/index.html - -
+2024-10-18 09:20:13.6515 | INFO | Request finished HTTP/1.1 GET http://localhost:5149/swagger/index.html - - - 200 - text/html;charset=utf-8 408.0943ms
+2024-10-18 09:20:13.6612 | INFO | Request starting HTTP/1.1 GET http://localhost:5149/_vs/browserLink - -
+2024-10-18 09:20:13.6612 | INFO | Request starting HTTP/1.1 GET http://localhost:5149/_framework/aspnetcore-browser-refresh.js - -
+2024-10-18 09:20:13.6612 | INFO | Request finished HTTP/1.1 GET http://localhost:5149/_framework/aspnetcore-browser-refresh.js - - - 200 13776 application/javascript;+charset=utf-8 3.1056ms
+2024-10-18 09:20:13.7061 | INFO | Request finished HTTP/1.1 GET http://localhost:5149/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 45.0380ms
+2024-10-18 09:20:13.7930 | INFO | Request starting HTTP/1.1 GET http://localhost:5149/swagger/东泽房源管理接口/swagger.json - -
+2024-10-18 09:20:14.1090 | INFO | Request finished HTTP/1.1 GET http://localhost:5149/swagger/东泽房源管理接口/swagger.json - - - 200 - application/json;charset=utf-8 316.1469ms
+2024-10-18 09:20:17.4001 | INFO | Request starting HTTP/1.1 GET http://localhost:5149/swagger/文件上传接口/swagger.json - -
+2024-10-18 09:20:17.4001 | INFO | Request finished HTTP/1.1 GET http://localhost:5149/swagger/文件上传接口/swagger.json - - - 200 - application/json;charset=utf-8 5.0850ms
+2024-10-18 09:20:38.9076 | INFO | Request starting HTTP/1.1 POST http://localhost:5149/api/UploadFile multipart/form-data;+boundary=----WebKitFormBoundaryB2D4Cb3MsRGIyqHk 61203
+2024-10-18 09:20:38.9225 | WARN | Failed to determine the https port for redirect.
+2024-10-18 09:20:38.9691 | INFO | CORS policy execution successful.
+2024-10-18 09:20:39.0321 | INFO | Executing endpoint 'webapi.net7.sqlsugar.Controllers.FileController.UploadFile (webapi.net7.sqlsugar)'
+2024-10-18 09:20:39.0531 | INFO | Route matched with {action = "UploadFile", controller = "File"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.JsonResult UploadFile(Microsoft.AspNetCore.Http.IFormCollection, webapi.net7.sqlsugar.Model.WmsFile) on controller webapi.net7.sqlsugar.Controllers.FileController (webapi.net7.sqlsugar).
+2024-10-18 09:20:39.2351 | INFO | Executing ObjectResult, writing value of type 'Microsoft.AspNetCore.Mvc.ProblemDetails'.
+2024-10-18 09:20:39.2351 | INFO | Executed action webapi.net7.sqlsugar.Controllers.FileController.UploadFile (webapi.net7.sqlsugar) in 186.1783ms
+2024-10-18 09:20:39.2351 | INFO | Executed endpoint 'webapi.net7.sqlsugar.Controllers.FileController.UploadFile (webapi.net7.sqlsugar)'
+2024-10-18 09:20:39.4064 | ERROR | An unhandled exception has occurred while executing the request.
+2024-10-18 09:20:39.4078 | WARN | The response has already started, the error page middleware will not be executed.
+2024-10-18 09:20:39.4078 | ERROR | Connection id "0HN7F2C1P6738", Request id "0HN7F2C1P6738:00000002": An unhandled exception was thrown by the application.
+2024-10-18 09:20:39.4078 | INFO | Request finished HTTP/1.1 POST http://localhost:5149/api/UploadFile multipart/form-data;+boundary=----WebKitFormBoundaryB2D4Cb3MsRGIyqHk 61203 - 415 - application/problem+json;+charset=utf-8 510.2374ms
+2024-10-18 09:25:55.0639 | INFO | User profile is available. Using 'C:\Users\Administrator\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-10-18 09:25:55.1862 | INFO | Now listening on: http://localhost:5149
+2024-10-18 09:25:55.1891 | INFO | Application started. Press Ctrl+C to shut down.
+2024-10-18 09:25:55.1891 | INFO | Hosting environment: Development
+2024-10-18 09:25:55.1891 | INFO | Content root path: D:\BaiduSyncdisk\webapi.net7+sqlsugar\webapi.net7.sqlsugar\webapi.net7.sqlsugar
+2024-10-18 09:25:56.1526 | INFO | Request starting HTTP/1.1 GET http://localhost:5149/swagger/index.html - -
+2024-10-18 09:25:56.5698 | INFO | Request finished HTTP/1.1 GET http://localhost:5149/swagger/index.html - - - 200 - text/html;charset=utf-8 421.3090ms
+2024-10-18 09:25:56.5698 | INFO | Request starting HTTP/1.1 GET http://localhost:5149/_framework/aspnetcore-browser-refresh.js - -
+2024-10-18 09:25:56.5698 | INFO | Request starting HTTP/1.1 GET http://localhost:5149/_vs/browserLink - -
+2024-10-18 09:25:56.5793 | INFO | Request finished HTTP/1.1 GET http://localhost:5149/_framework/aspnetcore-browser-refresh.js - - - 200 13776 application/javascript;+charset=utf-8 3.0977ms
+2024-10-18 09:25:56.6254 | INFO | Request finished HTTP/1.1 GET http://localhost:5149/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 47.3325ms
+2024-10-18 09:25:56.7082 | INFO | Request starting HTTP/1.1 GET http://localhost:5149/swagger/东泽房源管理接口/swagger.json - -
+2024-10-18 09:25:57.0026 | INFO | Request finished HTTP/1.1 GET http://localhost:5149/swagger/东泽房源管理接口/swagger.json - - - 200 - application/json;charset=utf-8 294.5081ms
+2024-10-18 09:25:59.3863 | INFO | Request starting HTTP/1.1 GET http://localhost:5149/swagger/文件上传接口/swagger.json - -
+2024-10-18 09:25:59.3979 | INFO | Request finished HTTP/1.1 GET http://localhost:5149/swagger/文件上传接口/swagger.json - - - 200 - application/json;charset=utf-8 11.1240ms
+2024-10-18 09:26:07.6930 | INFO | Request starting HTTP/1.1 POST http://localhost:5149/api/UploadFile multipart/form-data;+boundary=----WebKitFormBoundary4LDt1J6pm6y4l5sP 32050
+2024-10-18 09:26:07.7064 | WARN | Failed to determine the https port for redirect.
+2024-10-18 09:26:07.7525 | INFO | CORS policy execution successful.
+2024-10-18 09:26:07.8134 | INFO | Executing endpoint 'webapi.net7.sqlsugar.Controllers.FileController.UploadFile (webapi.net7.sqlsugar)'
+2024-10-18 09:26:07.8299 | INFO | Route matched with {action = "UploadFile", controller = "File"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.JsonResult UploadFile(Microsoft.AspNetCore.Http.IFormCollection, webapi.net7.sqlsugar.Model.WmsFile) on controller webapi.net7.sqlsugar.Controllers.FileController (webapi.net7.sqlsugar).
+2024-10-18 09:26:07.9697 | INFO | Executing ObjectResult, writing value of type 'Microsoft.AspNetCore.Mvc.ProblemDetails'.
+2024-10-18 09:26:07.9697 | INFO | Executed action webapi.net7.sqlsugar.Controllers.FileController.UploadFile (webapi.net7.sqlsugar) in 148.8865ms
+2024-10-18 09:26:07.9697 | INFO | Executed endpoint 'webapi.net7.sqlsugar.Controllers.FileController.UploadFile (webapi.net7.sqlsugar)'
+2024-10-18 09:26:08.1465 | ERROR | An unhandled exception has occurred while executing the request.
+2024-10-18 09:26:08.1465 | WARN | The response has already started, the error page middleware will not be executed.
+2024-10-18 09:26:08.1580 | ERROR | Connection id "0HN7F2F814C81", Request id "0HN7F2F814C81:00000001": An unhandled exception was thrown by the application.
+2024-10-18 09:26:08.1580 | INFO | Request finished HTTP/1.1 POST http://localhost:5149/api/UploadFile multipart/form-data;+boundary=----WebKitFormBoundary4LDt1J6pm6y4l5sP 32050 - 415 - application/problem+json;+charset=utf-8 464.6971ms
+2024-10-18 09:27:07.1895 | INFO | Request starting HTTP/1.1 POST http://localhost:5149/api/UploadFile multipart/form-data;+boundary=----WebKitFormBoundarynqAywbOcNfzlhW9Y 1013
+2024-10-18 09:27:07.1895 | INFO | CORS policy execution successful.
+2024-10-18 09:27:07.1895 | INFO | Executing endpoint 'webapi.net7.sqlsugar.Controllers.FileController.UploadFile (webapi.net7.sqlsugar)'
+2024-10-18 09:27:07.1895 | INFO | Route matched with {action = "UploadFile", controller = "File"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.JsonResult UploadFile(Microsoft.AspNetCore.Http.IFormCollection, webapi.net7.sqlsugar.Model.WmsFile) on controller webapi.net7.sqlsugar.Controllers.FileController (webapi.net7.sqlsugar).
+2024-10-18 09:27:07.2060 | INFO | Executing ObjectResult, writing value of type 'Microsoft.AspNetCore.Mvc.ProblemDetails'.
+2024-10-18 09:27:07.2060 | INFO | Executed action webapi.net7.sqlsugar.Controllers.FileController.UploadFile (webapi.net7.sqlsugar) in 4.4884ms
+2024-10-18 09:27:07.2060 | INFO | Executed endpoint 'webapi.net7.sqlsugar.Controllers.FileController.UploadFile (webapi.net7.sqlsugar)'
+2024-10-18 09:27:07.2252 | ERROR | An unhandled exception has occurred while executing the request.
+2024-10-18 09:27:07.2252 | WARN | The response has already started, the error page middleware will not be executed.
+2024-10-18 09:27:07.2252 | ERROR | Connection id "0HN7F2F814C82", Request id "0HN7F2F814C82:00000001": An unhandled exception was thrown by the application.
+2024-10-18 09:27:07.2252 | INFO | Request finished HTTP/1.1 POST http://localhost:5149/api/UploadFile multipart/form-data;+boundary=----WebKitFormBoundarynqAywbOcNfzlhW9Y 1013 - 415 - application/problem+json;+charset=utf-8 35.2523ms
+2024-10-18 09:27:14.7648 | INFO | Request starting HTTP/1.1 POST http://localhost:5149/api/UploadFile multipart/form-data;+boundary=----WebKitFormBoundaryoKDDcp1XfVuQ4Gnd 32050
+2024-10-18 09:27:14.7669 | INFO | CORS policy execution successful.
+2024-10-18 09:27:14.7669 | INFO | Executing endpoint 'webapi.net7.sqlsugar.Controllers.FileController.UploadFile (webapi.net7.sqlsugar)'
+2024-10-18 09:27:14.7669 | INFO | Route matched with {action = "UploadFile", controller = "File"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.JsonResult UploadFile(Microsoft.AspNetCore.Http.IFormCollection, webapi.net7.sqlsugar.Model.WmsFile) on controller webapi.net7.sqlsugar.Controllers.FileController (webapi.net7.sqlsugar).
+2024-10-18 09:27:14.7669 | INFO | Executing ObjectResult, writing value of type 'Microsoft.AspNetCore.Mvc.ProblemDetails'.
+2024-10-18 09:27:14.7669 | INFO | Executed action webapi.net7.sqlsugar.Controllers.FileController.UploadFile (webapi.net7.sqlsugar) in 6.198ms
+2024-10-18 09:27:14.7669 | INFO | Executed endpoint 'webapi.net7.sqlsugar.Controllers.FileController.UploadFile (webapi.net7.sqlsugar)'
+2024-10-18 09:27:14.7669 | ERROR | An unhandled exception has occurred while executing the request.
+2024-10-18 09:27:14.7830 | WARN | The response has already started, the error page middleware will not be executed.
+2024-10-18 09:27:14.7830 | ERROR | Connection id "0HN7F2F814C83", Request id "0HN7F2F814C83:00000001": An unhandled exception was thrown by the application.
+2024-10-18 09:27:14.7830 | INFO | Request finished HTTP/1.1 POST http://localhost:5149/api/UploadFile multipart/form-data;+boundary=----WebKitFormBoundaryoKDDcp1XfVuQ4Gnd 32050 - 415 - application/problem+json;+charset=utf-8 21.9803ms
+2024-10-18 09:27:27.8809 | INFO | Request starting HTTP/1.1 GET http://localhost:5149/swagger/index.html?urls.primaryName=%E3%80%90%E6%96%87%E4%BB%B6%E4%B8%8A%E4%BC%A0%E6%8E%A5%E5%8F%A3%E3%80%91%E6%8E%A5%E5%8F%A3 - -
+2024-10-18 09:27:27.8943 | INFO | Request finished HTTP/1.1 GET http://localhost:5149/swagger/index.html?urls.primaryName=%E3%80%90%E6%96%87%E4%BB%B6%E4%B8%8A%E4%BC%A0%E6%8E%A5%E5%8F%A3%E3%80%91%E6%8E%A5%E5%8F%A3 - - - 200 - text/html;charset=utf-8 13.0051ms
+2024-10-18 09:27:27.9094 | INFO | Request starting HTTP/1.1 GET http://localhost:5149/_vs/browserLink - -
+2024-10-18 09:27:27.9094 | INFO | Request starting HTTP/1.1 GET http://localhost:5149/_framework/aspnetcore-browser-refresh.js - -
+2024-10-18 09:27:27.9094 | INFO | Request finished HTTP/1.1 GET http://localhost:5149/_framework/aspnetcore-browser-refresh.js - - - 200 13776 application/javascript;+charset=utf-8 1.0858ms
+2024-10-18 09:27:27.9285 | INFO | Request finished HTTP/1.1 GET http://localhost:5149/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 19.1990ms
+2024-10-18 09:27:28.0041 | INFO | Request starting HTTP/1.1 GET http://localhost:5149/swagger/文件上传接口/swagger.json - -
+2024-10-18 09:27:28.0041 | INFO | Request finished HTTP/1.1 GET http://localhost:5149/swagger/文件上传接口/swagger.json - - - 200 - application/json;charset=utf-8 2.5648ms
+2024-10-18 09:27:39.0129 | INFO | User profile is available. Using 'C:\Users\Administrator\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-10-18 09:27:39.1305 | INFO | Now listening on: http://localhost:5149
+2024-10-18 09:27:39.1305 | INFO | Application started. Press Ctrl+C to shut down.
+2024-10-18 09:27:39.1305 | INFO | Hosting environment: Development
+2024-10-18 09:27:39.1305 | INFO | Content root path: D:\BaiduSyncdisk\webapi.net7+sqlsugar\webapi.net7.sqlsugar\webapi.net7.sqlsugar
+2024-10-18 09:27:39.9866 | INFO | Request starting HTTP/1.1 GET http://localhost:5149/swagger/index.html - -
+2024-10-18 09:27:40.4253 | INFO | Request finished HTTP/1.1 GET http://localhost:5149/swagger/index.html - - - 200 - text/html;charset=utf-8 443.7828ms
+2024-10-18 09:27:40.4253 | INFO | Request starting HTTP/1.1 GET http://localhost:5149/_framework/aspnetcore-browser-refresh.js - -
+2024-10-18 09:27:40.4253 | INFO | Request starting HTTP/1.1 GET http://localhost:5149/_vs/browserLink - -
+2024-10-18 09:27:40.4253 | INFO | Request finished HTTP/1.1 GET http://localhost:5149/_framework/aspnetcore-browser-refresh.js - - - 200 13776 application/javascript;+charset=utf-8 2.6224ms
+2024-10-18 09:27:40.4810 | INFO | Request finished HTTP/1.1 GET http://localhost:5149/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 46.5606ms
+2024-10-18 09:27:40.5912 | INFO | Request starting HTTP/1.1 GET http://localhost:5149/swagger/东泽房源管理接口/swagger.json - -
+2024-10-18 09:27:40.9200 | INFO | Request finished HTTP/1.1 GET http://localhost:5149/swagger/东泽房源管理接口/swagger.json - - - 200 - application/json;charset=utf-8 329.0191ms
+2024-10-18 09:27:42.6065 | INFO | Request starting HTTP/1.1 GET http://localhost:5149/swagger/文件上传接口/swagger.json - -
+2024-10-18 09:27:42.6159 | INFO | Request finished HTTP/1.1 GET http://localhost:5149/swagger/文件上传接口/swagger.json - - - 200 - application/json;charset=utf-8 9.6169ms
+2024-10-18 09:27:48.7478 | INFO | Request starting HTTP/1.1 POST http://localhost:5149/api/UploadFile multipart/form-data;+boundary=----WebKitFormBoundary7pH96Z10Xuo5DAvR 32050
+2024-10-18 09:27:48.7505 | WARN | Failed to determine the https port for redirect.
+2024-10-18 09:27:48.8058 | INFO | CORS policy execution successful.
+2024-10-18 09:27:48.8663 | INFO | Executing endpoint 'webapi.net7.sqlsugar.Controllers.FileController.UploadFile (webapi.net7.sqlsugar)'
+2024-10-18 09:27:48.8867 | INFO | Route matched with {action = "UploadFile", controller = "File"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.JsonResult UploadFile(Microsoft.AspNetCore.Http.IFormCollection) on controller webapi.net7.sqlsugar.Controllers.FileController (webapi.net7.sqlsugar).
+2024-10-18 09:27:49.0190 | INFO | Executing action method webapi.net7.sqlsugar.Controllers.FileController.UploadFile (webapi.net7.sqlsugar) - Validation state: Valid
+2024-10-18 09:28:24.0972 | INFO | Executed action method webapi.net7.sqlsugar.Controllers.FileController.UploadFile (webapi.net7.sqlsugar), returned result Microsoft.AspNetCore.Mvc.JsonResult in 35072.0438ms.
+2024-10-18 09:28:24.0972 | INFO | Executing JsonResult, writing value of type '<>f__AnonymousType8`4[[System.Boolean, System.Private.CoreLib, Version=7.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=7.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=7.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=7.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2024-10-18 09:28:24.1266 | INFO | Executed action webapi.net7.sqlsugar.Controllers.FileController.UploadFile (webapi.net7.sqlsugar) in 35240.1296ms
+2024-10-18 09:28:24.1266 | INFO | Executed endpoint 'webapi.net7.sqlsugar.Controllers.FileController.UploadFile (webapi.net7.sqlsugar)'
+2024-10-18 09:28:24.3040 | ERROR | An unhandled exception has occurred while executing the request.
+2024-10-18 09:28:24.3040 | WARN | The response has already started, the error page middleware will not be executed.
+2024-10-18 09:28:24.3146 | ERROR | Connection id "0HN7F2G6UEAI3", Request id "0HN7F2G6UEAI3:00000001": An unhandled exception was thrown by the application.
+2024-10-18 09:28:24.3146 | INFO | Request finished HTTP/1.1 POST http://localhost:5149/api/UploadFile multipart/form-data;+boundary=----WebKitFormBoundary7pH96Z10Xuo5DAvR 32050 - 200 - application/json;+charset=utf-8 35566.5454ms
+2024-10-18 09:31:25.9705 | INFO | Request starting HTTP/1.1 POST http://localhost:5149/api/UploadFile multipart/form-data;+boundary=----WebKitFormBoundaryAHkY7zzRykjnkXQq 61203
+2024-10-18 09:31:25.9705 | INFO | CORS policy execution successful.
+2024-10-18 09:31:25.9860 | INFO | Executing endpoint 'webapi.net7.sqlsugar.Controllers.FileController.UploadFile (webapi.net7.sqlsugar)'
+2024-10-18 09:31:25.9860 | INFO | Route matched with {action = "UploadFile", controller = "File"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.JsonResult UploadFile(Microsoft.AspNetCore.Http.IFormCollection) on controller webapi.net7.sqlsugar.Controllers.FileController (webapi.net7.sqlsugar).
+2024-10-18 09:31:25.9860 | INFO | Executing action method webapi.net7.sqlsugar.Controllers.FileController.UploadFile (webapi.net7.sqlsugar) - Validation state: Valid
+2024-10-18 09:33:26.8504 | INFO | Executed action method webapi.net7.sqlsugar.Controllers.FileController.UploadFile (webapi.net7.sqlsugar), returned result Microsoft.AspNetCore.Mvc.JsonResult in 120856.1505ms.
+2024-10-18 09:33:26.8504 | INFO | Executing JsonResult, writing value of type '<>f__AnonymousType8`4[[System.Boolean, System.Private.CoreLib, Version=7.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=7.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=7.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=7.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2024-10-18 09:33:26.8637 | INFO | Executed action webapi.net7.sqlsugar.Controllers.FileController.UploadFile (webapi.net7.sqlsugar) in 120877.5883ms
+2024-10-18 09:33:26.8637 | INFO | Executed endpoint 'webapi.net7.sqlsugar.Controllers.FileController.UploadFile (webapi.net7.sqlsugar)'
+2024-10-18 09:33:26.8637 | ERROR | An unhandled exception has occurred while executing the request.
+2024-10-18 09:33:26.8753 | WARN | The response has already started, the error page middleware will not be executed.
+2024-10-18 09:33:26.8753 | ERROR | Connection id "0HN7F2G6UEAI4", Request id "0HN7F2G6UEAI4:00000001": An unhandled exception was thrown by the application.
+2024-10-18 09:33:26.8753 | INFO | Request finished HTTP/1.1 POST http://localhost:5149/api/UploadFile multipart/form-data;+boundary=----WebKitFormBoundaryAHkY7zzRykjnkXQq 61203 - 200 - application/json;+charset=utf-8 120912.1220ms
+2024-10-18 09:41:48.0188 | INFO | User profile is available. Using 'C:\Users\Administrator\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-10-18 09:41:48.1426 | INFO | Now listening on: http://localhost:5149
+2024-10-18 09:41:48.1426 | INFO | Application started. Press Ctrl+C to shut down.
+2024-10-18 09:41:48.1426 | INFO | Hosting environment: Development
+2024-10-18 09:41:48.1426 | INFO | Content root path: D:\BaiduSyncdisk\webapi.net7+sqlsugar\webapi.net7.sqlsugar\webapi.net7.sqlsugar
+2024-10-18 09:41:49.1677 | INFO | Request starting HTTP/1.1 GET http://localhost:5149/swagger/index.html - -
+2024-10-18 09:41:49.6105 | INFO | Request finished HTTP/1.1 GET http://localhost:5149/swagger/index.html - - - 200 - text/html;charset=utf-8 443.9858ms
+2024-10-18 09:41:49.6105 | INFO | Request starting HTTP/1.1 GET http://localhost:5149/_framework/aspnetcore-browser-refresh.js - -
+2024-10-18 09:41:49.6105 | INFO | Request starting HTTP/1.1 GET http://localhost:5149/_vs/browserLink - -
+2024-10-18 09:41:49.6105 | INFO | Request finished HTTP/1.1 GET http://localhost:5149/_framework/aspnetcore-browser-refresh.js - - - 200 13776 application/javascript;+charset=utf-8 2.7998ms
+2024-10-18 09:41:49.6656 | INFO | Request finished HTTP/1.1 GET http://localhost:5149/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 48.3215ms
+2024-10-18 09:41:49.7683 | INFO | Request starting HTTP/1.1 GET http://localhost:5149/swagger/东泽房源管理接口/swagger.json - -
+2024-10-18 09:41:50.1184 | INFO | Request finished HTTP/1.1 GET http://localhost:5149/swagger/东泽房源管理接口/swagger.json - - - 200 - application/json;charset=utf-8 350.2736ms
+2024-10-18 09:41:52.0073 | INFO | Request starting HTTP/1.1 GET http://localhost:5149/swagger/文件上传接口/swagger.json - -
+2024-10-18 09:41:52.0073 | INFO | Request finished HTTP/1.1 GET http://localhost:5149/swagger/文件上传接口/swagger.json - - - 200 - application/json;charset=utf-8 7.1740ms
+2024-10-18 09:43:00.6272 | INFO | User profile is available. Using 'C:\Users\Administrator\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-10-18 09:43:00.7513 | INFO | Now listening on: http://localhost:5149
+2024-10-18 09:43:00.7513 | INFO | Application started. Press Ctrl+C to shut down.
+2024-10-18 09:43:00.7513 | INFO | Hosting environment: Development
+2024-10-18 09:43:00.7513 | INFO | Content root path: D:\BaiduSyncdisk\webapi.net7+sqlsugar\webapi.net7.sqlsugar\webapi.net7.sqlsugar
+2024-10-18 09:43:02.1029 | INFO | Request starting HTTP/1.1 GET http://localhost:5149/swagger/index.html - -
+2024-10-18 09:43:02.5346 | INFO | Request finished HTTP/1.1 GET http://localhost:5149/swagger/index.html - - - 200 - text/html;charset=utf-8 433.7977ms
+2024-10-18 09:43:02.5346 | INFO | Request starting HTTP/1.1 GET http://localhost:5149/_vs/browserLink - -
+2024-10-18 09:43:02.5346 | INFO | Request starting HTTP/1.1 GET http://localhost:5149/_framework/aspnetcore-browser-refresh.js - -
+2024-10-18 09:43:02.5346 | INFO | Request finished HTTP/1.1 GET http://localhost:5149/_framework/aspnetcore-browser-refresh.js - - - 200 13776 application/javascript;+charset=utf-8 4.4295ms
+2024-10-18 09:43:02.5893 | INFO | Request finished HTTP/1.1 GET http://localhost:5149/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 48.4515ms
+2024-10-18 09:43:02.6850 | INFO | Request starting HTTP/1.1 GET http://localhost:5149/swagger/东泽房源管理接口/swagger.json - -
+2024-10-18 09:43:02.9801 | INFO | Request finished HTTP/1.1 GET http://localhost:5149/swagger/东泽房源管理接口/swagger.json - - - 200 - application/json;charset=utf-8 295.3447ms
+2024-10-18 09:43:04.6154 | INFO | Request starting HTTP/1.1 GET http://localhost:5149/swagger/文件上传接口/swagger.json - -
+2024-10-18 09:43:04.6154 | INFO | Request finished HTTP/1.1 GET http://localhost:5149/swagger/文件上传接口/swagger.json - - - 200 - application/json;charset=utf-8 3.7647ms
+2024-10-18 09:43:16.9244 | INFO | Request starting HTTP/1.1 POST http://localhost:5149/api/UploadFile multipart/form-data;+boundary=----WebKitFormBoundaryhIePHOGeXkdVMpB1 32050
+2024-10-18 09:43:16.9379 | WARN | Failed to determine the https port for redirect.
+2024-10-18 09:43:16.9862 | INFO | CORS policy execution successful.
+2024-10-18 09:43:17.0480 | INFO | Executing endpoint 'webapi.net7.sqlsugar.Controllers.FileController.UploadFile (webapi.net7.sqlsugar)'
+2024-10-18 09:43:17.0668 | INFO | Route matched with {action = "UploadFile", controller = "File"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.JsonResult UploadFile(Microsoft.AspNetCore.Http.IFormCollection, webapi.net7.sqlsugar.Model.WmsFile) on controller webapi.net7.sqlsugar.Controllers.FileController (webapi.net7.sqlsugar).
+2024-10-18 09:43:17.2194 | INFO | Executing ObjectResult, writing value of type 'Microsoft.AspNetCore.Mvc.ProblemDetails'.
+2024-10-18 09:43:17.2194 | INFO | Executed action webapi.net7.sqlsugar.Controllers.FileController.UploadFile (webapi.net7.sqlsugar) in 157.6453ms
+2024-10-18 09:43:17.2194 | INFO | Executed endpoint 'webapi.net7.sqlsugar.Controllers.FileController.UploadFile (webapi.net7.sqlsugar)'
+2024-10-18 09:43:17.4064 | ERROR | An unhandled exception has occurred while executing the request.
+2024-10-18 09:43:17.4082 | WARN | The response has already started, the error page middleware will not be executed.
+2024-10-18 09:43:17.4082 | ERROR | Connection id "0HN7F2OPN87R6", Request id "0HN7F2OPN87R6:00000001": An unhandled exception was thrown by the application.
+2024-10-18 09:43:17.4082 | INFO | Request finished HTTP/1.1 POST http://localhost:5149/api/UploadFile multipart/form-data;+boundary=----WebKitFormBoundaryhIePHOGeXkdVMpB1 32050 - 415 - application/problem+json;+charset=utf-8 494.6530ms
+2024-10-18 09:43:53.5015 | INFO | Request starting HTTP/1.1 POST http://localhost:5149/api/UploadFile multipart/form-data;+boundary=----WebKitFormBoundary9MufpaIO2jruCwyT 32050
+2024-10-18 09:43:53.5015 | INFO | CORS policy execution successful.
+2024-10-18 09:43:53.5015 | INFO | Executing endpoint 'webapi.net7.sqlsugar.Controllers.FileController.UploadFile (webapi.net7.sqlsugar)'
+2024-10-18 09:43:53.5015 | INFO | Route matched with {action = "UploadFile", controller = "File"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.JsonResult UploadFile(Microsoft.AspNetCore.Http.IFormCollection, webapi.net7.sqlsugar.Model.WmsFile) on controller webapi.net7.sqlsugar.Controllers.FileController (webapi.net7.sqlsugar).
+2024-10-18 09:43:53.5196 | INFO | Executing ObjectResult, writing value of type 'Microsoft.AspNetCore.Mvc.ProblemDetails'.
+2024-10-18 09:43:53.5196 | INFO | Executed action webapi.net7.sqlsugar.Controllers.FileController.UploadFile (webapi.net7.sqlsugar) in 11.3867ms
+2024-10-18 09:43:53.5196 | INFO | Executed endpoint 'webapi.net7.sqlsugar.Controllers.FileController.UploadFile (webapi.net7.sqlsugar)'
+2024-10-18 09:43:53.5351 | ERROR | An unhandled exception has occurred while executing the request.
+2024-10-18 09:43:53.5351 | WARN | The response has already started, the error page middleware will not be executed.
+2024-10-18 09:43:53.5351 | ERROR | Connection id "0HN7F2OPN87R7", Request id "0HN7F2OPN87R7:00000001": An unhandled exception was thrown by the application.
+2024-10-18 09:43:53.5351 | INFO | Request finished HTTP/1.1 POST http://localhost:5149/api/UploadFile multipart/form-data;+boundary=----WebKitFormBoundary9MufpaIO2jruCwyT 32050 - 415 - application/problem+json;+charset=utf-8 39.2020ms
+2024-10-18 09:50:10.2570 | INFO | User profile is available. Using 'C:\Users\Administrator\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-10-18 09:50:10.4327 | INFO | Now listening on: http://localhost:5149
+2024-10-18 09:50:10.4327 | INFO | Application started. Press Ctrl+C to shut down.
+2024-10-18 09:50:10.4327 | INFO | Hosting environment: Development
+2024-10-18 09:50:10.4327 | INFO | Content root path: D:\BaiduSyncdisk\webapi.net7+sqlsugar\webapi.net7.sqlsugar\webapi.net7.sqlsugar
+2024-10-18 09:50:11.8216 | INFO | Request starting HTTP/1.1 GET http://localhost:5149/swagger/index.html - -
+2024-10-18 09:50:12.1954 | INFO | Request finished HTTP/1.1 GET http://localhost:5149/swagger/index.html - - - 200 - text/html;charset=utf-8 377.2310ms
+2024-10-18 09:50:12.2060 | INFO | Request starting HTTP/1.1 GET http://localhost:5149/_vs/browserLink - -
+2024-10-18 09:50:12.2060 | INFO | Request starting HTTP/1.1 GET http://localhost:5149/_framework/aspnetcore-browser-refresh.js - -
+2024-10-18 09:50:12.2060 | INFO | Request finished HTTP/1.1 GET http://localhost:5149/_framework/aspnetcore-browser-refresh.js - - - 200 13776 application/javascript;+charset=utf-8 3.7803ms
+2024-10-18 09:50:12.2554 | INFO | Request finished HTTP/1.1 GET http://localhost:5149/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 49.4455ms
+2024-10-18 09:50:12.3486 | INFO | Request starting HTTP/1.1 GET http://localhost:5149/swagger/东泽房源管理接口/swagger.json - -
+2024-10-18 09:50:12.6380 | INFO | Request finished HTTP/1.1 GET http://localhost:5149/swagger/东泽房源管理接口/swagger.json - - - 200 - application/json;charset=utf-8 289.5657ms
+2024-10-18 09:50:14.9594 | INFO | Request starting HTTP/1.1 GET http://localhost:5149/swagger/文件上传接口/swagger.json - -
+2024-10-18 09:50:14.9755 | INFO | Request finished HTTP/1.1 GET http://localhost:5149/swagger/文件上传接口/swagger.json - - - 200 - application/json;charset=utf-8 15.7831ms
+2024-10-18 09:50:39.6103 | INFO | Request starting HTTP/1.1 POST http://localhost:5149/api/UploadFile?ccode=123456&vouchType=test&maker=ssgw multipart/form-data;+boundary=----WebKitFormBoundary9GcNYDgN9fioW2WW 32050
+2024-10-18 09:50:39.6103 | WARN | Failed to determine the https port for redirect.
+2024-10-18 09:50:39.6684 | INFO | CORS policy execution successful.
+2024-10-18 09:50:39.7359 | INFO | Executing endpoint 'webapi.net7.sqlsugar.Controllers.FileController.UploadFile (webapi.net7.sqlsugar)'
+2024-10-18 09:50:39.7518 | INFO | Route matched with {action = "UploadFile", controller = "File"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.JsonResult UploadFile(Microsoft.AspNetCore.Http.IFormCollection, System.String, System.String, System.String) on controller webapi.net7.sqlsugar.Controllers.FileController (webapi.net7.sqlsugar).
+2024-10-18 09:50:39.8931 | INFO | Executing action method webapi.net7.sqlsugar.Controllers.FileController.UploadFile (webapi.net7.sqlsugar) - Validation state: Valid
+2024-10-18 09:50:39.9242 | INFO | Executed action method webapi.net7.sqlsugar.Controllers.FileController.UploadFile (webapi.net7.sqlsugar), returned result Microsoft.AspNetCore.Mvc.JsonResult in 22.4784ms.
+2024-10-18 09:50:39.9242 | INFO | Executing JsonResult, writing value of type '<>f__AnonymousType8`4[[System.Boolean, System.Private.CoreLib, Version=7.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=7.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=7.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=7.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2024-10-18 09:50:39.9242 | INFO | Executed action webapi.net7.sqlsugar.Controllers.FileController.UploadFile (webapi.net7.sqlsugar) in 180.7404ms
+2024-10-18 09:50:39.9242 | INFO | Executed endpoint 'webapi.net7.sqlsugar.Controllers.FileController.UploadFile (webapi.net7.sqlsugar)'
+2024-10-18 09:50:40.0926 | ERROR | An unhandled exception has occurred while executing the request.
+2024-10-18 09:50:40.0926 | WARN | The response has already started, the error page middleware will not be executed.
+2024-10-18 09:50:40.1042 | ERROR | Connection id "0HN7F2SPO40GU", Request id "0HN7F2SPO40GU:00000002": An unhandled exception was thrown by the application.
+2024-10-18 09:50:40.1042 | INFO | Request finished HTTP/1.1 POST http://localhost:5149/api/UploadFile?ccode=123456&vouchType=test&maker=ssgw multipart/form-data;+boundary=----WebKitFormBoundary9GcNYDgN9fioW2WW 32050 - 200 - application/json;+charset=utf-8 494.7694ms
+2024-10-18 09:51:33.1570 | INFO | Request starting HTTP/1.1 POST http://localhost:5149/api/UploadFile?ccode=123456&vouchType=test&maker=ssgw multipart/form-data;+boundary=----WebKitFormBoundary3Y3aKjgtzJYCBUhT 32050
+2024-10-18 09:51:33.1570 | INFO | CORS policy execution successful.
+2024-10-18 09:51:33.1570 | INFO | Executing endpoint 'webapi.net7.sqlsugar.Controllers.FileController.UploadFile (webapi.net7.sqlsugar)'
+2024-10-18 09:51:33.1570 | INFO | Route matched with {action = "UploadFile", controller = "File"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.JsonResult UploadFile(Microsoft.AspNetCore.Http.IFormCollection, System.String, System.String, System.String) on controller webapi.net7.sqlsugar.Controllers.FileController (webapi.net7.sqlsugar).
+2024-10-18 09:51:33.1788 | INFO | Executing action method webapi.net7.sqlsugar.Controllers.FileController.UploadFile (webapi.net7.sqlsugar) - Validation state: Valid
+2024-10-18 09:51:33.2669 | INFO | Executed action method webapi.net7.sqlsugar.Controllers.FileController.UploadFile (webapi.net7.sqlsugar), returned result Microsoft.AspNetCore.Mvc.JsonResult in 85.9571ms.
+2024-10-18 09:51:33.2669 | INFO | Executing JsonResult, writing value of type '<>f__AnonymousType8`4[[System.Boolean, System.Private.CoreLib, Version=7.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=7.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=7.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=7.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2024-10-18 09:51:33.2669 | INFO | Executed action webapi.net7.sqlsugar.Controllers.FileController.UploadFile (webapi.net7.sqlsugar) in 101.1389ms
+2024-10-18 09:51:33.2669 | INFO | Executed endpoint 'webapi.net7.sqlsugar.Controllers.FileController.UploadFile (webapi.net7.sqlsugar)'
+2024-10-18 09:51:33.2669 | ERROR | An unhandled exception has occurred while executing the request.
+2024-10-18 09:51:33.2669 | WARN | The response has already started, the error page middleware will not be executed.
+2024-10-18 09:51:33.2669 | ERROR | Connection id "0HN7F2SPO40GV", Request id "0HN7F2SPO40GV:00000001": An unhandled exception was thrown by the application.
+2024-10-18 09:51:33.2669 | INFO | Request finished HTTP/1.1 POST http://localhost:5149/api/UploadFile?ccode=123456&vouchType=test&maker=ssgw multipart/form-data;+boundary=----WebKitFormBoundary3Y3aKjgtzJYCBUhT 32050 - 200 - application/json;+charset=utf-8 123.9175ms
+2024-10-18 10:00:16.9244 | INFO | User profile is available. Using 'C:\Users\Administrator\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-10-18 10:00:17.0483 | INFO | Now listening on: http://localhost:5149
+2024-10-18 10:00:17.0483 | INFO | Application started. Press Ctrl+C to shut down.
+2024-10-18 10:00:17.0483 | INFO | Hosting environment: Development
+2024-10-18 10:00:17.0483 | INFO | Content root path: D:\BaiduSyncdisk\webapi.net7+sqlsugar\webapi.net7.sqlsugar\webapi.net7.sqlsugar
+2024-10-18 10:00:18.1240 | INFO | Request starting HTTP/1.1 GET http://localhost:5149/swagger/index.html - -
+2024-10-18 10:00:18.5381 | INFO | Request finished HTTP/1.1 GET http://localhost:5149/swagger/index.html - - - 200 - text/html;charset=utf-8 418.0818ms
+2024-10-18 10:00:18.5489 | INFO | Request starting HTTP/1.1 GET http://localhost:5149/_vs/browserLink - -
+2024-10-18 10:00:18.5489 | INFO | Request starting HTTP/1.1 GET http://localhost:5149/_framework/aspnetcore-browser-refresh.js - -
+2024-10-18 10:00:18.5489 | INFO | Request finished HTTP/1.1 GET http://localhost:5149/_framework/aspnetcore-browser-refresh.js - - - 200 13776 application/javascript;+charset=utf-8 2.1332ms
+2024-10-18 10:00:18.5996 | INFO | Request finished HTTP/1.1 GET http://localhost:5149/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 50.9176ms
+2024-10-18 10:00:18.7001 | INFO | Request starting HTTP/1.1 GET http://localhost:5149/swagger/东泽房源管理接口/swagger.json - -
+2024-10-18 10:00:18.9983 | INFO | Request finished HTTP/1.1 GET http://localhost:5149/swagger/东泽房源管理接口/swagger.json - - - 200 - application/json;charset=utf-8 298.3406ms
+2024-10-18 10:00:38.7961 | INFO | Request starting HTTP/1.1 GET http://localhost:5149/swagger/文件上传接口/swagger.json - -
+2024-10-18 10:00:38.8119 | INFO | Request finished HTTP/1.1 GET http://localhost:5149/swagger/文件上传接口/swagger.json - - - 200 - application/json;charset=utf-8 15.3921ms
+2024-10-18 10:01:00.7590 | INFO | Request starting HTTP/1.1 POST http://localhost:5149/api/UploadFile?vouchType=testa&ccode=testtttt&autoid=ttttttt&maker=ssgw multipart/form-data;+boundary=----WebKitFormBoundaryvrXZz6vTGKEUC3qk 32050
+2024-10-18 10:01:00.7718 | WARN | Failed to determine the https port for redirect.
+2024-10-18 10:01:00.8185 | INFO | CORS policy execution successful.
+2024-10-18 10:01:00.8819 | INFO | Executing endpoint 'webapi.net7.sqlsugar.Controllers.FileController.UploadFile (webapi.net7.sqlsugar)'
+2024-10-18 10:01:00.9014 | INFO | Route matched with {action = "UploadFile", controller = "File"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.JsonResult UploadFile(Microsoft.AspNetCore.Http.IFormCollection, System.String, System.String, System.String, System.String) on controller webapi.net7.sqlsugar.Controllers.FileController (webapi.net7.sqlsugar).
+2024-10-18 10:01:01.0482 | INFO | Executing action method webapi.net7.sqlsugar.Controllers.FileController.UploadFile (webapi.net7.sqlsugar) - Validation state: Valid
+2024-10-18 10:01:01.0808 | INFO | Executed action method webapi.net7.sqlsugar.Controllers.FileController.UploadFile (webapi.net7.sqlsugar), returned result Microsoft.AspNetCore.Mvc.JsonResult in 25.7885ms.
+2024-10-18 10:01:01.0808 | INFO | Executing JsonResult, writing value of type '<>f__AnonymousType8`4[[System.Boolean, System.Private.CoreLib, Version=7.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=7.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=7.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=7.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2024-10-18 10:01:01.0808 | INFO | Executed action webapi.net7.sqlsugar.Controllers.FileController.UploadFile (webapi.net7.sqlsugar) in 188.4072ms
+2024-10-18 10:01:01.0808 | INFO | Executed endpoint 'webapi.net7.sqlsugar.Controllers.FileController.UploadFile (webapi.net7.sqlsugar)'
+2024-10-18 10:01:01.2540 | ERROR | An unhandled exception has occurred while executing the request.
+2024-10-18 10:01:01.2540 | WARN | The response has already started, the error page middleware will not be executed.
+2024-10-18 10:01:01.2663 | ERROR | Connection id "0HN7F32EH1761", Request id "0HN7F32EH1761:00000002": An unhandled exception was thrown by the application.
+2024-10-18 10:01:01.2663 | INFO | Request finished HTTP/1.1 POST http://localhost:5149/api/UploadFile?vouchType=testa&ccode=testtttt&autoid=ttttttt&maker=ssgw multipart/form-data;+boundary=----WebKitFormBoundaryvrXZz6vTGKEUC3qk 32050 - 200 - application/json;+charset=utf-8 508.2289ms
+2024-10-18 10:01:08.8887 | INFO | Request starting HTTP/1.1 POST http://localhost:5149/api/UploadFile?vouchType=testa&ccode=testtttt&autoid=ttttttt&maker=ssgw multipart/form-data;+boundary=----WebKitFormBoundaryRRhLB6c9wuWhUcZn 32050
+2024-10-18 10:01:08.8906 | INFO | CORS policy execution successful.
+2024-10-18 10:01:08.8906 | INFO | Executing endpoint 'webapi.net7.sqlsugar.Controllers.FileController.UploadFile (webapi.net7.sqlsugar)'
+2024-10-18 10:01:08.8906 | INFO | Route matched with {action = "UploadFile", controller = "File"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.JsonResult UploadFile(Microsoft.AspNetCore.Http.IFormCollection, System.String, System.String, System.String, System.String) on controller webapi.net7.sqlsugar.Controllers.FileController (webapi.net7.sqlsugar).
+2024-10-18 10:01:08.9076 | INFO | Executing action method webapi.net7.sqlsugar.Controllers.FileController.UploadFile (webapi.net7.sqlsugar) - Validation state: Valid
+2024-10-18 10:01:26.4204 | INFO | Executed action method webapi.net7.sqlsugar.Controllers.FileController.UploadFile (webapi.net7.sqlsugar), returned result Microsoft.AspNetCore.Mvc.JsonResult in 17512.0239ms.
+2024-10-18 10:01:26.4204 | INFO | Executing JsonResult, writing value of type '<>f__AnonymousType8`4[[System.Boolean, System.Private.CoreLib, Version=7.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=7.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=7.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=7.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2024-10-18 10:01:26.4446 | INFO | Executed action webapi.net7.sqlsugar.Controllers.FileController.UploadFile (webapi.net7.sqlsugar) in 17547.7745ms
+2024-10-18 10:01:26.4446 | INFO | Executed endpoint 'webapi.net7.sqlsugar.Controllers.FileController.UploadFile (webapi.net7.sqlsugar)'
+2024-10-18 10:01:26.4603 | ERROR | An unhandled exception has occurred while executing the request.
+2024-10-18 10:01:26.4603 | WARN | The response has already started, the error page middleware will not be executed.
+2024-10-18 10:01:26.4603 | ERROR | Connection id "0HN7F32EH1762", Request id "0HN7F32EH1762:00000001": An unhandled exception was thrown by the application.
+2024-10-18 10:01:26.4693 | INFO | Request finished HTTP/1.1 POST http://localhost:5149/api/UploadFile?vouchType=testa&ccode=testtttt&autoid=ttttttt&maker=ssgw multipart/form-data;+boundary=----WebKitFormBoundaryRRhLB6c9wuWhUcZn 32050 - 200 - application/json;+charset=utf-8 17579.8673ms
+2024-10-18 10:03:46.6546 | INFO | Request starting HTTP/1.1 GET http://localhost:5149/swagger/index.html?urls.primaryName=%E3%80%90%E6%96%87%E4%BB%B6%E4%B8%8A%E4%BC%A0%E6%8E%A5%E5%8F%A3%E3%80%91%E6%8E%A5%E5%8F%A3 - -
+2024-10-18 10:03:46.6647 | INFO | Request finished HTTP/1.1 GET http://localhost:5149/swagger/index.html?urls.primaryName=%E3%80%90%E6%96%87%E4%BB%B6%E4%B8%8A%E4%BC%A0%E6%8E%A5%E5%8F%A3%E3%80%91%E6%8E%A5%E5%8F%A3 - - - 200 - text/html;charset=utf-8 13.9100ms
+2024-10-18 10:03:46.6881 | INFO | Request starting HTTP/1.1 GET http://localhost:5149/_framework/aspnetcore-browser-refresh.js - -
+2024-10-18 10:03:46.6884 | INFO | Request finished HTTP/1.1 GET http://localhost:5149/_framework/aspnetcore-browser-refresh.js - - - 200 13776 application/javascript;+charset=utf-8 0.2836ms
+2024-10-18 10:03:46.6884 | INFO | Request starting HTTP/1.1 GET http://localhost:5149/_vs/browserLink - -
+2024-10-18 10:03:46.7135 | INFO | Request finished HTTP/1.1 GET http://localhost:5149/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 17.9366ms
+2024-10-18 10:03:46.7690 | INFO | Request starting HTTP/1.1 GET http://localhost:5149/swagger/文件上传接口/swagger.json - -
+2024-10-18 10:03:46.7690 | INFO | Request finished HTTP/1.1 GET http://localhost:5149/swagger/文件上传接口/swagger.json - - - 200 - application/json;charset=utf-8 4.1738ms
+2024-10-18 10:04:15.7528 | INFO | Request starting HTTP/1.1 POST http://localhost:5149/api/UploadFile?vouchType=%E5%BD%92%E8%BF%98%E5%8D%95&ccode=20241018001&autoid=1000000001&maker=%E5%AE%9E%E6%96%BD%E9%A1%BE%E9%97%AE multipart/form-data;+boundary=----WebKitFormBoundary1Aa4gd3tBABaY1Pn 32050
+2024-10-18 10:04:15.7528 | INFO | CORS policy execution successful.
+2024-10-18 10:04:15.7680 | INFO | Executing endpoint 'webapi.net7.sqlsugar.Controllers.FileController.UploadFile (webapi.net7.sqlsugar)'
+2024-10-18 10:04:15.7680 | INFO | Route matched with {action = "UploadFile", controller = "File"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.JsonResult UploadFile(Microsoft.AspNetCore.Http.IFormCollection, System.String, System.String, System.String, System.String) on controller webapi.net7.sqlsugar.Controllers.FileController (webapi.net7.sqlsugar).
+2024-10-18 10:04:15.7680 | INFO | Executing action method webapi.net7.sqlsugar.Controllers.FileController.UploadFile (webapi.net7.sqlsugar) - Validation state: Valid
+2024-10-18 10:04:33.1011 | INFO | Executed action method webapi.net7.sqlsugar.Controllers.FileController.UploadFile (webapi.net7.sqlsugar), returned result Microsoft.AspNetCore.Mvc.JsonResult in 17322.9225ms.
+2024-10-18 10:04:33.1011 | INFO | Executing JsonResult, writing value of type '<>f__AnonymousType9`3[[System.Boolean, System.Private.CoreLib, Version=7.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=7.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=7.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2024-10-18 10:04:33.1128 | INFO | Executed action webapi.net7.sqlsugar.Controllers.FileController.UploadFile (webapi.net7.sqlsugar) in 17340.2771ms
+2024-10-18 10:04:33.1128 | INFO | Executed endpoint 'webapi.net7.sqlsugar.Controllers.FileController.UploadFile (webapi.net7.sqlsugar)'
+2024-10-18 10:04:33.1128 | ERROR | An unhandled exception has occurred while executing the request.
+2024-10-18 10:04:33.1128 | WARN | The response has already started, the error page middleware will not be executed.
+2024-10-18 10:04:33.1259 | ERROR | Connection id "0HN7F32EH1763", Request id "0HN7F32EH1763:00000005": An unhandled exception was thrown by the application.
+2024-10-18 10:04:33.1259 | INFO | Request finished HTTP/1.1 POST http://localhost:5149/api/UploadFile?vouchType=%E5%BD%92%E8%BF%98%E5%8D%95&ccode=20241018001&autoid=1000000001&maker=%E5%AE%9E%E6%96%BD%E9%A1%BE%E9%97%AE multipart/form-data;+boundary=----WebKitFormBoundary1Aa4gd3tBABaY1Pn 32050 - 200 - application/json;+charset=utf-8 17374.3609ms
+2024-10-18 10:05:03.5959 | INFO | Request starting HTTP/1.1 POST http://localhost:5149/api/UploadFile?vouchType=%E5%BD%92%E8%BF%98%E5%8D%95&ccode=20241018001&autoid=1000000001&maker=%E5%AE%9E%E6%96%BD%E9%A1%BE%E9%97%AE multipart/form-data;+boundary=----WebKitFormBoundaryTaXQBS3W22WhdWnx 32050
+2024-10-18 10:05:03.5959 | INFO | CORS policy execution successful.
+2024-10-18 10:05:03.5959 | INFO | Executing endpoint 'webapi.net7.sqlsugar.Controllers.FileController.UploadFile (webapi.net7.sqlsugar)'
+2024-10-18 10:05:03.5959 | INFO | Route matched with {action = "UploadFile", controller = "File"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.JsonResult UploadFile(Microsoft.AspNetCore.Http.IFormCollection, System.String, System.String, System.String, System.String) on controller webapi.net7.sqlsugar.Controllers.FileController (webapi.net7.sqlsugar).
+2024-10-18 10:05:03.6184 | INFO | Executing action method webapi.net7.sqlsugar.Controllers.FileController.UploadFile (webapi.net7.sqlsugar) - Validation state: Valid
+2024-10-18 10:06:43.6539 | INFO | Executed action method webapi.net7.sqlsugar.Controllers.FileController.UploadFile (webapi.net7.sqlsugar), returned result Microsoft.AspNetCore.Mvc.JsonResult in 100034.764ms.
+2024-10-18 10:06:43.6539 | INFO | Executing JsonResult, writing value of type '<>f__AnonymousType9`3[[System.Boolean, System.Private.CoreLib, Version=7.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=7.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=7.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2024-10-18 10:06:43.6646 | INFO | Executed action webapi.net7.sqlsugar.Controllers.FileController.UploadFile (webapi.net7.sqlsugar) in 100061.9227ms
+2024-10-18 10:06:43.6646 | INFO | Executed endpoint 'webapi.net7.sqlsugar.Controllers.FileController.UploadFile (webapi.net7.sqlsugar)'
+2024-10-18 10:06:43.6646 | ERROR | An unhandled exception has occurred while executing the request.
+2024-10-18 10:06:43.6728 | WARN | The response has already started, the error page middleware will not be executed.
+2024-10-18 10:06:43.6728 | ERROR | Connection id "0HN7F32EH1765", Request id "0HN7F32EH1765:00000001": An unhandled exception was thrown by the application.
+2024-10-18 10:06:43.6728 | INFO | Request finished HTTP/1.1 POST http://localhost:5149/api/UploadFile?vouchType=%E5%BD%92%E8%BF%98%E5%8D%95&ccode=20241018001&autoid=1000000001&maker=%E5%AE%9E%E6%96%BD%E9%A1%BE%E9%97%AE multipart/form-data;+boundary=----WebKitFormBoundaryTaXQBS3W22WhdWnx 32050 - 200 - application/json;+charset=utf-8 100082.9144ms
+2024-10-18 10:06:46.9919 | INFO | Request starting HTTP/1.1 POST http://localhost:5149/api/UploadFile?vouchType=%E5%BD%92%E8%BF%98%E5%8D%95&ccode=20241018001&autoid=1000000001&maker=%E5%AE%9E%E6%96%BD%E9%A1%BE%E9%97%AE multipart/form-data;+boundary=----WebKitFormBoundarySdEp1cTRTS4CTyI0 32050
+2024-10-18 10:06:46.9919 | INFO | CORS policy execution successful.
+2024-10-18 10:06:46.9919 | INFO | Executing endpoint 'webapi.net7.sqlsugar.Controllers.FileController.UploadFile (webapi.net7.sqlsugar)'
+2024-10-18 10:06:47.0042 | INFO | Route matched with {action = "UploadFile", controller = "File"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.JsonResult UploadFile(Microsoft.AspNetCore.Http.IFormCollection, System.String, System.String, System.String, System.String) on controller webapi.net7.sqlsugar.Controllers.FileController (webapi.net7.sqlsugar).
+2024-10-18 10:06:47.0042 | INFO | Executing action method webapi.net7.sqlsugar.Controllers.FileController.UploadFile (webapi.net7.sqlsugar) - Validation state: Valid
+2024-10-18 10:06:53.1679 | INFO | Executed action method webapi.net7.sqlsugar.Controllers.FileController.UploadFile (webapi.net7.sqlsugar), returned result Microsoft.AspNetCore.Mvc.JsonResult in 6152.5369ms.
+2024-10-18 10:06:53.1679 | INFO | Executing JsonResult, writing value of type '<>f__AnonymousType8`4[[System.Boolean, System.Private.CoreLib, Version=7.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=7.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=7.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=7.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2024-10-18 10:06:53.1799 | INFO | Executed action webapi.net7.sqlsugar.Controllers.FileController.UploadFile (webapi.net7.sqlsugar) in 6175.6889ms
+2024-10-18 10:06:53.1799 | INFO | Executed endpoint 'webapi.net7.sqlsugar.Controllers.FileController.UploadFile (webapi.net7.sqlsugar)'
+2024-10-18 10:06:53.1799 | ERROR | An unhandled exception has occurred while executing the request.
+2024-10-18 10:06:53.1882 | WARN | The response has already started, the error page middleware will not be executed.
+2024-10-18 10:06:53.1882 | ERROR | Connection id "0HN7F32EH1766", Request id "0HN7F32EH1766:00000001": An unhandled exception was thrown by the application.
+2024-10-18 10:06:53.1882 | INFO | Request finished HTTP/1.1 POST http://localhost:5149/api/UploadFile?vouchType=%E5%BD%92%E8%BF%98%E5%8D%95&ccode=20241018001&autoid=1000000001&maker=%E5%AE%9E%E6%96%BD%E9%A1%BE%E9%97%AE multipart/form-data;+boundary=----WebKitFormBoundarySdEp1cTRTS4CTyI0 32050 - 200 - application/json;+charset=utf-8 6200.5883ms
+2024-10-18 10:07:47.1808 | INFO | Request starting HTTP/1.1 GET http://localhost:5149/swagger/index.html?urls.primaryName=%E3%80%90%E6%96%87%E4%BB%B6%E4%B8%8A%E4%BC%A0%E6%8E%A5%E5%8F%A3%E3%80%91%E6%8E%A5%E5%8F%A3 - -
+2024-10-18 10:07:47.1922 | INFO | Request finished HTTP/1.1 GET http://localhost:5149/swagger/index.html?urls.primaryName=%E3%80%90%E6%96%87%E4%BB%B6%E4%B8%8A%E4%BC%A0%E6%8E%A5%E5%8F%A3%E3%80%91%E6%8E%A5%E5%8F%A3 - - - 200 - text/html;charset=utf-8 15.8344ms
+2024-10-18 10:07:47.2160 | INFO | Request starting HTTP/1.1 GET http://localhost:5149/_framework/aspnetcore-browser-refresh.js - -
+2024-10-18 10:07:47.2160 | INFO | Request finished HTTP/1.1 GET http://localhost:5149/_framework/aspnetcore-browser-refresh.js - - - 200 13776 application/javascript;+charset=utf-8 0.8214ms
+2024-10-18 10:07:47.2234 | INFO | Request starting HTTP/1.1 GET http://localhost:5149/_vs/browserLink - -
+2024-10-18 10:07:47.2234 | INFO | Request finished HTTP/1.1 GET http://localhost:5149/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 6.3968ms
+2024-10-18 10:07:47.4077 | INFO | Request starting HTTP/1.1 GET http://localhost:5149/swagger/文件上传接口/swagger.json - -
+2024-10-18 10:07:47.4077 | INFO | Request finished HTTP/1.1 GET http://localhost:5149/swagger/文件上传接口/swagger.json - - - 200 - application/json;charset=utf-8 4.2281ms
+2024-10-18 10:08:17.9051 | INFO | Request starting HTTP/1.1 POST http://localhost:5149/api/UploadFile?vouchType=%E5%80%9F%E5%87%BA%E5%8D%95&ccode=202410180002&autoid=10000002&maker=%E5%AE%9E%E6%96%BD%E9%A1%BE%E9%97%AE multipart/form-data;+boundary=----WebKitFormBoundaryefTprpYQMeG99RAK 61203
+2024-10-18 10:08:17.9051 | INFO | CORS policy execution successful.
+2024-10-18 10:08:17.9084 | INFO | Executing endpoint 'webapi.net7.sqlsugar.Controllers.FileController.UploadFile (webapi.net7.sqlsugar)'
+2024-10-18 10:08:17.9084 | INFO | Route matched with {action = "UploadFile", controller = "File"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.JsonResult UploadFile(Microsoft.AspNetCore.Http.IFormCollection, System.String, System.String, System.String, System.String) on controller webapi.net7.sqlsugar.Controllers.FileController (webapi.net7.sqlsugar).
+2024-10-18 10:08:17.9243 | INFO | Executing action method webapi.net7.sqlsugar.Controllers.FileController.UploadFile (webapi.net7.sqlsugar) - Validation state: Valid
+2024-10-18 10:08:17.9559 | INFO | Executed action method webapi.net7.sqlsugar.Controllers.FileController.UploadFile (webapi.net7.sqlsugar), returned result Microsoft.AspNetCore.Mvc.JsonResult in 19.9626ms.
+2024-10-18 10:08:17.9559 | INFO | Executing JsonResult, writing value of type '<>f__AnonymousType8`4[[System.Boolean, System.Private.CoreLib, Version=7.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=7.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=7.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=7.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2024-10-18 10:08:17.9559 | INFO | Executed action webapi.net7.sqlsugar.Controllers.FileController.UploadFile (webapi.net7.sqlsugar) in 46.0768ms
+2024-10-18 10:08:17.9559 | INFO | Executed endpoint 'webapi.net7.sqlsugar.Controllers.FileController.UploadFile (webapi.net7.sqlsugar)'
+2024-10-18 10:08:17.9559 | ERROR | An unhandled exception has occurred while executing the request.
+2024-10-18 10:08:17.9559 | WARN | The response has already started, the error page middleware will not be executed.
+2024-10-18 10:08:17.9559 | ERROR | Connection id "0HN7F32EH1767", Request id "0HN7F32EH1767:00000005": An unhandled exception was thrown by the application.
+2024-10-18 10:08:17.9559 | INFO | Request finished HTTP/1.1 POST http://localhost:5149/api/UploadFile?vouchType=%E5%80%9F%E5%87%BA%E5%8D%95&ccode=202410180002&autoid=10000002&maker=%E5%AE%9E%E6%96%BD%E9%A1%BE%E9%97%AE multipart/form-data;+boundary=----WebKitFormBoundaryefTprpYQMeG99RAK 61203 - 200 - application/json;+charset=utf-8 63.1019ms

@@ -1,0 +1,17 @@
+2023-12-19 15:42:42.5781 | INFO | User profile is available. Using 'C:\Users\Administrator\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2023-12-19 15:42:42.8421 | INFO | Now listening on: https://localhost:7225
+2023-12-19 15:42:42.8421 | INFO | Now listening on: http://localhost:5148
+2023-12-19 15:42:42.8421 | INFO | Application started. Press Ctrl+C to shut down.
+2023-12-19 15:42:42.8421 | INFO | Hosting environment: Development
+2023-12-19 15:42:42.8421 | INFO | Content root path: D:\BaiduSyncdisk\webapi.net7+sqlsugar\webapi.net7.sqlsugar\webapi.net7.sqlsugar
+2023-12-19 15:42:45.3523 | INFO | Request starting HTTP/2 GET https://localhost:7225/swagger/index.html - -
+2023-12-19 15:42:45.9075 | INFO | Request finished HTTP/2 GET https://localhost:7225/swagger/index.html - - - 200 - text/html;charset=utf-8 559.8541ms
+2023-12-19 15:42:45.9208 | INFO | Request starting HTTP/2 GET https://localhost:7225/_framework/aspnetcore-browser-refresh.js - -
+2023-12-19 15:42:45.9208 | INFO | Request starting HTTP/2 GET https://localhost:7225/_vs/browserLink - -
+2023-12-19 15:42:45.9367 | INFO | Request finished HTTP/2 GET https://localhost:7225/_framework/aspnetcore-browser-refresh.js - - - 200 13776 application/javascript;+charset=utf-8 15.7605ms
+2023-12-19 15:42:46.1892 | INFO | Request finished HTTP/2 GET https://localhost:7225/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 273.1893ms
+2023-12-19 15:42:46.2501 | INFO | Request starting HTTP/2 GET https://localhost:7225/swagger/V1/swagger.json - -
+2023-12-19 15:42:46.2817 | INFO | Request starting HTTP/2 GET https://localhost:7225/swagger/favicon-32x32.png - -
+2023-12-19 15:42:46.2964 | INFO | Sending file. Request path: '/favicon-32x32.png'. Physical path: 'N/A'
+2023-12-19 15:42:46.2964 | INFO | Request finished HTTP/2 GET https://localhost:7225/swagger/favicon-32x32.png - - - 200 628 image/png 18.1515ms
+2023-12-19 15:42:46.7237 | INFO | Request finished HTTP/2 GET https://localhost:7225/swagger/V1/swagger.json - - - 200 - application/json;charset=utf-8 472.6310ms

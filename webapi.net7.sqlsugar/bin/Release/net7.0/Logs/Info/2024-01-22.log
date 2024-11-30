@@ -1,0 +1,579 @@
+2024-01-22 15:00:48.1058 | INFO | User profile is available. Using 'C:\Users\Administrator\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-01-22 15:00:48.2994 | INFO | Now listening on: https://localhost:7225
+2024-01-22 15:00:48.3009 | INFO | Now listening on: http://localhost:5148
+2024-01-22 15:00:48.3009 | INFO | Application started. Press Ctrl+C to shut down.
+2024-01-22 15:00:48.3009 | INFO | Hosting environment: Development
+2024-01-22 15:00:48.3009 | INFO | Content root path: D:\BaiduSyncdisk\webapi.net7+sqlsugar\webapi.net7.sqlsugar\webapi.net7.sqlsugar
+2024-01-22 15:00:48.9725 | INFO | Request starting HTTP/2 GET https://localhost:7225/swagger/index.html - -
+2024-01-22 15:00:49.2228 | INFO | Request starting HTTP/2 GET https://localhost:7225/_vs/browserLink - -
+2024-01-22 15:00:49.2228 | INFO | Request starting HTTP/2 GET https://localhost:7225/_framework/aspnetcore-browser-refresh.js - -
+2024-01-22 15:00:49.2228 | INFO | Request finished HTTP/2 GET https://localhost:7225/swagger/index.html - - - 200 - text/html;charset=utf-8 253.1156ms
+2024-01-22 15:00:49.2228 | INFO | Request finished HTTP/2 GET https://localhost:7225/_framework/aspnetcore-browser-refresh.js - - - 200 13776 application/javascript;+charset=utf-8 9.9704ms
+2024-01-22 15:00:49.2700 | INFO | Request finished HTTP/2 GET https://localhost:7225/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 49.4656ms
+2024-01-22 15:00:49.3186 | INFO | Request starting HTTP/2 GET https://localhost:7225/swagger/V1/swagger.json - -
+2024-01-22 15:00:49.6379 | INFO | Request finished HTTP/2 GET https://localhost:7225/swagger/V1/swagger.json - - - 200 - application/json;charset=utf-8 318.5469ms
+2024-01-22 15:00:54.8207 | INFO | Request starting HTTP/2 POST https://localhost:7225/api/GetEunmList - 0
+2024-01-22 15:00:54.8962 | INFO | CORS policy execution successful.
+2024-01-22 15:00:54.9577 | INFO | Executing endpoint 'webapi.net7.sqlsugar.Controllers.CRMAppControlle.GetEunmList (webapi.net7.sqlsugar)'
+2024-01-22 15:00:54.9763 | INFO | Route matched with {action = "GetEunmList", controller = "CRMAppControlle"}. Executing controller action with signature System.Object GetEunmList() on controller webapi.net7.sqlsugar.Controllers.CRMAppControlle (webapi.net7.sqlsugar).
+2024-01-22 15:00:54.9894 | INFO | Executing action method webapi.net7.sqlsugar.Controllers.CRMAppControlle.GetEunmList (webapi.net7.sqlsugar) - Validation state: Valid
+2024-01-22 15:00:55.4512 | INFO | Executed action method webapi.net7.sqlsugar.Controllers.CRMAppControlle.GetEunmList (webapi.net7.sqlsugar), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 458.5367ms.
+2024-01-22 15:00:55.4572 | INFO | Executing ObjectResult, writing value of type 'System.String'.
+2024-01-22 15:00:55.4572 | INFO | Executed action webapi.net7.sqlsugar.Controllers.CRMAppControlle.GetEunmList (webapi.net7.sqlsugar) in 482.2465ms
+2024-01-22 15:00:55.4572 | INFO | Executed endpoint 'webapi.net7.sqlsugar.Controllers.CRMAppControlle.GetEunmList (webapi.net7.sqlsugar)'
+2024-01-22 15:00:55.8099 | ERROR | An unhandled exception has occurred while executing the request.
+2024-01-22 15:00:55.8099 | WARN | The response has already started, the error page middleware will not be executed.
+2024-01-22 15:00:55.8269 | ERROR | Connection id "0HN0R2VEE638P", Request id "0HN0R2VEE638P:00000001": An unhandled exception was thrown by the application.
+2024-01-22 15:00:55.8320 | INFO | Request finished HTTP/2 POST https://localhost:7225/api/GetEunmList - 0 - 200 - text/plain;+charset=utf-8 1007.4138ms
+2024-01-22 15:05:05.4025 | INFO | User profile is available. Using 'C:\Users\Administrator\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-01-22 15:05:15.3382 | INFO | Now listening on: https://localhost:7225
+2024-01-22 15:05:15.3382 | INFO | Now listening on: http://localhost:5148
+2024-01-22 15:05:15.3464 | INFO | Application started. Press Ctrl+C to shut down.
+2024-01-22 15:05:15.3464 | INFO | Hosting environment: Development
+2024-01-22 15:05:15.3464 | INFO | Content root path: D:\BaiduSyncdisk\webapi.net7+sqlsugar\webapi.net7.sqlsugar\webapi.net7.sqlsugar
+2024-01-22 15:05:18.0816 | INFO | Request starting HTTP/2 GET https://localhost:7225/swagger/index.html - -
+2024-01-22 15:05:18.9134 | INFO | Request starting HTTP/2 GET https://localhost:7225/_framework/aspnetcore-browser-refresh.js - -
+2024-01-22 15:05:18.9134 | INFO | Request starting HTTP/2 GET https://localhost:7225/_vs/browserLink - -
+2024-01-22 15:05:18.9134 | INFO | Request finished HTTP/2 GET https://localhost:7225/swagger/index.html - - - 200 - text/html;charset=utf-8 842.2755ms
+2024-01-22 15:05:18.9263 | INFO | Request finished HTTP/2 GET https://localhost:7225/_framework/aspnetcore-browser-refresh.js - - - 200 13776 application/javascript;+charset=utf-8 5.4710ms
+2024-01-22 15:05:19.0651 | INFO | Request finished HTTP/2 GET https://localhost:7225/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 143.0069ms
+2024-01-22 15:05:19.1130 | INFO | Request starting HTTP/2 GET https://localhost:7225/swagger/V1/swagger.json - -
+2024-01-22 15:05:19.5665 | INFO | Request finished HTTP/2 GET https://localhost:7225/swagger/V1/swagger.json - - - 200 - application/json;charset=utf-8 456.3831ms
+2024-01-22 15:05:47.0189 | INFO | Request starting HTTP/2 POST https://localhost:7225/api/GetEunmList - 0
+2024-01-22 15:05:47.1439 | INFO | CORS policy execution successful.
+2024-01-22 15:05:47.2365 | INFO | Executing endpoint 'webapi.net7.sqlsugar.Controllers.CRMAppControlle.GetEunmList (webapi.net7.sqlsugar)'
+2024-01-22 15:05:47.2365 | INFO | Route matched with {action = "GetEunmList", controller = "CRMAppControlle"}. Executing controller action with signature System.Object GetEunmList() on controller webapi.net7.sqlsugar.Controllers.CRMAppControlle (webapi.net7.sqlsugar).
+2024-01-22 15:05:47.2537 | INFO | Executing action method webapi.net7.sqlsugar.Controllers.CRMAppControlle.GetEunmList (webapi.net7.sqlsugar) - Validation state: Valid
+2024-01-22 15:05:47.9434 | INFO | Executed action method webapi.net7.sqlsugar.Controllers.CRMAppControlle.GetEunmList (webapi.net7.sqlsugar), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 678.2164ms.
+2024-01-22 15:05:47.9434 | INFO | Executing ObjectResult, writing value of type 'System.String'.
+2024-01-22 15:05:47.9434 | INFO | Executed action webapi.net7.sqlsugar.Controllers.CRMAppControlle.GetEunmList (webapi.net7.sqlsugar) in 700.636ms
+2024-01-22 15:05:47.9555 | INFO | Executed endpoint 'webapi.net7.sqlsugar.Controllers.CRMAppControlle.GetEunmList (webapi.net7.sqlsugar)'
+2024-01-22 15:05:48.6349 | ERROR | An unhandled exception has occurred while executing the request.
+2024-01-22 15:05:48.6349 | WARN | The response has already started, the error page middleware will not be executed.
+2024-01-22 15:05:48.6674 | ERROR | Connection id "0HN0R31TVVCF8", Request id "0HN0R31TVVCF8:00000001": An unhandled exception was thrown by the application.
+2024-01-22 15:05:48.6674 | INFO | Request finished HTTP/2 POST https://localhost:7225/api/GetEunmList - 0 - 200 - text/plain;+charset=utf-8 1651.1463ms
+2024-01-22 15:06:37.7532 | INFO | Request starting HTTP/2 POST https://localhost:7225/api/PassWordPost?username=ssgw&password=123 - 0
+2024-01-22 15:06:37.7532 | INFO | CORS policy execution successful.
+2024-01-22 15:06:37.7782 | INFO | Executing endpoint 'webapi.net7.sqlsugar.Controllers.ApiLoginController.PassWordPost (webapi.net7.sqlsugar)'
+2024-01-22 15:06:37.8037 | INFO | Route matched with {action = "PassWordPost", controller = "ApiLogin"}. Executing controller action with signature webapi.net7.sqlsugar.Model.MessageLogin PassWordPost(System.String, System.String) on controller webapi.net7.sqlsugar.Controllers.ApiLoginController (webapi.net7.sqlsugar).
+2024-01-22 15:06:37.8320 | INFO | Executing action method webapi.net7.sqlsugar.Controllers.ApiLoginController.PassWordPost (webapi.net7.sqlsugar) - Validation state: Valid
+2024-01-22 15:07:25.9255 | INFO | Executed action webapi.net7.sqlsugar.Controllers.ApiLoginController.PassWordPost (webapi.net7.sqlsugar) in 48121.3431ms
+2024-01-22 15:07:25.9255 | INFO | Executed endpoint 'webapi.net7.sqlsugar.Controllers.ApiLoginController.PassWordPost (webapi.net7.sqlsugar)'
+2024-01-22 15:07:25.9484 | ERROR | An unhandled exception has occurred while executing the request.
+2024-01-22 15:07:25.9563 | INFO | Request finished HTTP/2 POST https://localhost:7225/api/PassWordPost?username=ssgw&password=123 - 0 - 500 - text/plain;+charset=utf-8 48203.8331ms
+2024-01-22 15:08:06.6284 | INFO | User profile is available. Using 'C:\Users\Administrator\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-01-22 15:08:14.4731 | INFO | User profile is available. Using 'C:\Users\Administrator\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-01-22 15:08:14.6017 | INFO | Now listening on: http://localhost:5148
+2024-01-22 15:08:14.6017 | INFO | Application started. Press Ctrl+C to shut down.
+2024-01-22 15:08:14.6017 | INFO | Hosting environment: Development
+2024-01-22 15:08:14.6017 | INFO | Content root path: D:\BaiduSyncdisk\webapi.net7+sqlsugar\webapi.net7.sqlsugar\webapi.net7.sqlsugar
+2024-01-22 15:08:14.8542 | INFO | Request starting HTTP/1.1 GET http://localhost:5148/swagger/index.html - -
+2024-01-22 15:08:15.0752 | INFO | Request finished HTTP/1.1 GET http://localhost:5148/swagger/index.html - - - 200 - text/html;charset=utf-8 226.0535ms
+2024-01-22 15:08:15.0752 | INFO | Request starting HTTP/1.1 GET http://localhost:5148/_vs/browserLink - -
+2024-01-22 15:08:15.0824 | INFO | Request starting HTTP/1.1 GET http://localhost:5148/_framework/aspnetcore-browser-refresh.js - -
+2024-01-22 15:08:15.0824 | INFO | Request finished HTTP/1.1 GET http://localhost:5148/_framework/aspnetcore-browser-refresh.js - - - 200 13776 application/javascript;+charset=utf-8 5.5798ms
+2024-01-22 15:08:15.1222 | INFO | Request finished HTTP/1.1 GET http://localhost:5148/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 43.4198ms
+2024-01-22 15:08:15.1603 | INFO | Request starting HTTP/1.1 GET http://localhost:5148/swagger/V1/swagger.json - -
+2024-01-22 15:08:15.4228 | INFO | Request finished HTTP/1.1 GET http://localhost:5148/swagger/V1/swagger.json - - - 200 - application/json;charset=utf-8 262.7589ms
+2024-01-22 15:08:22.1886 | INFO | Request starting HTTP/1.1 POST http://localhost:5148/api/GetEunmList - 0
+2024-01-22 15:08:22.1906 | WARN | Failed to determine the https port for redirect.
+2024-01-22 15:08:22.2616 | INFO | CORS policy execution successful.
+2024-01-22 15:08:22.3487 | INFO | Executing endpoint 'webapi.net7.sqlsugar.Controllers.CRMAppControlle.GetEunmList (webapi.net7.sqlsugar)'
+2024-01-22 15:08:22.3626 | INFO | Route matched with {action = "GetEunmList", controller = "CRMAppControlle"}. Executing controller action with signature System.Object GetEunmList() on controller webapi.net7.sqlsugar.Controllers.CRMAppControlle (webapi.net7.sqlsugar).
+2024-01-22 15:08:22.3626 | INFO | Executing action method webapi.net7.sqlsugar.Controllers.CRMAppControlle.GetEunmList (webapi.net7.sqlsugar) - Validation state: Valid
+2024-01-22 15:08:22.9068 | INFO | Executed action method webapi.net7.sqlsugar.Controllers.CRMAppControlle.GetEunmList (webapi.net7.sqlsugar), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 526.8036ms.
+2024-01-22 15:08:22.9089 | INFO | Executing ObjectResult, writing value of type 'System.String'.
+2024-01-22 15:08:22.9089 | INFO | Executed action webapi.net7.sqlsugar.Controllers.CRMAppControlle.GetEunmList (webapi.net7.sqlsugar) in 553.1374ms
+2024-01-22 15:08:22.9089 | INFO | Executed endpoint 'webapi.net7.sqlsugar.Controllers.CRMAppControlle.GetEunmList (webapi.net7.sqlsugar)'
+2024-01-22 15:08:23.2614 | ERROR | An unhandled exception has occurred while executing the request.
+2024-01-22 15:08:23.2614 | WARN | The response has already started, the error page middleware will not be executed.
+2024-01-22 15:08:23.2732 | ERROR | Connection id "0HN0R33JDVK9S", Request id "0HN0R33JDVK9S:00000003": An unhandled exception was thrown by the application.
+2024-01-22 15:08:23.2732 | INFO | Request finished HTTP/1.1 POST http://localhost:5148/api/GetEunmList - 0 - 200 - text/plain;+charset=utf-8 1084.8470ms
+2024-01-22 15:11:13.5814 | INFO | User profile is available. Using 'C:\Users\Administrator\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-01-22 15:11:13.7208 | INFO | Now listening on: http://localhost:5148
+2024-01-22 15:11:13.7208 | INFO | Application started. Press Ctrl+C to shut down.
+2024-01-22 15:11:13.7208 | INFO | Hosting environment: Development
+2024-01-22 15:11:13.7208 | INFO | Content root path: D:\BaiduSyncdisk\webapi.net7+sqlsugar\webapi.net7.sqlsugar\webapi.net7.sqlsugar
+2024-01-22 15:11:13.8776 | INFO | Request starting HTTP/1.1 GET http://localhost:5148/swagger/index.html - -
+2024-01-22 15:11:14.1290 | INFO | Request finished HTTP/1.1 GET http://localhost:5148/swagger/index.html - - - 200 - text/html;charset=utf-8 250.9254ms
+2024-01-22 15:11:14.1290 | INFO | Request starting HTTP/1.1 GET http://localhost:5148/_framework/aspnetcore-browser-refresh.js - -
+2024-01-22 15:11:14.1290 | INFO | Request finished HTTP/1.1 GET http://localhost:5148/_framework/aspnetcore-browser-refresh.js - - - 200 13776 application/javascript;+charset=utf-8 5.9752ms
+2024-01-22 15:11:14.1454 | INFO | Request starting HTTP/1.1 GET http://localhost:5148/_vs/browserLink - -
+2024-01-22 15:11:14.1989 | INFO | Request finished HTTP/1.1 GET http://localhost:5148/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 53.6119ms
+2024-01-22 15:11:14.2499 | INFO | Request starting HTTP/1.1 GET http://localhost:5148/swagger/V1/swagger.json - -
+2024-01-22 15:11:14.5197 | INFO | Request finished HTTP/1.1 GET http://localhost:5148/swagger/V1/swagger.json - - - 200 - application/json;charset=utf-8 269.9674ms
+2024-01-22 15:11:21.0659 | INFO | Request starting HTTP/1.1 POST http://localhost:5148/api/ceshi - 0
+2024-01-22 15:11:21.0659 | WARN | Failed to determine the https port for redirect.
+2024-01-22 15:11:21.1468 | INFO | CORS policy execution successful.
+2024-01-22 15:11:21.2088 | INFO | Executing endpoint 'webapi.net7.sqlsugar.Controllers.ApiLoginController.ceshi (webapi.net7.sqlsugar)'
+2024-01-22 15:11:21.2232 | INFO | Route matched with {action = "ceshi", controller = "ApiLogin"}. Executing controller action with signature System.Object ceshi() on controller webapi.net7.sqlsugar.Controllers.ApiLoginController (webapi.net7.sqlsugar).
+2024-01-22 15:11:21.2232 | INFO | Executing action method webapi.net7.sqlsugar.Controllers.ApiLoginController.ceshi (webapi.net7.sqlsugar) - Validation state: Valid
+2024-01-22 15:11:21.2421 | INFO | Executed action method webapi.net7.sqlsugar.Controllers.ApiLoginController.ceshi (webapi.net7.sqlsugar), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 0.2495ms.
+2024-01-22 15:11:21.2421 | INFO | Executing ObjectResult, writing value of type '<>f__AnonymousType5`1[[System.String, System.Private.CoreLib, Version=7.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2024-01-22 15:11:21.2567 | INFO | Executed action webapi.net7.sqlsugar.Controllers.ApiLoginController.ceshi (webapi.net7.sqlsugar) in 32.5094ms
+2024-01-22 15:11:21.2567 | INFO | Executed endpoint 'webapi.net7.sqlsugar.Controllers.ApiLoginController.ceshi (webapi.net7.sqlsugar)'
+2024-01-22 15:11:21.5902 | ERROR | An unhandled exception has occurred while executing the request.
+2024-01-22 15:11:21.5902 | WARN | The response has already started, the error page middleware will not be executed.
+2024-01-22 15:11:21.6057 | ERROR | Connection id "0HN0R358PRT5F", Request id "0HN0R358PRT5F:00000005": An unhandled exception was thrown by the application.
+2024-01-22 15:11:21.6057 | INFO | Request finished HTTP/1.1 POST http://localhost:5148/api/ceshi - 0 - 200 - application/json;+charset=utf-8 540.1152ms
+2024-01-22 15:18:55.5389 | INFO | User profile is available. Using 'C:\Users\Administrator\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-01-22 15:18:55.6520 | INFO | Now listening on: http://localhost:5148
+2024-01-22 15:18:55.6520 | INFO | Application started. Press Ctrl+C to shut down.
+2024-01-22 15:18:55.6520 | INFO | Hosting environment: Development
+2024-01-22 15:18:55.6520 | INFO | Content root path: D:\BaiduSyncdisk\webapi.net7+sqlsugar\webapi.net7.sqlsugar\webapi.net7.sqlsugar
+2024-01-22 15:18:58.4521 | INFO | Request starting HTTP/1.1 GET http://localhost:5148/swagger/index.html - -
+2024-01-22 15:18:58.6785 | INFO | Request starting HTTP/1.1 GET http://localhost:5148/_framework/aspnetcore-browser-refresh.js - -
+2024-01-22 15:18:58.6785 | INFO | Request finished HTTP/1.1 GET http://localhost:5148/swagger/index.html - - - 200 - text/html;charset=utf-8 230.0768ms
+2024-01-22 15:18:58.6785 | INFO | Request finished HTTP/1.1 GET http://localhost:5148/_framework/aspnetcore-browser-refresh.js - - - 200 13776 application/javascript;+charset=utf-8 2.4662ms
+2024-01-22 15:18:58.6785 | INFO | Request starting HTTP/1.1 GET http://localhost:5148/_vs/browserLink - -
+2024-01-22 15:18:58.7193 | INFO | Request finished HTTP/1.1 GET http://localhost:5148/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 35.9864ms
+2024-01-22 15:18:58.7613 | INFO | Request starting HTTP/1.1 GET http://localhost:5148/swagger/V1/swagger.json - -
+2024-01-22 15:18:59.0248 | INFO | Request finished HTTP/1.1 GET http://localhost:5148/swagger/V1/swagger.json - - - 200 - application/json;charset=utf-8 263.6812ms
+2024-01-22 15:19:15.9498 | INFO | Request starting HTTP/1.1 POST http://localhost:5148/api/GetToken application/json 46
+2024-01-22 15:19:15.9633 | WARN | Failed to determine the https port for redirect.
+2024-01-22 15:19:16.0206 | INFO | CORS policy execution successful.
+2024-01-22 15:19:16.0831 | INFO | Executing endpoint 'webapi.net7.sqlsugar.Controllers.ApiTokenController.GetToken (webapi.net7.sqlsugar)'
+2024-01-22 15:19:16.1174 | INFO | Route matched with {action = "GetToken", controller = "ApiToken"}. Executing controller action with signature webapi.net7.sqlsugar.MessageToken GetToken(webapi.net7.sqlsugar.User) on controller webapi.net7.sqlsugar.Controllers.ApiTokenController (webapi.net7.sqlsugar).
+2024-01-22 15:19:16.1453 | INFO | Executing action method webapi.net7.sqlsugar.Controllers.ApiTokenController.GetToken (webapi.net7.sqlsugar) - Validation state: Valid
+2024-01-22 15:19:16.1453 | INFO | Executed action method webapi.net7.sqlsugar.Controllers.ApiTokenController.GetToken (webapi.net7.sqlsugar), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 1.0598ms.
+2024-01-22 15:19:16.1606 | INFO | Executing ObjectResult, writing value of type 'webapi.net7.sqlsugar.MessageToken'.
+2024-01-22 15:19:16.1606 | INFO | Executed action webapi.net7.sqlsugar.Controllers.ApiTokenController.GetToken (webapi.net7.sqlsugar) in 44.4432ms
+2024-01-22 15:19:16.1606 | INFO | Executed endpoint 'webapi.net7.sqlsugar.Controllers.ApiTokenController.GetToken (webapi.net7.sqlsugar)'
+2024-01-22 15:19:16.4441 | ERROR | An unhandled exception has occurred while executing the request.
+2024-01-22 15:19:16.4441 | WARN | The response has already started, the error page middleware will not be executed.
+2024-01-22 15:19:16.4564 | ERROR | Connection id "0HN0R39IHSNT2", Request id "0HN0R39IHSNT2:00000004": An unhandled exception was thrown by the application.
+2024-01-22 15:19:16.4564 | INFO | Request finished HTTP/1.1 POST http://localhost:5148/api/GetToken application/json 46 - 200 - application/json;+charset=utf-8 507.0477ms
+2024-01-22 15:20:09.9554 | INFO | User profile is available. Using 'C:\Users\Administrator\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-01-22 15:20:10.0756 | INFO | Now listening on: http://localhost:5148
+2024-01-22 15:20:10.0756 | INFO | Application started. Press Ctrl+C to shut down.
+2024-01-22 15:20:10.0756 | INFO | Hosting environment: Development
+2024-01-22 15:20:10.0813 | INFO | Content root path: D:\BaiduSyncdisk\webapi.net7+sqlsugar\webapi.net7.sqlsugar\webapi.net7.sqlsugar
+2024-01-22 15:20:10.4417 | INFO | Request starting HTTP/1.1 GET http://localhost:5148/swagger/index.html - -
+2024-01-22 15:20:10.7099 | INFO | Request starting HTTP/1.1 GET http://localhost:5148/_framework/aspnetcore-browser-refresh.js - -
+2024-01-22 15:20:10.7099 | INFO | Request finished HTTP/1.1 GET http://localhost:5148/swagger/index.html - - - 200 - text/html;charset=utf-8 271.9693ms
+2024-01-22 15:20:10.7099 | INFO | Request finished HTTP/1.1 GET http://localhost:5148/_framework/aspnetcore-browser-refresh.js - - - 200 13776 application/javascript;+charset=utf-8 2.1610ms
+2024-01-22 15:20:10.7099 | INFO | Request starting HTTP/1.1 GET http://localhost:5148/_vs/browserLink - -
+2024-01-22 15:20:10.7611 | INFO | Request finished HTTP/1.1 GET http://localhost:5148/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 45.7717ms
+2024-01-22 15:20:10.8024 | INFO | Request starting HTTP/1.1 GET http://localhost:5148/swagger/V1/swagger.json - -
+2024-01-22 15:20:11.1014 | INFO | Request finished HTTP/1.1 GET http://localhost:5148/swagger/V1/swagger.json - - - 200 - application/json;charset=utf-8 299.2350ms
+2024-01-22 15:20:17.7036 | INFO | Request starting HTTP/1.1 POST http://localhost:5148/api/ceshi - 0
+2024-01-22 15:20:17.7266 | WARN | Failed to determine the https port for redirect.
+2024-01-22 15:20:17.7895 | INFO | CORS policy execution successful.
+2024-01-22 15:20:17.8478 | INFO | Executing endpoint 'webapi.net7.sqlsugar.Controllers.ApiLoginController.ceshi (webapi.net7.sqlsugar)'
+2024-01-22 15:20:17.8478 | INFO | Route matched with {action = "ceshi", controller = "ApiLogin"}. Executing controller action with signature System.Object ceshi() on controller webapi.net7.sqlsugar.Controllers.ApiLoginController (webapi.net7.sqlsugar).
+2024-01-22 15:20:17.8616 | INFO | Executing action method webapi.net7.sqlsugar.Controllers.ApiLoginController.ceshi (webapi.net7.sqlsugar) - Validation state: Valid
+2024-01-22 15:20:17.8616 | INFO | Executed action method webapi.net7.sqlsugar.Controllers.ApiLoginController.ceshi (webapi.net7.sqlsugar), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 0.1082ms.
+2024-01-22 15:20:17.8616 | INFO | Executing ObjectResult, writing value of type '<>f__AnonymousType5`1[[System.String, System.Private.CoreLib, Version=7.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2024-01-22 15:20:17.8774 | INFO | Executed action webapi.net7.sqlsugar.Controllers.ApiLoginController.ceshi (webapi.net7.sqlsugar) in 17.707ms
+2024-01-22 15:20:17.8774 | INFO | Executed endpoint 'webapi.net7.sqlsugar.Controllers.ApiLoginController.ceshi (webapi.net7.sqlsugar)'
+2024-01-22 15:20:18.1830 | ERROR | An unhandled exception has occurred while executing the request.
+2024-01-22 15:20:18.1830 | WARN | The response has already started, the error page middleware will not be executed.
+2024-01-22 15:20:18.1976 | ERROR | Connection id "0HN0R3A8N0M0K", Request id "0HN0R3A8N0M0K:00000004": An unhandled exception was thrown by the application.
+2024-01-22 15:20:18.1976 | INFO | Request finished HTTP/1.1 POST http://localhost:5148/api/ceshi - 0 - 200 - application/json;+charset=utf-8 494.2776ms
+2024-01-22 15:24:43.9988 | INFO | User profile is available. Using 'C:\Users\Administrator\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-01-22 15:24:44.1158 | INFO | Now listening on: http://localhost:5148
+2024-01-22 15:24:44.1158 | INFO | Application started. Press Ctrl+C to shut down.
+2024-01-22 15:24:44.1158 | INFO | Hosting environment: Development
+2024-01-22 15:24:44.1158 | INFO | Content root path: D:\BaiduSyncdisk\webapi.net7+sqlsugar\webapi.net7.sqlsugar\webapi.net7.sqlsugar
+2024-01-22 15:24:47.0277 | INFO | Request starting HTTP/1.1 GET http://localhost:5148/swagger/index.html - -
+2024-01-22 15:24:47.2709 | INFO | Request finished HTTP/1.1 GET http://localhost:5148/swagger/index.html - - - 200 - text/html;charset=utf-8 247.1623ms
+2024-01-22 15:24:47.2709 | INFO | Request starting HTTP/1.1 GET http://localhost:5148/_vs/browserLink - -
+2024-01-22 15:24:47.2709 | INFO | Request starting HTTP/1.1 GET http://localhost:5148/_framework/aspnetcore-browser-refresh.js - -
+2024-01-22 15:24:47.2709 | INFO | Request finished HTTP/1.1 GET http://localhost:5148/_framework/aspnetcore-browser-refresh.js - - - 200 13776 application/javascript;+charset=utf-8 2.2468ms
+2024-01-22 15:24:47.3254 | INFO | Request finished HTTP/1.1 GET http://localhost:5148/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 49.5746ms
+2024-01-22 15:24:47.3650 | INFO | Request starting HTTP/1.1 GET http://localhost:5148/swagger/V1/swagger.json - -
+2024-01-22 15:24:47.6405 | INFO | Request finished HTTP/1.1 GET http://localhost:5148/swagger/V1/swagger.json - - - 200 - application/json;charset=utf-8 275.5643ms
+2024-01-22 15:24:53.0078 | INFO | Request starting HTTP/1.1 POST http://localhost:5148/api/ceshi - 0
+2024-01-22 15:24:53.0253 | WARN | Failed to determine the https port for redirect.
+2024-01-22 15:24:53.0845 | INFO | CORS policy execution successful.
+2024-01-22 15:24:53.1623 | INFO | Executing endpoint 'webapi.net7.sqlsugar.Controllers.ApiLoginController.ceshi (webapi.net7.sqlsugar)'
+2024-01-22 15:24:53.1768 | INFO | Route matched with {action = "ceshi", controller = "ApiLogin"}. Executing controller action with signature System.Object ceshi() on controller webapi.net7.sqlsugar.Controllers.ApiLoginController (webapi.net7.sqlsugar).
+2024-01-22 15:24:53.1768 | INFO | Executing action method webapi.net7.sqlsugar.Controllers.ApiLoginController.ceshi (webapi.net7.sqlsugar) - Validation state: Valid
+2024-01-22 15:24:53.1768 | INFO | Executed action method webapi.net7.sqlsugar.Controllers.ApiLoginController.ceshi (webapi.net7.sqlsugar), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 0.2729ms.
+2024-01-22 15:24:53.1898 | INFO | Executing ObjectResult, writing value of type '<>f__AnonymousType5`1[[System.String, System.Private.CoreLib, Version=7.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2024-01-22 15:24:53.1898 | INFO | Executed action webapi.net7.sqlsugar.Controllers.ApiLoginController.ceshi (webapi.net7.sqlsugar) in 19.9372ms
+2024-01-22 15:24:53.1898 | INFO | Executed endpoint 'webapi.net7.sqlsugar.Controllers.ApiLoginController.ceshi (webapi.net7.sqlsugar)'
+2024-01-22 15:24:53.4675 | ERROR | An unhandled exception has occurred while executing the request.
+2024-01-22 15:24:53.4675 | WARN | The response has already started, the error page middleware will not be executed.
+2024-01-22 15:24:53.4803 | ERROR | Connection id "0HN0R3CQEABBF", Request id "0HN0R3CQEABBF:00000003": An unhandled exception was thrown by the application.
+2024-01-22 15:24:53.4803 | INFO | Request finished HTTP/1.1 POST http://localhost:5148/api/ceshi - 0 - 200 - application/json;+charset=utf-8 472.6616ms
+2024-01-22 15:25:10.9382 | INFO | Request starting HTTP/1.1 POST http://localhost:5148/api/ceshi - 0
+2024-01-22 15:25:10.9382 | INFO | CORS policy execution successful.
+2024-01-22 15:25:10.9598 | INFO | Executing endpoint 'webapi.net7.sqlsugar.Controllers.ApiLoginController.ceshi (webapi.net7.sqlsugar)'
+2024-01-22 15:25:10.9598 | INFO | Route matched with {action = "ceshi", controller = "ApiLogin"}. Executing controller action with signature System.Object ceshi() on controller webapi.net7.sqlsugar.Controllers.ApiLoginController (webapi.net7.sqlsugar).
+2024-01-22 15:25:10.9598 | INFO | Executing action method webapi.net7.sqlsugar.Controllers.ApiLoginController.ceshi (webapi.net7.sqlsugar) - Validation state: Valid
+2024-01-22 15:25:10.9598 | INFO | Executed action method webapi.net7.sqlsugar.Controllers.ApiLoginController.ceshi (webapi.net7.sqlsugar), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 0.029ms.
+2024-01-22 15:25:10.9598 | INFO | Executing ObjectResult, writing value of type '<>f__AnonymousType5`1[[System.String, System.Private.CoreLib, Version=7.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2024-01-22 15:25:10.9598 | INFO | Executed action webapi.net7.sqlsugar.Controllers.ApiLoginController.ceshi (webapi.net7.sqlsugar) in 0.7615ms
+2024-01-22 15:25:10.9598 | INFO | Executed endpoint 'webapi.net7.sqlsugar.Controllers.ApiLoginController.ceshi (webapi.net7.sqlsugar)'
+2024-01-22 15:25:10.9598 | ERROR | An unhandled exception has occurred while executing the request.
+2024-01-22 15:25:10.9726 | WARN | The response has already started, the error page middleware will not be executed.
+2024-01-22 15:25:10.9726 | ERROR | Connection id "0HN0R3CQEABBE", Request id "0HN0R3CQEABBE:00000003": An unhandled exception was thrown by the application.
+2024-01-22 15:25:10.9726 | INFO | Request finished HTTP/1.1 POST http://localhost:5148/api/ceshi - 0 - 200 - application/json;+charset=utf-8 40.6690ms
+2024-01-22 15:25:16.2951 | INFO | Request starting HTTP/1.1 POST http://localhost:5148/api/ceshi - 0
+2024-01-22 15:25:16.2951 | INFO | CORS policy execution successful.
+2024-01-22 15:25:16.2951 | INFO | Executing endpoint 'webapi.net7.sqlsugar.Controllers.ApiLoginController.ceshi (webapi.net7.sqlsugar)'
+2024-01-22 15:25:16.2951 | INFO | Route matched with {action = "ceshi", controller = "ApiLogin"}. Executing controller action with signature System.Object ceshi() on controller webapi.net7.sqlsugar.Controllers.ApiLoginController (webapi.net7.sqlsugar).
+2024-01-22 15:25:16.2951 | INFO | Executing action method webapi.net7.sqlsugar.Controllers.ApiLoginController.ceshi (webapi.net7.sqlsugar) - Validation state: Valid
+2024-01-22 15:25:16.2951 | INFO | Executed action method webapi.net7.sqlsugar.Controllers.ApiLoginController.ceshi (webapi.net7.sqlsugar), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 0.0056ms.
+2024-01-22 15:25:16.2951 | INFO | Executing ObjectResult, writing value of type '<>f__AnonymousType5`1[[System.String, System.Private.CoreLib, Version=7.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2024-01-22 15:25:16.2951 | INFO | Executed action webapi.net7.sqlsugar.Controllers.ApiLoginController.ceshi (webapi.net7.sqlsugar) in 0.578ms
+2024-01-22 15:25:16.2951 | INFO | Executed endpoint 'webapi.net7.sqlsugar.Controllers.ApiLoginController.ceshi (webapi.net7.sqlsugar)'
+2024-01-22 15:25:16.3076 | ERROR | An unhandled exception has occurred while executing the request.
+2024-01-22 15:25:16.3076 | WARN | The response has already started, the error page middleware will not be executed.
+2024-01-22 15:25:16.3184 | ERROR | Connection id "0HN0R3CQEABBG", Request id "0HN0R3CQEABBG:00000001": An unhandled exception was thrown by the application.
+2024-01-22 15:25:16.3184 | INFO | Request finished HTTP/1.1 POST http://localhost:5148/api/ceshi - 0 - 200 - application/json;+charset=utf-8 23.1693ms
+2024-01-22 15:25:17.2999 | INFO | Request starting HTTP/1.1 POST http://localhost:5148/api/ceshi - 0
+2024-01-22 15:25:17.2999 | INFO | CORS policy execution successful.
+2024-01-22 15:25:17.2999 | INFO | Executing endpoint 'webapi.net7.sqlsugar.Controllers.ApiLoginController.ceshi (webapi.net7.sqlsugar)'
+2024-01-22 15:25:17.2999 | INFO | Route matched with {action = "ceshi", controller = "ApiLogin"}. Executing controller action with signature System.Object ceshi() on controller webapi.net7.sqlsugar.Controllers.ApiLoginController (webapi.net7.sqlsugar).
+2024-01-22 15:25:17.2999 | INFO | Executing action method webapi.net7.sqlsugar.Controllers.ApiLoginController.ceshi (webapi.net7.sqlsugar) - Validation state: Valid
+2024-01-22 15:25:17.2999 | INFO | Executed action method webapi.net7.sqlsugar.Controllers.ApiLoginController.ceshi (webapi.net7.sqlsugar), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 0.0053ms.
+2024-01-22 15:25:17.2999 | INFO | Executing ObjectResult, writing value of type '<>f__AnonymousType5`1[[System.String, System.Private.CoreLib, Version=7.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2024-01-22 15:25:17.2999 | INFO | Executed action webapi.net7.sqlsugar.Controllers.ApiLoginController.ceshi (webapi.net7.sqlsugar) in 0.353ms
+2024-01-22 15:25:17.2999 | INFO | Executed endpoint 'webapi.net7.sqlsugar.Controllers.ApiLoginController.ceshi (webapi.net7.sqlsugar)'
+2024-01-22 15:25:17.2999 | ERROR | An unhandled exception has occurred while executing the request.
+2024-01-22 15:25:17.2999 | WARN | The response has already started, the error page middleware will not be executed.
+2024-01-22 15:25:17.3155 | ERROR | Connection id "0HN0R3CQEABBH", Request id "0HN0R3CQEABBH:00000001": An unhandled exception was thrown by the application.
+2024-01-22 15:25:17.3155 | INFO | Request finished HTTP/1.1 POST http://localhost:5148/api/ceshi - 0 - 200 - application/json;+charset=utf-8 15.1889ms
+2024-01-22 15:25:17.7687 | INFO | Request starting HTTP/1.1 POST http://localhost:5148/api/ceshi - 0
+2024-01-22 15:25:17.7687 | INFO | CORS policy execution successful.
+2024-01-22 15:25:17.7687 | INFO | Executing endpoint 'webapi.net7.sqlsugar.Controllers.ApiLoginController.ceshi (webapi.net7.sqlsugar)'
+2024-01-22 15:25:17.7687 | INFO | Route matched with {action = "ceshi", controller = "ApiLogin"}. Executing controller action with signature System.Object ceshi() on controller webapi.net7.sqlsugar.Controllers.ApiLoginController (webapi.net7.sqlsugar).
+2024-01-22 15:25:17.7687 | INFO | Executing action method webapi.net7.sqlsugar.Controllers.ApiLoginController.ceshi (webapi.net7.sqlsugar) - Validation state: Valid
+2024-01-22 15:25:17.7687 | INFO | Executed action method webapi.net7.sqlsugar.Controllers.ApiLoginController.ceshi (webapi.net7.sqlsugar), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 0.0047ms.
+2024-01-22 15:25:17.7687 | INFO | Executing ObjectResult, writing value of type '<>f__AnonymousType5`1[[System.String, System.Private.CoreLib, Version=7.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2024-01-22 15:25:17.7687 | INFO | Executed action webapi.net7.sqlsugar.Controllers.ApiLoginController.ceshi (webapi.net7.sqlsugar) in 0.4894ms
+2024-01-22 15:25:17.7687 | INFO | Executed endpoint 'webapi.net7.sqlsugar.Controllers.ApiLoginController.ceshi (webapi.net7.sqlsugar)'
+2024-01-22 15:25:17.7687 | ERROR | An unhandled exception has occurred while executing the request.
+2024-01-22 15:25:17.7687 | WARN | The response has already started, the error page middleware will not be executed.
+2024-01-22 15:25:17.7845 | ERROR | Connection id "0HN0R3CQEABBI", Request id "0HN0R3CQEABBI:00000001": An unhandled exception was thrown by the application.
+2024-01-22 15:25:17.7845 | INFO | Request finished HTTP/1.1 POST http://localhost:5148/api/ceshi - 0 - 200 - application/json;+charset=utf-8 15.4827ms
+2024-01-22 15:25:17.9837 | INFO | Request starting HTTP/1.1 POST http://localhost:5148/api/ceshi - 0
+2024-01-22 15:25:17.9837 | INFO | CORS policy execution successful.
+2024-01-22 15:25:17.9837 | INFO | Executing endpoint 'webapi.net7.sqlsugar.Controllers.ApiLoginController.ceshi (webapi.net7.sqlsugar)'
+2024-01-22 15:25:17.9837 | INFO | Route matched with {action = "ceshi", controller = "ApiLogin"}. Executing controller action with signature System.Object ceshi() on controller webapi.net7.sqlsugar.Controllers.ApiLoginController (webapi.net7.sqlsugar).
+2024-01-22 15:25:17.9837 | INFO | Executing action method webapi.net7.sqlsugar.Controllers.ApiLoginController.ceshi (webapi.net7.sqlsugar) - Validation state: Valid
+2024-01-22 15:25:17.9837 | INFO | Executed action method webapi.net7.sqlsugar.Controllers.ApiLoginController.ceshi (webapi.net7.sqlsugar), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 0.0057ms.
+2024-01-22 15:25:17.9837 | INFO | Executing ObjectResult, writing value of type '<>f__AnonymousType5`1[[System.String, System.Private.CoreLib, Version=7.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2024-01-22 15:25:17.9837 | INFO | Executed action webapi.net7.sqlsugar.Controllers.ApiLoginController.ceshi (webapi.net7.sqlsugar) in 0.5612ms
+2024-01-22 15:25:17.9837 | INFO | Executed endpoint 'webapi.net7.sqlsugar.Controllers.ApiLoginController.ceshi (webapi.net7.sqlsugar)'
+2024-01-22 15:25:17.9918 | ERROR | An unhandled exception has occurred while executing the request.
+2024-01-22 15:25:17.9918 | WARN | The response has already started, the error page middleware will not be executed.
+2024-01-22 15:25:17.9918 | ERROR | Connection id "0HN0R3CQEABBJ", Request id "0HN0R3CQEABBJ:00000001": An unhandled exception was thrown by the application.
+2024-01-22 15:25:17.9918 | INFO | Request finished HTTP/1.1 POST http://localhost:5148/api/ceshi - 0 - 200 - application/json;+charset=utf-8 16.2476ms
+2024-01-22 15:25:18.1965 | INFO | Request starting HTTP/1.1 POST http://localhost:5148/api/ceshi - 0
+2024-01-22 15:25:18.1965 | INFO | CORS policy execution successful.
+2024-01-22 15:25:18.1965 | INFO | Executing endpoint 'webapi.net7.sqlsugar.Controllers.ApiLoginController.ceshi (webapi.net7.sqlsugar)'
+2024-01-22 15:25:18.1965 | INFO | Route matched with {action = "ceshi", controller = "ApiLogin"}. Executing controller action with signature System.Object ceshi() on controller webapi.net7.sqlsugar.Controllers.ApiLoginController (webapi.net7.sqlsugar).
+2024-01-22 15:25:18.1965 | INFO | Executing action method webapi.net7.sqlsugar.Controllers.ApiLoginController.ceshi (webapi.net7.sqlsugar) - Validation state: Valid
+2024-01-22 15:25:18.1965 | INFO | Executed action method webapi.net7.sqlsugar.Controllers.ApiLoginController.ceshi (webapi.net7.sqlsugar), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 0.0043ms.
+2024-01-22 15:25:18.1965 | INFO | Executing ObjectResult, writing value of type '<>f__AnonymousType5`1[[System.String, System.Private.CoreLib, Version=7.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2024-01-22 15:25:18.1965 | INFO | Executed action webapi.net7.sqlsugar.Controllers.ApiLoginController.ceshi (webapi.net7.sqlsugar) in 0.3339ms
+2024-01-22 15:25:18.1965 | INFO | Executed endpoint 'webapi.net7.sqlsugar.Controllers.ApiLoginController.ceshi (webapi.net7.sqlsugar)'
+2024-01-22 15:25:18.1965 | ERROR | An unhandled exception has occurred while executing the request.
+2024-01-22 15:25:18.2056 | WARN | The response has already started, the error page middleware will not be executed.
+2024-01-22 15:25:18.2056 | ERROR | Connection id "0HN0R3CQEABBK", Request id "0HN0R3CQEABBK:00000001": An unhandled exception was thrown by the application.
+2024-01-22 15:25:18.2056 | INFO | Request finished HTTP/1.1 POST http://localhost:5148/api/ceshi - 0 - 200 - application/json;+charset=utf-8 17.3018ms
+2024-01-22 15:25:18.4094 | INFO | Request starting HTTP/1.1 POST http://localhost:5148/api/ceshi - 0
+2024-01-22 15:25:18.4094 | INFO | CORS policy execution successful.
+2024-01-22 15:25:18.4094 | INFO | Executing endpoint 'webapi.net7.sqlsugar.Controllers.ApiLoginController.ceshi (webapi.net7.sqlsugar)'
+2024-01-22 15:25:18.4094 | INFO | Route matched with {action = "ceshi", controller = "ApiLogin"}. Executing controller action with signature System.Object ceshi() on controller webapi.net7.sqlsugar.Controllers.ApiLoginController (webapi.net7.sqlsugar).
+2024-01-22 15:25:18.4094 | INFO | Executing action method webapi.net7.sqlsugar.Controllers.ApiLoginController.ceshi (webapi.net7.sqlsugar) - Validation state: Valid
+2024-01-22 15:25:18.4094 | INFO | Executed action method webapi.net7.sqlsugar.Controllers.ApiLoginController.ceshi (webapi.net7.sqlsugar), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 0.0032ms.
+2024-01-22 15:25:18.4094 | INFO | Executing ObjectResult, writing value of type '<>f__AnonymousType5`1[[System.String, System.Private.CoreLib, Version=7.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2024-01-22 15:25:18.4094 | INFO | Executed action webapi.net7.sqlsugar.Controllers.ApiLoginController.ceshi (webapi.net7.sqlsugar) in 0.241ms
+2024-01-22 15:25:18.4094 | INFO | Executed endpoint 'webapi.net7.sqlsugar.Controllers.ApiLoginController.ceshi (webapi.net7.sqlsugar)'
+2024-01-22 15:25:18.4094 | ERROR | An unhandled exception has occurred while executing the request.
+2024-01-22 15:25:18.4094 | WARN | The response has already started, the error page middleware will not be executed.
+2024-01-22 15:25:18.4275 | ERROR | Connection id "0HN0R3CQEABBL", Request id "0HN0R3CQEABBL:00000001": An unhandled exception was thrown by the application.
+2024-01-22 15:25:18.4275 | INFO | Request finished HTTP/1.1 POST http://localhost:5148/api/ceshi - 0 - 200 - application/json;+charset=utf-8 17.8351ms
+2024-01-22 15:25:18.9825 | INFO | Request starting HTTP/1.1 POST http://localhost:5148/api/ceshi - 0
+2024-01-22 15:25:18.9825 | INFO | CORS policy execution successful.
+2024-01-22 15:25:18.9825 | INFO | Executing endpoint 'webapi.net7.sqlsugar.Controllers.ApiLoginController.ceshi (webapi.net7.sqlsugar)'
+2024-01-22 15:25:18.9825 | INFO | Route matched with {action = "ceshi", controller = "ApiLogin"}. Executing controller action with signature System.Object ceshi() on controller webapi.net7.sqlsugar.Controllers.ApiLoginController (webapi.net7.sqlsugar).
+2024-01-22 15:25:18.9825 | INFO | Executing action method webapi.net7.sqlsugar.Controllers.ApiLoginController.ceshi (webapi.net7.sqlsugar) - Validation state: Valid
+2024-01-22 15:25:18.9825 | INFO | Executed action method webapi.net7.sqlsugar.Controllers.ApiLoginController.ceshi (webapi.net7.sqlsugar), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 0.0051ms.
+2024-01-22 15:25:18.9825 | INFO | Executing ObjectResult, writing value of type '<>f__AnonymousType5`1[[System.String, System.Private.CoreLib, Version=7.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2024-01-22 15:25:18.9825 | INFO | Executed action webapi.net7.sqlsugar.Controllers.ApiLoginController.ceshi (webapi.net7.sqlsugar) in 0.4977ms
+2024-01-22 15:25:18.9825 | INFO | Executed endpoint 'webapi.net7.sqlsugar.Controllers.ApiLoginController.ceshi (webapi.net7.sqlsugar)'
+2024-01-22 15:25:18.9896 | ERROR | An unhandled exception has occurred while executing the request.
+2024-01-22 15:25:18.9896 | WARN | The response has already started, the error page middleware will not be executed.
+2024-01-22 15:25:18.9896 | ERROR | Connection id "0HN0R3CQEABBM", Request id "0HN0R3CQEABBM:00000001": An unhandled exception was thrown by the application.
+2024-01-22 15:25:18.9896 | INFO | Request finished HTTP/1.1 POST http://localhost:5148/api/ceshi - 0 - 200 - application/json;+charset=utf-8 15.0402ms
+2024-01-22 15:25:19.5424 | INFO | Request starting HTTP/1.1 POST http://localhost:5148/api/ceshi - 0
+2024-01-22 15:25:19.5424 | INFO | CORS policy execution successful.
+2024-01-22 15:25:19.5424 | INFO | Executing endpoint 'webapi.net7.sqlsugar.Controllers.ApiLoginController.ceshi (webapi.net7.sqlsugar)'
+2024-01-22 15:25:19.5424 | INFO | Route matched with {action = "ceshi", controller = "ApiLogin"}. Executing controller action with signature System.Object ceshi() on controller webapi.net7.sqlsugar.Controllers.ApiLoginController (webapi.net7.sqlsugar).
+2024-01-22 15:25:19.5424 | INFO | Executing action method webapi.net7.sqlsugar.Controllers.ApiLoginController.ceshi (webapi.net7.sqlsugar) - Validation state: Valid
+2024-01-22 15:25:19.5424 | INFO | Executed action method webapi.net7.sqlsugar.Controllers.ApiLoginController.ceshi (webapi.net7.sqlsugar), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 0.0061ms.
+2024-01-22 15:25:19.5424 | INFO | Executing ObjectResult, writing value of type '<>f__AnonymousType5`1[[System.String, System.Private.CoreLib, Version=7.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2024-01-22 15:25:19.5424 | INFO | Executed action webapi.net7.sqlsugar.Controllers.ApiLoginController.ceshi (webapi.net7.sqlsugar) in 0.7418ms
+2024-01-22 15:25:19.5424 | INFO | Executed endpoint 'webapi.net7.sqlsugar.Controllers.ApiLoginController.ceshi (webapi.net7.sqlsugar)'
+2024-01-22 15:25:19.5498 | ERROR | An unhandled exception has occurred while executing the request.
+2024-01-22 15:25:19.5498 | WARN | The response has already started, the error page middleware will not be executed.
+2024-01-22 15:25:19.5498 | ERROR | Connection id "0HN0R3CQEABBN", Request id "0HN0R3CQEABBN:00000001": An unhandled exception was thrown by the application.
+2024-01-22 15:25:19.5498 | INFO | Request finished HTTP/1.1 POST http://localhost:5148/api/ceshi - 0 - 200 - application/json;+charset=utf-8 17.1419ms
+2024-01-22 15:25:21.7790 | INFO | Request starting HTTP/1.1 POST http://localhost:5148/api/ceshi - 0
+2024-01-22 15:25:21.7790 | INFO | CORS policy execution successful.
+2024-01-22 15:25:21.7790 | INFO | Executing endpoint 'webapi.net7.sqlsugar.Controllers.ApiLoginController.ceshi (webapi.net7.sqlsugar)'
+2024-01-22 15:25:21.7790 | INFO | Route matched with {action = "ceshi", controller = "ApiLogin"}. Executing controller action with signature System.Object ceshi() on controller webapi.net7.sqlsugar.Controllers.ApiLoginController (webapi.net7.sqlsugar).
+2024-01-22 15:25:21.7790 | INFO | Executing action method webapi.net7.sqlsugar.Controllers.ApiLoginController.ceshi (webapi.net7.sqlsugar) - Validation state: Valid
+2024-01-22 15:25:21.7790 | INFO | Executed action method webapi.net7.sqlsugar.Controllers.ApiLoginController.ceshi (webapi.net7.sqlsugar), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 0.0048ms.
+2024-01-22 15:25:21.7790 | INFO | Executing ObjectResult, writing value of type '<>f__AnonymousType5`1[[System.String, System.Private.CoreLib, Version=7.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2024-01-22 15:25:21.7790 | INFO | Executed action webapi.net7.sqlsugar.Controllers.ApiLoginController.ceshi (webapi.net7.sqlsugar) in 0.4235ms
+2024-01-22 15:25:21.7790 | INFO | Executed endpoint 'webapi.net7.sqlsugar.Controllers.ApiLoginController.ceshi (webapi.net7.sqlsugar)'
+2024-01-22 15:25:21.7935 | ERROR | An unhandled exception has occurred while executing the request.
+2024-01-22 15:25:21.7935 | WARN | The response has already started, the error page middleware will not be executed.
+2024-01-22 15:25:21.8051 | ERROR | Connection id "0HN0R3CQEABBO", Request id "0HN0R3CQEABBO:00000001": An unhandled exception was thrown by the application.
+2024-01-22 15:25:21.8051 | INFO | Request finished HTTP/1.1 POST http://localhost:5148/api/ceshi - 0 - 200 - application/json;+charset=utf-8 25.7375ms
+2024-01-22 15:25:22.3167 | INFO | Request starting HTTP/1.1 POST http://localhost:5148/api/ceshi - 0
+2024-01-22 15:25:22.3167 | INFO | CORS policy execution successful.
+2024-01-22 15:25:22.3167 | INFO | Executing endpoint 'webapi.net7.sqlsugar.Controllers.ApiLoginController.ceshi (webapi.net7.sqlsugar)'
+2024-01-22 15:25:22.3167 | INFO | Route matched with {action = "ceshi", controller = "ApiLogin"}. Executing controller action with signature System.Object ceshi() on controller webapi.net7.sqlsugar.Controllers.ApiLoginController (webapi.net7.sqlsugar).
+2024-01-22 15:25:22.3167 | INFO | Executing action method webapi.net7.sqlsugar.Controllers.ApiLoginController.ceshi (webapi.net7.sqlsugar) - Validation state: Valid
+2024-01-22 15:25:22.3167 | INFO | Executed action method webapi.net7.sqlsugar.Controllers.ApiLoginController.ceshi (webapi.net7.sqlsugar), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 0.0058ms.
+2024-01-22 15:25:22.3167 | INFO | Executing ObjectResult, writing value of type '<>f__AnonymousType5`1[[System.String, System.Private.CoreLib, Version=7.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2024-01-22 15:25:22.3167 | INFO | Executed action webapi.net7.sqlsugar.Controllers.ApiLoginController.ceshi (webapi.net7.sqlsugar) in 0.5438ms
+2024-01-22 15:25:22.3167 | INFO | Executed endpoint 'webapi.net7.sqlsugar.Controllers.ApiLoginController.ceshi (webapi.net7.sqlsugar)'
+2024-01-22 15:25:22.3167 | ERROR | An unhandled exception has occurred while executing the request.
+2024-01-22 15:25:22.3167 | WARN | The response has already started, the error page middleware will not be executed.
+2024-01-22 15:25:22.3323 | ERROR | Connection id "0HN0R3CQEABBP", Request id "0HN0R3CQEABBP:00000001": An unhandled exception was thrown by the application.
+2024-01-22 15:25:22.3323 | INFO | Request finished HTTP/1.1 POST http://localhost:5148/api/ceshi - 0 - 200 - application/json;+charset=utf-8 15.2681ms
+2024-01-22 15:25:22.7129 | INFO | Request starting HTTP/1.1 POST http://localhost:5148/api/ceshi - 0
+2024-01-22 15:25:22.7129 | INFO | CORS policy execution successful.
+2024-01-22 15:25:22.7129 | INFO | Executing endpoint 'webapi.net7.sqlsugar.Controllers.ApiLoginController.ceshi (webapi.net7.sqlsugar)'
+2024-01-22 15:25:22.7129 | INFO | Route matched with {action = "ceshi", controller = "ApiLogin"}. Executing controller action with signature System.Object ceshi() on controller webapi.net7.sqlsugar.Controllers.ApiLoginController (webapi.net7.sqlsugar).
+2024-01-22 15:25:22.7129 | INFO | Executing action method webapi.net7.sqlsugar.Controllers.ApiLoginController.ceshi (webapi.net7.sqlsugar) - Validation state: Valid
+2024-01-22 15:25:22.7129 | INFO | Executed action method webapi.net7.sqlsugar.Controllers.ApiLoginController.ceshi (webapi.net7.sqlsugar), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 0.0045ms.
+2024-01-22 15:25:22.7129 | INFO | Executing ObjectResult, writing value of type '<>f__AnonymousType5`1[[System.String, System.Private.CoreLib, Version=7.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2024-01-22 15:25:22.7129 | INFO | Executed action webapi.net7.sqlsugar.Controllers.ApiLoginController.ceshi (webapi.net7.sqlsugar) in 0.2406ms
+2024-01-22 15:25:22.7129 | INFO | Executed endpoint 'webapi.net7.sqlsugar.Controllers.ApiLoginController.ceshi (webapi.net7.sqlsugar)'
+2024-01-22 15:25:22.7129 | ERROR | An unhandled exception has occurred while executing the request.
+2024-01-22 15:25:22.7129 | WARN | The response has already started, the error page middleware will not be executed.
+2024-01-22 15:25:22.7281 | ERROR | Connection id "0HN0R3CQEABBQ", Request id "0HN0R3CQEABBQ:00000001": An unhandled exception was thrown by the application.
+2024-01-22 15:25:22.7281 | INFO | Request finished HTTP/1.1 POST http://localhost:5148/api/ceshi - 0 - 200 - application/json;+charset=utf-8 14.9739ms
+2024-01-22 15:25:22.9882 | INFO | Request starting HTTP/1.1 POST http://localhost:5148/api/ceshi - 0
+2024-01-22 15:25:22.9882 | INFO | CORS policy execution successful.
+2024-01-22 15:25:22.9882 | INFO | Executing endpoint 'webapi.net7.sqlsugar.Controllers.ApiLoginController.ceshi (webapi.net7.sqlsugar)'
+2024-01-22 15:25:22.9882 | INFO | Route matched with {action = "ceshi", controller = "ApiLogin"}. Executing controller action with signature System.Object ceshi() on controller webapi.net7.sqlsugar.Controllers.ApiLoginController (webapi.net7.sqlsugar).
+2024-01-22 15:25:22.9882 | INFO | Executing action method webapi.net7.sqlsugar.Controllers.ApiLoginController.ceshi (webapi.net7.sqlsugar) - Validation state: Valid
+2024-01-22 15:25:22.9882 | INFO | Executed action method webapi.net7.sqlsugar.Controllers.ApiLoginController.ceshi (webapi.net7.sqlsugar), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 0.0062ms.
+2024-01-22 15:25:22.9882 | INFO | Executing ObjectResult, writing value of type '<>f__AnonymousType5`1[[System.String, System.Private.CoreLib, Version=7.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2024-01-22 15:25:22.9882 | INFO | Executed action webapi.net7.sqlsugar.Controllers.ApiLoginController.ceshi (webapi.net7.sqlsugar) in 0.6178ms
+2024-01-22 15:25:22.9882 | INFO | Executed endpoint 'webapi.net7.sqlsugar.Controllers.ApiLoginController.ceshi (webapi.net7.sqlsugar)'
+2024-01-22 15:25:22.9882 | ERROR | An unhandled exception has occurred while executing the request.
+2024-01-22 15:25:22.9882 | WARN | The response has already started, the error page middleware will not be executed.
+2024-01-22 15:25:23.0062 | ERROR | Connection id "0HN0R3CQEABBR", Request id "0HN0R3CQEABBR:00000001": An unhandled exception was thrown by the application.
+2024-01-22 15:25:23.0062 | INFO | Request finished HTTP/1.1 POST http://localhost:5148/api/ceshi - 0 - 200 - application/json;+charset=utf-8 17.6631ms
+2024-01-22 15:25:23.2611 | INFO | Request starting HTTP/1.1 POST http://localhost:5148/api/ceshi - 0
+2024-01-22 15:25:23.2611 | INFO | CORS policy execution successful.
+2024-01-22 15:25:23.2611 | INFO | Executing endpoint 'webapi.net7.sqlsugar.Controllers.ApiLoginController.ceshi (webapi.net7.sqlsugar)'
+2024-01-22 15:25:23.2611 | INFO | Route matched with {action = "ceshi", controller = "ApiLogin"}. Executing controller action with signature System.Object ceshi() on controller webapi.net7.sqlsugar.Controllers.ApiLoginController (webapi.net7.sqlsugar).
+2024-01-22 15:25:23.2611 | INFO | Executing action method webapi.net7.sqlsugar.Controllers.ApiLoginController.ceshi (webapi.net7.sqlsugar) - Validation state: Valid
+2024-01-22 15:25:23.2611 | INFO | Executed action method webapi.net7.sqlsugar.Controllers.ApiLoginController.ceshi (webapi.net7.sqlsugar), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 0.0132ms.
+2024-01-22 15:25:23.2611 | INFO | Executing ObjectResult, writing value of type '<>f__AnonymousType5`1[[System.String, System.Private.CoreLib, Version=7.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2024-01-22 15:25:23.2611 | INFO | Executed action webapi.net7.sqlsugar.Controllers.ApiLoginController.ceshi (webapi.net7.sqlsugar) in 0.5946ms
+2024-01-22 15:25:23.2611 | INFO | Executed endpoint 'webapi.net7.sqlsugar.Controllers.ApiLoginController.ceshi (webapi.net7.sqlsugar)'
+2024-01-22 15:25:23.2685 | ERROR | An unhandled exception has occurred while executing the request.
+2024-01-22 15:25:23.2685 | WARN | The response has already started, the error page middleware will not be executed.
+2024-01-22 15:25:23.2685 | ERROR | Connection id "0HN0R3CQEABBS", Request id "0HN0R3CQEABBS:00000001": An unhandled exception was thrown by the application.
+2024-01-22 15:25:23.2685 | INFO | Request finished HTTP/1.1 POST http://localhost:5148/api/ceshi - 0 - 200 - application/json;+charset=utf-8 16.5757ms
+2024-01-22 15:25:27.8268 | INFO | Request starting HTTP/1.1 POST http://localhost:5148/api/ceshi - 0
+2024-01-22 15:25:27.8268 | INFO | CORS policy execution successful.
+2024-01-22 15:25:27.8268 | INFO | Executing endpoint 'webapi.net7.sqlsugar.Controllers.ApiLoginController.ceshi (webapi.net7.sqlsugar)'
+2024-01-22 15:25:27.8268 | INFO | Route matched with {action = "ceshi", controller = "ApiLogin"}. Executing controller action with signature System.Object ceshi() on controller webapi.net7.sqlsugar.Controllers.ApiLoginController (webapi.net7.sqlsugar).
+2024-01-22 15:25:27.8268 | INFO | Executing action method webapi.net7.sqlsugar.Controllers.ApiLoginController.ceshi (webapi.net7.sqlsugar) - Validation state: Valid
+2024-01-22 15:25:27.8268 | INFO | Executed action method webapi.net7.sqlsugar.Controllers.ApiLoginController.ceshi (webapi.net7.sqlsugar), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 0.0047ms.
+2024-01-22 15:25:27.8268 | INFO | Executing ObjectResult, writing value of type '<>f__AnonymousType5`1[[System.String, System.Private.CoreLib, Version=7.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2024-01-22 15:25:27.8268 | INFO | Executed action webapi.net7.sqlsugar.Controllers.ApiLoginController.ceshi (webapi.net7.sqlsugar) in 0.4051ms
+2024-01-22 15:25:27.8268 | INFO | Executed endpoint 'webapi.net7.sqlsugar.Controllers.ApiLoginController.ceshi (webapi.net7.sqlsugar)'
+2024-01-22 15:25:27.8347 | ERROR | An unhandled exception has occurred while executing the request.
+2024-01-22 15:25:27.8347 | WARN | The response has already started, the error page middleware will not be executed.
+2024-01-22 15:25:27.8460 | ERROR | Connection id "0HN0R3CQEABBT", Request id "0HN0R3CQEABBT:00000001": An unhandled exception was thrown by the application.
+2024-01-22 15:25:27.8460 | INFO | Request finished HTTP/1.1 POST http://localhost:5148/api/ceshi - 0 - 200 - application/json;+charset=utf-8 18.9031ms
+2024-01-22 15:25:28.3152 | INFO | Request starting HTTP/1.1 POST http://localhost:5148/api/ceshi - 0
+2024-01-22 15:25:28.3152 | INFO | CORS policy execution successful.
+2024-01-22 15:25:28.3152 | INFO | Executing endpoint 'webapi.net7.sqlsugar.Controllers.ApiLoginController.ceshi (webapi.net7.sqlsugar)'
+2024-01-22 15:25:28.3152 | INFO | Route matched with {action = "ceshi", controller = "ApiLogin"}. Executing controller action with signature System.Object ceshi() on controller webapi.net7.sqlsugar.Controllers.ApiLoginController (webapi.net7.sqlsugar).
+2024-01-22 15:25:28.3152 | INFO | Executing action method webapi.net7.sqlsugar.Controllers.ApiLoginController.ceshi (webapi.net7.sqlsugar) - Validation state: Valid
+2024-01-22 15:25:28.3152 | INFO | Executed action method webapi.net7.sqlsugar.Controllers.ApiLoginController.ceshi (webapi.net7.sqlsugar), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 0.0065ms.
+2024-01-22 15:25:28.3152 | INFO | Executing ObjectResult, writing value of type '<>f__AnonymousType5`1[[System.String, System.Private.CoreLib, Version=7.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2024-01-22 15:25:28.3152 | INFO | Executed action webapi.net7.sqlsugar.Controllers.ApiLoginController.ceshi (webapi.net7.sqlsugar) in 0.5734ms
+2024-01-22 15:25:28.3152 | INFO | Executed endpoint 'webapi.net7.sqlsugar.Controllers.ApiLoginController.ceshi (webapi.net7.sqlsugar)'
+2024-01-22 15:25:28.3152 | ERROR | An unhandled exception has occurred while executing the request.
+2024-01-22 15:25:28.3152 | WARN | The response has already started, the error page middleware will not be executed.
+2024-01-22 15:25:28.3309 | ERROR | Connection id "0HN0R3CQEABBU", Request id "0HN0R3CQEABBU:00000001": An unhandled exception was thrown by the application.
+2024-01-22 15:25:28.3309 | INFO | Request finished HTTP/1.1 POST http://localhost:5148/api/ceshi - 0 - 200 - application/json;+charset=utf-8 15.8429ms
+2024-01-22 15:25:28.5667 | INFO | Request starting HTTP/1.1 POST http://localhost:5148/api/ceshi - 0
+2024-01-22 15:25:28.5667 | INFO | CORS policy execution successful.
+2024-01-22 15:25:28.5667 | INFO | Executing endpoint 'webapi.net7.sqlsugar.Controllers.ApiLoginController.ceshi (webapi.net7.sqlsugar)'
+2024-01-22 15:25:28.5667 | INFO | Route matched with {action = "ceshi", controller = "ApiLogin"}. Executing controller action with signature System.Object ceshi() on controller webapi.net7.sqlsugar.Controllers.ApiLoginController (webapi.net7.sqlsugar).
+2024-01-22 15:25:28.5667 | INFO | Executing action method webapi.net7.sqlsugar.Controllers.ApiLoginController.ceshi (webapi.net7.sqlsugar) - Validation state: Valid
+2024-01-22 15:25:28.5667 | INFO | Executed action method webapi.net7.sqlsugar.Controllers.ApiLoginController.ceshi (webapi.net7.sqlsugar), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 0.0042ms.
+2024-01-22 15:25:28.5667 | INFO | Executing ObjectResult, writing value of type '<>f__AnonymousType5`1[[System.String, System.Private.CoreLib, Version=7.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2024-01-22 15:25:28.5667 | INFO | Executed action webapi.net7.sqlsugar.Controllers.ApiLoginController.ceshi (webapi.net7.sqlsugar) in 0.2707ms
+2024-01-22 15:25:28.5667 | INFO | Executed endpoint 'webapi.net7.sqlsugar.Controllers.ApiLoginController.ceshi (webapi.net7.sqlsugar)'
+2024-01-22 15:25:28.5667 | ERROR | An unhandled exception has occurred while executing the request.
+2024-01-22 15:25:28.5667 | WARN | The response has already started, the error page middleware will not be executed.
+2024-01-22 15:25:28.5836 | ERROR | Connection id "0HN0R3CQEABBV", Request id "0HN0R3CQEABBV:00000001": An unhandled exception was thrown by the application.
+2024-01-22 15:25:28.5836 | INFO | Request finished HTTP/1.1 POST http://localhost:5148/api/ceshi - 0 - 200 - application/json;+charset=utf-8 16.6724ms
+2024-01-22 15:25:28.7930 | INFO | Request starting HTTP/1.1 POST http://localhost:5148/api/ceshi - 0
+2024-01-22 15:25:28.7930 | INFO | CORS policy execution successful.
+2024-01-22 15:25:28.7930 | INFO | Executing endpoint 'webapi.net7.sqlsugar.Controllers.ApiLoginController.ceshi (webapi.net7.sqlsugar)'
+2024-01-22 15:25:28.7930 | INFO | Route matched with {action = "ceshi", controller = "ApiLogin"}. Executing controller action with signature System.Object ceshi() on controller webapi.net7.sqlsugar.Controllers.ApiLoginController (webapi.net7.sqlsugar).
+2024-01-22 15:25:28.7930 | INFO | Executing action method webapi.net7.sqlsugar.Controllers.ApiLoginController.ceshi (webapi.net7.sqlsugar) - Validation state: Valid
+2024-01-22 15:25:28.7930 | INFO | Executed action method webapi.net7.sqlsugar.Controllers.ApiLoginController.ceshi (webapi.net7.sqlsugar), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 0.0067ms.
+2024-01-22 15:25:28.7930 | INFO | Executing ObjectResult, writing value of type '<>f__AnonymousType5`1[[System.String, System.Private.CoreLib, Version=7.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2024-01-22 15:25:28.7930 | INFO | Executed action webapi.net7.sqlsugar.Controllers.ApiLoginController.ceshi (webapi.net7.sqlsugar) in 0.3837ms
+2024-01-22 15:25:28.7930 | INFO | Executed endpoint 'webapi.net7.sqlsugar.Controllers.ApiLoginController.ceshi (webapi.net7.sqlsugar)'
+2024-01-22 15:25:28.8000 | ERROR | An unhandled exception has occurred while executing the request.
+2024-01-22 15:25:28.8000 | WARN | The response has already started, the error page middleware will not be executed.
+2024-01-22 15:25:28.8000 | ERROR | Connection id "0HN0R3CQEABC0", Request id "0HN0R3CQEABC0:00000001": An unhandled exception was thrown by the application.
+2024-01-22 15:25:28.8000 | INFO | Request finished HTTP/1.1 POST http://localhost:5148/api/ceshi - 0 - 200 - application/json;+charset=utf-8 17.3186ms
+2024-01-22 15:26:22.0338 | INFO | Request starting HTTP/1.1 POST http://localhost:5148/api/ceshi - 0
+2024-01-22 15:26:22.0338 | INFO | CORS policy execution successful.
+2024-01-22 15:26:22.0338 | INFO | Executing endpoint 'webapi.net7.sqlsugar.Controllers.ApiLoginController.ceshi (webapi.net7.sqlsugar)'
+2024-01-22 15:26:22.0338 | INFO | Route matched with {action = "ceshi", controller = "ApiLogin"}. Executing controller action with signature System.Object ceshi() on controller webapi.net7.sqlsugar.Controllers.ApiLoginController (webapi.net7.sqlsugar).
+2024-01-22 15:26:22.0338 | INFO | Executing action method webapi.net7.sqlsugar.Controllers.ApiLoginController.ceshi (webapi.net7.sqlsugar) - Validation state: Valid
+2024-01-22 15:26:22.0338 | INFO | Executed action method webapi.net7.sqlsugar.Controllers.ApiLoginController.ceshi (webapi.net7.sqlsugar), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 0.004ms.
+2024-01-22 15:26:22.0338 | INFO | Executing ObjectResult, writing value of type '<>f__AnonymousType5`1[[System.String, System.Private.CoreLib, Version=7.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2024-01-22 15:26:22.0338 | INFO | Executed action webapi.net7.sqlsugar.Controllers.ApiLoginController.ceshi (webapi.net7.sqlsugar) in 0.2558ms
+2024-01-22 15:26:22.0338 | INFO | Executed endpoint 'webapi.net7.sqlsugar.Controllers.ApiLoginController.ceshi (webapi.net7.sqlsugar)'
+2024-01-22 15:26:22.0338 | ERROR | An unhandled exception has occurred while executing the request.
+2024-01-22 15:26:22.0338 | WARN | The response has already started, the error page middleware will not be executed.
+2024-01-22 15:26:22.0338 | ERROR | Connection id "0HN0R3CQEABC1", Request id "0HN0R3CQEABC1:00000001": An unhandled exception was thrown by the application.
+2024-01-22 15:26:22.0338 | INFO | Request finished HTTP/1.1 POST http://localhost:5148/api/ceshi - 0 - 200 - application/json;+charset=utf-8 14.3606ms
+2024-01-22 15:26:22.6825 | INFO | Request starting HTTP/1.1 POST http://localhost:5148/api/ceshi - 0
+2024-01-22 15:26:22.6825 | INFO | CORS policy execution successful.
+2024-01-22 15:26:22.6825 | INFO | Executing endpoint 'webapi.net7.sqlsugar.Controllers.ApiLoginController.ceshi (webapi.net7.sqlsugar)'
+2024-01-22 15:26:22.6825 | INFO | Route matched with {action = "ceshi", controller = "ApiLogin"}. Executing controller action with signature System.Object ceshi() on controller webapi.net7.sqlsugar.Controllers.ApiLoginController (webapi.net7.sqlsugar).
+2024-01-22 15:26:22.6825 | INFO | Executing action method webapi.net7.sqlsugar.Controllers.ApiLoginController.ceshi (webapi.net7.sqlsugar) - Validation state: Valid
+2024-01-22 15:26:22.6825 | INFO | Executed action method webapi.net7.sqlsugar.Controllers.ApiLoginController.ceshi (webapi.net7.sqlsugar), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 0.0048ms.
+2024-01-22 15:26:22.6825 | INFO | Executing ObjectResult, writing value of type '<>f__AnonymousType5`1[[System.String, System.Private.CoreLib, Version=7.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2024-01-22 15:26:22.6825 | INFO | Executed action webapi.net7.sqlsugar.Controllers.ApiLoginController.ceshi (webapi.net7.sqlsugar) in 0.3954ms
+2024-01-22 15:26:22.6825 | INFO | Executed endpoint 'webapi.net7.sqlsugar.Controllers.ApiLoginController.ceshi (webapi.net7.sqlsugar)'
+2024-01-22 15:26:22.6941 | ERROR | An unhandled exception has occurred while executing the request.
+2024-01-22 15:26:22.6941 | WARN | The response has already started, the error page middleware will not be executed.
+2024-01-22 15:26:22.6941 | ERROR | Connection id "0HN0R3CQEABC2", Request id "0HN0R3CQEABC2:00000001": An unhandled exception was thrown by the application.
+2024-01-22 15:26:22.6941 | INFO | Request finished HTTP/1.1 POST http://localhost:5148/api/ceshi - 0 - 200 - application/json;+charset=utf-8 18.1416ms
+2024-01-22 15:26:22.9480 | INFO | Request starting HTTP/1.1 POST http://localhost:5148/api/ceshi - 0
+2024-01-22 15:26:22.9480 | INFO | CORS policy execution successful.
+2024-01-22 15:26:22.9480 | INFO | Executing endpoint 'webapi.net7.sqlsugar.Controllers.ApiLoginController.ceshi (webapi.net7.sqlsugar)'
+2024-01-22 15:26:22.9480 | INFO | Route matched with {action = "ceshi", controller = "ApiLogin"}. Executing controller action with signature System.Object ceshi() on controller webapi.net7.sqlsugar.Controllers.ApiLoginController (webapi.net7.sqlsugar).
+2024-01-22 15:26:22.9480 | INFO | Executing action method webapi.net7.sqlsugar.Controllers.ApiLoginController.ceshi (webapi.net7.sqlsugar) - Validation state: Valid
+2024-01-22 15:26:22.9480 | INFO | Executed action method webapi.net7.sqlsugar.Controllers.ApiLoginController.ceshi (webapi.net7.sqlsugar), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 0.006ms.
+2024-01-22 15:26:22.9480 | INFO | Executing ObjectResult, writing value of type '<>f__AnonymousType5`1[[System.String, System.Private.CoreLib, Version=7.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2024-01-22 15:26:22.9480 | INFO | Executed action webapi.net7.sqlsugar.Controllers.ApiLoginController.ceshi (webapi.net7.sqlsugar) in 0.3918ms
+2024-01-22 15:26:22.9480 | INFO | Executed endpoint 'webapi.net7.sqlsugar.Controllers.ApiLoginController.ceshi (webapi.net7.sqlsugar)'
+2024-01-22 15:26:22.9480 | ERROR | An unhandled exception has occurred while executing the request.
+2024-01-22 15:26:22.9584 | WARN | The response has already started, the error page middleware will not be executed.
+2024-01-22 15:26:22.9584 | ERROR | Connection id "0HN0R3CQEABC3", Request id "0HN0R3CQEABC3:00000001": An unhandled exception was thrown by the application.
+2024-01-22 15:26:22.9584 | INFO | Request finished HTTP/1.1 POST http://localhost:5148/api/ceshi - 0 - 200 - application/json;+charset=utf-8 14.0772ms
+2024-01-22 15:26:32.9058 | INFO | Request starting HTTP/1.1 POST http://localhost:5148/api/GetToken application/json 50
+2024-01-22 15:26:32.9058 | INFO | CORS policy execution successful.
+2024-01-22 15:26:32.9092 | INFO | Executing endpoint 'webapi.net7.sqlsugar.Controllers.ApiTokenController.GetToken (webapi.net7.sqlsugar)'
+2024-01-22 15:26:32.9294 | INFO | Route matched with {action = "GetToken", controller = "ApiToken"}. Executing controller action with signature webapi.net7.sqlsugar.MessageToken GetToken(webapi.net7.sqlsugar.User) on controller webapi.net7.sqlsugar.Controllers.ApiTokenController (webapi.net7.sqlsugar).
+2024-01-22 15:26:32.9411 | INFO | Executing action method webapi.net7.sqlsugar.Controllers.ApiTokenController.GetToken (webapi.net7.sqlsugar) - Validation state: Valid
+2024-01-22 15:26:32.9411 | INFO | Executed action method webapi.net7.sqlsugar.Controllers.ApiTokenController.GetToken (webapi.net7.sqlsugar), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 0.664ms.
+2024-01-22 15:26:32.9411 | INFO | Executing ObjectResult, writing value of type 'webapi.net7.sqlsugar.MessageToken'.
+2024-01-22 15:26:32.9411 | INFO | Executed action webapi.net7.sqlsugar.Controllers.ApiTokenController.GetToken (webapi.net7.sqlsugar) in 25.5605ms
+2024-01-22 15:26:32.9411 | INFO | Executed endpoint 'webapi.net7.sqlsugar.Controllers.ApiTokenController.GetToken (webapi.net7.sqlsugar)'
+2024-01-22 15:26:32.9612 | ERROR | An unhandled exception has occurred while executing the request.
+2024-01-22 15:26:32.9612 | WARN | The response has already started, the error page middleware will not be executed.
+2024-01-22 15:26:32.9612 | ERROR | Connection id "0HN0R3CQEABC4", Request id "0HN0R3CQEABC4:00000001": An unhandled exception was thrown by the application.
+2024-01-22 15:26:32.9612 | INFO | Request finished HTTP/1.1 POST http://localhost:5148/api/GetToken application/json 50 - 200 - application/json;+charset=utf-8 59.7843ms
+2024-01-22 15:27:28.5681 | INFO | User profile is available. Using 'C:\Users\Administrator\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-01-22 15:27:28.6837 | INFO | Now listening on: http://localhost:5148
+2024-01-22 15:27:28.6837 | INFO | Application started. Press Ctrl+C to shut down.
+2024-01-22 15:27:28.6837 | INFO | Hosting environment: Development
+2024-01-22 15:27:28.6837 | INFO | Content root path: D:\BaiduSyncdisk\webapi.net7+sqlsugar\webapi.net7.sqlsugar\webapi.net7.sqlsugar
+2024-01-22 15:27:31.9152 | INFO | Request starting HTTP/1.1 GET http://localhost:5148/swagger/index.html - -
+2024-01-22 15:27:32.1633 | INFO | Request finished HTTP/1.1 GET http://localhost:5148/swagger/index.html - - - 200 - text/html;charset=utf-8 253.3082ms
+2024-01-22 15:27:32.1633 | INFO | Request starting HTTP/1.1 GET http://localhost:5148/_vs/browserLink - -
+2024-01-22 15:27:32.1633 | INFO | Request starting HTTP/1.1 GET http://localhost:5148/_framework/aspnetcore-browser-refresh.js - -
+2024-01-22 15:27:32.1774 | INFO | Request finished HTTP/1.1 GET http://localhost:5148/_framework/aspnetcore-browser-refresh.js - - - 200 13776 application/javascript;+charset=utf-8 5.2489ms
+2024-01-22 15:27:32.2199 | INFO | Request finished HTTP/1.1 GET http://localhost:5148/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 51.2222ms
+2024-01-22 15:27:32.2548 | INFO | Request starting HTTP/1.1 GET http://localhost:5148/swagger/V1/swagger.json - -
+2024-01-22 15:27:32.5238 | INFO | Request finished HTTP/1.1 GET http://localhost:5148/swagger/V1/swagger.json - - - 200 - application/json;charset=utf-8 269.2086ms
+2024-01-22 15:27:37.2876 | INFO | Request starting HTTP/1.1 POST http://localhost:5148/api/ceshi - 0
+2024-01-22 15:27:37.3040 | WARN | Failed to determine the https port for redirect.
+2024-01-22 15:27:37.3632 | INFO | CORS policy execution successful.
+2024-01-22 15:27:37.4246 | INFO | Executing endpoint 'webapi.net7.sqlsugar.Controllers.ApiLoginController.ceshi (webapi.net7.sqlsugar)'
+2024-01-22 15:27:37.4246 | INFO | Route matched with {action = "ceshi", controller = "ApiLogin"}. Executing controller action with signature System.Object ceshi() on controller webapi.net7.sqlsugar.Controllers.ApiLoginController (webapi.net7.sqlsugar).
+2024-01-22 15:27:37.4403 | INFO | Executing action method webapi.net7.sqlsugar.Controllers.ApiLoginController.ceshi (webapi.net7.sqlsugar) - Validation state: Valid
+2024-01-22 15:27:37.4403 | INFO | Executed action method webapi.net7.sqlsugar.Controllers.ApiLoginController.ceshi (webapi.net7.sqlsugar), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 0.141ms.
+2024-01-22 15:27:37.4403 | INFO | Executing ObjectResult, writing value of type '<>f__AnonymousType5`1[[System.String, System.Private.CoreLib, Version=7.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2024-01-22 15:27:37.4605 | INFO | Executed action webapi.net7.sqlsugar.Controllers.ApiLoginController.ceshi (webapi.net7.sqlsugar) in 19.896ms
+2024-01-22 15:27:37.4605 | INFO | Executed endpoint 'webapi.net7.sqlsugar.Controllers.ApiLoginController.ceshi (webapi.net7.sqlsugar)'
+2024-01-22 15:27:37.7704 | ERROR | An unhandled exception has occurred while executing the request.
+2024-01-22 15:27:37.7704 | WARN | The response has already started, the error page middleware will not be executed.
+2024-01-22 15:27:37.7704 | ERROR | Connection id "0HN0R3EBFOTFD", Request id "0HN0R3EBFOTFD:00000003": An unhandled exception was thrown by the application.
+2024-01-22 15:27:37.7704 | INFO | Request finished HTTP/1.1 POST http://localhost:5148/api/ceshi - 0 - 200 - application/json;+charset=utf-8 495.0631ms
+2024-01-22 15:30:40.4103 | INFO | User profile is available. Using 'C:\Users\Administrator\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-01-22 15:30:40.5251 | INFO | Now listening on: http://localhost:5148
+2024-01-22 15:30:40.5251 | INFO | Application started. Press Ctrl+C to shut down.
+2024-01-22 15:30:40.5251 | INFO | Hosting environment: Development
+2024-01-22 15:30:40.5251 | INFO | Content root path: D:\BaiduSyncdisk\webapi.net7+sqlsugar\webapi.net7.sqlsugar\webapi.net7.sqlsugar
+2024-01-22 15:30:43.6174 | INFO | Request starting HTTP/1.1 GET http://localhost:5148/swagger/index.html - -
+2024-01-22 15:30:43.8485 | INFO | Request starting HTTP/1.1 GET http://localhost:5148/_framework/aspnetcore-browser-refresh.js - -
+2024-01-22 15:30:43.8485 | INFO | Request finished HTTP/1.1 GET http://localhost:5148/swagger/index.html - - - 200 - text/html;charset=utf-8 234.3493ms
+2024-01-22 15:30:43.8485 | INFO | Request finished HTTP/1.1 GET http://localhost:5148/_framework/aspnetcore-browser-refresh.js - - - 200 13776 application/javascript;+charset=utf-8 7.1728ms
+2024-01-22 15:30:43.8485 | INFO | Request starting HTTP/1.1 GET http://localhost:5148/_vs/browserLink - -
+2024-01-22 15:30:43.9016 | INFO | Request finished HTTP/1.1 GET http://localhost:5148/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 44.8052ms
+2024-01-22 15:30:43.9403 | INFO | Request starting HTTP/1.1 GET http://localhost:5148/swagger/V1/swagger.json - -
+2024-01-22 15:30:44.2144 | INFO | Request finished HTTP/1.1 GET http://localhost:5148/swagger/V1/swagger.json - - - 200 - application/json;charset=utf-8 274.2080ms
+2024-01-22 15:30:48.7680 | INFO | Request starting HTTP/1.1 POST http://localhost:5148/api/ceshi - 0
+2024-01-22 15:30:48.7680 | WARN | Failed to determine the https port for redirect.
+2024-01-22 15:30:48.8476 | INFO | CORS policy execution successful.
+2024-01-22 15:30:48.9101 | INFO | Executing endpoint 'webapi.net7.sqlsugar.Controllers.ApiLoginController.ceshi (webapi.net7.sqlsugar)'
+2024-01-22 15:30:48.9391 | INFO | Route matched with {action = "ceshi", controller = "ApiLogin"}. Executing controller action with signature System.Object ceshi() on controller webapi.net7.sqlsugar.Controllers.ApiLoginController (webapi.net7.sqlsugar).
+2024-01-22 15:30:48.9401 | INFO | Executing action method webapi.net7.sqlsugar.Controllers.ApiLoginController.ceshi (webapi.net7.sqlsugar) - Validation state: Valid
+2024-01-22 15:30:48.9401 | INFO | Executed action method webapi.net7.sqlsugar.Controllers.ApiLoginController.ceshi (webapi.net7.sqlsugar), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 0.1061ms.
+2024-01-22 15:30:48.9569 | INFO | Executing ObjectResult, writing value of type '<>f__AnonymousType5`1[[System.String, System.Private.CoreLib, Version=7.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2024-01-22 15:30:48.9741 | INFO | Executed action webapi.net7.sqlsugar.Controllers.ApiLoginController.ceshi (webapi.net7.sqlsugar) in 33.7569ms
+2024-01-22 15:30:48.9741 | INFO | Executed endpoint 'webapi.net7.sqlsugar.Controllers.ApiLoginController.ceshi (webapi.net7.sqlsugar)'
+2024-01-22 15:30:49.3727 | ERROR | An unhandled exception has occurred while executing the request.
+2024-01-22 15:30:49.3727 | WARN | The response has already started, the error page middleware will not be executed.
+2024-01-22 15:30:49.3931 | ERROR | Connection id "0HN0R3G4L0B3Q", Request id "0HN0R3G4L0B3Q:00000004": An unhandled exception was thrown by the application.
+2024-01-22 15:30:49.3931 | INFO | Request finished HTTP/1.1 POST http://localhost:5148/api/ceshi - 0 - 200 - application/json;+charset=utf-8 625.2581ms
+2024-01-22 16:29:36.7289 | INFO | User profile is available. Using 'C:\Users\Administrator\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-01-22 16:29:36.8444 | INFO | Now listening on: http://localhost:5148
+2024-01-22 16:29:36.8472 | INFO | Application started. Press Ctrl+C to shut down.
+2024-01-22 16:29:36.8472 | INFO | Hosting environment: Development
+2024-01-22 16:29:36.8472 | INFO | Content root path: D:\BaiduSyncdisk\webapi.net7+sqlsugar\webapi.net7.sqlsugar\webapi.net7.sqlsugar
+2024-01-22 16:29:37.1310 | INFO | Request starting HTTP/1.1 GET http://localhost:5148/swagger/index.html - -
+2024-01-22 16:29:37.3738 | INFO | Request starting HTTP/1.1 GET http://localhost:5148/_framework/aspnetcore-browser-refresh.js - -
+2024-01-22 16:29:37.3738 | INFO | Request finished HTTP/1.1 GET http://localhost:5148/swagger/index.html - - - 200 - text/html;charset=utf-8 246.6921ms
+2024-01-22 16:29:37.3811 | INFO | Request finished HTTP/1.1 GET http://localhost:5148/_framework/aspnetcore-browser-refresh.js - - - 200 13776 application/javascript;+charset=utf-8 5.0607ms
+2024-01-22 16:29:37.3811 | INFO | Request starting HTTP/1.1 GET http://localhost:5148/_vs/browserLink - -
+2024-01-22 16:29:37.4272 | INFO | Request finished HTTP/1.1 GET http://localhost:5148/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 45.4499ms
+2024-01-22 16:29:37.4623 | INFO | Request starting HTTP/1.1 GET http://localhost:5148/swagger/V1/swagger.json - -
+2024-01-22 16:29:37.7447 | INFO | Request finished HTTP/1.1 GET http://localhost:5148/swagger/V1/swagger.json - - - 200 - application/json;charset=utf-8 282.6337ms
+2024-01-22 16:29:43.1725 | INFO | Request starting HTTP/1.1 POST http://localhost:5148/api/ceshi - 0
+2024-01-22 16:29:43.1938 | WARN | Failed to determine the https port for redirect.
+2024-01-22 16:29:43.2541 | INFO | CORS policy execution successful.
+2024-01-22 16:29:43.3355 | INFO | Executing endpoint 'webapi.net7.sqlsugar.Controllers.ApiLoginController.ceshi (webapi.net7.sqlsugar)'
+2024-01-22 16:29:43.3355 | INFO | Route matched with {action = "ceshi", controller = "ApiLogin"}. Executing controller action with signature System.Object ceshi() on controller webapi.net7.sqlsugar.Controllers.ApiLoginController (webapi.net7.sqlsugar).
+2024-01-22 16:29:43.3468 | INFO | Executing action method webapi.net7.sqlsugar.Controllers.ApiLoginController.ceshi (webapi.net7.sqlsugar) - Validation state: Valid
+2024-01-22 16:29:43.3468 | INFO | Executed action method webapi.net7.sqlsugar.Controllers.ApiLoginController.ceshi (webapi.net7.sqlsugar), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 0.1652ms.
+2024-01-22 16:29:43.3623 | INFO | Executing ObjectResult, writing value of type '<>f__AnonymousType5`1[[System.String, System.Private.CoreLib, Version=7.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2024-01-22 16:29:43.3801 | INFO | Executed action webapi.net7.sqlsugar.Controllers.ApiLoginController.ceshi (webapi.net7.sqlsugar) in 29.3807ms
+2024-01-22 16:29:43.3801 | INFO | Executed endpoint 'webapi.net7.sqlsugar.Controllers.ApiLoginController.ceshi (webapi.net7.sqlsugar)'
+2024-01-22 16:29:43.6937 | ERROR | An unhandled exception has occurred while executing the request.
+2024-01-22 16:29:43.6937 | WARN | The response has already started, the error page middleware will not be executed.
+2024-01-22 16:29:43.7077 | ERROR | Connection id "0HN0R4H2FJN0J", Request id "0HN0R4H2FJN0J:00000004": An unhandled exception was thrown by the application.
+2024-01-22 16:29:43.7077 | INFO | Request finished HTTP/1.1 POST http://localhost:5148/api/ceshi - 0 - 200 - application/json;+charset=utf-8 535.4267ms
+2024-01-22 17:22:53.5827 | INFO | Request starting HTTP/1.1 POST http://localhost:5148/api/GetEunmList - 0
+2024-01-22 17:22:53.5827 | INFO | CORS policy execution successful.
+2024-01-22 17:22:53.6076 | INFO | Executing endpoint 'webapi.net7.sqlsugar.Controllers.CRMAppControlle.GetEunmList (webapi.net7.sqlsugar)'
+2024-01-22 17:22:53.6076 | INFO | Route matched with {action = "GetEunmList", controller = "CRMAppControlle"}. Executing controller action with signature System.Object GetEunmList() on controller webapi.net7.sqlsugar.Controllers.CRMAppControlle (webapi.net7.sqlsugar).
+2024-01-22 17:22:53.6076 | INFO | Executing action method webapi.net7.sqlsugar.Controllers.CRMAppControlle.GetEunmList (webapi.net7.sqlsugar) - Validation state: Valid
+2024-01-22 17:22:53.9133 | INFO | Executed action method webapi.net7.sqlsugar.Controllers.CRMAppControlle.GetEunmList (webapi.net7.sqlsugar), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 302.3276ms.
+2024-01-22 17:22:53.9133 | INFO | Executing ObjectResult, writing value of type 'System.String'.
+2024-01-22 17:22:53.9133 | INFO | Executed action webapi.net7.sqlsugar.Controllers.CRMAppControlle.GetEunmList (webapi.net7.sqlsugar) in 303.6166ms
+2024-01-22 17:22:53.9133 | INFO | Executed endpoint 'webapi.net7.sqlsugar.Controllers.CRMAppControlle.GetEunmList (webapi.net7.sqlsugar)'
+2024-01-22 17:22:53.9314 | ERROR | An unhandled exception has occurred while executing the request.
+2024-01-22 17:22:53.9314 | WARN | The response has already started, the error page middleware will not be executed.
+2024-01-22 17:22:53.9442 | ERROR | Connection id "0HN0R4H2FJN0L", Request id "0HN0R4H2FJN0L:00000001": An unhandled exception was thrown by the application.
+2024-01-22 17:22:53.9442 | INFO | Request finished HTTP/1.1 POST http://localhost:5148/api/GetEunmList - 0 - 200 - text/plain;+charset=utf-8 360.1124ms

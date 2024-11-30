@@ -1,0 +1,34 @@
+2024-01-17 14:10:42.8591 | INFO | User profile is available. Using 'C:\Users\Administrator\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-01-17 14:10:43.1238 | INFO | Now listening on: https://localhost:7225
+2024-01-17 14:10:43.1238 | INFO | Now listening on: http://localhost:5148
+2024-01-17 14:10:43.1291 | INFO | Application started. Press Ctrl+C to shut down.
+2024-01-17 14:10:43.1291 | INFO | Hosting environment: Development
+2024-01-17 14:10:43.1291 | INFO | Content root path: D:\BaiduSyncdisk\webapi.net7+sqlsugar\webapi.net7.sqlsugar\webapi.net7.sqlsugar
+2024-01-17 14:10:46.1060 | INFO | Request starting HTTP/2 GET https://localhost:7225/swagger/index.html - -
+2024-01-17 14:10:46.5818 | INFO | Request finished HTTP/2 GET https://localhost:7225/swagger/index.html - - - 200 - text/html;charset=utf-8 485.4157ms
+2024-01-17 14:10:46.5965 | INFO | Request starting HTTP/2 GET https://localhost:7225/_framework/aspnetcore-browser-refresh.js - -
+2024-01-17 14:10:46.5965 | INFO | Request starting HTTP/2 GET https://localhost:7225/_vs/browserLink - -
+2024-01-17 14:10:46.5965 | INFO | Request finished HTTP/2 GET https://localhost:7225/_framework/aspnetcore-browser-refresh.js - - - 200 13776 application/javascript;+charset=utf-8 6.4649ms
+2024-01-17 14:10:46.7373 | INFO | Request finished HTTP/2 GET https://localhost:7225/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 145.0039ms
+2024-01-17 14:10:46.7928 | INFO | Request starting HTTP/2 GET https://localhost:7225/swagger/V1/swagger.json - -
+2024-01-17 14:10:47.1633 | INFO | Request finished HTTP/2 GET https://localhost:7225/swagger/V1/swagger.json - - - 200 - application/json;charset=utf-8 371.2805ms
+2024-01-17 14:11:39.1745 | INFO | Request starting HTTP/2 GET https://localhost:7225/api/user?name=hhz - -
+2024-01-17 14:11:39.3206 | INFO | Executing endpoint 'webapi.net7.sqlsugar.Controllers.ApiLoginController.user (webapi.net7.sqlsugar)'
+2024-01-17 14:11:39.3561 | INFO | Route matched with {action = "user", controller = "ApiLogin"}. Executing controller action with signature System.Object user(System.String) on controller webapi.net7.sqlsugar.Controllers.ApiLoginController (webapi.net7.sqlsugar).
+2024-01-17 14:11:39.3938 | INFO | Executing action method webapi.net7.sqlsugar.Controllers.ApiLoginController.user (webapi.net7.sqlsugar) - Validation state: Valid
+2024-01-17 14:11:39.3938 | INFO | Executed action method webapi.net7.sqlsugar.Controllers.ApiLoginController.user (webapi.net7.sqlsugar), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 0.9681ms.
+2024-01-17 14:11:39.3938 | INFO | Executing ObjectResult, writing value of type '<>f__AnonymousType3`2[[System.String, System.Private.CoreLib, Version=7.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=7.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2024-01-17 14:11:39.4108 | INFO | Executed action webapi.net7.sqlsugar.Controllers.ApiLoginController.user (webapi.net7.sqlsugar) in 54.1078ms
+2024-01-17 14:11:39.4108 | INFO | Executed endpoint 'webapi.net7.sqlsugar.Controllers.ApiLoginController.user (webapi.net7.sqlsugar)'
+2024-01-17 14:11:39.7065 | INFO | Request finished HTTP/2 GET https://localhost:7225/api/user?name=hhz - - - 200 - application/json;+charset=utf-8 531.9674ms
+2024-01-17 14:12:52.9178 | INFO | Request starting HTTP/2 GET https://localhost:7225/api/user?name=hhz - -
+2024-01-17 14:12:52.9439 | INFO | Executing endpoint 'webapi.net7.sqlsugar.Controllers.ApiLoginController.user (webapi.net7.sqlsugar)'
+2024-01-17 14:12:52.9439 | INFO | Route matched with {action = "user", controller = "ApiLogin"}. Executing controller action with signature System.Object user(System.String) on controller webapi.net7.sqlsugar.Controllers.ApiLoginController (webapi.net7.sqlsugar).
+2024-01-17 14:12:52.9439 | INFO | Executing action method webapi.net7.sqlsugar.Controllers.ApiLoginController.user (webapi.net7.sqlsugar) - Validation state: Valid
+2024-01-17 14:12:52.9439 | INFO | Executed action method webapi.net7.sqlsugar.Controllers.ApiLoginController.user (webapi.net7.sqlsugar), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 0.0331ms.
+2024-01-17 14:12:52.9439 | INFO | Executing ObjectResult, writing value of type '<>f__AnonymousType3`2[[System.String, System.Private.CoreLib, Version=7.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=7.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2024-01-17 14:12:52.9439 | INFO | Executed action webapi.net7.sqlsugar.Controllers.ApiLoginController.user (webapi.net7.sqlsugar) in 2.1286ms
+2024-01-17 14:12:52.9439 | INFO | Executed endpoint 'webapi.net7.sqlsugar.Controllers.ApiLoginController.user (webapi.net7.sqlsugar)'
+2024-01-17 14:12:52.9562 | INFO | Request finished HTTP/2 GET https://localhost:7225/api/user?name=hhz - - - 200 - application/json;+charset=utf-8 37.9823ms
+2024-01-17 14:12:52.9738 | INFO | Request starting HTTP/2 GET https://localhost:7225/favicon.ico - -
+2024-01-17 14:12:52.9738 | INFO | Request finished HTTP/2 GET https://localhost:7225/favicon.ico - - - 404 0 - 5.3381ms

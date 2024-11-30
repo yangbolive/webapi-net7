@@ -1,0 +1,52 @@
+2023-12-19 15:42:42.3062 | DEBUG | Registered model binder providers, in the following order: Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DateTimeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.TryParseModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinderProvider
+2023-12-19 15:42:42.5303 | DEBUG | Registered SignalR Protocol: json, implemented by Microsoft.AspNetCore.SignalR.Protocol.JsonHubProtocol.
+2023-12-19 15:42:42.5303 | DEBUG | Hosting starting
+2023-12-19 15:42:42.5781 | INFO | User profile is available. Using 'C:\Users\Administrator\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2023-12-19 15:42:42.5781 | DEBUG | Reading data from file 'C:\Users\Administrator\AppData\Local\ASP.NET\DataProtection-Keys\key-691d2c1e-819d-4ace-bf8c-4b95df9c96f1.xml'.
+2023-12-19 15:42:42.5924 | DEBUG | Found key {691d2c1e-819d-4ace-bf8c-4b95df9c96f1}.
+2023-12-19 15:42:42.5924 | DEBUG | Considering key {691d2c1e-819d-4ace-bf8c-4b95df9c96f1} with expiration date 2024-01-12 12:24:35Z as default key.
+2023-12-19 15:42:42.5924 | DEBUG | Forwarded activator type request from Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Version=3.1.32.0, Culture=neutral, PublicKeyToken=adb9793829ddae60 to Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60
+2023-12-19 15:42:42.5924 | DEBUG | Decrypting secret element using Windows DPAPI.
+2023-12-19 15:42:42.5924 | DEBUG | Forwarded activator type request from Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Version=3.1.32.0, Culture=neutral, PublicKeyToken=adb9793829ddae60 to Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60
+2023-12-19 15:42:42.5924 | DEBUG | Opening CNG algorithm 'AES' from provider '(null)' with chaining mode CBC.
+2023-12-19 15:42:42.6075 | DEBUG | Opening CNG algorithm 'SHA256' from provider '(null)' with HMAC.
+2023-12-19 15:42:42.6075 | DEBUG | Using key {691d2c1e-819d-4ace-bf8c-4b95df9c96f1} as the default key.
+2023-12-19 15:42:42.6075 | DEBUG | Key ring with default key {691d2c1e-819d-4ace-bf8c-4b95df9c96f1} was loaded during application startup.
+2023-12-19 15:42:42.8421 | INFO | Now listening on: https://localhost:7225
+2023-12-19 15:42:42.8421 | INFO | Now listening on: http://localhost:5148
+2023-12-19 15:42:42.8421 | DEBUG | Loaded hosting startup assembly webapi.net7.sqlsugar
+2023-12-19 15:42:42.8421 | DEBUG | Loaded hosting startup assembly Microsoft.AspNetCore.Watch.BrowserRefresh
+2023-12-19 15:42:42.8421 | DEBUG | Loaded hosting startup assembly Microsoft.WebTools.BrowserLink.Net
+2023-12-19 15:42:42.8421 | INFO | Application started. Press Ctrl+C to shut down.
+2023-12-19 15:42:42.8421 | INFO | Hosting environment: Development
+2023-12-19 15:42:42.8421 | INFO | Content root path: D:\BaiduSyncdisk\webapi.net7+sqlsugar\webapi.net7.sqlsugar\webapi.net7.sqlsugar
+2023-12-19 15:42:42.8421 | DEBUG | Hosting started
+2023-12-19 15:42:43.1125 | DEBUG | Connection id "0HN00COARP2P0" accepted.
+2023-12-19 15:42:43.1125 | DEBUG | Connection id "0HN00COARP2P0" started.
+2023-12-19 15:42:43.1125 | DEBUG | Connection id "0HN00COARP2P1" accepted.
+2023-12-19 15:42:43.1125 | DEBUG | Connection id "0HN00COARP2P1" started.
+2023-12-19 15:42:44.9898 | DEBUG | Connection id "0HN00COARP2P2" accepted.
+2023-12-19 15:42:44.9898 | DEBUG | Connection id "0HN00COARP2P2" started.
+2023-12-19 15:42:45.0488 | DEBUG | Connection id "0HN00COARP2P3" accepted.
+2023-12-19 15:42:45.0488 | DEBUG | Connection id "0HN00COARP2P3" started.
+2023-12-19 15:42:45.0914 | DEBUG | Connection id "0HN00COARP2P3" received FIN.
+2023-12-19 15:42:45.1465 | DEBUG | Connection 0HN00COARP2P3 established using the following protocol: Tls12
+2023-12-19 15:42:45.1465 | DEBUG | Connection 0HN00COARP2P2 established using the following protocol: Tls12
+2023-12-19 15:42:45.2433 | DEBUG | Connection id "0HN00COARP2P3" is closed. The last processed stream ID was 0.
+2023-12-19 15:42:45.2433 | DEBUG | Connection id "0HN00COARP2P3" sending FIN because: "The Socket transport's send loop completed gracefully."
+2023-12-19 15:42:45.2621 | DEBUG | The connection queue processing loop for 0HN00COARP2P3 completed.
+2023-12-19 15:42:45.2643 | DEBUG | Connection id "0HN00COARP2P3" stopped.
+2023-12-19 15:42:45.3523 | INFO | Request starting HTTP/2 GET https://localhost:7225/swagger/index.html - -
+2023-12-19 15:42:45.6348 | DEBUG | Wildcard detected, all requests with hosts will be allowed.
+2023-12-19 15:42:45.8683 | DEBUG | Response markup is scheduled to include browser refresh script injection.
+2023-12-19 15:42:45.9075 | DEBUG | Response markup was updated to include browser refresh script injection.
+2023-12-19 15:42:45.9075 | INFO | Request finished HTTP/2 GET https://localhost:7225/swagger/index.html - - - 200 - text/html;charset=utf-8 559.8541ms
+2023-12-19 15:42:45.9208 | INFO | Request starting HTTP/2 GET https://localhost:7225/_framework/aspnetcore-browser-refresh.js - -
+2023-12-19 15:42:45.9208 | INFO | Request starting HTTP/2 GET https://localhost:7225/_vs/browserLink - -
+2023-12-19 15:42:45.9367 | INFO | Request finished HTTP/2 GET https://localhost:7225/_framework/aspnetcore-browser-refresh.js - - - 200 13776 application/javascript;+charset=utf-8 15.7605ms
+2023-12-19 15:42:46.1892 | INFO | Request finished HTTP/2 GET https://localhost:7225/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 273.1893ms
+2023-12-19 15:42:46.2501 | INFO | Request starting HTTP/2 GET https://localhost:7225/swagger/V1/swagger.json - -
+2023-12-19 15:42:46.2817 | INFO | Request starting HTTP/2 GET https://localhost:7225/swagger/favicon-32x32.png - -
+2023-12-19 15:42:46.2964 | INFO | Sending file. Request path: '/favicon-32x32.png'. Physical path: 'N/A'
+2023-12-19 15:42:46.2964 | INFO | Request finished HTTP/2 GET https://localhost:7225/swagger/favicon-32x32.png - - - 200 628 image/png 18.1515ms
+2023-12-19 15:42:46.7237 | INFO | Request finished HTTP/2 GET https://localhost:7225/swagger/V1/swagger.json - - - 200 - application/json;charset=utf-8 472.6310ms

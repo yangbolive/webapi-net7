@@ -1,0 +1,24 @@
+2023-12-01 21:46:35.5912 | INFO | User profile is available. Using 'C:\Users\Administrator\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2023-12-01 21:46:35.8012 | INFO | Now listening on: https://localhost:7225
+2023-12-01 21:46:35.8012 | INFO | Now listening on: http://localhost:5148
+2023-12-01 21:46:35.8012 | INFO | Application started. Press Ctrl+C to shut down.
+2023-12-01 21:46:35.8012 | INFO | Hosting environment: Development
+2023-12-01 21:46:35.8012 | INFO | Content root path: D:\BaiduSyncdisk\webapi.net7+sqlsugar\webapi.net7.sqlsugar\webapi.net7.sqlsugar
+2023-12-01 21:46:42.2050 | INFO | Request starting HTTP/2 GET https://localhost:7225/swagger/index.html - -
+2023-12-01 21:46:42.7659 | INFO | Request finished HTTP/2 GET https://localhost:7225/swagger/index.html - - - 200 - text/html;charset=utf-8 567.0049ms
+2023-12-01 21:46:42.7659 | INFO | Request starting HTTP/2 GET https://localhost:7225/_framework/aspnetcore-browser-refresh.js - -
+2023-12-01 21:46:42.7659 | INFO | Request starting HTTP/2 GET https://localhost:7225/_vs/browserLink - -
+2023-12-01 21:46:42.7830 | INFO | Request finished HTTP/2 GET https://localhost:7225/_framework/aspnetcore-browser-refresh.js - - - 200 13776 application/javascript;+charset=utf-8 8.3693ms
+2023-12-01 21:46:42.8595 | INFO | Request finished HTTP/2 GET https://localhost:7225/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 84.8215ms
+2023-12-01 21:46:42.9225 | INFO | Request starting HTTP/2 GET https://localhost:7225/swagger/V1/swagger.json - -
+2023-12-01 21:46:43.6594 | INFO | Request finished HTTP/2 GET https://localhost:7225/swagger/V1/swagger.json - - - 200 - application/json;charset=utf-8 736.9747ms
+2023-12-01 21:46:47.9871 | INFO | Request starting HTTP/2 POST https://localhost:7225/api/ProductionBarcode - 0
+2023-12-01 21:46:48.1119 | INFO | CORS policy execution successful.
+2023-12-01 21:46:48.2033 | INFO | Executing endpoint 'webapi.net7.sqlsugar.Controllers.WorkShopController.ProductionBarcode (webapi.net7.sqlsugar)'
+2023-12-01 21:46:48.2449 | INFO | Route matched with {action = "ProductionBarcode", controller = "WorkShop"}. Executing controller action with signature System.Object ProductionBarcode(System.String) on controller webapi.net7.sqlsugar.Controllers.WorkShopController (webapi.net7.sqlsugar).
+2023-12-01 21:46:48.5324 | INFO | Executing action method webapi.net7.sqlsugar.Controllers.WorkShopController.ProductionBarcode (webapi.net7.sqlsugar) - Validation state: Valid
+2023-12-01 21:46:49.7228 | INFO | Executed action method webapi.net7.sqlsugar.Controllers.WorkShopController.ProductionBarcode (webapi.net7.sqlsugar), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 1170.1373ms.
+2023-12-01 21:46:49.7228 | INFO | Executing ObjectResult, writing value of type 'System.Collections.Generic.List`1[[webapi.net7.sqlsugar.ua_account_v, webapi.net7.sqlsugar, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2023-12-01 21:46:49.7437 | INFO | Executed action webapi.net7.sqlsugar.Controllers.WorkShopController.ProductionBarcode (webapi.net7.sqlsugar) in 1496.8882ms
+2023-12-01 21:46:49.7437 | INFO | Executed endpoint 'webapi.net7.sqlsugar.Controllers.WorkShopController.ProductionBarcode (webapi.net7.sqlsugar)'
+2023-12-01 21:46:50.1502 | INFO | Request finished HTTP/2 POST https://localhost:7225/api/ProductionBarcode - 0 - 200 - application/json;+charset=utf-8 2162.1576ms
